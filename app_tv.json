@@ -1,9 +1,16 @@
 {
-  "codigo_valido": "1234",
-  "ruta_interfaz": "app.html",
-  "longitud_codigo": 4,
-  "ruta_lista_m3u": "https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/canales.m3u",
-  "nombre_app": "Web iptv",
-  "fondo_login": "https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/img_login.png",
-  "fondo_interfaz": "https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/img_login.png"
+  "url_lista_m3u": "https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/canales.m3u",
+  "url_fondo_seccion": "https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/img_login.png",
+  "configuracion_visual": {
+    "colores_categorias": {
+      "Cinexclusivo": "#007bff",
+      "Deportes": "#28a745",
+      "Cine Retro": "#ffc107"
+    },
+    "logo_por_defecto": "https://via.placeholder.com/180x120?text=LOGO"
+  },
+  "configuracion_reproductor": {
+    "orientacion": "landscape",
+    "control_remoto": true
+  }
 }
