@@ -1,8 +1,0 @@
-[[redirects]]
-  from = "/proxy/*"
-  to = ":splat"
-  status = 200
-  force = true
-  [redirects.headers]
-    Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Headers = "Content-Type, Accept"
