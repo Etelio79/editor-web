@@ -33,8 +33,16 @@ https://stmv1.voxtvhd.com.br/tvpenol/tvpenol/playlist.m3u8
 https://server.asilivehd.com:3333/live/huilatvlive.m3u8
 #EXTINF:-1 group-title="Colombia" tvg-logo="https://serenotv.com/wp-content/uploads/2025/06/Canal-Mas-Televisio-150x150.jpg",Mas television
 https://movil.ejeserver.com/live/teledoradahd.m3u8
-#EXTINF:-1 group-title="Colombia" tvg-logo="https://serenotv.com/wp-content/uploads/2022/01/Canal-cali-tv-en-vivo-150x96.jpg",Cali tv
-https://5ab772334c39c.streamlock.net/live-calitv/calitv1/chunklist_w352821649.m3u8
+#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Rcn mas
+https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Red +
+https://inforedvos.lcdn.claro.net.co:443/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/05.m3u8
+#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Senal colombia
+https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8
+#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Cali tv
+https://5ab772334c39c.streamlock.net/live-calitv/_definst_/calitv1/playlist.m3u8?181.78.20.113&wowzatokenendtime=&wowzatokenhash=AgCn4lgjMgvChL6lfW7AvbPi5rMBzybNufYi-j50qQI=&wowzatokenstarttime=&
+#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Suram tv
+https://livetv.305streamhd.com:3111/live/suramtvlive.m3u8
 #EXTINF:-1 group-title="Deportes" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Espn (Argentina)
 http://go.iptvhn.net:25461/live/7619/7619/2469.m3u8
 #EXTINF:-1 group-title="Cine Retro" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Best Clasico
@@ -45,19 +53,28 @@ https://tvservices.fullhd-streaming.com:3100/live/tvgroupretroxtvpluslive.m3u8
 https://video10.logicahost.com.br/serieclassic/serieclassic/chunklist_w378350086.m3u8
 #EXTINF:-1 group-title="Cine Retro" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Retro Palmares
 https://live20.bozztv.com/akamaissh101/ssh101/tvretropalm2020/chunks.m3u8
-#EXTINF:-1 group-title="Infantiles" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Chinola tv
-https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
-#EXTINF:-1 group-title="Cine Premium" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Sony Cine
-https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
-
 #EXTINF:-1 group-title="Cine Retro" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Pantalla Clasica
 https://live20.bozztv.com/akamaissh101/ssh101/pantallaclasics/chunks.m3u8
 #EXTINF:-1 group-title="Cine Retro" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Caracola tv
 https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8
 #EXTINF:-1 group-title="Cine Retro" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Retroplus
 https://tls-cl.cdnz.cl/retroplustvtres/live/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 group-title="Cine Retro" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Tigueritos
+https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8
+#EXTINF:-1 group-title="Cine Retro" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Mi tv
+https://mitv.getstreamhosting.com:1936/live/live/chunklist_w1917734841.m3u8
+#EXTINF:-1 group-title="Infantiles" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Chinola tv
+https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
 #EXTINF:-1 group-title="Infantiles" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Moni tv
 https://live20.bozztv.com/akamaissh101/ssh101/monitvhd/chunks.m3u8
+#EXTINF:-1 group-title="Infantiles" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Dreiko tv
+https://rtv.fullhd-streaming.com:19360/dreikotv/dreikotv.m3u8
+#EXTINF:-1 group-title="Infantiles" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Super Toons
+https://d1swszxzumm47b.cloudfront.net:443/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-og0iw9ikdkebc/feed/samsung/streams/SUPERTOONS_ES/../../../../../../../manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-og0iw9ikdkebc/f26492a0-a26a-4a48-b437-3f8ae5f22c00/0.m3u8
+#EXTINF:-1 group-title="Infantiles" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Retro Toons
+https://live20.bozztv.com/akamaissh101/ssh101/retrotoons/chunks.m3u8
+#EXTINF:-1 group-title="Cine Premium" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Sony Cine
+https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 #EXTINF:-1 group-title="Anime" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Teleanimania
 https://live20.bozztv.com/giatvplayout7/giatv-209474/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Anime" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Toonami tv
@@ -66,16 +83,8 @@ https://live20.bozztv.com/giatv/giatv-ToonamiTV/ToonamiTV/playlist.m3u8
 https://streamlov.alsolnet.com/maxanime/live/chunklist_w353975405.m3u8
 #EXTINF:-1 group-title="Anime" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Locomotion
 https://live20.bozztv.com/giatvplayout7/giatv-210075/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Infantiles" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Dreiko tv
-https://rtv.fullhd-streaming.com:19360/dreikotv/dreikotv.m3u8
-#EXTINF:-1 group-title="Cine Retro" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Tigueritos
-https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8
-#EXTINF:-1 group-title="Infantiles" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Super Toons
-https://d1swszxzumm47b.cloudfront.net:443/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-og0iw9ikdkebc/feed/samsung/streams/SUPERTOONS_ES/../../../../../../../manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-og0iw9ikdkebc/f26492a0-a26a-4a48-b437-3f8ae5f22c00/0.m3u8
-#EXTINF:-1 group-title="Infantiles" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Retro Toons
-https://live20.bozztv.com/akamaissh101/ssh101/retrotoons/chunks.m3u8
-#EXTINF:-1 group-title="Cine Retro" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Mi tv
-https://mitv.getstreamhosting.com:1936/live/live/chunklist_w1917734841.m3u8
+#EXTINF:-1 group-title="Anime" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Aztv
+http://animezonetv.net/hls/stream.m3u8
 #EXTINF:-1 group-title="Canales 24/7" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Tom & Jerry
 https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Canales 24/7" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Los Pitufos
@@ -90,15 +99,3 @@ https://live20.bozztv.com/akamaissh101/ssh101/dbsuperlat/chunks.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208870/playlist.m3u8
 #EXTINF:-1 group-title="Canales 24/7" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Los Simpson
 https://live20.bozztv.com/akamaissh101/ssh101/simptestnews/playlist.m3u8
-#EXTINF:-1 group-title="Anime" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Aztv
-http://animezonetv.net/hls/stream.m3u8
-#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Rcn mas
-https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Red +
-https://inforedvos.lcdn.claro.net.co:443/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/05.m3u8
-#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Senal colombia
-https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8
-#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Cali tv
-https://5ab772334c39c.streamlock.net/live-calitv/_definst_/calitv1/playlist.m3u8?181.78.20.113&wowzatokenendtime=&wowzatokenhash=AgCn4lgjMgvChL6lfW7AvbPi5rMBzybNufYi-j50qQI=&wowzatokenstarttime=&
-#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Suram tv
-https://livetv.305streamhd.com:3111/live/suramtvlive.m3u8
