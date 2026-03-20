@@ -1,12 +1,10 @@
 {
+  "codigo_valido": "1234",
+  "longitud_codigo": 4,
+  "ruta_interfaz": "app.html",
+  "fondo_login": ""
   "urlListaM3U": "https://raw.githubusercontent.com/Etelio79/editor-web/main/canales.m3u",
   "nombreAplicacion": "app_tv_web",
-  "configuracionLogin": {
-    "longitud_codigo": 4,
-    "codigo_valido": "1234",
-    "ruta_interfaz": "app.html",
-    "fondo_login": "https://raw.githubusercontent.com/Etelio79/editor-web/main/fondo_login.png"
-  },
   "postersCategorias": {
     "Cinexclusivo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYLtt24bjaF8Mlf3v-fC03krP0IfbNdKKXumLDRFQpWw&s=10",
     "Cine Premium": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYLtt24bjaF8Mlf3v-fC03krP0IfbNdKKXumLDRFQpWw&s=10",
