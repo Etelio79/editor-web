@@ -1,9 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="Cine Exclusivo" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Aurora Media film
+#EXTINF:-1 group-title="undefined" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Aurora Media film
 https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
-#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Rcn +
+#EXTINF:-1 group-title="undefined" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",Rcn +
 https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Colombia" tvg-logo="https://i.imgur.com/2312Luq.png",Cali TV
+#EXTINF:-1 group-title="undefined" tvg-logo="https://i.imgur.com/2312Luq.png",Cali TV
 https://5ab772334c39c.streamlock.net/live-calitv/calitv1/playlist.m3u8
-#EXTINF:-1 group-title="Colombia" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",ATN Televisión (720p) [Not 24/7]
+#EXTINF:-1 group-title="undefined" tvg-logo="https://raw.githubusercontent.com/Etelio79/editor-web/refs/heads/main/logo_default.png",ATN Televisión (720p) [Not 24/7]
 https://streaming5.globalhostla.com/rtplive/atntelevision/playlist.m3u8
+#EXTINF:-1 group-title="Classic;Movies" tvg-logo="https://i.imgur.com/j91M4Yf.png",Sin nombre
+#EXTVLCOPT:http-referrer=https://xtrematv.com/?p=1460
