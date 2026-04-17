@@ -1,600 +1,218 @@
 {
-  "updated_at": "2026-04-17T19:58:56.891Z",
+  "updated_at": "2026-04-17T20:34:42.756Z",
   "date": "viernes, 17 de abril",
-  "source": "futbollibre",
-  "count": 31,
+  "source": "futbollibre-puppeteer",
+  "count": 30,
   "events": [
     {
       "time": "00:00",
       "match": "Internacional Palmira vs Boca Juniors de Cali",
       "league": "Primera B",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXdpbnNwb3J0c3BsdXM="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "00:00",
       "match": "Deportes Limache vs Univ. Concepción",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXdpbnNwb3J0c3BsdXM="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "00:00",
       "match": "Houston Astros vs St. Louis Cardinals",
       "league": "MLB",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXdpbnNwb3J0c3BsdXM="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "00:30",
       "match": "Emelec vs Guayaquil City",
       "league": "Serie A",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lY2RmX2xpZ2Fwcm8="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "01:00",
       "match": "Atlético San Luis vs Pumas UNAM",
       "league": "Liga MX",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMm14"
-        },
-        {
-          "name": "ESPN MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg="
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg="
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5teA=="
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMg=="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "01:00",
       "match": "EE. UU. vs Japón",
       "league": "Amistoso Internacional Femenino",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMm14"
-        },
-        {
-          "name": "ESPN MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg="
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg="
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5teA=="
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMg=="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "01:00",
       "match": "Mazatlán vs Querétaro",
       "league": "Liga MX",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMm14"
-        },
-        {
-          "name": "ESPN MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg="
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg="
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5teA=="
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMg=="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "01:00",
       "match": "Correcaminos UAT vs Alebrijes de Oaxaca",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMm14"
-        },
-        {
-          "name": "ESPN MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg="
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg="
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5teA=="
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMg=="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "02:00",
       "match": "Municipal Liberia vs Cartaginés",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "FUTV",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjI="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "03:00",
       "match": "Dorados vs Tapatío",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMm14"
-        },
-        {
-          "name": "ESPN MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg="
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg="
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5teA=="
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "match": "Fenerbahçe vs Rizespor",
-      "league": "Super Lig",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 MX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuM214"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk1"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "17:30",
       "match": "Premier Padel Newgiza – Semifinales Masculinas",
       "league": "",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMg=="
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMg=="
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4y"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "18:00",
       "match": "Machida Zelvia vs Al Ittihad",
       "league": "AFC Champions League Elite",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk2"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "18:00",
       "match": "Oss vs Den Bosch",
       "league": "Eerste Divisie",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk2"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "18:00",
       "match": "Vitesse vs MVV",
       "league": "Eerste Divisie",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk2"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "18:00",
       "match": "RBC Heritage – Segunda Vuelta",
       "league": "Golf",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk2"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "18:30",
       "match": "St. Pauli vs Köln",
       "league": "Bundesliga",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk3"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "18:30",
       "match": "Real Sociedad II vs Racing Santander",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk3"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "18:45",
       "match": "Internazionale vs Cagliari",
       "league": "Serie A",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3Bu"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4="
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk4"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "18:45",
       "match": "Lens vs Toulouse",
       "league": "Ligue 1",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3Bu"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3Bu"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4="
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXk4"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "19:00",
       "match": "Blackburn Rovers vs Coventry City",
       "league": "Championship",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNQ=="
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNQ=="
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG41"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMA=="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "19:00",
       "match": "Las Palmas vs Leganés",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNQ=="
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNQ=="
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG41"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMA=="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "20:00",
       "match": "Los Chankas vs Atlético Grau",
       "league": "Liga 1",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1saWdhMW1heA=="
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1saWdhMW1heA=="
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWxpZ2ExbWF4"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "20:00",
       "match": "Sportivo Trinidense vs Sportivo San Lorenzo",
       "league": "Copa de Primera",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1saWdhMW1heA=="
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1saWdhMW1heA=="
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWxpZ2ExbWF4"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "20:55",
       "match": "Krü vs. Club de Cuervos",
       "league": "Kings League Americas",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMw=="
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4z"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "21:00",
       "match": "Boyacá Chicó vs Deportivo Cali",
       "league": "Categoría Primera A",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXdpbnNwb3J0c3BsdXM="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "21:00",
       "match": "Jaguares de Córdoba vs Deportivo Pasto",
       "league": "Categoría Primera A",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT13aW5zcG9ydHNwbHVz"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXdpbnNwb3J0c3BsdXM="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "22:00",
       "match": "Leones del Norte vs Aucas",
       "league": "Serie A",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lY2RmX2xpZ2Fwcm8="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "22:55",
       "match": "SR Americas – Pampas vs Yacare XV",
       "league": "Rugby",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuMw=="
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuMw=="
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4z"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "23:00",
       "match": "Albion vs Central Español",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMQ=="
-        }
-      ]
+      "channels": []
     },
     {
       "time": "23:30",
       "match": "Unión Santa Fe vs Newell's Old Boys",
       "league": "Liga Profesional",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BucHJlbWl1bQ=="
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BucHJlbWl1bQ=="
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5wcmVtaXVt"
-        },
-        {
-          "name": "fanatiz 05",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1mYW5hdGl6NQ=="
-        }
-      ]
+      "channels": []
     }
   ]
 }
