@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
-          ref: principal
+          ref: main
 
       - name: Node.js 20
         uses: actions/setup-node@v4
@@ -31,4 +31,4 @@ jobs:
           git config user.email "bot@sportstream.app"
           git add eventos.json
           git diff --staged --quiet || git commit -m "eventos: $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push origin principal
+          git push origin main
