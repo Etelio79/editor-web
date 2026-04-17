@@ -11,6 +11,7 @@ function fetchUrl(url, redirects = 0) {
         'Accept': 'text/html,application/xhtml+xml,*/*;q=0.9',
         'Accept-Language': 'es-ES,es;q=0.9',
         'Cache-Control': 'no-cache',
+        'Upgrade-Insecure-Requests': '1',
       }
     };
     const req = https.get(url, options, (res) => {
@@ -21,42 +22,47 @@ function fetchUrl(url, redirects = 0) {
       const chunks = [];
       const enc = res.headers['content-encoding'];
       let stream = res;
-      if (enc === 'gzip')    { const z = require('zlib'); stream = res.pipe(z.createGunzip()); }
-      else if (enc === 'br') { const z = require('zlib'); stream = res.pipe(z.createBrotliDecompress()); }
+      try {
+        if (enc === 'gzip')    { const z = require('zlib'); stream = res.pipe(z.createGunzip()); }
+        else if (enc === 'br') { const z = require('zlib'); stream = res.pipe(z.createBrotliDecompress()); }
+        else if (enc === 'deflate') { const z = require('zlib'); stream = res.pipe(z.createInflate()); }
+      } catch(ze) { /* usar stream sin comprimir */ }
       stream.on('data', c => chunks.push(c));
       stream.on('end',  () => resolve(Buffer.concat(chunks).toString('utf-8')));
       stream.on('error', reject);
     });
     req.on('error', reject);
-    req.setTimeout(25000, () => { req.destroy(); reject(new Error('Timeout')); });
+    req.setTimeout(30000, () => { req.destroy(); reject(new Error('Timeout')); });
   });
 }
 
+/* ── Parser principal: busca patrones de hora + título + links en el HTML ── */
 function parseEventos(html) {
   const events = [];
   const seen   = new Set();
 
-  // Buscar todos los pares hora + contenido
-  const timeRx  = /(\d{1,2}:\d{2})/g;
-  const linkRx  = /href="(https?:\/\/[^"]+)"[^>]*>\s*([^<]{2,60})\s*<\/a>/g;
+  // ── Estrategia 1: filas de tabla <tr> con hora ──────────────────────────
+  const trRx = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
+  let trMatch;
+  while ((trMatch = trRx.exec(html)) !== null) {
+    const row  = trMatch[1];
+    const text = row.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 
-  // Partir el HTML en bloques por cada hora encontrada
-  const parts = html.split(/(?=\b\d{1,2}:\d{2}\b)/);
+    const timeM = text.match(/\b(\d{1,2}:\d{2})\b/);
+    if (!timeM) continue;
+    const time = timeM[1];
 
-  for (const part of parts) {
-    const tm = part.match(/^(\d{1,2}:\d{2})/);
-    if (!tm) continue;
-    const time = tm[1];
+    // Título: texto largo que no sea solo la hora
+    const parts = text.split(timeM[0]).join('').trim();
+    if (parts.length < 4) continue;
 
-    // Extraer texto legible del bloque (sin tags)
-    const text = part.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
-
-    // Buscar nombre del partido: texto largo entre la hora y los primeros links
-    const nameMatch = text.match(/^\d{1,2}:\d{2}\s+(.{5,120?}?)(?:\s+(?:ESPN|FOX|TNT|DAZN|DSport|Movistar|Win|Sky|Star|Canal|https?)|$)/);
-    const rawTitle  = nameMatch ? nameMatch[1].trim() : '';
+    // Limpiar el título — quitar nombres de canales conocidos del final
+    const rawTitle = parts
+      .replace(/\b(ESPN|FOX|TNT|DAZN|DSport|Movistar|Win|Sky|Star\+?|Canal|HBO|MAX|Watch|Ver)\b.*/i, '')
+      .replace(/[►▶•→]+.*/, '')
+      .trim();
     if (!rawTitle || rawTitle.length < 4) continue;
 
-    // Separar liga y partido
     let league = '', matchTitle = rawTitle;
     if (rawTitle.includes(':')) {
       const pts  = rawTitle.split(':');
@@ -64,72 +70,138 @@ function parseEventos(html) {
       matchTitle = pts.slice(1).join(':').trim() || rawTitle;
     }
 
-    // Extraer canales del bloque
+    // Canales: links dentro de esta fila
     const channels = [];
+    const lRx = /href="(https?:\/\/[^"]+)"[^>]*>\s*([^<]{2,60}?)\s*</gi;
     let lm;
-    linkRx.lastIndex = 0;
-    while ((lm = linkRx.exec(part)) !== null) {
+    lRx.lastIndex = 0;
+    while ((lm = lRx.exec(row)) !== null) {
       const href = lm[1];
-      const name = lm[2].replace(/[►▶•\-]/g, '').trim();
+      const name = lm[2].replace(/[►▶•]/g,'').trim();
       if (name && href && !href.includes('futbollibre') && !href.includes('javascript')) {
         channels.push({ name, href });
       }
     }
 
     const key = `${time}|${matchTitle}`;
-    if (seen.has(key)) continue;
+    if (seen.has(key) || matchTitle.length < 4) continue;
     seen.add(key);
-
     events.push({ time, match: matchTitle, league, flag: '⚽', channels });
+  }
+
+  // ── Estrategia 2: divs/li con clase que contenga "event" o "partido" ────
+  if (events.length === 0) {
+    const divRx = /<(?:div|li|article)[^>]*class="[^"]*(?:event|partido|match|fixture|game)[^"]*"[^>]*>([\s\S]*?)<\/(?:div|li|article)>/gi;
+    let dm;
+    while ((dm = divRx.exec(html)) !== null) {
+      const block = dm[1];
+      const text  = block.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+      const timeM = text.match(/\b(\d{1,2}:\d{2})\b/);
+      if (!timeM) continue;
+
+      const rawTitle = text.replace(timeM[0], '').trim().split(/\b(ESPN|FOX|TNT)/i)[0].trim();
+      if (!rawTitle || rawTitle.length < 4) continue;
+
+      let league = '', matchTitle = rawTitle;
+      if (rawTitle.includes(':')) {
+        const pts = rawTitle.split(':');
+        league    = pts[0].trim();
+        matchTitle = pts.slice(1).join(':').trim() || rawTitle;
+      }
+
+      const key = `${timeM[1]}|${matchTitle}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      events.push({ time: timeM[1], match: matchTitle, league, flag: '⚽', channels: [] });
+    }
+  }
+
+  // ── Estrategia 3: patrón libre hora + texto entre tags ──────────────────
+  if (events.length === 0) {
+    const raw = html.replace(/<script[\s\S]*?<\/script>/gi, '')
+                    .replace(/<style[\s\S]*?<\/style>/gi, '');
+    const lineRx = /\b(\d{1,2}:\d{2})\b\s*[^<\n]{0,10}([A-ZÁÉÍÓÚÑ][^<\n]{8,120})/g;
+    let lm;
+    while ((lm = lineRx.exec(raw)) !== null) {
+      const time     = lm[1];
+      const rawTitle = lm[2].replace(/<[^>]*/g,'').trim();
+      if (!rawTitle || rawTitle.length < 5) continue;
+
+      let league = '', matchTitle = rawTitle;
+      if (rawTitle.includes(':')) {
+        const pts = rawTitle.split(':');
+        league    = pts[0].trim();
+        matchTitle = pts.slice(1).join(':').trim() || rawTitle;
+      }
+
+      const key = `${time}|${matchTitle}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      events.push({ time, match: matchTitle, league, flag: '⚽', channels: [] });
+    }
   }
 
   return events;
 }
 
 async function main() {
-  console.log('[' + new Date().toISOString() + '] Scraping futbollibre.ec...');
-  let events = [], source = 'none';
+  console.log(`[${new Date().toISOString()}] === Iniciando scraper ===`);
+  let events = [], source = 'none', htmlSample = '';
 
-  // Intento 1: futbollibre.ec directo
+  // ── Intento 1: futbollibre.ec ─────────────────────────────────────────
   try {
     const html = await fetchUrl('https://futbollibre.ec');
-    if (html.length > 2000 && html.includes(':')) {
+    htmlSample  = html.substring(0, 2000); // para debug
+    console.log(`[FL] Chars recibidos: ${html.length}`);
+    console.log(`[FL] Primeros 500 chars:\n${html.substring(0,500)}`);
+    console.log(`[FL] ¿Tiene <tr>? ${html.includes('<tr')}`);
+    console.log(`[FL] ¿Tiene patrones de hora? ${/\d{1,2}:\d{2}/.test(html)}`);
+    console.log(`[FL] ¿Tiene Cloudflare? ${html.toLowerCase().includes('cloudflare') || html.includes('cf-browser-verification')}`);
+
+    if (html.length > 1000 && !html.includes('cf-browser-verification') && !html.includes('Just a moment')) {
       events = parseEventos(html);
       source  = 'futbollibre';
-      console.log('futbollibre OK - eventos:', events.length);
+      console.log(`[FL] Eventos parseados: ${events.length}`);
+      if (events.length > 0) console.log('[FL] Primeros 3:', JSON.stringify(events.slice(0,3)));
     } else {
-      throw new Error('HTML inválido o Cloudflare challenge');
+      throw new Error('Cloudflare challenge detectado o HTML inválido');
     }
   } catch(e) {
-    console.warn('futbollibre falló:', e.message);
+    console.warn(`[FL] FALLÓ: ${e.message}`);
+  }
 
-    // Intento 2: API Railway
+  // ── Intento 2: Railway API ───────────────────────────────────────────
+  if (events.length === 0) {
     try {
       const apiUrl = process.env.API_URL || 'https://sportstream-api-production.up.railway.app';
-      const res    = await fetchUrl(apiUrl + '/eventos');
-      const data   = JSON.parse(res);
+      console.log(`[API] Intentando ${apiUrl}/eventos ...`);
+      const res  = await fetchUrl(apiUrl + '/eventos');
+      const data = JSON.parse(res);
       if (data.events?.length) {
         events = data.events;
         source  = 'railway';
-        console.log('Railway OK - eventos:', events.length);
+        console.log(`[API] OK - ${events.length} eventos`);
+      } else {
+        console.warn('[API] Sin eventos en respuesta');
       }
     } catch(e2) {
-      console.warn('Railway falló:', e2.message);
+      console.warn(`[API] FALLÓ: ${e2.message}`);
     }
   }
 
-  // Ordenar por hora
+  // ── Ordenar por hora ─────────────────────────────────────────────────
   events.sort((a, b) => {
-    const m = t => { const [h,mm]=(t||'0:0').split(':').map(Number); return h*60+(mm||0); };
+    const m = t => { if(!t) return 9999; const [h,mm]=(t||'0:0').split(':').map(Number); return h*60+(mm||0); };
     return m(a.time) - m(b.time);
   });
 
   const output = {
     updated_at : new Date().toISOString(),
-    date       : new Date().toLocaleDateString('es-ES', {weekday:'long',day:'numeric',month:'long'}),
+    date       : new Date().toLocaleDateString('es-ES', { weekday:'long', day:'numeric', month:'long' }),
     source,
     count      : events.length,
-    events
+    events,
+    _debug     : { html_sample: htmlSample.substring(0, 300) }
   };
 
   fs.writeFileSync(
@@ -138,7 +210,11 @@ async function main() {
     'utf-8'
   );
 
-  console.log('✅ eventos.json guardado | fuente:', source, '| total:', events.length);
+  console.log(`✅ LISTO | fuente: ${source} | total: ${events.length}`);
+  if (events.length === 0) {
+    console.log('⚠️ 0 eventos - revisar logs de [FL] arriba para diagnóstico');
+    process.exit(0); // no falla el Action, solo avisa
+  }
 }
 
-main().catch(e => { console.error('ERROR:', e); process.exit(1); });
+main().catch(e => { console.error('ERROR FATAL:', e); process.exit(1); });
