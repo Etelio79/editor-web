@@ -2,26 +2,34 @@ name: Scrape Eventos
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # cada 2 horas
-  workflow_dispatch:          # permite correrlo a mano
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
-          ref: main
+          ref: principal
 
       - name: Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
+      - name: Instalar Chromium y Puppeteer
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y chromium-browser
+          npm install puppeteer-core
+
       - name: Correr scraper
         env:
+          PUPPETEER_EXEC: /usr/bin/chromium-browser
           API_URL: https://sportstream-api-production.up.railway.app
         run: node scripts/scrape.js
 
@@ -31,4 +39,4 @@ jobs:
           git config user.email "bot@sportstream.app"
           git add eventos.json
           git diff --staged --quiet || git commit -m "eventos: $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push origin main
+          git push origin principal
