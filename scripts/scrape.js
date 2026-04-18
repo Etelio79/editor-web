@@ -6,14 +6,23 @@ async function resolveM3u8(browser, embedUrl) {
   const page = await browser.newPage();
   let m3u8 = null;
 
+  // Regex del token completo: hash40chars-letras-timestamp-timestamp
+  const fullTokenRx = /token=[a-f0-9]{30,}-[a-z0-9]+-\d{9,}-\d{9,}/;
+
   try {
     await page.setRequestInterception(true);
     page.on('request', req => {
       const url  = req.url();
       const type = req.resourceType();
-      if (url.includes('.m3u8') && !m3u8) {
-        m3u8 = url;
-        req.abort();
+
+      if (url.includes('.m3u8') && url.includes('token=')) {
+        if (fullTokenRx.test(url)) {
+          // Token completo encontrado ✅
+          m3u8 = url;
+          console.log(`  🎯 Token completo: ${url.substring(0,80)}`);
+        }
+        // Dejar pasar (no abortar) para que el player siga cargando
+        req.continue();
         return;
       }
       if (['image','font','media','stylesheet'].includes(type)) { req.abort(); return; }
@@ -25,17 +34,24 @@ async function resolveM3u8(browser, embedUrl) {
 
     await page.goto(embedUrl, { waitUntil:'domcontentloaded', timeout:20000 });
 
-    // Esperar m3u8 hasta 10 segundos
+    // Esperar token completo hasta 12 segundos
     const t = Date.now();
-    while (!m3u8 && Date.now()-t < 10000) await new Promise(r=>setTimeout(r,300));
+    while (!m3u8 && Date.now()-t < 12000) await new Promise(r=>setTimeout(r,400));
 
-    // Fallback: buscar en el HTML
-    if (!m3u8) {
-      const html = await page.content();
-      const m = html.match(/["'`](https?:\/\/[^"'`\s\\]+\.m3u8[^"'`\s\\]*)["'`]/);
-      if (m) m3u8 = m[1];
+    if (m3u8) return m3u8;
+
+    // Fallback: buscar en el HTML/JS de la página
+    const html = await page.content();
+    const patterns = [
+      /["'`](https?:\/\/[^"'`\s\\]+\.m3u8\?token=[a-f0-9]{30,}-[a-z0-9]+-\d{9,}-\d{9,}[^"'`\s\\]*)["'`]/,
+      /(https?:\/\/[^\s"'<>\\]+\.m3u8\?token=[a-f0-9]{30,}-[a-z0-9]+-\d{9,}-\d{9,})/
+    ];
+    for (const p of patterns) {
+      const m = html.match(p);
+      if (m) { m3u8 = m[1]||m[0]; break; }
     }
-  } catch(e) { /* timeout o error */ }
+
+  } catch(e) { console.warn(`  ⚠️ Error: ${e.message}`); }
   finally { await page.close().catch(()=>{}); }
 
   return m3u8;
