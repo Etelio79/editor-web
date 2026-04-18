@@ -1,9 +1,10 @@
 {
-  "updated_at": "2026-04-18T18:30:22.005Z",
-  "date": "sábado, 18 de abril",
-  "source": "futbollibre-puppeteer",
-  "count": 67,
-  "events": [
+  "actualizado_en": "2026-04-18T19:53:40.126Z",
+  "fecha": "sábado, 18 de abril",
+  "fuente": "futbollibre-embed",
+  "contar": 60,
+  "contar_con_canales": 0,
+  "eventos": [
     {
       "time": "00:00",
       "match": "Deportes Concepción vs La Serena",
@@ -92,62 +93,6 @@
       "time": "03:10",
       "match": "América vs Toluca",
       "league": "Liga MX",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "16:00",
-      "match": "Progreso vs Wanderers",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "16:00",
-      "match": "Napoli vs Lazio",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "16:15",
-      "match": "Buriram United vs Shabab Al Ahli",
-      "league": "AFC Champions League Elite",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "16:20",
-      "match": "Premiership – Bath Rugby vs Harlequins",
-      "league": "Rugby",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "16:30",
-      "match": "CD Castellon vs Burgos",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "16:30",
-      "match": "Cultural Leonesa vs Córdoba",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "16:30",
-      "match": "Tottenham Hotspur vs Brighton & Hove Albion",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "16:30",
-      "match": "Eintracht Frankfurt vs RB Leipzig",
-      "league": "Bundesliga",
       "flag": "⚽",
       "channels": []
     },
@@ -328,7 +273,7 @@
     },
     {
       "time": "21:15",
-      "match": "Progreso vs Wanderers",
+      "match": "Guaraní vs Sportivo Luqueño",
       "league": "Primera División",
       "flag": "⚽",
       "channels": []
@@ -468,8 +413,437 @@
     },
     {
       "time": "23:30",
-      "match": "Progreso vs Wanderers",
+      "match": "Deportivo Recoleta vs 2 de Mayo",
       "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:30",
+      "match": "Atlanta United vs Nashville SC",
+      "league": "Major League Soccer",
+      "flag": "⚽",
+      "channels": []
+    }
+  ],
+  "events": [
+    {
+      "time": "00:00",
+      "match": "Deportes Concepción vs La Serena",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "00:00",
+      "match": "Orense vs Delfin",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "00:30",
+      "match": "Playoffs Juego #1 – LA Lakers vs Houston Rockets",
+      "league": "NBA",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "00:45",
+      "match": "Argentinos Juniors vs Atlético Tucumán",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:00",
+      "match": "Irapuato vs Mineros de Zacatecas",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:00",
+      "match": "Alianza Lima vs Cusco",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:05",
+      "match": "Guadalajara vs Puebla",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:05",
+      "match": "Monterrey vs Pachuca",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:30",
+      "match": "Brasil vs Canadá",
+      "league": "Amistoso Internacional Femenino",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:30",
+      "match": "Fortaleza CEIF vs Rionegro Águilas",
+      "league": "Categoría Primera A",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:30",
+      "match": "Choloma vs Olimpia",
+      "league": "Liga Nacional",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "02:00",
+      "match": "Herediano vs San Carlos",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "03:10",
+      "match": "América vs Toluca",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "17:00",
+      "match": "Toronto FC vs Austin",
+      "league": "Major League Soccer",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "17:00",
+      "match": "RBC Heritage – Tercera Vuelta",
+      "league": "Golf",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "17:00",
+      "match": "Angers SCO vs Le Havre",
+      "league": "Ligue 1",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "17:00",
+      "match": "Gençlerbirliği vs Galatasaray",
+      "league": "Super Lig",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "18:00",
+      "match": "Gimnasia La Plata vs Estudiantes Río Cuarto",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "18:00",
+      "match": "FC Cajamarca vs ADT",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "18:30",
+      "match": "URBA – Champagnat vs. SIC",
+      "league": "Rugby",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "18:30",
+      "match": "Ben Whittaker vs Braian Suarez",
+      "league": "BOXEO",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "18:30",
+      "match": "CF Montréal vs New York RB",
+      "league": "Major League Soccer",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "18:30",
+      "match": "Bélgica vs Escocia",
+      "league": "Clasificatorias para el Mundial Femenino de la FIFA",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "18:30",
+      "match": "Hannover 96 vs Paderborn",
+      "league": "2. Bundesliga",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "18:45",
+      "match": "Roma vs Atalanta",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "match": "Atlético Madrid vs Real Sociedad",
+      "league": "Copa del Rey",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "match": "Chelsea vs Manchester United",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "match": "Racing vs Defensor Sporting",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "match": "St. Lucia vs San Vicente / Granadinas",
+      "league": "Campeonato W de CONCACAF",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "match": "Mushuc Runa vs Técnico Universitario",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:05",
+      "match": "Lille vs Nice",
+      "league": "Ligue 1",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:10",
+      "match": "Francia vs Países Bajos",
+      "league": "Clasificatorias para el Mundial Femenino de la FIFA",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "20:15",
+      "match": "Juan Pablo II College vs Comerciantes Unidos",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "20:15",
+      "match": "Instituto vs Estudiantes",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "20:30",
+      "match": "Colorado Rapids vs Inter Miami",
+      "league": "League Soccer",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "20:55",
+      "match": "Queens League Straight Edge United vs Raniza",
+      "league": "",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:00",
+      "match": "Uruguay vs Chile",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:00",
+      "match": "Ecuador vs Perú",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:15",
+      "match": "Guaraní vs Sportivo Luqueño",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:30",
+      "match": "Vasco da Gama vs São Paulo",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:30",
+      "match": "Chapecoense vs Botafogo",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:30",
+      "match": "Everton vs Universidad Chile",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:30",
+      "match": "Universidad Católica vs Libertad",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "22:00",
+      "match": "Bermudas vs Granada",
+      "league": "Campeonato W de CONCACAF",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "22:30",
+      "match": "Independiente vs Defensa y Justicia",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "22:30",
+      "match": "Sport Huancayo vs Deportivo Garcilaso",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:00",
+      "match": "Cruz Azul vs Tijuana",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:00",
+      "match": "Argentina vs Colombia",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:00",
+      "match": "Necaxa vs Tigres UANL",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:00",
+      "match": "Vitória vs Corinthians",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:00",
+      "match": "Tlaxcala vs Venados",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:10",
+      "match": "Deportes Tolima vs Deportivo Pereira",
+      "league": "Categoría Primera A",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:30",
+      "match": "New England vs Columbus Crew",
+      "league": "Major League Soccer",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:30",
+      "match": "Orlando City SC vs Houston Dynamo",
+      "league": "Major League Soccer",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:30",
+      "match": "Cincinnati vs Chicago Fire",
+      "league": "Major League Soccer",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:30",
+      "match": "Cruzeiro vs Grêmio",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:30",
+      "match": "New York City vs Charlotte",
+      "league": "Major League Soccer",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:30",
+      "match": "Philadelphia Union vs DC United",
+      "league": "Major League Soccer",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:30",
+      "match": "Deportivo Recoleta vs 2 de Mayo",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "23:30",
+      "match": "Atlanta United vs Nashville SC",
+      "league": "Major League Soccer",
       "flag": "⚽",
       "channels": []
     }
