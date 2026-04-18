@@ -1,4 +1,5 @@
 
+
 const puppeteer = require('puppeteer-core');
 const fs        = require('fs');
 const path      = require('path');
@@ -7,28 +8,24 @@ const http      = require('http');
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-/* ── HTTP fetch con headers de navegador ─────────────────────── */
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
     const lib = url.startsWith('https') ? https : http;
     const req = lib.get(url, {
       headers: {
-        'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
-        'Accept'     : 'application/json, */*',
-        'Referer'    : 'https://futbollibre.ec/',
-        'Origin'     : 'https://futbollibre.ec',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
+        'Accept'    : 'application/json, */*',
+        'Referer'   : 'https://futbollibre.ec/',
       }
     }, res => {
-      // Seguir redirects
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location)
         return fetchUrl(res.headers.location).then(resolve).catch(reject);
-      }
       const chunks = [];
       res.on('data', c => chunks.push(c));
       res.on('end', () => {
         const text = Buffer.concat(chunks).toString('utf-8');
         try { resolve(JSON.parse(text)); }
-        catch(e) { reject(new Error(`JSON inválido (${url}): ${text.slice(0, 80)}`)); }
+        catch(e) { reject(new Error(`JSON inválido: ${text.slice(0,100)}`)); }
       });
     });
     req.on('error', reject);
@@ -37,88 +34,63 @@ function fetchUrl(url) {
 }
 
 /* ══════════════════════════════════════════════════════════════
-   FUENTE 1 — pltvhd.com/diaries.json (sin Puppeteer)
+   FUENTE 1 — pltvhd.com/diaries.json
 ══════════════════════════════════════════════════════════════ */
 async function fetchDiaries() {
-  console.log('[API] Fetching pltvhd.com/diaries.json ...');
+  console.log('[API] pltvhd.com/diaries.json ...');
   const raw   = await fetchUrl('https://pltvhd.com/diaries.json');
-  const today = new Date().toISOString().slice(0, 10); // "2026-04-18"
+  const today = new Date().toISOString().slice(0, 10);
+  console.log('[API] Campos raíz:', Object.keys(raw).join(', '));
 
-  console.log(`[API] Campos raíz: ${Object.keys(raw).join(', ')}`);
-
-  // Buscar la lista de eventos en la estructura del JSON
-  const list = findEventList(raw, today);
-
+  const list = findList(raw, today);
   if (!list || list.length === 0) {
-    console.log('[API] ⚠️  No se encontró lista de eventos');
-    console.log('[API] Primeros 800 chars:', JSON.stringify(raw).slice(0, 800));
+    console.log('[API] Sin lista. Muestra:', JSON.stringify(raw).slice(0, 500));
     return [];
   }
-
-  console.log(`[API] ${list.length} eventos encontrados`);
-  console.log('[API] Campos del primer evento:', Object.keys(list[0]).join(', '));
-  console.log('[API] Primer evento:', JSON.stringify(list[0]).slice(0, 300));
-
+  console.log(`[API] ${list.length} eventos. Campos:`, Object.keys(list[0]).join(', '));
+  console.log('[API] Muestra evento[0]:', JSON.stringify(list[0]).slice(0, 300));
   return list;
 }
 
-/* Busca recursivamente la lista de eventos en el JSON */
-function findEventList(data, today, depth = 0) {
-  if (depth > 6 || !data || typeof data !== 'object') return null;
-
-  const d = data.data !== undefined ? data.data : data;
-
-  // Array directo
-  if (Array.isArray(d) && d.length > 3 && hasEventShape(d[0])) return d;
-
-  // Keyed por fecha de hoy
-  if (d[today] && Array.isArray(d[today]) && d[today].length > 0) return d[today];
-
-  // Campos comunes
-  for (const key of ['events','eventos','matches','schedule','partidos','data','items','list']) {
-    if (Array.isArray(d[key]) && d[key].length > 3 && hasEventShape(d[key][0])) return d[key];
+function findList(obj, today, depth=0) {
+  if (depth > 6 || !obj || typeof obj !== 'object') return null;
+  if (Array.isArray(obj) && obj.length > 2 && isEventObj(obj[0])) return obj;
+  const d = obj.data ?? obj;
+  if (!Array.isArray(d)) {
+    for (const k of [today, 'events','eventos','matches','schedule','items','partidos','data']) {
+      if (Array.isArray(d[k]) && d[k].length > 0 && isEventObj(d[k][0])) return d[k];
+    }
+    for (const k of Object.keys(d)) {
+      const r = findList(d[k], today, depth+1);
+      if (r) return r;
+    }
   }
-
-  // Buscar en todos los campos
-  for (const key of Object.keys(d)) {
-    const val = d[key];
-    if (!val || typeof val !== 'object') continue;
-    const found = findEventList(val, today, depth + 1);
-    if (found) return found;
-  }
-
   return null;
 }
 
-function hasEventShape(obj) {
-  if (!obj || typeof obj !== 'object') return false;
-  const keys = Object.keys(obj).join(' ').toLowerCase();
-  return keys.includes('tiempo') || keys.includes('time')   ||
-         keys.includes('hora')   || keys.includes('match')  ||
-         keys.includes('partido')|| keys.includes('titulo') ||
-         keys.includes('fósforo');
+function isEventObj(o) {
+  if (!o || typeof o !== 'object') return false;
+  const k = Object.keys(o).join(' ').toLowerCase();
+  return k.includes('tiempo')||k.includes('time')||k.includes('hora')||
+         k.includes('fósforo')||k.includes('match')||k.includes('partido')||k.includes('titulo');
 }
 
 /* ══════════════════════════════════════════════════════════════
-   FUENTE 2 — Puppeteer con clics
+   FUENTE 2 — Puppeteer
    
-   Carga futbollibre.ec, hace clic en cada evento y captura
-   las URLs de canal del modal.
-   
-   CLAVE: ahora acepta href que incluyan "futbollibre.ec/embed"
-   ↑ este era el bug en todas las versiones anteriores
+   ESTRATEGIA CORREGIDA:
+   1. Scroll completo para cargar TODOS los eventos
+   2. Recolectar referencias a elementos (no coordenadas)
+   3. Para cada evento: scrollIntoView() → click() → esperar modal
+   4. Capturar SOLO href que contengan "futbollibre.ec/embed"
+   5. Cerrar modal → siguiente evento
 ══════════════════════════════════════════════════════════════ */
 async function scrapeWithPuppeteer() {
-  console.log('[PUP] Iniciando scraping con Puppeteer...');
-
   const browser = await puppeteer.launch({
     executablePath: process.env.PUPPETEER_EXEC || '/usr/bin/chromium-browser',
     headless: 'new',
-    args: [
-      '--no-sandbox','--disable-setuid-sandbox',
-      '--disable-dev-shm-usage','--disable-gpu',
-      '--no-first-run','--no-zygote','--single-process',
-    ]
+    args: ['--no-sandbox','--disable-setuid-sandbox','--disable-dev-shm-usage',
+           '--disable-gpu','--no-first-run','--no-zygote','--single-process']
   });
 
   const events = [];
@@ -126,9 +98,10 @@ async function scrapeWithPuppeteer() {
   try {
     const page = await browser.newPage();
 
+    // No bloquear nada — algunos scripts son necesarios para el modal
     await page.setRequestInterception(true);
     page.on('request', req => {
-      if (['image','font','media'].includes(req.resourceType())) req.abort();
+      if (['image','media','font'].includes(req.resourceType())) req.abort();
       else req.continue();
     });
 
@@ -137,101 +110,193 @@ async function scrapeWithPuppeteer() {
     );
     await page.setViewport({ width: 390, height: 844 });
 
+    console.log('[PUP] Cargando futbollibre.ec...');
     await page.goto('https://futbollibre.ec', { waitUntil:'networkidle2', timeout:60000 });
-    try { await page.waitForFunction(() => document.body.innerText.match(/\d{1,2}:\d{2}/), { timeout:20000 }); } catch(e) {}
+
+    try {
+      await page.waitForFunction(() => document.body.innerText.match(/\d{1,2}:\d{2}/), { timeout:20000 });
+    } catch(e) { console.warn('[PUP] Horas no detectadas en página'); }
+
+    // ── Scroll completo para cargar todos los eventos ────────────
+    console.log('[PUP] Scrolleando página completa...');
+    await page.evaluate(async () => {
+      await new Promise(resolve => {
+        let total = 0;
+        const step = 400;
+        const id = setInterval(() => {
+          window.scrollBy(0, step);
+          total += step;
+          if (total >= document.body.scrollHeight) {
+            clearInterval(id);
+            window.scrollTo(0, 0); // volver al inicio
+            resolve();
+          }
+        }, 150);
+      });
+    });
     await sleep(2000);
 
-    // Obtener todos los elementos de evento clickeables
-    const targets = await page.evaluate(() => {
-      const timeRx = /\d{1,2}:\d{2}/;
-      const found  = [];
-      const seen   = new Set();
+    // ── Paso 1: Recolectar info de TODOS los eventos ─────────────
+    // Buscar el TEXTO de cada evento sin usar coordenadas
+    const eventInfos = await page.evaluate(() => {
+      const timeRx  = /^\d{1,2}:\d{2}$/;
+      const results = [];
+      const seen    = new Set();
 
-      for (const el of document.querySelectorAll('*')) {
-        const txt  = el.textContent?.trim() || '';
-        const rect = el.getBoundingClientRect();
-        if (
-          timeRx.test(txt) && txt.length > 8 && txt.length < 300 &&
-          rect.width > 50 && rect.height > 5 && rect.height < 200 &&
-          el.children.length > 0 && el.children.length < 15 &&
-          !seen.has(txt.slice(0, 35))
-        ) {
-          seen.add(txt.slice(0, 35));
-          found.push({ x: rect.left + rect.width/2, y: rect.top + rect.height/2, text: txt.slice(0,80) });
-          if (found.length >= 70) break;
+      // Buscar nodos de texto que son una hora sola
+      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+      let node;
+
+      while ((node = walker.nextNode())) {
+        const timeText = node.textContent.trim();
+        if (!timeRx.test(timeText)) continue;
+
+        // Subir para encontrar el contenedor del evento
+        let container = node.parentElement;
+        for (let i = 0; i < 6; i++) {
+          if (!container) break;
+          // El contenedor tiene más texto (nombre del partido)
+          const innerTexts = Array.from(container.querySelectorAll('*'))
+            .filter(el => el.children.length === 0 && el.textContent.trim().length > 5)
+            .map(el => el.textContent.trim())
+            .filter(t => !timeRx.test(t));
+          if (innerTexts.length > 0) break;
+          container = container.parentElement;
         }
+        if (!container) continue;
+
+        // Extraer nombre del partido
+        const innerTexts = Array.from(container.querySelectorAll('*'))
+          .filter(el => el.children.length === 0)
+          .map(el => el.textContent.trim())
+          .filter(t => t.length > 3 && !timeRx.test(t));
+
+        if (innerTexts.length === 0) continue;
+
+        // Elegir el texto más representativo del partido
+        // Ignorar textos muy cortos o que solo sean emojis
+        let matchTitle = '';
+        let leagueName = '';
+        for (const t of innerTexts) {
+          if (t.length > 5 && !/^[\s\W]+$/.test(t)) {
+            if (!matchTitle) matchTitle = t;
+            else if (!leagueName) leagueName = t;
+          }
+        }
+
+        // Limpiar: "Copa del Rey: Real vs Barça" → league="Copa del Rey", match="Real vs Barça"
+        if (matchTitle.includes(':') && matchTitle.split(':')[1].trim().length > 3) {
+          const parts = matchTitle.split(':');
+          leagueName  = parts[0].trim();
+          matchTitle  = parts.slice(1).join(':').trim();
+        } else if (matchTitle.endsWith(':')) {
+          // "Copa del Rey:" sin nombre de equipos — buscar en más textos
+          matchTitle = innerTexts.find(t => t.includes(' vs ') || t.includes(' - ')) || matchTitle.replace(/:$/, '');
+          leagueName = innerTexts[0]?.replace(/:$/, '') || '';
+        }
+
+        if (matchTitle.length < 4) continue;
+
+        const key = `${timeText}|${matchTitle}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+
+        results.push({
+          time   : timeText,
+          match  : matchTitle,
+          league : leagueName,
+          // Guardar una "huella" del texto del contenedor para buscarlo después
+          containerText: container.textContent.trim().slice(0, 60),
+        });
       }
-      return found;
+
+      return results;
     });
 
-    console.log(`[PUP] ${targets.length} eventos encontrados`);
-    const seen = new Set();
+    console.log(`[PUP] ${eventInfos.length} eventos detectados`);
 
-    for (const target of targets) {
-      // Capturar links ANTES del clic
-      const before = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('a[href]')).map(a => a.href)
-      );
-      const beforeSet = new Set(before);
+    // ── Paso 2: Clic en cada evento y captura de canales ─────────
+    // Usar índice del elemento en el DOM, no coordenadas
+    for (let i = 0; i < eventInfos.length; i++) {
+      const evInfo = eventInfos[i];
 
-      try { await page.mouse.click(target.x, target.y); } catch(e) { continue; }
+      // Clic usando element.click() + scrollIntoView
+      // ✅ Funciona para elementos fuera de pantalla
+      const clicked = await page.evaluate((containerText) => {
+        const timeRx = /\d{1,2}:\d{2}/;
+        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+        let node;
+        while ((node = walker.nextNode())) {
+          if (!timeRx.test(node.textContent.trim())) continue;
+          let container = node.parentElement;
+          for (let j = 0; j < 6; j++) {
+            if (!container) break;
+            if (container.textContent.trim().slice(0, 60) === containerText) {
+              container.scrollIntoView({ behavior:'instant', block:'center' });
+              container.click();
+              return true;
+            }
+            container = container.parentElement;
+          }
+        }
+        return false;
+      }, evInfo.containerText);
+
+      if (!clicked) continue;
       await sleep(1500);
 
-      // Capturar TODOS los links nuevos que aparecieron
-      // ✅ CORRECCIÓN: aceptar futbollibre.ec/embed URLs
-      const newLinks = await page.evaluate((beforeArr) => {
-        const beforeSet = new Set(beforeArr);
-        const results   = [];
+      // ── Capturar SOLO futbollibre.ec/embed URLs ───────────────
+      // ✅ Excluir Telegram share, Facebook share, Twitter, etc.
+      const channels = await page.evaluate(() => {
+        const results = [];
+        const seen    = new Set();
+
         document.querySelectorAll('a[href]').forEach(a => {
           const href = a.href || '';
+
+          // ✅ SOLO aceptar el formato de embed de futbollibre.ec
           if (
-            !beforeSet.has(href) &&
-            href.startsWith('http') &&
-            !href.includes('javascript') &&
-            !href.includes('google') &&
-            !href.includes('facebook') &&
-            !href.includes('twitter')
-            // ✅ NO filtrar futbollibre.ec — sus /embed/ son los canales
+            href.includes('futbollibre.ec/embed/eventos.html') &&
+            href.includes('?r=') &&
+            !seen.has(href)
           ) {
-            results.push({
-              href,
-              name: a.textContent?.replace(/[^\w\s]/g,' ').trim().slice(0,40) || 'Canal'
-            });
+            seen.add(href);
+            const rawName = a.textContent?.replace(/[▶►\s]+/g, ' ').trim() || '';
+            // Extraer nombre limpio del canal
+            let name = rawName;
+            // Si el nombre es una URL o está vacío, usar fallback
+            if (!name || name.length < 2 || name.startsWith('http')) name = `Canal ${results.length + 1}`;
+            results.push({ name, href });
           }
         });
+
         return results;
-      }, before);
+      });
 
-      if (newLinks.length > 0) {
-        // Parsear hora y nombre del texto del target
-        const timeMatch = target.text.match(/(\d{1,2}:\d{2})/);
-        const time      = timeMatch ? timeMatch[1] : '00:00';
-        const matchText = target.text.replace(/\d{1,2}:\d{2}\s*/, '').split('\n')[0].trim().slice(0, 80);
-
-        const key = `${time}|${matchText}`;
-        if (!seen.has(key) && matchText.length > 3) {
-          seen.add(key);
-
-          const channels = newLinks.map(l => ({
-            name: l.name || 'Canal',
-            href: l.href
-          }));
-
-          events.push({
-            time,
-            match   : matchText,
-            league  : '',
-            flag    : '⚽',
-            channels
-          });
-
-          console.log(`[PUP] "${matchText}" → ${channels.length} canal(es)`);
-          channels.forEach(c => console.log(`   → ${c.name}: ${c.href.slice(0,80)}`));
-        }
-
-        await page.keyboard.press('Escape');
-        await sleep(400);
+      if (channels.length > 0) {
+        events.push({
+          time    : evInfo.time,
+          match   : evInfo.match,
+          league  : evInfo.league,
+          flag    : '⚽',
+          channels
+        });
+        console.log(`[PUP] ✅ "${evInfo.match}" → ${channels.length} canal(es)`);
+        channels.forEach(c => console.log(`     → ${c.name}: ${c.href.slice(0, 80)}`));
+      } else {
+        // Sin canales también guardamos el evento (sin canales disponibles aún)
+        events.push({
+          time    : evInfo.time,
+          match   : evInfo.match,
+          league  : evInfo.league,
+          flag    : '⚽',
+          channels: []
+        });
       }
+
+      // Cerrar modal
+      await page.keyboard.press('Escape');
+      await sleep(300);
     }
 
     await page.close();
@@ -242,24 +307,17 @@ async function scrapeWithPuppeteer() {
   return events;
 }
 
-/* ══════════════════════════════════════════════════════════════
-   NORMALIZAR — convierte cualquier formato a campos en inglés
-══════════════════════════════════════════════════════════════ */
+/* ── Normalizar cualquier formato a campos en inglés ─── */
 function normalizeEvents(list) {
   return list.map(item => {
-    const rawCh = item.channels || item.canales || item.links || item.streams || [];
-
+    const rawCh = item.channels || item.canales || item.links || [];
     const channels = rawCh.map(ch => {
       if (typeof ch === 'string') return { name:'Canal', href: ch };
       return {
         name: ch.name || ch.nombre || ch.canal || 'Canal',
-        href: ch.href || ch.url   || ch.link  || ch.embed || ''
+        href: ch.href || ch.url   || ch.link  || ''
       };
-    }).filter(ch => {
-      const href = ch.href || '';
-      return href.startsWith('http') && !href.includes('javascript');
-      // ✅ NO filtrar futbollibre.ec/embed — son los canales válidos
-    });
+    }).filter(ch => ch.href && ch.href.startsWith('http'));
 
     return {
       time    : item.time    || item.tiempo  || '00:00',
@@ -275,101 +333,86 @@ function normalizeEvents(list) {
    MAIN
 ══════════════════════════════════════════════════════════════ */
 async function main() {
-  console.log(`\n[${new Date().toISOString()}] === SportStream Scraper v7 ===\n`);
-  let rawList = [], source = 'none';
+  console.log(`\n[${new Date().toISOString()}] === SportStream Scraper v8 ===\n`);
+  let events = [], source = 'none';
 
-  /* ── 1. API directa pltvhd.com ───────────────────────────── */
+  // 1. API directa pltvhd
   try {
-    rawList = await fetchDiaries();
-    if (rawList.length > 0) source = 'pltvhd-api';
-  } catch(e) {
-    console.warn(`[API] FALLÓ: ${e.message}`);
-  }
+    const raw = await fetchDiaries();
+    if (raw.length > 0) {
+      events = normalizeEvents(raw);
+      source = 'pltvhd';
+      console.log(`[API] ${events.length} eventos, ${events.filter(e=>e.channels.length>0).length} con canales`);
+    }
+  } catch(e) { console.warn('[API] FALLÓ:', e.message); }
 
-  let events = normalizeEvents(rawList);
-  const withCh = events.filter(e => e.channels.length > 0).length;
-
-  /* ── 2. Si la API no trajo canales, usar Puppeteer ─────────
-     (la API devuelve eventos pero canales vacíos normalmente) */
-  if (withCh === 0) {
-    console.log('[PUP] API sin canales → usando Puppeteer con clics...');
+  // 2. Puppeteer — si la API no dio canales o falló
+  const sinCanales = events.filter(e => e.channels.length === 0).length;
+  if (sinCanales === events.length) {
+    console.log('[PUP] Iniciando scraping con clics...');
     try {
-      const puppeteerEvents = await scrapeWithPuppeteer();
-      if (puppeteerEvents.length > 0) {
+      const pEvents = await scrapeWithPuppeteer();
+      if (pEvents.length > 0) {
         if (events.length > 0) {
-          // Fusionar: usar datos de la API pero canales de Puppeteer
+          // Fusionar: nombres de la API + canales del Puppeteer
           events.forEach(ev => {
-            const match = puppeteerEvents.find(pe =>
-              pe.match.toLowerCase().includes(ev.match.toLowerCase().slice(0, 12)) ||
-              ev.match.toLowerCase().includes(pe.match.toLowerCase().slice(0, 12))
+            const match = pEvents.find(pe =>
+              pe.match.toLowerCase().slice(0,10) === ev.match.toLowerCase().slice(0,10)
             );
-            if (match && match.channels.length > 0) ev.channels = match.channels;
+            if (match?.channels.length) ev.channels = match.channels;
           });
-          // Agregar eventos de Puppeteer que no estaban en la API
-          puppeteerEvents.forEach(pe => {
-            if (!events.some(ev => ev.match.toLowerCase().includes(pe.match.toLowerCase().slice(0, 10)))) {
-              events.push(pe);
-            }
+          // Agregar los que no estaban
+          pEvents.forEach(pe => {
+            if (pe.channels.length > 0 && !events.some(ev =>
+              ev.match.toLowerCase().slice(0,10) === pe.match.toLowerCase().slice(0,10)
+            )) events.push(pe);
           });
           source = 'pltvhd+puppeteer';
         } else {
-          events = puppeteerEvents;
+          events = pEvents;
           source = 'puppeteer';
         }
       }
-    } catch(e) {
-      console.error(`[PUP] FALLÓ: ${e.message}`);
-    }
+    } catch(e) { console.error('[PUP] FALLÓ:', e.message); }
   }
 
-  /* ── 3. Fallback Railway ─────────────────────────────────── */
+  // 3. Fallback Railway
   if (events.length === 0 && process.env.API_URL) {
     try {
       const data = await fetchUrl(process.env.API_URL + '/eventos');
       const list = data.events || data.eventos || [];
       if (list.length > 0) { events = normalizeEvents(list); source = 'railway'; }
-    } catch(e) { console.warn(`[RAILWAY] ${e.message}`); }
+    } catch(e) { console.warn('[RAILWAY]', e.message); }
   }
 
-  // Ordenar por hora
-  events.sort((a, b) => {
+  events.sort((a,b) => {
     const m = t => { const [h,mm]=(t||'0:0').split(':').map(Number); return h*60+(mm||0); };
-    return m(a.time) - m(b.time);
+    return m(a.time)-m(b.time);
   });
 
-  const finalWithCh = events.filter(e => e.channels.length > 0).length;
+  const withCh = events.filter(e=>e.channels.length>0).length;
 
-  /* ── Resumen ─────────────────────────────────────────────── */
   console.log('\n════ RESUMEN ════');
   events.forEach(ev => {
-    if (ev.channels.length > 0) {
-      console.log(`  ✅ ${ev.time} | ${ev.match}`);
-      ev.channels.forEach(c => console.log(`     → ${c.name}: ${c.href.slice(0,80)}`));
-    } else {
-      console.log(`  ○  ${ev.time} | ${ev.match} (sin canales)`);
-    }
+    const mark = ev.channels.length > 0 ? '✅' : '○ ';
+    console.log(`${mark} ${ev.time} | ${ev.match} (${ev.channels.length} canales)`);
+    ev.channels.forEach(c => console.log(`    → ${c.name}: ${c.href.slice(0,80)}`));
   });
-  console.log(`════════════════`);
-  console.log(`Total: ${events.length} | Con canales: ${finalWithCh}\n`);
+  console.log(`════ Total:${events.length} | Con canales:${withCh} ════\n`);
 
   const output = {
     actualizado_en     : new Date().toISOString(),
     fecha              : new Date().toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long'}),
     fuente             : source,
     contar             : events.length,
-    contar_con_canales : finalWithCh,
+    contar_con_canales : withCh,
     events,
-    eventos: events
+    eventos            : events
   };
 
-  fs.writeFileSync(
-    path.join(process.cwd(), 'eventos.json'),
-    JSON.stringify(output, null, 2),
-    'utf-8'
-  );
-
-  console.log(`✅ LISTO | ${source} | ${events.length} eventos | ${finalWithCh} con canales`);
+  fs.writeFileSync(path.join(process.cwd(),'eventos.json'), JSON.stringify(output,null,2), 'utf-8');
+  console.log(`✅ LISTO | ${source} | ${events.length} | canales:${withCh}`);
   if (events.length === 0) process.exit(1);
 }
 
-main().catch(e => { console.error('ERROR FATAL:', e.message); process.exit(1); });
+main().catch(e => { console.error('FATAL:', e.message); process.exit(1); });
