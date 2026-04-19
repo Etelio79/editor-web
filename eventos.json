@@ -1,12 +1,13 @@
 {
-  "actualizado_en": "2026-04-19T00:11:29.372Z",
-  "fecha": "domingo, 19 de abril",
-  "fuente": "futbollibre-puppeteer",
-  "contar": 35,
-  "contar_con_canales": 34,
+  "actualizado_en": "2026-04-19T00:36:48.096Z",
+  "fecha": "sábado, 18 de abril",
+  "fuente": "futbollibre-titiritero",
+  "contar": 34,
+  "contar_con_canales": 33,
   "events": [
     {
       "time": "00:00",
+      "time_utc": "2026-04-18T05:00:00.000Z",
       "match": "Deportes Concepción vs La Serena",
       "league": "Primera División",
       "flag": "⚽",
@@ -23,6 +24,7 @@
     },
     {
       "time": "00:00",
+      "time_utc": "2026-04-18T05:00:00.000Z",
       "match": "Orense vs Delfin",
       "league": "Serie A",
       "flag": "⚽",
@@ -39,6 +41,7 @@
     },
     {
       "time": "00:30",
+      "time_utc": "2026-04-18T05:30:00.000Z",
       "match": "Playoffs Juego #1 – LA Lakers vs Houston Rockets",
       "league": "NBA",
       "flag": "⚽",
@@ -63,6 +66,7 @@
     },
     {
       "time": "00:45",
+      "time_utc": "2026-04-18T05:45:00.000Z",
       "match": "Argentinos Juniors vs Atlético Tucumán",
       "league": "Liga Profesional",
       "flag": "⚽",
@@ -87,6 +91,7 @@
     },
     {
       "time": "01:00",
+      "time_utc": "2026-04-18T06:00:00.000Z",
       "match": "Irapuato vs Mineros de Zacatecas",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
@@ -103,6 +108,7 @@
     },
     {
       "time": "01:00",
+      "time_utc": "2026-04-18T06:00:00.000Z",
       "match": "Alianza Lima vs Cusco",
       "league": "Liga 1",
       "flag": "⚽",
@@ -123,6 +129,7 @@
     },
     {
       "time": "01:05",
+      "time_utc": "2026-04-18T06:05:00.000Z",
       "match": "Guadalajara vs Puebla",
       "league": "Liga MX",
       "flag": "⚽",
@@ -147,6 +154,7 @@
     },
     {
       "time": "01:05",
+      "time_utc": "2026-04-18T06:05:00.000Z",
       "match": "Monterrey vs Pachuca",
       "league": "Liga MX",
       "flag": "⚽",
@@ -183,6 +191,7 @@
     },
     {
       "time": "01:30",
+      "time_utc": "2026-04-18T06:30:00.000Z",
       "match": "Brasil vs Canadá",
       "league": "Amistoso Internacional Femenino",
       "flag": "⚽",
@@ -215,6 +224,7 @@
     },
     {
       "time": "01:30",
+      "time_utc": "2026-04-18T06:30:00.000Z",
       "match": "Fortaleza CEIF vs Rionegro Águilas",
       "league": "Categoría Primera A",
       "flag": "⚽",
@@ -235,6 +245,7 @@
     },
     {
       "time": "01:30",
+      "time_utc": "2026-04-18T06:30:00.000Z",
       "match": "Choloma vs Olimpia",
       "league": "Liga Nacional",
       "flag": "⚽",
@@ -259,6 +270,7 @@
     },
     {
       "time": "02:00",
+      "time_utc": "2026-04-18T07:00:00.000Z",
       "match": "Herediano vs San Carlos",
       "league": "Primera División",
       "flag": "⚽",
@@ -279,6 +291,7 @@
     },
     {
       "time": "03:10",
+      "time_utc": "2026-04-18T08:10:00.000Z",
       "match": "América vs Toluca",
       "league": "Liga MX",
       "flag": "⚽",
@@ -298,34 +311,20 @@
       ]
     },
     {
-      "time": "21:15",
-      "match": "Guaraní vs Sportivo Luqueño",
-      "league": "Primera División",
+      "time": "21:30",
+      "time_utc": "2026-04-19T02:30:00.000Z",
+      "match": "Vasco da Gama vs São Paulo",
+      "league": "Brasileirão",
       "flag": "⚽",
       "channels": []
     },
     {
       "time": "21:30",
-      "match": "Vasco da Gama vs São Paulo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Amazon Prime C",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1hbWF6b25fcHJpbWUx"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
+      "time_utc": "2026-04-19T02:30:00.000Z",
       "match": "Chapecoense vs Botafogo",
       "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "Amazon Prime C",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1hbWF6b25fcHJpbWUx"
-        },
         {
           "name": "fanatiz 06",
           "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWZhbmF0aXo2"
@@ -338,6 +337,7 @@
     },
     {
       "time": "21:30",
+      "time_utc": "2026-04-19T02:30:00.000Z",
       "match": "Everton vs Universidad Chile",
       "league": "Primera División",
       "flag": "⚽",
@@ -358,6 +358,7 @@
     },
     {
       "time": "21:30",
+      "time_utc": "2026-04-19T02:30:00.000Z",
       "match": "Universidad Católica vs Libertad",
       "league": "Serie A",
       "flag": "⚽",
@@ -374,6 +375,7 @@
     },
     {
       "time": "22:00",
+      "time_utc": "2026-04-19T03:00:00.000Z",
       "match": "Bermudas vs Granada",
       "league": "Campeonato W de CONCACAF",
       "flag": "⚽",
@@ -390,6 +392,7 @@
     },
     {
       "time": "22:30",
+      "time_utc": "2026-04-19T03:30:00.000Z",
       "match": "Independiente vs Defensa y Justicia",
       "league": "Liga Profesional",
       "flag": "⚽",
@@ -418,6 +421,7 @@
     },
     {
       "time": "22:30",
+      "time_utc": "2026-04-19T03:30:00.000Z",
       "match": "Sport Huancayo vs Deportivo Garcilaso",
       "league": "Liga 1",
       "flag": "⚽",
@@ -450,6 +454,7 @@
     },
     {
       "time": "23:00",
+      "time_utc": "2026-04-19T04:00:00.000Z",
       "match": "Cruz Azul vs Tijuana",
       "league": "Liga MX",
       "flag": "⚽",
@@ -482,6 +487,7 @@
     },
     {
       "time": "23:00",
+      "time_utc": "2026-04-19T04:00:00.000Z",
       "match": "Argentina vs Colombia",
       "league": "CONMEBOL Nations League Femenina",
       "flag": "⚽",
@@ -510,6 +516,7 @@
     },
     {
       "time": "23:00",
+      "time_utc": "2026-04-19T04:00:00.000Z",
       "match": "Necaxa vs Tigres UANL",
       "league": "Liga MX",
       "flag": "⚽",
@@ -534,6 +541,7 @@
     },
     {
       "time": "23:00",
+      "time_utc": "2026-04-19T04:00:00.000Z",
       "match": "Vitória vs Corinthians",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -562,6 +570,7 @@
     },
     {
       "time": "23:00",
+      "time_utc": "2026-04-19T04:00:00.000Z",
       "match": "Tlaxcala vs Venados",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
@@ -582,6 +591,7 @@
     },
     {
       "time": "23:10",
+      "time_utc": "2026-04-19T04:10:00.000Z",
       "match": "Deportes Tolima vs Deportivo Pereira",
       "league": "Categoría Primera A",
       "flag": "⚽",
@@ -602,6 +612,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "New England vs Columbus Crew",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -622,6 +633,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Orlando City SC vs Houston Dynamo",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -638,6 +650,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Cincinnati vs Chicago Fire",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -654,6 +667,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Cruzeiro vs Grêmio",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -670,6 +684,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "New York City vs Charlotte",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -686,6 +701,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Philadelphia Union vs DC United",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -702,6 +718,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Deportivo Recoleta vs 2 de Mayo",
       "league": "Primera División",
       "flag": "⚽",
@@ -714,6 +731,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Atlanta United vs Nashville SC",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -728,6 +746,7 @@
   "eventos": [
     {
       "time": "00:00",
+      "time_utc": "2026-04-18T05:00:00.000Z",
       "match": "Deportes Concepción vs La Serena",
       "league": "Primera División",
       "flag": "⚽",
@@ -744,6 +763,7 @@
     },
     {
       "time": "00:00",
+      "time_utc": "2026-04-18T05:00:00.000Z",
       "match": "Orense vs Delfin",
       "league": "Serie A",
       "flag": "⚽",
@@ -760,6 +780,7 @@
     },
     {
       "time": "00:30",
+      "time_utc": "2026-04-18T05:30:00.000Z",
       "match": "Playoffs Juego #1 – LA Lakers vs Houston Rockets",
       "league": "NBA",
       "flag": "⚽",
@@ -784,6 +805,7 @@
     },
     {
       "time": "00:45",
+      "time_utc": "2026-04-18T05:45:00.000Z",
       "match": "Argentinos Juniors vs Atlético Tucumán",
       "league": "Liga Profesional",
       "flag": "⚽",
@@ -808,6 +830,7 @@
     },
     {
       "time": "01:00",
+      "time_utc": "2026-04-18T06:00:00.000Z",
       "match": "Irapuato vs Mineros de Zacatecas",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
@@ -824,6 +847,7 @@
     },
     {
       "time": "01:00",
+      "time_utc": "2026-04-18T06:00:00.000Z",
       "match": "Alianza Lima vs Cusco",
       "league": "Liga 1",
       "flag": "⚽",
@@ -844,6 +868,7 @@
     },
     {
       "time": "01:05",
+      "time_utc": "2026-04-18T06:05:00.000Z",
       "match": "Guadalajara vs Puebla",
       "league": "Liga MX",
       "flag": "⚽",
@@ -868,6 +893,7 @@
     },
     {
       "time": "01:05",
+      "time_utc": "2026-04-18T06:05:00.000Z",
       "match": "Monterrey vs Pachuca",
       "league": "Liga MX",
       "flag": "⚽",
@@ -904,6 +930,7 @@
     },
     {
       "time": "01:30",
+      "time_utc": "2026-04-18T06:30:00.000Z",
       "match": "Brasil vs Canadá",
       "league": "Amistoso Internacional Femenino",
       "flag": "⚽",
@@ -936,6 +963,7 @@
     },
     {
       "time": "01:30",
+      "time_utc": "2026-04-18T06:30:00.000Z",
       "match": "Fortaleza CEIF vs Rionegro Águilas",
       "league": "Categoría Primera A",
       "flag": "⚽",
@@ -956,6 +984,7 @@
     },
     {
       "time": "01:30",
+      "time_utc": "2026-04-18T06:30:00.000Z",
       "match": "Choloma vs Olimpia",
       "league": "Liga Nacional",
       "flag": "⚽",
@@ -980,6 +1009,7 @@
     },
     {
       "time": "02:00",
+      "time_utc": "2026-04-18T07:00:00.000Z",
       "match": "Herediano vs San Carlos",
       "league": "Primera División",
       "flag": "⚽",
@@ -1000,6 +1030,7 @@
     },
     {
       "time": "03:10",
+      "time_utc": "2026-04-18T08:10:00.000Z",
       "match": "América vs Toluca",
       "league": "Liga MX",
       "flag": "⚽",
@@ -1019,34 +1050,20 @@
       ]
     },
     {
-      "time": "21:15",
-      "match": "Guaraní vs Sportivo Luqueño",
-      "league": "Primera División",
+      "time": "21:30",
+      "time_utc": "2026-04-19T02:30:00.000Z",
+      "match": "Vasco da Gama vs São Paulo",
+      "league": "Brasileirão",
       "flag": "⚽",
       "channels": []
     },
     {
       "time": "21:30",
-      "match": "Vasco da Gama vs São Paulo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Amazon Prime C",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1hbWF6b25fcHJpbWUx"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
+      "time_utc": "2026-04-19T02:30:00.000Z",
       "match": "Chapecoense vs Botafogo",
       "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "Amazon Prime C",
-          "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1hbWF6b25fcHJpbWUx"
-        },
         {
           "name": "fanatiz 06",
           "href": "https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWZhbmF0aXo2"
@@ -1059,6 +1076,7 @@
     },
     {
       "time": "21:30",
+      "time_utc": "2026-04-19T02:30:00.000Z",
       "match": "Everton vs Universidad Chile",
       "league": "Primera División",
       "flag": "⚽",
@@ -1079,6 +1097,7 @@
     },
     {
       "time": "21:30",
+      "time_utc": "2026-04-19T02:30:00.000Z",
       "match": "Universidad Católica vs Libertad",
       "league": "Serie A",
       "flag": "⚽",
@@ -1095,6 +1114,7 @@
     },
     {
       "time": "22:00",
+      "time_utc": "2026-04-19T03:00:00.000Z",
       "match": "Bermudas vs Granada",
       "league": "Campeonato W de CONCACAF",
       "flag": "⚽",
@@ -1111,6 +1131,7 @@
     },
     {
       "time": "22:30",
+      "time_utc": "2026-04-19T03:30:00.000Z",
       "match": "Independiente vs Defensa y Justicia",
       "league": "Liga Profesional",
       "flag": "⚽",
@@ -1139,6 +1160,7 @@
     },
     {
       "time": "22:30",
+      "time_utc": "2026-04-19T03:30:00.000Z",
       "match": "Sport Huancayo vs Deportivo Garcilaso",
       "league": "Liga 1",
       "flag": "⚽",
@@ -1171,6 +1193,7 @@
     },
     {
       "time": "23:00",
+      "time_utc": "2026-04-19T04:00:00.000Z",
       "match": "Cruz Azul vs Tijuana",
       "league": "Liga MX",
       "flag": "⚽",
@@ -1203,6 +1226,7 @@
     },
     {
       "time": "23:00",
+      "time_utc": "2026-04-19T04:00:00.000Z",
       "match": "Argentina vs Colombia",
       "league": "CONMEBOL Nations League Femenina",
       "flag": "⚽",
@@ -1231,6 +1255,7 @@
     },
     {
       "time": "23:00",
+      "time_utc": "2026-04-19T04:00:00.000Z",
       "match": "Necaxa vs Tigres UANL",
       "league": "Liga MX",
       "flag": "⚽",
@@ -1255,6 +1280,7 @@
     },
     {
       "time": "23:00",
+      "time_utc": "2026-04-19T04:00:00.000Z",
       "match": "Vitória vs Corinthians",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -1283,6 +1309,7 @@
     },
     {
       "time": "23:00",
+      "time_utc": "2026-04-19T04:00:00.000Z",
       "match": "Tlaxcala vs Venados",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
@@ -1303,6 +1330,7 @@
     },
     {
       "time": "23:10",
+      "time_utc": "2026-04-19T04:10:00.000Z",
       "match": "Deportes Tolima vs Deportivo Pereira",
       "league": "Categoría Primera A",
       "flag": "⚽",
@@ -1323,6 +1351,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "New England vs Columbus Crew",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -1343,6 +1372,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Orlando City SC vs Houston Dynamo",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -1359,6 +1389,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Cincinnati vs Chicago Fire",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -1375,6 +1406,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Cruzeiro vs Grêmio",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -1391,6 +1423,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "New York City vs Charlotte",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -1407,6 +1440,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Philadelphia Union vs DC United",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -1423,6 +1457,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Deportivo Recoleta vs 2 de Mayo",
       "league": "Primera División",
       "flag": "⚽",
@@ -1435,6 +1470,7 @@
     },
     {
       "time": "23:30",
+      "time_utc": "2026-04-19T04:30:00.000Z",
       "match": "Atlanta United vs Nashville SC",
       "league": "Major League Soccer",
       "flag": "⚽",
