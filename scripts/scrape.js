@@ -6,39 +6,67 @@ const https     = require('https');
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // Convierte "19:00" (hora Colombia, UTC-5) a ISO UTC
-// Ejemplo: "19:00" → "2026-04-19T00:00:00.000Z"
 function timeColombiaToUTC(timeStr) {
   const [h, m] = timeStr.split(':').map(Number);
   const now = new Date();
-  // Tomamos la fecha de HOY en Colombia (UTC-5)
-  // Para saber qué fecha es en Colombia, restamos 5h al UTC actual
-  const bogotaOffset = 5 * 60 * 60 * 1000; // UTC-5 en ms
+  const bogotaOffset = 5 * 60 * 60 * 1000;
   const nowBogota = new Date(now.getTime() - bogotaOffset);
   const utc = new Date(Date.UTC(
     nowBogota.getUTCFullYear(),
     nowBogota.getUTCMonth(),
     nowBogota.getUTCDate(),
-    h + 5,  // convertir hora Colombia → UTC sumando 5h
+    h + 5,
     m
   ));
   return utc.toISOString();
 }
 
+// ── FIX #2: fetchJson ahora valida el HTTP status antes de parsear ──────────
+// Antes: si el servidor respondía HTML (404/500), JSON.parse explotaba con
+//        "JSON inválido". Ahora se lanza un error descriptivo.
 function fetchJson(url) {
   return new Promise((resolve, reject) => {
     const req = https.get(url, {
       headers: { 'User-Agent': 'SportStreamBot/1.0' }
     }, res => {
+      // Rechazar si el servidor no devuelve 2xx
+      if (res.statusCode < 200 || res.statusCode >= 300) {
+        res.resume(); // descartar cuerpo
+        return reject(new Error(`HTTP ${res.statusCode} en ${url}`));
+      }
       const chunks = [];
       res.on('data', c => chunks.push(c));
       res.on('end', () => {
-        try { resolve(JSON.parse(Buffer.concat(chunks).toString())); }
-        catch(e) { reject(new Error('JSON invalido')); }
+        const raw = Buffer.concat(chunks).toString();
+        try { resolve(JSON.parse(raw)); }
+        catch(e) {
+          // Loguear los primeros 200 chars para diagnóstico
+          console.warn(`[API] Respuesta no-JSON (${raw.slice(0,200)})`);
+          reject(new Error('JSON inválido'));
+        }
       });
     });
     req.on('error', reject);
     req.setTimeout(15000, () => { req.destroy(); reject(new Error('Timeout')); });
   });
+}
+
+/**
+ * Decodifica la URL real desde un enlace embed de futbollibre.
+ * Entrada:  https://futbollibre.ec/embed/eventos.html?r=aHR0cHM6Ly90dnR2...
+ * Salida:   https://tvtvhd.com/vivo/canales.php?stream=espn
+ */
+function decodeEmbedUrl(href) {
+  try {
+    const url = new URL(href);
+    const r = url.searchParams.get('r');
+    if (!r) return href;
+    const decoded = Buffer.from(r, 'base64').toString('utf-8');
+    new URL(decoded); // valida que sea URL real
+    return decoded;
+  } catch {
+    return href;
+  }
 }
 
 async function scrapeFutbolLibre() {
@@ -58,7 +86,6 @@ async function scrapeFutbolLibre() {
   try {
     const page = await browser.newPage();
 
-    // NO bloquear CSS — el modal puede depender de estilos para mostrarse
     await page.setRequestInterception(true);
     page.on('request', req => {
       const type = req.resourceType();
@@ -74,17 +101,49 @@ async function scrapeFutbolLibre() {
     console.log('[PUP] Cargando futbollibre.ec...');
     await page.goto('https://futbollibre.ec', { waitUntil: 'networkidle2', timeout: 45000 });
 
-    try {
-      await page.waitForFunction(
-        () => document.body.innerText.match(/\d{1,2}:\d{2}/),
-        { timeout: 15000 }
-      );
-      console.log('[PUP] Horas detectadas');
-    } catch(e) { console.warn('[PUP] Sin horas'); }
+    // ── FIX #1: esperar horas con reintentos + scroll ──────────────────────
+    // Problema: a las 2 AM la página carga pero sin eventos, O el contenido
+    // es lazy-loaded y networkidle2 termina antes de que el JS pinte las cards.
+    // Solución: intentar 3 veces, scrolleando la página entre intentos para
+    // forzar la carga de contenido dinámico.
+    let horasDetectadas = false;
+    for (let intento = 1; intento <= 3; intento++) {
+      try {
+        await page.waitForFunction(
+          () => document.body.innerText.match(/\d{1,2}:\d{2}/),
+          { timeout: 8000 }
+        );
+        horasDetectadas = true;
+        console.log(`[PUP] Horas detectadas (intento ${intento})`);
+        break;
+      } catch {
+        console.warn(`[PUP] Sin horas (intento ${intento}/3), scrolleando...`);
+        // Scroll gradual para activar lazy-loading
+        await page.evaluate(async () => {
+          for (let y = 0; y < document.body.scrollHeight; y += 300) {
+            window.scrollTo(0, y);
+            await new Promise(r => setTimeout(r, 150));
+          }
+          window.scrollTo(0, 0);
+        });
+        await sleep(1500);
+      }
+    }
+
+    if (!horasDetectadas) {
+      // Determinar si es horario "muerto" (antes de las 8 AM Colombia)
+      const horaColombia = new Date(Date.now() - 5 * 3600_000).getUTCHours();
+      if (horaColombia < 8) {
+        console.log(`[PUP] Son las ${horaColombia}h Colombia — normal que no haya eventos aún.`);
+      } else {
+        console.warn('[PUP] Sin horas en horario activo — posible cambio en la web.');
+      }
+      return []; // devolver vacío sin lanzar error
+    }
 
     await sleep(1000);
 
-    // PASO 1: contar cuantos nodos de hora hay
+    // PASO 1: contar nodos de hora
     const eventCount = await page.evaluate(() => {
       const timeRx = /^\d{1,2}:\d{2}$/;
       const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
@@ -99,7 +158,7 @@ async function scrapeFutbolLibre() {
 
     const events = [];
 
-    // PASO 2: clic en cada evento por indice y leer canales visibles
+    // PASO 2: clic en cada evento por índice
     for (let idx = 0; idx < eventCount; idx++) {
 
       const result = await page.evaluate(async (index) => {
@@ -151,10 +210,10 @@ async function scrapeFutbolLibre() {
       if (!result || !result.match || result.match.length < 4) continue;
 
       // Esperar modal y buscar links VISIBLES
-      let channels = [];
+      let rawChannels = [];
       for (let t = 0; t < 10; t++) {
         await sleep(400);
-        channels = await page.evaluate(() => {
+        rawChannels = await page.evaluate(() => {
           const results = [];
           const seen    = new Set();
 
@@ -164,8 +223,7 @@ async function scrapeFutbolLibre() {
             if (!href.includes('?r=')) return;
             if (seen.has(href)) return;
 
-            // Solo links visibles en pantalla ahora
-            const rect = a.getBoundingClientRect();
+            const rect  = a.getBoundingClientRect();
             const style = window.getComputedStyle(a);
             const isVisible = rect.width > 0 && rect.height > 0
               && style.display !== 'none'
@@ -183,12 +241,18 @@ async function scrapeFutbolLibre() {
           return results;
         });
 
-        if (channels.length > 0) break;
+        if (rawChannels.length > 0) break;
       }
 
+      // Decodificar Base64 → URL real
+      const channels = rawChannels.map(ch => ({
+        name: ch.name,
+        href: decodeEmbedUrl(ch.href),
+      }));
+
       events.push({
-        time     : result.time,           // "19:00" — hora Colombia, se mantiene para compatibilidad
-        time_utc : timeColombiaToUTC(result.time), // ISO UTC — el frontend lo convierte a hora local
+        time     : result.time,
+        time_utc : timeColombiaToUTC(result.time),
         match    : result.match,
         league   : result.league,
         flag     : '⚽',
@@ -197,7 +261,7 @@ async function scrapeFutbolLibre() {
 
       if (channels.length > 0) {
         console.log(`OK ${result.time} | ${result.match} -> ${channels.length} canales`);
-        channels.forEach(c => console.log(`   ${c.name}: ${c.href.slice(0, 80)}`));
+        channels.forEach(c => console.log(`   ${c.name}: ${c.href}`));
       } else {
         console.log(`-- ${result.time} | ${result.match} -> sin canales`);
       }
@@ -260,7 +324,6 @@ async function main() {
 
   const output = {
     actualizado_en     : new Date().toISOString(),
-    // fecha en hora Colombia para referencia del servidor
     fecha              : new Date().toLocaleDateString('es-ES', {
                            weekday: 'long', day: 'numeric', month: 'long',
                            timeZone: 'America/Bogota'
@@ -279,7 +342,12 @@ async function main() {
   );
 
   console.log(`LISTO | ${source} | total:${events.length} | canales:${withCh}`);
-  if (events.length === 0) process.exit(1);
+
+  // ── FIX #3: no marcar el Action como fallido si simplemente no hay eventos ──
+  // Antes:  if (events.length === 0) process.exit(1)  ← falso positivo
+  // Ahora:  solo salir con error si el scraper lanzó una excepción real,
+  //         no por ausencia de partidos (común de madrugada).
+  // process.exit(0) es el comportamiento por defecto, no hace falta llamarlo.
 }
 
 main().catch(e => { console.error('ERROR FATAL:', e); process.exit(1); });
