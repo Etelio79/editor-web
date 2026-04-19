@@ -5,6 +5,25 @@ const https     = require('https');
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+// Convierte "19:00" (hora Colombia, UTC-5) a ISO UTC
+// Ejemplo: "19:00" → "2026-04-19T00:00:00.000Z"
+function timeColombiaToUTC(timeStr) {
+  const [h, m] = timeStr.split(':').map(Number);
+  const now = new Date();
+  // Tomamos la fecha de HOY en Colombia (UTC-5)
+  // Para saber qué fecha es en Colombia, restamos 5h al UTC actual
+  const bogotaOffset = 5 * 60 * 60 * 1000; // UTC-5 en ms
+  const nowBogota = new Date(now.getTime() - bogotaOffset);
+  const utc = new Date(Date.UTC(
+    nowBogota.getUTCFullYear(),
+    nowBogota.getUTCMonth(),
+    nowBogota.getUTCDate(),
+    h + 5,  // convertir hora Colombia → UTC sumando 5h
+    m
+  ));
+  return utc.toISOString();
+}
+
 function fetchJson(url) {
   return new Promise((resolve, reject) => {
     const req = https.get(url, {
@@ -168,10 +187,11 @@ async function scrapeFutbolLibre() {
       }
 
       events.push({
-        time    : result.time,
-        match   : result.match,
-        league  : result.league,
-        flag    : '⚽',
+        time     : result.time,           // "19:00" — hora Colombia, se mantiene para compatibilidad
+        time_utc : timeColombiaToUTC(result.time), // ISO UTC — el frontend lo convierte a hora local
+        match    : result.match,
+        league   : result.league,
+        flag     : '⚽',
         channels
       });
 
@@ -210,7 +230,7 @@ async function main() {
 
   try {
     events = await scrapeFutbolLibre();
-    if (events.length > 0) source = 'futbollibre-puppeteer';
+    if (events.length > 0) source = 'futbollibre-titiritero';
   } catch(e) {
     console.warn(`[PUP] FALLO: ${e.message}`);
   }
@@ -240,7 +260,11 @@ async function main() {
 
   const output = {
     actualizado_en     : new Date().toISOString(),
-    fecha              : new Date().toLocaleDateString('es-ES', { weekday:'long', day:'numeric', month:'long' }),
+    // fecha en hora Colombia para referencia del servidor
+    fecha              : new Date().toLocaleDateString('es-ES', {
+                           weekday: 'long', day: 'numeric', month: 'long',
+                           timeZone: 'America/Bogota'
+                         }),
     fuente             : source,
     contar             : events.length,
     contar_con_canales : withCh,
