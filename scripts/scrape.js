@@ -161,6 +161,24 @@ async function scrapeFutbolLibre() {
     // PASO 2: clic en cada evento por índice
     for (let idx = 0; idx < eventCount; idx++) {
 
+      // ── PASO 2A: SNAPSHOT de enlaces VISIBLES antes del click ─────────────
+      // Capturamos los hrefs visibles ANTES de hacer click, para luego comparar
+      // y obtener SOLO los nuevos (los del evento actual).
+      const linksBefore = await page.evaluate(() => {
+        const set = new Set();
+        document.querySelectorAll('a[href*="futbollibre.ec/embed/eventos.html"][href*="?r="]').forEach(a => {
+          const rect = a.getBoundingClientRect();
+          const style = window.getComputedStyle(a);
+          const isVisible = rect.width > 0 && rect.height > 0
+            && style.display !== 'none'
+            && style.visibility !== 'hidden'
+            && style.opacity !== '0';
+          if (isVisible) set.add(a.href);
+        });
+        return Array.from(set);
+      });
+
+      // ── PASO 2B: localizar el evento, marcarlo y hacer click ──────────────
       const result = await page.evaluate(async (index) => {
         const timeRx = /^\d{1,2}:\d{2}$/;
         const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
@@ -201,6 +219,10 @@ async function scrapeFutbolLibre() {
           match  = matchTitle.split(':').slice(1).join(':').trim();
         }
 
+        // Marcamos el contenedor del evento actual con un atributo único
+        // para luego buscar canales SOLO dentro de él (estrategia acordeón)
+        container.setAttribute('data-current-event', 'true');
+
         container.scrollIntoView({ behavior: 'instant', block: 'center' });
         container.click();
 
@@ -209,27 +231,61 @@ async function scrapeFutbolLibre() {
 
       if (!result || !result.match || result.match.length < 4) continue;
 
-      // Esperar modal y buscar links VISIBLES
+      // ── PASO 2C: esperar y capturar SOLO los canales del evento actual ────
       let rawChannels = [];
       for (let t = 0; t < 10; t++) {
         await sleep(400);
-        rawChannels = await page.evaluate(() => {
-          const results = [];
-          const seen    = new Set();
 
-          document.querySelectorAll('a[href]').forEach(a => {
+        rawChannels = await page.evaluate((linksBeforeArr) => {
+          const beforeSet = new Set(linksBeforeArr);
+          const results = [];
+          const seen = new Set();
+
+          // ESTRATEGIA 1 (Modal): Buscar canales en un modal/dialog visible
+          // pero validando que sean enlaces NUEVOS (no estaban antes del click)
+          let modalLinks = [];
+          const modal = document.querySelector('[role="dialog"]')
+                     || Array.from(document.querySelectorAll('[class*="modal"], [class*="Modal"], [class*="popup"], [class*="Popup"], [class*="overlay"], [class*="Overlay"]'))
+                          .find(el => {
+                            const rect = el.getBoundingClientRect();
+                            const style = window.getComputedStyle(el);
+                            return rect.width > 100 && rect.height > 100
+                              && style.display !== 'none'
+                              && style.visibility !== 'hidden'
+                              && style.opacity !== '0';
+                          });
+
+          if (modal) {
+            modalLinks = Array.from(modal.querySelectorAll('a[href*="futbollibre.ec/embed/eventos.html"][href*="?r="]'));
+          }
+
+          // ESTRATEGIA 2 (Acordeón): Buscar dentro del contenedor del evento
+          // que marcamos antes del click
+          const eventContainer = document.querySelector('[data-current-event="true"]');
+          let accordionLinks = [];
+          if (eventContainer) {
+            accordionLinks = Array.from(eventContainer.querySelectorAll('a[href*="futbollibre.ec/embed/eventos.html"][href*="?r="]'));
+          }
+
+          // Combinar ambas estrategias y filtrar solo enlaces NUEVOS
+          const allCandidates = [...modalLinks, ...accordionLinks];
+
+          allCandidates.forEach(a => {
             const href = a.href || '';
-            if (!href.includes('futbollibre.ec/embed/eventos.html')) return;
-            if (!href.includes('?r=')) return;
+            if (!href) return;
             if (seen.has(href)) return;
 
-            const rect  = a.getBoundingClientRect();
+            // ✅ CLAVE: solo aceptar enlaces NUEVOS (no estaban antes del click)
+            // Esto garantiza que solo capturamos canales del evento actual
+            if (beforeSet.has(href)) return;
+
+            // Verificar visibilidad
+            const rect = a.getBoundingClientRect();
             const style = window.getComputedStyle(a);
             const isVisible = rect.width > 0 && rect.height > 0
               && style.display !== 'none'
               && style.visibility !== 'hidden'
               && style.opacity !== '0';
-
             if (!isVisible) return;
 
             seen.add(href);
@@ -238,11 +294,40 @@ async function scrapeFutbolLibre() {
             results.push({ name, href });
           });
 
+          // FALLBACK: si no encontramos nada con las estrategias anteriores,
+          // tomamos los enlaces visibles que NO estaban antes (cualquier ubicación)
+          if (results.length === 0) {
+            document.querySelectorAll('a[href*="futbollibre.ec/embed/eventos.html"][href*="?r="]').forEach(a => {
+              const href = a.href || '';
+              if (seen.has(href)) return;
+              if (beforeSet.has(href)) return; // solo nuevos
+
+              const rect = a.getBoundingClientRect();
+              const style = window.getComputedStyle(a);
+              const isVisible = rect.width > 0 && rect.height > 0
+                && style.display !== 'none'
+                && style.visibility !== 'hidden'
+                && style.opacity !== '0';
+              if (!isVisible) return;
+
+              seen.add(href);
+              const name = a.textContent?.replace(/[▶►•\-\s]+/g, ' ').trim()
+                        || `Canal ${results.length + 1}`;
+              results.push({ name, href });
+            });
+          }
+
           return results;
-        });
+        }, linksBefore);
 
         if (rawChannels.length > 0) break;
       }
+
+      // Limpiar el marcador del evento actual
+      await page.evaluate(() => {
+        const el = document.querySelector('[data-current-event="true"]');
+        if (el) el.removeAttribute('data-current-event');
+      });
 
       // Decodificar Base64 → URL real
       const channels = rawChannels.map(ch => ({
