@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-04-26T11:48:09.942Z",
+  "actualizado_en": "2026-04-26T12:37:45.657Z",
   "fecha": "domingo, 26 de abril",
   "fuente": "futbollibre-titiritero",
-  "contar": 81,
-  "contar_con_canales": 80,
+  "contar": 80,
+  "contar_con_canales": 79,
   "events": [
     {
       "time": "01:00",
@@ -25,10 +25,6 @@
       "league": "Liga MX",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
-        },
         {
           "name": "Canal 5 MX",
           "href": "https://tvtvhd.com/canales.php?stream=canal5"
@@ -55,33 +51,28 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
           "name": "Win Sports +",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
         },
         {
           "name": "Win Sports + | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
-        }
-      ]
-    },
-    {
-      "time": "09:00",
-      "time_utc": "2026-04-26T14:00:00.000Z",
-      "match": "MotoGP – GP Estrella Galicia – Moto3 / Moto2 / MotoGP",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         }
       ]
     },
@@ -147,18 +138,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
-        },
-        {
           "name": "ESPN 2 NL",
           "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
         }
@@ -171,10 +150,6 @@
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
-        },
         {
           "name": "ESPN",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
@@ -212,6 +187,34 @@
       "league": "Women's Super League",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "ESPN MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
+        },
         {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
@@ -271,14 +274,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
           "name": "Fox Sports",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
         },
@@ -316,6 +311,10 @@
       "league": "Bundesliga 2",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        },
         {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney3"
@@ -371,34 +370,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "ESPN Deportes",
-          "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
-        },
-        {
-          "name": "Sky Sports LaLiga MX",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
-        },
-        {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
         },
@@ -415,6 +386,14 @@
       "league": "Eredivisie",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        },
         {
           "name": "ESPN NL",
           "href": "https://tvtvhd.com/canales.php?stream=espn1_nl"
@@ -499,6 +478,30 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ESPN MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        },
+        {
           "name": "ESPN 4",
           "href": "https://tvtvhd.com/canales.php?stream=espn4"
         },
@@ -569,10 +572,6 @@
       "league": "Bundesliga",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney8"
-        },
         {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney9"
@@ -657,22 +656,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
-        },
-        {
-          "name": "ESPN",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
-        },
-        {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
         },
@@ -689,6 +672,14 @@
       "league": "LaLiga",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney12"
+        },
         {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
@@ -772,14 +763,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "LaLiga TV Hypermotion 2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=hypermotion2"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney11"
-        },
-        {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
         },
@@ -804,6 +787,22 @@
       "league": "Eredivisie Femenina",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
+        },
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        },
         {
           "name": "ESPN 2 NL",
           "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
@@ -836,10 +835,6 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney13"
-        },
-        {
-          "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney14"
         }
       ]
@@ -851,6 +846,10 @@
       "league": "Ligue 1",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney14"
+        },
         {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney15"
@@ -889,10 +888,6 @@
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney16"
-        },
         {
           "name": "Liga1MAX",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
@@ -964,10 +959,6 @@
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        },
         {
           "name": "ESPN 2 MX",
           "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
@@ -1043,6 +1034,30 @@
       "league": "LaLiga SmartBank",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
         {
           "name": "LaLiga TV Hypermotion 2",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=hypermotion2"
@@ -1207,14 +1222,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Liga1MAX",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
-        },
-        {
           "name": "BeIN Sports Ñ",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
         }
@@ -1227,6 +1234,10 @@
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        },
         {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
@@ -1241,7 +1252,7 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN",
+          "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
         },
         {
@@ -1354,10 +1365,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        },
-        {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
         }
@@ -1404,18 +1411,6 @@
       "league": "MLB",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        },
         {
           "name": "ESPN 5",
           "href": "https://tvtvhd.com/canales.php?stream=espn5"
@@ -1484,6 +1479,14 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ESPN Premium",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        },
+        {
           "name": "Liga1MAX",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
         },
@@ -1500,14 +1503,6 @@
       "league": "Liga Profesional",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "Liga1MAX",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
-        },
         {
           "name": "TNT Sports",
           "href": "https://tvtvhd.com/canales.php?stream=tntsports"
@@ -1681,6 +1676,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "FUTV",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even2"
+        },
+        {
           "name": "ESPN Premium",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
         },
@@ -1722,14 +1721,6 @@
       "league": "Liga MX",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "Liga1MAX",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
-        },
         {
           "name": "Canal 5 MX",
           "href": "https://tvtvhd.com/canales.php?stream=canal5"
@@ -1793,6 +1784,18 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
         }
@@ -1823,10 +1826,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3 MX",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3mx"
-        },
-        {
           "name": "ESPN 4",
           "href": "https://tvtvhd.com/canales.php?stream=espn4"
         },
@@ -1847,6 +1846,18 @@
       "league": "Categoría Primera A",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        },
         {
           "name": "Win Sports +",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
@@ -1889,14 +1900,6 @@
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "FOX Deportes",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
-        },
         {
           "name": "Futbol Canal",
           "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
@@ -1956,10 +1959,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 MX",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
-        },
-        {
           "name": "Canal 5 MX",
           "href": "https://tvtvhd.com/canales.php?stream=canal5"
         },
@@ -1985,33 +1984,28 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
           "name": "Win Sports +",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
         },
         {
           "name": "Win Sports + | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
-        }
-      ]
-    },
-    {
-      "time": "09:00",
-      "time_utc": "2026-04-26T14:00:00.000Z",
-      "match": "MotoGP – GP Estrella Galicia – Moto3 / Moto2 / MotoGP",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         }
       ]
     },
@@ -2077,18 +2071,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
-        },
-        {
           "name": "ESPN 2 NL",
           "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
         }
@@ -2101,10 +2083,6 @@
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
-        },
         {
           "name": "ESPN",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
@@ -2142,6 +2120,34 @@
       "league": "Women's Super League",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "ESPN MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
+        },
         {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
@@ -2201,14 +2207,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
           "name": "Fox Sports",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
         },
@@ -2246,6 +2244,10 @@
       "league": "Bundesliga 2",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        },
         {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney3"
@@ -2301,34 +2303,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "ESPN Deportes",
-          "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
-        },
-        {
-          "name": "Sky Sports LaLiga MX",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
-        },
-        {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
         },
@@ -2345,6 +2319,14 @@
       "league": "Eredivisie",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        },
         {
           "name": "ESPN NL",
           "href": "https://tvtvhd.com/canales.php?stream=espn1_nl"
@@ -2429,6 +2411,30 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ESPN MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        },
+        {
           "name": "ESPN 4",
           "href": "https://tvtvhd.com/canales.php?stream=espn4"
         },
@@ -2499,10 +2505,6 @@
       "league": "Bundesliga",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney8"
-        },
         {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney9"
@@ -2587,22 +2589,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
-        },
-        {
-          "name": "ESPN",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
-        },
-        {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
         },
@@ -2619,6 +2605,14 @@
       "league": "LaLiga",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney12"
+        },
         {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
@@ -2702,14 +2696,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "LaLiga TV Hypermotion 2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=hypermotion2"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney11"
-        },
-        {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
         },
@@ -2734,6 +2720,22 @@
       "league": "Eredivisie Femenina",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
+        },
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        },
         {
           "name": "ESPN 2 NL",
           "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
@@ -2766,10 +2768,6 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney13"
-        },
-        {
-          "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney14"
         }
       ]
@@ -2781,6 +2779,10 @@
       "league": "Ligue 1",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney14"
+        },
         {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=disney15"
@@ -2819,10 +2821,6 @@
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney16"
-        },
         {
           "name": "Liga1MAX",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
@@ -2894,10 +2892,6 @@
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        },
         {
           "name": "ESPN 2 MX",
           "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
@@ -2973,6 +2967,30 @@
       "league": "LaLiga SmartBank",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
         {
           "name": "LaLiga TV Hypermotion 2",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=hypermotion2"
@@ -3137,14 +3155,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Liga1MAX",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
-        },
-        {
           "name": "BeIN Sports Ñ",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
         }
@@ -3157,6 +3167,10 @@
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        },
         {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
@@ -3171,7 +3185,7 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN",
+          "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
         },
         {
@@ -3284,10 +3298,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        },
-        {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
         }
@@ -3334,18 +3344,6 @@
       "league": "MLB",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        },
         {
           "name": "ESPN 5",
           "href": "https://tvtvhd.com/canales.php?stream=espn5"
@@ -3414,6 +3412,14 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ESPN Premium",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        },
+        {
           "name": "Liga1MAX",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
         },
@@ -3430,14 +3436,6 @@
       "league": "Liga Profesional",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "Liga1MAX",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
-        },
         {
           "name": "TNT Sports",
           "href": "https://tvtvhd.com/canales.php?stream=tntsports"
@@ -3611,6 +3609,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "FUTV",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even2"
+        },
+        {
           "name": "ESPN Premium",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
         },
@@ -3652,14 +3654,6 @@
       "league": "Liga MX",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "Liga1MAX",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
-        },
         {
           "name": "Canal 5 MX",
           "href": "https://tvtvhd.com/canales.php?stream=canal5"
@@ -3723,6 +3717,18 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
           "name": "Disney+",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
         }
@@ -3753,10 +3759,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3 MX",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3mx"
-        },
-        {
           "name": "ESPN 4",
           "href": "https://tvtvhd.com/canales.php?stream=espn4"
         },
@@ -3777,6 +3779,18 @@
       "league": "Categoría Primera A",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        },
         {
           "name": "Win Sports +",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
@@ -3819,14 +3833,6 @@
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "FOX Deportes",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
-        },
         {
           "name": "Futbol Canal",
           "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
