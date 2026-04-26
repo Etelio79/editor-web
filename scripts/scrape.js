@@ -161,24 +161,7 @@ async function scrapeFutbolLibre() {
     // PASO 2: clic en cada evento por índice
     for (let idx = 0; idx < eventCount; idx++) {
 
-      // ── PASO 2A: SNAPSHOT de enlaces VISIBLES antes del click ─────────────
-      // Capturamos los hrefs visibles ANTES de hacer click, para luego comparar
-      // y obtener SOLO los nuevos (los del evento actual).
-      const linksBefore = await page.evaluate(() => {
-        const set = new Set();
-        document.querySelectorAll('a[href*="futbollibre.ec/embed/eventos.html"][href*="?r="]').forEach(a => {
-          const rect = a.getBoundingClientRect();
-          const style = window.getComputedStyle(a);
-          const isVisible = rect.width > 0 && rect.height > 0
-            && style.display !== 'none'
-            && style.visibility !== 'hidden'
-            && style.opacity !== '0';
-          if (isVisible) set.add(a.href);
-        });
-        return Array.from(set);
-      });
-
-      // ── PASO 2B: localizar el evento, marcarlo y hacer click ──────────────
+      // ── PASO 2A: localizar el evento, marcarlo y hacer click ──────────────
       const result = await page.evaluate(async (index) => {
         const timeRx = /^\d{1,2}:\d{2}$/;
         const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
@@ -219,9 +202,9 @@ async function scrapeFutbolLibre() {
           match  = matchTitle.split(':').slice(1).join(':').trim();
         }
 
-        // Marcamos el contenedor del evento actual con un atributo único
-        // para luego buscar canales SOLO dentro de él (estrategia acordeón)
-        container.setAttribute('data-current-event', 'true');
+        // Marcamos SOLO el contenedor del evento (sin subir niveles)
+        // Los canales aparecerán como hijos o hermanos cercanos al expandir
+        container.setAttribute('data-event-clicked', 'true');
 
         container.scrollIntoView({ behavior: 'instant', block: 'center' });
         container.click();
@@ -231,76 +214,27 @@ async function scrapeFutbolLibre() {
 
       if (!result || !result.match || result.match.length < 4) continue;
 
-      // ── PASO 2C: esperar y capturar SOLO los canales del evento actual ────
+      // ── PASO 2B: esperar a que aparezcan los canales del evento actual ────
+      // ESTRATEGIA: los canales son hijos del evento O hermanos siguientes
+      // que aparecen al expandir el acordeón. Buscamos en orden:
+      //   1) Hijos directos del evento clickeado (acordeón interno)
+      //   2) Hermanos siguientes inmediatos (acordeón externo)
+      //   3) Modal flotante (caso menos común)
       let rawChannels = [];
-      for (let t = 0; t < 10; t++) {
+      for (let t = 0; t < 12; t++) {
         await sleep(400);
 
-        rawChannels = await page.evaluate((linksBeforeArr) => {
-          const beforeSet = new Set(linksBeforeArr);
-          const results = [];
+        rawChannels = await page.evaluate(() => {
           const seen = new Set();
 
-          // ESTRATEGIA 1 (Modal): Buscar canales en un modal/dialog visible
-          // pero validando que sean enlaces NUEVOS (no estaban antes del click)
-          let modalLinks = [];
-          const modal = document.querySelector('[role="dialog"]')
-                     || Array.from(document.querySelectorAll('[class*="modal"], [class*="Modal"], [class*="popup"], [class*="Popup"], [class*="overlay"], [class*="Overlay"]'))
-                          .find(el => {
-                            const rect = el.getBoundingClientRect();
-                            const style = window.getComputedStyle(el);
-                            return rect.width > 100 && rect.height > 100
-                              && style.display !== 'none'
-                              && style.visibility !== 'hidden'
-                              && style.opacity !== '0';
-                          });
-
-          if (modal) {
-            modalLinks = Array.from(modal.querySelectorAll('a[href*="futbollibre.ec/embed/eventos.html"][href*="?r="]'));
-          }
-
-          // ESTRATEGIA 2 (Acordeón): Buscar dentro del contenedor del evento
-          // que marcamos antes del click
-          const eventContainer = document.querySelector('[data-current-event="true"]');
-          let accordionLinks = [];
-          if (eventContainer) {
-            accordionLinks = Array.from(eventContainer.querySelectorAll('a[href*="futbollibre.ec/embed/eventos.html"][href*="?r="]'));
-          }
-
-          // Combinar ambas estrategias y filtrar solo enlaces NUEVOS
-          const allCandidates = [...modalLinks, ...accordionLinks];
-
-          allCandidates.forEach(a => {
-            const href = a.href || '';
-            if (!href) return;
-            if (seen.has(href)) return;
-
-            // ✅ CLAVE: solo aceptar enlaces NUEVOS (no estaban antes del click)
-            // Esto garantiza que solo capturamos canales del evento actual
-            if (beforeSet.has(href)) return;
-
-            // Verificar visibilidad
-            const rect = a.getBoundingClientRect();
-            const style = window.getComputedStyle(a);
-            const isVisible = rect.width > 0 && rect.height > 0
-              && style.display !== 'none'
-              && style.visibility !== 'hidden'
-              && style.opacity !== '0';
-            if (!isVisible) return;
-
-            seen.add(href);
-            const name = a.textContent?.replace(/[▶►•\-\s]+/g, ' ').trim()
-                      || `Canal ${results.length + 1}`;
-            results.push({ name, href });
-          });
-
-          // FALLBACK: si no encontramos nada con las estrategias anteriores,
-          // tomamos los enlaces visibles que NO estaban antes (cualquier ubicación)
-          if (results.length === 0) {
-            document.querySelectorAll('a[href*="futbollibre.ec/embed/eventos.html"][href*="?r="]').forEach(a => {
+          // Helper: extraer canales VISIBLES dentro de un elemento
+          const extractFrom = (root) => {
+            if (!root) return [];
+            const found = [];
+            root.querySelectorAll('a[href*="futbollibre.ec/embed/eventos.html"][href*="?r="]').forEach(a => {
               const href = a.href || '';
+              if (!href) return;
               if (seen.has(href)) return;
-              if (beforeSet.has(href)) return; // solo nuevos
 
               const rect = a.getBoundingClientRect();
               const style = window.getComputedStyle(a);
@@ -312,21 +246,85 @@ async function scrapeFutbolLibre() {
 
               seen.add(href);
               const name = a.textContent?.replace(/[▶►•\-\s]+/g, ' ').trim()
-                        || `Canal ${results.length + 1}`;
-              results.push({ name, href });
+                        || `Canal ${found.length + 1}`;
+              found.push({ name, href });
             });
+            return found;
+          };
+
+          const eventClicked = document.querySelector('[data-event-clicked="true"]');
+          if (!eventClicked) return [];
+
+          const results = [];
+
+          // ESTRATEGIA 1: Canales como HIJOS del evento (acordeón anidado)
+          // Aparecen DENTRO del propio contenedor del evento
+          results.push(...extractFrom(eventClicked));
+          if (results.length > 0) return results;
+
+          // ESTRATEGIA 2: Canales como HERMANOS SIGUIENTES inmediatos
+          // El panel de canales se inserta justo después del evento.
+          // PERO debemos parar en el siguiente evento (el siguiente bloque
+          // que tenga su propia hora) para no robarle canales.
+          const timeRx = /^\d{1,2}:\d{2}$/;
+
+          // Función para detectar si un elemento contiene un nuevo evento
+          // (otro bloque con su propia hora)
+          const isNewEvent = (el) => {
+            if (!el) return false;
+            // Buscamos si el elemento contiene un texto que sea solo una hora
+            const textNodes = el.querySelectorAll('*');
+            for (const t of textNodes) {
+              if (t.children.length === 0 && timeRx.test(t.textContent.trim())) {
+                return true;
+              }
+            }
+            // O el elemento mismo es un texto de hora
+            if (el.children.length === 0 && timeRx.test(el.textContent.trim())) {
+              return true;
+            }
+            return false;
+          };
+
+          let sibling = eventClicked.nextElementSibling;
+          let depth = 0;
+          while (sibling && depth < 8) {
+            // ⛔ Si el siguiente hermano es un nuevo evento, detenemos la búsqueda
+            // para no incluir los canales del evento siguiente
+            if (isNewEvent(sibling)) break;
+
+            results.push(...extractFrom(sibling));
+            // Seguimos buscando incluso si encontramos canales en este sibling
+            // (puede haber múltiples siblings con canales antes del próximo evento)
+            sibling = sibling.nextElementSibling;
+            depth++;
+          }
+          if (results.length > 0) return results;
+
+          // ESTRATEGIA 3 (fallback): Modal/Dialog visible
+          const modal = document.querySelector('[role="dialog"]')
+                     || Array.from(document.querySelectorAll('[class*="modal"], [class*="Modal"], [class*="popup"], [class*="Popup"]'))
+                          .find(el => {
+                            const rect = el.getBoundingClientRect();
+                            const style = window.getComputedStyle(el);
+                            return rect.width > 100 && rect.height > 100
+                              && style.display !== 'none'
+                              && style.visibility !== 'hidden'
+                              && style.opacity !== '0';
+                          });
+          if (modal) {
+            results.push(...extractFrom(modal));
           }
 
           return results;
-        }, linksBefore);
+        });
 
         if (rawChannels.length > 0) break;
       }
 
-      // Limpiar el marcador del evento actual
+      // Limpiar marcador del evento actual
       await page.evaluate(() => {
-        const el = document.querySelector('[data-current-event="true"]');
-        if (el) el.removeAttribute('data-current-event');
+        document.querySelectorAll('[data-event-clicked="true"]').forEach(el => el.removeAttribute('data-event-clicked'));
       });
 
       // Decodificar Base64 → URL real
