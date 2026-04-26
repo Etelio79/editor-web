@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-04-26T22:52:39.240Z",
+  "actualizado_en": "2026-04-26T23:37:18.605Z",
   "fecha": "domingo, 26 de abril",
   "fuente": "futbollibre-titiritero",
-  "contar": 28,
-  "contar_con_canales": 0,
+  "contar": 26,
+  "contar_con_canales": 24,
   "events": [
     {
       "time": "01:00",
@@ -11,7 +11,16 @@
       "match": "Cancún vs Tapatío",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney10"
+        }
+      ]
     },
     {
       "time": "01:00",
@@ -19,7 +28,28 @@
       "match": "Cruz Azul vs Necaxa",
       "league": "Liga MX",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "VIX TUDN",
+          "href": "https://tvtvhd.com/canales.php?stream=vix1"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        }
+      ]
     },
     {
       "time": "01:20",
@@ -27,23 +57,16 @@
       "match": "Inter Bogotá vs Boyacá Chicó",
       "league": "Categoría Primera A",
       "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-04-27T01:00:00.000Z",
-      "match": "Arizona Diamondbacks vs San Diego Padres",
-      "league": "MLB",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-04-27T01:00:00.000Z",
-      "match": "Argentina  vs Colombia",
-      "league": "Sudamericano Sub-17 Femenino",
-      "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
     },
     {
       "time": "20:30",
@@ -51,7 +74,16 @@
       "match": "Belgrano vs Gimnasia La Plata",
       "league": "Liga Profesional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        }
+      ]
     },
     {
       "time": "20:30",
@@ -59,7 +91,16 @@
       "match": "Atlético Grau vs Alianza Lima",
       "league": "Liga 1",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Liga1MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
     },
     {
       "time": "20:30",
@@ -67,7 +108,24 @@
       "match": "Newell's Old Boys vs Instituto",
       "league": "Liga Profesional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TyC Sports Internacional",
+          "href": "https://tvtvhd.com/canales.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports International | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tycinternacional"
+        }
+      ]
     },
     {
       "time": "20:55",
@@ -75,7 +133,20 @@
       "match": "SR Americas – Tarucas vs Peñarol Rugby",
       "league": "Rugby",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
     },
     {
       "time": "21:00",
@@ -83,7 +154,16 @@
       "match": "Rionegro Águilas vs Once Caldas",
       "league": "Categoría Primera A",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
     },
     {
       "time": "21:15",
@@ -91,7 +171,12 @@
       "match": "Bolívar vs Real Tomayapo",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
     },
     {
       "time": "21:30",
@@ -99,7 +184,12 @@
       "match": "Everton vs Cobresal",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
     },
     {
       "time": "21:30",
@@ -115,7 +205,12 @@
       "match": "RB Bragantino vs Palmeiras",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Premiere 2 BR",
+          "href": "https://tvtvhd.com/canales.php?stream=premiere2"
+        }
+      ]
     },
     {
       "time": "22:00",
@@ -123,7 +218,12 @@
       "match": "Wanderers vs Peñarol",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
+        }
+      ]
     },
     {
       "time": "22:00",
@@ -131,7 +231,12 @@
       "match": "Municipal Liberia vs Alajuelense",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "FUTV",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even2"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -139,7 +244,16 @@
       "match": "Universitario vs Alianza Atlético",
       "league": "Liga 1",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Liga1MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -147,7 +261,20 @@
       "match": "Atlético Tucumán vs Banfield",
       "league": "Liga Profesional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney8"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -155,7 +282,28 @@
       "match": "Santos Laguna vs Monterrey",
       "league": "Liga MX",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -163,7 +311,20 @@
       "match": "Kansas City Royals vs Los Angeles Angels",
       "league": "MLB",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -171,7 +332,12 @@
       "match": "Bolivia  vs Paraguay",
       "league": "Sudamericano Sub-17 Femenino",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -179,7 +345,20 @@
       "match": "Montreal Canadiens vs Tampa Bay Lightning",
       "league": "NHL",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -187,7 +366,16 @@
       "match": "Tepatitlán vs Atlante",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 3 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        }
+      ]
     },
     {
       "time": "23:10",
@@ -195,7 +383,16 @@
       "match": "Llaneros vs Alianza",
       "league": "Categoría Primera A",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
     },
     {
       "time": "23:15",
@@ -203,7 +400,16 @@
       "match": "Motagua vs Choloma",
       "league": "Liga Nacional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
     },
     {
       "time": "23:30",
@@ -211,7 +417,12 @@
       "match": "Oriente Petrolero vs Real Potosí",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
     },
     {
       "time": "23:30",
@@ -219,7 +430,16 @@
       "match": "Atlético Mineiro vs Flamengo",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://tvtvhd.com/canales.php?stream=premiere1"
+        }
+      ]
     },
     {
       "time": "23:30",
@@ -237,7 +457,16 @@
       "match": "Cancún vs Tapatío",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney10"
+        }
+      ]
     },
     {
       "time": "01:00",
@@ -245,7 +474,28 @@
       "match": "Cruz Azul vs Necaxa",
       "league": "Liga MX",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "VIX TUDN",
+          "href": "https://tvtvhd.com/canales.php?stream=vix1"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        }
+      ]
     },
     {
       "time": "01:20",
@@ -253,23 +503,16 @@
       "match": "Inter Bogotá vs Boyacá Chicó",
       "league": "Categoría Primera A",
       "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-04-27T01:00:00.000Z",
-      "match": "Arizona Diamondbacks vs San Diego Padres",
-      "league": "MLB",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-04-27T01:00:00.000Z",
-      "match": "Argentina  vs Colombia",
-      "league": "Sudamericano Sub-17 Femenino",
-      "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
     },
     {
       "time": "20:30",
@@ -277,7 +520,16 @@
       "match": "Belgrano vs Gimnasia La Plata",
       "league": "Liga Profesional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        }
+      ]
     },
     {
       "time": "20:30",
@@ -285,7 +537,16 @@
       "match": "Atlético Grau vs Alianza Lima",
       "league": "Liga 1",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Liga1MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
     },
     {
       "time": "20:30",
@@ -293,7 +554,24 @@
       "match": "Newell's Old Boys vs Instituto",
       "league": "Liga Profesional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TyC Sports Internacional",
+          "href": "https://tvtvhd.com/canales.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports International | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tycinternacional"
+        }
+      ]
     },
     {
       "time": "20:55",
@@ -301,7 +579,20 @@
       "match": "SR Americas – Tarucas vs Peñarol Rugby",
       "league": "Rugby",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
     },
     {
       "time": "21:00",
@@ -309,7 +600,16 @@
       "match": "Rionegro Águilas vs Once Caldas",
       "league": "Categoría Primera A",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
     },
     {
       "time": "21:15",
@@ -317,7 +617,12 @@
       "match": "Bolívar vs Real Tomayapo",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
     },
     {
       "time": "21:30",
@@ -325,7 +630,12 @@
       "match": "Everton vs Cobresal",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
     },
     {
       "time": "21:30",
@@ -341,7 +651,12 @@
       "match": "RB Bragantino vs Palmeiras",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Premiere 2 BR",
+          "href": "https://tvtvhd.com/canales.php?stream=premiere2"
+        }
+      ]
     },
     {
       "time": "22:00",
@@ -349,7 +664,12 @@
       "match": "Wanderers vs Peñarol",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
+        }
+      ]
     },
     {
       "time": "22:00",
@@ -357,7 +677,12 @@
       "match": "Municipal Liberia vs Alajuelense",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "FUTV",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even2"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -365,7 +690,16 @@
       "match": "Universitario vs Alianza Atlético",
       "league": "Liga 1",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Liga1MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -373,7 +707,20 @@
       "match": "Atlético Tucumán vs Banfield",
       "league": "Liga Profesional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney8"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -381,7 +728,28 @@
       "match": "Santos Laguna vs Monterrey",
       "league": "Liga MX",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -389,7 +757,20 @@
       "match": "Kansas City Royals vs Los Angeles Angels",
       "league": "MLB",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -397,7 +778,12 @@
       "match": "Bolivia  vs Paraguay",
       "league": "Sudamericano Sub-17 Femenino",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -405,7 +791,20 @@
       "match": "Montreal Canadiens vs Tampa Bay Lightning",
       "league": "NHL",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -413,7 +812,16 @@
       "match": "Tepatitlán vs Atlante",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 3 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        }
+      ]
     },
     {
       "time": "23:10",
@@ -421,7 +829,16 @@
       "match": "Llaneros vs Alianza",
       "league": "Categoría Primera A",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
     },
     {
       "time": "23:15",
@@ -429,7 +846,16 @@
       "match": "Motagua vs Choloma",
       "league": "Liga Nacional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
     },
     {
       "time": "23:30",
@@ -437,7 +863,12 @@
       "match": "Oriente Petrolero vs Real Potosí",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
     },
     {
       "time": "23:30",
@@ -445,7 +876,16 @@
       "match": "Atlético Mineiro vs Flamengo",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://tvtvhd.com/canales.php?stream=premiere1"
+        }
+      ]
     },
     {
       "time": "23:30",
