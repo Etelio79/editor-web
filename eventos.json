@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-04-28T13:23:11.034Z",
+  "actualizado_en": "2026-04-28T19:15:41.841Z",
   "fecha": "martes, 28 de abril",
   "fuente": "futbollibre-titiritero",
-  "contar": 22,
-  "contar_con_canales": 22,
+  "contar": 21,
+  "contar_con_canales": 21,
   "events": [
     {
       "time": "00:00",
@@ -240,27 +240,6 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-04-28T18:00:00.000Z",
-      "match": "Madrid Open – 16vos de Final",
-      "league": "Tenis",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "16:45",
       "time_utc": "2026-04-28T21:45:00.000Z",
       "match": "Roda JC vs RKC Waalwijk",
@@ -295,10 +274,6 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
-        },
-        {
-          "name": "Fox Sports 2",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
         }
       ]
     },
@@ -311,7 +286,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
         }
       ]
     },
@@ -327,12 +302,36 @@
           "href": "https://tvtvhd.com/canales.php?stream=espn"
         },
         {
+          "name": "Fox Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
           "name": "ESPN AR┃OP2",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
         },
         {
           "name": "ESPN AR┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "Univision USA",
+          "href": "https://tvtvhd.com/canales.php?stream=univision"
         }
       ]
     },
@@ -357,29 +356,16 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-29T03:00:00.000Z",
-      "match": "Botafogo vs Independiente Petrolero",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
         {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
         },
         {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
         }
       ]
     },
@@ -403,8 +389,41 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+        },
+        {
           "name": "Fox Sports 2",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-04-29T03:00:00.000Z",
+      "match": "Botafogo vs Independiente Petrolero",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
+        },
+        {
+          "name": "BeIN Sports EXTRA Español",
+          "href": "https://tvtvhd.com/canales.php?stream=beinsport_xtra_espanol"
         }
       ]
     },
@@ -430,6 +449,18 @@
         {
           "name": "Fox Sports",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
         }
       ]
     },
@@ -704,27 +735,6 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-04-28T18:00:00.000Z",
-      "match": "Madrid Open – 16vos de Final",
-      "league": "Tenis",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "16:45",
       "time_utc": "2026-04-28T21:45:00.000Z",
       "match": "Roda JC vs RKC Waalwijk",
@@ -759,10 +769,6 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
-        },
-        {
-          "name": "Fox Sports 2",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
         }
       ]
     },
@@ -775,7 +781,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
         }
       ]
     },
@@ -791,12 +797,36 @@
           "href": "https://tvtvhd.com/canales.php?stream=espn"
         },
         {
+          "name": "Fox Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
           "name": "ESPN AR┃OP2",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
         },
         {
           "name": "ESPN AR┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "Univision USA",
+          "href": "https://tvtvhd.com/canales.php?stream=univision"
         }
       ]
     },
@@ -821,29 +851,16 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-29T03:00:00.000Z",
-      "match": "Botafogo vs Independiente Petrolero",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
         {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
         },
         {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
         }
       ]
     },
@@ -867,8 +884,41 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+        },
+        {
           "name": "Fox Sports 2",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-04-29T03:00:00.000Z",
+      "match": "Botafogo vs Independiente Petrolero",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
+        },
+        {
+          "name": "BeIN Sports EXTRA Español",
+          "href": "https://tvtvhd.com/canales.php?stream=beinsport_xtra_espanol"
         }
       ]
     },
@@ -894,6 +944,18 @@
         {
           "name": "Fox Sports",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
         }
       ]
     },
