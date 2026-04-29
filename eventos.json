@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-04-29T13:16:16.009Z",
+  "actualizado_en": "2026-04-29T19:05:22.535Z",
   "fecha": "miércoles, 29 de abril",
   "fuente": "futbollibre-titiritero",
-  "contar": 30,
-  "contar_con_canales": 30,
+  "contar": 28,
+  "contar_con_canales": 28,
   "events": [
     {
       "time": "00:00",
@@ -253,48 +253,6 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-04-29T16:00:00.000Z",
-      "match": "Karolina Pliskova vs Anastasia Potapova",
-      "league": "Tenis WTA Madrid Open – Cuartos de Final",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-04-29T19:00:00.000Z",
-      "match": "Jannik Sinner vs Rafael Jodar",
-      "league": "Tenis Madrid Open – 16vos de Final",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "16:45",
       "time_utc": "2026-04-29T21:45:00.000Z",
       "match": "Den Bosch vs Almere City",
@@ -375,7 +333,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
         }
       ]
     },
@@ -387,6 +345,18 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "HBO MAX",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvc2Z1dHpwMnM1aC9vdXQvdjEvMGE1ZmJjYzNmYzEyNGNmOWI5OTYyMDEwODdhNThiMmYvY2VuYy5tcGQ=&k=OTdjMmIwNTk0MjNjOThkYjI2ZmY5NWQ5ZGUxNjY2OGE6NzM0ZmUwMDUzZjdjYWZiNDFhYjg1YTBjOWFkZTgxYWI="
+        },
+        {
+          "name": "Ziggo Sports 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9tYWcwMS50dngucHJkLnR2Lm9kaWRvLm5sL1BMVFYvODYvMjI0LzMyMjEyNDE1OTAvMzIyMTI0MTU5MC5tcGQ/em9uZW9mZnNldD0wJmRldmticHM9MS03MDAwJnNlcnZpY2V0eXBlPTEmaWNwaWQ9ODYmYWNjb3VudHR5cGU9MSZsaW1pdGZsdXg9LTEmbGltaXRkdXI9LTEmdGVuYW50SWQ9MzEwMyZhY2NvdW50aW5mbz0lN0UlN0VWMi4wJTdFcWJjc0poX2pVNUM5QmNaYzk1OWVfd2FlNDRiNDg2N2IzNDE3YWE3NmI1ZGIyZGEyMGZlNDZjJTdFS1p6VFdqQjhxRDF6ZGdiSmpSUFZMSlgtdFYwcWlOOVJCSENfaXNlR3JzbVRTUmpqMDZvR0R0R2xwU0NSR093RjM2MjZjZjA4NWMwOGQwMjRjN2U0YWFmYzE4YzMyNDQwJTdFRXh0SW5mbzVSbzNWcHBXaVV1c2oyaXBwcVVQa1ElM0QlM0Q0YTJkMmM4Y2UxMzNmNDMwMjZkMGUzMWI4MjJiODQ3NCUzQTIwMjQwNjAxMDEyODI5JTNBVVRDJTJDMTAwMDEwMDMzMjkyMjIlMkM4Ny4yMTIuMTQwLjE3MSUyQzIwMjQwNjAxMDEyODI5JTJDMzEwM19TUDFTJTJDMTAwMDEwMDMzMjkyMjIlMkMtMSUyQzAlMkMxJTJDJTJDJTJDMiUyQzMxMDNfU3BvcnQxJTJDJTJDJTJDMiUyQzEwMDAwMDQ0NDQ0MzAzJTJDMCUyQzEwMDAwMDI1MDUwMjU1JTJDTkRFek9EZzJOVFkzTXpFd016STJOek13TmpNd05UWSUzRCUyQyUyQyUyQzUlMkMxJTJDRU5EJkd1YXJkRW5jVHlwZT0y&k=ZWYzNGFlOTFiNGYyNDE1ZTg0MzliMmFkMTA1ZTc0ODg6MjQzMjQ4ZDhkZTFmZjhjN2M1ODdlZTIwNTczMTc1MjM="
+        },
+        {
+          "name": "TNT Sports 1 ES",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLXB2LXRhLmFtYXpvbi5mYXN0bHktZWRnZS5jb20vc3lkLW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy9jbGxla2lnenpuL291dC92MS9iZDNiMGMzMTRmZmY0YmIxYWI0NjkzMzU4ZjNjZDJkMy9jZW5jLm1wZA==&k=Mjk0YjU3NjFjZWZjMjJkMGM2MzEyOTM5ZTEzZDgyNzg6NTIxNDhmMTA0MmQyMzg4NDlmMGE3ODEzZjFkYThhN2I="
+        },
+        {
           "name": "ESPN",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
         },
@@ -397,6 +367,30 @@
         {
           "name": "ESPN AR┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "Univision USA",
+          "href": "https://tvtvhd.com/canales.php?stream=univision"
         }
       ]
     },
@@ -469,6 +463,10 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -496,6 +494,10 @@
           "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        },
+        {
           "name": "ESPN 2 MX",
           "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
         },
@@ -513,29 +515,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-30T03:00:00.000Z",
-      "match": "Deportivo Riestra vs Torque",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -559,8 +552,25 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
+        },
+        {
           "name": "Fox Sports 2",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-04-30T03:00:00.000Z",
+      "match": "Deportivo Riestra vs Torque",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports2"
         }
       ]
     },
@@ -861,48 +871,6 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-04-29T16:00:00.000Z",
-      "match": "Karolina Pliskova vs Anastasia Potapova",
-      "league": "Tenis WTA Madrid Open – Cuartos de Final",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-04-29T19:00:00.000Z",
-      "match": "Jannik Sinner vs Rafael Jodar",
-      "league": "Tenis Madrid Open – 16vos de Final",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "16:45",
       "time_utc": "2026-04-29T21:45:00.000Z",
       "match": "Den Bosch vs Almere City",
@@ -983,7 +951,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
         }
       ]
     },
@@ -995,6 +963,18 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "HBO MAX",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvc2Z1dHpwMnM1aC9vdXQvdjEvMGE1ZmJjYzNmYzEyNGNmOWI5OTYyMDEwODdhNThiMmYvY2VuYy5tcGQ=&k=OTdjMmIwNTk0MjNjOThkYjI2ZmY5NWQ5ZGUxNjY2OGE6NzM0ZmUwMDUzZjdjYWZiNDFhYjg1YTBjOWFkZTgxYWI="
+        },
+        {
+          "name": "Ziggo Sports 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9tYWcwMS50dngucHJkLnR2Lm9kaWRvLm5sL1BMVFYvODYvMjI0LzMyMjEyNDE1OTAvMzIyMTI0MTU5MC5tcGQ/em9uZW9mZnNldD0wJmRldmticHM9MS03MDAwJnNlcnZpY2V0eXBlPTEmaWNwaWQ9ODYmYWNjb3VudHR5cGU9MSZsaW1pdGZsdXg9LTEmbGltaXRkdXI9LTEmdGVuYW50SWQ9MzEwMyZhY2NvdW50aW5mbz0lN0UlN0VWMi4wJTdFcWJjc0poX2pVNUM5QmNaYzk1OWVfd2FlNDRiNDg2N2IzNDE3YWE3NmI1ZGIyZGEyMGZlNDZjJTdFS1p6VFdqQjhxRDF6ZGdiSmpSUFZMSlgtdFYwcWlOOVJCSENfaXNlR3JzbVRTUmpqMDZvR0R0R2xwU0NSR093RjM2MjZjZjA4NWMwOGQwMjRjN2U0YWFmYzE4YzMyNDQwJTdFRXh0SW5mbzVSbzNWcHBXaVV1c2oyaXBwcVVQa1ElM0QlM0Q0YTJkMmM4Y2UxMzNmNDMwMjZkMGUzMWI4MjJiODQ3NCUzQTIwMjQwNjAxMDEyODI5JTNBVVRDJTJDMTAwMDEwMDMzMjkyMjIlMkM4Ny4yMTIuMTQwLjE3MSUyQzIwMjQwNjAxMDEyODI5JTJDMzEwM19TUDFTJTJDMTAwMDEwMDMzMjkyMjIlMkMtMSUyQzAlMkMxJTJDJTJDJTJDMiUyQzMxMDNfU3BvcnQxJTJDJTJDJTJDMiUyQzEwMDAwMDQ0NDQ0MzAzJTJDMCUyQzEwMDAwMDI1MDUwMjU1JTJDTkRFek9EZzJOVFkzTXpFd016STJOek13TmpNd05UWSUzRCUyQyUyQyUyQzUlMkMxJTJDRU5EJkd1YXJkRW5jVHlwZT0y&k=ZWYzNGFlOTFiNGYyNDE1ZTg0MzliMmFkMTA1ZTc0ODg6MjQzMjQ4ZDhkZTFmZjhjN2M1ODdlZTIwNTczMTc1MjM="
+        },
+        {
+          "name": "TNT Sports 1 ES",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLXB2LXRhLmFtYXpvbi5mYXN0bHktZWRnZS5jb20vc3lkLW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy9jbGxla2lnenpuL291dC92MS9iZDNiMGMzMTRmZmY0YmIxYWI0NjkzMzU4ZjNjZDJkMy9jZW5jLm1wZA==&k=Mjk0YjU3NjFjZWZjMjJkMGM2MzEyOTM5ZTEzZDgyNzg6NTIxNDhmMTA0MmQyMzg4NDlmMGE3ODEzZjFkYThhN2I="
+        },
+        {
           "name": "ESPN",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
         },
@@ -1005,6 +985,30 @@
         {
           "name": "ESPN AR┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "Univision USA",
+          "href": "https://tvtvhd.com/canales.php?stream=univision"
         }
       ]
     },
@@ -1077,6 +1081,10 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -1104,6 +1112,10 @@
           "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        },
+        {
           "name": "ESPN 2 MX",
           "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
         },
@@ -1121,29 +1133,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-30T03:00:00.000Z",
-      "match": "Deportivo Riestra vs Torque",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -1167,8 +1170,25 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
+        },
+        {
           "name": "Fox Sports 2",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-04-30T03:00:00.000Z",
+      "match": "Deportivo Riestra vs Torque",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports2"
         }
       ]
     },
