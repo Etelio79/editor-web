@@ -1,35 +1,10 @@
 {
-  "actualizado_en": "2026-04-28T19:15:41.841Z",
+  "actualizado_en": "2026-04-29T01:30:49.540Z",
   "fecha": "martes, 28 de abril",
   "fuente": "futbollibre-titiritero",
-  "contar": 21,
-  "contar_con_canales": 21,
+  "contar": 12,
+  "contar_con_canales": 12,
   "events": [
-    {
-      "time": "00:00",
-      "time_utc": "2026-04-28T05:00:00.000Z",
-      "match": "Barracas Central vs Audax Italiano",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "BeIN Sports EXTRA Español",
-          "href": "https://tvtvhd.com/canales.php?stream=beinsport_xtra_espanol"
-        }
-      ]
-    },
     {
       "time": "00:00",
       "time_utc": "2026-04-28T05:00:00.000Z",
@@ -50,8 +25,41 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
+        },
+        {
           "name": "Fox Sports 2",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-04-28T05:00:00.000Z",
+      "match": "Barracas Central vs Audax Italiano",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        },
+        {
+          "name": "BeIN Sports EXTRA Español",
+          "href": "https://tvtvhd.com/canales.php?stream=beinsport_xtra_espanol"
         }
       ]
     },
@@ -64,7 +72,19 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
         }
       ]
     },
@@ -76,8 +96,8 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
         }
       ]
     },
@@ -138,8 +158,16 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
         }
       ]
     },
@@ -240,231 +268,6 @@
       ]
     },
     {
-      "time": "16:45",
-      "time_utc": "2026-04-28T21:45:00.000Z",
-      "match": "Roda JC vs RKC Waalwijk",
-      "league": "Eredivisie",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-04-28T23:00:00.000Z",
-      "match": "Al Hilal vs Damac",
-      "league": "Pro League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "FOX Deportes",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-04-28T23:45:00.000Z",
-      "match": "Southampton vs Ipswich Town",
-      "league": "Championship",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-04-29T00:00:00.000Z",
-      "match": "PSG vs Bayern München",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        },
-        {
-          "name": "Fox Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "TUDN USA",
-          "href": "https://tvtvhd.com/canales.php?stream=tudn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "TUDN USA | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
-        },
-        {
-          "name": "Univision USA",
-          "href": "https://tvtvhd.com/canales.php?stream=univision"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-04-29T01:00:00.000Z",
-      "match": "Argentina  vs Bolivia",
-      "league": "Sudamericano Sub-17 Femenino",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports +",
-          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-29T03:00:00.000Z",
-      "match": "San Lorenzo vs Santos",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-29T03:00:00.000Z",
-      "match": "Libertad vs Independiente del Valle",
-      "league": "Copa Libertadores",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney3"
-        },
-        {
-          "name": "Fox Sports 2",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-29T03:00:00.000Z",
-      "match": "Botafogo vs Independiente Petrolero",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney4"
-        },
-        {
-          "name": "BeIN Sports EXTRA Español",
-          "href": "https://tvtvhd.com/canales.php?stream=beinsport_xtra_espanol"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-29T03:00:00.000Z",
-      "match": "Lanús vs LDU Quito",
-      "league": "Copa Libertadores",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "Fox Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney2"
-        },
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
-        },
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
-        }
-      ]
-    },
-    {
       "time": "23:00",
       "time_utc": "2026-04-29T04:00:00.000Z",
       "match": "Playoffs Juego #5 – Boston Celtics vs Philadelphia 76ers",
@@ -482,6 +285,18 @@
         {
           "name": "ESPN 3 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
         }
       ]
     },
@@ -503,31 +318,6 @@
     {
       "time": "00:00",
       "time_utc": "2026-04-28T05:00:00.000Z",
-      "match": "Barracas Central vs Audax Italiano",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "BeIN Sports EXTRA Español",
-          "href": "https://tvtvhd.com/canales.php?stream=beinsport_xtra_espanol"
-        }
-      ]
-    },
-    {
-      "time": "00:00",
-      "time_utc": "2026-04-28T05:00:00.000Z",
       "match": "UCV vs Rosario Central",
       "league": "Copa Libertadores",
       "flag": "⚽",
@@ -545,8 +335,41 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
+        },
+        {
           "name": "Fox Sports 2",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-04-28T05:00:00.000Z",
+      "match": "Barracas Central vs Audax Italiano",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        },
+        {
+          "name": "BeIN Sports EXTRA Español",
+          "href": "https://tvtvhd.com/canales.php?stream=beinsport_xtra_espanol"
         }
       ]
     },
@@ -559,7 +382,19 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
         }
       ]
     },
@@ -571,8 +406,8 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
         }
       ]
     },
@@ -633,8 +468,16 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
         }
       ]
     },
@@ -735,231 +578,6 @@
       ]
     },
     {
-      "time": "16:45",
-      "time_utc": "2026-04-28T21:45:00.000Z",
-      "match": "Roda JC vs RKC Waalwijk",
-      "league": "Eredivisie",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-04-28T23:00:00.000Z",
-      "match": "Al Hilal vs Damac",
-      "league": "Pro League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "FOX Deportes",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-04-28T23:45:00.000Z",
-      "match": "Southampton vs Ipswich Town",
-      "league": "Championship",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-04-29T00:00:00.000Z",
-      "match": "PSG vs Bayern München",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        },
-        {
-          "name": "Fox Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "TUDN USA",
-          "href": "https://tvtvhd.com/canales.php?stream=tudn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "TUDN USA | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
-        },
-        {
-          "name": "Univision USA",
-          "href": "https://tvtvhd.com/canales.php?stream=univision"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-04-29T01:00:00.000Z",
-      "match": "Argentina  vs Bolivia",
-      "league": "Sudamericano Sub-17 Femenino",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports +",
-          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-29T03:00:00.000Z",
-      "match": "San Lorenzo vs Santos",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-29T03:00:00.000Z",
-      "match": "Libertad vs Independiente del Valle",
-      "league": "Copa Libertadores",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney3"
-        },
-        {
-          "name": "Fox Sports 2",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-29T03:00:00.000Z",
-      "match": "Botafogo vs Independiente Petrolero",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney4"
-        },
-        {
-          "name": "BeIN Sports EXTRA Español",
-          "href": "https://tvtvhd.com/canales.php?stream=beinsport_xtra_espanol"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-04-29T03:00:00.000Z",
-      "match": "Lanús vs LDU Quito",
-      "league": "Copa Libertadores",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "Fox Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney2"
-        },
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
-        },
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
-        }
-      ]
-    },
-    {
       "time": "23:00",
       "time_utc": "2026-04-29T04:00:00.000Z",
       "match": "Playoffs Juego #5 – Boston Celtics vs Philadelphia 76ers",
@@ -977,6 +595,18 @@
         {
           "name": "ESPN 3 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
         }
       ]
     },
