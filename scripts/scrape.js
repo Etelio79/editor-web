@@ -1,7 +1,6 @@
 const puppeteer = require('puppeteer-core');
 const fs        = require('fs');
 const path      = require('path');
-const https     = require('https');
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -24,31 +23,6 @@ function timeColombiaToUTC(timeStr) {
   return utc.toISOString();
 }
 
-// Valida HTTP status antes de parsear JSON
-function fetchJson(url) {
-  return new Promise((resolve, reject) => {
-    const req = https.get(url, {
-      headers: { 'User-Agent': 'SportStreamBot/1.0' }
-    }, res => {
-      if (res.statusCode < 200 || res.statusCode >= 300) {
-        res.resume();
-        return reject(new Error(`HTTP ${res.statusCode} en ${url}`));
-      }
-      const chunks = [];
-      res.on('data', c => chunks.push(c));
-      res.on('end', () => {
-        const raw = Buffer.concat(chunks).toString();
-        try { resolve(JSON.parse(raw)); }
-        catch(e) {
-          console.warn(`[API] Respuesta no-JSON (${raw.slice(0,200)})`);
-          reject(new Error('JSON inválido'));
-        }
-      });
-    });
-    req.on('error', reject);
-    req.setTimeout(15000, () => { req.destroy(); reject(new Error('Timeout')); });
-  });
-}
 
 /**
  * Decodifica la URL real desde un enlace embed de futbollibre.
@@ -363,14 +337,6 @@ async function main() {
     if (events.length > 0) source = 'futbollibre-titiritero';
   } catch(e) {
     console.warn(`[PUP] FALLO: ${e.message}`);
-  }
-
-  if (events.length === 0) {
-    try {
-      const apiUrl = process.env.API_URL || 'https://sportstream-api-production.up.railway.app';
-      const data = await fetchJson(apiUrl + '/eventos');
-      if (data.events?.length) { events = data.events; source = 'railway'; }
-    } catch(e) { console.warn(`[API] FALLO: ${e.message}`); }
   }
 
   events.sort((a, b) => {
