@@ -8,19 +8,19 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 const SITE_URL = process.env.SITE_URL || 'https://futbollibreplus.pe';
 
 // Convierte "19:00" (hora Colombia, UTC-5) a ISO UTC
+// CORREGIDO: usaba h+5 directo en Date.UTC lo cual daba overflow para horas > 18
 function timeColombiaToUTC(timeStr) {
   const [h, m] = timeStr.split(':').map(Number);
   const now = new Date();
-  const bogotaOffset = 5 * 60 * 60 * 1000;
-  const nowBogota = new Date(now.getTime() - bogotaOffset);
-  const utc = new Date(Date.UTC(
-    nowBogota.getUTCFullYear(),
-    nowBogota.getUTCMonth(),
-    nowBogota.getUTCDate(),
-    h + 5,
-    m
-  ));
-  return utc.toISOString();
+  // Obtener fecha actual en Bogotá (UTC-5)
+  const fechaBogota = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Bogota',
+    year: 'numeric', month: '2-digit', day: '2-digit'
+  }).format(now); // "2025-05-01"
+  // Construir ISO con offset Colombia -05:00 y dejar que Date lo convierta a UTC
+  const hh = String(h).padStart(2, '0');
+  const mm = String(m).padStart(2, '0');
+  return new Date(`${fechaBogota}T${hh}:${mm}:00-05:00`).toISOString();
 }
 
 
@@ -43,7 +43,8 @@ function decodeEmbedUrl(href) {
 }
 
 async function scrapeFutbolLibre() {
-  const execPath = process.env.PUPPETEER_EXEC || '/usr/bin/chromium-browser';
+  // CORREGIDO: era /usr/bin/chromium-browser — en Ubuntu 24 el binario es /usr/bin/chromium
+  const execPath = process.env.PUPPETEER_EXEC || '/usr/bin/chromium';
   console.log(`[PUP] Usando Chrome: ${execPath}`);
   console.log(`[PUP] URL: ${SITE_URL}`);
 
@@ -145,7 +146,6 @@ async function scrapeFutbolLibre() {
         const time = node.textContent.trim();
 
         // Marcamos el padre del nodo de hora con un ID único
-        // Esto nos permite re-localizarlo después del click aunque el DOM cambie
         const timeEl = node.parentElement;
         timeEl.setAttribute('data-time-marker', `evt-${index}`);
 
@@ -184,9 +184,7 @@ async function scrapeFutbolLibre() {
 
       if (!result || !result.match || result.match.length < 4) continue;
 
-      // ── PASO B: esperar a que aparezcan los canales del evento ─────────────
-      // Buscamos el "ancestro mínimo" que contenga la hora del evento Y los
-      // enlaces embed, asegurándonos de que no abrace OTROS eventos (otras horas).
+      // ── PASO B: esperar a que aparezcan los canales del evento ──
       let rawChannels = [];
       for (let t = 0; t < 15; t++) {
         await sleep(400);
@@ -203,8 +201,6 @@ async function scrapeFutbolLibre() {
               && style.opacity !== '0';
           };
 
-          // Detecta si un href es un enlace embed válido de futbollibre*
-          // (acepta cualquier dominio: futbollibre.ec, futbollibreplus.pe, etc.)
           const isEmbed = (href) => {
             if (!href || !href.includes('?r=')) return false;
             if (!href.includes('/embed/eventos.html')) return false;
@@ -213,12 +209,9 @@ async function scrapeFutbolLibre() {
             } catch { return false; }
           };
 
-          // Re-localizar el elemento de la hora del evento clickeado
           const timeEl = document.querySelector(`[data-time-marker="evt-${eventIdx}"]`);
           if (!timeEl) return [];
 
-          // Subir por ancestros buscando el contenedor expandido del evento
-          // (debe contener la hora del evento Y al menos un enlace embed)
           let bestAncestor = null;
           let ancestor = timeEl.parentElement;
 
@@ -227,7 +220,6 @@ async function scrapeFutbolLibre() {
               .filter(a => isEmbed(a.href) && isVisible(a));
 
             if (links.length > 0) {
-              // Contar cuántas horas contiene este ancestro
               const allTimes = [];
               const walker = document.createTreeWalker(ancestor, NodeFilter.SHOW_TEXT, null);
               let n;
@@ -237,18 +229,15 @@ async function scrapeFutbolLibre() {
                 }
               }
 
-              // Si contiene SOLO la hora de nuestro evento, este es el ancestro perfecto
               if (allTimes.length === 1 && allTimes[0] === timeEl) {
                 bestAncestor = ancestor;
                 break;
               }
 
-              // Si contiene más de una hora, es demasiado grande - usar el anterior
               if (allTimes.length > 1) {
                 break;
               }
 
-              // Si contiene 0 horas pero tiene enlaces, también vale
               bestAncestor = ancestor;
             }
             ancestor = ancestor.parentElement;
@@ -256,7 +245,6 @@ async function scrapeFutbolLibre() {
 
           if (!bestAncestor) return [];
 
-          // Extraer enlaces embed del ancestro encontrado
           const results = [];
           const seen = new Set();
 
@@ -332,11 +320,19 @@ async function main() {
   console.log(`[${new Date().toISOString()}] === SportStream Scraper ===`);
   let events = [], source = 'none';
 
-  try {
-    events = await scrapeFutbolLibre();
-    if (events.length > 0) source = 'futbollibre-titiritero';
-  } catch(e) {
-    console.warn(`[PUP] FALLO: ${e.message}`);
+  // MEJORADO: retry hasta 3 veces si el scrape falla
+  for (let intento = 1; intento <= 3; intento++) {
+    try {
+      events = await scrapeFutbolLibre();
+      if (events.length > 0) {
+        source = 'futbollibre-titiritero';
+        break;
+      }
+      console.warn(`[MAIN] Intento ${intento}: 0 eventos, reintentando...`);
+    } catch(e) {
+      console.warn(`[MAIN] Intento ${intento} FALLO: ${e.message}`);
+      if (intento < 3) await new Promise(r => setTimeout(r, 5000));
+    }
   }
 
   events.sort((a, b) => {
