@@ -20,17 +20,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Instalar Chromium y Puppeteer
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get remove -y chromium-browser || true
-          sudo apt-get install -y --no-install-recommends chromium
-          npm install puppeteer-core
+      - name: Instalar Puppeteer
+        run: npm install puppeteer
 
       - name: Correr scraper
         env:
-          PUPPETEER_EXEC: /usr/bin/chromium
-          SITE_URL: https://futbollibre.ec
           API_URL: https://sportstream-api-production.up.railway.app
         run: node scripts/scrape.js
 
