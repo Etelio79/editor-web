@@ -29,6 +29,7 @@ jobs:
       - name: Correr scraper
         env:
           PUPPETEER_EXEC: /usr/bin/chromium
+          SITE_URL: https://futbollibre.ec
           API_URL: https://sportstream-api-production.up.railway.app
         run: node scripts/scrape.js
 
