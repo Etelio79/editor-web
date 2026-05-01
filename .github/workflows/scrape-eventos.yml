@@ -23,12 +23,12 @@ jobs:
       - name: Instalar Chromium y Puppeteer
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y chromium-browser
+          sudo apt-get install -y chromium
           npm install puppeteer-core
 
       - name: Correr scraper
         env:
-          PUPPETEER_EXEC: /usr/bin/chromium-browser
+          PUPPETEER_EXEC: /usr/bin/chromium
           API_URL: https://sportstream-api-production.up.railway.app
         run: node scripts/scrape.js
 
