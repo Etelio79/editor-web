@@ -23,7 +23,8 @@ jobs:
       - name: Instalar Chromium y Puppeteer
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y chromium
+          sudo apt-get remove -y chromium-browser || true
+          sudo apt-get install -y --no-install-recommends chromium
           npm install puppeteer-core
 
       - name: Correr scraper
