@@ -1,8 +1,8 @@
 {
-  "actualizado_en": "2026-05-03T08:11:08.276Z",
+  "actualizado_en": "2026-05-03T13:28:29.114Z",
   "fecha": "domingo, 3 de mayo",
   "fuente": "futbollibre-titiritero",
-  "contar": 83,
+  "contar": 81,
   "contar_con_canales": 78,
   "events": [
     {
@@ -99,40 +99,6 @@
       ]
     },
     {
-      "time": "10:15",
-      "time_utc": "2026-05-03T15:15:00.000Z",
-      "match": "Volendam vs Heerenveen",
-      "league": "Eredivisie",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "time": "10:15",
-      "time_utc": "2026-05-03T15:15:00.000Z",
-      "match": "AZ vs Heerenveen",
-      "league": "Eredivisie Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
-        }
-      ]
-    },
-    {
       "time": "10:30",
       "time_utc": "2026-05-03T15:30:00.000Z",
       "match": "Bologna vs Cagliari",
@@ -213,6 +179,10 @@
         {
           "name": "Fox Sports 3",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports3"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
         }
       ]
     },
@@ -226,6 +196,10 @@
         {
           "name": "Fox Sports",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -251,7 +225,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
         }
       ]
     },
@@ -264,7 +238,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -292,19 +266,6 @@
     {
       "time": "12:00",
       "time_utc": "2026-05-03T17:00:00.000Z",
-      "match": "Racing Santander vs Huesca",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "12:00",
-      "time_utc": "2026-05-03T17:00:00.000Z",
       "match": "Celta de Vigo vs Elche",
       "league": "LaLiga",
       "flag": "⚽",
@@ -320,6 +281,10 @@
         {
           "name": "ESPN 2 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
         },
         {
           "name": "ESPN Deportes",
@@ -340,15 +305,19 @@
       ]
     },
     {
-      "time": "12:30",
-      "time_utc": "2026-05-03T17:30:00.000Z",
-      "match": "Fortuna Sittard vs Feyenoord",
-      "league": "Eredivisie",
+      "time": "12:00",
+      "time_utc": "2026-05-03T17:00:00.000Z",
+      "match": "Racing Santander vs Huesca",
+      "league": "LaLiga SmartBank",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 MX",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney8"
         }
       ]
     },
@@ -361,7 +330,28 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney9"
+        }
+      ]
+    },
+    {
+      "time": "12:30",
+      "time_utc": "2026-05-03T17:30:00.000Z",
+      "match": "Fortuna Sittard vs Feyenoord",
+      "league": "Eredivisie",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney10"
+        },
+        {
+          "name": "ESPN 3 NL",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3_nl"
         }
       ]
     },
@@ -389,6 +379,19 @@
     {
       "time": "13:00",
       "time_utc": "2026-05-03T18:00:00.000Z",
+      "match": "AFC Bournemouth vs Crystal Palace",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-05-03T18:00:00.000Z",
       "match": "Lille vs Le Havre",
       "league": "Ligue 1",
       "flag": "⚽",
@@ -396,19 +399,10 @@
         {
           "name": "BeIN Sports Ñ",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-05-03T18:00:00.000Z",
-      "match": "AFC Bournemouth vs Crystal Palace",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
+        },
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney12"
         }
       ]
     },
@@ -432,6 +426,10 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney13"
+        },
+        {
           "name": "ESPN MX",
           "href": "https://tvtvhd.com/canales.php?stream=espnmx"
         },
@@ -442,19 +440,6 @@
         {
           "name": "ESPN MX | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
-        }
-      ]
-    },
-    {
-      "time": "13:30",
-      "time_utc": "2026-05-03T18:30:00.000Z",
-      "match": "Leicester City WFC vs Chelsea FC",
-      "league": "Women's Super League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
         }
       ]
     },
@@ -476,6 +461,23 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney11"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-05-03T18:30:00.000Z",
+      "match": "Leicester City WFC vs Chelsea FC",
+      "league": "Women's Super League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
         }
       ]
     },
@@ -512,6 +514,10 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney14"
+        },
+        {
           "name": "ESPN Deportes",
           "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
         },
@@ -522,6 +528,10 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -543,6 +553,10 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney15"
         }
       ]
     },
@@ -553,6 +567,10 @@
       "league": "Premier League",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3pl"
+        },
         {
           "name": "ESPN",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
@@ -594,6 +612,10 @@
         {
           "name": "ESPN 2 NL",
           "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney16"
         }
       ]
     },
@@ -627,7 +649,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney18"
         }
       ]
     },
@@ -640,7 +662,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney17"
         }
       ]
     },
@@ -653,7 +675,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney19"
         }
       ]
     },
@@ -666,7 +688,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney20"
         }
       ]
     },
@@ -679,7 +701,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
         }
       ]
     },
@@ -692,7 +714,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -758,19 +780,6 @@
     {
       "time": "16:30",
       "time_utc": "2026-05-03T21:30:00.000Z",
-      "match": "Real Sociedad II vs Burgos",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-05-03T21:30:00.000Z",
       "match": "Univ. Concepción vs Universidad Católica",
       "league": "Copa de la Liga",
       "flag": "⚽",
@@ -778,6 +787,23 @@
         {
           "name": "MAX",
           "href": "https://tvtvhd.com/canales.php?stream=max1"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-05-03T21:30:00.000Z",
+      "match": "Real Sociedad II vs Burgos",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -824,6 +850,18 @@
         {
           "name": "TNT Sports",
           "href": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TyC Sports Internacional",
+          "href": "https://tvtvhd.com/canales.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports International | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tycinternacional"
         }
       ]
     },
@@ -836,7 +874,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -862,7 +900,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
         }
       ]
     },
@@ -892,7 +930,24 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-05-03T23:45:00.000Z",
+      "match": "Olympique Lyonnais vs Rennes",
+      "league": "Ligue 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
         }
       ]
     },
@@ -922,19 +977,31 @@
         {
           "name": "ESPN 4 MX",
           "href": "https://tvtvhd.com/canales.php?stream=espn4mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
     {
-      "time": "18:45",
-      "time_utc": "2026-05-03T23:45:00.000Z",
-      "match": "Olympique Lyonnais vs Rennes",
-      "league": "Ligue 1",
+      "time": "19:00",
+      "time_utc": "2026-05-04T00:00:00.000Z",
+      "match": "Flamengo vs Vasco da Gama",
+      "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Premiere BR",
+          "href": "https://tvtvhd.com/canales.php?stream=premiere1"
         }
       ]
     },
@@ -952,6 +1019,18 @@
         {
           "name": "ESPN Premium┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "TyC Sports Internacional",
+          "href": "https://tvtvhd.com/canales.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports International | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tycinternacional"
         }
       ]
     },
@@ -967,14 +1046,6 @@
           "href": "https://tvtvhd.com/canales.php?stream=tntsports"
         }
       ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-05-04T00:00:00.000Z",
-      "match": "Flamengo vs Vasco da Gama",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "19:00",
@@ -1006,6 +1077,10 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -1019,6 +1094,10 @@
         {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney8"
         }
       ]
     },
@@ -1079,7 +1158,20 @@
       "match": "Detroit Pistons vs Orlando Magic",
       "league": "NBA – Playoffs Juego #7",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
     },
     {
       "time": "20:00",
@@ -1503,40 +1595,6 @@
       ]
     },
     {
-      "time": "10:15",
-      "time_utc": "2026-05-03T15:15:00.000Z",
-      "match": "Volendam vs Heerenveen",
-      "league": "Eredivisie",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "time": "10:15",
-      "time_utc": "2026-05-03T15:15:00.000Z",
-      "match": "AZ vs Heerenveen",
-      "league": "Eredivisie Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
-        }
-      ]
-    },
-    {
       "time": "10:30",
       "time_utc": "2026-05-03T15:30:00.000Z",
       "match": "Bologna vs Cagliari",
@@ -1617,6 +1675,10 @@
         {
           "name": "Fox Sports 3",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports3"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
         }
       ]
     },
@@ -1630,6 +1692,10 @@
         {
           "name": "Fox Sports",
           "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -1655,7 +1721,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
         }
       ]
     },
@@ -1668,7 +1734,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -1696,19 +1762,6 @@
     {
       "time": "12:00",
       "time_utc": "2026-05-03T17:00:00.000Z",
-      "match": "Racing Santander vs Huesca",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "12:00",
-      "time_utc": "2026-05-03T17:00:00.000Z",
       "match": "Celta de Vigo vs Elche",
       "league": "LaLiga",
       "flag": "⚽",
@@ -1724,6 +1777,10 @@
         {
           "name": "ESPN 2 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
         },
         {
           "name": "ESPN Deportes",
@@ -1744,15 +1801,19 @@
       ]
     },
     {
-      "time": "12:30",
-      "time_utc": "2026-05-03T17:30:00.000Z",
-      "match": "Fortuna Sittard vs Feyenoord",
-      "league": "Eredivisie",
+      "time": "12:00",
+      "time_utc": "2026-05-03T17:00:00.000Z",
+      "match": "Racing Santander vs Huesca",
+      "league": "LaLiga SmartBank",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 MX",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney8"
         }
       ]
     },
@@ -1765,7 +1826,28 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney9"
+        }
+      ]
+    },
+    {
+      "time": "12:30",
+      "time_utc": "2026-05-03T17:30:00.000Z",
+      "match": "Fortuna Sittard vs Feyenoord",
+      "league": "Eredivisie",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney10"
+        },
+        {
+          "name": "ESPN 3 NL",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3_nl"
         }
       ]
     },
@@ -1793,6 +1875,19 @@
     {
       "time": "13:00",
       "time_utc": "2026-05-03T18:00:00.000Z",
+      "match": "AFC Bournemouth vs Crystal Palace",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-05-03T18:00:00.000Z",
       "match": "Lille vs Le Havre",
       "league": "Ligue 1",
       "flag": "⚽",
@@ -1800,19 +1895,10 @@
         {
           "name": "BeIN Sports Ñ",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-05-03T18:00:00.000Z",
-      "match": "AFC Bournemouth vs Crystal Palace",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
+        },
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney12"
         }
       ]
     },
@@ -1836,6 +1922,10 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney13"
+        },
+        {
           "name": "ESPN MX",
           "href": "https://tvtvhd.com/canales.php?stream=espnmx"
         },
@@ -1846,19 +1936,6 @@
         {
           "name": "ESPN MX | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
-        }
-      ]
-    },
-    {
-      "time": "13:30",
-      "time_utc": "2026-05-03T18:30:00.000Z",
-      "match": "Leicester City WFC vs Chelsea FC",
-      "league": "Women's Super League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
         }
       ]
     },
@@ -1880,6 +1957,23 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney11"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-05-03T18:30:00.000Z",
+      "match": "Leicester City WFC vs Chelsea FC",
+      "league": "Women's Super League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
         }
       ]
     },
@@ -1916,6 +2010,10 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney14"
+        },
+        {
           "name": "ESPN Deportes",
           "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
         },
@@ -1926,6 +2024,10 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -1947,6 +2049,10 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney15"
         }
       ]
     },
@@ -1957,6 +2063,10 @@
       "league": "Premier League",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3pl"
+        },
         {
           "name": "ESPN",
           "href": "https://tvtvhd.com/canales.php?stream=espn"
@@ -1998,6 +2108,10 @@
         {
           "name": "ESPN 2 NL",
           "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney16"
         }
       ]
     },
@@ -2031,7 +2145,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney18"
         }
       ]
     },
@@ -2044,7 +2158,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney17"
         }
       ]
     },
@@ -2057,7 +2171,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney19"
         }
       ]
     },
@@ -2070,7 +2184,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney20"
         }
       ]
     },
@@ -2083,7 +2197,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
         }
       ]
     },
@@ -2096,7 +2210,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -2162,19 +2276,6 @@
     {
       "time": "16:30",
       "time_utc": "2026-05-03T21:30:00.000Z",
-      "match": "Real Sociedad II vs Burgos",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-05-03T21:30:00.000Z",
       "match": "Univ. Concepción vs Universidad Católica",
       "league": "Copa de la Liga",
       "flag": "⚽",
@@ -2182,6 +2283,23 @@
         {
           "name": "MAX",
           "href": "https://tvtvhd.com/canales.php?stream=max1"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-05-03T21:30:00.000Z",
+      "match": "Real Sociedad II vs Burgos",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -2228,6 +2346,18 @@
         {
           "name": "TNT Sports",
           "href": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TyC Sports Internacional",
+          "href": "https://tvtvhd.com/canales.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports International | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tycinternacional"
         }
       ]
     },
@@ -2240,7 +2370,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -2266,7 +2396,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
         }
       ]
     },
@@ -2296,7 +2426,24 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-05-03T23:45:00.000Z",
+      "match": "Olympique Lyonnais vs Rennes",
+      "league": "Ligue 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
         }
       ]
     },
@@ -2326,19 +2473,31 @@
         {
           "name": "ESPN 4 MX",
           "href": "https://tvtvhd.com/canales.php?stream=espn4mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
     {
-      "time": "18:45",
-      "time_utc": "2026-05-03T23:45:00.000Z",
-      "match": "Olympique Lyonnais vs Rennes",
-      "league": "Ligue 1",
+      "time": "19:00",
+      "time_utc": "2026-05-04T00:00:00.000Z",
+      "match": "Flamengo vs Vasco da Gama",
+      "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Premiere BR",
+          "href": "https://tvtvhd.com/canales.php?stream=premiere1"
         }
       ]
     },
@@ -2356,6 +2515,18 @@
         {
           "name": "ESPN Premium┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "TyC Sports Internacional",
+          "href": "https://tvtvhd.com/canales.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports International | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tycinternacional"
         }
       ]
     },
@@ -2371,14 +2542,6 @@
           "href": "https://tvtvhd.com/canales.php?stream=tntsports"
         }
       ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-05-04T00:00:00.000Z",
-      "match": "Flamengo vs Vasco da Gama",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "19:00",
@@ -2410,6 +2573,10 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -2423,6 +2590,10 @@
         {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney8"
         }
       ]
     },
@@ -2483,7 +2654,20 @@
       "match": "Detroit Pistons vs Orlando Magic",
       "league": "NBA – Playoffs Juego #7",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
     },
     {
       "time": "20:00",
