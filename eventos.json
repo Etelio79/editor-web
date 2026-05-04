@@ -1,9 +1,809 @@
 {
-  "actualizado_en": "2026-05-04T03:53:44.571Z",
-  "fecha": "domingo, 3 de mayo",
-  "fuente": "none",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "actualizado_en": "2026-05-04T08:39:48.156Z",
+  "fecha": "lunes, 4 de mayo",
+  "fuente": "futbollibre-titiritero",
+  "contar": 23,
+  "contar_con_canales": 23,
+  "events": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-05-04T05:00:00.000Z",
+      "match": "São Paulo vs Flamengo",
+      "league": "Brasileiro Femenino",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-05-04T05:00:00.000Z",
+      "match": "Deportes Quindío vs Tigres",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-05-04T05:00:00.000Z",
+      "match": "Universitario de Vinto vs Blooming",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-05-04T05:30:00.000Z",
+      "match": "Estudiantes Río Cuarto vs Instituto",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-05-04T05:30:00.000Z",
+      "match": "Deportes Concepción vs Huachipato",
+      "league": "Copa de la Liga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-05-04T05:30:00.000Z",
+      "match": "San Marcos vs Recoleta",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-05-04T06:30:00.000Z",
+      "match": "San Francisco Giants vs San Diego Padres",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-05-04T18:30:00.000Z",
+      "match": "Ciclismo – La Vuelta Femenina – Etapa #2",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-05-04T19:00:00.000Z",
+      "match": "Chelsea vs Nottingham Forest",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-05-04T21:30:00.000Z",
+      "match": "Cremonese vs Lazio",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-05-04T23:00:00.000Z",
+      "match": "Alianza Universidad vs Santos",
+      "league": "Liga 2",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-05-04T23:00:00.000Z",
+      "match": "Los Chankas vs Deportivo Garcilaso",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-05-04T23:30:00.000Z",
+      "match": "Almería vs Mirandés",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-05-04T23:45:00.000Z",
+      "match": "Roma vs Fiorentina",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-05T00:00:00.000Z",
+      "match": "Everton vs Manchester City",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-05T00:00:00.000Z",
+      "match": "Sevilla vs Real Sociedad",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-05T00:00:00.000Z",
+      "match": "Envigado vs Internacional Palmira",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-05-05T01:00:00.000Z",
+      "match": "Gimnasia Mendoza vs Defensa y Justicia",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-05-05T02:00:00.000Z",
+      "match": "Unión Magdalena vs Barranquilla",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-05T03:00:00.000Z",
+      "match": "San Luis vs Unión San Felipe",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "22:15",
+      "time_utc": "2026-05-05T03:15:00.000Z",
+      "match": "Vélez Sarsfield vs Newell's Old Boys",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TyC Sports Internacional",
+          "href": "https://tvtvhd.com/canales.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports International | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tycinternacional"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-05-05T03:30:00.000Z",
+      "match": "Peñarol vs Defensor Sporting",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-05-05T04:00:00.000Z",
+      "match": "New York Yankees vs Baltimore Orioles",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-05-04T05:00:00.000Z",
+      "match": "São Paulo vs Flamengo",
+      "league": "Brasileiro Femenino",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-05-04T05:00:00.000Z",
+      "match": "Deportes Quindío vs Tigres",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-05-04T05:00:00.000Z",
+      "match": "Universitario de Vinto vs Blooming",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-05-04T05:30:00.000Z",
+      "match": "Estudiantes Río Cuarto vs Instituto",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-05-04T05:30:00.000Z",
+      "match": "Deportes Concepción vs Huachipato",
+      "league": "Copa de la Liga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-05-04T05:30:00.000Z",
+      "match": "San Marcos vs Recoleta",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-05-04T06:30:00.000Z",
+      "match": "San Francisco Giants vs San Diego Padres",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-05-04T18:30:00.000Z",
+      "match": "Ciclismo – La Vuelta Femenina – Etapa #2",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-05-04T19:00:00.000Z",
+      "match": "Chelsea vs Nottingham Forest",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-05-04T21:30:00.000Z",
+      "match": "Cremonese vs Lazio",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-05-04T23:00:00.000Z",
+      "match": "Alianza Universidad vs Santos",
+      "league": "Liga 2",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-05-04T23:00:00.000Z",
+      "match": "Los Chankas vs Deportivo Garcilaso",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-05-04T23:30:00.000Z",
+      "match": "Almería vs Mirandés",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-05-04T23:45:00.000Z",
+      "match": "Roma vs Fiorentina",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-05T00:00:00.000Z",
+      "match": "Everton vs Manchester City",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-05T00:00:00.000Z",
+      "match": "Sevilla vs Real Sociedad",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-05T00:00:00.000Z",
+      "match": "Envigado vs Internacional Palmira",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-05-05T01:00:00.000Z",
+      "match": "Gimnasia Mendoza vs Defensa y Justicia",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-05-05T02:00:00.000Z",
+      "match": "Unión Magdalena vs Barranquilla",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsportsplus"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-05T03:00:00.000Z",
+      "match": "San Luis vs Unión San Felipe",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "22:15",
+      "time_utc": "2026-05-05T03:15:00.000Z",
+      "match": "Vélez Sarsfield vs Newell's Old Boys",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TyC Sports Internacional",
+          "href": "https://tvtvhd.com/canales.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tycinternacional"
+        },
+        {
+          "name": "TyC Sports International | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tycinternacional"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-05-05T03:30:00.000Z",
+      "match": "Peñarol vs Defensor Sporting",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-05-05T04:00:00.000Z",
+      "match": "New York Yankees vs Baltimore Orioles",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    }
+  ]
 }
