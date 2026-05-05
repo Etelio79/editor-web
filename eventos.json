@@ -1,10 +1,72 @@
 {
-  "actualizado_en": "2026-05-05T14:13:37.729Z",
+  "actualizado_en": "2026-05-05T16:43:48.914Z",
   "fecha": "martes, 5 de mayo",
   "fuente": "futbollibre-titiritero",
-  "contar": 9,
-  "contar_con_canales": 9,
+  "contar": 17,
+  "contar_con_canales": 17,
   "events": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-05-05T05:00:00.000Z",
+      "match": "UCV vs Independiente del Valle",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "Fox Sports 3",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports3"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-05-05T05:00:00.000Z",
+      "match": "Barcelona vs Boca Juniors",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://tvtvhd.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        }
+      ]
+    },
     {
       "time": "00:30",
       "time_utc": "2026-05-05T05:30:00.000Z",
@@ -15,6 +77,31 @@
         {
           "name": "DSports +",
           "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-05-05T05:30:00.000Z",
+      "match": "Always Ready vs Lanús",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 7",
+          "href": "https://tvtvhd.com/canales.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn7"
+        },
+        {
+          "name": "Fox Sports 2",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
         }
       ]
     },
@@ -61,10 +148,82 @@
       ]
     },
     {
+      "time": "01:30",
+      "time_utc": "2026-05-05T06:30:00.000Z",
+      "match": "Los Angeles Angels vs Chicago White",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
       "time": "02:00",
       "time_utc": "2026-05-05T07:00:00.000Z",
       "match": "Deportivo Cuenca vs San Lorenzo",
       "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-05-05T21:45:00.000Z",
+      "match": "RKC Waalwijk vs Willem II",
+      "league": "Eredivisie",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN NL",
+          "href": "https://tvtvhd.com/canales.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-05-05T23:00:00.000Z",
+      "match": "Al Khaleej vs Al Hilal",
+      "league": "Pro League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-06T00:00:00.000Z",
+      "match": "Arsenal vs Atlético Madrid",
+      "league": "UEFA Champions League",
       "flag": "⚽",
       "channels": [
         {
@@ -195,12 +354,95 @@
         {
           "name": "ESPN 3 NL",
           "href": "https://tvtvhd.com/canales.php?stream=espn3_nl"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-05-06T04:00:00.000Z",
+      "match": "New York Yankees vs Texas Rangers",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
         }
       ]
     }
   ],
   "eventos": [
     {
+      "time": "00:00",
+      "time_utc": "2026-05-05T05:00:00.000Z",
+      "match": "UCV vs Independiente del Valle",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "Fox Sports 3",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports3"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-05-05T05:00:00.000Z",
+      "match": "Barcelona vs Boca Juniors",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://tvtvhd.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
       "time": "00:30",
       "time_utc": "2026-05-05T05:30:00.000Z",
       "match": "Deportivo Recoleta vs Santos",
@@ -210,6 +452,31 @@
         {
           "name": "DSports +",
           "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-05-05T05:30:00.000Z",
+      "match": "Always Ready vs Lanús",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 7",
+          "href": "https://tvtvhd.com/canales.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn7"
+        },
+        {
+          "name": "Fox Sports 2",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
         }
       ]
     },
@@ -256,10 +523,82 @@
       ]
     },
     {
+      "time": "01:30",
+      "time_utc": "2026-05-05T06:30:00.000Z",
+      "match": "Los Angeles Angels vs Chicago White",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
       "time": "02:00",
       "time_utc": "2026-05-05T07:00:00.000Z",
       "match": "Deportivo Cuenca vs San Lorenzo",
       "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-05-05T21:45:00.000Z",
+      "match": "RKC Waalwijk vs Willem II",
+      "league": "Eredivisie",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN NL",
+          "href": "https://tvtvhd.com/canales.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-05-05T23:00:00.000Z",
+      "match": "Al Khaleej vs Al Hilal",
+      "league": "Pro League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-06T00:00:00.000Z",
+      "match": "Arsenal vs Atlético Madrid",
+      "league": "UEFA Champions League",
       "flag": "⚽",
       "channels": [
         {
@@ -390,6 +729,27 @@
         {
           "name": "ESPN 3 NL",
           "href": "https://tvtvhd.com/canales.php?stream=espn3_nl"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-05-06T04:00:00.000Z",
+      "match": "New York Yankees vs Texas Rangers",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
         }
       ]
     }
