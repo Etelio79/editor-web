@@ -1,35 +1,395 @@
 {
-  "actualizado_en": "2026-05-05T08:21:14.040Z",
+  "actualizado_en": "2026-05-05T14:13:37.729Z",
   "fecha": "martes, 5 de mayo",
   "fuente": "futbollibre-titiritero",
-  "contar": 1,
-  "contar_con_canales": 1,
+  "contar": 9,
+  "contar_con_canales": 9,
   "events": [
     {
-      "time": "15:00",
-      "time_utc": "2026-05-05T20:00:00.000Z",
-      "match": "Academia Tito Drago vs Ceilandia EC",
-      "league": "CONMEBOL Libertadores Fútbol Playa",
+      "time": "00:30",
+      "time_utc": "2026-05-05T05:30:00.000Z",
+      "match": "Deportivo Recoleta vs Santos",
+      "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Sportv 2 BR",
-          "href": "https://tvtvhd.com/canales.php?stream=sportv2"
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-05-05T05:30:00.000Z",
+      "match": "Academia Puerto Cabello vs Cienciano",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-05-05T06:30:00.000Z",
+      "match": "Tigres UANL vs Nashville SC",
+      "league": "Copa de Campeones de la Concacaf",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 NL",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-05-05T07:00:00.000Z",
+      "match": "Deportivo Cuenca vs San Lorenzo",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-06T03:00:00.000Z",
+      "match": "Deportivo Riestra vs Grêmio",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-06T03:00:00.000Z",
+      "match": "Rosario Central vs Libertad",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "Fox Sports 2",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-06T03:00:00.000Z",
+      "match": "Juventud vs Atlético Mineiro",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-06T03:00:00.000Z",
+      "match": "Independiente Petrolero vs Caracas",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-06T03:00:00.000Z",
+      "match": "Sporting Cristal vs Palmeiras",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Fox Sports 3",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports3"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "ESPN 3 NL",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3_nl"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "15:00",
-      "time_utc": "2026-05-05T20:00:00.000Z",
-      "match": "Academia Tito Drago vs Ceilandia EC",
-      "league": "CONMEBOL Libertadores Fútbol Playa",
+      "time": "00:30",
+      "time_utc": "2026-05-05T05:30:00.000Z",
+      "match": "Deportivo Recoleta vs Santos",
+      "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Sportv 2 BR",
-          "href": "https://tvtvhd.com/canales.php?stream=sportv2"
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-05-05T05:30:00.000Z",
+      "match": "Academia Puerto Cabello vs Cienciano",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-05-05T06:30:00.000Z",
+      "match": "Tigres UANL vs Nashville SC",
+      "league": "Copa de Campeones de la Concacaf",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 NL",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-05-05T07:00:00.000Z",
+      "match": "Deportivo Cuenca vs San Lorenzo",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-06T03:00:00.000Z",
+      "match": "Deportivo Riestra vs Grêmio",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-06T03:00:00.000Z",
+      "match": "Rosario Central vs Libertad",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "Fox Sports 2",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-06T03:00:00.000Z",
+      "match": "Juventud vs Atlético Mineiro",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-06T03:00:00.000Z",
+      "match": "Independiente Petrolero vs Caracas",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-05-06T03:00:00.000Z",
+      "match": "Sporting Cristal vs Palmeiras",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Fox Sports 3",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports3"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "ESPN 3 NL",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3_nl"
         }
       ]
     }
