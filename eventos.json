@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-05-08T14:06:40.723Z",
+  "actualizado_en": "2026-05-08T17:26:55.318Z",
   "fecha": "viernes, 8 de mayo",
   "fuente": "futbollibre-titiritero",
-  "contar": 25,
-  "contar_con_canales": 25,
+  "contar": 24,
+  "contar_con_canales": 24,
   "events": [
     {
       "time": "00:10",
@@ -90,27 +90,6 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-05-08T18:00:00.000Z",
-      "match": "Tenis – Internazionali BNL d’Italia – Segunda Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "16:30",
       "time_utc": "2026-05-08T21:30:00.000Z",
       "match": "Paderborn vs Karlsruher SC",
@@ -173,19 +152,6 @@
     {
       "time": "18:00",
       "time_utc": "2026-05-08T23:00:00.000Z",
-      "match": "PSV vs ADO Den Haag",
-      "league": "Eredivisie Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-05-08T23:00:00.000Z",
       "match": "Al Kholood vs Al Hilal",
       "league": "Copa del Rey de Arabia Saudita",
       "flag": "⚽",
@@ -197,6 +163,36 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-05-08T23:00:00.000Z",
+      "match": "PSV vs ADO Den Haag",
+      "league": "Eredivisie Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 NL",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-05-08T23:30:00.000Z",
+      "match": "Cádiz vs Deportivo La Coruña",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -220,21 +216,12 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-05-08T23:30:00.000Z",
-      "match": "Cádiz vs Deportivo La Coruña",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
         }
       ]
     },
@@ -247,7 +234,15 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
@@ -261,6 +256,10 @@
         {
           "name": "BeIN Sports Ñ",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -305,6 +304,10 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        },
+        {
           "name": "ESPN Deportes",
           "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
         },
@@ -315,6 +318,10 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -541,27 +548,6 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-05-08T18:00:00.000Z",
-      "match": "Tenis – Internazionali BNL d’Italia – Segunda Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "16:30",
       "time_utc": "2026-05-08T21:30:00.000Z",
       "match": "Paderborn vs Karlsruher SC",
@@ -624,19 +610,6 @@
     {
       "time": "18:00",
       "time_utc": "2026-05-08T23:00:00.000Z",
-      "match": "PSV vs ADO Den Haag",
-      "league": "Eredivisie Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-05-08T23:00:00.000Z",
       "match": "Al Kholood vs Al Hilal",
       "league": "Copa del Rey de Arabia Saudita",
       "flag": "⚽",
@@ -648,6 +621,36 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-05-08T23:00:00.000Z",
+      "match": "PSV vs ADO Den Haag",
+      "league": "Eredivisie Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 NL",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2_nl"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-05-08T23:30:00.000Z",
+      "match": "Cádiz vs Deportivo La Coruña",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -671,21 +674,12 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-05-08T23:30:00.000Z",
-      "match": "Cádiz vs Deportivo La Coruña",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
         }
       ]
     },
@@ -698,7 +692,15 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
@@ -712,6 +714,10 @@
         {
           "name": "BeIN Sports Ñ",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -756,6 +762,10 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        },
+        {
           "name": "ESPN Deportes",
           "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
         },
@@ -766,6 +776,10 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
         }
       ]
     },
