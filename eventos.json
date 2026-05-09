@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "2026-05-09T06:24:07.904Z",
+  "actualizado_en": "2026-05-09T09:27:32.075Z",
   "fecha": "sábado, 9 de mayo",
   "fuente": "futbollibre-titiritero",
   "contar": 84,
@@ -763,32 +763,22 @@
         {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        }
-      ]
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-05-09T21:30:00.000Z",
-      "match": "Real Valladolid vs Real Zaragoza",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-05-09T21:30:00.000Z",
-      "match": "Manchester City vs Brentford",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
+        },
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney14"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
         }
       ]
     },
@@ -810,6 +800,44 @@
         {
           "name": "ESPN 3 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney15"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-05-09T21:30:00.000Z",
+      "match": "Real Valladolid vs Real Zaragoza",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney16"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-05-09T21:30:00.000Z",
+      "match": "Manchester City vs Brentford",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
         }
       ]
     },
@@ -822,20 +850,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-05-09T22:00:00.000Z",
-      "match": "Beşiktaş vs Trabzonspor",
-      "league": "Super Lig",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney17"
         }
       ]
     },
@@ -876,51 +891,13 @@
     {
       "time": "17:00",
       "time_utc": "2026-05-09T22:00:00.000Z",
-      "match": "Eyüpspor vs Rizespor",
+      "match": "Beşiktaş vs Trabzonspor",
       "league": "Super Lig",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 7",
-          "href": "https://tvtvhd.com/canales.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn7"
-        },
-        {
-          "name": "Fox Sports 3",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports3"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-05-09T22:00:00.000Z",
-      "match": "Galatasaray vs Antalyaspor",
-      "league": "Super Lig",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-05-09T22:00:00.000Z",
-      "match": "Konyaspor vs Fenerbahçe",
-      "league": "Super Lig",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Fox Sports 2",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney20"
         }
       ]
     },
@@ -955,6 +932,69 @@
         {
           "name": "ESPN 7 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn7"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-05-09T22:00:00.000Z",
+      "match": "Eyüpspor vs Rizespor",
+      "league": "Super Lig",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 7",
+          "href": "https://tvtvhd.com/canales.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn7"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney18"
+        },
+        {
+          "name": "Fox Sports 3",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports3"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-05-09T22:00:00.000Z",
+      "match": "Konyaspor vs Fenerbahçe",
+      "league": "Super Lig",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-05-09T22:00:00.000Z",
+      "match": "Galatasaray vs Antalyaspor",
+      "league": "Super Lig",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney19"
         }
       ]
     },
@@ -1005,7 +1045,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -1018,7 +1058,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -1040,6 +1080,10 @@
         {
           "name": "ESPN AR┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -1073,7 +1117,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
         }
       ]
     },
@@ -1083,7 +1127,12 @@
       "match": "Coritiba vs Internacional",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Premiere BR",
+          "href": "https://tvtvhd.com/canales.php?stream=premiere1"
+        }
+      ]
     },
     {
       "time": "19:00",
@@ -1095,6 +1144,19 @@
         {
           "name": "Futbol Canal",
           "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-10T00:00:00.000Z",
+      "match": "Bolton Wanderers vs Bradford City",
+      "league": "League One",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
         }
       ]
     },
@@ -1128,19 +1190,10 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-05-10T00:00:00.000Z",
-      "match": "Bolton Wanderers vs Bradford City",
-      "league": "League One",
-      "flag": "⚽",
-      "channels": [
+        },
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -1154,6 +1207,10 @@
         {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
         }
       ]
     },
@@ -1480,12 +1537,7 @@
       "match": "Barcelona  vs Real Madrid",
       "league": "Amistoso Legends",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "23:30",
@@ -2260,32 +2312,22 @@
         {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        }
-      ]
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-05-09T21:30:00.000Z",
-      "match": "Real Valladolid vs Real Zaragoza",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-05-09T21:30:00.000Z",
-      "match": "Manchester City vs Brentford",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
+        },
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney14"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
         }
       ]
     },
@@ -2307,6 +2349,44 @@
         {
           "name": "ESPN 3 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney15"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-05-09T21:30:00.000Z",
+      "match": "Real Valladolid vs Real Zaragoza",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney16"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-05-09T21:30:00.000Z",
+      "match": "Manchester City vs Brentford",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
         }
       ]
     },
@@ -2319,20 +2399,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-05-09T22:00:00.000Z",
-      "match": "Beşiktaş vs Trabzonspor",
-      "league": "Super Lig",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney17"
         }
       ]
     },
@@ -2373,51 +2440,13 @@
     {
       "time": "17:00",
       "time_utc": "2026-05-09T22:00:00.000Z",
-      "match": "Eyüpspor vs Rizespor",
+      "match": "Beşiktaş vs Trabzonspor",
       "league": "Super Lig",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 7",
-          "href": "https://tvtvhd.com/canales.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn7"
-        },
-        {
-          "name": "Fox Sports 3",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports3"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-05-09T22:00:00.000Z",
-      "match": "Galatasaray vs Antalyaspor",
-      "league": "Super Lig",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-05-09T22:00:00.000Z",
-      "match": "Konyaspor vs Fenerbahçe",
-      "league": "Super Lig",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Fox Sports 2",
-          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney20"
         }
       ]
     },
@@ -2452,6 +2481,69 @@
         {
           "name": "ESPN 7 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn7"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-05-09T22:00:00.000Z",
+      "match": "Eyüpspor vs Rizespor",
+      "league": "Super Lig",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 7",
+          "href": "https://tvtvhd.com/canales.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn7"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney18"
+        },
+        {
+          "name": "Fox Sports 3",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports3"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-05-09T22:00:00.000Z",
+      "match": "Konyaspor vs Fenerbahçe",
+      "league": "Super Lig",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-05-09T22:00:00.000Z",
+      "match": "Galatasaray vs Antalyaspor",
+      "league": "Super Lig",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney19"
         }
       ]
     },
@@ -2502,7 +2594,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -2515,7 +2607,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -2537,6 +2629,10 @@
         {
           "name": "ESPN AR┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -2570,7 +2666,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
         }
       ]
     },
@@ -2580,7 +2676,12 @@
       "match": "Coritiba vs Internacional",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Premiere BR",
+          "href": "https://tvtvhd.com/canales.php?stream=premiere1"
+        }
+      ]
     },
     {
       "time": "19:00",
@@ -2592,6 +2693,19 @@
         {
           "name": "Futbol Canal",
           "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-10T00:00:00.000Z",
+      "match": "Bolton Wanderers vs Bradford City",
+      "league": "League One",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
         }
       ]
     },
@@ -2625,19 +2739,10 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-05-10T00:00:00.000Z",
-      "match": "Bolton Wanderers vs Bradford City",
-      "league": "League One",
-      "flag": "⚽",
-      "channels": [
+        },
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -2651,6 +2756,10 @@
         {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
         }
       ]
     },
@@ -2977,12 +3086,7 @@
       "match": "Barcelona  vs Real Madrid",
       "league": "Amistoso Legends",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "23:30",
