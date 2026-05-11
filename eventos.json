@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-05-11T15:28:53.441Z",
+  "actualizado_en": "2026-05-11T18:00:26.199Z",
   "fecha": "lunes, 11 de mayo",
   "fuente": "futbollibre-titiritero",
-  "contar": 19,
-  "contar_con_canales": 19,
+  "contar": 18,
+  "contar_con_canales": 18,
   "events": [
     {
       "time": "00:00",
@@ -91,27 +91,6 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-05-11T18:00:00.000Z",
-      "match": "Internazionali BNL d’Italia – Tercera Ronda",
-      "league": "Tenis",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "18:00",
       "time_utc": "2026-05-11T23:00:00.000Z",
       "match": "Deportivo Garcilaso vs Alianza Atlético",
@@ -148,19 +127,6 @@
     {
       "time": "18:30",
       "time_utc": "2026-05-11T23:30:00.000Z",
-      "match": "Huesca vs Real Sociedad II",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-05-11T23:30:00.000Z",
       "match": "Internazionali BNL d’Italia – Tercera Ronda",
       "league": "Tenis",
       "flag": "⚽",
@@ -176,6 +142,23 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-05-11T23:30:00.000Z",
+      "match": "Huesca vs Real Sociedad II",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
         }
       ]
     },
@@ -199,8 +182,20 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        },
+        {
           "name": "ESPN 4 MX",
           "href": "https://tvtvhd.com/canales.php?stream=espn4mx"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
@@ -213,7 +208,20 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-12T00:00:00.000Z",
+      "match": "ABB vs Oriente Petrolero",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
         }
       ]
     },
@@ -237,6 +245,10 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+        },
+        {
           "name": "ESPN Deportes",
           "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
         },
@@ -257,34 +269,13 @@
     {
       "time": "19:00",
       "time_utc": "2026-05-12T00:00:00.000Z",
-      "match": "ABB vs Oriente Petrolero",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-05-12T00:00:00.000Z",
       "match": "Millwall vs Hull City",
       "league": "Championship",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
         }
       ]
     },
@@ -297,7 +288,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -440,27 +431,6 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-05-11T18:00:00.000Z",
-      "match": "Internazionali BNL d’Italia – Tercera Ronda",
-      "league": "Tenis",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "18:00",
       "time_utc": "2026-05-11T23:00:00.000Z",
       "match": "Deportivo Garcilaso vs Alianza Atlético",
@@ -497,19 +467,6 @@
     {
       "time": "18:30",
       "time_utc": "2026-05-11T23:30:00.000Z",
-      "match": "Huesca vs Real Sociedad II",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-05-11T23:30:00.000Z",
       "match": "Internazionali BNL d’Italia – Tercera Ronda",
       "league": "Tenis",
       "flag": "⚽",
@@ -525,6 +482,23 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-05-11T23:30:00.000Z",
+      "match": "Huesca vs Real Sociedad II",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
         }
       ]
     },
@@ -548,8 +522,20 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        },
+        {
           "name": "ESPN 4 MX",
           "href": "https://tvtvhd.com/canales.php?stream=espn4mx"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
@@ -562,7 +548,20 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-12T00:00:00.000Z",
+      "match": "ABB vs Oriente Petrolero",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
         }
       ]
     },
@@ -586,6 +585,10 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+        },
+        {
           "name": "ESPN Deportes",
           "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
         },
@@ -606,34 +609,13 @@
     {
       "time": "19:00",
       "time_utc": "2026-05-12T00:00:00.000Z",
-      "match": "ABB vs Oriente Petrolero",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-05-12T00:00:00.000Z",
       "match": "Millwall vs Hull City",
       "league": "Championship",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
         }
       ]
     },
@@ -646,7 +628,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
