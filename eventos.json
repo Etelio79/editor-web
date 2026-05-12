@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-05-12T14:41:00.722Z",
+  "actualizado_en": "2026-05-12T18:06:39.307Z",
   "fecha": "martes, 12 de mayo",
   "fuente": "futbollibre-titiritero",
-  "contar": 25,
-  "contar_con_canales": 24,
+  "contar": 24,
+  "contar_con_canales": 23,
   "events": [
     {
       "time": "00:00",
@@ -112,45 +112,12 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-05-12T18:00:00.000Z",
-      "match": "Internazionali BNL d’Italia",
-      "league": "Tenis",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "17:00",
       "time_utc": "2026-05-12T22:00:00.000Z",
       "match": "Celta de Vigo vs Levante",
       "league": "LaLiga",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
         {
           "name": "ESPN Deportes",
           "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
@@ -162,6 +129,22 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "Espn+",
+          "href": "https://tvtvhd.com/canales.php?stream=espnplus1"
+        },
+        {
+          "name": "Espn+",
+          "href": "https://tvtvhd.com/canales.php?stream=espnplus2"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -177,33 +160,16 @@
           "href": "https://tvtvhd.com/canales.php?stream=espn4"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney10"
+        },
+        {
           "name": "ESPN 4 | OP2",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
         },
         {
           "name": "ESPN 4 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-05-12T23:00:00.000Z",
-      "match": "Real Betis vs Elche",
-      "league": "LaLiga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
         }
       ]
     },
@@ -229,12 +195,49 @@
       ]
     },
     {
+      "time": "18:00",
+      "time_utc": "2026-05-12T23:00:00.000Z",
+      "match": "Real Betis vs Elche",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "Espn+",
+          "href": "https://tvtvhd.com/canales.php?stream=espnplus3"
+        },
+        {
+          "name": "Espn+",
+          "href": "https://tvtvhd.com/canales.php?stream=espnplus4"
+        }
+      ]
+    },
+    {
       "time": "18:30",
       "time_utc": "2026-05-12T23:30:00.000Z",
       "match": "Red Star vs Rodez",
       "league": "Ligue 1",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        },
         {
           "name": "BeIN Sports Ñ",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
@@ -261,23 +264,14 @@
     {
       "time": "19:00",
       "time_utc": "2026-05-13T00:00:00.000Z",
-      "match": "San Antonio Bulo Bulo vs Universitario de Vinto",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-05-13T00:00:00.000Z",
       "match": "Southampton vs Middlesbrough",
       "league": "Championship",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
+        },
         {
           "name": "ESPN 7",
           "href": "https://tvtvhd.com/canales.php?stream=espn7"
@@ -293,24 +287,25 @@
       ]
     },
     {
+      "time": "19:00",
+      "time_utc": "2026-05-13T00:00:00.000Z",
+      "match": "San Antonio Bulo Bulo vs Universitario de Vinto",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
+    },
+    {
       "time": "19:30",
       "time_utc": "2026-05-13T00:30:00.000Z",
       "match": "Osasuna vs Atlético Madrid",
       "league": "LaLiga",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
         {
           "name": "ESPN Deportes",
           "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
@@ -566,45 +561,12 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-05-12T18:00:00.000Z",
-      "match": "Internazionali BNL d’Italia",
-      "league": "Tenis",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "17:00",
       "time_utc": "2026-05-12T22:00:00.000Z",
       "match": "Celta de Vigo vs Levante",
       "league": "LaLiga",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
         {
           "name": "ESPN Deportes",
           "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
@@ -616,6 +578,22 @@
         {
           "name": "ESPN Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "Espn+",
+          "href": "https://tvtvhd.com/canales.php?stream=espnplus1"
+        },
+        {
+          "name": "Espn+",
+          "href": "https://tvtvhd.com/canales.php?stream=espnplus2"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -631,33 +609,16 @@
           "href": "https://tvtvhd.com/canales.php?stream=espn4"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney10"
+        },
+        {
           "name": "ESPN 4 | OP2",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
         },
         {
           "name": "ESPN 4 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-05-12T23:00:00.000Z",
-      "match": "Real Betis vs Elche",
-      "league": "LaLiga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
         }
       ]
     },
@@ -683,12 +644,49 @@
       ]
     },
     {
+      "time": "18:00",
+      "time_utc": "2026-05-12T23:00:00.000Z",
+      "match": "Real Betis vs Elche",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "Espn+",
+          "href": "https://tvtvhd.com/canales.php?stream=espnplus3"
+        },
+        {
+          "name": "Espn+",
+          "href": "https://tvtvhd.com/canales.php?stream=espnplus4"
+        }
+      ]
+    },
+    {
       "time": "18:30",
       "time_utc": "2026-05-12T23:30:00.000Z",
       "match": "Red Star vs Rodez",
       "league": "Ligue 1",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        },
         {
           "name": "BeIN Sports Ñ",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
@@ -715,23 +713,14 @@
     {
       "time": "19:00",
       "time_utc": "2026-05-13T00:00:00.000Z",
-      "match": "San Antonio Bulo Bulo vs Universitario de Vinto",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-05-13T00:00:00.000Z",
       "match": "Southampton vs Middlesbrough",
       "league": "Championship",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
+        },
         {
           "name": "ESPN 7",
           "href": "https://tvtvhd.com/canales.php?stream=espn7"
@@ -747,24 +736,25 @@
       ]
     },
     {
+      "time": "19:00",
+      "time_utc": "2026-05-13T00:00:00.000Z",
+      "match": "San Antonio Bulo Bulo vs Universitario de Vinto",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
+    },
+    {
       "time": "19:30",
       "time_utc": "2026-05-13T00:30:00.000Z",
       "match": "Osasuna vs Atlético Madrid",
       "league": "LaLiga",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
         {
           "name": "ESPN Deportes",
           "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
