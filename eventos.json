@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-05-24T10:03:14.040Z",
+  "actualizado_en": "2026-05-24T13:51:18.015Z",
   "fecha": "domingo, 24 de mayo",
   "fuente": "futbollibre-titiritero",
   "contar": 65,
-  "contar_con_canales": 56,
+  "contar_con_canales": 60,
   "events": [
     {
       "time": "00:00",
@@ -89,27 +89,6 @@
       ]
     },
     {
-      "time": "09:00",
-      "time_utc": "2026-05-24T14:00:00.000Z",
-      "match": "Tenis – Roland Garros – Día #1 – Primera Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "12:00",
       "time_utc": "2026-05-24T17:00:00.000Z",
       "match": "Bolton Wanderers vs Stockport County",
@@ -146,13 +125,26 @@
     {
       "time": "13:00",
       "time_utc": "2026-05-24T18:00:00.000Z",
+      "match": "La Luz vs Uruguay Montevideo",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-05-24T18:00:00.000Z",
       "match": "Cerro vs Central Español",
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -188,6 +180,10 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
           "name": "FOX Deportes",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
         },
@@ -207,6 +203,10 @@
         {
           "name": "LaLiga TV Hypermotion 2",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=hypermotion2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -220,6 +220,10 @@
         {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
         }
       ]
     },
@@ -253,7 +257,20 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-05-24T20:00:00.000Z",
+      "match": "Burnley vs Wolverhampton Wanderers",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3pl"
         }
       ]
     },
@@ -302,19 +319,6 @@
     {
       "time": "15:00",
       "time_utc": "2026-05-24T20:00:00.000Z",
-      "match": "Burnley vs Wolverhampton Wanderers",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-05-24T20:00:00.000Z",
       "match": "Crystal Palace vs Arsenal",
       "league": "Premier League",
       "flag": "⚽",
@@ -349,36 +353,14 @@
     {
       "time": "15:00",
       "time_utc": "2026-05-24T20:00:00.000Z",
-      "match": "Sunderland vs Chelsea",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-05-24T20:00:00.000Z",
-      "match": "Fulham vs Newcastle United",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-05-24T20:00:00.000Z",
       "match": "West Ham United vs Leeds United",
       "league": "Premier League",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4pl"
+        },
         {
           "name": "ESPN 7",
           "href": "https://tvtvhd.com/canales.php?stream=espn7"
@@ -397,6 +379,32 @@
       "time": "15:00",
       "time_utc": "2026-05-24T20:00:00.000Z",
       "match": "Brighton & Hove Albion vs Manchester United",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-05-24T20:00:00.000Z",
+      "match": "Fulham vs Newcastle United",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5pl"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-05-24T20:00:00.000Z",
+      "match": "Sunderland vs Chelsea",
       "league": "Premier League",
       "flag": "⚽",
       "channels": [
@@ -436,7 +444,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
         }
       ]
     },
@@ -460,19 +468,6 @@
     {
       "time": "16:00",
       "time_utc": "2026-05-24T21:00:00.000Z",
-      "match": "Juventus vs Roma",
-      "league": "Copa Italia Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "16:00",
-      "time_utc": "2026-05-24T21:00:00.000Z",
       "match": "Ajax vs Utrecht",
       "league": "Eredivisie",
       "flag": "⚽",
@@ -488,6 +483,23 @@
         {
           "name": "ESPN NL | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-05-24T21:00:00.000Z",
+      "match": "Juventus vs Roma",
+      "league": "Copa Italia Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
         }
       ]
     },
@@ -505,6 +517,19 @@
         {
           "name": "BeIN Sports Ñ",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-05-24T21:30:00.000Z",
+      "match": "Sporting Gijón vs Almería",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney8"
         }
       ]
     },
@@ -533,14 +558,6 @@
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
         }
       ]
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-05-24T21:30:00.000Z",
-      "match": "Sporting Gijón vs Almería",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "16:30",
@@ -608,13 +625,13 @@
     {
       "time": "16:30",
       "time_utc": "2026-05-24T21:30:00.000Z",
-      "match": "Málaga vs Racing Santander",
+      "match": "Eibar vs Córdoba",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
       "channels": [
         {
-          "name": "LaLiga TV Hypermotion 3",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=hypermotion3"
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney10"
         }
       ]
     },
@@ -624,15 +641,25 @@
       "match": "Cultural Leonesa vs Burgos",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney9"
+        }
+      ]
     },
     {
       "time": "16:30",
       "time_utc": "2026-05-24T21:30:00.000Z",
-      "match": "Eibar vs Córdoba",
+      "match": "Málaga vs Racing Santander",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion 3",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=hypermotion3"
+        }
+      ]
     },
     {
       "time": "16:30",
@@ -661,7 +688,20 @@
       "match": "Tenis – Roland Garros – Día #1 – Primera Ronda",
       "league": "",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
     },
     {
       "time": "18:00",
@@ -1147,27 +1187,6 @@
       ]
     },
     {
-      "time": "09:00",
-      "time_utc": "2026-05-24T14:00:00.000Z",
-      "match": "Tenis – Roland Garros – Día #1 – Primera Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "12:00",
       "time_utc": "2026-05-24T17:00:00.000Z",
       "match": "Bolton Wanderers vs Stockport County",
@@ -1204,13 +1223,26 @@
     {
       "time": "13:00",
       "time_utc": "2026-05-24T18:00:00.000Z",
+      "match": "La Luz vs Uruguay Montevideo",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-05-24T18:00:00.000Z",
       "match": "Cerro vs Central Español",
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -1246,6 +1278,10 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
           "name": "FOX Deportes",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
         },
@@ -1265,6 +1301,10 @@
         {
           "name": "LaLiga TV Hypermotion 2",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=hypermotion2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -1278,6 +1318,10 @@
         {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
         }
       ]
     },
@@ -1311,7 +1355,20 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1pl"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-05-24T20:00:00.000Z",
+      "match": "Burnley vs Wolverhampton Wanderers",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3pl"
         }
       ]
     },
@@ -1360,19 +1417,6 @@
     {
       "time": "15:00",
       "time_utc": "2026-05-24T20:00:00.000Z",
-      "match": "Burnley vs Wolverhampton Wanderers",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-05-24T20:00:00.000Z",
       "match": "Crystal Palace vs Arsenal",
       "league": "Premier League",
       "flag": "⚽",
@@ -1407,36 +1451,14 @@
     {
       "time": "15:00",
       "time_utc": "2026-05-24T20:00:00.000Z",
-      "match": "Sunderland vs Chelsea",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-05-24T20:00:00.000Z",
-      "match": "Fulham vs Newcastle United",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-05-24T20:00:00.000Z",
       "match": "West Ham United vs Leeds United",
       "league": "Premier League",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4pl"
+        },
         {
           "name": "ESPN 7",
           "href": "https://tvtvhd.com/canales.php?stream=espn7"
@@ -1455,6 +1477,32 @@
       "time": "15:00",
       "time_utc": "2026-05-24T20:00:00.000Z",
       "match": "Brighton & Hove Albion vs Manchester United",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2pl"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-05-24T20:00:00.000Z",
+      "match": "Fulham vs Newcastle United",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5pl"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-05-24T20:00:00.000Z",
+      "match": "Sunderland vs Chelsea",
       "league": "Premier League",
       "flag": "⚽",
       "channels": [
@@ -1494,7 +1542,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
         }
       ]
     },
@@ -1518,19 +1566,6 @@
     {
       "time": "16:00",
       "time_utc": "2026-05-24T21:00:00.000Z",
-      "match": "Juventus vs Roma",
-      "league": "Copa Italia Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "16:00",
-      "time_utc": "2026-05-24T21:00:00.000Z",
       "match": "Ajax vs Utrecht",
       "league": "Eredivisie",
       "flag": "⚽",
@@ -1546,6 +1581,23 @@
         {
           "name": "ESPN NL | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn1_nl"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-05-24T21:00:00.000Z",
+      "match": "Juventus vs Roma",
+      "league": "Copa Italia Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
         }
       ]
     },
@@ -1563,6 +1615,19 @@
         {
           "name": "BeIN Sports Ñ",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-05-24T21:30:00.000Z",
+      "match": "Sporting Gijón vs Almería",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney8"
         }
       ]
     },
@@ -1591,14 +1656,6 @@
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
         }
       ]
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-05-24T21:30:00.000Z",
-      "match": "Sporting Gijón vs Almería",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "16:30",
@@ -1666,13 +1723,13 @@
     {
       "time": "16:30",
       "time_utc": "2026-05-24T21:30:00.000Z",
-      "match": "Málaga vs Racing Santander",
+      "match": "Eibar vs Córdoba",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
       "channels": [
         {
-          "name": "LaLiga TV Hypermotion 3",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=hypermotion3"
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney10"
         }
       ]
     },
@@ -1682,15 +1739,25 @@
       "match": "Cultural Leonesa vs Burgos",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney9"
+        }
+      ]
     },
     {
       "time": "16:30",
       "time_utc": "2026-05-24T21:30:00.000Z",
-      "match": "Eibar vs Córdoba",
+      "match": "Málaga vs Racing Santander",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion 3",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=hypermotion3"
+        }
+      ]
     },
     {
       "time": "16:30",
@@ -1719,7 +1786,20 @@
       "match": "Tenis – Roland Garros – Día #1 – Primera Ronda",
       "league": "",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
     },
     {
       "time": "18:00",
