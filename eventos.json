@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-05-30T10:06:53.727Z",
+  "actualizado_en": "2026-05-30T13:56:20.723Z",
   "fecha": "sábado, 30 de mayo",
   "fuente": "futbollibre-titiritero",
-  "contar": 11,
-  "contar_con_canales": 10,
+  "contar": 25,
+  "contar_con_canales": 22,
   "events": [
     {
       "time": "01:00",
@@ -23,23 +23,51 @@
       ]
     },
     {
-      "time": "09:00",
-      "time_utc": "2026-05-30T14:00:00.000Z",
-      "match": "Tenis – Roland Garros – Día #6 – Tercera Ronda",
-      "league": "",
+      "time": "02:00",
+      "time_utc": "2026-05-30T07:00:00.000Z",
+      "match": "México vs Australia",
+      "league": "Amistoso",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
         },
         {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+          "name": "Azteca 7",
+          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
         },
         {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+          "name": "Azteca 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=azteca7"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "Univision USA",
+          "href": "https://tvtvhd.com/canales.php?stream=univision"
         }
       ]
     },
@@ -49,7 +77,33 @@
       "match": "Escocia vs Curazao",
       "league": "Amistoso",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "12:30",
+      "time_utc": "2026-05-30T17:30:00.000Z",
+      "match": "MotoGP – GP Italia – Sprint",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        }
+      ]
     },
     {
       "time": "13:00",
@@ -60,20 +114,45 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "14:15",
+      "time_utc": "2026-05-30T19:15:00.000Z",
+      "match": "Real Sociedad II vs Cultural Leonesa",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
     {
       "time": "15:00",
       "time_utc": "2026-05-30T20:00:00.000Z",
-      "match": "SC – Sorteo Conmebol Libertadores",
-      "league": "",
+      "match": "Dmitry Bivol vs Michael Eifert",
+      "league": "BOXEO",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+          "name": "ESPN 7",
+          "href": "https://tvtvhd.com/canales.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn7"
         }
       ]
     },
@@ -97,7 +176,7 @@
     {
       "time": "16:00",
       "time_utc": "2026-05-30T21:00:00.000Z",
-      "match": "PSG vs Arsenal",
+      "match": "UEFA Champions League: PSG vs Arsenal - LA FINAL",
       "league": "UEFA Champions League",
       "flag": "⚽",
       "channels": [
@@ -112,13 +191,58 @@
         {
           "name": "ESPN AR┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "Univision USA",
+          "href": "https://tvtvhd.com/canales.php?stream=univision"
+        }
+      ]
+    },
+    {
+      "time": "17:45",
+      "time_utc": "2026-05-30T22:45:00.000Z",
+      "match": "Rugby – SR Americas – Cobras Brasil Rugby vs Tarucas",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
         }
       ]
     },
     {
       "time": "18:00",
       "time_utc": "2026-05-30T23:00:00.000Z",
-      "match": "Tenis – Roland Garros – Día #6 – Tercera Ronda",
+      "match": "Tenis – Roland Garros – Día #7 – Tercera Ronda",
       "league": "",
       "flag": "⚽",
       "channels": [
@@ -158,6 +282,53 @@
       ]
     },
     {
+      "time": "19:00",
+      "time_utc": "2026-05-31T00:00:00.000Z",
+      "match": "ABB vs Always Ready",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-31T00:00:00.000Z",
+      "match": "Flamengo vs Coritiba",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-31T00:00:00.000Z",
+      "match": "Athletico-PR vs Mirassol",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-31T00:00:00.000Z",
+      "match": "La Serena vs Colo-Colo",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
       "time": "20:00",
       "time_utc": "2026-05-31T01:00:00.000Z",
       "match": "Deportivo Garcilaso vs Juan Pablo II College",
@@ -175,6 +346,56 @@
       ]
     },
     {
+      "time": "20:30",
+      "time_utc": "2026-05-31T01:30:00.000Z",
+      "match": "Grêmio vs Corinthians",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "20:30",
+      "time_utc": "2026-05-31T01:30:00.000Z",
+      "match": "Bahia vs Botafogo",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-05-31T02:30:00.000Z",
+      "match": "Copa Oro Final – A Confirmar",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-05-31T02:30:00.000Z",
+      "match": "Universidad Chile vs Deportes Concepción",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
       "time": "22:30",
       "time_utc": "2026-05-31T03:30:00.000Z",
       "match": "Sport Boys vs Comerciantes Unidos",
@@ -188,6 +409,57 @@
         {
           "name": "Liga1Max | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "22:55",
+      "time_utc": "2026-05-31T03:55:00.000Z",
+      "match": "Rugby – SR Americas – Yacare XV vs Peñarol Rugby",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-05-31T04:00:00.000Z",
+      "match": "Santos vs Vitória",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-05-31T04:30:00.000Z",
+      "match": "Ecuador vs Arabia Saudita",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Zapping TV",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even3"
+        },
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://tvtvhd.com/canales.php?stream=ecdf_ligapro"
         }
       ]
     }
@@ -211,23 +483,51 @@
       ]
     },
     {
-      "time": "09:00",
-      "time_utc": "2026-05-30T14:00:00.000Z",
-      "match": "Tenis – Roland Garros – Día #6 – Tercera Ronda",
-      "league": "",
+      "time": "02:00",
+      "time_utc": "2026-05-30T07:00:00.000Z",
+      "match": "México vs Australia",
+      "league": "Amistoso",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
         },
         {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+          "name": "Azteca 7",
+          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
         },
         {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+          "name": "Azteca 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=azteca7"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "Univision USA",
+          "href": "https://tvtvhd.com/canales.php?stream=univision"
         }
       ]
     },
@@ -237,7 +537,33 @@
       "match": "Escocia vs Curazao",
       "league": "Amistoso",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "12:30",
+      "time_utc": "2026-05-30T17:30:00.000Z",
+      "match": "MotoGP – GP Italia – Sprint",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        }
+      ]
     },
     {
       "time": "13:00",
@@ -248,20 +574,45 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "14:15",
+      "time_utc": "2026-05-30T19:15:00.000Z",
+      "match": "Real Sociedad II vs Cultural Leonesa",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
     {
       "time": "15:00",
       "time_utc": "2026-05-30T20:00:00.000Z",
-      "match": "SC – Sorteo Conmebol Libertadores",
-      "league": "",
+      "match": "Dmitry Bivol vs Michael Eifert",
+      "league": "BOXEO",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+          "name": "ESPN 7",
+          "href": "https://tvtvhd.com/canales.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn7"
         }
       ]
     },
@@ -285,7 +636,7 @@
     {
       "time": "16:00",
       "time_utc": "2026-05-30T21:00:00.000Z",
-      "match": "PSG vs Arsenal",
+      "match": "UEFA Champions League: PSG vs Arsenal - LA FINAL",
       "league": "UEFA Champions League",
       "flag": "⚽",
       "channels": [
@@ -300,13 +651,58 @@
         {
           "name": "ESPN AR┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://tvtvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "Univision USA",
+          "href": "https://tvtvhd.com/canales.php?stream=univision"
+        }
+      ]
+    },
+    {
+      "time": "17:45",
+      "time_utc": "2026-05-30T22:45:00.000Z",
+      "match": "Rugby – SR Americas – Cobras Brasil Rugby vs Tarucas",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
         }
       ]
     },
     {
       "time": "18:00",
       "time_utc": "2026-05-30T23:00:00.000Z",
-      "match": "Tenis – Roland Garros – Día #6 – Tercera Ronda",
+      "match": "Tenis – Roland Garros – Día #7 – Tercera Ronda",
       "league": "",
       "flag": "⚽",
       "channels": [
@@ -346,6 +742,53 @@
       ]
     },
     {
+      "time": "19:00",
+      "time_utc": "2026-05-31T00:00:00.000Z",
+      "match": "ABB vs Always Ready",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-31T00:00:00.000Z",
+      "match": "Flamengo vs Coritiba",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-31T00:00:00.000Z",
+      "match": "Athletico-PR vs Mirassol",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-05-31T00:00:00.000Z",
+      "match": "La Serena vs Colo-Colo",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
       "time": "20:00",
       "time_utc": "2026-05-31T01:00:00.000Z",
       "match": "Deportivo Garcilaso vs Juan Pablo II College",
@@ -363,6 +806,56 @@
       ]
     },
     {
+      "time": "20:30",
+      "time_utc": "2026-05-31T01:30:00.000Z",
+      "match": "Grêmio vs Corinthians",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "20:30",
+      "time_utc": "2026-05-31T01:30:00.000Z",
+      "match": "Bahia vs Botafogo",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-05-31T02:30:00.000Z",
+      "match": "Copa Oro Final – A Confirmar",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-05-31T02:30:00.000Z",
+      "match": "Universidad Chile vs Deportes Concepción",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
       "time": "22:30",
       "time_utc": "2026-05-31T03:30:00.000Z",
       "match": "Sport Boys vs Comerciantes Unidos",
@@ -376,6 +869,57 @@
         {
           "name": "Liga1Max | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "22:55",
+      "time_utc": "2026-05-31T03:55:00.000Z",
+      "match": "Rugby – SR Americas – Yacare XV vs Peñarol Rugby",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-05-31T04:00:00.000Z",
+      "match": "Santos vs Vitória",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-05-31T04:30:00.000Z",
+      "match": "Ecuador vs Arabia Saudita",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Zapping TV",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even3"
+        },
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://tvtvhd.com/canales.php?stream=ecdf_ligapro"
         }
       ]
     }
