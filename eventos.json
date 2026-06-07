@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-07T10:34:12.939Z",
+  "actualizado_en": "2026-06-07T14:09:39.224Z",
   "fecha": "domingo, 7 de junio",
   "fuente": "futbollibre-titiritero",
-  "contar": 27,
-  "contar_con_canales": 27,
+  "contar": 29,
+  "contar_con_canales": 29,
   "events": [
     {
       "time": "00:00",
@@ -36,48 +36,6 @@
         {
           "name": "ESPN 2 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "08:45",
-      "time_utc": "2026-06-07T13:45:00.000Z",
-      "match": "MotoGP – GP Hungria – Carrera Moto3 / Moto2 / MotoGP",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "09:40",
-      "time_utc": "2026-06-07T14:40:00.000Z",
-      "match": "Porsche Supercup – Carrera",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
         }
       ]
     },
@@ -126,26 +84,17 @@
     {
       "time": "13:00",
       "time_utc": "2026-06-07T18:00:00.000Z",
-      "match": "Liechtenstein vs Chipre",
-      "league": "Amistoso",
+      "match": "Formula 1: GP Mónaco - Carrera",
+      "league": "F1",
       "flag": "⚽",
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-06-07T18:00:00.000Z",
-      "match": "Progreso vs Albion",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+        },
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Fox Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
         }
       ]
     },
@@ -175,15 +124,41 @@
       ]
     },
     {
-      "time": "16:00",
-      "time_utc": "2026-06-07T21:00:00.000Z",
-      "match": "Cerrito vs Atenas",
-      "league": "Segunda División",
+      "time": "13:00",
+      "time_utc": "2026-06-07T18:00:00.000Z",
+      "match": "Liechtenstein vs Chipre",
+      "league": "Amistoso",
       "flag": "⚽",
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-06-07T18:00:00.000Z",
+      "match": "Progreso vs Albion",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-06-07T18:00:00.000Z",
+      "match": "Formula 1: GP Mónaco - Race Hub",
+      "league": "F1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -201,6 +176,45 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-06-07T21:00:00.000Z",
+      "match": "Cerrito vs Atenas",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-06-07T21:30:00.000Z",
+      "match": "La Serena vs Unión La Calera",
+      "league": "Copa de la Liga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-06-07T21:30:00.000Z",
+      "match": "Universidad Chile vs Audax Italiano",
+      "league": "Copa de la Liga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MAX",
+          "href": "https://tvtvhd.com/canales.php?stream=max2"
         }
       ]
     },
@@ -234,7 +248,15 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Fox Sports 2 USA",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxsports2_usa"
         }
       ]
     },
@@ -353,7 +375,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
         }
       ]
     },
@@ -497,48 +519,6 @@
       ]
     },
     {
-      "time": "08:45",
-      "time_utc": "2026-06-07T13:45:00.000Z",
-      "match": "MotoGP – GP Hungria – Carrera Moto3 / Moto2 / MotoGP",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "09:40",
-      "time_utc": "2026-06-07T14:40:00.000Z",
-      "match": "Porsche Supercup – Carrera",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
-        }
-      ]
-    },
-    {
       "time": "11:00",
       "time_utc": "2026-06-07T16:00:00.000Z",
       "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #1",
@@ -583,26 +563,17 @@
     {
       "time": "13:00",
       "time_utc": "2026-06-07T18:00:00.000Z",
-      "match": "Liechtenstein vs Chipre",
-      "league": "Amistoso",
+      "match": "Formula 1: GP Mónaco - Carrera",
+      "league": "F1",
       "flag": "⚽",
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-06-07T18:00:00.000Z",
-      "match": "Progreso vs Albion",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+        },
         {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "name": "Fox Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=foxsports\n"
         }
       ]
     },
@@ -632,15 +603,41 @@
       ]
     },
     {
-      "time": "16:00",
-      "time_utc": "2026-06-07T21:00:00.000Z",
-      "match": "Cerrito vs Atenas",
-      "league": "Segunda División",
+      "time": "13:00",
+      "time_utc": "2026-06-07T18:00:00.000Z",
+      "match": "Liechtenstein vs Chipre",
+      "league": "Amistoso",
       "flag": "⚽",
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-06-07T18:00:00.000Z",
+      "match": "Progreso vs Albion",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-06-07T18:00:00.000Z",
+      "match": "Formula 1: GP Mónaco - Race Hub",
+      "league": "F1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -658,6 +655,45 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-06-07T21:00:00.000Z",
+      "match": "Cerrito vs Atenas",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-06-07T21:30:00.000Z",
+      "match": "La Serena vs Unión La Calera",
+      "league": "Copa de la Liga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-06-07T21:30:00.000Z",
+      "match": "Universidad Chile vs Audax Italiano",
+      "league": "Copa de la Liga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MAX",
+          "href": "https://tvtvhd.com/canales.php?stream=max2"
         }
       ]
     },
@@ -691,7 +727,15 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Fox Sports 2 USA",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxsports2_usa"
         }
       ]
     },
@@ -810,7 +854,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
         }
       ]
     },
