@@ -1,99 +1,765 @@
 {
-  "actualizado_en": "2026-06-09T04:10:31.742Z",
-  "fecha": "lunes, 8 de junio",
+  "actualizado_en": "2026-06-09T11:24:01.545Z",
+  "fecha": "martes, 9 de junio",
   "fuente": "futbollibre-titiritero",
-  "contar": 1,
-  "contar_con_canales": 1,
+  "contar": 22,
+  "contar_con_canales": 22,
   "events": [
     {
-      "time": "02:00",
-      "time_utc": "2026-06-08T07:00:00.000Z",
-      "match": "Perú vs España",
+      "time": "00:00",
+      "time_utc": "2026-06-09T05:00:00.000Z",
+      "match": "NHL – Juego #4 – Vegas Golden Knights vs Carolina Hurricanes",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-06-09T05:30:00.000Z",
+      "match": "Brasil vs EE. UU.",
+      "league": "Amistoso Internacional Femenino",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-06-09T06:00:00.000Z",
+      "match": "Argentina vs Islandia",
       "league": "Amistoso",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TV LA 1ES",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+          "name": "Telefe",
+          "href": "https://tvtvhd.com/canales.php?stream=telefe"
         },
         {
-          "name": "ESPN MX",
-          "href": "https://tvtvhd.com/canales.php?stream=espnmx"
+          "name": "ESPN Deportes",
+          "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
         },
         {
-          "name": "ESPN MX | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnmx"
+          "name": "ESPN Deportes | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espndeportes"
         },
         {
-          "name": "ESPN MX | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
+          "name": "ESPN Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
         },
         {
-          "name": "Movistar Deportes",
-          "href": "https://tvtvhd.com/canales.php?stream=movistar"
+          "name": "TyC Sports Internacional",
+          "href": "https://tvtvhd.com/canales.php?stream=tycinternacional"
         },
         {
-          "name": "ESPN",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tycinternacional"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+          "name": "TyC Sports International | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tycinternacional"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-06-09T06:30:00.000Z",
+      "match": "San Diego Padres vs Cincinnati Reds",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
         },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-06-09T18:00:00.000Z",
+      "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #3",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-06-09T20:00:00.000Z",
+      "match": "Armenia vs Moldavia",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
         {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-06-09T20:00:00.000Z",
+      "match": "RD del Congo vs Chile",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Chilevisión",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-06-09T21:30:00.000Z",
+      "match": "Bielorrusia vs Burkina Faso",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-06-09T22:00:00.000Z",
+      "match": "Hungría vs Kazajstán",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-06-09T22:00:00.000Z",
+      "match": "Suecia vs Italia",
+      "league": "Clasificatorias para el Mundial Femenino de la FIFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-06-09T23:00:00.000Z",
+      "match": "Azerbaiyán vs San Marino",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-06-09T23:00:00.000Z",
+      "match": "Lanús vs Independiente",
+      "league": "Torneo de Reserva",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-10T00:00:00.000Z",
+      "match": "Inglaterra vs Ucrania",
+      "league": "Clasificatorias para el Mundial Femenino de la FIFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-10T00:00:00.000Z",
+      "match": "Francia vs Republic of Ireland",
+      "league": "Clasificatorias para el Mundial Femenino de la FIFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-10T00:00:00.000Z",
+      "match": "Almería vs CD Castellon",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-06-10T03:00:00.000Z",
+      "match": "Náutico vs Fortaleza",
+      "league": "Serie B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-06-10T03:00:00.000Z",
+      "match": "River Plate  vs Rosario Central",
+      "league": "Torneo de Reserva",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-10T04:00:00.000Z",
+      "match": "Paraguay vs Colombia",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-10T04:00:00.000Z",
+      "match": "Uruguay vs Venezuela",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-10T04:00:00.000Z",
+      "match": "Ecuador vs Argentina",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-10T04:00:00.000Z",
+      "match": "Perú vs Bolivia",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-10T04:00:00.000Z",
+      "match": "WNBA – Chicago vs Atlanta",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "02:00",
-      "time_utc": "2026-06-08T07:00:00.000Z",
-      "match": "Perú vs España",
+      "time": "00:00",
+      "time_utc": "2026-06-09T05:00:00.000Z",
+      "match": "NHL – Juego #4 – Vegas Golden Knights vs Carolina Hurricanes",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-06-09T05:30:00.000Z",
+      "match": "Brasil vs EE. UU.",
+      "league": "Amistoso Internacional Femenino",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-06-09T06:00:00.000Z",
+      "match": "Argentina vs Islandia",
       "league": "Amistoso",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TV LA 1ES",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+          "name": "Telefe",
+          "href": "https://tvtvhd.com/canales.php?stream=telefe"
         },
         {
-          "name": "ESPN MX",
-          "href": "https://tvtvhd.com/canales.php?stream=espnmx"
+          "name": "ESPN Deportes",
+          "href": "https://tvtvhd.com/canales.php?stream=espndeportes"
         },
         {
-          "name": "ESPN MX | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espnmx"
+          "name": "ESPN Deportes | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espndeportes"
         },
         {
-          "name": "ESPN MX | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
+          "name": "ESPN Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espndeportes"
         },
         {
-          "name": "Movistar Deportes",
-          "href": "https://tvtvhd.com/canales.php?stream=movistar"
+          "name": "TyC Sports Internacional",
+          "href": "https://tvtvhd.com/canales.php?stream=tycinternacional"
         },
         {
-          "name": "ESPN",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=tycinternacional"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+          "name": "TyC Sports International | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=tycinternacional"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-06-09T06:30:00.000Z",
+      "match": "San Diego Padres vs Cincinnati Reds",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
         },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-06-09T18:00:00.000Z",
+      "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #3",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-06-09T20:00:00.000Z",
+      "match": "Armenia vs Moldavia",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
         {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-06-09T20:00:00.000Z",
+      "match": "RD del Congo vs Chile",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Chilevisión",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-06-09T21:30:00.000Z",
+      "match": "Bielorrusia vs Burkina Faso",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-06-09T22:00:00.000Z",
+      "match": "Hungría vs Kazajstán",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-06-09T22:00:00.000Z",
+      "match": "Suecia vs Italia",
+      "league": "Clasificatorias para el Mundial Femenino de la FIFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        },
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-06-09T23:00:00.000Z",
+      "match": "Azerbaiyán vs San Marino",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-06-09T23:00:00.000Z",
+      "match": "Lanús vs Independiente",
+      "league": "Torneo de Reserva",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-10T00:00:00.000Z",
+      "match": "Inglaterra vs Ucrania",
+      "league": "Clasificatorias para el Mundial Femenino de la FIFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-10T00:00:00.000Z",
+      "match": "Francia vs Republic of Ireland",
+      "league": "Clasificatorias para el Mundial Femenino de la FIFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-10T00:00:00.000Z",
+      "match": "Almería vs CD Castellon",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-06-10T03:00:00.000Z",
+      "match": "Náutico vs Fortaleza",
+      "league": "Serie B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-06-10T03:00:00.000Z",
+      "match": "River Plate  vs Rosario Central",
+      "league": "Torneo de Reserva",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-10T04:00:00.000Z",
+      "match": "Paraguay vs Colombia",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-10T04:00:00.000Z",
+      "match": "Uruguay vs Venezuela",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-10T04:00:00.000Z",
+      "match": "Ecuador vs Argentina",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-10T04:00:00.000Z",
+      "match": "Perú vs Bolivia",
+      "league": "CONMEBOL Nations League Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-10T04:00:00.000Z",
+      "match": "WNBA – Chicago vs Atlanta",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
         }
       ]
     }
