@@ -1,51 +1,405 @@
 {
-  "actualizado_en": "2026-06-10T04:21:40.151Z",
-  "fecha": "martes, 9 de junio",
+  "actualizado_en": "2026-06-10T11:44:14.804Z",
+  "fecha": "miércoles, 10 de junio",
   "fuente": "futbollibre-titiritero",
-  "contar": 1,
-  "contar_con_canales": 1,
+  "contar": 10,
+  "contar_con_canales": 10,
   "events": [
     {
-      "time": "01:30",
-      "time_utc": "2026-06-09T06:30:00.000Z",
-      "match": "San Diego Padres vs Cincinnati Reds",
-      "league": "MLB",
+      "time": "11:30",
+      "time_utc": "2026-06-10T16:30:00.000Z",
+      "match": "RD del Congo  vs Arabia Saudita",
+      "league": "Torneo Maurice Revello Sub - 20",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
         },
         {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-06-10T18:00:00.000Z",
+      "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #4",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
         },
         {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-06-10T22:00:00.000Z",
+      "match": "Colombia  vs Túnez",
+      "league": "Torneo Maurice Revello Sub - 20",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-06-10T23:00:00.000Z",
+      "match": "Sarmiento  vs Talleres de Córdoba",
+      "league": "Torneo de Reserva",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-06-10T23:00:00.000Z",
+      "match": "Vélez Sársfield  vs Tigre",
+      "league": "Torneo de Reserva",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-11T00:00:00.000Z",
+      "match": "Málaga vs Las Palmas",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-06-11T00:45:00.000Z",
+      "match": "Portugal vs Nigeria",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-06-11T01:00:00.000Z",
+      "match": "Bolivia vs Argelia",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-06-11T01:00:00.000Z",
+      "match": "Inglaterra vs Costa Rica",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Fox Sports 2 USA",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxsports2_usa"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-11T04:00:00.000Z",
+      "match": "MLB – New York Mets vs St. Louis Cardinals",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "01:30",
-      "time_utc": "2026-06-09T06:30:00.000Z",
-      "match": "San Diego Padres vs Cincinnati Reds",
-      "league": "MLB",
+      "time": "11:30",
+      "time_utc": "2026-06-10T16:30:00.000Z",
+      "match": "RD del Congo  vs Arabia Saudita",
+      "league": "Torneo Maurice Revello Sub - 20",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
         },
         {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-06-10T18:00:00.000Z",
+      "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #4",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
         },
         {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-06-10T22:00:00.000Z",
+      "match": "Colombia  vs Túnez",
+      "league": "Torneo Maurice Revello Sub - 20",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-06-10T23:00:00.000Z",
+      "match": "Sarmiento  vs Talleres de Córdoba",
+      "league": "Torneo de Reserva",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-06-10T23:00:00.000Z",
+      "match": "Vélez Sársfield  vs Tigre",
+      "league": "Torneo de Reserva",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-11T00:00:00.000Z",
+      "match": "Málaga vs Las Palmas",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-06-11T00:45:00.000Z",
+      "match": "Portugal vs Nigeria",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-06-11T01:00:00.000Z",
+      "match": "Bolivia vs Argelia",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-06-11T01:00:00.000Z",
+      "match": "Inglaterra vs Costa Rica",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Fox Sports 2 USA",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxsports2_usa"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-11T04:00:00.000Z",
+      "match": "MLB – New York Mets vs St. Louis Cardinals",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
         }
       ]
     }
