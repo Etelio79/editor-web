@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-11T15:13:00.890Z",
+  "actualizado_en": "2026-06-11T18:50:45.437Z",
   "fecha": "jueves, 11 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 7,
-  "contar_con_canales": 7,
+  "contar": 6,
+  "contar_con_canales": 6,
   "events": [
     {
       "time": "00:00",
@@ -33,6 +33,10 @@
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
         {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
@@ -68,31 +72,6 @@
         {
           "name": "Win Sports + | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
-        },
-        {
-          "name": "Telemundo 2 C.",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-06-11T11:00:00.000Z",
-      "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #5",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         }
       ]
     },
@@ -121,6 +100,14 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "TV LA 1ES",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
+        },
+        {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
@@ -131,6 +118,10 @@
         {
           "name": "DSports | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
         },
         {
           "name": "Disney+",
@@ -157,10 +148,6 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
         },
         {
-          "name": "Azteca 7",
-          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
-        },
-        {
           "name": "Azteca 7 | OP2",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=azteca7"
         },
@@ -171,10 +158,6 @@
         {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Telemundo 2 C.",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         }
       ]
     },
@@ -251,6 +234,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
@@ -285,31 +272,6 @@
         {
           "name": "Win Sports + | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=winsportsplus"
-        },
-        {
-          "name": "Telemundo 2 C.",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-06-11T11:00:00.000Z",
-      "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #5",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         }
       ]
     },
@@ -338,6 +300,14 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "TV LA 1ES",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
+        },
+        {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
@@ -348,6 +318,10 @@
         {
           "name": "DSports | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
         },
         {
           "name": "Disney+",
@@ -374,10 +348,6 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=tudn"
         },
         {
-          "name": "Azteca 7",
-          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
-        },
-        {
           "name": "Azteca 7 | OP2",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=azteca7"
         },
@@ -388,10 +358,6 @@
         {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Telemundo 2 C.",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         }
       ]
     },
