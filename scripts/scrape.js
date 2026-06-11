@@ -5,19 +5,22 @@ const path      = require('path');
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // URL del sitio - cambiar aquí si vuelve a moverse el dominio
-const SITE_URL = process.env.SITE_URL || 'https://futbollibreplus.pe';
+const SITE_URL = process.env.SITE_URL || 'https://rojadirectatv.net';
 
-// Convierte "19:00" (hora Colombia, UTC-5) a ISO UTC
+// Convierte "19:00" (hora España, Europe/Madrid) a ISO UTC
+// Detecta automáticamente si es verano (UTC+2) o invierno (UTC+1)
 function timeColombiaToUTC(timeStr) {
   const [h, m] = timeStr.split(':').map(Number);
   const now = new Date();
-  const bogotaOffset = 5 * 60 * 60 * 1000;
-  const nowBogota = new Date(now.getTime() - bogotaOffset);
+  // Obtener la fecha actual en Madrid
+  const madridNow = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Madrid' }));
+  // Calcular offset Madrid vs UTC en horas (1 o 2)
+  const madridOffset = Math.round((madridNow - now) / 3600000);
   const utc = new Date(Date.UTC(
-    nowBogota.getUTCFullYear(),
-    nowBogota.getUTCMonth(),
-    nowBogota.getUTCDate(),
-    h + 5,
+    madridNow.getFullYear(),
+    madridNow.getMonth(),
+    madridNow.getDate(),
+    h - madridOffset,
     m
   ));
   return utc.toISOString();
@@ -25,8 +28,8 @@ function timeColombiaToUTC(timeStr) {
 
 
 /**
- * Decodifica la URL real desde un enlace embed de futbollibre.
- * Entrada:  https://futbollibreplus.pe/embed/eventos.html?r=aHR0cHM6Ly90dnR2...
+ * Decodifica la URL real desde un enlace embed de rojadirecta.
+ * Entrada:  https://rojadirectatv.net/embed/eventos.html?r=aHR0cHM6Ly90dnR2...
  * Salida:   https://tvtvhd.com/canales.php?stream=espn
  */
 function decodeEmbedUrl(href) {
@@ -201,14 +204,18 @@ async function scrapeFutbolLibre() {
               && style.opacity !== '0';
           };
 
-          // Detecta si un href es un enlace embed válido de futbollibre*
-          // (acepta cualquier dominio: futbollibre.ec, futbollibreplus.pe, etc.)
+          // Detecta si un href es un enlace embed válido de rojadirecta*
+          // (acepta cualquier dominio: rojadirectatv.net, rojadirecta.tv, etc.)
           const isEmbed = (href) => {
-            if (!href || !href.includes('?r=')) return false;
-            if (!href.includes('/embed/eventos.html')) return false;
+            if (!href) return false;
+            // Caso 1: enlace embed con parámetro ?r= (Base64)
+            if (href.includes('/embed/') && href.includes('?r=')) return true;
+            // Caso 2: enlace directo a un stream del mismo dominio
             try {
-              return new URL(href).hostname.includes('futbollibre');
+              const u = new URL(href);
+              if (u.hostname.includes('rojadirecta') || u.hostname.includes('rojadirect')) return true;
             } catch { return false; }
+            return false;
           };
 
           // Re-localizar el elemento de la hora del evento clickeado
@@ -332,7 +339,7 @@ async function main() {
 
   try {
     events = await scrapeFutbolLibre();
-    if (events.length > 0) source = 'futbollibre-titiritero';
+    if (events.length > 0) source = 'rojadirectatv-puppeteer';
   } catch(e) {
     console.warn(`[PUP] FALLO: ${e.message}`);
   }
