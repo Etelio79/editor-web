@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-12T14:30:43.146Z",
+  "actualizado_en": "2026-06-12T17:30:10.525Z",
   "fecha": "viernes, 12 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 9,
-  "contar_con_canales": 9,
+  "contar": 8,
+  "contar_con_canales": 8,
   "events": [
     {
       "time": "00:00",
@@ -47,16 +47,36 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TYC Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
-        },
-        {
           "name": "Telemundo 2",
           "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
           "name": "Telefe",
           "href": "https://tvtvhd.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
         },
         {
           "name": "SporTV",
@@ -83,33 +103,8 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=azteca7"
         },
         {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
-        },
-        {
           "name": "Telemundo",
           "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-06-12T11:00:00.000Z",
-      "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #6",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         }
       ]
     },
@@ -138,16 +133,36 @@
           "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "TVE la 1 ES",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
           "name": "Win Sports",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
         },
         {
           "name": "Win Sports ┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
         }
       ]
     },
@@ -250,16 +265,36 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TYC Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
-        },
-        {
           "name": "Telemundo 2",
           "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
           "name": "Telefe",
           "href": "https://tvtvhd.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
         },
         {
           "name": "SporTV",
@@ -286,33 +321,8 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=azteca7"
         },
         {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
-        },
-        {
           "name": "Telemundo",
           "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-06-12T11:00:00.000Z",
-      "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #6",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         }
       ]
     },
@@ -341,16 +351,36 @@
           "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "TVE la 1 ES",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
           "name": "Win Sports",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
         },
         {
           "name": "Win Sports ┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
         }
       ]
     },
