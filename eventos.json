@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-13T13:18:13.295Z",
+  "actualizado_en": "2026-06-13T16:07:46.303Z",
   "fecha": "sábado, 13 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 19,
-  "contar_con_canales": 19,
+  "contar": 14,
+  "contar_con_canales": 14,
   "events": [
     {
       "time": "00:00",
@@ -31,7 +31,7 @@
         },
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+          "href": "https://tvtvhd.com/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         }
       ]
     },
@@ -51,113 +51,24 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
         },
         {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
         },
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        }
-      ]
-    },
-    {
-      "time": "11:00",
-      "time_utc": "2026-06-13T09:00:00.000Z",
-      "match": "Hockey – Pro League Femenino – China vs Argentina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://tvtvhd.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-06-13T09:30:00.000Z",
-      "match": "Third Place Match",
-      "league": "Maurice Revello",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "FOX Deportes",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-06-13T09:30:00.000Z",
-      "match": "Hockey – Pro League Masculino – Inglaterra vs Argentina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "12:00",
-      "time_utc": "2026-06-13T10:00:00.000Z",
-      "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #7",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "12:05",
-      "time_utc": "2026-06-13T10:05:00.000Z",
-      "match": "F2 Barcelona – Carrera Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+          "href": "https://tvtvhd.com/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         }
       ]
     },
@@ -278,23 +189,6 @@
     {
       "time": "19:00",
       "time_utc": "2026-06-13T17:00:00.000Z",
-      "match": "Qatar vs Suiza",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-13T17:00:00.000Z",
       "match": "Everton vs Palestino",
       "league": "Primera División",
       "flag": "⚽",
@@ -302,6 +196,43 @@
         {
           "name": "TNT Sports Premiun CL",
           "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-13T17:00:00.000Z",
+      "match": "Qatar vs Suiza",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "CAZÉ TV",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
         }
       ]
     },
@@ -351,7 +282,7 @@
         },
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+          "href": "https://tvtvhd.com/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         }
       ]
     },
@@ -404,7 +335,7 @@
         },
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+          "href": "https://tvtvhd.com/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         }
       ]
     },
@@ -424,113 +355,24 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
         },
         {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
         },
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        }
-      ]
-    },
-    {
-      "time": "11:00",
-      "time_utc": "2026-06-13T09:00:00.000Z",
-      "match": "Hockey – Pro League Femenino – China vs Argentina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://tvtvhd.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-06-13T09:30:00.000Z",
-      "match": "Third Place Match",
-      "league": "Maurice Revello",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "FOX Deportes",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-06-13T09:30:00.000Z",
-      "match": "Hockey – Pro League Masculino – Inglaterra vs Argentina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "12:00",
-      "time_utc": "2026-06-13T10:00:00.000Z",
-      "match": "Ciclismo – Tour of Auvergne-Rhône-Alpes – Etapa #7",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "12:05",
-      "time_utc": "2026-06-13T10:05:00.000Z",
-      "match": "F2 Barcelona – Carrera Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+          "href": "https://tvtvhd.com/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         }
       ]
     },
@@ -651,23 +493,6 @@
     {
       "time": "19:00",
       "time_utc": "2026-06-13T17:00:00.000Z",
-      "match": "Qatar vs Suiza",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-13T17:00:00.000Z",
       "match": "Everton vs Palestino",
       "league": "Primera División",
       "flag": "⚽",
@@ -675,6 +500,43 @@
         {
           "name": "TNT Sports Premiun CL",
           "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-13T17:00:00.000Z",
+      "match": "Qatar vs Suiza",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "CAZÉ TV",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
         }
       ]
     },
@@ -724,7 +586,7 @@
         },
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+          "href": "https://tvtvhd.com/mpd/drm?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         }
       ]
     },
