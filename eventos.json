@@ -1,13 +1,13 @@
 {
-  "actualizado_en": "2026-06-14T19:03:54.851Z",
+  "actualizado_en": "2026-06-14T22:01:38.572Z",
   "fecha": "domingo, 14 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 17,
-  "contar_con_canales": 17,
+  "contar": 13,
+  "contar_con_canales": 13,
   "events": [
     {
       "time": "00:00",
-      "time_utc": "2026-06-13T22:00:00.000Z",
+      "time_utc": "2026-06-14T22:00:00.000Z",
       "match": "NHL – (A Confirmar) – Vegas Golden Knights vs Carolina Hurricanes",
       "league": "",
       "flag": "⚽",
@@ -28,14 +28,14 @@
     },
     {
       "time": "02:00",
-      "time_utc": "2026-06-14T00:00:00.000Z",
+      "time_utc": "2026-06-15T00:00:00.000Z",
       "match": "Suecia vs Túnez",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/canales.php?stream=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
           "name": "DSports",
@@ -68,92 +68,8 @@
       ]
     },
     {
-      "time": "16:30",
-      "time_utc": "2026-06-14T14:30:00.000Z",
-      "match": "Deportes Concepción vs Deportes Limache",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-06-14T15:00:00.000Z",
-      "match": "Alemania vs Curazao",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/canales.php?stream=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "Dsports Mundial",
-          "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvtvhd.com/canales.php?stream=goltv"
-        },
-        {
-          "name": "TVE la 1 ES",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
-        },
-        {
-          "name": "CAZÉ TV",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-06-14T16:00:00.000Z",
-      "match": "Atenas vs La Luz",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-06-14T16:00:00.000Z",
-      "match": "MLB – Milwaukee Brewers vs Philadelphia Phillies",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 7",
-          "href": "https://tvtvhd.com/canales.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn7"
-        }
-      ]
-    },
-    {
       "time": "18:55",
-      "time_utc": "2026-06-14T16:55:00.000Z",
+      "time_utc": "2026-06-15T16:55:00.000Z",
       "match": "Rugby – Top 14 – Stade Francais vs La Rochelle",
       "league": "",
       "flag": "⚽",
@@ -174,7 +90,7 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-06-14T17:00:00.000Z",
+      "time_utc": "2026-06-15T17:00:00.000Z",
       "match": "Blooming vs Real Tomayapo",
       "league": "Primera División",
       "flag": "⚽",
@@ -187,7 +103,7 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-06-14T17:00:00.000Z",
+      "time_utc": "2026-06-15T17:00:00.000Z",
       "match": "Málaga vs Almería",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
@@ -200,7 +116,7 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-06-14T17:00:00.000Z",
+      "time_utc": "2026-06-15T17:00:00.000Z",
       "match": "Unión La Calera vs Universidad Chile",
       "league": "Primera División",
       "flag": "⚽",
@@ -213,34 +129,42 @@
     },
     {
       "time": "20:00",
-      "time_utc": "2026-06-14T18:00:00.000Z",
+      "time_utc": "2026-06-15T18:00:00.000Z",
       "match": "Países Bajos vs Japón",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/canales.php?stream=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
           "name": "TYC Sports",
           "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "Caracol TV Mundial",
+          "href": "https://tvtvhd.com/online/canales.php?stream=caracol"
+        },
+        {
+          "name": "TYC Sports Mundial",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telefe Mundial",
+          "href": "https://tvtvhd.com/online/canales.php?stream=telefe"
+        },
+        {
           "name": "America Television",
           "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvtvhd.com/canales.php?stream=caracol"
         },
         {
           "name": "Sportv BR",
@@ -249,10 +173,6 @@
         {
           "name": "Telefe",
           "href": "https://tvtvhd.com/canales.php?stream=telefe"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvtvhd.com/canales.php?stream=caracol"
         },
         {
           "name": "Canal 5 MX",
@@ -274,7 +194,7 @@
     },
     {
       "time": "21:00",
-      "time_utc": "2026-06-14T19:00:00.000Z",
+      "time_utc": "2026-06-15T19:00:00.000Z",
       "match": "Paysandu vs Plaza Colonia",
       "league": "Segunda División",
       "flag": "⚽",
@@ -287,7 +207,7 @@
     },
     {
       "time": "21:00",
-      "time_utc": "2026-06-14T19:00:00.000Z",
+      "time_utc": "2026-06-15T19:00:00.000Z",
       "match": "ESPN Knockout – Jonathan González vs Abraham Pérez",
       "league": "",
       "flag": "⚽",
@@ -308,7 +228,7 @@
     },
     {
       "time": "21:30",
-      "time_utc": "2026-06-14T19:30:00.000Z",
+      "time_utc": "2026-06-15T19:30:00.000Z",
       "match": "Universidad Católica vs Univ. Concepción",
       "league": "Primera División",
       "flag": "⚽",
@@ -321,7 +241,7 @@
     },
     {
       "time": "22:00",
-      "time_utc": "2026-06-14T20:00:00.000Z",
+      "time_utc": "2026-06-15T20:00:00.000Z",
       "match": "Aurora vs Oriente Petrolero",
       "league": "Primera División",
       "flag": "⚽",
@@ -334,14 +254,14 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-06-14T21:00:00.000Z",
+      "time_utc": "2026-06-15T21:00:00.000Z",
       "match": "Costa de Marfil vs Ecuador",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/canales.php?stream=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
           "name": "DSports",
@@ -383,7 +303,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-06-14T21:00:00.000Z",
+      "time_utc": "2026-06-15T21:00:00.000Z",
       "match": "MLB – Boston Red Sox vs Texas Rangers",
       "league": "",
       "flag": "⚽",
@@ -406,7 +326,7 @@
   "eventos": [
     {
       "time": "00:00",
-      "time_utc": "2026-06-13T22:00:00.000Z",
+      "time_utc": "2026-06-14T22:00:00.000Z",
       "match": "NHL – (A Confirmar) – Vegas Golden Knights vs Carolina Hurricanes",
       "league": "",
       "flag": "⚽",
@@ -427,14 +347,14 @@
     },
     {
       "time": "02:00",
-      "time_utc": "2026-06-14T00:00:00.000Z",
+      "time_utc": "2026-06-15T00:00:00.000Z",
       "match": "Suecia vs Túnez",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/canales.php?stream=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
           "name": "DSports",
@@ -467,92 +387,8 @@
       ]
     },
     {
-      "time": "16:30",
-      "time_utc": "2026-06-14T14:30:00.000Z",
-      "match": "Deportes Concepción vs Deportes Limache",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-06-14T15:00:00.000Z",
-      "match": "Alemania vs Curazao",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/canales.php?stream=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "Dsports Mundial",
-          "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvtvhd.com/canales.php?stream=goltv"
-        },
-        {
-          "name": "TVE la 1 ES",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
-        },
-        {
-          "name": "CAZÉ TV",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-06-14T16:00:00.000Z",
-      "match": "Atenas vs La Luz",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-06-14T16:00:00.000Z",
-      "match": "MLB – Milwaukee Brewers vs Philadelphia Phillies",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 7",
-          "href": "https://tvtvhd.com/canales.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn7"
-        }
-      ]
-    },
-    {
       "time": "18:55",
-      "time_utc": "2026-06-14T16:55:00.000Z",
+      "time_utc": "2026-06-15T16:55:00.000Z",
       "match": "Rugby – Top 14 – Stade Francais vs La Rochelle",
       "league": "",
       "flag": "⚽",
@@ -573,7 +409,7 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-06-14T17:00:00.000Z",
+      "time_utc": "2026-06-15T17:00:00.000Z",
       "match": "Blooming vs Real Tomayapo",
       "league": "Primera División",
       "flag": "⚽",
@@ -586,7 +422,7 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-06-14T17:00:00.000Z",
+      "time_utc": "2026-06-15T17:00:00.000Z",
       "match": "Málaga vs Almería",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
@@ -599,7 +435,7 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-06-14T17:00:00.000Z",
+      "time_utc": "2026-06-15T17:00:00.000Z",
       "match": "Unión La Calera vs Universidad Chile",
       "league": "Primera División",
       "flag": "⚽",
@@ -612,34 +448,42 @@
     },
     {
       "time": "20:00",
-      "time_utc": "2026-06-14T18:00:00.000Z",
+      "time_utc": "2026-06-15T18:00:00.000Z",
       "match": "Países Bajos vs Japón",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/canales.php?stream=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
           "name": "TYC Sports",
           "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "Caracol TV Mundial",
+          "href": "https://tvtvhd.com/online/canales.php?stream=caracol"
+        },
+        {
+          "name": "TYC Sports Mundial",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telefe Mundial",
+          "href": "https://tvtvhd.com/online/canales.php?stream=telefe"
+        },
+        {
           "name": "America Television",
           "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvtvhd.com/canales.php?stream=caracol"
         },
         {
           "name": "Sportv BR",
@@ -648,10 +492,6 @@
         {
           "name": "Telefe",
           "href": "https://tvtvhd.com/canales.php?stream=telefe"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvtvhd.com/canales.php?stream=caracol"
         },
         {
           "name": "Canal 5 MX",
@@ -673,7 +513,7 @@
     },
     {
       "time": "21:00",
-      "time_utc": "2026-06-14T19:00:00.000Z",
+      "time_utc": "2026-06-15T19:00:00.000Z",
       "match": "Paysandu vs Plaza Colonia",
       "league": "Segunda División",
       "flag": "⚽",
@@ -686,7 +526,7 @@
     },
     {
       "time": "21:00",
-      "time_utc": "2026-06-14T19:00:00.000Z",
+      "time_utc": "2026-06-15T19:00:00.000Z",
       "match": "ESPN Knockout – Jonathan González vs Abraham Pérez",
       "league": "",
       "flag": "⚽",
@@ -707,7 +547,7 @@
     },
     {
       "time": "21:30",
-      "time_utc": "2026-06-14T19:30:00.000Z",
+      "time_utc": "2026-06-15T19:30:00.000Z",
       "match": "Universidad Católica vs Univ. Concepción",
       "league": "Primera División",
       "flag": "⚽",
@@ -720,7 +560,7 @@
     },
     {
       "time": "22:00",
-      "time_utc": "2026-06-14T20:00:00.000Z",
+      "time_utc": "2026-06-15T20:00:00.000Z",
       "match": "Aurora vs Oriente Petrolero",
       "league": "Primera División",
       "flag": "⚽",
@@ -733,14 +573,14 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-06-14T21:00:00.000Z",
+      "time_utc": "2026-06-15T21:00:00.000Z",
       "match": "Costa de Marfil vs Ecuador",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
           "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/canales.php?stream=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
           "name": "DSports",
@@ -782,7 +622,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-06-14T21:00:00.000Z",
+      "time_utc": "2026-06-15T21:00:00.000Z",
       "match": "MLB – Boston Red Sox vs Texas Rangers",
       "league": "",
       "flag": "⚽",
