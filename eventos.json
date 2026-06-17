@@ -1,9 +1,505 @@
 {
-  "actualizado_en": "2026-06-17T08:19:38.464Z",
+  "actualizado_en": "2026-06-17T12:24:47.403Z",
   "fecha": "miércoles, 17 de junio",
-  "fuente": "none",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "fuente": "rojadirectatv-puppeteer",
+  "contar": 7,
+  "contar_con_canales": 7,
+  "events": [
+    {
+      "time": "01:30",
+      "time_utc": "2026-06-16T23:30:00.000Z",
+      "match": "MLB – Seattle Mariners vs Baltimore Orioles",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-06-17T00:00:00.000Z",
+      "match": "Uzbekistán vs Colombia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvtvhd.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-06-17T14:00:00.000Z",
+      "match": "Hockey – Pro League Masculino – Australia vs Argentina",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-06-17T15:00:00.000Z",
+      "match": "Portugal vs RD del Congo",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-06-17T18:00:00.000Z",
+      "match": "Inglaterra vs Croacia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://tvtvhd.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=azteca7"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-17T21:00:00.000Z",
+      "match": "Ghana vs Panamá",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-06-17T21:30:00.000Z",
+      "match": "MLB – Milwaukee Brewers vs Cleveland Guardians",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "01:30",
+      "time_utc": "2026-06-16T23:30:00.000Z",
+      "match": "MLB – Seattle Mariners vs Baltimore Orioles",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-06-17T00:00:00.000Z",
+      "match": "Uzbekistán vs Colombia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvtvhd.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-06-17T14:00:00.000Z",
+      "match": "Hockey – Pro League Masculino – Australia vs Argentina",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-06-17T15:00:00.000Z",
+      "match": "Portugal vs RD del Congo",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-06-17T18:00:00.000Z",
+      "match": "Inglaterra vs Croacia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://tvtvhd.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvtvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=azteca7"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-17T21:00:00.000Z",
+      "match": "Ghana vs Panamá",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo 2",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-06-17T21:30:00.000Z",
+      "match": "MLB – Milwaukee Brewers vs Cleveland Guardians",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvtvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
+    }
+  ]
 }
