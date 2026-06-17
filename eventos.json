@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-16T22:46:27.887Z",
+  "actualizado_en": "2026-06-17T02:13:57.035Z",
   "fecha": "martes, 16 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 4,
-  "contar_con_canales": 4,
+  "contar": 3,
+  "contar_con_canales": 3,
   "events": [
     {
       "time": "01:00",
@@ -13,12 +13,24 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
           "name": "Telemundo 2",
           "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "Dsports Mundial",
+          "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telefe Mundial",
+          "href": "https://tvtvhd.com/online/canales.php?stream=telefe"
         },
         {
           "name": "DSports | OP2",
@@ -27,14 +39,6 @@
         {
           "name": "DSports | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
           "name": "Telefe",
@@ -47,18 +51,6 @@
         {
           "name": "Caracol TV",
           "href": "https://tvtvhd.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Azteca 7",
-          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
-        },
-        {
-          "name": "Azteca 7 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=azteca7"
-        },
-        {
-          "name": "Azteca 7 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=azteca7"
         }
       ]
     },
@@ -76,6 +68,10 @@
         {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "Dsports Mundial",
+          "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
         },
         {
           "name": "DSports | OP2",
@@ -96,35 +92,6 @@
         {
           "name": "FOX Sports 1 USA",
           "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-17T20:00:00.000Z",
-      "match": "Iraq vs Noruega",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        },
-        {
-          "name": "DSports +",
-          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
         }
       ]
     },
@@ -159,12 +126,24 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
           "name": "Telemundo 2",
           "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "Dsports Mundial",
+          "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telefe Mundial",
+          "href": "https://tvtvhd.com/online/canales.php?stream=telefe"
         },
         {
           "name": "DSports | OP2",
@@ -173,14 +152,6 @@
         {
           "name": "DSports | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
           "name": "Telefe",
@@ -193,18 +164,6 @@
         {
           "name": "Caracol TV",
           "href": "https://tvtvhd.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Azteca 7",
-          "href": "https://tvtvhd.com/canales.php?stream=azteca7"
-        },
-        {
-          "name": "Azteca 7 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=azteca7"
-        },
-        {
-          "name": "Azteca 7 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=azteca7"
         }
       ]
     },
@@ -222,6 +181,10 @@
         {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "Dsports Mundial",
+          "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
         },
         {
           "name": "DSports | OP2",
@@ -242,35 +205,6 @@
         {
           "name": "FOX Sports 1 USA",
           "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-17T20:00:00.000Z",
-      "match": "Iraq vs Noruega",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        },
-        {
-          "name": "DSports +",
-          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
         }
       ]
     },
