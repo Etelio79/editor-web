@@ -1,13 +1,13 @@
 {
-  "actualizado_en": "2026-06-18T20:04:32.545Z",
+  "actualizado_en": "2026-06-18T22:49:12.388Z",
   "fecha": "jueves, 18 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 5,
-  "contar_con_canales": 5,
+  "contar": 3,
+  "contar_con_canales": 3,
   "events": [
     {
       "time": "00:00",
-      "time_utc": "2026-06-17T22:00:00.000Z",
+      "time_utc": "2026-06-18T22:00:00.000Z",
       "match": "Universidad Chile vs O'Higgins",
       "league": "Primera División",
       "flag": "⚽",
@@ -20,11 +20,15 @@
     },
     {
       "time": "01:00",
-      "time_utc": "2026-06-17T23:00:00.000Z",
+      "time_utc": "2026-06-18T23:00:00.000Z",
       "match": "México vs Corea del Sur",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
         {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
@@ -34,16 +38,8 @@
           "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
         },
         {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        },
-        {
           "name": "Telemundo Mundial",
           "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
           "name": "DSports | OP2",
@@ -92,92 +88,6 @@
         {
           "name": "Universo",
           "href": "https://tvtvhd.com/canales.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-06-18T16:30:00.000Z",
-      "match": "MLB – Texas Rangers vs. Minnesota Twins",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-18T17:00:00.000Z",
-      "match": "Suiza vs Bosnia-Herzegovina",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        },
-        {
-          "name": "Telemundo Mundial",
-          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Caracol TV 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9kbWJnYXo0eGY2anloLmNsb3VkZnJvbnQubmV0L2xpdmUtc3RyZWFtLWRhaS82OTY5MGNmY2NlMGRjMDMxODMwZTdjMWEvYzE0NjRkZDU4ZDUwNGNkMmEzMDk1YTFlMTNhZGMyOGMvZDk3NzQzZGUzNjIwYTg2NTg0OGZmZjdhOWRlMTRkZGExYmYyNDA5ZC9zZXNzaW9uLzk4ODU2MjE1LTExZGYtNDZlMi1hMTZjLWE0YWIxOWMzNGQxYy9tYW5pZmVzdC5tcGQ/cGxheWVyPTY5OGQwMjViMWU3NTU4ZWVhMTE3YjRkZCZhY2Nlc3NfdG9rZW49Wmk0WnNkWDZETXgzV0dVREF1YkM5a0N4ZGZwZk5IdUhiMFJNbTZiQ0tISmU5R05XUUNqVWpoUGhvM2pCbEdHRXB5cUlmb3dqOVJXJnVpZD04c2QzV0lRTzh1blJRd05hMVkxa0E3MlV1UEhjQWx1aSZzaWQ9UXZ1bmRuWTRmY0lwMzdBQlpVRE85ZjdvbWVNaW1vMU4mcGlkPUdyVHlvYUNoUUgyNkVzWDhRZkY3UFNza2sycW1iZllVJnJlZj1kaXR1LmNhcmFjb2x0di5jb20mZXh0X3BiPTAmZXM9ZG1iZ2F6NHhmNmp5aC5jbG91ZGZyb250Lm5ldCZwcm90bz1odHRwcyZwej11cyZ4cj11cy1lYXN0LTImbWFuaWZlc3RmaWx0ZXI9dmlkZW9faGVpZ2h0OjQ4MC0xMDgw&k=MWM2YmZkOGQxY2RkNGRmNjllYTVmYzRkZDJmMDI1YmI6YjZmZDkwMDI3ZGFjN2E5NGE5NDYxZjhiMjYzOGNiYjQ="
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "Dsports Mundial",
-          "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "TVE la 1 ES",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telefe",
-          "href": "https://tvtvhd.com/canales.php?stream=telefe"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvtvhd.com/canales.php?stream=caracol"
         },
         {
           "name": "Deportes TV. C",
@@ -187,18 +97,22 @@
     },
     {
       "time": "22:00",
-      "time_utc": "2026-06-18T20:00:00.000Z",
+      "time_utc": "2026-06-19T20:00:00.000Z",
       "match": "Canadá vs Qatar",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
         },
         {
-          "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+          "name": "Telemundo Mundial",
+          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
         {
           "name": "Dsports Mundial",
@@ -226,7 +140,7 @@
   "eventos": [
     {
       "time": "00:00",
-      "time_utc": "2026-06-17T22:00:00.000Z",
+      "time_utc": "2026-06-18T22:00:00.000Z",
       "match": "Universidad Chile vs O'Higgins",
       "league": "Primera División",
       "flag": "⚽",
@@ -239,11 +153,15 @@
     },
     {
       "time": "01:00",
-      "time_utc": "2026-06-17T23:00:00.000Z",
+      "time_utc": "2026-06-18T23:00:00.000Z",
       "match": "México vs Corea del Sur",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
         {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
@@ -253,16 +171,8 @@
           "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
         },
         {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        },
-        {
           "name": "Telemundo Mundial",
           "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
         },
         {
           "name": "DSports | OP2",
@@ -311,92 +221,6 @@
         {
           "name": "Universo",
           "href": "https://tvtvhd.com/canales.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-06-18T16:30:00.000Z",
-      "match": "MLB – Texas Rangers vs. Minnesota Twins",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-18T17:00:00.000Z",
-      "match": "Suiza vs Bosnia-Herzegovina",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
-        },
-        {
-          "name": "Telemundo Mundial",
-          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Caracol TV 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9kbWJnYXo0eGY2anloLmNsb3VkZnJvbnQubmV0L2xpdmUtc3RyZWFtLWRhaS82OTY5MGNmY2NlMGRjMDMxODMwZTdjMWEvYzE0NjRkZDU4ZDUwNGNkMmEzMDk1YTFlMTNhZGMyOGMvZDk3NzQzZGUzNjIwYTg2NTg0OGZmZjdhOWRlMTRkZGExYmYyNDA5ZC9zZXNzaW9uLzk4ODU2MjE1LTExZGYtNDZlMi1hMTZjLWE0YWIxOWMzNGQxYy9tYW5pZmVzdC5tcGQ/cGxheWVyPTY5OGQwMjViMWU3NTU4ZWVhMTE3YjRkZCZhY2Nlc3NfdG9rZW49Wmk0WnNkWDZETXgzV0dVREF1YkM5a0N4ZGZwZk5IdUhiMFJNbTZiQ0tISmU5R05XUUNqVWpoUGhvM2pCbEdHRXB5cUlmb3dqOVJXJnVpZD04c2QzV0lRTzh1blJRd05hMVkxa0E3MlV1UEhjQWx1aSZzaWQ9UXZ1bmRuWTRmY0lwMzdBQlpVRE85ZjdvbWVNaW1vMU4mcGlkPUdyVHlvYUNoUUgyNkVzWDhRZkY3UFNza2sycW1iZllVJnJlZj1kaXR1LmNhcmFjb2x0di5jb20mZXh0X3BiPTAmZXM9ZG1iZ2F6NHhmNmp5aC5jbG91ZGZyb250Lm5ldCZwcm90bz1odHRwcyZwej11cyZ4cj11cy1lYXN0LTImbWFuaWZlc3RmaWx0ZXI9dmlkZW9faGVpZ2h0OjQ4MC0xMDgw&k=MWM2YmZkOGQxY2RkNGRmNjllYTVmYzRkZDJmMDI1YmI6YjZmZDkwMDI3ZGFjN2E5NGE5NDYxZjhiMjYzOGNiYjQ="
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "Dsports Mundial",
-          "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "TVE la 1 ES",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telefe",
-          "href": "https://tvtvhd.com/canales.php?stream=telefe"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvtvhd.com/canales.php?stream=caracol"
         },
         {
           "name": "Deportes TV. C",
@@ -406,18 +230,22 @@
     },
     {
       "time": "22:00",
-      "time_utc": "2026-06-18T20:00:00.000Z",
+      "time_utc": "2026-06-19T20:00:00.000Z",
       "match": "Canadá vs Qatar",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
         },
         {
-          "name": "Telemundo 2",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9saXZlLW9uZWFwcC1wcmQtbmV3cy5ha2FtYWl6ZWQubmV0L0NvbnRlbnQvQ01BRl9PTDItQ1RSLTRzL0xpdmUvY2hhbm5lbChXTkpVKS9tYXN0ZXIubXBk&k=YzcxZmU3YmM4MmYwMzdjNmFmMjFmZDI5OWQ2MzQxYjA6MTMyMjNjOTg4ODZmZjQzZDNjNWYyNzFlZWI0NTdjYzY="
+          "name": "Telemundo Mundial",
+          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
         {
           "name": "Dsports Mundial",
