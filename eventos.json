@@ -1,27 +1,35 @@
 {
-  "actualizado_en": "2026-06-19T02:39:28.016Z",
-  "fecha": "jueves, 18 de junio",
+  "actualizado_en": "2026-06-19T08:23:32.008Z",
+  "fecha": "viernes, 19 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 2,
-  "contar_con_canales": 2,
+  "contar": 12,
+  "contar_con_canales": 12,
   "events": [
     {
       "time": "00:00",
       "time_utc": "2026-06-18T22:00:00.000Z",
-      "match": "Universidad Chile vs O'Higgins",
-      "league": "Primera División",
+      "match": "ESPN Knockout – LFA 235 – Andrew Stewart vs Zayne Havener",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         }
       ]
     },
     {
-      "time": "01:00",
-      "time_utc": "2026-06-18T23:00:00.000Z",
-      "match": "México vs Corea del Sur",
+      "time": "00:30",
+      "time_utc": "2026-06-18T22:30:00.000Z",
+      "match": "Brasil vs Haití",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
@@ -32,14 +40,6 @@
         {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "Dsports Mundial",
-          "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo Mundial",
-          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
         },
         {
           "name": "DSports | OP2",
@@ -56,6 +56,35 @@
         {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-06-19T01:00:00.000Z",
+      "match": "Turquía vs Paraguay",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
         },
         {
           "name": "Win Sports",
@@ -66,12 +95,209 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
         },
         {
-          "name": "Universo",
-          "href": "https://tvtvhd.com/canales.php?stream=universo"
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-06-19T14:00:00.000Z",
+      "match": "Golf – Us Open 2026 – Segunda Vuelta",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-06-19T16:00:00.000Z",
+      "match": "ESPN Knockout – José Luis Navarro vs Oliver Zaren",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "18:50",
+      "time_utc": "2026-06-19T16:50:00.000Z",
+      "match": "Rugby – Top 14 – A Confirmar",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-19T17:00:00.000Z",
+      "match": "EE. UU. vs Australia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
           "name": "Deportes TV. C",
           "href": "https://tvtvhd.com/canales.php?stream=goltv"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-06-19T19:00:00.000Z",
+      "match": "Miramar Misiones vs Huracán",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-06-19T19:30:00.000Z",
+      "match": "Real Potosí vs Gualberto Villarroel SJ",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-06-19T20:00:00.000Z",
+      "match": "Escocia vs Marruecos",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvtvhd.com/canales.php?stream=caracol"
+        }
+      ]
+    },
+    {
+      "time": "22:50",
+      "time_utc": "2026-06-19T20:50:00.000Z",
+      "match": "Rugby – SR Americas – Final – A Confirmar",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-19T21:00:00.000Z",
+      "match": "MLB – Atlanta Braves vs. Milwaukee Brewers",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
         }
       ]
     }
@@ -80,20 +306,28 @@
     {
       "time": "00:00",
       "time_utc": "2026-06-18T22:00:00.000Z",
-      "match": "Universidad Chile vs O'Higgins",
-      "league": "Primera División",
+      "match": "ESPN Knockout – LFA 235 – Andrew Stewart vs Zayne Havener",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         }
       ]
     },
     {
-      "time": "01:00",
-      "time_utc": "2026-06-18T23:00:00.000Z",
-      "match": "México vs Corea del Sur",
+      "time": "00:30",
+      "time_utc": "2026-06-18T22:30:00.000Z",
+      "match": "Brasil vs Haití",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
@@ -104,14 +338,6 @@
         {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "Dsports Mundial",
-          "href": "https://tvtvhd.com/tv/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo Mundial",
-          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
         },
         {
           "name": "DSports | OP2",
@@ -128,6 +354,35 @@
         {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-06-19T01:00:00.000Z",
+      "match": "Turquía vs Paraguay",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
         },
         {
           "name": "Win Sports",
@@ -138,12 +393,209 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
         },
         {
-          "name": "Universo",
-          "href": "https://tvtvhd.com/canales.php?stream=universo"
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-06-19T14:00:00.000Z",
+      "match": "Golf – Us Open 2026 – Segunda Vuelta",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvtvhd.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-06-19T16:00:00.000Z",
+      "match": "ESPN Knockout – José Luis Navarro vs Oliver Zaren",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "18:50",
+      "time_utc": "2026-06-19T16:50:00.000Z",
+      "match": "Rugby – Top 14 – A Confirmar",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-19T17:00:00.000Z",
+      "match": "EE. UU. vs Australia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
           "name": "Deportes TV. C",
           "href": "https://tvtvhd.com/canales.php?stream=goltv"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-06-19T19:00:00.000Z",
+      "match": "Miramar Misiones vs Huracán",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-06-19T19:30:00.000Z",
+      "match": "Real Potosí vs Gualberto Villarroel SJ",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-06-19T20:00:00.000Z",
+      "match": "Escocia vs Marruecos",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvtvhd.com/canales.php?stream=caracol"
+        }
+      ]
+    },
+    {
+      "time": "22:50",
+      "time_utc": "2026-06-19T20:50:00.000Z",
+      "match": "Rugby – SR Americas – Final – A Confirmar",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvtvhd.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-19T21:00:00.000Z",
+      "match": "MLB – Atlanta Braves vs. Milwaukee Brewers",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvtvhd.com/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
         }
       ]
     }
