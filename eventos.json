@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-20T13:20:17.173Z",
+  "actualizado_en": "2026-06-20T16:10:27.752Z",
   "fecha": "sábado, 20 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 21,
-  "contar_con_canales": 21,
+  "contar": 18,
+  "contar_con_canales": 18,
   "events": [
     {
       "time": "00:00",
@@ -35,6 +35,14 @@
         {
           "name": "Win Sports ┃OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
         },
         {
           "name": "FOX Sports 1 USA",
@@ -104,71 +112,16 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
         },
         {
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
+        },
+        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "11:00",
-      "time_utc": "2026-06-20T09:00:00.000Z",
-      "match": "Hockey – Pro League Femenino – Bélgica vs Argentina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
         },
         {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-06-20T09:30:00.000Z",
-      "match": "Hockey – Pro League Masculino – Inglaterra vs Argentina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "12:30",
-      "time_utc": "2026-06-20T10:30:00.000Z",
-      "match": "MotoGP – GP Chequia – Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://tvtvhd.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -215,7 +168,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -268,6 +221,10 @@
           "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
           "name": "Win Sports",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
         },
@@ -280,8 +237,8 @@
           "href": "https://tvtvhd.com/canales.php?stream=canal5"
         },
         {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
         },
         {
           "name": "Azteca 7",
@@ -348,7 +305,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
         }
       ]
     },
@@ -376,23 +333,14 @@
     {
       "time": "19:00",
       "time_utc": "2026-06-20T17:00:00.000Z",
-      "match": "San Antonio Bulo Bulo vs Blooming",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "href": "https://tvtvhd.com/online/canales.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-20T17:00:00.000Z",
-      "match": "Almería vs Málaga",
+      "match": "Almería vs Málaga | Final 2/2",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+        },
         {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
@@ -408,6 +356,19 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-20T17:00:00.000Z",
+      "match": "San Antonio Bulo Bulo vs Blooming",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/online/canales.php?stream=even1"
         }
       ]
     },
@@ -435,16 +396,20 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
-          "name": "Telefe",
-          "href": "https://tvtvhd.com/canales.php?stream=telefe"
-        },
-        {
           "name": "America Television",
           "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://tvtvhd.com/canales.php?stream=telefe"
         },
         {
           "name": "Sportv BR",
@@ -453,6 +418,10 @@
         {
           "name": "Caracol TV",
           "href": "https://tvtvhd.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -478,7 +447,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
         }
       ]
     }
@@ -516,6 +485,14 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=winsports"
         },
         {
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
+        },
+        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
         }
@@ -583,71 +560,16 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
         },
         {
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
+        },
+        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "11:00",
-      "time_utc": "2026-06-20T09:00:00.000Z",
-      "match": "Hockey – Pro League Femenino – Bélgica vs Argentina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvtvhd.com/canales.php?stream=espn2"
         },
         {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-06-20T09:30:00.000Z",
-      "match": "Hockey – Pro League Masculino – Inglaterra vs Argentina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvtvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "12:30",
-      "time_utc": "2026-06-20T10:30:00.000Z",
-      "match": "MotoGP – GP Chequia – Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://tvtvhd.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -694,7 +616,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -747,6 +669,10 @@
           "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
           "name": "Win Sports",
           "href": "https://tvtvhd.com/vivo/canal.php?stream=winsports"
         },
@@ -759,8 +685,8 @@
           "href": "https://tvtvhd.com/canales.php?stream=canal5"
         },
         {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
         },
         {
           "name": "Azteca 7",
@@ -827,7 +753,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney5"
         }
       ]
     },
@@ -855,23 +781,14 @@
     {
       "time": "19:00",
       "time_utc": "2026-06-20T17:00:00.000Z",
-      "match": "San Antonio Bulo Bulo vs Blooming",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "href": "https://tvtvhd.com/online/canales.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-20T17:00:00.000Z",
-      "match": "Almería vs Málaga",
+      "match": "Almería vs Málaga | Final 2/2",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
+        },
         {
           "name": "LaLiga TV Hypermotion",
           "href": "https://tvtvhd.com/canales.php?stream=hypermotion1"
@@ -887,6 +804,19 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-20T17:00:00.000Z",
+      "match": "San Antonio Bulo Bulo vs Blooming",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvtvhd.com/online/canales.php?stream=even1"
         }
       ]
     },
@@ -914,16 +844,20 @@
           "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney6"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
-          "name": "Telefe",
-          "href": "https://tvtvhd.com/canales.php?stream=telefe"
-        },
-        {
           "name": "America Television",
           "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://tvtvhd.com/canales.php?stream=telefe"
         },
         {
           "name": "Sportv BR",
@@ -932,6 +866,10 @@
         {
           "name": "Caracol TV",
           "href": "https://tvtvhd.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -957,7 +895,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney7"
         }
       ]
     }
