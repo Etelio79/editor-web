@@ -1,23 +1,10 @@
 {
-  "actualizado_en": "2026-06-21T13:29:38.984Z",
+  "actualizado_en": "2026-06-21T16:24:22.480Z",
   "fecha": "domingo, 21 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 20,
-  "contar_con_canales": 20,
+  "contar": 19,
+  "contar_con_canales": 19,
   "events": [
-    {
-      "time": "00:00",
-      "time_utc": "2026-06-20T22:00:00.000Z",
-      "match": "O'Higgins vs Unión Española",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
     {
       "time": "00:00",
       "time_utc": "2026-06-20T22:00:00.000Z",
@@ -36,6 +23,27 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-06-20T22:00:00.000Z",
+      "match": "O'Higgins vs Unión Española",
+      "league": "Copa Chile",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -102,27 +110,6 @@
       ]
     },
     {
-      "time": "12:00",
-      "time_utc": "2026-06-21T10:00:00.000Z",
-      "match": "Tenis – ATP 500 Londres – Final",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://tvtvhd.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
-        }
-      ]
-    },
-    {
       "time": "13:30",
       "time_utc": "2026-06-21T11:30:00.000Z",
       "match": "Tenis – ATP 500 Halle – Final",
@@ -140,6 +127,10 @@
         {
           "name": "ESPN 3 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
         }
       ]
     },
@@ -161,6 +152,10 @@
         {
           "name": "ESPN 2 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn2"
         }
       ]
     },
@@ -185,14 +180,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
@@ -207,6 +194,22 @@
         {
           "name": "DSports HD",
           "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Tigo Sports HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=even2"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         },
         {
           "name": "TYC Sports",
@@ -233,6 +236,14 @@
           "href": "https://tvtvhd.com/online/canales.php?stream=winsports"
         },
         {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=americatv"
+        },
+        {
           "name": "Canal 5 MX",
           "href": "https://tvtvhd.com/canales.php?stream=canal5"
         },
@@ -253,14 +264,6 @@
           "href": "https://tvtvhd.com/online/canales.php?stream=azteca7"
         },
         {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=americatv"
-        },
-        {
           "name": "Universo",
           "href": "https://tvtvhd.com/canales.php?stream=universo"
         }
@@ -276,6 +279,10 @@
         {
           "name": "TNT Sports Premiun CL",
           "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -297,6 +304,10 @@
         {
           "name": "ESPN 3 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
         }
       ]
     },
@@ -309,7 +320,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -381,6 +392,10 @@
         {
           "name": "TNT Sports Premiun CL",
           "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -407,6 +422,10 @@
         {
           "name": "TNT Sports Premiun CL",
           "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -490,6 +509,10 @@
         {
           "name": "ESPN 3 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
         }
       ]
     }
@@ -498,19 +521,6 @@
     {
       "time": "00:00",
       "time_utc": "2026-06-20T22:00:00.000Z",
-      "match": "O'Higgins vs Unión Española",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "00:00",
-      "time_utc": "2026-06-20T22:00:00.000Z",
       "match": "WNBA – Los Angeles vs New York",
       "league": "",
       "flag": "⚽",
@@ -526,6 +536,27 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-06-20T22:00:00.000Z",
+      "match": "O'Higgins vs Unión Española",
+      "league": "Copa Chile",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -592,27 +623,6 @@
       ]
     },
     {
-      "time": "12:00",
-      "time_utc": "2026-06-21T10:00:00.000Z",
-      "match": "Tenis – ATP 500 Londres – Final",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://tvtvhd.com/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
-        }
-      ]
-    },
-    {
       "time": "13:30",
       "time_utc": "2026-06-21T11:30:00.000Z",
       "match": "Tenis – ATP 500 Halle – Final",
@@ -630,6 +640,10 @@
         {
           "name": "ESPN 3 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
         }
       ]
     },
@@ -651,6 +665,10 @@
         {
           "name": "ESPN 2 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn2"
         }
       ]
     },
@@ -675,14 +693,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
           "name": "DSports",
           "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
@@ -697,6 +707,22 @@
         {
           "name": "DSports HD",
           "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Tigo Sports HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=even2"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         },
         {
           "name": "TYC Sports",
@@ -723,6 +749,14 @@
           "href": "https://tvtvhd.com/online/canales.php?stream=winsports"
         },
         {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=americatv"
+        },
+        {
           "name": "Canal 5 MX",
           "href": "https://tvtvhd.com/canales.php?stream=canal5"
         },
@@ -743,14 +777,6 @@
           "href": "https://tvtvhd.com/online/canales.php?stream=azteca7"
         },
         {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=americatv"
-        },
-        {
           "name": "Universo",
           "href": "https://tvtvhd.com/canales.php?stream=universo"
         }
@@ -766,6 +792,10 @@
         {
           "name": "TNT Sports Premiun CL",
           "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -787,6 +817,10 @@
         {
           "name": "ESPN 3 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
         }
       ]
     },
@@ -799,7 +833,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -871,6 +905,10 @@
         {
           "name": "TNT Sports Premiun CL",
           "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -897,6 +935,10 @@
         {
           "name": "TNT Sports Premiun CL",
           "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -980,6 +1022,10 @@
         {
           "name": "ESPN 3 | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
         }
       ]
     }
