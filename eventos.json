@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-21T22:07:19.157Z",
+  "actualizado_en": "2026-06-22T02:16:31.340Z",
   "fecha": "domingo, 21 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 12,
-  "contar_con_canales": 12,
+  "contar": 4,
+  "contar_con_canales": 4,
   "events": [
     {
       "time": "00:00",
@@ -68,16 +68,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+          "name": "DSports HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
         {
           "name": "Telemundo HD",
           "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
         },
         {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
         },
         {
           "name": "DSports | OP2",
@@ -86,10 +90,6 @@
         {
           "name": "DSports | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
         },
         {
           "name": "TYC Sports",
@@ -106,194 +106,10 @@
         {
           "name": "FOX Sports 1 USA",
           "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-22T17:00:00.000Z",
-      "match": "Bélgica vs Irán",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports2"
         },
         {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Tigo Sports",
-          "href": "https://tvtvhd.com/online/canales.php?stream=even2"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvtvhd.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
-        },
-        {
-          "name": "Telefe",
-          "href": "https://tvtvhd.com/canales.php?stream=telefe"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-22T17:00:00.000Z",
-      "match": "Always Ready vs Bolívar",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "href": "https://tvtvhd.com/online/canales.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-22T17:00:00.000Z",
-      "match": "Deportes Temuco vs Deportes Concepción",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-06-22T18:00:00.000Z",
-      "match": "São Bernardo vs Juventude",
-      "league": "Serie B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere BR",
-          "href": "https://tvtvhd.com/canales.php?stream=premiere1"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-06-22T19:30:00.000Z",
-      "match": "Universidad Chile vs Santiago Wanderers",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-22T20:00:00.000Z",
-      "match": "Uruguay vs Islas de Cabo Verde",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Tigo Sports",
-          "href": "https://tvtvhd.com/online/canales.php?stream=even2"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-22T20:00:00.000Z",
-      "match": "Real Oruro vs Independiente Petrolero",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "href": "https://tvtvhd.com/online/canales.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-06-22T21:00:00.000Z",
-      "match": "MLB – Philadelphia Phillies vs New York Mets",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
         }
       ]
     }
@@ -362,16 +178,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+          "name": "DSports HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
         },
         {
           "name": "Telemundo HD",
           "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
         },
         {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
         },
         {
           "name": "DSports | OP2",
@@ -380,10 +200,6 @@
         {
           "name": "DSports | OP3",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
         },
         {
           "name": "TYC Sports",
@@ -400,194 +216,10 @@
         {
           "name": "FOX Sports 1 USA",
           "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-22T17:00:00.000Z",
-      "match": "Bélgica vs Irán",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports2"
         },
         {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Tigo Sports",
-          "href": "https://tvtvhd.com/online/canales.php?stream=even2"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvtvhd.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
-        },
-        {
-          "name": "Telefe",
-          "href": "https://tvtvhd.com/canales.php?stream=telefe"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-22T17:00:00.000Z",
-      "match": "Always Ready vs Bolívar",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "href": "https://tvtvhd.com/online/canales.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-22T17:00:00.000Z",
-      "match": "Deportes Temuco vs Deportes Concepción",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-06-22T18:00:00.000Z",
-      "match": "São Bernardo vs Juventude",
-      "league": "Serie B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere BR",
-          "href": "https://tvtvhd.com/canales.php?stream=premiere1"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-06-22T19:30:00.000Z",
-      "match": "Universidad Chile vs Santiago Wanderers",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvtvhd.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-22T20:00:00.000Z",
-      "match": "Uruguay vs Islas de Cabo Verde",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Tigo Sports",
-          "href": "https://tvtvhd.com/online/canales.php?stream=even2"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvtvhd.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-22T20:00:00.000Z",
-      "match": "Real Oruro vs Independiente Petrolero",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Futbol Canal",
-          "href": "https://tvtvhd.com/online/canales.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-06-22T21:00:00.000Z",
-      "match": "MLB – Philadelphia Phillies vs New York Mets",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvtvhd.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
         }
       ]
     }
