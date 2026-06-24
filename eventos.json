@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "2026-06-24T13:58:59.400Z",
+  "actualizado_en": "2026-06-24T16:58:12.721Z",
   "fecha": "miércoles, 24 de junio",
   "fuente": "rojadirectatv-puppeteer",
   "contar": 10,
@@ -121,20 +121,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+          "name": "Dsports 2",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports2"
         },
         {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+          "name": "Dsports 2 | HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=dsports2"
         },
         {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
         },
         {
-          "name": "DSports HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
         }
       ]
     },
@@ -142,23 +142,6 @@
       "time": "19:00",
       "time_utc": "2026-06-24T17:00:00.000Z",
       "match": "Suiza vs Canadá",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TYC Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=tycsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-24T20:00:00.000Z",
-      "match": "Escocia vs Brasil",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
@@ -187,12 +170,81 @@
           "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
         },
         {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
+        },
+        {
+          "name": "CAZÉ TV",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-06-24T20:00:00.000Z",
+      "match": "Escocia vs Brasil",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
+        },
+        {
           "name": "Telefe",
           "href": "https://tvtvhd.com/canales.php?stream=telefe"
         },
         {
           "name": "Caracol TV",
           "href": "https://tvtvhd.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=americatv"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
+        },
+        {
+          "name": "TVE la 1 ES",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
         }
       ]
     },
@@ -204,12 +256,28 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + | HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=dsportsplus"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
           "name": "TYC Sports HD",
           "href": "https://tvtvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
         },
         {
           "name": "FOX Sports 1 USA",
@@ -377,20 +445,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+          "name": "Dsports 2",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports2"
         },
         {
-          "name": "DSports | OP2",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+          "name": "Dsports 2 | HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=dsports2"
         },
         {
-          "name": "DSports | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
         },
         {
-          "name": "DSports HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvtvhd.com/tv/canal.php?stream=foxsports1_usa"
         }
       ]
     },
@@ -398,23 +466,6 @@
       "time": "19:00",
       "time_utc": "2026-06-24T17:00:00.000Z",
       "match": "Suiza vs Canadá",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TYC Sports",
-          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=tycsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-24T20:00:00.000Z",
-      "match": "Escocia vs Brasil",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
@@ -443,12 +494,81 @@
           "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
         },
         {
+          "name": "TYC Sports",
+          "href": "https://tvtvhd.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
+        },
+        {
+          "name": "CAZÉ TV",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-06-24T20:00:00.000Z",
+      "match": "Escocia vs Brasil",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvtvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvtvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvtvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=dsports"
+        },
+        {
           "name": "Telefe",
           "href": "https://tvtvhd.com/canales.php?stream=telefe"
         },
         {
           "name": "Caracol TV",
           "href": "https://tvtvhd.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvtvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=americatv"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvtvhd.com/canales.php?stream=goltv"
+        },
+        {
+          "name": "TVE la 1 ES",
+          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
         }
       ]
     },
@@ -460,12 +580,28 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports +",
+          "href": "https://tvtvhd.com/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + | HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=dsportsplus"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://tvtvhd.com/canales.php?stream=tycsports"
         },
         {
           "name": "TYC Sports HD",
           "href": "https://tvtvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvtvhd.com/canales.php?stream=universo"
         },
         {
           "name": "FOX Sports 1 USA",
