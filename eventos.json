@@ -1,100 +1,35 @@
 {
-  "actualizado_en": "2026-06-25T01:57:40.486Z",
-  "fecha": "miércoles, 24 de junio",
+  "actualizado_en": "2026-06-25T06:37:19.803Z",
+  "fecha": "jueves, 25 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 4,
-  "contar_con_canales": 4,
+  "contar": 11,
+  "contar_con_canales": 11,
   "events": [
     {
-      "time": "00:00",
-      "time_utc": "2026-06-24T22:00:00.000Z",
-      "match": "NBA Draft – Segunda Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-06-24T23:00:00.000Z",
-      "match": "República Checa vs México",
+      "time": "02:00",
+      "time_utc": "2026-06-25T00:00:00.000Z",
+      "match": "Paraguay vs Australia",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+          "name": "Telefe",
+          "href": "https://tvhd2.com/canales.php?stream=telefe"
         },
         {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/canales.php?stream=canal5"
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
         },
         {
-          "name": "TUDN Mexico",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=canal5"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Canal 5 Mexico",
-          "href": "https://tvhd2.com/online/canal.php?stream=canal5"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://tvhd2.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=winsports"
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
       ]
     },
     {
-      "time": "01:00",
-      "time_utc": "2026-06-24T23:00:00.000Z",
-      "match": "Sur África vs Corea del Sur",
+      "time": "02:00",
+      "time_utc": "2026-06-25T00:00:00.000Z",
+      "match": "Turquía vs EE. UU.",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
@@ -103,24 +38,12 @@
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
         {
-          "name": "Tigo Sports",
-          "href": "https://tvhd2.com/online/canales.php?stream=even2"
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
-          "name": "DSports +",
-          "href": "https://tvhd2.com/canales.php?stream=dsportsplus"
-        },
-        {
-          "name": "DSports + I OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsportsplus"
-        },
-        {
-          "name": "DSports + | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsportsplus"
-        },
-        {
-          "name": "DSports + | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsportsplus"
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
         },
         {
           "name": "TyC Sports | OP2",
@@ -135,15 +58,222 @@
           "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
         },
         {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-06-25T14:00:00.000Z",
+      "match": "Hockey – Pro League Femenino – Inglaterra vs Argentina",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-06-25T14:30:00.000Z",
+      "match": "MLB – Pittsburgh Pirates vs Seattle Mariners",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-25T17:00:00.000Z",
+      "match": "Golf – Travelers Championship – Primera Vuelta",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-06-25T18:00:00.000Z",
+      "match": "Ecuador vs Alemania",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TYC Sports",
+          "href": "https://tvhd2.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "TyC Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://tvhd2.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/canales.php?stream=canal5"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-06-25T18:00:00.000Z",
+      "match": "Curazao vs Costa de Marfil",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv 2 BR",
+          "href": "https://tvhd2.com/canales.php?stream=sportv2"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
+        },
+        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
       ]
     },
     {
+      "time": "23:00",
+      "time_utc": "2026-06-25T21:00:00.000Z",
+      "match": "Japón vs Suecia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TYC Sports",
+          "href": "https://tvhd2.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TyC Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-25T21:00:00.000Z",
+      "match": "Túnez vs Países Bajos",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        }
+      ]
+    },
+    {
       "time": "23:30",
       "time_utc": "2026-06-25T21:30:00.000Z",
-      "match": "Unión La Calera vs Universidad Chile",
+      "match": "Colo-Colo vs O'Higgins",
       "league": "Copa Chile",
       "flag": "⚽",
       "channels": [
@@ -158,101 +288,61 @@
         {
           "name": "TNT Sports Premiun CL HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-06-25T21:30:00.000Z",
+      "match": "MLB – St. Louis Cardinals vs Arizona Diamondbacks",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvhd2.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "00:00",
-      "time_utc": "2026-06-24T22:00:00.000Z",
-      "match": "NBA Draft – Segunda Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-06-24T23:00:00.000Z",
-      "match": "República Checa vs México",
+      "time": "02:00",
+      "time_utc": "2026-06-25T00:00:00.000Z",
+      "match": "Paraguay vs Australia",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+          "name": "Telefe",
+          "href": "https://tvhd2.com/canales.php?stream=telefe"
         },
         {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/canales.php?stream=canal5"
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
         },
         {
-          "name": "TUDN Mexico",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=canal5"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Canal 5 Mexico",
-          "href": "https://tvhd2.com/online/canal.php?stream=canal5"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://tvhd2.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=winsports"
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
       ]
     },
     {
-      "time": "01:00",
-      "time_utc": "2026-06-24T23:00:00.000Z",
-      "match": "Sur África vs Corea del Sur",
+      "time": "02:00",
+      "time_utc": "2026-06-25T00:00:00.000Z",
+      "match": "Turquía vs EE. UU.",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
@@ -261,24 +351,12 @@
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
         {
-          "name": "Tigo Sports",
-          "href": "https://tvhd2.com/online/canales.php?stream=even2"
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
-          "name": "DSports +",
-          "href": "https://tvhd2.com/canales.php?stream=dsportsplus"
-        },
-        {
-          "name": "DSports + I OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsportsplus"
-        },
-        {
-          "name": "DSports + | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsportsplus"
-        },
-        {
-          "name": "DSports + | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsportsplus"
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
         },
         {
           "name": "TyC Sports | OP2",
@@ -293,15 +371,222 @@
           "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
         },
         {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-06-25T14:00:00.000Z",
+      "match": "Hockey – Pro League Femenino – Inglaterra vs Argentina",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-06-25T14:30:00.000Z",
+      "match": "MLB – Pittsburgh Pirates vs Seattle Mariners",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-25T17:00:00.000Z",
+      "match": "Golf – Travelers Championship – Primera Vuelta",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-06-25T18:00:00.000Z",
+      "match": "Ecuador vs Alemania",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TYC Sports",
+          "href": "https://tvhd2.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "TyC Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://tvhd2.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/canales.php?stream=canal5"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-06-25T18:00:00.000Z",
+      "match": "Curazao vs Costa de Marfil",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv 2 BR",
+          "href": "https://tvhd2.com/canales.php?stream=sportv2"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
+        },
+        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
       ]
     },
     {
+      "time": "23:00",
+      "time_utc": "2026-06-25T21:00:00.000Z",
+      "match": "Japón vs Suecia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TYC Sports",
+          "href": "https://tvhd2.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TyC Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-06-25T21:00:00.000Z",
+      "match": "Túnez vs Países Bajos",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        }
+      ]
+    },
+    {
       "time": "23:30",
       "time_utc": "2026-06-25T21:30:00.000Z",
-      "match": "Unión La Calera vs Universidad Chile",
+      "match": "Colo-Colo vs O'Higgins",
       "league": "Copa Chile",
       "flag": "⚽",
       "channels": [
@@ -316,6 +601,31 @@
         {
           "name": "TNT Sports Premiun CL HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-06-25T21:30:00.000Z",
+      "match": "MLB – St. Louis Cardinals vs Arizona Diamondbacks",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvhd2.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
         }
       ]
     }
