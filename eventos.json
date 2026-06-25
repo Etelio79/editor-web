@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-24T22:05:11.795Z",
+  "actualizado_en": "2026-06-25T01:57:40.486Z",
   "fecha": "miércoles, 24 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 9,
-  "contar_con_canales": 9,
+  "contar": 4,
+  "contar_con_canales": 4,
   "events": [
     {
       "time": "00:00",
@@ -15,6 +15,14 @@
         {
           "name": "ESPN 2",
           "href": "https://tvhd2.com/canales.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
         },
         {
           "name": "ESPN 2 HD",
@@ -34,20 +42,52 @@
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "TUDN Mexico",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=canal5"
+        },
+        {
           "name": "Telemundo HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Canal 5 Mexico",
+          "href": "https://tvhd2.com/online/canal.php?stream=canal5"
         },
         {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
         {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
           "name": "DSports HD",
           "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/canales.php?stream=canal5"
+          "name": "Win Sports",
+          "href": "https://tvhd2.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=winsports"
         }
       ]
     },
@@ -63,185 +103,40 @@
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
         {
-          "name": "TYC Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-25T17:00:00.000Z",
-      "match": "Bosnia-Herzegovina vs Qatar",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2",
-          "href": "https://tvhd2.com/canales.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports2"
-        },
-        {
-          "name": "Universo",
-          "href": "https://tvhd2.com/canales.php?stream=universo"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-25T17:00:00.000Z",
-      "match": "Suiza vs Canadá",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
-        },
-        {
-          "name": "CAZÉ TV",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-25T20:00:00.000Z",
-      "match": "Escocia vs Brasil",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
           "name": "Tigo Sports",
           "href": "https://tvhd2.com/online/canales.php?stream=even2"
         },
         {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telefe",
-          "href": "https://tvhd2.com/canales.php?stream=telefe"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
-        },
-        {
-          "name": "TVE la 1 ES",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-25T20:00:00.000Z",
-      "match": "Marruecos vs Haití",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
           "name": "DSports +",
           "href": "https://tvhd2.com/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + I OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsportsplus"
         },
         {
           "name": "DSports + | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=dsportsplus"
         },
         {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
+          "name": "TyC Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
         },
         {
           "name": "TYC Sports HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
         },
         {
-          "name": "Universo",
-          "href": "https://tvhd2.com/canales.php?stream=universo"
-        },
-        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "22:30",
-      "time_utc": "2026-06-25T20:30:00.000Z",
-      "match": "MLB – Tampa Bay Rays vs Kansas City Royals",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvhd2.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
         }
       ]
     },
@@ -255,6 +150,10 @@
         {
           "name": "TNT Sports Premiun CL",
           "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
         },
         {
           "name": "TNT Sports Premiun CL HD",
@@ -276,6 +175,14 @@
           "href": "https://tvhd2.com/canales.php?stream=espn2"
         },
         {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=espn2"
+        },
+        {
           "name": "ESPN 2 HD",
           "href": "https://tvhd2.com/online/canales.php?stream=espn2"
         }
@@ -293,20 +200,52 @@
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "TUDN Mexico",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=canal5"
+        },
+        {
           "name": "Telemundo HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Canal 5 Mexico",
+          "href": "https://tvhd2.com/online/canal.php?stream=canal5"
         },
         {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
         {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
           "name": "DSports HD",
           "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/canales.php?stream=canal5"
+          "name": "Win Sports",
+          "href": "https://tvhd2.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=winsports"
         }
       ]
     },
@@ -322,185 +261,40 @@
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
         {
-          "name": "TYC Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-25T17:00:00.000Z",
-      "match": "Bosnia-Herzegovina vs Qatar",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2",
-          "href": "https://tvhd2.com/canales.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports2"
-        },
-        {
-          "name": "Universo",
-          "href": "https://tvhd2.com/canales.php?stream=universo"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-25T17:00:00.000Z",
-      "match": "Suiza vs Canadá",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
-        },
-        {
-          "name": "CAZÉ TV",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2dydS1uaXRyby9saXZlL2NsaWVudHMvZGFzaC1zZC9lbmMvdHdydWxkamcyby9vdXQvdjEvMjlhNDM2MDM4MTU5NDYzMTgzZjYyNGNlODZkNmVkNGEvY2VuYy1zZC5tcGQ=&k=OWRkMzRhZTk3Y2YxNDdiYThmNTU2OTdmMzcyMTI4ODc6YzZlYTk1ZmZkNTdmYjc0NTMxZDVjYzIwNDZiOTc2MzY="
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-25T20:00:00.000Z",
-      "match": "Escocia vs Brasil",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
           "name": "Tigo Sports",
           "href": "https://tvhd2.com/online/canales.php?stream=even2"
         },
         {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telefe",
-          "href": "https://tvhd2.com/canales.php?stream=telefe"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
-        },
-        {
-          "name": "TVE la 1 ES",
-          "href": "https://tvtvhd.com/mpd/drm.php?url=aHR0cHM6Ly9vdHRlLmxpdmUuZmx5Lnd3LmFpdi1jZG4ubmV0L2xoci1uaXRyby9saXZlL2NsaWVudHMvZGFzaC9lbmMvNjJxZGtlZnY5Zi9vdXQvdjEvZjdkNWIzNTZlMDQ4NDk0YTgzMjU1NjNlODkxNmQ1MGIvY2VuYy5tcGQ=&k=ZmQ4NmRkZTBhZTNlMTRmZjUxYzhmYzhmMjQ4YTUwZGI6ZDEwNmFlNzhiMDg5M2RhMmU0MzkzZWNlOTk0MjBiYWE="
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-06-25T20:00:00.000Z",
-      "match": "Marruecos vs Haití",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
           "name": "DSports +",
           "href": "https://tvhd2.com/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + I OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsportsplus"
         },
         {
           "name": "DSports + | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=dsportsplus"
         },
         {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
+          "name": "TyC Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
         },
         {
           "name": "TYC Sports HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
         },
         {
-          "name": "Universo",
-          "href": "https://tvhd2.com/canales.php?stream=universo"
-        },
-        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "22:30",
-      "time_utc": "2026-06-25T20:30:00.000Z",
-      "match": "MLB – Tampa Bay Rays vs Kansas City Royals",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvhd2.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
         }
       ]
     },
@@ -514,6 +308,10 @@
         {
           "name": "TNT Sports Premiun CL",
           "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
         },
         {
           "name": "TNT Sports Premiun CL HD",
