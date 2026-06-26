@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-26T13:54:17.381Z",
+  "actualizado_en": "2026-06-26T16:54:21.785Z",
   "fecha": "viernes, 26 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 13,
-  "contar_con_canales": 13,
+  "contar": 11,
+  "contar_con_canales": 11,
   "events": [
     {
       "time": "00:00",
@@ -138,56 +138,6 @@
       ]
     },
     {
-      "time": "11:25",
-      "time_utc": "2026-06-26T09:25:00.000Z",
-      "match": "F1 GP Austria – Práctica #1",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "13:40",
-      "time_utc": "2026-06-26T11:40:00.000Z",
-      "match": "F2 Spielberg – Clasificación",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "14:30",
       "time_utc": "2026-06-26T12:30:00.000Z",
       "match": "Hockey – Pro League Femenino – Argentina vs España",
@@ -265,23 +215,6 @@
     {
       "time": "19:00",
       "time_utc": "2026-06-26T17:00:00.000Z",
-      "match": "Senegal vs Iraq",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Universo",
-          "href": "https://tvhd2.com/canales.php?stream=universo"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-26T17:00:00.000Z",
       "match": "Golf – Travelers Championship – Segunda Vuelta",
       "league": "",
       "flag": "⚽",
@@ -307,13 +240,62 @@
     {
       "time": "19:00",
       "time_utc": "2026-06-26T17:00:00.000Z",
+      "match": "Senegal vs Iraq",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://tvhd2.com/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports2"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-26T17:00:00.000Z",
       "match": "Noruega vs Francia",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
           "name": "Telemundo HD",
@@ -340,6 +322,14 @@
           "href": "https://tvhd2.com/canales.php?stream=telefe"
         },
         {
+          "name": "America Television",
+          "href": "https://tvhd2.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
+        },
+        {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
         },
@@ -362,6 +352,10 @@
         {
           "name": "Win Sports HD",
           "href": "https://tvhd2.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -525,56 +519,6 @@
       ]
     },
     {
-      "time": "11:25",
-      "time_utc": "2026-06-26T09:25:00.000Z",
-      "match": "F1 GP Austria – Práctica #1",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "13:40",
-      "time_utc": "2026-06-26T11:40:00.000Z",
-      "match": "F2 Spielberg – Clasificación",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "14:30",
       "time_utc": "2026-06-26T12:30:00.000Z",
       "match": "Hockey – Pro League Femenino – Argentina vs España",
@@ -652,23 +596,6 @@
     {
       "time": "19:00",
       "time_utc": "2026-06-26T17:00:00.000Z",
-      "match": "Senegal vs Iraq",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Universo",
-          "href": "https://tvhd2.com/canales.php?stream=universo"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-06-26T17:00:00.000Z",
       "match": "Golf – Travelers Championship – Segunda Vuelta",
       "league": "",
       "flag": "⚽",
@@ -694,13 +621,62 @@
     {
       "time": "19:00",
       "time_utc": "2026-06-26T17:00:00.000Z",
+      "match": "Senegal vs Iraq",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://tvhd2.com/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports2"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-06-26T17:00:00.000Z",
       "match": "Noruega vs Francia",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
           "name": "Telemundo HD",
@@ -727,6 +703,14 @@
           "href": "https://tvhd2.com/canales.php?stream=telefe"
         },
         {
+          "name": "America Television",
+          "href": "https://tvhd2.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
+        },
+        {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
         },
@@ -749,6 +733,10 @@
         {
           "name": "Win Sports HD",
           "href": "https://tvhd2.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
         }
       ]
     },
