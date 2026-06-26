@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-25T22:13:42.868Z",
+  "actualizado_en": "2026-06-26T01:59:36.000Z",
   "fecha": "jueves, 25 de junio",
   "fuente": "rojadirectatv-puppeteer",
-  "contar": 8,
-  "contar_con_canales": 8,
+  "contar": 6,
+  "contar_con_canales": 6,
   "events": [
     {
       "time": "02:00",
@@ -12,6 +12,10 @@
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Tigo Sports",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
         {
           "name": "Dsports 2",
           "href": "https://tvhd2.com/vivo/canal.php?stream=dsports2"
@@ -50,81 +54,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-06-26T18:00:00.000Z",
-      "match": "Ecuador vs Alemania",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Tigo Sports",
+          "name": "Tigo Sports 2",
           "href": "https://tvhd2.com/online/canales.php?stream=even2"
         },
         {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
           "name": "Telemundo HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
         {
           "name": "DSports | OP2",
@@ -135,16 +78,16 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
         {
           "name": "TyC Sports | OP2",
           "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
           "name": "TYC Sports | OP3",
@@ -155,10 +98,6 @@
           "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
         },
         {
-          "name": "Telefe",
-          "href": "https://tvhd2.com/canales.php?stream=telefe"
-        },
-        {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
         },
@@ -167,53 +106,8 @@
           "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
         },
         {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/canales.php?stream=canal5"
-        },
-        {
           "name": "Deportes TV. C",
           "href": "https://tvhd2.com/canales.php?stream=goltv"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-06-26T18:00:00.000Z",
-      "match": "Curazao vs Costa de Marfil",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | OP2",
-          "href": "https://tvhd2.com/canales.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports2"
-        },
-        {
-          "name": "Sportv 2 BR",
-          "href": "https://tvhd2.com/canales.php?stream=sportv2"
-        },
-        {
-          "name": "Universo",
-          "href": "https://tvhd2.com/canales.php?stream=universo"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
       ]
     },
@@ -224,6 +118,14 @@
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Tigo Sports",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvhd2.com/canales.php?stream=tycsports"
+        },
         {
           "name": "DSports +",
           "href": "https://tvhd2.com/canales.php?stream=dsportsplus"
@@ -239,10 +141,6 @@
         {
           "name": "DSports + | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=dsportsplus"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
         {
           "name": "TyC Sports | OP2",
@@ -277,6 +175,10 @@
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Tigo Sports 2",
+          "href": "https://tvhd2.com/online/canales.php?stream=even2"
+        },
         {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
@@ -379,6 +281,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Tigo Sports",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
           "name": "Dsports 2",
           "href": "https://tvhd2.com/vivo/canal.php?stream=dsports2"
         },
@@ -416,81 +322,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-06-26T18:00:00.000Z",
-      "match": "Ecuador vs Alemania",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Tigo Sports",
+          "name": "Tigo Sports 2",
           "href": "https://tvhd2.com/online/canales.php?stream=even2"
         },
         {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
           "name": "Telemundo HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
         {
           "name": "DSports | OP2",
@@ -501,16 +346,16 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
         {
           "name": "TyC Sports | OP2",
           "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
           "name": "TYC Sports | OP3",
@@ -521,10 +366,6 @@
           "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
         },
         {
-          "name": "Telefe",
-          "href": "https://tvhd2.com/canales.php?stream=telefe"
-        },
-        {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
         },
@@ -533,53 +374,8 @@
           "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
         },
         {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/canales.php?stream=canal5"
-        },
-        {
           "name": "Deportes TV. C",
           "href": "https://tvhd2.com/canales.php?stream=goltv"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-06-26T18:00:00.000Z",
-      "match": "Curazao vs Costa de Marfil",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | OP2",
-          "href": "https://tvhd2.com/canales.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports2"
-        },
-        {
-          "name": "Sportv 2 BR",
-          "href": "https://tvhd2.com/canales.php?stream=sportv2"
-        },
-        {
-          "name": "Universo",
-          "href": "https://tvhd2.com/canales.php?stream=universo"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
       ]
     },
@@ -590,6 +386,14 @@
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Tigo Sports",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvhd2.com/canales.php?stream=tycsports"
+        },
         {
           "name": "DSports +",
           "href": "https://tvhd2.com/canales.php?stream=dsportsplus"
@@ -605,10 +409,6 @@
         {
           "name": "DSports + | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=dsportsplus"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
         {
           "name": "TyC Sports | OP2",
@@ -643,6 +443,10 @@
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Tigo Sports 2",
+          "href": "https://tvhd2.com/online/canales.php?stream=even2"
+        },
         {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
