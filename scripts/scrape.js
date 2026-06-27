@@ -5,7 +5,7 @@ const path      = require('path');
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // URL del sitio - cambiar aquí si vuelve a moverse el dominio
-const SITE_URL = process.env.SITE_URL || 'https://rojadirectatv.net';
+const SITE_URL = process.env.SITE_URL || 'https://futbollibretotal.com';
 
 // Convierte "19:00" (hora España, Europe/Madrid) a ISO UTC
 // Detecta automáticamente si es verano (UTC+2) o invierno (UTC+1)
@@ -28,9 +28,9 @@ function timeColombiaToUTC(timeStr) {
 
 
 /**
- * Decodifica la URL real desde un enlace embed de rojadirecta.
- * Entrada:  https://rojadirectatv.net/embed/eventos.html?r=aHR0cHM6Ly90dnR2...
- * Salida:   https://tvtvhd.com/canales.php?stream=espn
+ * Decodifica la URL real desde un enlace embed de futbollibretotal.
+ * Entrada:  https://futbollibretotal.com/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20v...
+ * Salida:   https://tvhd2.com/canales.php?stream=dsports
  */
 function decodeEmbedUrl(href) {
   try {
@@ -204,16 +204,17 @@ async function scrapeFutbolLibre() {
               && style.opacity !== '0';
           };
 
-          // Detecta si un href es un enlace embed válido de rojadirecta*
-          // (acepta cualquier dominio: rojadirectatv.net, rojadirecta.tv, etc.)
+          // Detecta si un href es un enlace embed válido (del sitio actual o de cualquier
+          // dominio "espejo" tipo rojadirecta/futbollibre/pelotalibre, etc.)
           const isEmbed = (href) => {
             if (!href) return false;
             // Caso 1: enlace embed con parámetro ?r= (Base64)
             if (href.includes('/embed/') && href.includes('?r=')) return true;
-            // Caso 2: enlace directo a un stream del mismo dominio
+            // Caso 2: enlace directo a un stream del mismo dominio del sitio
             try {
               const u = new URL(href);
-              if (u.hostname.includes('rojadirecta') || u.hostname.includes('rojadirect')) return true;
+              const host = u.hostname.toLowerCase();
+              if (host.includes('futbollibre') || host.includes('pelotalibre') || host.includes('rojadirect')) return true;
             } catch { return false; }
             return false;
           };
@@ -339,7 +340,7 @@ async function main() {
 
   try {
     events = await scrapeFutbolLibre();
-    if (events.length > 0) source = 'rojadirectatv-puppeteer';
+    if (events.length > 0) source = 'futbollibretotal-puppeteer';
   } catch(e) {
     console.warn(`[PUP] FALLO: ${e.message}`);
   }
