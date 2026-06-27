@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-06-27T15:57:24.320Z",
+  "actualizado_en": "2026-06-27T18:59:17.347Z",
   "fecha": "sábado, 27 de junio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 17,
-  "contar_con_canales": 17,
+  "contar": 14,
+  "contar_con_canales": 14,
   "events": [
     {
       "time": "02:00",
@@ -13,8 +13,36 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports +",
-          "href": "https://tvhd2.com/canales.php?stream=dsportsplus"
+          "name": "Dsports 2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://tvhd2.com/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
       ]
     },
@@ -25,6 +53,22 @@
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
         {
           "name": "TYC Sports",
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
@@ -72,69 +116,6 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-06-27T11:00:00.000Z",
-      "match": "Atenas vs Tacuarembó",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "13:55",
-      "time_utc": "2026-06-27T11:55:00.000Z",
-      "match": "F1 GP Austria – Clasificación",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-06-27T13:00:00.000Z",
-      "match": "River Plate  vs Lanús",
-      "league": "Torneo de Reserva",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
-        }
-      ]
-    },
-    {
       "time": "16:00",
       "time_utc": "2026-06-27T14:00:00.000Z",
       "match": "Uruguay Montevideo vs Fénix",
@@ -143,7 +124,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -285,12 +266,24 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+          "name": "Dsports 2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports2"
         },
         {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+          "name": "Dsports 2 | OP2",
+          "href": "https://tvhd2.com/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
         },
         {
           "name": "FOX Sports 1 USA",
@@ -306,6 +299,30 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
@@ -320,6 +337,18 @@
         {
           "name": "TYC Sports HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/canales.php?stream=canal5"
         }
       ]
     },
@@ -344,16 +373,24 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
         },
         {
           "name": "Telemundo",
@@ -362,6 +399,14 @@
         {
           "name": "Telemundo HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
         },
         {
           "name": "Canal 5 MX",
@@ -385,8 +430,44 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
+          "name": "DSports +",
+          "href": "https://tvhd2.com/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + I OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvhd2.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TyC Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
       ]
     }
@@ -400,8 +481,36 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports +",
-          "href": "https://tvhd2.com/canales.php?stream=dsportsplus"
+          "name": "Dsports 2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://tvhd2.com/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
       ]
     },
@@ -412,6 +521,22 @@
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
         {
           "name": "TYC Sports",
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
@@ -459,69 +584,6 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-06-27T11:00:00.000Z",
-      "match": "Atenas vs Tacuarembó",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "13:55",
-      "time_utc": "2026-06-27T11:55:00.000Z",
-      "match": "F1 GP Austria – Clasificación",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-06-27T13:00:00.000Z",
-      "match": "River Plate  vs Lanús",
-      "league": "Torneo de Reserva",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
-        }
-      ]
-    },
-    {
       "time": "16:00",
       "time_utc": "2026-06-27T14:00:00.000Z",
       "match": "Uruguay Montevideo vs Fénix",
@@ -530,7 +592,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvtvhd.com/canales.php?stream=espn"
+          "href": "https://tvtvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -672,12 +734,24 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+          "name": "Dsports 2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports2"
         },
         {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+          "name": "Dsports 2 | OP2",
+          "href": "https://tvhd2.com/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports2"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
         },
         {
           "name": "FOX Sports 1 USA",
@@ -693,6 +767,30 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
@@ -707,6 +805,18 @@
         {
           "name": "TYC Sports HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/canales.php?stream=canal5"
         }
       ]
     },
@@ -731,16 +841,24 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
         },
         {
           "name": "Telemundo",
@@ -749,6 +867,14 @@
         {
           "name": "Telemundo HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
         },
         {
           "name": "Canal 5 MX",
@@ -772,8 +898,44 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
+          "name": "DSports +",
+          "href": "https://tvhd2.com/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + I OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "DSports + | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsportsplus"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://tvhd2.com/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TyC Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
+        },
+        {
+          "name": "FOX Sports 1 USA",
+          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
       ]
     }
