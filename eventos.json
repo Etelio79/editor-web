@@ -1,17 +1,25 @@
 {
-  "actualizado_en": "2026-07-01T19:26:43.303Z",
+  "actualizado_en": "2026-07-01T22:10:53.063Z",
   "fecha": "miércoles, 1 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 7,
-  "contar_con_canales": 7,
+  "contar": 6,
+  "contar_con_canales": 6,
   "events": [
     {
       "time": "00:00",
-      "time_utc": "2026-06-30T22:00:00.000Z",
+      "time_utc": "2026-07-01T22:00:00.000Z",
       "match": "EE. UU. vs Bosnia-Herzegovina",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "DSPORTS TV",
+          "href": "https://tvhd2.com/online/canales.php?stream=even3"
+        },
         {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
@@ -64,7 +72,7 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-06-30T22:30:00.000Z",
+      "time_utc": "2026-07-01T22:30:00.000Z",
       "match": "Universidad Chile vs Unión La Calera",
       "league": "Copa Chile",
       "flag": "⚽",
@@ -84,44 +92,39 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-01T17:00:00.000Z",
-      "match": "MLB – Toronto Blue Jays vs New York Mets",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvhd2.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
       "time": "20:00",
-      "time_utc": "2026-07-01T18:00:00.000Z",
+      "time_utc": "2026-07-02T18:00:00.000Z",
       "match": "Bélgica vs Senegal",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSPORTS TV",
+          "href": "https://tvhd2.com/online/canales.php?stream=even3"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Tigo Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
         },
         {
           "name": "DSports | OP2",
@@ -130,14 +133,6 @@
         {
           "name": "DSports | OP3",
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
         },
         {
           "name": "Win Sports",
@@ -164,14 +159,6 @@
           "href": "https://tvhd2.com/online/canales.php?stream=americatv"
         },
         {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
@@ -179,7 +166,7 @@
     },
     {
       "time": "22:00",
-      "time_utc": "2026-07-01T20:00:00.000Z",
+      "time_utc": "2026-07-02T20:00:00.000Z",
       "match": "Deportes Limache vs Coquimbo Unido",
       "league": "Copa Chile",
       "flag": "⚽",
@@ -200,7 +187,7 @@
     },
     {
       "time": "22:00",
-      "time_utc": "2026-07-01T20:00:00.000Z",
+      "time_utc": "2026-07-02T20:00:00.000Z",
       "match": "MLB – Milwaukee Brewers vs Cincinnati Reds",
       "league": "",
       "flag": "⚽",
@@ -213,7 +200,7 @@
     },
     {
       "time": "22:00",
-      "time_utc": "2026-07-01T20:00:00.000Z",
+      "time_utc": "2026-07-02T20:00:00.000Z",
       "match": "LDU Quito vs Orense",
       "league": "Serie A",
       "flag": "⚽",
@@ -228,11 +215,19 @@
   "eventos": [
     {
       "time": "00:00",
-      "time_utc": "2026-06-30T22:00:00.000Z",
+      "time_utc": "2026-07-01T22:00:00.000Z",
       "match": "EE. UU. vs Bosnia-Herzegovina",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "DSPORTS TV",
+          "href": "https://tvhd2.com/online/canales.php?stream=even3"
+        },
         {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
@@ -285,7 +280,7 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-06-30T22:30:00.000Z",
+      "time_utc": "2026-07-01T22:30:00.000Z",
       "match": "Universidad Chile vs Unión La Calera",
       "league": "Copa Chile",
       "flag": "⚽",
@@ -305,44 +300,39 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-01T17:00:00.000Z",
-      "match": "MLB – Toronto Blue Jays vs New York Mets",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvhd2.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
       "time": "20:00",
-      "time_utc": "2026-07-01T18:00:00.000Z",
+      "time_utc": "2026-07-02T18:00:00.000Z",
       "match": "Bélgica vs Senegal",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSPORTS TV",
+          "href": "https://tvhd2.com/online/canales.php?stream=even3"
+        },
+        {
+          "name": "DSports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Tigo Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
         },
         {
           "name": "DSports | OP2",
@@ -351,14 +341,6 @@
         {
           "name": "DSports | OP3",
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
         },
         {
           "name": "Win Sports",
@@ -385,14 +367,6 @@
           "href": "https://tvhd2.com/online/canales.php?stream=americatv"
         },
         {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
           "name": "FOX Sports 1 USA",
           "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
         }
@@ -400,7 +374,7 @@
     },
     {
       "time": "22:00",
-      "time_utc": "2026-07-01T20:00:00.000Z",
+      "time_utc": "2026-07-02T20:00:00.000Z",
       "match": "Deportes Limache vs Coquimbo Unido",
       "league": "Copa Chile",
       "flag": "⚽",
@@ -421,7 +395,7 @@
     },
     {
       "time": "22:00",
-      "time_utc": "2026-07-01T20:00:00.000Z",
+      "time_utc": "2026-07-02T20:00:00.000Z",
       "match": "MLB – Milwaukee Brewers vs Cincinnati Reds",
       "league": "",
       "flag": "⚽",
@@ -434,7 +408,7 @@
     },
     {
       "time": "22:00",
-      "time_utc": "2026-07-01T20:00:00.000Z",
+      "time_utc": "2026-07-02T20:00:00.000Z",
       "match": "LDU Quito vs Orense",
       "league": "Serie A",
       "flag": "⚽",
