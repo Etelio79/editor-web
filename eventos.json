@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-01T22:10:53.063Z",
+  "actualizado_en": "2026-07-02T01:57:12.986Z",
   "fecha": "miércoles, 1 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 6,
-  "contar_con_canales": 6,
+  "contar": 2,
+  "contar_con_canales": 2,
   "events": [
     {
       "time": "00:00",
@@ -15,6 +15,26 @@
         {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "FOX ONE USA",
+          "href": "https://tvhd1.com/canales/foxone.php"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Tigo Sports",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
           "name": "DSPORTS TV",
@@ -57,14 +77,6 @@
           "href": "https://tvhd2.com/online/canales.php?stream=canal5"
         },
         {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
           "name": "Universo",
           "href": "https://tvhd2.com/canales.php?stream=universo"
         }
@@ -88,126 +100,6 @@
         {
           "name": "TNT Sports Premiun CL HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-02T18:00:00.000Z",
-      "match": "Bélgica vs Senegal",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSPORTS TV",
-          "href": "https://tvhd2.com/online/canales.php?stream=even3"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Tigo Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=even1"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://tvhd2.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-02T20:00:00.000Z",
-      "match": "Deportes Limache vs Coquimbo Unido",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-02T20:00:00.000Z",
-      "match": "MLB – Milwaukee Brewers vs Cincinnati Reds",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/online/canal.php?stream=even4"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-02T20:00:00.000Z",
-      "match": "LDU Quito vs Orense",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
         }
       ]
     }
@@ -225,6 +117,26 @@
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "FOX ONE USA",
+          "href": "https://tvhd1.com/canales/foxone.php"
+        },
+        {
+          "name": "Telemundo HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Tigo Sports",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
           "name": "DSPORTS TV",
           "href": "https://tvhd2.com/online/canales.php?stream=even3"
         },
@@ -265,14 +177,6 @@
           "href": "https://tvhd2.com/online/canales.php?stream=canal5"
         },
         {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
           "name": "Universo",
           "href": "https://tvhd2.com/canales.php?stream=universo"
         }
@@ -296,126 +200,6 @@
         {
           "name": "TNT Sports Premiun CL HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-02T18:00:00.000Z",
-      "match": "Bélgica vs Senegal",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSPORTS TV",
-          "href": "https://tvhd2.com/online/canales.php?stream=even3"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Tigo Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=even1"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://tvhd2.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "FOX Sports 1 USA",
-          "href": "https://tvhd2.com/canales.php?stream=foxsports1_usa"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-02T20:00:00.000Z",
-      "match": "Deportes Limache vs Coquimbo Unido",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-02T20:00:00.000Z",
-      "match": "MLB – Milwaukee Brewers vs Cincinnati Reds",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/online/canal.php?stream=even4"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-02T20:00:00.000Z",
-      "match": "LDU Quito vs Orense",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
         }
       ]
     }
