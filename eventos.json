@@ -1,13 +1,30 @@
 {
-  "actualizado_en": "2026-07-02T21:55:56.477Z",
+  "actualizado_en": "2026-07-03T01:27:20.232Z",
   "fecha": "jueves, 2 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 7,
-  "contar_con_canales": 7,
+  "contar": 4,
+  "contar_con_canales": 4,
   "events": [
     {
       "time": "00:00",
-      "time_utc": "2026-07-01T22:00:00.000Z",
+      "time_utc": "2026-07-02T22:00:00.000Z",
+      "match": "O'Higgins vs Colo-Colo",
+      "league": "Copa Chile",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Chile HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-02T22:00:00.000Z",
       "match": "MLB – Texas Rangers vs. Detroit Tigers",
       "league": "",
       "flag": "⚽",
@@ -31,29 +48,8 @@
       ]
     },
     {
-      "time": "00:30",
-      "time_utc": "2026-07-01T22:30:00.000Z",
-      "match": "O'Higgins vs Colo-Colo",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
       "time": "03:00",
-      "time_utc": "2026-07-02T01:00:00.000Z",
+      "time_utc": "2026-07-03T01:00:00.000Z",
       "match": "Suiza vs Argelia",
       "league": "Copa del Mundo",
       "flag": "⚽",
@@ -113,138 +109,19 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-02T17:00:00.000Z",
-      "match": "España vs Austria",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
-        },
-        {
-          "name": "FOX ONE HD1",
-          "href": "https://tvhd1.com/canales/foxone.php"
-        },
-        {
-          "name": "DSPORTS TV",
-          "href": "https://tvhd2.com/online/canales.php?stream=even2"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-02T19:30:00.000Z",
-      "match": "Golf – U.S. Senior Open Golf Championship – Primera Vuelta",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/online/canal.php?stream=even3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-02T20:00:00.000Z",
-      "match": "Huachipato vs Deportes Concepción",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
       "time": "23:00",
-      "time_utc": "2026-07-02T21:00:00.000Z",
+      "time_utc": "2026-07-03T21:00:00.000Z",
       "match": "Portugal vs Croacia",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
-        },
-        {
           "name": "FOX ONE HD1",
           "href": "https://tvhd1.com/canales/foxone.php"
-        },
-        {
-          "name": "DSPORTS TV",
-          "href": "https://tvhd2.com/online/canales.php?stream=even2"
         },
         {
           "name": "DSports HD",
@@ -253,38 +130,50 @@
         {
           "name": "Telemundo HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
         },
         {
           "name": "America TV | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=americatv"
         },
         {
+          "name": "Caracol TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
           "name": "Deportes TV. C",
           "href": "https://tvhd2.com/canales.php?stream=goltv"
+        },
+        {
+          "name": "TV LA 1 España HD1",
+          "href": "https://tvhd1.com/canales/tvla1es.php"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvhd2.com/canales.php?stream=americatv"
         }
       ]
     }
@@ -292,7 +181,24 @@
   "eventos": [
     {
       "time": "00:00",
-      "time_utc": "2026-07-01T22:00:00.000Z",
+      "time_utc": "2026-07-02T22:00:00.000Z",
+      "match": "O'Higgins vs Colo-Colo",
+      "league": "Copa Chile",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Chile HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-02T22:00:00.000Z",
       "match": "MLB – Texas Rangers vs. Detroit Tigers",
       "league": "",
       "flag": "⚽",
@@ -316,29 +222,8 @@
       ]
     },
     {
-      "time": "00:30",
-      "time_utc": "2026-07-01T22:30:00.000Z",
-      "match": "O'Higgins vs Colo-Colo",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
       "time": "03:00",
-      "time_utc": "2026-07-02T01:00:00.000Z",
+      "time_utc": "2026-07-03T01:00:00.000Z",
       "match": "Suiza vs Argelia",
       "league": "Copa del Mundo",
       "flag": "⚽",
@@ -398,138 +283,19 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-02T17:00:00.000Z",
-      "match": "España vs Austria",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
-        },
-        {
-          "name": "FOX ONE HD1",
-          "href": "https://tvhd1.com/canales/foxone.php"
-        },
-        {
-          "name": "DSPORTS TV",
-          "href": "https://tvhd2.com/online/canales.php?stream=even2"
-        },
-        {
-          "name": "DSports HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-02T19:30:00.000Z",
-      "match": "Golf – U.S. Senior Open Golf Championship – Primera Vuelta",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/online/canal.php?stream=even3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-02T20:00:00.000Z",
-      "match": "Huachipato vs Deportes Concepción",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
       "time": "23:00",
-      "time_utc": "2026-07-02T21:00:00.000Z",
+      "time_utc": "2026-07-03T21:00:00.000Z",
       "match": "Portugal vs Croacia",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
-        },
-        {
           "name": "FOX ONE HD1",
           "href": "https://tvhd1.com/canales/foxone.php"
-        },
-        {
-          "name": "DSPORTS TV",
-          "href": "https://tvhd2.com/online/canales.php?stream=even2"
         },
         {
           "name": "DSports HD",
@@ -538,38 +304,50 @@
         {
           "name": "Telemundo HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
         },
         {
           "name": "America TV | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=americatv"
         },
         {
+          "name": "Caracol TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
           "name": "Deportes TV. C",
           "href": "https://tvhd2.com/canales.php?stream=goltv"
+        },
+        {
+          "name": "TV LA 1 España HD1",
+          "href": "https://tvhd1.com/canales/tvla1es.php"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvhd2.com/canales.php?stream=americatv"
         }
       ]
     }
