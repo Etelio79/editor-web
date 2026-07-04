@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-04T12:53:24.270Z",
+  "actualizado_en": "2026-07-04T15:52:25.111Z",
   "fecha": "sábado, 4 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 10,
-  "contar_con_canales": 10,
+  "contar": 9,
+  "contar_con_canales": 9,
   "events": [
     {
       "time": "00:30",
@@ -27,48 +27,6 @@
       ]
     },
     {
-      "time": "10:00",
-      "time_utc": "2026-07-04T08:00:00.000Z",
-      "match": "Tenis – Wimbledon – Dia #6 – Tercera Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvhd2.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "12:35",
-      "time_utc": "2026-07-04T10:35:00.000Z",
-      "match": "F2 Silverstone – Carrera Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
-        }
-      ]
-    },
-    {
       "time": "14:30",
       "time_utc": "2026-07-04T12:30:00.000Z",
       "match": "Ciclismo – Tour de France – Etapa #1",
@@ -77,15 +35,20 @@
       "channels": [
         {
           "name": "ESPN 2",
-          "href": "https://tvhd2.com/online/canal.php?stream=even1"
-        },
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "14:45",
+      "time_utc": "2026-07-04T12:45:00.000Z",
+      "match": "GIRON vs ZVEREV",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
         {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
         }
       ]
     },
@@ -98,7 +61,7 @@
       "channels": [
         {
           "name": "ESPN 4",
-          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
         },
         {
           "name": "ESPN 4 | OP2",
@@ -118,6 +81,30 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "DSPORTS TV HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
+        },
+        {
+          "name": "Win Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
@@ -130,16 +117,32 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+          "name": "TV LA 1 España HD1",
+          "href": "https://tvhd1.com/canales/tvla1es.php"
         },
         {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+          "name": "America Television",
+          "href": "https://tvhd2.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://tvhd2.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -152,11 +155,7 @@
       "channels": [
         {
           "name": "ESPN 3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
         }
       ]
     },
@@ -169,15 +168,7 @@
       "channels": [
         {
           "name": "ESPN 2",
-          "href": "https://tvhd2.com/online/canal.php?stream=even1"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
         }
       ]
     },
@@ -259,48 +250,6 @@
       ]
     },
     {
-      "time": "10:00",
-      "time_utc": "2026-07-04T08:00:00.000Z",
-      "match": "Tenis – Wimbledon – Dia #6 – Tercera Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvhd2.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "12:35",
-      "time_utc": "2026-07-04T10:35:00.000Z",
-      "match": "F2 Silverstone – Carrera Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
-        }
-      ]
-    },
-    {
       "time": "14:30",
       "time_utc": "2026-07-04T12:30:00.000Z",
       "match": "Ciclismo – Tour de France – Etapa #1",
@@ -309,15 +258,20 @@
       "channels": [
         {
           "name": "ESPN 2",
-          "href": "https://tvhd2.com/online/canal.php?stream=even1"
-        },
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "14:45",
+      "time_utc": "2026-07-04T12:45:00.000Z",
+      "match": "GIRON vs ZVEREV",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
         {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
         }
       ]
     },
@@ -330,7 +284,7 @@
       "channels": [
         {
           "name": "ESPN 4",
-          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
         },
         {
           "name": "ESPN 4 | OP2",
@@ -350,6 +304,30 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "DSPORTS TV HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
+        },
+        {
+          "name": "Win Sports HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
@@ -362,16 +340,32 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+          "name": "TV LA 1 España HD1",
+          "href": "https://tvhd1.com/canales/tvla1es.php"
         },
         {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+          "name": "America Television",
+          "href": "https://tvhd2.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://tvhd2.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -384,11 +378,7 @@
       "channels": [
         {
           "name": "ESPN 3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
         }
       ]
     },
@@ -401,15 +391,7 @@
       "channels": [
         {
           "name": "ESPN 2",
-          "href": "https://tvhd2.com/online/canal.php?stream=even1"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
         }
       ]
     },
