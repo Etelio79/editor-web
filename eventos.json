@@ -1,98 +1,32 @@
 {
-  "actualizado_en": "2026-07-03T21:53:09.444Z",
+  "actualizado_en": "2026-07-04T01:27:06.160Z",
   "fecha": "viernes, 3 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 4,
-  "contar_con_canales": 4,
+  "contar": 2,
+  "contar_con_canales": 2,
   "events": [
     {
       "time": "01:30",
-      "time_utc": "2026-07-02T23:30:00.000Z",
+      "time_utc": "2026-07-03T23:30:00.000Z",
       "match": "Colombia vs Ghana",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
-        },
-        {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
           "name": "Caracol TV",
           "href": "https://tvhd2.com/canales.php?stream=caracol"
         },
         {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
           "name": "Caracol TV | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=caracol"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-03T19:30:00.000Z",
-      "match": "Golf – U.S. Senior Open Golf Championship – Segunda Vuelta",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-03T20:00:00.000Z",
-      "match": "Argentina vs Islas de Cabo Verde",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
           "name": "Canal 5 MX HD1",
@@ -103,32 +37,16 @@
           "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
-          "name": "TYC Sports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Caracol TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
           "name": "Telemundo | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telefe | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
         },
         {
           "name": "TV LA 1 España HD1",
           "href": "https://tvhd1.com/canales/tvla1es.php"
         },
         {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
+          "name": "America TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
         },
         {
           "name": "DSports | OP2",
@@ -139,50 +57,30 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Telefe",
-          "href": "https://tvhd2.com/canales.php?stream=telefe"
+          "name": "America Television",
+          "href": "https://tvhd2.com/canales.php?stream=americatv"
         },
         {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
           "name": "Canal 5 MX",
           "href": "https://tvhd2.com/online/canales.php?stream=canal5"
+        },
+        {
+          "name": "DSPORTS TV",
+          "href": "https://tvhd2.com/online/canales.php?stream=even2"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
         }
       ]
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-03T21:00:00.000Z",
+      "time_utc": "2026-07-04T21:00:00.000Z",
       "match": "MLB – Atlanta Braves vs New York Mets",
       "league": "",
       "flag": "⚽",
@@ -205,92 +103,26 @@
   "eventos": [
     {
       "time": "01:30",
-      "time_utc": "2026-07-02T23:30:00.000Z",
+      "time_utc": "2026-07-03T23:30:00.000Z",
       "match": "Colombia vs Ghana",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
-        },
-        {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
           "name": "Caracol TV",
           "href": "https://tvhd2.com/canales.php?stream=caracol"
         },
         {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
           "name": "Caracol TV | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=caracol"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-03T19:30:00.000Z",
-      "match": "Golf – U.S. Senior Open Golf Championship – Segunda Vuelta",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-03T20:00:00.000Z",
-      "match": "Argentina vs Islas de Cabo Verde",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
           "name": "Canal 5 MX HD1",
@@ -301,32 +133,16 @@
           "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
-          "name": "TYC Sports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Caracol TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
           "name": "Telemundo | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telefe | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
         },
         {
           "name": "TV LA 1 España HD1",
           "href": "https://tvhd1.com/canales/tvla1es.php"
         },
         {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
+          "name": "America TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
         },
         {
           "name": "DSports | OP2",
@@ -337,50 +153,30 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Telefe",
-          "href": "https://tvhd2.com/canales.php?stream=telefe"
+          "name": "America Television",
+          "href": "https://tvhd2.com/canales.php?stream=americatv"
         },
         {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
           "name": "Canal 5 MX",
           "href": "https://tvhd2.com/online/canales.php?stream=canal5"
+        },
+        {
+          "name": "DSPORTS TV",
+          "href": "https://tvhd2.com/online/canales.php?stream=even2"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
         }
       ]
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-03T21:00:00.000Z",
+      "time_utc": "2026-07-04T21:00:00.000Z",
       "match": "MLB – Atlanta Braves vs New York Mets",
       "league": "",
       "flag": "⚽",
