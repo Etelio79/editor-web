@@ -1,87 +1,136 @@
 {
-  "actualizado_en": "2026-07-04T01:27:06.160Z",
-  "fecha": "viernes, 3 de julio",
+  "actualizado_en": "2026-07-04T06:07:42.691Z",
+  "fecha": "sábado, 4 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 2,
-  "contar_con_canales": 2,
+  "contar": 12,
+  "contar_con_canales": 12,
   "events": [
     {
-      "time": "01:30",
-      "time_utc": "2026-07-03T23:30:00.000Z",
-      "match": "Colombia vs Ghana",
-      "league": "Copa del Mundo",
+      "time": "00:30",
+      "time_utc": "2026-07-03T22:30:00.000Z",
+      "match": "Universidad Católica vs Copiapó",
+      "league": "Copa Chile",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
         },
         {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
         },
         {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "Caracol TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
-        },
-        {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
-        },
-        {
-          "name": "DSPORTS TV",
-          "href": "https://tvhd2.com/online/canales.php?stream=even2"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
     {
-      "time": "23:00",
-      "time_utc": "2026-07-04T21:00:00.000Z",
-      "match": "MLB – Atlanta Braves vs New York Mets",
+      "time": "08:30",
+      "time_utc": "2026-07-04T06:30:00.000Z",
+      "match": "Rugby – Nations Championship – Japón vs Italia",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "08:30",
+      "time_utc": "2026-07-04T06:30:00.000Z",
+      "match": "F3 Silverstone – Carrera Sprint",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even1"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "10:00",
+      "time_utc": "2026-07-04T08:00:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #6 – Tercera Ronda",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvhd2.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "12:35",
+      "time_utc": "2026-07-04T10:35:00.000Z",
+      "match": "F2 Silverstone – Carrera Sprint",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "14:30",
+      "time_utc": "2026-07-04T12:30:00.000Z",
+      "match": "Ciclismo – Tour de France – Etapa #1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even1"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-07-04T14:00:00.000Z",
+      "match": "Golf – U.S. Senior Open Golf Championship – Tercera Vuelta",
       "league": "",
       "flag": "⚽",
       "channels": [
@@ -96,88 +145,262 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-07-04T15:00:00.000Z",
+      "match": "Canadá vs Marruecos",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-07-04T15:00:00.000Z",
+      "match": "F1 Academy Silverstone – Carrera #1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-07-04T16:00:00.000Z",
+      "match": "Rugby – Nations Championship – Los Pumas vs Esocia",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even1"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-04T19:00:00.000Z",
+      "match": "Paraguay vs Francia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-04T20:00:00.000Z",
+      "match": "Deportes Iquique vs Coquimbo Unido",
+      "league": "Copa Chile",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "01:30",
-      "time_utc": "2026-07-03T23:30:00.000Z",
-      "match": "Colombia vs Ghana",
-      "league": "Copa del Mundo",
+      "time": "00:30",
+      "time_utc": "2026-07-03T22:30:00.000Z",
+      "match": "Universidad Católica vs Copiapó",
+      "league": "Copa Chile",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
         },
         {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
         },
         {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "Caracol TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
-        },
-        {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
-        },
-        {
-          "name": "DSPORTS TV",
-          "href": "https://tvhd2.com/online/canales.php?stream=even2"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
     {
-      "time": "23:00",
-      "time_utc": "2026-07-04T21:00:00.000Z",
-      "match": "MLB – Atlanta Braves vs New York Mets",
+      "time": "08:30",
+      "time_utc": "2026-07-04T06:30:00.000Z",
+      "match": "Rugby – Nations Championship – Japón vs Italia",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "08:30",
+      "time_utc": "2026-07-04T06:30:00.000Z",
+      "match": "F3 Silverstone – Carrera Sprint",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even1"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "10:00",
+      "time_utc": "2026-07-04T08:00:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #6 – Tercera Ronda",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvhd2.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "12:35",
+      "time_utc": "2026-07-04T10:35:00.000Z",
+      "match": "F2 Silverstone – Carrera Sprint",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "14:30",
+      "time_utc": "2026-07-04T12:30:00.000Z",
+      "match": "Ciclismo – Tour de France – Etapa #1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even1"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-07-04T14:00:00.000Z",
+      "match": "Golf – U.S. Senior Open Golf Championship – Tercera Vuelta",
       "league": "",
       "flag": "⚽",
       "channels": [
@@ -192,6 +415,131 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-07-04T15:00:00.000Z",
+      "match": "Canadá vs Marruecos",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-07-04T15:00:00.000Z",
+      "match": "F1 Academy Silverstone – Carrera #1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-07-04T16:00:00.000Z",
+      "match": "Rugby – Nations Championship – Los Pumas vs Esocia",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even1"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-04T19:00:00.000Z",
+      "match": "Paraguay vs Francia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-04T20:00:00.000Z",
+      "match": "Deportes Iquique vs Coquimbo Unido",
+      "league": "Copa Chile",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
         }
       ]
     }
