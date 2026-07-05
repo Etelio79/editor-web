@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-05T15:58:11.153Z",
+  "actualizado_en": "2026-07-05T18:55:12.610Z",
   "fecha": "domingo, 5 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 14,
-  "contar_con_canales": 14,
+  "contar": 13,
+  "contar_con_canales": 13,
   "events": [
     {
       "time": "00:00",
@@ -12,14 +12,6 @@
       "league": "Copa Chile",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
         {
           "name": "TNT Sports Premiun CL HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
@@ -34,16 +26,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
           "name": "Canal 5 MX HD1",
           "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "Telefe | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
         {
           "name": "DSports | OP2",
@@ -54,45 +50,32 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "Telefe",
-          "href": "https://tvhd2.com/canales.php?stream=telefe"
-        },
-        {
           "name": "DSports | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
-        },
-        {
-          "name": "Telefe | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
           "name": "Telemundo | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
         },
         {
+          "name": "Telefe",
+          "href": "https://tvhd2.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
           "name": "Universo",
           "href": "https://tvhd2.com/canales.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "13:30",
-      "time_utc": "2026-07-05T11:30:00.000Z",
-      "match": "tennis",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
+        },
         {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -164,16 +147,8 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
           "name": "TNT Sports Premiun CL OP2",
           "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -189,8 +164,20 @@
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
+          "name": "TV LA 1 España HD1",
+          "href": "https://tvhd1.com/canales/tvla1es.php"
+        },
+        {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports TV HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "TYC Sports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
         },
         {
           "name": "DSports | OP2",
@@ -205,6 +192,18 @@
           "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
+          "name": "Caracol TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
@@ -217,32 +216,20 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
         },
         {
-          "name": "TYC Sports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
           "name": "Caracol TV",
           "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Caracol TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
         },
         {
           "name": "America Television",
           "href": "https://tvhd2.com/canales.php?stream=americatv"
         },
         {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -345,14 +332,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
           "name": "TNT Sports Premiun CL HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
         }
@@ -366,16 +345,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
           "name": "Canal 5 MX HD1",
           "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "Telefe | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
         {
           "name": "DSports | OP2",
@@ -386,45 +369,32 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "Telefe",
-          "href": "https://tvhd2.com/canales.php?stream=telefe"
-        },
-        {
           "name": "DSports | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
-        },
-        {
-          "name": "Telefe | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
           "name": "Telemundo | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
         },
         {
+          "name": "Telefe",
+          "href": "https://tvhd2.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
           "name": "Universo",
           "href": "https://tvhd2.com/canales.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "13:30",
-      "time_utc": "2026-07-05T11:30:00.000Z",
-      "match": "tennis",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
+        },
         {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -496,16 +466,8 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
           "name": "TNT Sports Premiun CL OP2",
           "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -521,8 +483,20 @@
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
+          "name": "TV LA 1 España HD1",
+          "href": "https://tvhd1.com/canales/tvla1es.php"
+        },
+        {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports TV HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=even1"
+        },
+        {
+          "name": "TYC Sports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
         },
         {
           "name": "DSports | OP2",
@@ -537,6 +511,18 @@
           "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
+          "name": "Caracol TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://tvhd2.com/canales.php?stream=tycsports"
         },
@@ -549,32 +535,20 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
         },
         {
-          "name": "TYC Sports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
           "name": "Caracol TV",
           "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Caracol TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
         },
         {
           "name": "America Television",
           "href": "https://tvhd2.com/canales.php?stream=americatv"
         },
         {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
         }
       ]
     },
