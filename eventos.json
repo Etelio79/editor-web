@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-05T13:01:13.307Z",
+  "actualizado_en": "2026-07-05T15:58:11.153Z",
   "fecha": "domingo, 5 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 18,
-  "contar_con_canales": 18,
+  "contar": 14,
+  "contar_con_canales": 14,
   "events": [
     {
       "time": "00:00",
@@ -38,6 +38,14 @@
           "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
         {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
           "name": "DSports | OP2",
           "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
         },
@@ -46,24 +54,20 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
           "name": "Telefe",
           "href": "https://tvhd2.com/canales.php?stream=telefe"
         },
         {
-          "name": "Telefe | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
           "name": "Canal 5 MX",
           "href": "https://tvhd2.com/online/canales.php?stream=canal5"
         },
         {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
+          "name": "Telefe | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
         },
         {
           "name": "Telemundo",
@@ -80,99 +84,15 @@
       ]
     },
     {
-      "time": "10:00",
-      "time_utc": "2026-07-05T08:00:00.000Z",
-      "match": "Tenis – Wimbledon – Dia #7 – Octavos de Final",
+      "time": "13:30",
+      "time_utc": "2026-07-05T11:30:00.000Z",
+      "match": "tennis",
       "league": "",
       "flag": "⚽",
       "channels": [
         {
           "name": "ESPN 2",
           "href": "https://tvhd2.com/online/canal.php?stream=even2"
-        }
-      ]
-    },
-    {
-      "time": "10:05",
-      "time_utc": "2026-07-05T08:05:00.000Z",
-      "match": "F2 Silverstone – Carrera",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvhd2.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-07-05T09:30:00.000Z",
-      "match": "Ciclismo – Tour de France – Etapa #2",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvhd2.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "12:00",
-      "time_utc": "2026-07-05T10:00:00.000Z",
-      "match": "Tenis – Wimbledon – Dia #7 – Octavos de Final",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://tvhd2.com/online/canal.php?stream=even4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "12:30",
-      "time_utc": "2026-07-05T10:30:00.000Z",
-      "match": "F1 GP Gran Bretaña – La Previa",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/online/canal.php?stream=even3"
         }
       ]
     },
@@ -265,6 +185,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
@@ -295,14 +219,6 @@
         {
           "name": "TYC Sports | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
         },
         {
           "name": "Caracol TV",
@@ -454,6 +370,14 @@
           "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
         {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
           "name": "DSports | OP2",
           "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
         },
@@ -462,24 +386,20 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
           "name": "Telefe",
           "href": "https://tvhd2.com/canales.php?stream=telefe"
         },
         {
-          "name": "Telefe | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
           "name": "Canal 5 MX",
           "href": "https://tvhd2.com/online/canales.php?stream=canal5"
         },
         {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
+          "name": "Telefe | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
         },
         {
           "name": "Telemundo",
@@ -496,99 +416,15 @@
       ]
     },
     {
-      "time": "10:00",
-      "time_utc": "2026-07-05T08:00:00.000Z",
-      "match": "Tenis – Wimbledon – Dia #7 – Octavos de Final",
+      "time": "13:30",
+      "time_utc": "2026-07-05T11:30:00.000Z",
+      "match": "tennis",
       "league": "",
       "flag": "⚽",
       "channels": [
         {
           "name": "ESPN 2",
           "href": "https://tvhd2.com/online/canal.php?stream=even2"
-        }
-      ]
-    },
-    {
-      "time": "10:05",
-      "time_utc": "2026-07-05T08:05:00.000Z",
-      "match": "F2 Silverstone – Carrera",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvhd2.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-07-05T09:30:00.000Z",
-      "match": "Ciclismo – Tour de France – Etapa #2",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://tvhd2.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "12:00",
-      "time_utc": "2026-07-05T10:00:00.000Z",
-      "match": "Tenis – Wimbledon – Dia #7 – Octavos de Final",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://tvhd2.com/online/canal.php?stream=even4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "12:30",
-      "time_utc": "2026-07-05T10:30:00.000Z",
-      "match": "F1 GP Gran Bretaña – La Previa",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/online/canal.php?stream=even3"
         }
       ]
     },
@@ -681,6 +517,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
         },
@@ -711,14 +551,6 @@
         {
           "name": "TYC Sports | HD",
           "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
         },
         {
           "name": "Caracol TV",
