@@ -1,13 +1,13 @@
 {
-  "actualizado_en": "2026-07-05T21:46:34.025Z",
+  "actualizado_en": "2026-07-06T01:48:12.640Z",
   "fecha": "domingo, 5 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 9,
-  "contar_con_canales": 9,
+  "contar": 5,
+  "contar_con_canales": 5,
   "events": [
     {
       "time": "00:00",
-      "time_utc": "2026-07-04T22:00:00.000Z",
+      "time_utc": "2026-07-05T22:00:00.000Z",
       "match": "Deportes Limache vs San Marcos",
       "league": "Copa Chile",
       "flag": "⚽",
@@ -20,18 +20,30 @@
     },
     {
       "time": "00:00",
-      "time_utc": "2026-07-04T22:00:00.000Z",
+      "time_utc": "2026-07-05T22:00:00.000Z",
       "match": "México vs Inglaterra",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
+          "name": "TUDN Mexico HD1",
+          "href": "https://tvhd1.com/canales/tudnmx.php"
+        },
+        {
+          "name": "Dsports LATAM HD1",
+          "href": "https://tvhd1.com/canales/dsportslatam.php"
+        },
+        {
+          "name": "FOX ONE HD1",
+          "href": "https://tvhd1.com/canales/foxone.php"
         },
         {
           "name": "Telefe | HD",
@@ -80,148 +92,8 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-05T17:00:00.000Z",
-      "match": "Ñublense vs Curicó Unido",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-05T18:00:00.000Z",
-      "match": "Brasil vs Noruega",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "Dsports LATAM HD1",
-          "href": "https://tvhd1.com/canales/dsportslatam.php"
-        },
-        {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
-          "name": "Sportv Brasil HD1",
-          "href": "https://tvhd1.com/canales/sportv1.php"
-        },
-        {
-          "name": "FOX ONE HD1",
-          "href": "https://tvhd1.com/canales/foxone.php"
-        },
-        {
-          "name": "TYC Sports TV HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=even1"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Caracol TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-05T19:30:00.000Z",
-      "match": "Unión Española vs O'Higgins",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-05T20:00:00.000Z",
-      "match": "Delfin vs Emelec",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
       "time": "23:00",
-      "time_utc": "2026-07-05T21:00:00.000Z",
+      "time_utc": "2026-07-06T21:00:00.000Z",
       "match": "MLB – Los Angeles Dodgers vs San Diego Padres",
       "league": "",
       "flag": "⚽",
@@ -246,7 +118,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-05T21:00:00.000Z",
+      "time_utc": "2026-07-06T21:00:00.000Z",
       "match": "WNBA – Las Vegas vs Indiana",
       "league": "",
       "flag": "⚽",
@@ -259,7 +131,7 @@
     },
     {
       "time": "23:30",
-      "time_utc": "2026-07-05T21:30:00.000Z",
+      "time_utc": "2026-07-06T21:30:00.000Z",
       "match": "Náutico vs Juventude",
       "league": "Serie B",
       "flag": "⚽",
@@ -267,6 +139,10 @@
         {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv Brasil HD1",
+          "href": "https://tvhd1.com/canales/sportv1.php"
         },
         {
           "name": "Sportv BR HD",
@@ -278,7 +154,7 @@
   "eventos": [
     {
       "time": "00:00",
-      "time_utc": "2026-07-04T22:00:00.000Z",
+      "time_utc": "2026-07-05T22:00:00.000Z",
       "match": "Deportes Limache vs San Marcos",
       "league": "Copa Chile",
       "flag": "⚽",
@@ -291,18 +167,30 @@
     },
     {
       "time": "00:00",
-      "time_utc": "2026-07-04T22:00:00.000Z",
+      "time_utc": "2026-07-05T22:00:00.000Z",
       "match": "México vs Inglaterra",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
+          "name": "TUDN Mexico HD1",
+          "href": "https://tvhd1.com/canales/tudnmx.php"
+        },
+        {
+          "name": "Dsports LATAM HD1",
+          "href": "https://tvhd1.com/canales/dsportslatam.php"
+        },
+        {
+          "name": "FOX ONE HD1",
+          "href": "https://tvhd1.com/canales/foxone.php"
         },
         {
           "name": "Telefe | HD",
@@ -351,148 +239,8 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-05T17:00:00.000Z",
-      "match": "Ñublense vs Curicó Unido",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-05T18:00:00.000Z",
-      "match": "Brasil vs Noruega",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "Dsports LATAM HD1",
-          "href": "https://tvhd1.com/canales/dsportslatam.php"
-        },
-        {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
-          "name": "Sportv Brasil HD1",
-          "href": "https://tvhd1.com/canales/sportv1.php"
-        },
-        {
-          "name": "FOX ONE HD1",
-          "href": "https://tvhd1.com/canales/foxone.php"
-        },
-        {
-          "name": "TYC Sports TV HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=even1"
-        },
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Caracol TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://tvhd2.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://tvhd2.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "America Television",
-          "href": "https://tvhd2.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://tvhd2.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-05T19:30:00.000Z",
-      "match": "Unión Española vs O'Higgins",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-05T20:00:00.000Z",
-      "match": "Delfin vs Emelec",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
       "time": "23:00",
-      "time_utc": "2026-07-05T21:00:00.000Z",
+      "time_utc": "2026-07-06T21:00:00.000Z",
       "match": "MLB – Los Angeles Dodgers vs San Diego Padres",
       "league": "",
       "flag": "⚽",
@@ -517,7 +265,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-05T21:00:00.000Z",
+      "time_utc": "2026-07-06T21:00:00.000Z",
       "match": "WNBA – Las Vegas vs Indiana",
       "league": "",
       "flag": "⚽",
@@ -530,7 +278,7 @@
     },
     {
       "time": "23:30",
-      "time_utc": "2026-07-05T21:30:00.000Z",
+      "time_utc": "2026-07-06T21:30:00.000Z",
       "match": "Náutico vs Juventude",
       "league": "Serie B",
       "flag": "⚽",
@@ -538,6 +286,10 @@
         {
           "name": "Sportv BR",
           "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv Brasil HD1",
+          "href": "https://tvhd1.com/canales/sportv1.php"
         },
         {
           "name": "Sportv BR HD",
