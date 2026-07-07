@@ -1,14 +1,14 @@
 {
-  "actualizado_en": "2026-07-07T01:45:43.692Z",
-  "fecha": "lunes, 6 de julio",
+  "actualizado_en": "2026-07-07T06:33:40.292Z",
+  "fecha": "martes, 7 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 3,
-  "contar_con_canales": 3,
+  "contar": 12,
+  "contar_con_canales": 12,
   "events": [
     {
       "time": "00:00",
       "time_utc": "2026-07-06T22:00:00.000Z",
-      "match": "Orense vs Técnico Universitario",
+      "match": "Aucas vs Guayaquil City",
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
@@ -21,29 +21,98 @@
     {
       "time": "00:00",
       "time_utc": "2026-07-06T22:00:00.000Z",
-      "match": "EE. UU. vs Bélgica",
+      "match": "WNBA – New York vs Dallas",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-07-07T09:00:00.000Z",
+      "match": "Ciclismo – Tour de France – Etapa #4",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvhd2.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "11:20",
+      "time_utc": "2026-07-07T09:20:00.000Z",
+      "match": "Rugby – World Rugby U20 Championship – Argentina vs Inglaterra",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "12:00",
+      "time_utc": "2026-07-07T10:00:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #9 – Cuartos de Final",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "12:30",
+      "time_utc": "2026-07-07T10:30:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #9 – Cuartos de Final",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-07-07T14:00:00.000Z",
+      "match": "Argentina vs Egipto",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "FOX ONE HD1",
-          "href": "https://tvhd1.com/canales/foxone.php"
-        },
-        {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
           "name": "DSports | OP2",
@@ -54,12 +123,12 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "TYC Sports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
           "name": "TYC Sports",
@@ -74,37 +143,185 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
         },
         {
+          "name": "TYC Sports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://tvhd2.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "Telefe | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Caracol TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
+        },
+        {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
-          "name": "Universo",
-          "href": "https://tvhd2.com/canales.php?stream=universo"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
         }
       ]
     },
     {
-      "time": "23:30",
-      "time_utc": "2026-07-07T21:30:00.000Z",
-      "match": "Colo-Colo vs Recoleta",
-      "league": "Copa Chile",
+      "time": "16:20",
+      "time_utc": "2026-07-07T14:20:00.000Z",
+      "match": "Rugby – World Rugby U20 Championship – Georgia vs Uruguay",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
         },
         {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
         },
         {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-07-07T16:00:00.000Z",
+      "match": "MLB – St. Louis Cardinals vs Milwaukee Brewers",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 7",
+          "href": "https://tvhd2.com/canales.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn7"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-07-07T18:00:00.000Z",
+      "match": "Suiza vs Colombia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvhd2.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-07-07T20:30:00.000Z",
+      "match": "MLB – Tampa Bay Rays vs New York Yankees",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-07T21:00:00.000Z",
+      "match": "Gualberto Villarroel SJ vs Real Tomayapo",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvhd2.com/canales.php?stream=even4"
+        },
+        {
+          "name": "Futbol Canal | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=even4"
+        },
+        {
+          "name": "Futbol Canal | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=even4"
         }
       ]
     }
@@ -113,7 +330,7 @@
     {
       "time": "00:00",
       "time_utc": "2026-07-06T22:00:00.000Z",
-      "match": "Orense vs Técnico Universitario",
+      "match": "Aucas vs Guayaquil City",
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
@@ -126,29 +343,98 @@
     {
       "time": "00:00",
       "time_utc": "2026-07-06T22:00:00.000Z",
-      "match": "EE. UU. vs Bélgica",
+      "match": "WNBA – New York vs Dallas",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-07-07T09:00:00.000Z",
+      "match": "Ciclismo – Tour de France – Etapa #4",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvhd2.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "11:20",
+      "time_utc": "2026-07-07T09:20:00.000Z",
+      "match": "Rugby – World Rugby U20 Championship – Argentina vs Inglaterra",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "12:00",
+      "time_utc": "2026-07-07T10:00:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #9 – Cuartos de Final",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "12:30",
+      "time_utc": "2026-07-07T10:30:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #9 – Cuartos de Final",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-07-07T14:00:00.000Z",
+      "match": "Argentina vs Egipto",
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "FOX ONE HD1",
-          "href": "https://tvhd1.com/canales/foxone.php"
-        },
-        {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
           "name": "DSports",
           "href": "https://tvhd2.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
           "name": "DSports | OP2",
@@ -159,12 +445,12 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "TYC Sports | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
         },
         {
-          "name": "Telemundo | HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
           "name": "TYC Sports",
@@ -179,37 +465,185 @@
           "href": "https://tvhd2.com/vivo/canales.php?stream=tycsports"
         },
         {
+          "name": "TYC Sports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://tvhd2.com/canales.php?stream=telefe"
+        },
+        {
+          "name": "Telefe | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telefe"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Caracol TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
+        },
+        {
           "name": "Telemundo",
           "href": "https://tvhd2.com/canales.php?stream=telemundo"
         },
         {
-          "name": "Universo",
-          "href": "https://tvhd2.com/canales.php?stream=universo"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://tvhd2.com/canales.php?stream=goltv"
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
         }
       ]
     },
     {
-      "time": "23:30",
-      "time_utc": "2026-07-07T21:30:00.000Z",
-      "match": "Colo-Colo vs Recoleta",
-      "league": "Copa Chile",
+      "time": "16:20",
+      "time_utc": "2026-07-07T14:20:00.000Z",
+      "match": "Rugby – World Rugby U20 Championship – Georgia vs Uruguay",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://tvhd2.com/canales.php?stream=tntsportschile"
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
         },
         {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://tvhd2.com/vivo/canal.php?stream=tntsportschile"
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
         },
         {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://tvhd2.com/online/canales.php?stream=tntsportschile"
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-07-07T16:00:00.000Z",
+      "match": "MLB – St. Louis Cardinals vs Milwaukee Brewers",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 7",
+          "href": "https://tvhd2.com/canales.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn7"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-07-07T18:00:00.000Z",
+      "match": "Suiza vs Colombia",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "America Television",
+          "href": "https://tvhd2.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=americatv"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Universo",
+          "href": "https://tvhd2.com/canales.php?stream=universo"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-07-07T20:30:00.000Z",
+      "match": "MLB – Tampa Bay Rays vs New York Yankees",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-07T21:00:00.000Z",
+      "match": "Gualberto Villarroel SJ vs Real Tomayapo",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvhd2.com/canales.php?stream=even4"
+        },
+        {
+          "name": "Futbol Canal | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=even4"
+        },
+        {
+          "name": "Futbol Canal | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=even4"
         }
       ]
     }
