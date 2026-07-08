@@ -1,53 +1,14 @@
 {
-  "actualizado_en": "2026-07-08T01:18:46.252Z",
-  "fecha": "martes, 7 de julio",
+  "actualizado_en": "2026-07-08T05:39:44.442Z",
+  "fecha": "miércoles, 8 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 4,
-  "contar_con_canales": 4,
+  "contar": 10,
+  "contar_con_canales": 10,
   "events": [
     {
       "time": "00:00",
       "time_utc": "2026-07-07T22:00:00.000Z",
-      "match": "Aucas vs Guayaquil City",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "00:00",
-      "time_utc": "2026-07-07T22:00:00.000Z",
-      "match": "WNBA – New York vs Dallas",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/online/canal.php?stream=even2"
-        }
-      ]
-    },
-    {
-      "time": "22:30",
-      "time_utc": "2026-07-08T20:30:00.000Z",
-      "match": "MLB – Tampa Bay Rays vs New York Yankees",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/online/canal.php?stream=even3"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-07-08T21:00:00.000Z",
-      "match": "Gualberto Villarroel SJ vs Real Tomayapo",
+      "match": "Real Potosí vs ABB",
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
@@ -62,6 +23,151 @@
         {
           "name": "Futbol Canal | OP3",
           "href": "https://tvhd2.com/vivo/canales.php?stream=even4"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-07-07T23:00:00.000Z",
+      "match": "Independiente Juniors vs LDU Quito",
+      "league": "Copa Ecuador",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-07-08T00:00:00.000Z",
+      "match": "MLB – San Diego Padres vs. Arizona Diamondbacks",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-07-08T09:30:00.000Z",
+      "match": "Ciclismo – Tour de France – Etapa #5",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "12:00",
+      "time_utc": "2026-07-08T10:00:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #10 – Cuartos de Final",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "12:30",
+      "time_utc": "2026-07-08T10:30:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #10 – Cuartos de Final",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-07-08T18:00:00.000Z",
+      "match": "El Nacional vs Cumbayá",
+      "league": "Serie B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-08T20:00:00.000Z",
+      "match": "Real Oruro vs Universitario de Vinto",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvhd2.com/online/canales.php?stream=even4"
+        },
+        {
+          "name": "Futbol Canal | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=even4"
+        },
+        {
+          "name": "Futbol Canal | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=even4"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-07-08T20:30:00.000Z",
+      "match": "Santo Domingo vs Independiente del Valle",
+      "league": "Copa Ecuador",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-08T21:00:00.000Z",
+      "match": "MLB – Cincinnati Reds vs. Philadelphia Phillies",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
         }
       ]
     }
@@ -70,46 +176,7 @@
     {
       "time": "00:00",
       "time_utc": "2026-07-07T22:00:00.000Z",
-      "match": "Aucas vs Guayaquil City",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "00:00",
-      "time_utc": "2026-07-07T22:00:00.000Z",
-      "match": "WNBA – New York vs Dallas",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://tvhd2.com/online/canal.php?stream=even2"
-        }
-      ]
-    },
-    {
-      "time": "22:30",
-      "time_utc": "2026-07-08T20:30:00.000Z",
-      "match": "MLB – Tampa Bay Rays vs New York Yankees",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/online/canal.php?stream=even3"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-07-08T21:00:00.000Z",
-      "match": "Gualberto Villarroel SJ vs Real Tomayapo",
+      "match": "Real Potosí vs ABB",
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
@@ -124,6 +191,151 @@
         {
           "name": "Futbol Canal | OP3",
           "href": "https://tvhd2.com/vivo/canales.php?stream=even4"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-07-07T23:00:00.000Z",
+      "match": "Independiente Juniors vs LDU Quito",
+      "league": "Copa Ecuador",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-07-08T00:00:00.000Z",
+      "match": "MLB – San Diego Padres vs. Arizona Diamondbacks",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-07-08T09:30:00.000Z",
+      "match": "Ciclismo – Tour de France – Etapa #5",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "12:00",
+      "time_utc": "2026-07-08T10:00:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #10 – Cuartos de Final",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "12:30",
+      "time_utc": "2026-07-08T10:30:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #10 – Cuartos de Final",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-07-08T18:00:00.000Z",
+      "match": "El Nacional vs Cumbayá",
+      "league": "Serie B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-08T20:00:00.000Z",
+      "match": "Real Oruro vs Universitario de Vinto",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Futbol Canal",
+          "href": "https://tvhd2.com/online/canales.php?stream=even4"
+        },
+        {
+          "name": "Futbol Canal | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=even4"
+        },
+        {
+          "name": "Futbol Canal | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=even4"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-07-08T20:30:00.000Z",
+      "match": "Santo Domingo vs Independiente del Valle",
+      "league": "Copa Ecuador",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-08T21:00:00.000Z",
+      "match": "MLB – Cincinnati Reds vs. Philadelphia Phillies",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
         }
       ]
     }
