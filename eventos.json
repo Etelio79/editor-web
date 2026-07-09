@@ -1,14 +1,14 @@
 {
-  "actualizado_en": "2026-07-09T01:26:31.350Z",
-  "fecha": "miércoles, 8 de julio",
+  "actualizado_en": "2026-07-09T11:42:20.108Z",
+  "fecha": "jueves, 9 de julio",
   "fuente": "futbollibretotal-puppeteer",
-  "contar": 7,
-  "contar_con_canales": 7,
+  "contar": 9,
+  "contar_con_canales": 9,
   "events": [
     {
       "time": "00:00",
       "time_utc": "2026-07-08T22:00:00.000Z",
-      "match": "Real Potosí vs ABB",
+      "match": "Nacional Potosí vs Aurora",
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
@@ -19,65 +19,34 @@
       ]
     },
     {
-      "time": "00:00",
-      "time_utc": "2026-07-08T22:00:00.000Z",
-      "match": "Boca Juniors vs Athletico-PR",
-      "league": "Amistoso Internacional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 MX",
-          "href": "https://tvhd2.com/canales.php?stream=espn3mx"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-07-08T23:00:00.000Z",
-      "match": "Independiente Juniors vs LDU Quito",
-      "league": "Copa Ecuador",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "02:00",
-      "time_utc": "2026-07-09T00:00:00.000Z",
-      "match": "MLB – San Diego Padres vs. Arizona Diamondbacks",
+      "time": "10:00",
+      "time_utc": "2026-07-09T08:00:00.000Z",
+      "match": "Ciclismo – Tour de France – Etapa #6",
       "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/online/canal.php?stream=even3"
-        }
-      ]
-    },
-    {
-      "time": "22:30",
-      "time_utc": "2026-07-09T20:30:00.000Z",
-      "match": "Santo Domingo vs Independiente del Valle",
-      "league": "Copa Ecuador",
-      "flag": "⚽",
-      "channels": [
+          "name": "ESPN 5",
+          "href": "https://tvhd2.com/canales.php?stream=espn5"
+        },
         {
-          "name": "ECDF LigaPro",
-          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
         }
       ]
     },
     {
-      "time": "23:00",
-      "time_utc": "2026-07-09T21:00:00.000Z",
-      "match": "MLB – Cincinnati Reds vs. Philadelphia Phillies",
+      "time": "12:00",
+      "time_utc": "2026-07-09T10:00:00.000Z",
+      "match": "Golf – Genesis Scottish Open – Primera Vuelta",
       "league": "",
       "flag": "⚽",
       "channels": [
@@ -96,9 +65,138 @@
       ]
     },
     {
+      "time": "12:30",
+      "time_utc": "2026-07-09T10:30:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #11 – Semifinales Femeninas",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-07-09T15:00:00.000Z",
+      "match": "MLB – Tampa Bay Rays vs New York Yankees",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-07-09T18:00:00.000Z",
+      "match": "Francia vs Marruecos",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Caracol TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
+        }
+      ]
+    },
+    {
+      "time": "20:30",
+      "time_utc": "2026-07-09T18:30:00.000Z",
+      "match": "Deportivo Cuenca Juniors vs LDU Portoviejo",
+      "league": "Serie B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-07-09T20:30:00.000Z",
+      "match": "MLB – Baltimore Orioles vs Chicago Cubs",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvhd2.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
       "time": "23:00",
       "time_utc": "2026-07-09T21:00:00.000Z",
-      "match": "Unión La Calera vs Coquimbo Unido",
+      "match": "Ñublense vs O'Higgins",
       "league": "Copa de la Liga",
       "flag": "⚽",
       "channels": [
@@ -121,7 +219,7 @@
     {
       "time": "00:00",
       "time_utc": "2026-07-08T22:00:00.000Z",
-      "match": "Real Potosí vs ABB",
+      "match": "Nacional Potosí vs Aurora",
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
@@ -132,65 +230,34 @@
       ]
     },
     {
-      "time": "00:00",
-      "time_utc": "2026-07-08T22:00:00.000Z",
-      "match": "Boca Juniors vs Athletico-PR",
-      "league": "Amistoso Internacional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 MX",
-          "href": "https://tvhd2.com/canales.php?stream=espn3mx"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-07-08T23:00:00.000Z",
-      "match": "Independiente Juniors vs LDU Quito",
-      "league": "Copa Ecuador",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports",
-          "href": "https://tvhd2.com/canales.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "02:00",
-      "time_utc": "2026-07-09T00:00:00.000Z",
-      "match": "MLB – San Diego Padres vs. Arizona Diamondbacks",
+      "time": "10:00",
+      "time_utc": "2026-07-09T08:00:00.000Z",
+      "match": "Ciclismo – Tour de France – Etapa #6",
       "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3",
-          "href": "https://tvhd2.com/online/canal.php?stream=even3"
-        }
-      ]
-    },
-    {
-      "time": "22:30",
-      "time_utc": "2026-07-09T20:30:00.000Z",
-      "match": "Santo Domingo vs Independiente del Valle",
-      "league": "Copa Ecuador",
-      "flag": "⚽",
-      "channels": [
+          "name": "ESPN 5",
+          "href": "https://tvhd2.com/canales.php?stream=espn5"
+        },
         {
-          "name": "ECDF LigaPro",
-          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
         }
       ]
     },
     {
-      "time": "23:00",
-      "time_utc": "2026-07-09T21:00:00.000Z",
-      "match": "MLB – Cincinnati Reds vs. Philadelphia Phillies",
+      "time": "12:00",
+      "time_utc": "2026-07-09T10:00:00.000Z",
+      "match": "Golf – Genesis Scottish Open – Primera Vuelta",
       "league": "",
       "flag": "⚽",
       "channels": [
@@ -209,9 +276,138 @@
       ]
     },
     {
+      "time": "12:30",
+      "time_utc": "2026-07-09T10:30:00.000Z",
+      "match": "Tenis – Wimbledon – Dia #11 – Semifinales Femeninas",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://tvhd2.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-07-09T15:00:00.000Z",
+      "match": "MLB – Tampa Bay Rays vs New York Yankees",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-07-09T18:00:00.000Z",
+      "match": "Francia vs Marruecos",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "DSports",
+          "href": "https://tvhd2.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://tvhd2.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Caracol TV | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=caracol"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://tvhd2.com/online/canales.php?stream=canal5"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://tvhd2.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://tvhd2.com/canales.php?stream=goltv"
+        }
+      ]
+    },
+    {
+      "time": "20:30",
+      "time_utc": "2026-07-09T18:30:00.000Z",
+      "match": "Deportivo Cuenca Juniors vs LDU Portoviejo",
+      "league": "Serie B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-07-09T20:30:00.000Z",
+      "match": "MLB – Baltimore Orioles vs Chicago Cubs",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "href": "https://tvhd2.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://tvhd2.com/online/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
       "time": "23:00",
       "time_utc": "2026-07-09T21:00:00.000Z",
-      "match": "Unión La Calera vs Coquimbo Unido",
+      "match": "Ñublense vs O'Higgins",
       "league": "Copa de la Liga",
       "flag": "⚽",
       "channels": [
