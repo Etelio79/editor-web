@@ -5,7 +5,7 @@ const path      = require('path');
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // URL del sitio - cambiar aquí si vuelve a moverse el dominio
-const SITE_URL = process.env.SITE_URL || 'https://futbollibretotal.com';
+const SITE_URL = process.env.SITE_URL || 'https://futbollibres.com.pe/';
 
 // Convierte "19:00" (hora España, Europe/Madrid) a ISO UTC
 // Detecta automáticamente si es verano (UTC+2) o invierno (UTC+1)
@@ -28,8 +28,8 @@ function timeColombiaToUTC(timeStr) {
 
 
 /**
- * Decodifica la URL real desde un enlace embed de futbollibretotal.
- * Entrada:  https://futbollibretotal.com/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20v...
+ * Decodifica la URL real desde un enlace embed de futbollibres.com.pe.
+ * Entrada:  https://futbollibres.com.pe/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20v...
  * Salida:   https://tvhd2.com/canales.php?stream=dsports
  */
 function decodeEmbedUrl(href) {
@@ -215,6 +215,7 @@ async function scrapeFutbolLibre() {
               const u = new URL(href);
               const host = u.hostname.toLowerCase();
               if (host.includes('futbollibre') || host.includes('pelotalibre') || host.includes('rojadirect')) return true;
+              // el nuevo dominio incluye "futbollibre" así que ya queda cubierto arriba
             } catch { return false; }
             return false;
           };
@@ -340,7 +341,7 @@ async function main() {
 
   try {
     events = await scrapeFutbolLibre();
-    if (events.length > 0) source = 'futbollibretotal-puppeteer';
+    if (events.length > 0) source = 'futbollibres-puppeteer';
   } catch(e) {
     console.warn(`[PUP] FALLO: ${e.message}`);
   }
