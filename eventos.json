@@ -1,9 +1,173 @@
 {
-  "actualizado_en": "2026-07-10T21:47:44.234Z",
+  "actualizado_en": "2026-07-10T22:27:04.545Z",
   "fecha": "viernes, 10 de julio",
-  "fuente": "none",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "fuente": "futbollibres-puppeteer",
+  "contar": 5,
+  "contar_con_canales": 5,
+  "events": [
+    {
+      "time": "00:15",
+      "time_utc": "2026-07-10T22:15:00.000Z",
+      "match": "Técnico Universitario vs Macará",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-11T20:00:00.000Z",
+      "match": "Leones del Norte vs Universidad Católica",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-11T20:00:00.000Z",
+      "match": "Deportivo Maldonado vs Albion",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvhd2.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-07-11T20:30:00.000Z",
+      "match": "NBA Summer League – Denver Nuggets vs Houston Rockets",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "23:50",
+      "time_utc": "2026-07-11T21:50:00.000Z",
+      "match": "Rugby – Nations Championship – Fiji vs Inglaterra",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "00:15",
+      "time_utc": "2026-07-10T22:15:00.000Z",
+      "match": "Técnico Universitario vs Macará",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-11T20:00:00.000Z",
+      "match": "Leones del Norte vs Universidad Católica",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://tvhd2.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-11T20:00:00.000Z",
+      "match": "Deportivo Maldonado vs Albion",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvhd2.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-07-11T20:30:00.000Z",
+      "match": "NBA Summer League – Denver Nuggets vs Houston Rockets",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "href": "https://tvhd2.com/online/canal.php?stream=even4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "23:50",
+      "time_utc": "2026-07-11T21:50:00.000Z",
+      "match": "Rugby – Nations Championship – Fiji vs Inglaterra",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://tvhd2.com/canales.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://tvhd2.com/vivo/canal.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=espn3"
+        }
+      ]
+    }
+  ]
 }
