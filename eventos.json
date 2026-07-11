@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-11T18:40:38.191Z",
+  "actualizado_en": "2026-07-11T21:37:19.881Z",
   "fecha": "sábado, 11 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 17,
-  "contar_con_canales": 17,
+  "contar": 12,
+  "contar_con_canales": 12,
   "events": [
     {
       "time": "01:00",
@@ -12,6 +12,26 @@
       "league": "Copa del Mundo",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telefe | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=telefe"
+        },
+        {
+          "name": "Dsports (AR/PE/CO/EC/CL/UY)",
+          "href": "https://tvhd1.com/canales/dsportslatam.php"
+        },
+        {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
         {
           "name": "DSports",
           "href": "https://fltvhd.com/canales.php?stream=dsports"
@@ -25,10 +45,6 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "DSports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
-        },
-        {
           "name": "TYC Sports",
           "href": "https://fltvhd.com/canales.php?stream=tycsports"
         },
@@ -39,10 +55,6 @@
         {
           "name": "TYC Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
         },
         {
           "name": "Caracol TV",
@@ -67,83 +79,6 @@
         {
           "name": "Telemundo | HD",
           "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telefe",
-          "href": "https://fltvhd.com/online/canales.php?stream=telefe"
-        }
-      ]
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-07-11T14:30:00.000Z",
-      "match": "River Plate vs Plaza Colonia",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney2"
-        }
-      ]
-    },
-    {
-      "time": "16:50",
-      "time_utc": "2026-07-11T14:50:00.000Z",
-      "match": "Rugby – Nations Cup – Uruguay vs Rumania",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://fltvhd.com/online/canales.php?stream=even3"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-07-11T15:00:00.000Z",
-      "match": "WNBA – Minnesota vs New York",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://fltvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-07-11T15:00:00.000Z",
-      "match": "Manta vs Orense",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-07-11T16:00:00.000Z",
-      "match": "Danubio vs Nacional",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -202,16 +137,16 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tntsportschile"
+        },
+        {
           "name": "TNT Sports Premiun CL",
           "href": "https://fltvhd.com/canales.php?stream=tntsportschile"
         },
         {
           "name": "TNT Sports Premiun CL OP2",
           "href": "https://fltvhd.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -223,21 +158,12 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ECDF HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=ecdf_ligapro"
+        },
+        {
           "name": "ECDF LigaPro",
           "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-07-11T19:00:00.000Z",
-      "match": "Huracán vs Deportivo Colonia",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=espn"
         }
       ]
     },
@@ -251,6 +177,26 @@
         {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "TUDN Mexico HD1",
+          "href": "https://tvhd1.com/canales/tudnmx.php"
+        },
+        {
+          "name": "FOX ONE HD1",
+          "href": "https://tvhd1.com/canales/foxone.php"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "Fox GUA HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=even3"
+        },
+        {
+          "name": "FOX Español HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=even4"
         },
         {
           "name": "Dsports (AR/PE/CO/EC/CL/UY)",
@@ -299,6 +245,10 @@
         {
           "name": "Azteca 7 | HD",
           "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://fltvhd.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -311,7 +261,20 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=espn"
+          "href": "https://fltvhd.com/canales.php?stream=disney4"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-11T19:00:00.000Z",
+      "match": "Huracán vs Deportivo Colonia",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney5"
         }
       ]
     },
@@ -380,6 +343,26 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "DSports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "TYC Sports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telefe | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=telefe"
+        },
+        {
+          "name": "Dsports (AR/PE/CO/EC/CL/UY)",
+          "href": "https://tvhd1.com/canales/dsportslatam.php"
+        },
+        {
+          "name": "Dsports HD1",
+          "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
           "name": "DSports",
           "href": "https://fltvhd.com/canales.php?stream=dsports"
         },
@@ -392,10 +375,6 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "DSports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
-        },
-        {
           "name": "TYC Sports",
           "href": "https://fltvhd.com/canales.php?stream=tycsports"
         },
@@ -406,10 +385,6 @@
         {
           "name": "TYC Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
         },
         {
           "name": "Caracol TV",
@@ -434,83 +409,6 @@
         {
           "name": "Telemundo | HD",
           "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telefe",
-          "href": "https://fltvhd.com/online/canales.php?stream=telefe"
-        }
-      ]
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-07-11T14:30:00.000Z",
-      "match": "River Plate vs Plaza Colonia",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney2"
-        }
-      ]
-    },
-    {
-      "time": "16:50",
-      "time_utc": "2026-07-11T14:50:00.000Z",
-      "match": "Rugby – Nations Cup – Uruguay vs Rumania",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://fltvhd.com/online/canales.php?stream=even3"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-07-11T15:00:00.000Z",
-      "match": "WNBA – Minnesota vs New York",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://fltvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-07-11T15:00:00.000Z",
-      "match": "Manta vs Orense",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-07-11T16:00:00.000Z",
-      "match": "Danubio vs Nacional",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -569,16 +467,16 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tntsportschile"
+        },
+        {
           "name": "TNT Sports Premiun CL",
           "href": "https://fltvhd.com/canales.php?stream=tntsportschile"
         },
         {
           "name": "TNT Sports Premiun CL OP2",
           "href": "https://fltvhd.com/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tntsportschile"
         }
       ]
     },
@@ -590,21 +488,12 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ECDF HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=ecdf_ligapro"
+        },
+        {
           "name": "ECDF LigaPro",
           "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-07-11T19:00:00.000Z",
-      "match": "Huracán vs Deportivo Colonia",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=espn"
         }
       ]
     },
@@ -618,6 +507,26 @@
         {
           "name": "Dsports HD1",
           "href": "https://tvhd1.com/canales/dsportsar.php"
+        },
+        {
+          "name": "TUDN Mexico HD1",
+          "href": "https://tvhd1.com/canales/tudnmx.php"
+        },
+        {
+          "name": "FOX ONE HD1",
+          "href": "https://tvhd1.com/canales/foxone.php"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "Fox GUA HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=even3"
+        },
+        {
+          "name": "FOX Español HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=even4"
         },
         {
           "name": "Dsports (AR/PE/CO/EC/CL/UY)",
@@ -666,6 +575,10 @@
         {
           "name": "Azteca 7 | HD",
           "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://fltvhd.com/canales.php?stream=goltv"
         }
       ]
     },
@@ -678,7 +591,20 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=espn"
+          "href": "https://fltvhd.com/canales.php?stream=disney4"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-11T19:00:00.000Z",
+      "match": "Huracán vs Deportivo Colonia",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney5"
         }
       ]
     },
