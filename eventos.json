@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-11T12:45:12.122Z",
+  "actualizado_en": "2026-07-11T15:42:12.513Z",
   "fecha": "sábado, 11 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 24,
-  "contar_con_canales": 24,
+  "contar": 22,
+  "contar_con_canales": 22,
   "events": [
     {
       "time": "01:00",
@@ -71,61 +71,6 @@
         {
           "name": "Telefe",
           "href": "https://fltvhd.com/online/canales.php?stream=telefe"
-        }
-      ]
-    },
-    {
-      "time": "10:00",
-      "time_utc": "2026-07-11T08:00:00.000Z",
-      "match": "Rugby – Nations Championship – Japón vs Irlanda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://fltvhd.com/canales.php?stream=even2"
-        }
-      ]
-    },
-    {
-      "time": "11:00",
-      "time_utc": "2026-07-11T09:00:00.000Z",
-      "match": "Ciclismo – Tour de France – Etapa #8",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://fltvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "12:30",
-      "time_utc": "2026-07-11T10:30:00.000Z",
-      "match": "Moto GP – GP de Alemania – Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://fltvhd.com/canales.php?stream=even2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=even2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=even2"
         }
       ]
     },
@@ -198,15 +143,7 @@
       "channels": [
         {
           "name": "ESPN 2",
-          "href": "https://fltvhd.com/canales.php?stream=even2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=even2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=even2"
+          "href": "https://fltvhd.com/online/canales.php?stream=even2"
         }
       ]
     },
@@ -219,7 +156,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=espn"
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -287,7 +224,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=espn"
+          "href": "https://fltvhd.com/canales.php?stream=espn"
         }
       ]
     },
@@ -300,15 +237,15 @@
       "channels": [
         {
           "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+          "href": "https://fltvhd.com/canales.php?stream=sportv"
         },
         {
           "name": "Premiere BR",
-          "href": "https://tvhd2.com/canales.php?stream=premiere1"
+          "href": "https://fltvhd.com/canales.php?stream=premiere1"
         },
         {
           "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
         }
       ]
     },
@@ -381,7 +318,60 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=espn"
+          "href": "https://fltvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-11T19:00:00.000Z",
+      "match": "Noruega vs Inglaterra",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://fltvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://fltvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://fltvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://fltvhd.com/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
         }
       ]
     },
@@ -394,7 +384,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=espn"
+          "href": "https://fltvhd.com/canales.php?stream=espn"
         }
       ]
     },
@@ -525,61 +515,6 @@
       ]
     },
     {
-      "time": "10:00",
-      "time_utc": "2026-07-11T08:00:00.000Z",
-      "match": "Rugby – Nations Championship – Japón vs Irlanda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://fltvhd.com/canales.php?stream=even2"
-        }
-      ]
-    },
-    {
-      "time": "11:00",
-      "time_utc": "2026-07-11T09:00:00.000Z",
-      "match": "Ciclismo – Tour de France – Etapa #8",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "href": "https://fltvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "12:30",
-      "time_utc": "2026-07-11T10:30:00.000Z",
-      "match": "Moto GP – GP de Alemania – Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://fltvhd.com/canales.php?stream=even2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=even2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=even2"
-        }
-      ]
-    },
-    {
       "time": "13:00",
       "time_utc": "2026-07-11T11:00:00.000Z",
       "match": "Juventud vs Torque",
@@ -648,15 +583,7 @@
       "channels": [
         {
           "name": "ESPN 2",
-          "href": "https://fltvhd.com/canales.php?stream=even2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=even2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=even2"
+          "href": "https://fltvhd.com/online/canales.php?stream=even2"
         }
       ]
     },
@@ -669,7 +596,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=espn"
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -737,7 +664,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=espn"
+          "href": "https://fltvhd.com/canales.php?stream=espn"
         }
       ]
     },
@@ -750,15 +677,15 @@
       "channels": [
         {
           "name": "Sportv BR",
-          "href": "https://tvtvhd.com/vivo/canales.php?stream=sportv"
+          "href": "https://fltvhd.com/canales.php?stream=sportv"
         },
         {
           "name": "Premiere BR",
-          "href": "https://tvhd2.com/canales.php?stream=premiere1"
+          "href": "https://fltvhd.com/canales.php?stream=premiere1"
         },
         {
           "name": "Sportv BR HD",
-          "href": "https://tvtvhd.com/online/canales.php?stream=sportv"
+          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
         }
       ]
     },
@@ -831,7 +758,60 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=espn"
+          "href": "https://fltvhd.com/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-11T19:00:00.000Z",
+      "match": "Noruega vs Inglaterra",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://fltvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://fltvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://fltvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://fltvhd.com/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
         }
       ]
     },
@@ -844,7 +824,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvhd2.com/canales.php?stream=espn"
+          "href": "https://fltvhd.com/canales.php?stream=espn"
         }
       ]
     },
