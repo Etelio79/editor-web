@@ -1,40 +1,199 @@
 {
-  "actualizado_en": "2026-07-14T01:10:15.390Z",
-  "fecha": "lunes, 13 de julio",
+  "actualizado_en": "2026-07-14T05:18:45.658Z",
+  "fecha": "martes, 14 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 3,
-  "contar_con_canales": 3,
+  "contar": 10,
+  "contar_con_canales": 10,
   "events": [
     {
-      "time": "22:00",
-      "time_utc": "2026-07-14T20:00:00.000Z",
-      "match": "Cerro Largo vs Defensor Sporting",
+      "time": "00:00",
+      "time_utc": "2026-07-13T22:00:00.000Z",
+      "match": "Manta vs Delfin",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-13T22:00:00.000Z",
+      "match": "MLB – All Star Game – National League vs American League",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://fltvhd.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-13T22:00:00.000Z",
+      "match": "Blooming vs Gualberto Villarroel SJ",
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney2"
+          "name": "Entel TV PLUS+",
+          "href": "https://fltvhd.com/online/canales.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-07-13T23:00:00.000Z",
+      "match": "NBA Summer League – Oklahoma City Thunder vs Denver Nuggets",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://fltvhd.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-07-14T09:00:00.000Z",
+      "match": "Ciclismo – Tour de France – Etapa #10",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://fltvhd.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-07-14T09:00:00.000Z",
+      "match": "Rosario Central  vs San Lorenzo",
+      "league": "Torneo de Reserva",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://fltvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-07-14T17:00:00.000Z",
+      "match": "Francia vs España",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://fltvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://fltvhd.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Caracol TV | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=caracol"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://fltvhd.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://fltvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "America Television",
+          "href": "https://fltvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=americatv"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://fltvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://fltvhd.com/canales.php?stream=goltv"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-07-14T19:30:00.000Z",
+      "match": "Macará vs Mushuc Runa",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
         }
       ]
     },
     {
       "time": "22:00",
       "time_utc": "2026-07-14T20:00:00.000Z",
-      "match": "Paysandu vs Fénix",
-      "league": "Segunda División",
+      "match": "Real Oruro vs Always Ready",
+      "league": "Primera División",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney3"
+          "name": "Entel TV PLUS+",
+          "href": "https://fltvhd.com/online/canales.php?stream=even1"
         }
       ]
     },
     {
       "time": "23:00",
       "time_utc": "2026-07-14T21:00:00.000Z",
-      "match": "NBA Summer League – Memphis Grizzlies vs Dallas Mavericks",
+      "match": "NBA Summer League – Golden State Warriors vs Memphis Grizzlies",
       "league": "",
       "flag": "⚽",
       "channels": [
@@ -47,35 +206,194 @@
   ],
   "eventos": [
     {
-      "time": "22:00",
-      "time_utc": "2026-07-14T20:00:00.000Z",
-      "match": "Cerro Largo vs Defensor Sporting",
+      "time": "00:00",
+      "time_utc": "2026-07-13T22:00:00.000Z",
+      "match": "Manta vs Delfin",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-13T22:00:00.000Z",
+      "match": "MLB – All Star Game – National League vs American League",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://fltvhd.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-13T22:00:00.000Z",
+      "match": "Blooming vs Gualberto Villarroel SJ",
       "league": "Primera División",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney2"
+          "name": "Entel TV PLUS+",
+          "href": "https://fltvhd.com/online/canales.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-07-13T23:00:00.000Z",
+      "match": "NBA Summer League – Oklahoma City Thunder vs Denver Nuggets",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "href": "https://fltvhd.com/online/canal.php?stream=even3"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-07-14T09:00:00.000Z",
+      "match": "Ciclismo – Tour de France – Etapa #10",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "href": "https://fltvhd.com/online/canal.php?stream=even2"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-07-14T09:00:00.000Z",
+      "match": "Rosario Central  vs San Lorenzo",
+      "league": "Torneo de Reserva",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://fltvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-07-14T17:00:00.000Z",
+      "match": "Francia vs España",
+      "league": "Copa del Mundo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports",
+          "href": "https://fltvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://fltvhd.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Caracol TV | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=caracol"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://fltvhd.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://fltvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "America Television",
+          "href": "https://fltvhd.com/canales.php?stream=americatv"
+        },
+        {
+          "name": "America TV | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=americatv"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://fltvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Deportes TV. C",
+          "href": "https://fltvhd.com/canales.php?stream=goltv"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-07-14T19:30:00.000Z",
+      "match": "Macará vs Mushuc Runa",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
         }
       ]
     },
     {
       "time": "22:00",
       "time_utc": "2026-07-14T20:00:00.000Z",
-      "match": "Paysandu vs Fénix",
-      "league": "Segunda División",
+      "match": "Real Oruro vs Always Ready",
+      "league": "Primera División",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney3"
+          "name": "Entel TV PLUS+",
+          "href": "https://fltvhd.com/online/canales.php?stream=even1"
         }
       ]
     },
     {
       "time": "23:00",
       "time_utc": "2026-07-14T21:00:00.000Z",
-      "match": "NBA Summer League – Memphis Grizzlies vs Dallas Mavericks",
+      "match": "NBA Summer League – Golden State Warriors vs Memphis Grizzlies",
       "league": "",
       "flag": "⚽",
       "channels": [
