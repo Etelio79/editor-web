@@ -1,10 +1,27 @@
 {
-  "actualizado_en": "2026-07-17T12:55:59.115Z",
+  "actualizado_en": "2026-07-17T16:06:02.447Z",
   "fecha": "viernes, 17 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 25,
-  "contar_con_canales": 25,
+  "contar": 23,
+  "contar_con_canales": 23,
   "events": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-16T22:00:00.000Z",
+      "match": "Delfin vs Macará",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPRO | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
     {
       "time": "00:00",
       "time_utc": "2026-07-16T22:00:00.000Z",
@@ -21,25 +38,12 @@
     {
       "time": "00:00",
       "time_utc": "2026-07-16T22:00:00.000Z",
-      "match": "Delfin vs Macará",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "00:00",
-      "time_utc": "2026-07-16T22:00:00.000Z",
       "match": "ESPN Knockout – A Confirmar",
       "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2",
+          "name": "ESPN 2 | HD",
           "href": "https://fltvhd.com/online/canal.php?stream=even6"
         }
       ]
@@ -51,6 +55,10 @@
       "league": "Major League Soccer",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
+        },
         {
           "name": "FOX Deportes",
           "href": "https://fltvhd.com/canales.php?stream=foxdeportes"
@@ -73,6 +81,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "TYC Sports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://fltvhd.com/canales.php?stream=tycsports"
         },
@@ -83,10 +95,6 @@
         {
           "name": "TYC Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
         }
       ]
     },
@@ -97,6 +105,10 @@
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
         {
           "name": "Liga1MAX",
           "href": "https://fltvhd.com/canales.php?stream=liga1max"
@@ -119,6 +131,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ESPN MX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espnmx"
+        },
+        {
           "name": "ESPN MX",
           "href": "https://fltvhd.com/canales.php?stream=espnmx"
         },
@@ -139,6 +155,10 @@
       "league": "Liga MX",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "TUDN USA | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tudn"
+        },
         {
           "name": "TUDN USA",
           "href": "https://fltvhd.com/canales.php?stream=tudn"
@@ -161,6 +181,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "FOX Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
+        },
+        {
           "name": "FOX Deportes",
           "href": "https://fltvhd.com/canales.php?stream=foxdeportes"
         },
@@ -182,6 +206,14 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Azteca 7 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Universo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=universo"
+        },
+        {
           "name": "Azteca 7",
           "href": "https://fltvhd.com/canales.php?stream=azteca7"
         },
@@ -194,55 +226,21 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=azteca7"
         },
         {
-          "name": "Azteca 7 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
-        },
-        {
           "name": "Universo",
           "href": "https://fltvhd.com/canales.php?stream=universo"
-        },
-        {
-          "name": "Universo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=universo"
         }
       ]
     },
     {
-      "time": "10:30",
-      "time_utc": "2026-07-17T08:30:00.000Z",
+      "time": "14:30",
+      "time_utc": "2026-07-17T12:30:00.000Z",
       "match": "Ciclismo – Tour de France – Etapa #13",
       "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2",
+          "name": "ESPN 2 | HD",
           "href": "https://fltvhd.com/online/canal.php?stream=even6"
-        }
-      ]
-    },
-    {
-      "time": "12:55",
-      "time_utc": "2026-07-17T10:55:00.000Z",
-      "match": "F3 Spa-Francorchamps – Clasificación",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://fltvhd.com/online/canal.php?stream=even7"
-        }
-      ]
-    },
-    {
-      "time": "13:40",
-      "time_utc": "2026-07-17T11:40:00.000Z",
-      "match": "F2 Spa-Francorchamps – Clasificación",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://fltvhd.com/online/canal.php?stream=even7"
         }
       ]
     },
@@ -254,29 +252,8 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2",
+          "name": "ESPN 2 | HD",
           "href": "https://fltvhd.com/online/canal.php?stream=even6"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-07-17T16:00:00.000Z",
-      "match": "FC Cajamarca vs Juan Pablo II College",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX",
-          "href": "https://fltvhd.com/canales.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
         }
       ]
     },
@@ -294,12 +271,41 @@
       ]
     },
     {
+      "time": "18:00",
+      "time_utc": "2026-07-17T16:00:00.000Z",
+      "match": "FC Cajamarca vs Juan Pablo II College",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1MAX",
+          "href": "https://fltvhd.com/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
       "time": "20:15",
       "time_utc": "2026-07-17T18:15:00.000Z",
       "match": "Sporting Cristal vs Deportivo Garcilaso",
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
         {
           "name": "Liga1MAX",
           "href": "https://fltvhd.com/canales.php?stream=liga1max"
@@ -322,6 +328,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "TYC Sports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://fltvhd.com/canales.php?stream=tycsports"
         },
@@ -332,10 +342,6 @@
         {
           "name": "TYC Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
         }
       ]
     },
@@ -347,8 +353,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
+          "name": "Premiere 4 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere4"
+        },
+        {
+          "name": "Premiere 4 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere4"
         }
       ]
     },
@@ -373,8 +383,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
+          "name": "Premiere 2 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Premiere 2 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere2"
         }
       ]
     },
@@ -416,6 +430,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ESPN 5 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espn5"
+        },
+        {
           "name": "ESPN 5",
           "href": "https://fltvhd.com/canales.php?stream=espn5"
         },
@@ -426,10 +444,6 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=espn5"
         }
       ]
     },
@@ -441,8 +455,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
+          "name": "Premiere 3 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere3"
+        },
+        {
+          "name": "Premiere 3 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere3"
         }
       ]
     }
@@ -451,6 +469,23 @@
     {
       "time": "00:00",
       "time_utc": "2026-07-16T22:00:00.000Z",
+      "match": "Delfin vs Macará",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPRO | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-16T22:00:00.000Z",
       "match": "Bolívar vs Guabirá",
       "league": "Primera División",
       "flag": "⚽",
@@ -464,25 +499,12 @@
     {
       "time": "00:00",
       "time_utc": "2026-07-16T22:00:00.000Z",
-      "match": "Delfin vs Macará",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "00:00",
-      "time_utc": "2026-07-16T22:00:00.000Z",
       "match": "ESPN Knockout – A Confirmar",
       "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2",
+          "name": "ESPN 2 | HD",
           "href": "https://fltvhd.com/online/canal.php?stream=even6"
         }
       ]
@@ -494,6 +516,10 @@
       "league": "Major League Soccer",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
+        },
         {
           "name": "FOX Deportes",
           "href": "https://fltvhd.com/canales.php?stream=foxdeportes"
@@ -516,6 +542,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "TYC Sports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://fltvhd.com/canales.php?stream=tycsports"
         },
@@ -526,10 +556,6 @@
         {
           "name": "TYC Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
         }
       ]
     },
@@ -540,6 +566,10 @@
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
         {
           "name": "Liga1MAX",
           "href": "https://fltvhd.com/canales.php?stream=liga1max"
@@ -562,6 +592,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ESPN MX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espnmx"
+        },
+        {
           "name": "ESPN MX",
           "href": "https://fltvhd.com/canales.php?stream=espnmx"
         },
@@ -582,6 +616,10 @@
       "league": "Liga MX",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "TUDN USA | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tudn"
+        },
         {
           "name": "TUDN USA",
           "href": "https://fltvhd.com/canales.php?stream=tudn"
@@ -604,6 +642,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "FOX Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
+        },
+        {
           "name": "FOX Deportes",
           "href": "https://fltvhd.com/canales.php?stream=foxdeportes"
         },
@@ -625,6 +667,14 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Azteca 7 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Universo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=universo"
+        },
+        {
           "name": "Azteca 7",
           "href": "https://fltvhd.com/canales.php?stream=azteca7"
         },
@@ -637,55 +687,21 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=azteca7"
         },
         {
-          "name": "Azteca 7 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
-        },
-        {
           "name": "Universo",
           "href": "https://fltvhd.com/canales.php?stream=universo"
-        },
-        {
-          "name": "Universo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=universo"
         }
       ]
     },
     {
-      "time": "10:30",
-      "time_utc": "2026-07-17T08:30:00.000Z",
+      "time": "14:30",
+      "time_utc": "2026-07-17T12:30:00.000Z",
       "match": "Ciclismo – Tour de France – Etapa #13",
       "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2",
+          "name": "ESPN 2 | HD",
           "href": "https://fltvhd.com/online/canal.php?stream=even6"
-        }
-      ]
-    },
-    {
-      "time": "12:55",
-      "time_utc": "2026-07-17T10:55:00.000Z",
-      "match": "F3 Spa-Francorchamps – Clasificación",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://fltvhd.com/online/canal.php?stream=even7"
-        }
-      ]
-    },
-    {
-      "time": "13:40",
-      "time_utc": "2026-07-17T11:40:00.000Z",
-      "match": "F2 Spa-Francorchamps – Clasificación",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3",
-          "href": "https://fltvhd.com/online/canal.php?stream=even7"
         }
       ]
     },
@@ -697,29 +713,8 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2",
+          "name": "ESPN 2 | HD",
           "href": "https://fltvhd.com/online/canal.php?stream=even6"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-07-17T16:00:00.000Z",
-      "match": "FC Cajamarca vs Juan Pablo II College",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX",
-          "href": "https://fltvhd.com/canales.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
         }
       ]
     },
@@ -737,12 +732,41 @@
       ]
     },
     {
+      "time": "18:00",
+      "time_utc": "2026-07-17T16:00:00.000Z",
+      "match": "FC Cajamarca vs Juan Pablo II College",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1MAX",
+          "href": "https://fltvhd.com/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
       "time": "20:15",
       "time_utc": "2026-07-17T18:15:00.000Z",
       "match": "Sporting Cristal vs Deportivo Garcilaso",
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
         {
           "name": "Liga1MAX",
           "href": "https://fltvhd.com/canales.php?stream=liga1max"
@@ -765,6 +789,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "TYC Sports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
           "name": "TYC Sports",
           "href": "https://fltvhd.com/canales.php?stream=tycsports"
         },
@@ -775,10 +803,6 @@
         {
           "name": "TYC Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
         }
       ]
     },
@@ -790,8 +814,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
+          "name": "Premiere 4 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere4"
+        },
+        {
+          "name": "Premiere 4 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere4"
         }
       ]
     },
@@ -816,8 +844,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
+          "name": "Premiere 2 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Premiere 2 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere2"
         }
       ]
     },
@@ -859,6 +891,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ESPN 5 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espn5"
+        },
+        {
           "name": "ESPN 5",
           "href": "https://fltvhd.com/canales.php?stream=espn5"
         },
@@ -869,10 +905,6 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=espn5"
         }
       ]
     },
@@ -884,8 +916,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
+          "name": "Premiere 3 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere3"
+        },
+        {
+          "name": "Premiere 3 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere3"
         }
       ]
     }
