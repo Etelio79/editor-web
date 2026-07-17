@@ -1,17 +1,21 @@
 {
-  "actualizado_en": "2026-07-16T21:52:40.356Z",
+  "actualizado_en": "2026-07-17T01:19:49.213Z",
   "fecha": "jueves, 16 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 14,
-  "contar_con_canales": 14,
+  "contar": 10,
+  "contar_con_canales": 10,
   "events": [
     {
       "time": "00:00",
-      "time_utc": "2026-07-15T22:00:00.000Z",
+      "time_utc": "2026-07-16T22:00:00.000Z",
       "match": "Orense vs Emelec",
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ECDF LigaPRO | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
+        },
         {
           "name": "ECDF LigaPro",
           "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
@@ -20,7 +24,7 @@
     },
     {
       "time": "00:45",
-      "time_utc": "2026-07-15T22:45:00.000Z",
+      "time_utc": "2026-07-16T22:45:00.000Z",
       "match": "Sarmiento vs Boca Juniors",
       "league": "Copa Argentina",
       "flag": "⚽",
@@ -45,11 +49,15 @@
     },
     {
       "time": "01:00",
-      "time_utc": "2026-07-15T23:00:00.000Z",
+      "time_utc": "2026-07-16T23:00:00.000Z",
       "match": "Necaxa vs Atlante",
       "league": "Liga MX",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "FOX HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=even5"
+        },
         {
           "name": "FOX Deportes | HD",
           "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
@@ -70,7 +78,7 @@
     },
     {
       "time": "01:00",
-      "time_utc": "2026-07-15T23:00:00.000Z",
+      "time_utc": "2026-07-16T23:00:00.000Z",
       "match": "NBA Summer League – Miami Heat vs Toronto Raptors",
       "league": "",
       "flag": "⚽",
@@ -83,7 +91,7 @@
     },
     {
       "time": "02:00",
-      "time_utc": "2026-07-16T00:00:00.000Z",
+      "time_utc": "2026-07-17T00:00:00.000Z",
       "match": "NBA Summer League – Denver Nuggets vs Portland Trail Blazers",
       "league": "",
       "flag": "⚽",
@@ -96,7 +104,7 @@
     },
     {
       "time": "03:00",
-      "time_utc": "2026-07-16T01:00:00.000Z",
+      "time_utc": "2026-07-17T01:00:00.000Z",
       "match": "Tijuana vs Tigres UANL",
       "league": "Liga MX",
       "flag": "⚽",
@@ -120,80 +128,16 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-16T17:00:00.000Z",
-      "match": "ABB vs Independiente Petrolero",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://fltvhd.com/online/canales.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-07-16T18:30:00.000Z",
-      "match": "NBA Summer League – Houston Rockets vs Brooklyn Nets",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://fltvhd.com/online/canal.php?stream=even8"
-        },
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=even8"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-16T19:30:00.000Z",
-      "match": "Aucas vs Independiente del Valle",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "21:45",
-      "time_utc": "2026-07-16T19:45:00.000Z",
-      "match": "Racing Club vs Defensa y Justicia",
-      "league": "Copa Argentina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://fltvhd.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
-        }
-      ]
-    },
-    {
       "time": "22:30",
-      "time_utc": "2026-07-16T20:30:00.000Z",
+      "time_utc": "2026-07-17T20:30:00.000Z",
       "match": "Vitória vs Vasco da Gama",
       "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Premiere 2 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere2"
+        },
         {
           "name": "Premiere 2 BR",
           "href": "https://fltvhd.com/canales.php?stream=premiere2"
@@ -202,11 +146,15 @@
     },
     {
       "time": "22:30",
-      "time_utc": "2026-07-16T20:30:00.000Z",
+      "time_utc": "2026-07-17T20:30:00.000Z",
       "match": "Botafogo vs Santos",
       "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere1"
+        },
         {
           "name": "Premiere BR",
           "href": "https://fltvhd.com/canales.php?stream=premiere1"
@@ -215,7 +163,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-16T21:00:00.000Z",
+      "time_utc": "2026-07-17T21:00:00.000Z",
       "match": "NBA Summer League – New York Knicks vs Golden State Warriors",
       "league": "",
       "flag": "⚽",
@@ -232,7 +180,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-16T21:00:00.000Z",
+      "time_utc": "2026-07-17T21:00:00.000Z",
       "match": "MLB – Philadelphia Phillies vs New York Mets",
       "league": "",
       "flag": "⚽",
@@ -247,11 +195,15 @@
   "eventos": [
     {
       "time": "00:00",
-      "time_utc": "2026-07-15T22:00:00.000Z",
+      "time_utc": "2026-07-16T22:00:00.000Z",
       "match": "Orense vs Emelec",
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ECDF LigaPRO | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
+        },
         {
           "name": "ECDF LigaPro",
           "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
@@ -260,7 +212,7 @@
     },
     {
       "time": "00:45",
-      "time_utc": "2026-07-15T22:45:00.000Z",
+      "time_utc": "2026-07-16T22:45:00.000Z",
       "match": "Sarmiento vs Boca Juniors",
       "league": "Copa Argentina",
       "flag": "⚽",
@@ -285,11 +237,15 @@
     },
     {
       "time": "01:00",
-      "time_utc": "2026-07-15T23:00:00.000Z",
+      "time_utc": "2026-07-16T23:00:00.000Z",
       "match": "Necaxa vs Atlante",
       "league": "Liga MX",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "FOX HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=even5"
+        },
         {
           "name": "FOX Deportes | HD",
           "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
@@ -310,7 +266,7 @@
     },
     {
       "time": "01:00",
-      "time_utc": "2026-07-15T23:00:00.000Z",
+      "time_utc": "2026-07-16T23:00:00.000Z",
       "match": "NBA Summer League – Miami Heat vs Toronto Raptors",
       "league": "",
       "flag": "⚽",
@@ -323,7 +279,7 @@
     },
     {
       "time": "02:00",
-      "time_utc": "2026-07-16T00:00:00.000Z",
+      "time_utc": "2026-07-17T00:00:00.000Z",
       "match": "NBA Summer League – Denver Nuggets vs Portland Trail Blazers",
       "league": "",
       "flag": "⚽",
@@ -336,7 +292,7 @@
     },
     {
       "time": "03:00",
-      "time_utc": "2026-07-16T01:00:00.000Z",
+      "time_utc": "2026-07-17T01:00:00.000Z",
       "match": "Tijuana vs Tigres UANL",
       "league": "Liga MX",
       "flag": "⚽",
@@ -360,80 +316,16 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-16T17:00:00.000Z",
-      "match": "ABB vs Independiente Petrolero",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://fltvhd.com/online/canales.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-07-16T18:30:00.000Z",
-      "match": "NBA Summer League – Houston Rockets vs Brooklyn Nets",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://fltvhd.com/online/canal.php?stream=even8"
-        },
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=even8"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-16T19:30:00.000Z",
-      "match": "Aucas vs Independiente del Valle",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "21:45",
-      "time_utc": "2026-07-16T19:45:00.000Z",
-      "match": "Racing Club vs Defensa y Justicia",
-      "league": "Copa Argentina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://fltvhd.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
-        }
-      ]
-    },
-    {
       "time": "22:30",
-      "time_utc": "2026-07-16T20:30:00.000Z",
+      "time_utc": "2026-07-17T20:30:00.000Z",
       "match": "Vitória vs Vasco da Gama",
       "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Premiere 2 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere2"
+        },
         {
           "name": "Premiere 2 BR",
           "href": "https://fltvhd.com/canales.php?stream=premiere2"
@@ -442,11 +334,15 @@
     },
     {
       "time": "22:30",
-      "time_utc": "2026-07-16T20:30:00.000Z",
+      "time_utc": "2026-07-17T20:30:00.000Z",
       "match": "Botafogo vs Santos",
       "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere1"
+        },
         {
           "name": "Premiere BR",
           "href": "https://fltvhd.com/canales.php?stream=premiere1"
@@ -455,7 +351,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-16T21:00:00.000Z",
+      "time_utc": "2026-07-17T21:00:00.000Z",
       "match": "NBA Summer League – New York Knicks vs Golden State Warriors",
       "league": "",
       "flag": "⚽",
@@ -472,7 +368,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-16T21:00:00.000Z",
+      "time_utc": "2026-07-17T21:00:00.000Z",
       "match": "MLB – Philadelphia Phillies vs New York Mets",
       "league": "",
       "flag": "⚽",
