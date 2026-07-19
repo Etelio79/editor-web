@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-19T15:43:14.908Z",
+  "actualizado_en": "2026-07-19T18:44:25.595Z",
   "fecha": "domingo, 19 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 21,
-  "contar_con_canales": 21,
+  "contar": 18,
+  "contar_con_canales": 18,
   "events": [
     {
       "time": "00:00",
@@ -53,62 +53,6 @@
         {
           "name": "ESPN 3 | HD",
           "href": "https://fltvhd.com/online/canal.php?stream=even7"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-07-19T11:00:00.000Z",
-      "match": "Central Español vs Cerro Largo",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "13:30",
-      "time_utc": "2026-07-19T11:30:00.000Z",
-      "match": "Tacuarembó vs Plaza Colonia",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-07-19T12:00:00.000Z",
-      "match": "Premier Padel Málaga – Final Masculina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://fltvhd.com/online/canal.php?stream=even8"
-        },
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=even8"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-07-19T13:00:00.000Z",
-      "match": "Gualberto Villarroel SJ vs The Strongest",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://fltvhd.com/online/canales.php?stream=even1"
         }
       ]
     },
@@ -204,6 +148,19 @@
     {
       "time": "17:00",
       "time_utc": "2026-07-19T15:00:00.000Z",
+      "match": "España vs Argentina | Final COPA MUNDO 2026",
+      "league": "LA PREVIA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/online/canal.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-07-19T15:00:00.000Z",
       "match": "WNBA – Dallas vs Los Angeles",
       "league": "",
       "flag": "⚽",
@@ -238,20 +195,56 @@
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
+          "name": "Dsports Argentina HD1",
+          "href": "https://tvhd1.com/canales/dsportslatam.php"
+        },
+        {
+          "name": "TV LA 1 España HD1",
+          "href": "https://tvhd1.com/canales/tvla1es.php"
+        },
+        {
+          "name": "TUDN México | Señal HD",
+          "href": "https://tvhd1.com/canales/tudnmx.php"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "CTV HD1",
+          "href": "https://tvhd1.com/canales/ctv.php"
+        },
+        {
+          "name": "FOX ONE HD1",
+          "href": "https://tvhd1.com/canales/foxone.php"
+        },
+        {
+          "name": "Telefe | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=telefe"
+        },
+        {
+          "name": "ESPN HD Narración destacada de Mariano Closs",
+          "href": "https://fltvhd.com/online/canales.php?stream=disney4"
+        },
+        {
           "name": "DSports | HD",
           "href": "https://fltvhd.com/online/canales.php?stream=dsports"
         },
         {
-          "name": "DSports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
+          "name": "TYC Sports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
         },
         {
           "name": "DSports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
+          "name": "DSports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
         },
         {
           "name": "TYC Sports",
@@ -266,32 +259,40 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
         },
         {
-          "name": "Telefe",
-          "href": "https://fltvhd.com/online/canales.php?stream=telefe"
+          "name": "Win Sports HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
         },
         {
-          "name": "Sportv BR",
-          "href": "https://fltvhd.com/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://fltvhd.com/canales.php?stream=caracol"
+          "name": "America TV | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=americatv"
         },
         {
           "name": "Caracol TV | HD",
           "href": "https://fltvhd.com/online/canales.php?stream=caracol"
         },
         {
-          "name": "Win Sports",
-          "href": "https://fltvhd.com/canales.php?stream=winsports"
+          "name": "Sportv BR HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
         },
         {
-          "name": "Win Sports HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
+          "name": "Universo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=universo"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney6"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://fltvhd.com/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://fltvhd.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://fltvhd.com/canales.php?stream=winsports"
         },
         {
           "name": "Win Sports | OP2",
@@ -302,10 +303,6 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
         },
         {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney6"
-        },
-        {
           "name": "Canal 5 MX",
           "href": "https://fltvhd.com/canales.php?stream=canal5"
         },
@@ -314,28 +311,20 @@
           "href": "https://fltvhd.com/canales.php?stream=americatv"
         },
         {
-          "name": "America TV | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=americatv"
-        },
-        {
           "name": "Telemundo",
           "href": "https://fltvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
         },
         {
           "name": "Universo",
           "href": "https://fltvhd.com/canales.php?stream=universo"
         },
         {
-          "name": "Universo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=universo"
-        },
-        {
           "name": "Deportes TV. C",
           "href": "https://fltvhd.com/canales.php?stream=goltv"
+        },
+        {
+          "name": "TeleAmazonas",
+          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
         }
       ]
     },
@@ -504,62 +493,6 @@
       ]
     },
     {
-      "time": "13:00",
-      "time_utc": "2026-07-19T11:00:00.000Z",
-      "match": "Central Español vs Cerro Largo",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "13:30",
-      "time_utc": "2026-07-19T11:30:00.000Z",
-      "match": "Tacuarembó vs Plaza Colonia",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-07-19T12:00:00.000Z",
-      "match": "Premier Padel Málaga – Final Masculina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4",
-          "href": "https://fltvhd.com/online/canal.php?stream=even8"
-        },
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=even8"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-07-19T13:00:00.000Z",
-      "match": "Gualberto Villarroel SJ vs The Strongest",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://fltvhd.com/online/canales.php?stream=even1"
-        }
-      ]
-    },
-    {
       "time": "16:00",
       "time_utc": "2026-07-19T14:00:00.000Z",
       "match": "Los Chankas vs Sport Boys",
@@ -651,6 +584,19 @@
     {
       "time": "17:00",
       "time_utc": "2026-07-19T15:00:00.000Z",
+      "match": "España vs Argentina | Final COPA MUNDO 2026",
+      "league": "LA PREVIA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/online/canal.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-07-19T15:00:00.000Z",
       "match": "WNBA – Dallas vs Los Angeles",
       "league": "",
       "flag": "⚽",
@@ -685,20 +631,56 @@
           "href": "https://tvhd1.com/canales/dsportsar.php"
         },
         {
+          "name": "Dsports Argentina HD1",
+          "href": "https://tvhd1.com/canales/dsportslatam.php"
+        },
+        {
+          "name": "TV LA 1 España HD1",
+          "href": "https://tvhd1.com/canales/tvla1es.php"
+        },
+        {
+          "name": "TUDN México | Señal HD",
+          "href": "https://tvhd1.com/canales/tudnmx.php"
+        },
+        {
+          "name": "Canal 5 MX HD1",
+          "href": "https://tvhd1.com/canales/canal5.php"
+        },
+        {
+          "name": "CTV HD1",
+          "href": "https://tvhd1.com/canales/ctv.php"
+        },
+        {
+          "name": "FOX ONE HD1",
+          "href": "https://tvhd1.com/canales/foxone.php"
+        },
+        {
+          "name": "Telefe | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=telefe"
+        },
+        {
+          "name": "ESPN HD Narración destacada de Mariano Closs",
+          "href": "https://fltvhd.com/online/canales.php?stream=disney4"
+        },
+        {
           "name": "DSports | HD",
           "href": "https://fltvhd.com/online/canales.php?stream=dsports"
         },
         {
-          "name": "DSports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
+          "name": "TYC Sports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
         },
         {
           "name": "DSports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
         },
         {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
+          "name": "DSports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
         },
         {
           "name": "TYC Sports",
@@ -713,32 +695,40 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
         },
         {
-          "name": "Telefe",
-          "href": "https://fltvhd.com/online/canales.php?stream=telefe"
+          "name": "Win Sports HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
         },
         {
-          "name": "Sportv BR",
-          "href": "https://fltvhd.com/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://fltvhd.com/canales.php?stream=caracol"
+          "name": "America TV | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=americatv"
         },
         {
           "name": "Caracol TV | HD",
           "href": "https://fltvhd.com/online/canales.php?stream=caracol"
         },
         {
-          "name": "Win Sports",
-          "href": "https://fltvhd.com/canales.php?stream=winsports"
+          "name": "Sportv BR HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
         },
         {
-          "name": "Win Sports HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
+          "name": "Universo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=universo"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney6"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://fltvhd.com/canales.php?stream=sportv"
+        },
+        {
+          "name": "Caracol TV",
+          "href": "https://fltvhd.com/canales.php?stream=caracol"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://fltvhd.com/canales.php?stream=winsports"
         },
         {
           "name": "Win Sports | OP2",
@@ -749,10 +739,6 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
         },
         {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney6"
-        },
-        {
           "name": "Canal 5 MX",
           "href": "https://fltvhd.com/canales.php?stream=canal5"
         },
@@ -761,28 +747,20 @@
           "href": "https://fltvhd.com/canales.php?stream=americatv"
         },
         {
-          "name": "America TV | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=americatv"
-        },
-        {
           "name": "Telemundo",
           "href": "https://fltvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
         },
         {
           "name": "Universo",
           "href": "https://fltvhd.com/canales.php?stream=universo"
         },
         {
-          "name": "Universo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=universo"
-        },
-        {
           "name": "Deportes TV. C",
           "href": "https://fltvhd.com/canales.php?stream=goltv"
+        },
+        {
+          "name": "TeleAmazonas",
+          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
         }
       ]
     },
