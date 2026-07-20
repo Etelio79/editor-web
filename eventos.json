@@ -1,13 +1,13 @@
 {
-  "actualizado_en": "2026-07-19T21:38:59.752Z",
+  "actualizado_en": "2026-07-20T01:20:38.177Z",
   "fecha": "domingo, 19 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 11,
-  "contar_con_canales": 11,
+  "contar": 7,
+  "contar_con_canales": 7,
   "events": [
     {
       "time": "00:00",
-      "time_utc": "2026-07-18T22:00:00.000Z",
+      "time_utc": "2026-07-19T22:00:00.000Z",
       "match": "Alianza Lima vs Sport Huancayo",
       "league": "Liga 1",
       "flag": "⚽",
@@ -32,9 +32,9 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-18T22:30:00.000Z",
-      "match": "Primera División:",
-      "league": "",
+      "time_utc": "2026-07-19T22:30:00.000Z",
+      "match": "Blooming vs Tomayapo",
+      "league": "Primera División",
       "flag": "⚽",
       "channels": [
         {
@@ -45,7 +45,7 @@
     },
     {
       "time": "01:00",
-      "time_utc": "2026-07-18T23:00:00.000Z",
+      "time_utc": "2026-07-19T23:00:00.000Z",
       "match": "NBA – A Confirmar",
       "league": "",
       "flag": "⚽",
@@ -57,204 +57,8 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-19T17:00:00.000Z",
-      "match": "España vs Argentina\n*Final*",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "Dsports Argentina HD1",
-          "href": "https://tvhd1.com/canales/dsportslatam.php"
-        },
-        {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
-          "name": "TUDN México | Señal HD",
-          "href": "https://tvhd1.com/canales/tudnmx.php"
-        },
-        {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
-        },
-        {
-          "name": "CTV HD1",
-          "href": "https://tvhd1.com/canales/ctv.php"
-        },
-        {
-          "name": "FOX ONE HD1",
-          "href": "https://tvhd1.com/canales/foxone.php"
-        },
-        {
-          "name": "Telefe | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=telefe"
-        },
-        {
-          "name": "ESPN HD Narración destacada de Mariano Closs",
-          "href": "https://fltvhd.com/online/canales.php?stream=disney4"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://fltvhd.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Win Sports HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "Caracol TV | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=caracol"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Universo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=universo"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney6"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://fltvhd.com/canales.php?stream=sportv"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://fltvhd.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://fltvhd.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://fltvhd.com/canales.php?stream=canal5"
-        },
-        {
-          "name": "America Television",
-          "href": "https://fltvhd.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://fltvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Universo",
-          "href": "https://fltvhd.com/canales.php?stream=universo"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://fltvhd.com/canales.php?stream=goltv"
-        },
-        {
-          "name": "TeleAmazonas",
-          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-19T18:00:00.000Z",
-      "match": "MLB – Seattle Mariners vs San Francisco Giants",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://fltvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-19T19:30:00.000Z",
-      "match": "IndyCar Series – Nashville Superspeedway",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 | HD",
-          "href": "https://fltvhd.com/online/canal.php?stream=even7"
-        }
-      ]
-    },
-    {
-      "time": "21:45",
-      "time_utc": "2026-07-19T19:45:00.000Z",
-      "match": "Guayaquil City vs Manta",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
       "time": "22:30",
-      "time_utc": "2026-07-19T20:30:00.000Z",
+      "time_utc": "2026-07-20T20:30:00.000Z",
       "match": "Miramar Misiones vs La Luz",
       "league": "Segunda División",
       "flag": "⚽",
@@ -267,7 +71,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-19T21:00:00.000Z",
+      "time_utc": "2026-07-20T21:00:00.000Z",
       "match": "MLB – New York Yankees vs Los Angeles Dodgers",
       "league": "",
       "flag": "⚽",
@@ -280,7 +84,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-19T21:00:00.000Z",
+      "time_utc": "2026-07-20T21:00:00.000Z",
       "match": "Deportivo Colonia vs Paysandu",
       "league": "Segunda División",
       "flag": "⚽",
@@ -293,7 +97,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-19T21:00:00.000Z",
+      "time_utc": "2026-07-20T21:00:00.000Z",
       "match": "San Luis vs Unión Española",
       "league": "Primera B",
       "flag": "⚽",
@@ -316,7 +120,7 @@
   "eventos": [
     {
       "time": "00:00",
-      "time_utc": "2026-07-18T22:00:00.000Z",
+      "time_utc": "2026-07-19T22:00:00.000Z",
       "match": "Alianza Lima vs Sport Huancayo",
       "league": "Liga 1",
       "flag": "⚽",
@@ -341,9 +145,9 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-18T22:30:00.000Z",
-      "match": "Primera División:",
-      "league": "",
+      "time_utc": "2026-07-19T22:30:00.000Z",
+      "match": "Blooming vs Tomayapo",
+      "league": "Primera División",
       "flag": "⚽",
       "channels": [
         {
@@ -354,7 +158,7 @@
     },
     {
       "time": "01:00",
-      "time_utc": "2026-07-18T23:00:00.000Z",
+      "time_utc": "2026-07-19T23:00:00.000Z",
       "match": "NBA – A Confirmar",
       "league": "",
       "flag": "⚽",
@@ -366,204 +170,8 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-19T17:00:00.000Z",
-      "match": "España vs Argentina\n*Final*",
-      "league": "Copa del Mundo",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "Dsports Argentina HD1",
-          "href": "https://tvhd1.com/canales/dsportslatam.php"
-        },
-        {
-          "name": "TV LA 1 España HD1",
-          "href": "https://tvhd1.com/canales/tvla1es.php"
-        },
-        {
-          "name": "TUDN México | Señal HD",
-          "href": "https://tvhd1.com/canales/tudnmx.php"
-        },
-        {
-          "name": "Canal 5 MX HD1",
-          "href": "https://tvhd1.com/canales/canal5.php"
-        },
-        {
-          "name": "CTV HD1",
-          "href": "https://tvhd1.com/canales/ctv.php"
-        },
-        {
-          "name": "FOX ONE HD1",
-          "href": "https://tvhd1.com/canales/foxone.php"
-        },
-        {
-          "name": "Telefe | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=telefe"
-        },
-        {
-          "name": "ESPN HD Narración destacada de Mariano Closs",
-          "href": "https://fltvhd.com/online/canales.php?stream=disney4"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=telemundo"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://fltvhd.com/canales.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "Win Sports HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "America TV | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=americatv"
-        },
-        {
-          "name": "Caracol TV | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=caracol"
-        },
-        {
-          "name": "Sportv BR HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Universo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=universo"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney6"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://fltvhd.com/canales.php?stream=sportv"
-        },
-        {
-          "name": "Caracol TV",
-          "href": "https://fltvhd.com/canales.php?stream=caracol"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://fltvhd.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
-        },
-        {
-          "name": "Canal 5 MX",
-          "href": "https://fltvhd.com/canales.php?stream=canal5"
-        },
-        {
-          "name": "America Television",
-          "href": "https://fltvhd.com/canales.php?stream=americatv"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://fltvhd.com/canales.php?stream=telemundo"
-        },
-        {
-          "name": "Universo",
-          "href": "https://fltvhd.com/canales.php?stream=universo"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://fltvhd.com/canales.php?stream=goltv"
-        },
-        {
-          "name": "TeleAmazonas",
-          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-19T18:00:00.000Z",
-      "match": "MLB – Seattle Mariners vs San Francisco Giants",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://fltvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-19T19:30:00.000Z",
-      "match": "IndyCar Series – Nashville Superspeedway",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 | HD",
-          "href": "https://fltvhd.com/online/canal.php?stream=even7"
-        }
-      ]
-    },
-    {
-      "time": "21:45",
-      "time_utc": "2026-07-19T19:45:00.000Z",
-      "match": "Guayaquil City vs Manta",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
       "time": "22:30",
-      "time_utc": "2026-07-19T20:30:00.000Z",
+      "time_utc": "2026-07-20T20:30:00.000Z",
       "match": "Miramar Misiones vs La Luz",
       "league": "Segunda División",
       "flag": "⚽",
@@ -576,7 +184,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-19T21:00:00.000Z",
+      "time_utc": "2026-07-20T21:00:00.000Z",
       "match": "MLB – New York Yankees vs Los Angeles Dodgers",
       "league": "",
       "flag": "⚽",
@@ -589,7 +197,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-19T21:00:00.000Z",
+      "time_utc": "2026-07-20T21:00:00.000Z",
       "match": "Deportivo Colonia vs Paysandu",
       "league": "Segunda División",
       "flag": "⚽",
@@ -602,7 +210,7 @@
     },
     {
       "time": "23:00",
-      "time_utc": "2026-07-19T21:00:00.000Z",
+      "time_utc": "2026-07-20T21:00:00.000Z",
       "match": "San Luis vs Unión Española",
       "league": "Primera B",
       "flag": "⚽",
