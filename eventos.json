@@ -1,10 +1,23 @@
 {
-  "actualizado_en": "2026-07-20T11:32:24.144Z",
+  "actualizado_en": "2026-07-20T13:41:18.233Z",
   "fecha": "lunes, 20 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 4,
-  "contar_con_canales": 4,
+  "contar": 8,
+  "contar_con_canales": 8,
   "events": [
+    {
+      "time": "02:00",
+      "time_utc": "2026-07-20T00:00:00.000Z",
+      "match": "MLB – Los Angeles Angels vs St. Louis Cardinals",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=even6"
+        }
+      ]
+    },
     {
       "time": "11:00",
       "time_utc": "2026-07-20T09:00:00.000Z",
@@ -49,6 +62,19 @@
       ]
     },
     {
+      "time": "20:00",
+      "time_utc": "2026-07-20T18:00:00.000Z",
+      "match": "Torque vs Danubio",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
       "time": "23:00",
       "time_utc": "2026-07-20T21:00:00.000Z",
       "match": "Nacional Potosí vs Real Oruro",
@@ -58,12 +84,51 @@
         {
           "name": "Entel TV PLUS+",
           "href": "https://fltvhd.com/online/canales.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-20T21:00:00.000Z",
+      "match": "Defensor Sporting vs Liverpool",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-20T21:00:00.000Z",
+      "match": "MLB – Philadelphia Phillies vs Los Angeles Dodgers",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=even6"
         }
       ]
     }
   ],
   "eventos": [
     {
+      "time": "02:00",
+      "time_utc": "2026-07-20T00:00:00.000Z",
+      "match": "MLB – Los Angeles Angels vs St. Louis Cardinals",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=even6"
+        }
+      ]
+    },
+    {
       "time": "11:00",
       "time_utc": "2026-07-20T09:00:00.000Z",
       "match": "Tennis",
@@ -107,6 +172,19 @@
       ]
     },
     {
+      "time": "20:00",
+      "time_utc": "2026-07-20T18:00:00.000Z",
+      "match": "Torque vs Danubio",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
       "time": "23:00",
       "time_utc": "2026-07-20T21:00:00.000Z",
       "match": "Nacional Potosí vs Real Oruro",
@@ -116,6 +194,32 @@
         {
           "name": "Entel TV PLUS+",
           "href": "https://fltvhd.com/online/canales.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-20T21:00:00.000Z",
+      "match": "Defensor Sporting vs Liverpool",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-20T21:00:00.000Z",
+      "match": "MLB – Philadelphia Phillies vs Los Angeles Dodgers",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=even6"
         }
       ]
     }
