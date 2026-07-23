@@ -1,13 +1,13 @@
 {
-  "actualizado_en": "2026-07-22T21:53:43.384Z",
+  "actualizado_en": "2026-07-23T01:23:33.575Z",
   "fecha": "miércoles, 22 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 15,
-  "contar_con_canales": 15,
+  "contar": 11,
+  "contar_con_canales": 11,
   "events": [
     {
       "time": "00:00",
-      "time_utc": "2026-07-21T22:00:00.000Z",
+      "time_utc": "2026-07-22T22:00:00.000Z",
       "match": "MLB – Chicago Cubs vs Detroit Tigers",
       "league": "",
       "flag": "⚽",
@@ -20,7 +20,7 @@
     },
     {
       "time": "00:00",
-      "time_utc": "2026-07-21T22:00:00.000Z",
+      "time_utc": "2026-07-22T22:00:00.000Z",
       "match": "Manta vs LDU Quito",
       "league": "Serie A",
       "flag": "⚽",
@@ -57,20 +57,32 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Lanús vs Cienciano",
       "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 | HD",
-          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
+          "name": "DSports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://fltvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
         }
       ]
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Náutico vs Londrina",
       "league": "Serie B",
       "flag": "⚽",
@@ -80,6 +92,10 @@
           "href": "https://fltvhd.com/online/canales.php?stream=sportv"
         },
         {
+          "name": "Premiere 5 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere5"
+        },
+        {
           "name": "Sportv BR",
           "href": "https://fltvhd.com/canales.php?stream=sportv"
         }
@@ -87,7 +103,7 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Chapecoense vs Flamengo",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -104,7 +120,7 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Internacional vs Cruzeiro",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -121,7 +137,7 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Sporting Cristal vs RB Bragantino",
       "league": "Copa Sudamericana",
       "flag": "⚽",
@@ -137,12 +153,20 @@
         {
           "name": "ESPN AR┃OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
         }
       ]
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Junior vs Barranquilla",
       "league": "Copa Colombia",
       "flag": "⚽",
@@ -167,7 +191,7 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "São Paulo vs Athletico-PR",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -183,160 +207,8 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-22T17:00:00.000Z",
-      "match": "Macará vs Deportivo Cuenca",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "href": "https://fltvhd.com/online/canales.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-07-22T17:30:00.000Z",
-      "match": "MLB – Arizona Diamondbacks vs Oakland Athletics",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://fltvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-22T19:30:00.000Z",
-      "match": "Independiente del Valle vs Técnico Universitario",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-22T20:00:00.000Z",
-      "match": "Medellín vs Vasco da Gama",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://fltvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "ESPN",
-          "href": "https://fltvhd.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN NL",
-          "href": "https://fltvhd.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://fltvhd.com/canales.php?stream=beinsportes"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://fltvhd.com/canales.php?stream=goltv"
-        }
-      ]
-    },
-    {
       "time": "22:30",
-      "time_utc": "2026-07-22T20:30:00.000Z",
+      "time_utc": "2026-07-23T20:30:00.000Z",
       "match": "Coritiba vs Palmeiras",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -349,7 +221,7 @@
     },
     {
       "time": "23:30",
-      "time_utc": "2026-07-22T21:30:00.000Z",
+      "time_utc": "2026-07-23T21:30:00.000Z",
       "match": "New England vs Toronto FC",
       "league": "Major League Soccer",
       "flag": "⚽",
@@ -380,7 +252,7 @@
   "eventos": [
     {
       "time": "00:00",
-      "time_utc": "2026-07-21T22:00:00.000Z",
+      "time_utc": "2026-07-22T22:00:00.000Z",
       "match": "MLB – Chicago Cubs vs Detroit Tigers",
       "league": "",
       "flag": "⚽",
@@ -393,7 +265,7 @@
     },
     {
       "time": "00:00",
-      "time_utc": "2026-07-21T22:00:00.000Z",
+      "time_utc": "2026-07-22T22:00:00.000Z",
       "match": "Manta vs LDU Quito",
       "league": "Serie A",
       "flag": "⚽",
@@ -430,20 +302,32 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Lanús vs Cienciano",
       "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 | HD",
-          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
+          "name": "DSports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://fltvhd.com/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
         }
       ]
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Náutico vs Londrina",
       "league": "Serie B",
       "flag": "⚽",
@@ -453,6 +337,10 @@
           "href": "https://fltvhd.com/online/canales.php?stream=sportv"
         },
         {
+          "name": "Premiere 5 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere5"
+        },
+        {
           "name": "Sportv BR",
           "href": "https://fltvhd.com/canales.php?stream=sportv"
         }
@@ -460,7 +348,7 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Chapecoense vs Flamengo",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -477,7 +365,7 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Internacional vs Cruzeiro",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -494,7 +382,7 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Sporting Cristal vs RB Bragantino",
       "league": "Copa Sudamericana",
       "flag": "⚽",
@@ -510,12 +398,20 @@
         {
           "name": "ESPN AR┃OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
         }
       ]
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "Junior vs Barranquilla",
       "league": "Copa Colombia",
       "flag": "⚽",
@@ -540,7 +436,7 @@
     },
     {
       "time": "00:30",
-      "time_utc": "2026-07-21T22:30:00.000Z",
+      "time_utc": "2026-07-22T22:30:00.000Z",
       "match": "São Paulo vs Athletico-PR",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -556,160 +452,8 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-22T17:00:00.000Z",
-      "match": "Macará vs Deportivo Cuenca",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "href": "https://fltvhd.com/online/canales.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-07-22T17:30:00.000Z",
-      "match": "MLB – Arizona Diamondbacks vs Oakland Athletics",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://fltvhd.com/canales.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-22T19:30:00.000Z",
-      "match": "Independiente del Valle vs Técnico Universitario",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://fltvhd.com/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-22T20:00:00.000Z",
-      "match": "Medellín vs Vasco da Gama",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD1",
-          "href": "https://tvhd1.com/canales/dsportsar.php"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://fltvhd.com/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
-        },
-        {
-          "name": "ESPN",
-          "href": "https://fltvhd.com/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN NL",
-          "href": "https://fltvhd.com/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=espn1_nl"
-        },
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://fltvhd.com/canales.php?stream=beinsportes"
-        },
-        {
-          "name": "Deportes TV. C",
-          "href": "https://fltvhd.com/canales.php?stream=goltv"
-        }
-      ]
-    },
-    {
       "time": "22:30",
-      "time_utc": "2026-07-22T20:30:00.000Z",
+      "time_utc": "2026-07-23T20:30:00.000Z",
       "match": "Coritiba vs Palmeiras",
       "league": "Brasileirão",
       "flag": "⚽",
@@ -722,7 +466,7 @@
     },
     {
       "time": "23:30",
-      "time_utc": "2026-07-22T21:30:00.000Z",
+      "time_utc": "2026-07-23T21:30:00.000Z",
       "match": "New England vs Toronto FC",
       "league": "Major League Soccer",
       "flag": "⚽",
