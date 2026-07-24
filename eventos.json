@@ -1,9 +1,1067 @@
 {
-  "actualizado_en": "2026-07-24T05:39:15.666Z",
+  "actualizado_en": "2026-07-24T08:02:51.499Z",
   "fecha": "viernes, 24 de julio",
-  "fuente": "none",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "fuente": "futbollibres-puppeteer",
+  "contar": 24,
+  "contar_con_canales": 24,
+  "events": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-23T22:00:00.000Z",
+      "match": "ESPN Knockout – LFA 237 – Carlos Tardio vs. Mackson Lee",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-07-23T22:15:00.000Z",
+      "match": "Platense vs Unión Santa Fe",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://fltvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-07-23T22:15:00.000Z",
+      "match": "Huracán vs Banfield",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://fltvhd.com/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-23T22:30:00.000Z",
+      "match": "Cruzeiro vs São Paulo",
+      "league": "Brasileiro Femenino",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://fltvhd.com/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-23T22:30:00.000Z",
+      "match": "Colo-Colo vs Deportes Limache",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://fltvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-23T22:30:00.000Z",
+      "match": "Deportes Iquique vs Deportes Temuco",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://fltvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "01:15",
+      "time_utc": "2026-07-23T23:15:00.000Z",
+      "match": "Deportivo Cali vs Jaguares de Córdoba",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://fltvhd.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-07-23T23:30:00.000Z",
+      "match": "Universitario vs Cusco",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1MAX",
+          "href": "https://fltvhd.com/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-07-24T01:00:00.000Z",
+      "match": "Atlante vs América",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://fltvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "ESPN MX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX",
+          "href": "https://fltvhd.com/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espnmx"
+        },
+        {
+          "name": "Azteca 7 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://fltvhd.com/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=azteca7"
+        }
+      ]
+    },
+    {
+      "time": "11:25",
+      "time_utc": "2026-07-24T09:25:00.000Z",
+      "match": "F1 GP Hungría – Práctica #1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "14:55",
+      "time_utc": "2026-07-24T12:55:00.000Z",
+      "match": "F1 GP Hungría – Práctica #2",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-07-24T17:45:00.000Z",
+      "match": "Gimnasia Mendoza vs Central Córdoba SdE",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://fltvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-07-24T18:00:00.000Z",
+      "match": "Alianza Atlético vs Los Chankas",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1MAX",
+          "href": "https://fltvhd.com/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "21:05",
+      "time_utc": "2026-07-24T19:05:00.000Z",
+      "match": "Deportes Quindío vs Boca Juniors de Cali",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://fltvhd.com/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-24T20:00:00.000Z",
+      "match": "Vélez Sarsfield vs Instituto",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://fltvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-24T20:00:00.000Z",
+      "match": "Unión La Calera vs Everton",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://fltvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-24T20:00:00.000Z",
+      "match": "Racing Club vs Gimnasia La Plata",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://fltvhd.com/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://fltvhd.com/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-24T20:00:00.000Z",
+      "match": "Flamengo vs Grêmio",
+      "league": "Brasileiro Femenino",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://fltvhd.com/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-07-24T20:30:00.000Z",
+      "match": "Nacional vs Progreso",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-24T21:00:00.000Z",
+      "match": "Tigres vs Leones",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://fltvhd.com/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-24T21:00:00.000Z",
+      "match": "MLB – New York Mets vs Los Angeles Dodgers",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5",
+          "href": "https://fltvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-24T21:00:00.000Z",
+      "match": "Aurora vs ABB",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://fltvhd.com/online/canales.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "23:10",
+      "time_utc": "2026-07-24T21:10:00.000Z",
+      "match": "Llaneros vs Deportivo Pereira",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://fltvhd.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-07-24T21:30:00.000Z",
+      "match": "ESPN Knockout –",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-23T22:00:00.000Z",
+      "match": "ESPN Knockout – LFA 237 – Carlos Tardio vs. Mackson Lee",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-07-23T22:15:00.000Z",
+      "match": "Platense vs Unión Santa Fe",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://fltvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-07-23T22:15:00.000Z",
+      "match": "Huracán vs Banfield",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://fltvhd.com/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-23T22:30:00.000Z",
+      "match": "Cruzeiro vs São Paulo",
+      "league": "Brasileiro Femenino",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://fltvhd.com/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-23T22:30:00.000Z",
+      "match": "Colo-Colo vs Deportes Limache",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://fltvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-23T22:30:00.000Z",
+      "match": "Deportes Iquique vs Deportes Temuco",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://fltvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "01:15",
+      "time_utc": "2026-07-23T23:15:00.000Z",
+      "match": "Deportivo Cali vs Jaguares de Córdoba",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://fltvhd.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-07-23T23:30:00.000Z",
+      "match": "Universitario vs Cusco",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1MAX",
+          "href": "https://fltvhd.com/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-07-24T01:00:00.000Z",
+      "match": "Atlante vs América",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://fltvhd.com/canales.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://tvhd2.com/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "ESPN MX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX",
+          "href": "https://fltvhd.com/canales.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espnmx"
+        },
+        {
+          "name": "Azteca 7 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://fltvhd.com/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=azteca7"
+        }
+      ]
+    },
+    {
+      "time": "11:25",
+      "time_utc": "2026-07-24T09:25:00.000Z",
+      "match": "F1 GP Hungría – Práctica #1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "14:55",
+      "time_utc": "2026-07-24T12:55:00.000Z",
+      "match": "F1 GP Hungría – Práctica #2",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-07-24T17:45:00.000Z",
+      "match": "Gimnasia Mendoza vs Central Córdoba SdE",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://fltvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-07-24T18:00:00.000Z",
+      "match": "Alianza Atlético vs Los Chankas",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1MAX",
+          "href": "https://fltvhd.com/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "21:05",
+      "time_utc": "2026-07-24T19:05:00.000Z",
+      "match": "Deportes Quindío vs Boca Juniors de Cali",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://fltvhd.com/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-24T20:00:00.000Z",
+      "match": "Vélez Sarsfield vs Instituto",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://fltvhd.com/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-24T20:00:00.000Z",
+      "match": "Unión La Calera vs Everton",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://fltvhd.com/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-24T20:00:00.000Z",
+      "match": "Racing Club vs Gimnasia La Plata",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://fltvhd.com/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://fltvhd.com/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-24T20:00:00.000Z",
+      "match": "Flamengo vs Grêmio",
+      "league": "Brasileiro Femenino",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://fltvhd.com/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-07-24T20:30:00.000Z",
+      "match": "Nacional vs Progreso",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-24T21:00:00.000Z",
+      "match": "Tigres vs Leones",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://fltvhd.com/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-24T21:00:00.000Z",
+      "match": "MLB – New York Mets vs Los Angeles Dodgers",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5",
+          "href": "https://fltvhd.com/canales.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-07-24T21:00:00.000Z",
+      "match": "Aurora vs ABB",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://fltvhd.com/online/canales.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "23:10",
+      "time_utc": "2026-07-24T21:10:00.000Z",
+      "match": "Llaneros vs Deportivo Pereira",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://fltvhd.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-07-24T21:30:00.000Z",
+      "match": "ESPN Knockout –",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://fltvhd.com/online/canal.php?stream=espn2"
+        }
+      ]
+    }
+  ]
 }
