@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-25T12:59:50.627Z",
+  "actualizado_en": "2026-07-25T15:54:22.048Z",
   "fecha": "sábado, 25 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 41,
-  "contar_con_canales": 35,
+  "contar": 46,
+  "contar_con_canales": 42,
   "events": [
     {
       "time": "00:00",
@@ -293,6 +293,35 @@
       ]
     },
     {
+      "time": "14:00",
+      "time_utc": "2026-07-25T20:00:00.000Z",
+      "match": "GP Gran Hungria - Clasificacion",
+      "league": "F1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports",
+          "href": "https://fltvhd.com/canales.php?stream=foxsports"
+        },
+        {
+          "name": "ESPN",
+          "href": "https://fltvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "Fox Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=foxsports"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
       "time": "15:00",
       "time_utc": "2026-07-25T21:00:00.000Z",
       "match": "Central Español vs Liverpool",
@@ -302,6 +331,31 @@
         {
           "name": "Disney+",
           "href": "https://fltvhd.com/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "15:30",
+      "time_utc": "2026-07-25T21:30:00.000Z",
+      "match": "Sport Boys vs ADT",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1MAX",
+          "href": "https://fltvhd.com/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
         }
       ]
     },
@@ -412,6 +466,19 @@
         {
           "name": "Entel TV PLUS+",
           "href": "https://fltvhd.com/online/canales.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-07-26T01:00:00.000Z",
+      "match": "Deportivo Recoleta vs Sportivo San Lorenzo",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 03",
+          "href": "https://fltvhd.com/canales.php?stream=fanatiz3"
         }
       ]
     },
@@ -574,8 +641,16 @@
           "href": "https://fltvhd.com/online/canales.php?stream=sportv"
         },
         {
+          "name": "Premiere BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere1"
+        },
+        {
           "name": "Sportv BR",
           "href": "https://fltvhd.com/canales.php?stream=sportv"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere1"
         }
       ]
     },
@@ -603,10 +678,53 @@
     {
       "time": "21:30",
       "time_utc": "2026-07-26T03:30:00.000Z",
+      "match": "Sportivo Ameliano vs Nacional Asunción",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 08",
+          "href": "https://fltvhd.com/canales.php?stream=fanatiz8"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-07-26T03:30:00.000Z",
       "match": "Athletico-PR vs Internacional",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Amazon Prime C",
+          "href": "https://fltvhd.com/canales.php?stream=amazon_prime1"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-26T04:00:00.000Z",
+      "match": "Liverpool vs Sunderland",
+      "league": "Partido Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://fltvhd.com/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espndeportes"
+        }
+      ]
     },
     {
       "time": "22:15",
@@ -628,6 +746,10 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney7"
+        },
+        {
           "name": "TNT Sports",
           "href": "https://fltvhd.com/canales.php?stream=tntsports"
         },
@@ -638,31 +760,6 @@
         {
           "name": "TNT Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:30",
-      "time_utc": "2026-07-26T04:30:00.000Z",
-      "match": "Sport Boys vs ADT",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1MAX",
-          "href": "https://fltvhd.com/canales.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
         }
       ]
     },
@@ -774,6 +871,31 @@
     {
       "time": "23:30",
       "time_utc": "2026-07-26T05:30:00.000Z",
+      "match": "Wrexham vs Leeds United",
+      "league": "Partido Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://fltvhd.com/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espndeportes"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-07-26T05:30:00.000Z",
       "match": "Independiente Petrolero vs Oriente Petrolero",
       "league": "Primera División",
       "flag": "⚽",
@@ -790,7 +912,16 @@
       "match": "Vasco da Gama vs Mirassol",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Premiere 2 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Premiere 2 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere2"
+        }
+      ]
     }
   ],
   "eventos": [
@@ -1082,6 +1213,35 @@
       ]
     },
     {
+      "time": "14:00",
+      "time_utc": "2026-07-25T20:00:00.000Z",
+      "match": "GP Gran Hungria - Clasificacion",
+      "league": "F1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports",
+          "href": "https://fltvhd.com/canales.php?stream=foxsports"
+        },
+        {
+          "name": "ESPN",
+          "href": "https://fltvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "Fox Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=foxsports"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espn"
+        }
+      ]
+    },
+    {
       "time": "15:00",
       "time_utc": "2026-07-25T21:00:00.000Z",
       "match": "Central Español vs Liverpool",
@@ -1091,6 +1251,31 @@
         {
           "name": "Disney+",
           "href": "https://fltvhd.com/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "15:30",
+      "time_utc": "2026-07-25T21:30:00.000Z",
+      "match": "Sport Boys vs ADT",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1MAX | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1MAX",
+          "href": "https://fltvhd.com/canales.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1Max | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
         }
       ]
     },
@@ -1201,6 +1386,19 @@
         {
           "name": "Entel TV PLUS+",
           "href": "https://fltvhd.com/online/canales.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-07-26T01:00:00.000Z",
+      "match": "Deportivo Recoleta vs Sportivo San Lorenzo",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 03",
+          "href": "https://fltvhd.com/canales.php?stream=fanatiz3"
         }
       ]
     },
@@ -1363,8 +1561,16 @@
           "href": "https://fltvhd.com/online/canales.php?stream=sportv"
         },
         {
+          "name": "Premiere BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere1"
+        },
+        {
           "name": "Sportv BR",
           "href": "https://fltvhd.com/canales.php?stream=sportv"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere1"
         }
       ]
     },
@@ -1392,10 +1598,53 @@
     {
       "time": "21:30",
       "time_utc": "2026-07-26T03:30:00.000Z",
+      "match": "Sportivo Ameliano vs Nacional Asunción",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 08",
+          "href": "https://fltvhd.com/canales.php?stream=fanatiz8"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-07-26T03:30:00.000Z",
       "match": "Athletico-PR vs Internacional",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Amazon Prime C",
+          "href": "https://fltvhd.com/canales.php?stream=amazon_prime1"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-26T04:00:00.000Z",
+      "match": "Liverpool vs Sunderland",
+      "league": "Partido Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://fltvhd.com/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espndeportes"
+        }
+      ]
     },
     {
       "time": "22:15",
@@ -1417,6 +1666,10 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney7"
+        },
+        {
           "name": "TNT Sports",
           "href": "https://fltvhd.com/canales.php?stream=tntsports"
         },
@@ -1427,31 +1680,6 @@
         {
           "name": "TNT Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:30",
-      "time_utc": "2026-07-26T04:30:00.000Z",
-      "match": "Sport Boys vs ADT",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1MAX",
-          "href": "https://fltvhd.com/canales.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=liga1max"
         }
       ]
     },
@@ -1563,6 +1791,31 @@
     {
       "time": "23:30",
       "time_utc": "2026-07-26T05:30:00.000Z",
+      "match": "Wrexham vs Leeds United",
+      "league": "Partido Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://fltvhd.com/canales.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=espndeportes"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-07-26T05:30:00.000Z",
       "match": "Independiente Petrolero vs Oriente Petrolero",
       "league": "Primera División",
       "flag": "⚽",
@@ -1579,7 +1832,16 @@
       "match": "Vasco da Gama vs Mirassol",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Premiere 2 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Premiere 2 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere2"
+        }
+      ]
     }
   ]
 }
