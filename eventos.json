@@ -1,10 +1,26 @@
 {
-  "actualizado_en": "2026-07-25T10:19:37.073Z",
+  "actualizado_en": "2026-07-25T12:54:25.686Z",
   "fecha": "sábado, 25 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 36,
-  "contar_con_canales": 34,
+  "contar": 41,
+  "contar_con_canales": 35,
   "events": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-24T22:00:00.000Z",
+      "match": "UMECIT vs Alianza",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-24T22:00:00.000Z",
+      "match": "Inca Aruba vs Alianza",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
     {
       "time": "00:00",
       "time_utc": "2026-07-24T22:00:00.000Z",
@@ -92,20 +108,16 @@
           "href": "https://fltvhd.com/vivo/canal.php?stream=tudn"
         },
         {
-          "name": "Universo",
-          "href": "https://fltvhd.com/canales.php?stream=universo"
-        },
-        {
           "name": "TUDN USA | OP3",
           "href": "https://tvhd2.com/vivo/canales.php?stream=tudn"
         },
         {
-          "name": "Universo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=universo"
-        },
-        {
           "name": "Canal 5 MX",
           "href": "https://fltvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "Univision",
+          "href": "https://fltvhd.com/canales.php?stream=univision"
         }
       ]
     },
@@ -224,6 +236,46 @@
         {
           "name": "Telemundo",
           "href": "https://fltvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Azteca 7 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://fltvhd.com/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Universo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=universo"
+        },
+        {
+          "name": "Universo",
+          "href": "https://fltvhd.com/canales.php?stream=universo"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://fltvhd.com/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
@@ -249,7 +301,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -262,7 +314,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
+          "href": "https://fltvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -284,6 +336,31 @@
         {
           "name": "TNT Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-07-25T16:00:00.000Z",
+      "match": "Standard Lieja vs Juventus",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://fltvhd.com/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
@@ -408,6 +485,14 @@
     {
       "time": "21:00",
       "time_utc": "2026-07-25T19:00:00.000Z",
+      "match": "Atlético Balboa vs Inter",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-25T19:00:00.000Z",
       "match": "Boyacá Chicó vs Atlético Nacional",
       "league": "Primera A",
       "flag": "⚽",
@@ -429,6 +514,14 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=winsports2"
         }
       ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-25T19:00:00.000Z",
+      "match": "Cacahuatique vs Isidro Metapán",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
     },
     {
       "time": "21:00",
@@ -704,6 +797,22 @@
     {
       "time": "00:00",
       "time_utc": "2026-07-24T22:00:00.000Z",
+      "match": "UMECIT vs Alianza",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-24T22:00:00.000Z",
+      "match": "Inca Aruba vs Alianza",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-24T22:00:00.000Z",
       "match": "Universidad Católica vs La Serena",
       "league": "Primera División",
       "flag": "⚽",
@@ -788,20 +897,16 @@
           "href": "https://fltvhd.com/vivo/canal.php?stream=tudn"
         },
         {
-          "name": "Universo",
-          "href": "https://fltvhd.com/canales.php?stream=universo"
-        },
-        {
           "name": "TUDN USA | OP3",
           "href": "https://tvhd2.com/vivo/canales.php?stream=tudn"
         },
         {
-          "name": "Universo | HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=universo"
-        },
-        {
           "name": "Canal 5 MX",
           "href": "https://fltvhd.com/canales.php?stream=canal5"
+        },
+        {
+          "name": "Univision",
+          "href": "https://fltvhd.com/canales.php?stream=univision"
         }
       ]
     },
@@ -920,6 +1025,46 @@
         {
           "name": "Telemundo",
           "href": "https://fltvhd.com/canales.php?stream=telemundo"
+        },
+        {
+          "name": "Azteca 7 | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7",
+          "href": "https://fltvhd.com/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=azteca7"
+        },
+        {
+          "name": "Universo | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=universo"
+        },
+        {
+          "name": "Universo",
+          "href": "https://fltvhd.com/canales.php?stream=universo"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://fltvhd.com/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
@@ -945,7 +1090,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
         }
       ]
     },
@@ -958,7 +1103,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
+          "href": "https://fltvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -980,6 +1125,31 @@
         {
           "name": "TNT Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-07-25T16:00:00.000Z",
+      "match": "Standard Lieja vs Juventus",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://fltvhd.com/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
@@ -1104,6 +1274,14 @@
     {
       "time": "21:00",
       "time_utc": "2026-07-25T19:00:00.000Z",
+      "match": "Atlético Balboa vs Inter",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-25T19:00:00.000Z",
       "match": "Boyacá Chicó vs Atlético Nacional",
       "league": "Primera A",
       "flag": "⚽",
@@ -1125,6 +1303,14 @@
           "href": "https://fltvhd.com/vivo/canales.php?stream=winsports2"
         }
       ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-25T19:00:00.000Z",
+      "match": "Cacahuatique vs Isidro Metapán",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
     },
     {
       "time": "21:00",
