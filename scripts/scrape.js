@@ -5,22 +5,23 @@ const path      = require('path');
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // URL del sitio - cambiar aquí si vuelve a moverse el dominio
-const SITE_URL = process.env.SITE_URL || 'https://futbollibres.com.pe/';
+const SITE_URL = process.env.SITE_URL || 'https://futbollibretv.net.pe/agenda';
 
-// Convierte "19:00" (hora España, Europe/Madrid) a ISO UTC
-// Detecta automáticamente si es verano (UTC+2) o invierno (UTC+1)
-function timeColombiaToUTC(timeStr) {
+// Convierte "19:00" (hora México, America/Mexico_City) a ISO UTC
+// Detecta automáticamente el offset vigente (México ya no usa horario de verano
+// desde 2022, pero se calcula dinámicamente por si cambia o por zonas fronterizas)
+function timeMexicoToUTC(timeStr) {
   const [h, m] = timeStr.split(':').map(Number);
   const now = new Date();
-  // Obtener la fecha actual en Madrid
-  const madridNow = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Madrid' }));
-  // Calcular offset Madrid vs UTC en horas (1 o 2)
-  const madridOffset = Math.round((madridNow - now) / 3600000);
+  // Obtener la fecha/hora actual en Ciudad de México
+  const mexicoNow = new Date(now.toLocaleString('en-US', { timeZone: 'America/Mexico_City' }));
+  // Calcular offset México vs UTC en horas (normalmente -6)
+  const mexicoOffset = Math.round((mexicoNow - now) / 3600000);
   const utc = new Date(Date.UTC(
-    madridNow.getFullYear(),
-    madridNow.getMonth(),
-    madridNow.getDate(),
-    h - madridOffset,
+    mexicoNow.getFullYear(),
+    mexicoNow.getMonth(),
+    mexicoNow.getDate(),
+    h - mexicoOffset,
     m
   ));
   return utc.toISOString();
@@ -101,9 +102,11 @@ async function scrapeFutbolLibre() {
     }
 
     if (!horasDetectadas) {
-      const horaColombia = new Date(Date.now() - 5 * 3600_000).getUTCHours();
-      if (horaColombia < 8) {
-        console.log(`[PUP] Son las ${horaColombia}h Colombia — normal que no haya eventos aún.`);
+      const horaMexico = Number(new Date().toLocaleString('en-US', {
+        timeZone: 'America/Mexico_City', hour: '2-digit', hour12: false
+      }));
+      if (horaMexico < 8) {
+        console.log(`[PUP] Son las ${horaMexico}h México — normal que no haya eventos aún.`);
       } else {
         console.warn('[PUP] Sin horas en horario activo — posible cambio en la web.');
       }
@@ -299,7 +302,7 @@ async function scrapeFutbolLibre() {
 
       events.push({
         time     : result.time,
-        time_utc : timeColombiaToUTC(result.time),
+        time_utc : timeMexicoToUTC(result.time),
         match    : result.match,
         league   : result.league,
         flag     : '⚽',
