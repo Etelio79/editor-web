@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-26T12:51:29.056Z",
+  "actualizado_en": "2026-07-26T15:52:18.499Z",
   "fecha": "domingo, 26 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 42,
-  "contar_con_canales": 38,
+  "contar": 43,
+  "contar_con_canales": 41,
   "events": [
     {
       "time": "00:00",
@@ -181,6 +181,27 @@
       ]
     },
     {
+      "time": "13:00",
+      "time_utc": "2026-07-26T19:00:00.000Z",
+      "match": "F1 | GP Gran Hungría: Race HUB",
+      "league": "F1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney3"
+        }
+      ]
+    },
+    {
       "time": "15:00",
       "time_utc": "2026-07-26T21:00:00.000Z",
       "match": "Fénix vs Atenas",
@@ -189,7 +210,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
+          "href": "https://fltvhd.com/canales.php?stream=disney6"
         }
       ]
     },
@@ -217,10 +238,27 @@
     {
       "time": "18:00",
       "time_utc": "2026-07-27T00:00:00.000Z",
+      "match": "Cerro vs Racing",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-07-27T00:00:00.000Z",
       "match": "Atlético Tucumán vs Independiente Rivadavia",
       "league": "Liga Profesional",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ESPN Premium┃HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espnpremium"
+        },
         {
           "name": "ESPN Premium",
           "href": "https://fltvhd.com/canales.php?stream=espnpremium"
@@ -232,16 +270,7 @@
         {
           "name": "ESPN Premium┃OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=espnpremium"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-07-27T00:00:00.000Z",
-      "match": "Cerro vs Racing",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
+        },
         {
           "name": "Disney+",
           "href": "https://fltvhd.com/canales.php?stream=disney1"
@@ -340,6 +369,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Premiere BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere1"
+        },
+        {
           "name": "Premiere BR",
           "href": "https://fltvhd.com/canales.php?stream=premiere1"
         }
@@ -389,31 +422,6 @@
     {
       "time": "19:00",
       "time_utc": "2026-07-27T01:00:00.000Z",
-      "match": "Cruzeiro vs Botafogo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://fltvhd.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-07-27T01:00:00.000Z",
       "match": "Ñublense vs Palestino",
       "league": "Primera División",
       "flag": "⚽",
@@ -435,14 +443,6 @@
     {
       "time": "19:00",
       "time_utc": "2026-07-27T01:00:00.000Z",
-      "match": "Olimpia vs Libertad",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-07-27T01:00:00.000Z",
       "match": "São Bernardo vs Ceará",
       "league": "Serie B",
       "flag": "⚽",
@@ -458,12 +458,62 @@
       ]
     },
     {
+      "time": "19:00",
+      "time_utc": "2026-07-27T01:00:00.000Z",
+      "match": "Cruzeiro vs Botafogo",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Premiere 2 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Premiere 2 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://fltvhd.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-07-27T01:00:00.000Z",
+      "match": "Olimpia vs Libertad",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 06",
+          "href": "https://fltvhd.com/canales.php?stream=fanatiz6"
+        }
+      ]
+    },
+    {
       "time": "20:15",
       "time_utc": "2026-07-27T02:15:00.000Z",
       "match": "Estudiantes vs Independiente",
       "league": "Liga Profesional",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "TNT Sports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tntsports"
+        },
         {
           "name": "TNT Sports",
           "href": "https://fltvhd.com/canales.php?stream=tntsports"
@@ -475,6 +525,10 @@
         {
           "name": "TNT Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -585,32 +639,6 @@
     {
       "time": "21:30",
       "time_utc": "2026-07-27T03:30:00.000Z",
-      "match": "Flamengo vs São Paulo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-27T03:30:00.000Z",
-      "match": "RB Bragantino vs Coritiba",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-27T03:30:00.000Z",
       "match": "Audax Italiano vs Universidad Chile",
       "league": "Primera División",
       "flag": "⚽",
@@ -632,10 +660,31 @@
     {
       "time": "21:30",
       "time_utc": "2026-07-27T03:30:00.000Z",
-      "match": "Grêmio vs Fluminense",
+      "match": "RB Bragantino vs Coritiba",
       "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Premiere 3 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere3"
+        },
+        {
+          "name": "Premiere 3 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere3"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-07-27T03:30:00.000Z",
+      "match": "Flamengo vs São Paulo",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere1"
+        },
         {
           "name": "Premiere BR",
           "href": "https://fltvhd.com/canales.php?stream=premiere1"
@@ -648,7 +697,29 @@
       "match": "Guaraní vs Sportivo Luqueño",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Fanatiz 10",
+          "href": "https://fltvhd.com/canales.php?stream=fanatiz10"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-07-27T03:30:00.000Z",
+      "match": "Grêmio vs Fluminense",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Premiere 2 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Premiere 2 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere2"
+        }
+      ]
     },
     {
       "time": "22:30",
@@ -658,8 +729,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
+          "name": "Premiere 5 BR I HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere5"
+        },
+        {
+          "name": "Premiere 5 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere5"
         }
       ]
     },
@@ -672,7 +747,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
+          "href": "https://fltvhd.com/canales.php?stream=disney4"
         }
       ]
     },
@@ -993,6 +1068,27 @@
       ]
     },
     {
+      "time": "13:00",
+      "time_utc": "2026-07-26T19:00:00.000Z",
+      "match": "F1 | GP Gran Hungría: Race HUB",
+      "league": "F1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney3"
+        }
+      ]
+    },
+    {
       "time": "15:00",
       "time_utc": "2026-07-26T21:00:00.000Z",
       "match": "Fénix vs Atenas",
@@ -1001,7 +1097,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
+          "href": "https://fltvhd.com/canales.php?stream=disney6"
         }
       ]
     },
@@ -1029,10 +1125,27 @@
     {
       "time": "18:00",
       "time_utc": "2026-07-27T00:00:00.000Z",
+      "match": "Cerro vs Racing",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-07-27T00:00:00.000Z",
       "match": "Atlético Tucumán vs Independiente Rivadavia",
       "league": "Liga Profesional",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ESPN Premium┃HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=espnpremium"
+        },
         {
           "name": "ESPN Premium",
           "href": "https://fltvhd.com/canales.php?stream=espnpremium"
@@ -1044,16 +1157,7 @@
         {
           "name": "ESPN Premium┃OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=espnpremium"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-07-27T00:00:00.000Z",
-      "match": "Cerro vs Racing",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
+        },
         {
           "name": "Disney+",
           "href": "https://fltvhd.com/canales.php?stream=disney1"
@@ -1152,6 +1256,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Premiere BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere1"
+        },
+        {
           "name": "Premiere BR",
           "href": "https://fltvhd.com/canales.php?stream=premiere1"
         }
@@ -1201,31 +1309,6 @@
     {
       "time": "19:00",
       "time_utc": "2026-07-27T01:00:00.000Z",
-      "match": "Cruzeiro vs Botafogo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports HD",
-          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://fltvhd.com/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-07-27T01:00:00.000Z",
       "match": "Ñublense vs Palestino",
       "league": "Primera División",
       "flag": "⚽",
@@ -1247,14 +1330,6 @@
     {
       "time": "19:00",
       "time_utc": "2026-07-27T01:00:00.000Z",
-      "match": "Olimpia vs Libertad",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-07-27T01:00:00.000Z",
       "match": "São Bernardo vs Ceará",
       "league": "Serie B",
       "flag": "⚽",
@@ -1270,12 +1345,62 @@
       ]
     },
     {
+      "time": "19:00",
+      "time_utc": "2026-07-27T01:00:00.000Z",
+      "match": "Cruzeiro vs Botafogo",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Premiere 2 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Premiere 2 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://fltvhd.com/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://fltvhd.com/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://fltvhd.com/vivo/canales.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-07-27T01:00:00.000Z",
+      "match": "Olimpia vs Libertad",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 06",
+          "href": "https://fltvhd.com/canales.php?stream=fanatiz6"
+        }
+      ]
+    },
+    {
       "time": "20:15",
       "time_utc": "2026-07-27T02:15:00.000Z",
       "match": "Estudiantes vs Independiente",
       "league": "Liga Profesional",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "TNT Sports | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=tntsports"
+        },
         {
           "name": "TNT Sports",
           "href": "https://fltvhd.com/canales.php?stream=tntsports"
@@ -1287,6 +1412,10 @@
         {
           "name": "TNT Sports | OP3",
           "href": "https://fltvhd.com/vivo/canales.php?stream=tntsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://fltvhd.com/canales.php?stream=disney3"
         }
       ]
     },
@@ -1397,32 +1526,6 @@
     {
       "time": "21:30",
       "time_utc": "2026-07-27T03:30:00.000Z",
-      "match": "Flamengo vs São Paulo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-27T03:30:00.000Z",
-      "match": "RB Bragantino vs Coritiba",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-27T03:30:00.000Z",
       "match": "Audax Italiano vs Universidad Chile",
       "league": "Primera División",
       "flag": "⚽",
@@ -1444,10 +1547,31 @@
     {
       "time": "21:30",
       "time_utc": "2026-07-27T03:30:00.000Z",
-      "match": "Grêmio vs Fluminense",
+      "match": "RB Bragantino vs Coritiba",
       "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Premiere 3 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere3"
+        },
+        {
+          "name": "Premiere 3 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere3"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-07-27T03:30:00.000Z",
+      "match": "Flamengo vs São Paulo",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere1"
+        },
         {
           "name": "Premiere BR",
           "href": "https://fltvhd.com/canales.php?stream=premiere1"
@@ -1460,7 +1584,29 @@
       "match": "Guaraní vs Sportivo Luqueño",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Fanatiz 10",
+          "href": "https://fltvhd.com/canales.php?stream=fanatiz10"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-07-27T03:30:00.000Z",
+      "match": "Grêmio vs Fluminense",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Premiere 2 BR | HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere2"
+        },
+        {
+          "name": "Premiere 2 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere2"
+        }
+      ]
     },
     {
       "time": "22:30",
@@ -1470,8 +1616,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Premiere BR",
-          "href": "https://fltvhd.com/canales.php?stream=premiere1"
+          "name": "Premiere 5 BR I HD",
+          "href": "https://fltvhd.com/online/canales.php?stream=premiere5"
+        },
+        {
+          "name": "Premiere 5 BR",
+          "href": "https://fltvhd.com/canales.php?stream=premiere5"
         }
       ]
     },
@@ -1484,7 +1634,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://fltvhd.com/canales.php?stream=disney1"
+          "href": "https://fltvhd.com/canales.php?stream=disney4"
         }
       ]
     },
