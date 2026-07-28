@@ -1,9 +1,649 @@
 {
-  "actualizado_en": "2026-07-28T16:27:15.267Z",
+  "actualizado_en": "2026-07-28T19:01:16.038Z",
   "fecha": "martes, 28 de julio",
-  "fuente": "none",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "fuente": "futbollibres-puppeteer",
+  "contar": 15,
+  "contar_con_canales": 15,
+  "events": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-28T06:00:00.000Z",
+      "match": "Hankook Verdes vs Motagua",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-07-28T06:15:00.000Z",
+      "match": "Argentinos Juniors vs Estudiantes Río Cuarto",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-07-28T06:15:00.000Z",
+      "match": "Rosario Central vs. Racing Club",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney4"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://futbollibre.ch/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-28T06:30:00.000Z",
+      "match": "Santos vs UCV",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney5"
+        },
+        {
+          "name": "ESPN NL",
+          "href": "https://futbollibre.ch/canales.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn1_nl"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-07-28T07:30:00.000Z",
+      "match": "Tigres vs Atlético Nacional",
+      "league": "Liga Betplay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-07-28T08:00:00.000Z",
+      "match": "Diriangén vs Plaza Amador",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-07-28T08:00:00.000Z",
+      "match": "Olimpia vs Mixco",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-07-28T08:00:00.000Z",
+      "match": "El Salvador vs Estados Unidos",
+      "league": "Campeonato Sub-20",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2 USA",
+          "href": "https://futbollibre.ch/canales.php?stream=foxsports2_usa"
+        },
+        {
+          "name": "Fox Sports 2 USA | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=foxsports2_usa"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-07-29T01:00:00.000Z",
+      "match": "Rubio Ñú vs Sportivo Ameliano",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz1"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-29T03:00:00.000Z",
+      "match": "Haití  vs Cuba",
+      "league": "Campeonato Sub-20",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2 USA",
+          "href": "https://futbollibre.ch/canales.php?stream=foxsports2_usa"
+        },
+        {
+          "name": "Fox Sports 2 USA | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=foxsports2_usa"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-07-29T03:30:00.000Z",
+      "match": "2 de Mayo vs Cerro Porteño",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz2"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-29T04:00:00.000Z",
+      "match": "San Lorenzo vs Gimnasia Mendoza",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-29T04:00:00.000Z",
+      "match": "Banfield vs Sarmiento",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-29T04:00:00.000Z",
+      "match": "Tigre vs Nacional",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "23:15",
+      "time_utc": "2026-07-29T05:15:00.000Z",
+      "match": "Deportes Quindío vs Deportes Tolima",
+      "league": "Liga Colombia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-07-28T06:00:00.000Z",
+      "match": "Hankook Verdes vs Motagua",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-07-28T06:15:00.000Z",
+      "match": "Argentinos Juniors vs Estudiantes Río Cuarto",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-07-28T06:15:00.000Z",
+      "match": "Rosario Central vs. Racing Club",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney4"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://futbollibre.ch/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-28T06:30:00.000Z",
+      "match": "Santos vs UCV",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney5"
+        },
+        {
+          "name": "ESPN NL",
+          "href": "https://futbollibre.ch/canales.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn1_nl"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-07-28T07:30:00.000Z",
+      "match": "Tigres vs Atlético Nacional",
+      "league": "Liga Betplay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-07-28T08:00:00.000Z",
+      "match": "Diriangén vs Plaza Amador",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-07-28T08:00:00.000Z",
+      "match": "Olimpia vs Mixco",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-07-28T08:00:00.000Z",
+      "match": "El Salvador vs Estados Unidos",
+      "league": "Campeonato Sub-20",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2 USA",
+          "href": "https://futbollibre.ch/canales.php?stream=foxsports2_usa"
+        },
+        {
+          "name": "Fox Sports 2 USA | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=foxsports2_usa"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-07-29T01:00:00.000Z",
+      "match": "Rubio Ñú vs Sportivo Ameliano",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz1"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-07-29T03:00:00.000Z",
+      "match": "Haití  vs Cuba",
+      "league": "Campeonato Sub-20",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2 USA",
+          "href": "https://futbollibre.ch/canales.php?stream=foxsports2_usa"
+        },
+        {
+          "name": "Fox Sports 2 USA | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=foxsports2_usa"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-07-29T03:30:00.000Z",
+      "match": "2 de Mayo vs Cerro Porteño",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz2"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-29T04:00:00.000Z",
+      "match": "San Lorenzo vs Gimnasia Mendoza",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-29T04:00:00.000Z",
+      "match": "Banfield vs Sarmiento",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-29T04:00:00.000Z",
+      "match": "Tigre vs Nacional",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "23:15",
+      "time_utc": "2026-07-29T05:15:00.000Z",
+      "match": "Deportes Quindío vs Deportes Tolima",
+      "league": "Liga Colombia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
+        }
+      ]
+    }
+  ]
 }
