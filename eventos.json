@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-30T13:20:21.956Z",
+  "actualizado_en": "2026-07-30T16:19:13.907Z",
   "fecha": "jueves, 30 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 14,
-  "contar_con_canales": 13,
+  "contar": 16,
+  "contar_con_canales": 16,
   "events": [
     {
       "time": "00:15",
@@ -113,27 +113,6 @@
     {
       "time": "01:00",
       "time_utc": "2026-07-30T07:00:00.000Z",
-      "match": "Atlético Bucaramanga vs Llaneros",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-07-30T07:00:00.000Z",
       "match": "Alebrijes de Oaxaca vs Dorados",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
@@ -141,6 +120,44 @@
         {
           "name": "ESPN 4 MX",
           "href": "https://futbollibre.ch/canales.php?stream=espn4mx"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-07-30T07:00:00.000Z",
+      "match": "Atlético Bucaramanga vs Llaneros",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-07-31T01:00:00.000Z",
+      "match": "Sportivo San Lorenzo vs Guaraní",
+      "league": "Liga Paraguaya",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz1"
         }
       ]
     },
@@ -191,52 +208,15 @@
       ]
     },
     {
-      "time": "22:00",
-      "time_utc": "2026-07-31T04:00:00.000Z",
-      "match": "Independiente Rivadavia vs Huracán",
-      "league": "Liga Profesional",
+      "time": "21:00",
+      "time_utc": "2026-07-31T03:00:00.000Z",
+      "match": "Libertad vs Deportivo Recoleta",
+      "league": "Liga Paraguaya",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-31T04:00:00.000Z",
-      "match": "Talleres Córdoba vs Vélez Sarsfield",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz2"
         }
       ]
     },
@@ -266,18 +246,81 @@
       ]
     },
     {
+      "time": "22:00",
+      "time_utc": "2026-07-31T04:00:00.000Z",
+      "match": "Talleres Córdoba vs Vélez Sarsfield",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium┃HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-31T04:00:00.000Z",
+      "match": "Independiente Rivadavia vs Huracán",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
       "time": "22:30",
       "time_utc": "2026-07-31T04:30:00.000Z",
       "match": "Corinthians vs Athletico-PR",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=premiere1"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://futbollibre.ch/canales.php?stream=premiere1"
+        }
+      ]
     },
     {
       "time": "23:30",
       "time_utc": "2026-07-31T05:30:00.000Z",
-      "match": "Premier League Summer Series:",
-      "league": "",
+      "match": "Sunderland vs Leeds United",
+      "league": "Premier League Summer Series",
       "flag": "⚽",
       "channels": [
         {
@@ -396,27 +439,6 @@
     {
       "time": "01:00",
       "time_utc": "2026-07-30T07:00:00.000Z",
-      "match": "Atlético Bucaramanga vs Llaneros",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-07-30T07:00:00.000Z",
       "match": "Alebrijes de Oaxaca vs Dorados",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
@@ -424,6 +446,44 @@
         {
           "name": "ESPN 4 MX",
           "href": "https://futbollibre.ch/canales.php?stream=espn4mx"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-07-30T07:00:00.000Z",
+      "match": "Atlético Bucaramanga vs Llaneros",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-07-31T01:00:00.000Z",
+      "match": "Sportivo San Lorenzo vs Guaraní",
+      "league": "Liga Paraguaya",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz1"
         }
       ]
     },
@@ -474,52 +534,15 @@
       ]
     },
     {
-      "time": "22:00",
-      "time_utc": "2026-07-31T04:00:00.000Z",
-      "match": "Independiente Rivadavia vs Huracán",
-      "league": "Liga Profesional",
+      "time": "21:00",
+      "time_utc": "2026-07-31T03:00:00.000Z",
+      "match": "Libertad vs Deportivo Recoleta",
+      "league": "Liga Paraguaya",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-31T04:00:00.000Z",
-      "match": "Talleres Córdoba vs Vélez Sarsfield",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz2"
         }
       ]
     },
@@ -549,18 +572,81 @@
       ]
     },
     {
+      "time": "22:00",
+      "time_utc": "2026-07-31T04:00:00.000Z",
+      "match": "Talleres Córdoba vs Vélez Sarsfield",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium┃HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-07-31T04:00:00.000Z",
+      "match": "Independiente Rivadavia vs Huracán",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+        }
+      ]
+    },
+    {
       "time": "22:30",
       "time_utc": "2026-07-31T04:30:00.000Z",
       "match": "Corinthians vs Athletico-PR",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=premiere1"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://futbollibre.ch/canales.php?stream=premiere1"
+        }
+      ]
     },
     {
       "time": "23:30",
       "time_utc": "2026-07-31T05:30:00.000Z",
-      "match": "Premier League Summer Series:",
-      "league": "",
+      "match": "Sunderland vs Leeds United",
+      "league": "Premier League Summer Series",
       "flag": "⚽",
       "channels": [
         {
