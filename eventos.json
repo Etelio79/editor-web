@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-29T21:44:28.231Z",
+  "actualizado_en": "2026-07-30T01:10:45.064Z",
   "fecha": "miércoles, 29 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 18,
-  "contar_con_canales": 16,
+  "contar": 12,
+  "contar_con_canales": 12,
   "events": [
     {
       "time": "00:00",
@@ -15,6 +15,52 @@
         {
           "name": "ECDF LigaPro",
           "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPRO | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-29T06:30:00.000Z",
+      "match": "Fluminense vs Bahia",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Premiere 3 BR | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=premiere3"
+        },
+        {
+          "name": "Premiere 3 BR",
+          "href": "https://futbollibre.ch/canales.php?stream=premiere3"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-29T06:30:00.000Z",
+      "match": "Vitória vs Palmeiras",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=premiere1"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://futbollibre.ch/canales.php?stream=premiere1"
         }
       ]
     },
@@ -42,27 +88,6 @@
     {
       "time": "00:30",
       "time_utc": "2026-07-29T06:30:00.000Z",
-      "match": "Cienciano vs Lanús",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/canales.php?stream=even6"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=even6"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=even6"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-07-29T06:30:00.000Z",
       "match": "RB Bragantino vs Sporting Cristal",
       "league": "Copa Sudamericana",
       "flag": "⚽",
@@ -70,24 +95,61 @@
         {
           "name": "DSports",
           "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "Tigo Sports 2 HD",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=even3"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even6"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
         }
       ]
     },
     {
       "time": "00:30",
       "time_utc": "2026-07-29T06:30:00.000Z",
-      "match": "Fluminense vs Bahia",
-      "league": "Brasileirão",
+      "match": "Cienciano vs Lanús",
+      "league": "Copa Sudamericana",
       "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-07-29T06:30:00.000Z",
-      "match": "Vitória vs Palmeiras",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even4"
+        },
+        {
+          "name": "Espn AR",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn"
+        }
+      ]
     },
     {
       "time": "01:00",
@@ -107,138 +169,28 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-30T01:00:00.000Z",
-      "match": "Sportivo Luqueño vs Sportivo Trinidense",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 02",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz2"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-30T02:00:00.000Z",
-      "match": "Defensa y Justicia vs Deportivo Riestra",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        },
-        {
-          "name": "fanatiz 03",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz3"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-30T02:00:00.000Z",
-      "match": "Jamaica vs Panamá",
-      "league": "Campeonato Sub-20",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney2"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-30T02:00:00.000Z",
-      "match": "Gualaceo vs Macará",
-      "league": "Copa Ecuador",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-30T03:30:00.000Z",
-      "match": "Nacional Asunción vs Olimpia",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 04",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz4"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-30T04:00:00.000Z",
-      "match": "Vasco da Gama vs Medellín",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
       "time": "22:15",
       "time_utc": "2026-07-30T04:15:00.000Z",
       "match": "Gimnasia La Plata vs River Plate",
       "league": "Liga Profesional",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney3"
+        },
+        {
+          "name": "ESPN Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even4"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
+        },
         {
           "name": "ESPN Premium",
           "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
@@ -252,24 +204,12 @@
           "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
         },
         {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney3"
-        },
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/canales.php?stream=espn"
-        },
-        {
           "name": "ESPN AR┃OP2",
           "href": "https://futbollibre.ch/vivo/canal.php?stream=espn"
         },
         {
           "name": "ESPN AR┃OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "FOX Deportes | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
         },
         {
           "name": "FOX Deportes",
@@ -377,6 +317,52 @@
         {
           "name": "ECDF LigaPro",
           "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPRO | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-29T06:30:00.000Z",
+      "match": "Fluminense vs Bahia",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Premiere 3 BR | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=premiere3"
+        },
+        {
+          "name": "Premiere 3 BR",
+          "href": "https://futbollibre.ch/canales.php?stream=premiere3"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-07-29T06:30:00.000Z",
+      "match": "Vitória vs Palmeiras",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=premiere1"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://futbollibre.ch/canales.php?stream=premiere1"
         }
       ]
     },
@@ -404,27 +390,6 @@
     {
       "time": "00:30",
       "time_utc": "2026-07-29T06:30:00.000Z",
-      "match": "Cienciano vs Lanús",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/canales.php?stream=even6"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=even6"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=even6"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-07-29T06:30:00.000Z",
       "match": "RB Bragantino vs Sporting Cristal",
       "league": "Copa Sudamericana",
       "flag": "⚽",
@@ -432,24 +397,61 @@
         {
           "name": "DSports",
           "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "Tigo Sports 2 HD",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=even3"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even6"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
         }
       ]
     },
     {
       "time": "00:30",
       "time_utc": "2026-07-29T06:30:00.000Z",
-      "match": "Fluminense vs Bahia",
-      "league": "Brasileirão",
+      "match": "Cienciano vs Lanús",
+      "league": "Copa Sudamericana",
       "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-07-29T06:30:00.000Z",
-      "match": "Vitória vs Palmeiras",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn2"
+        },
+        {
+          "name": "ESPN Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even4"
+        },
+        {
+          "name": "Espn AR",
+          "href": "https://tvtvhd.com/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn"
+        }
+      ]
     },
     {
       "time": "01:00",
@@ -469,138 +471,28 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-30T01:00:00.000Z",
-      "match": "Sportivo Luqueño vs Sportivo Trinidense",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 02",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz2"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-30T02:00:00.000Z",
-      "match": "Defensa y Justicia vs Deportivo Riestra",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        },
-        {
-          "name": "fanatiz 03",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz3"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-30T02:00:00.000Z",
-      "match": "Jamaica vs Panamá",
-      "league": "Campeonato Sub-20",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney2"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-30T02:00:00.000Z",
-      "match": "Gualaceo vs Macará",
-      "league": "Copa Ecuador",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-07-30T03:30:00.000Z",
-      "match": "Nacional Asunción vs Olimpia",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 04",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz4"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-30T04:00:00.000Z",
-      "match": "Vasco da Gama vs Medellín",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
-        },
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/canales.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn"
-        }
-      ]
-    },
-    {
       "time": "22:15",
       "time_utc": "2026-07-30T04:15:00.000Z",
       "match": "Gimnasia La Plata vs River Plate",
       "league": "Liga Profesional",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/canales.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney3"
+        },
+        {
+          "name": "ESPN Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even4"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
+        },
         {
           "name": "ESPN Premium",
           "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
@@ -614,24 +506,12 @@
           "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
         },
         {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney3"
-        },
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/canales.php?stream=espn"
-        },
-        {
           "name": "ESPN AR┃OP2",
           "href": "https://futbollibre.ch/vivo/canal.php?stream=espn"
         },
         {
           "name": "ESPN AR┃OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=espn"
-        },
-        {
-          "name": "FOX Deportes | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
         },
         {
           "name": "FOX Deportes",
