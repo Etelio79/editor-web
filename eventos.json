@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-30T21:55:21.248Z",
+  "actualizado_en": "2026-07-31T01:23:33.358Z",
   "fecha": "jueves, 30 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 16,
-  "contar_con_canales": 16,
+  "contar": 11,
+  "contar_con_canales": 11,
   "events": [
     {
       "time": "00:15",
@@ -58,17 +58,33 @@
     {
       "time": "00:30",
       "time_utc": "2026-07-30T06:30:00.000Z",
-      "match": "Coritiba vs Cruzeiro",
-      "league": "Brasileirão",
+      "match": "Caracas vs Santa Fe",
+      "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Sportv BR HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=sportv"
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
         },
         {
-          "name": "Sportv BR",
-          "href": "https://futbollibre.ch/canales.php?stream=sportv"
+          "name": "DSports",
+          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "ESPN 2 Colombia",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=even8"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney4"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn2"
         }
       ]
     },
@@ -79,6 +95,46 @@
       "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Dsports Argentina HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+        },
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=even6"
+        },
+        {
+          "name": "ESPN Chile",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even7"
+        },
+        {
+          "name": "ESPN Chile HD",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=even1"
+        },
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even4"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "TNT Sports Chile",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=even5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney3"
+        },
         {
           "name": "DSports | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
@@ -100,13 +156,25 @@
     {
       "time": "00:30",
       "time_utc": "2026-07-30T06:30:00.000Z",
-      "match": "Caracas vs Santa Fe",
-      "league": "Copa Sudamericana",
+      "match": "Coritiba vs Cruzeiro",
+      "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+          "name": "Sportv BR HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=premiere1"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://futbollibre.ch/canales.php?stream=sportv"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://futbollibre.ch/canales.php?stream=premiere1"
         }
       ]
     },
@@ -149,157 +217,28 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-31T01:00:00.000Z",
-      "match": "Sportivo San Lorenzo vs Guaraní",
-      "league": "Liga Paraguaya",
+      "time": "01:00",
+      "time_utc": "2026-07-30T07:00:00.000Z",
+      "match": "Herediano vs Marathón",
+      "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-31T02:00:00.000Z",
-      "match": "LDU Quito vs Leones del Norte",
-      "league": "Copa Ecuador",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-07-31T02:30:00.000Z",
-      "match": "Envigado vs Once Caldas",
-      "league": "Copa Colombia",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-07-31T03:00:00.000Z",
-      "match": "Libertad vs Deportivo Recoleta",
-      "league": "Liga Paraguaya",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 02",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz2"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-31T04:00:00.000Z",
-      "match": "Grêmio vs Bolívar",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Tigo Sports HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=even2"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-31T04:00:00.000Z",
-      "match": "Talleres Córdoba vs Vélez Sarsfield",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
-        },
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/canales.php?stream=disney5"
         }
       ]
     },
     {
-      "time": "22:00",
-      "time_utc": "2026-07-31T04:00:00.000Z",
-      "match": "Independiente Rivadavia vs Huracán",
-      "league": "Liga Profesional",
+      "time": "03:00",
+      "time_utc": "2026-07-30T09:00:00.000Z",
+      "match": "Municipal vs Cartaginés",
+      "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney7"
         }
       ]
     },
@@ -388,17 +327,33 @@
     {
       "time": "00:30",
       "time_utc": "2026-07-30T06:30:00.000Z",
-      "match": "Coritiba vs Cruzeiro",
-      "league": "Brasileirão",
+      "match": "Caracas vs Santa Fe",
+      "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Sportv BR HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=sportv"
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
         },
         {
-          "name": "Sportv BR",
-          "href": "https://futbollibre.ch/canales.php?stream=sportv"
+          "name": "DSports",
+          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "ESPN 2 Colombia",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=even8"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney4"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn2"
         }
       ]
     },
@@ -409,6 +364,46 @@
       "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Dsports Argentina HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+        },
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=even6"
+        },
+        {
+          "name": "ESPN Chile",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even7"
+        },
+        {
+          "name": "ESPN Chile HD",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=even1"
+        },
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/canales.php?stream=espn"
+        },
+        {
+          "name": "ESPN Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even4"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn"
+        },
+        {
+          "name": "TNT Sports Chile",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=even5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney3"
+        },
         {
           "name": "DSports | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
@@ -430,13 +425,25 @@
     {
       "time": "00:30",
       "time_utc": "2026-07-30T06:30:00.000Z",
-      "match": "Caracas vs Santa Fe",
-      "league": "Copa Sudamericana",
+      "match": "Coritiba vs Cruzeiro",
+      "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+          "name": "Sportv BR HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=sportv"
+        },
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=premiere1"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://futbollibre.ch/canales.php?stream=sportv"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://futbollibre.ch/canales.php?stream=premiere1"
         }
       ]
     },
@@ -479,157 +486,28 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-07-31T01:00:00.000Z",
-      "match": "Sportivo San Lorenzo vs Guaraní",
-      "league": "Liga Paraguaya",
+      "time": "01:00",
+      "time_utc": "2026-07-30T07:00:00.000Z",
+      "match": "Herediano vs Marathón",
+      "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-07-31T02:00:00.000Z",
-      "match": "LDU Quito vs Leones del Norte",
-      "league": "Copa Ecuador",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-07-31T02:30:00.000Z",
-      "match": "Envigado vs Once Caldas",
-      "league": "Copa Colombia",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-07-31T03:00:00.000Z",
-      "match": "Libertad vs Deportivo Recoleta",
-      "league": "Liga Paraguaya",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 02",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz2"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-31T04:00:00.000Z",
-      "match": "Grêmio vs Bolívar",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
-        },
-        {
-          "name": "Tigo Sports HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=even2"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/canales.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-07-31T04:00:00.000Z",
-      "match": "Talleres Córdoba vs Vélez Sarsfield",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
-        },
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/canales.php?stream=disney5"
         }
       ]
     },
     {
-      "time": "22:00",
-      "time_utc": "2026-07-31T04:00:00.000Z",
-      "match": "Independiente Rivadavia vs Huracán",
-      "league": "Liga Profesional",
+      "time": "03:00",
+      "time_utc": "2026-07-30T09:00:00.000Z",
+      "match": "Municipal vs Cartaginés",
+      "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney7"
         }
       ]
     },
