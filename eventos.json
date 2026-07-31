@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-07-31T19:02:29.337Z",
+  "actualizado_en": "2026-07-31T21:54:04.471Z",
   "fecha": "viernes, 31 de julio",
   "fuente": "futbollibres-puppeteer",
-  "contar": 17,
-  "contar_con_canales": 17,
+  "contar": 19,
+  "contar_con_canales": 19,
   "events": [
     {
       "time": "00:00",
@@ -246,6 +246,10 @@
           "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
         },
         {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+        },
+        {
           "name": "DSports",
           "href": "https://futbollibre.ch/canales.php?stream=dsports"
         },
@@ -293,10 +297,6 @@
       "channels": [
         {
           "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports +",
           "href": "https://futbollibre.ch/canales.php?stream=winsports2"
         },
         {
@@ -319,6 +319,23 @@
         {
           "name": "Disney+",
           "href": "https://futbollibre.ch/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-08-01T03:00:00.000Z",
+      "match": "Fortaleza vs Medellin",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
         }
       ]
     },
@@ -357,10 +374,6 @@
       "channels": [
         {
           "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports +",
           "href": "https://futbollibre.ch/canales.php?stream=winsports2"
         },
         {
@@ -383,6 +396,19 @@
         {
           "name": "Entel TV PLUS+",
           "href": "https://futbollibre.ch/online/canales.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-08-01T05:30:00.000Z",
+      "match": "New York City vs Toronto FC",
+      "league": "MLS",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MLS 01",
+          "href": "https://futbollibre.ch/canales.php?stream=mls1es"
         }
       ]
     }
@@ -629,6 +655,10 @@
           "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
         },
         {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+        },
+        {
           "name": "DSports",
           "href": "https://futbollibre.ch/canales.php?stream=dsports"
         },
@@ -676,10 +706,6 @@
       "channels": [
         {
           "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports +",
           "href": "https://futbollibre.ch/canales.php?stream=winsports2"
         },
         {
@@ -702,6 +728,23 @@
         {
           "name": "Disney+",
           "href": "https://futbollibre.ch/canales.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-08-01T03:00:00.000Z",
+      "match": "Fortaleza vs Medellin",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
         }
       ]
     },
@@ -740,10 +783,6 @@
       "channels": [
         {
           "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports +",
           "href": "https://futbollibre.ch/canales.php?stream=winsports2"
         },
         {
@@ -766,6 +805,19 @@
         {
           "name": "Entel TV PLUS+",
           "href": "https://futbollibre.ch/online/canales.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-08-01T05:30:00.000Z",
+      "match": "New York City vs Toronto FC",
+      "league": "MLS",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MLS 01",
+          "href": "https://futbollibre.ch/canales.php?stream=mls1es"
         }
       ]
     }
