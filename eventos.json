@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "2026-08-01T12:47:33.388Z",
+  "actualizado_en": "2026-08-01T15:49:28.213Z",
   "fecha": "sábado, 1 de agosto",
   "fuente": "futbollibres-puppeteer",
   "contar": 48,
@@ -236,19 +236,6 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-08-01T17:00:00.000Z",
-      "match": "Premier Padel Pretoria – Semifinales Femeninas",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "13:00",
       "time_utc": "2026-08-01T19:00:00.000Z",
       "match": "Huracán vs Uruguay Montevideo",
@@ -287,6 +274,19 @@
       ]
     },
     {
+      "time": "14:00",
+      "time_utc": "2026-08-01T20:00:00.000Z",
+      "match": "Clásica San Sebastián (Donostiako Klasikoa)",
+      "league": "CIclismo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Claro Sports",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=clarosports1"
+        }
+      ]
+    },
+    {
       "time": "15:00",
       "time_utc": "2026-08-01T21:00:00.000Z",
       "match": "Albion vs Danubio",
@@ -295,7 +295,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/canales.php?stream=disney2"
         }
       ]
     },
@@ -321,7 +321,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/canales.php?stream=disney3"
         }
       ]
     },
@@ -333,8 +333,40 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+          "name": "TYC Sports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Claro Sports",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=clarosports1"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TyC Sports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=tycsports"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://futbollibre.ch/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
@@ -356,6 +388,10 @@
         {
           "name": "TNT Sports Premiun CL OP2",
           "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
+        },
+        {
+          "name": "MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=max1"
         }
       ]
     },
@@ -387,6 +423,19 @@
     {
       "time": "18:00",
       "time_utc": "2026-08-02T00:00:00.000Z",
+      "match": "Deportivo Maldonado vs Juventud",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney4"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-08-02T00:00:00.000Z",
       "match": "FC Cajamarca vs Sport Huancayo",
       "league": "Liga 1",
       "flag": "⚽",
@@ -412,19 +461,6 @@
     {
       "time": "18:00",
       "time_utc": "2026-08-02T00:00:00.000Z",
-      "match": "Deportivo Maldonado vs Juventud",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-08-02T00:00:00.000Z",
       "match": "Girona vs Arsenal",
       "league": "Amistoso Internacional",
       "flag": "⚽",
@@ -432,6 +468,10 @@
         {
           "name": "TYC Sports | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
         },
         {
           "name": "TYC Sports",
@@ -444,10 +484,6 @@
         {
           "name": "TYC Sports | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "FOX Deportes | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
         },
         {
           "name": "FOX Deportes",
@@ -516,6 +552,31 @@
     {
       "time": "19:00",
       "time_utc": "2026-08-02T01:00:00.000Z",
+      "match": "Everton vs Colo-Colo",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
+        },
+        {
+          "name": "MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=max1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-02T01:00:00.000Z",
       "match": "Manta vs Mushuc Runa",
       "league": "Serie A",
       "flag": "⚽",
@@ -552,27 +613,6 @@
         {
           "name": "Entel TV PLUS+",
           "href": "https://futbollibre.ch/tv/canales.php?stream=even8"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Everton vs Colo-Colo",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
         }
       ]
     },
@@ -1218,19 +1258,6 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-08-01T17:00:00.000Z",
-      "match": "Premier Padel Pretoria – Semifinales Femeninas",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "13:00",
       "time_utc": "2026-08-01T19:00:00.000Z",
       "match": "Huracán vs Uruguay Montevideo",
@@ -1269,6 +1296,19 @@
       ]
     },
     {
+      "time": "14:00",
+      "time_utc": "2026-08-01T20:00:00.000Z",
+      "match": "Clásica San Sebastián (Donostiako Klasikoa)",
+      "league": "CIclismo",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Claro Sports",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=clarosports1"
+        }
+      ]
+    },
+    {
       "time": "15:00",
       "time_utc": "2026-08-01T21:00:00.000Z",
       "match": "Albion vs Danubio",
@@ -1277,7 +1317,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/canales.php?stream=disney2"
         }
       ]
     },
@@ -1303,7 +1343,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/canales.php?stream=disney3"
         }
       ]
     },
@@ -1315,8 +1355,40 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+          "name": "TYC Sports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "Claro Sports",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=clarosports1"
+        },
+        {
+          "name": "TYC Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=tycsports"
+        },
+        {
+          "name": "TyC Sports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=tycsports"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://futbollibre.ch/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=foxdeportes"
         }
       ]
     },
@@ -1338,6 +1410,10 @@
         {
           "name": "TNT Sports Premiun CL OP2",
           "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
+        },
+        {
+          "name": "MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=max1"
         }
       ]
     },
@@ -1369,6 +1445,19 @@
     {
       "time": "18:00",
       "time_utc": "2026-08-02T00:00:00.000Z",
+      "match": "Deportivo Maldonado vs Juventud",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney4"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-08-02T00:00:00.000Z",
       "match": "FC Cajamarca vs Sport Huancayo",
       "league": "Liga 1",
       "flag": "⚽",
@@ -1394,19 +1483,6 @@
     {
       "time": "18:00",
       "time_utc": "2026-08-02T00:00:00.000Z",
-      "match": "Deportivo Maldonado vs Juventud",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-08-02T00:00:00.000Z",
       "match": "Girona vs Arsenal",
       "league": "Amistoso Internacional",
       "flag": "⚽",
@@ -1414,6 +1490,10 @@
         {
           "name": "TYC Sports | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=tycsports"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
         },
         {
           "name": "TYC Sports",
@@ -1426,10 +1506,6 @@
         {
           "name": "TYC Sports | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=tycsports"
-        },
-        {
-          "name": "FOX Deportes | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
         },
         {
           "name": "FOX Deportes",
@@ -1498,6 +1574,31 @@
     {
       "time": "19:00",
       "time_utc": "2026-08-02T01:00:00.000Z",
+      "match": "Everton vs Colo-Colo",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
+        },
+        {
+          "name": "MAX",
+          "href": "https://tvtvhd.com/vivo/canal.php?stream=max1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-02T01:00:00.000Z",
       "match": "Manta vs Mushuc Runa",
       "league": "Serie A",
       "flag": "⚽",
@@ -1534,27 +1635,6 @@
         {
           "name": "Entel TV PLUS+",
           "href": "https://futbollibre.ch/tv/canales.php?stream=even8"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Everton vs Colo-Colo",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
         }
       ]
     },
