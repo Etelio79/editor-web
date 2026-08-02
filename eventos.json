@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-01T21:42:54.207Z",
+  "actualizado_en": "2026-08-02T01:22:30.145Z",
   "fecha": "sábado, 1 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 38,
-  "contar_con_canales": 38,
+  "contar": 24,
+  "contar_con_canales": 24,
   "events": [
     {
       "time": "00:00",
@@ -101,8 +101,12 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "FOX MEXICO",
+          "href": "https://futbollibre.ch/canales.php?stream=even4"
+        },
+        {
           "name": "VIX TUDN",
-          "href": "https://futbollibre.ch/canales.php?stream=vix1"
+          "href": "https://futbollibre.ch/canales.php?stream=even1"
         }
       ]
     },
@@ -114,12 +118,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Canal 5 MX",
-          "href": "https://futbollibre.ch/canales.php?stream=canal5"
-        },
-        {
           "name": "TUDN USA | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=tudn"
+        },
+        {
+          "name": "Univision",
+          "href": "https://futbollibre.ch/canales.php?stream=univision"
         },
         {
           "name": "TUDN USA",
@@ -130,12 +134,12 @@
           "href": "https://futbollibre.ch/vivo/canal.php?stream=tudn"
         },
         {
-          "name": "TUDN USA | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tudn"
+          "name": "Canal 5 MX",
+          "href": "https://futbollibre.ch/canales.php?stream=canal5"
         },
         {
-          "name": "Univision",
-          "href": "https://futbollibre.ch/canales.php?stream=univision"
+          "name": "TUDN USA | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=tudn"
         }
       ]
     },
@@ -182,6 +186,19 @@
         {
           "name": "Liga1Max | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-08-01T07:30:00.000Z",
+      "match": "Tauro vs Umecit",
+      "league": "Panama",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TVMAX",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=eventos4"
         }
       ]
     },
@@ -235,10 +252,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Canal 5 MX",
-          "href": "https://futbollibre.ch/canales.php?stream=canal5"
-        },
-        {
           "name": "TUDN USA | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=tudn"
         },
@@ -253,373 +266,23 @@
         {
           "name": "TUDN USA | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://futbollibre.ch/canales.php?stream=canal5"
         }
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Everton vs Colo-Colo",
-      "league": "Primera División",
+      "time": "22:15",
+      "time_utc": "2026-08-02T04:15:00.000Z",
+      "match": "Vancouver y Ottawa",
+      "league": "CANADÁ",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "MAX",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=max1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Antofagasta vs Unión San Felipe",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even3"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Manta vs Mushuc Runa",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Real Oruro vs Independiente Petrolero",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even8"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Deportivo Pasto vs Rionegro Águilas",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Tacuarembó vs River Plate",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "WNBA – Phoenix vs New York",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-08-02T02:30:00.000Z",
-      "match": "Vasco da Gama vs Fluminense",
-      "league": "Copa de Brasil",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Sportv BR HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Deportes TVC",
-          "href": "https://futbollibre.ch/canales.php?stream=even2"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://futbollibre.ch/canales.php?stream=sportv"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-08-02T02:30:00.000Z",
-      "match": "Atlético Grau vs Sport Boys",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1MAX",
-          "href": "https://futbollibre.ch/canales.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=liga1max"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-08-02T03:00:00.000Z",
-      "match": "Estudiantes vs Defensa y Justicia",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-08-02T03:00:00.000Z",
-      "match": "Boca Juniors de Cali vs Tigres",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-08-02T03:00:00.000Z",
-      "match": "Belgrano vs Argentinos Juniors",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "21:05",
-      "time_utc": "2026-08-02T03:05:00.000Z",
-      "match": "Alianza vs Deportes Tolima",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "21:15",
-      "time_utc": "2026-08-02T03:15:00.000Z",
-      "match": "San Antonio Bulo Bulo vs Blooming",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even8"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-02T03:30:00.000Z",
-      "match": "Curicó Unido vs Cobreloa",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even3"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-02T03:30:00.000Z",
-      "match": "Policía Nacional vs Choloma",
-      "league": "Liga Nacional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Deportes TVC",
-          "href": "https://futbollibre.ch/canales.php?stream=even2"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-02T03:30:00.000Z",
-      "match": "Palestino vs Coquimbo Unido",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-02T03:30:00.000Z",
-      "match": "Universidad Católica vs Técnico Universitario",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-02T03:30:00.000Z",
-      "match": "Peñarol vs Cerro Largo",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "name": "Fox Soccer Plus",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=foxsoccerplus"
         }
       ]
     },
@@ -633,6 +296,19 @@
         {
           "name": "Amazon Prime C",
           "href": "https://futbollibre.ch/canales.php?stream=amazon_prime1"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-08-02T04:30:00.000Z",
+      "match": "Cerro porteño vs Luqueño",
+      "league": "PARAGUAY",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 05",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz5"
         }
       ]
     },
@@ -721,6 +397,22 @@
         {
           "name": "Win Sports + | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports"
         }
       ]
     },
@@ -770,12 +462,38 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "MLS 01",
-          "href": "https://futbollibre.ch/canales.php?stream=mls1es"
+          "name": "MLS 04 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls4en"
         },
         {
           "name": "MLS 04",
           "href": "https://futbollibre.ch/canales.php?stream=mls4es"
+        }
+      ]
+    },
+    {
+      "time": "23:45",
+      "time_utc": "2026-08-02T05:45:00.000Z",
+      "match": "CF Montreal vs New England Revolution",
+      "league": "Major League Soccer",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MLS 01",
+          "href": "https://futbollibre.ch/canales.php?stream=mls1es"
+        }
+      ]
+    },
+    {
+      "time": "23:45",
+      "time_utc": "2026-08-02T05:45:00.000Z",
+      "match": "MLS DC United vs Nashville SC E",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MLS 02 | EN",
+          "href": "https://tvtvhd.com/canales.php?stream=mls2en"
         }
       ]
     }
@@ -877,8 +595,12 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "FOX MEXICO",
+          "href": "https://futbollibre.ch/canales.php?stream=even4"
+        },
+        {
           "name": "VIX TUDN",
-          "href": "https://futbollibre.ch/canales.php?stream=vix1"
+          "href": "https://futbollibre.ch/canales.php?stream=even1"
         }
       ]
     },
@@ -890,12 +612,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Canal 5 MX",
-          "href": "https://futbollibre.ch/canales.php?stream=canal5"
-        },
-        {
           "name": "TUDN USA | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=tudn"
+        },
+        {
+          "name": "Univision",
+          "href": "https://futbollibre.ch/canales.php?stream=univision"
         },
         {
           "name": "TUDN USA",
@@ -906,12 +628,12 @@
           "href": "https://futbollibre.ch/vivo/canal.php?stream=tudn"
         },
         {
-          "name": "TUDN USA | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tudn"
+          "name": "Canal 5 MX",
+          "href": "https://futbollibre.ch/canales.php?stream=canal5"
         },
         {
-          "name": "Univision",
-          "href": "https://futbollibre.ch/canales.php?stream=univision"
+          "name": "TUDN USA | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=tudn"
         }
       ]
     },
@@ -958,6 +680,19 @@
         {
           "name": "Liga1Max | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-08-01T07:30:00.000Z",
+      "match": "Tauro vs Umecit",
+      "league": "Panama",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TVMAX",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=eventos4"
         }
       ]
     },
@@ -1011,10 +746,6 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Canal 5 MX",
-          "href": "https://futbollibre.ch/canales.php?stream=canal5"
-        },
-        {
           "name": "TUDN USA | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=tudn"
         },
@@ -1029,373 +760,23 @@
         {
           "name": "TUDN USA | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=tudn"
+        },
+        {
+          "name": "Canal 5 MX",
+          "href": "https://futbollibre.ch/canales.php?stream=canal5"
         }
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Everton vs Colo-Colo",
-      "league": "Primera División",
+      "time": "22:15",
+      "time_utc": "2026-08-02T04:15:00.000Z",
+      "match": "Vancouver y Ottawa",
+      "league": "CANADÁ",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
-        },
-        {
-          "name": "MAX",
-          "href": "https://tvtvhd.com/vivo/canal.php?stream=max1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Antofagasta vs Unión San Felipe",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even3"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Manta vs Mushuc Runa",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Real Oruro vs Independiente Petrolero",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even8"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Deportivo Pasto vs Rionegro Águilas",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "Tacuarembó vs River Plate",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-02T01:00:00.000Z",
-      "match": "WNBA – Phoenix vs New York",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-08-02T02:30:00.000Z",
-      "match": "Vasco da Gama vs Fluminense",
-      "league": "Copa de Brasil",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Sportv BR HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Deportes TVC",
-          "href": "https://futbollibre.ch/canales.php?stream=even2"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://futbollibre.ch/canales.php?stream=sportv"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-08-02T02:30:00.000Z",
-      "match": "Atlético Grau vs Sport Boys",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1MAX",
-          "href": "https://futbollibre.ch/canales.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=liga1max"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-08-02T03:00:00.000Z",
-      "match": "Estudiantes vs Defensa y Justicia",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-08-02T03:00:00.000Z",
-      "match": "Boca Juniors de Cali vs Tigres",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-08-02T03:00:00.000Z",
-      "match": "Belgrano vs Argentinos Juniors",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "21:05",
-      "time_utc": "2026-08-02T03:05:00.000Z",
-      "match": "Alianza vs Deportes Tolima",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "21:15",
-      "time_utc": "2026-08-02T03:15:00.000Z",
-      "match": "San Antonio Bulo Bulo vs Blooming",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even8"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-02T03:30:00.000Z",
-      "match": "Curicó Unido vs Cobreloa",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even3"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-02T03:30:00.000Z",
-      "match": "Policía Nacional vs Choloma",
-      "league": "Liga Nacional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Deportes TVC",
-          "href": "https://futbollibre.ch/canales.php?stream=even2"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-02T03:30:00.000Z",
-      "match": "Palestino vs Coquimbo Unido",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-02T03:30:00.000Z",
-      "match": "Universidad Católica vs Técnico Universitario",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-02T03:30:00.000Z",
-      "match": "Peñarol vs Cerro Largo",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "name": "Fox Soccer Plus",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=foxsoccerplus"
         }
       ]
     },
@@ -1409,6 +790,19 @@
         {
           "name": "Amazon Prime C",
           "href": "https://futbollibre.ch/canales.php?stream=amazon_prime1"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-08-02T04:30:00.000Z",
+      "match": "Cerro porteño vs Luqueño",
+      "league": "PARAGUAY",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 05",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz5"
         }
       ]
     },
@@ -1497,6 +891,22 @@
         {
           "name": "Win Sports + | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports ┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports"
         }
       ]
     },
@@ -1546,12 +956,38 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "MLS 01",
-          "href": "https://futbollibre.ch/canales.php?stream=mls1es"
+          "name": "MLS 04 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls4en"
         },
         {
           "name": "MLS 04",
           "href": "https://futbollibre.ch/canales.php?stream=mls4es"
+        }
+      ]
+    },
+    {
+      "time": "23:45",
+      "time_utc": "2026-08-02T05:45:00.000Z",
+      "match": "CF Montreal vs New England Revolution",
+      "league": "Major League Soccer",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MLS 01",
+          "href": "https://futbollibre.ch/canales.php?stream=mls1es"
+        }
+      ]
+    },
+    {
+      "time": "23:45",
+      "time_utc": "2026-08-02T05:45:00.000Z",
+      "match": "MLS DC United vs Nashville SC E",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MLS 02 | EN",
+          "href": "https://tvtvhd.com/canales.php?stream=mls2en"
         }
       ]
     }
