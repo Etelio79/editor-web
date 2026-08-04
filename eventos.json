@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-03T21:55:41.833Z",
+  "actualizado_en": "2026-08-04T01:14:23.298Z",
   "fecha": "lunes, 3 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 22,
-  "contar_con_canales": 22,
+  "contar": 12,
+  "contar_con_canales": 12,
   "events": [
     {
       "time": "00:00",
@@ -12,6 +12,14 @@
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "ECDF LigaPRO | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
+        },
         {
           "name": "ECUAVISA",
           "href": "https://futbollibre.ch/canales.php?stream=ecdf"
@@ -53,6 +61,14 @@
         {
           "name": "Sportv BR",
           "href": "https://futbollibre.ch/canales.php?stream=sportv"
+        },
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=premiere1"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://futbollibre.ch/canales.php?stream=premiere1"
         }
       ]
     },
@@ -85,20 +101,24 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney2"
         },
         {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+          "name": "ESPN Premium┃HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
         },
         {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
         },
         {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
         }
       ]
     },
@@ -196,184 +216,6 @@
         {
           "name": "FUTV",
           "href": "https://futbollibre.ch/canales.php?stream=futv"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-04T01:00:00.000Z",
-      "match": "Atenas vs Deportivo Colonia",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney2"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-04T01:00:00.000Z",
-      "match": "Sportivo Trinidense vs Sportivo San Lorenzo",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-08-04T01:45:00.000Z",
-      "match": "Sarmiento vs Independiente Rivadavia",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-08-04T02:30:00.000Z",
-      "match": "Ind. Yumbo vs Envigado",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-04T03:30:00.000Z",
-      "match": "Deportivo Recoleta vs Nacional Asunción",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 03",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz3"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-04T03:30:00.000Z",
-      "match": "Flamengo vs Corinthians",
-      "league": "Brasileiro Femenino",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Sportv BR HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://futbollibre.ch/canales.php?stream=sportv"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-04T04:00:00.000Z",
-      "match": "Paysandu vs Oriental",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney3"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-04T04:00:00.000Z",
-      "match": "Platense vs Talleres Córdoba",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-04T04:00:00.000Z",
-      "match": "Vélez Sarsfield vs Independiente",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-04T04:00:00.000Z",
-      "match": "Defensor Sporting vs Cerro",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
         }
       ]
     },
@@ -421,6 +263,14 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "ECDF LigaPRO | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro",
+          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
+        },
+        {
           "name": "ECUAVISA",
           "href": "https://futbollibre.ch/canales.php?stream=ecdf"
         }
@@ -461,6 +311,14 @@
         {
           "name": "Sportv BR",
           "href": "https://futbollibre.ch/canales.php?stream=sportv"
+        },
+        {
+          "name": "Premiere BR | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=premiere1"
+        },
+        {
+          "name": "Premiere BR",
+          "href": "https://futbollibre.ch/canales.php?stream=premiere1"
         }
       ]
     },
@@ -493,20 +351,24 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney2"
         },
         {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+          "name": "ESPN Premium┃HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
         },
         {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
         },
         {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
         }
       ]
     },
@@ -604,184 +466,6 @@
         {
           "name": "FUTV",
           "href": "https://futbollibre.ch/canales.php?stream=futv"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-04T01:00:00.000Z",
-      "match": "Atenas vs Deportivo Colonia",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney2"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-04T01:00:00.000Z",
-      "match": "Sportivo Trinidense vs Sportivo San Lorenzo",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-08-04T01:45:00.000Z",
-      "match": "Sarmiento vs Independiente Rivadavia",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-08-04T02:30:00.000Z",
-      "match": "Ind. Yumbo vs Envigado",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-04T03:30:00.000Z",
-      "match": "Deportivo Recoleta vs Nacional Asunción",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 03",
-          "href": "https://futbollibre.ch/canales.php?stream=fanatiz3"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-04T03:30:00.000Z",
-      "match": "Flamengo vs Corinthians",
-      "league": "Brasileiro Femenino",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Sportv BR HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://futbollibre.ch/canales.php?stream=sportv"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-04T04:00:00.000Z",
-      "match": "Paysandu vs Oriental",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney3"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-04T04:00:00.000Z",
-      "match": "Platense vs Talleres Córdoba",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-04T04:00:00.000Z",
-      "match": "Vélez Sarsfield vs Independiente",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/canales.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnpremium"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-04T04:00:00.000Z",
-      "match": "Defensor Sporting vs Cerro",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
         }
       ]
     },
