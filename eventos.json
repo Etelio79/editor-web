@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-05T16:25:26.989Z",
+  "actualizado_en": "2026-08-05T19:09:15.523Z",
   "fecha": "miércoles, 5 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 31,
-  "contar_con_canales": 26,
+  "contar": 30,
+  "contar_con_canales": 25,
   "events": [
     {
       "time": "00:00",
@@ -236,19 +236,6 @@
       "channels": []
     },
     {
-      "time": "15:00",
-      "time_utc": "2026-08-05T21:00:00.000Z",
-      "match": "Tenis – M1000 Montreal – Segunda Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "18:00",
       "time_utc": "2026-08-06T00:00:00.000Z",
       "match": "Estudiantes Rio Cuarto 2 vs Lanús",
@@ -256,20 +243,8 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn3"
+          "name": "ESPN 3 Argentina",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=even1"
         }
       ]
     },
@@ -335,6 +310,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+        },
+        {
           "name": "ESPN MX | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=espnmx"
         },
@@ -349,6 +328,22 @@
         {
           "name": "ESPN MX | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=espnmx"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
         }
       ]
     },
@@ -816,19 +811,6 @@
       "channels": []
     },
     {
-      "time": "15:00",
-      "time_utc": "2026-08-05T21:00:00.000Z",
-      "match": "Tenis – M1000 Montreal – Segunda Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn2"
-        }
-      ]
-    },
-    {
       "time": "18:00",
       "time_utc": "2026-08-06T00:00:00.000Z",
       "match": "Estudiantes Rio Cuarto 2 vs Lanús",
@@ -836,20 +818,8 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/canales.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn3"
+          "name": "ESPN 3 Argentina",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=even1"
         }
       ]
     },
@@ -915,6 +885,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+        },
+        {
           "name": "ESPN MX | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=espnmx"
         },
@@ -929,6 +903,22 @@
         {
           "name": "ESPN MX | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=espnmx"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
         }
       ]
     },
