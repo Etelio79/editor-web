@@ -1,5 +1,5 @@
 {
-  "actualizado_en": "2026-08-04T22:03:26.276Z",
+  "actualizado_en": "2026-08-05T01:16:36.907Z",
   "fecha": "martes, 4 de agosto",
   "fuente": "futbollibres-puppeteer",
   "contar": 20,
@@ -61,6 +61,39 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-04T06:30:00.000Z",
+      "match": "Minnesota United vs Juárez",
+      "league": "Leagues Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MLS 04 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls4en"
         }
       ]
     },
@@ -88,6 +121,19 @@
     {
       "time": "02:00",
       "time_utc": "2026-08-04T08:00:00.000Z",
+      "match": "Diriangén vs Alajuelense",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-08-04T08:00:00.000Z",
       "match": "Tigres UANL vs Real Salt Lake",
       "league": "Leagues Cup",
       "flag": "⚽",
@@ -95,6 +141,10 @@
         {
           "name": "FOX Sports 1 USA",
           "href": "https://futbollibre.ch/canales.php?stream=foxsports1_usa"
+        },
+        {
+          "name": "MLS 04 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls4en"
         }
       ]
     },
@@ -120,74 +170,28 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-08-05T01:00:00.000Z",
-      "match": "ABB vs Real Oruro",
-      "league": "Primera División",
+      "time": "02:00",
+      "time_utc": "2026-08-04T08:00:00.000Z",
+      "match": "Antigua GFC vs Real Estelí",
+      "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even8"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney4"
         }
       ]
     },
     {
-      "time": "21:10",
-      "time_utc": "2026-08-05T03:10:00.000Z",
-      "match": "Llaneros vs Fortaleza CEIF",
-      "league": "Primera A",
+      "time": "02:30",
+      "time_utc": "2026-08-04T08:30:00.000Z",
+      "match": "Vancouver Whitecaps vs Atlante",
+      "league": "Leagues Cup",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-05T04:00:00.000Z",
-      "match": "Boca Juniors vs Independiente Riva.",
-      "league": "Torneo de Reserva",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-05T04:00:00.000Z",
-      "match": "Independiente Petrolero vs Aurora",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even8"
+          "name": "MLS 01",
+          "href": "https://futbollibre.ch/canales.php?stream=mls1es"
         }
       ]
     },
@@ -330,25 +334,12 @@
       "time": "23:45",
       "time_utc": "2026-08-05T05:45:00.000Z",
       "match": "Cincinnati vs Pachuca",
-      "league": "League Cup",
+      "league": "Leagues Cup",
       "flag": "⚽",
       "channels": [
         {
-          "name": "MLS 02",
-          "href": "https://futbollibre.ch/canales.php?stream=mls2es"
-        }
-      ]
-    },
-    {
-      "time": "23:45",
-      "time_utc": "2026-08-05T05:45:00.000Z",
-      "match": "Columbus Crew vs Atlas",
-      "league": "League Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "MLS 01",
-          "href": "https://futbollibre.ch/canales.php?stream=mls1es"
+          "name": "FOX Sports 1 USA",
+          "href": "https://futbollibre.ch/canales.php?stream=foxsports1_usa"
         }
       ]
     },
@@ -360,8 +351,21 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "MLS 03",
-          "href": "https://futbollibre.ch/canales.php?stream=mls3es"
+          "name": "MLS 03 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls3en"
+        }
+      ]
+    },
+    {
+      "time": "23:45",
+      "time_utc": "2026-08-05T05:45:00.000Z",
+      "match": "Columbus Crew vs Atlas",
+      "league": "League Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MLS 01 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls1en"
         }
       ]
     }
@@ -423,6 +427,39 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://futbollibre.ch/vivo/canales.php?stream=foxdeportes"
+        },
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/vivo/canales.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-04T06:30:00.000Z",
+      "match": "Minnesota United vs Juárez",
+      "league": "Leagues Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MLS 04 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls4en"
         }
       ]
     },
@@ -450,6 +487,19 @@
     {
       "time": "02:00",
       "time_utc": "2026-08-04T08:00:00.000Z",
+      "match": "Diriangén vs Alajuelense",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-08-04T08:00:00.000Z",
       "match": "Tigres UANL vs Real Salt Lake",
       "league": "Leagues Cup",
       "flag": "⚽",
@@ -457,6 +507,10 @@
         {
           "name": "FOX Sports 1 USA",
           "href": "https://futbollibre.ch/canales.php?stream=foxsports1_usa"
+        },
+        {
+          "name": "MLS 04 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls4en"
         }
       ]
     },
@@ -482,74 +536,28 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-08-05T01:00:00.000Z",
-      "match": "ABB vs Real Oruro",
-      "league": "Primera División",
+      "time": "02:00",
+      "time_utc": "2026-08-04T08:00:00.000Z",
+      "match": "Antigua GFC vs Real Estelí",
+      "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even8"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/canales.php?stream=disney4"
         }
       ]
     },
     {
-      "time": "21:10",
-      "time_utc": "2026-08-05T03:10:00.000Z",
-      "match": "Llaneros vs Fortaleza CEIF",
-      "league": "Primera A",
+      "time": "02:30",
+      "time_utc": "2026-08-04T08:30:00.000Z",
+      "match": "Vancouver Whitecaps vs Atlante",
+      "league": "Leagues Cup",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-05T04:00:00.000Z",
-      "match": "Boca Juniors vs Independiente Riva.",
-      "league": "Torneo de Reserva",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-05T04:00:00.000Z",
-      "match": "Independiente Petrolero vs Aurora",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even8"
+          "name": "MLS 01",
+          "href": "https://futbollibre.ch/canales.php?stream=mls1es"
         }
       ]
     },
@@ -692,25 +700,12 @@
       "time": "23:45",
       "time_utc": "2026-08-05T05:45:00.000Z",
       "match": "Cincinnati vs Pachuca",
-      "league": "League Cup",
+      "league": "Leagues Cup",
       "flag": "⚽",
       "channels": [
         {
-          "name": "MLS 02",
-          "href": "https://futbollibre.ch/canales.php?stream=mls2es"
-        }
-      ]
-    },
-    {
-      "time": "23:45",
-      "time_utc": "2026-08-05T05:45:00.000Z",
-      "match": "Columbus Crew vs Atlas",
-      "league": "League Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "MLS 01",
-          "href": "https://futbollibre.ch/canales.php?stream=mls1es"
+          "name": "FOX Sports 1 USA",
+          "href": "https://futbollibre.ch/canales.php?stream=foxsports1_usa"
         }
       ]
     },
@@ -722,8 +717,21 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "MLS 03",
-          "href": "https://futbollibre.ch/canales.php?stream=mls3es"
+          "name": "MLS 03 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls3en"
+        }
+      ]
+    },
+    {
+      "time": "23:45",
+      "time_utc": "2026-08-05T05:45:00.000Z",
+      "match": "Columbus Crew vs Atlas",
+      "league": "League Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "MLS 01 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls1en"
         }
       ]
     }
