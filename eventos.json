@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-06T23:46:38.536Z",
+  "actualizado_en": "2026-08-07T01:56:38.139Z",
   "fecha": "jueves, 6 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 21,
-  "contar_con_canales": 20,
+  "contar": 18,
+  "contar_con_canales": 18,
   "events": [
     {
       "time": "00:00",
@@ -38,16 +38,16 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "MLS 02 | Español",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=mls2en"
+        },
+        {
           "name": "FOX Sports 1 USA",
           "href": "https://futbollibre.ch/canales.php?stream=foxsports1_usa"
         },
         {
           "name": "MLS 02 | EN",
           "href": "https://futbollibre.ch/canales.php?stream=mls2en\n"
-        },
-        {
-          "name": "MLS 02 | Español",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=mls2en"
         }
       ]
     },
@@ -59,12 +59,25 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "MLS 03 | EN",
-          "href": "https://futbollibre.ch/canales.php?stream=mls3en"
-        },
-        {
           "name": "MLS 03 | Español",
           "href": "https://futbollibre.ch/vivo/canal.php?stream=mls3en"
+        },
+        {
+          "name": "MLS 03 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls3en"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-08-06T07:00:00.000Z",
+      "match": "Leones Negros UdeG vs Correcaminos UAT",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4 MX",
+          "href": "https://futbollibre.ch/canales.php?stream=espn4mx"
         }
       ]
     },
@@ -80,14 +93,6 @@
           "href": "https://futbollibre.ch/canales.php?stream=espn4mx"
         }
       ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-08-06T07:00:00.000Z",
-      "match": "Leones Negros UdeG vs Correcaminos UAT",
-      "league": "Liga de Expansión MX",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "01:00",
@@ -116,6 +121,19 @@
         {
           "name": "MLS 04 | Español",
           "href": "https://futbollibre.ch/vivo/canal.php?stream=mls4en"
+        }
+      ]
+    },
+    {
+      "time": "01:15",
+      "time_utc": "2026-08-06T07:15:00.000Z",
+      "match": "Frances Tiafoe vs Arthur Rinderknech",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even1"
         }
       ]
     },
@@ -167,74 +185,6 @@
       ]
     },
     {
-      "time": "21:00",
-      "time_utc": "2026-08-07T03:00:00.000Z",
-      "match": "Boyacá Chicó vs Alianza",
-      "league": "Categoría Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-07T04:00:00.000Z",
-      "match": "Unión Santa Fe vs Lanús",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-07T04:00:00.000Z",
-      "match": "Tlaxcala vs Alebrijes de Oaxaca",
-      "league": "Liga de Expansión MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 MX",
-          "href": "https://futbollibre.ch/canales.php?stream=espn4mx"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-07T04:00:00.000Z",
-      "match": "Club Sando vs Broki",
-      "league": "Copa Caribe de la CONCACAF",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
       "time": "23:00",
       "time_utc": "2026-08-07T05:00:00.000Z",
       "match": "Tenis – M1000 Montreal – Tercera Ronda",
@@ -243,7 +193,7 @@
       "channels": [
         {
           "name": "ESPN 2 HD",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even7"
+          "href": "https://futbollibre.ch/online/canales.php?stream=even1"
         }
       ]
     },
@@ -315,7 +265,7 @@
       "channels": [
         {
           "name": "ESPN 2 HD",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even7"
+          "href": "https://futbollibre.ch/online/canales.php?stream=even1"
         }
       ]
     },
@@ -341,10 +291,6 @@
       "channels": [
         {
           "name": "MLS ES5HD",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even5"
-        },
-        {
-          "name": "MLS 01",
           "href": "https://futbollibre.ch/canales.php?stream=mls1es"
         }
       ]
@@ -384,16 +330,16 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "MLS 02 | Español",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=mls2en"
+        },
+        {
           "name": "FOX Sports 1 USA",
           "href": "https://futbollibre.ch/canales.php?stream=foxsports1_usa"
         },
         {
           "name": "MLS 02 | EN",
           "href": "https://futbollibre.ch/canales.php?stream=mls2en\n"
-        },
-        {
-          "name": "MLS 02 | Español",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=mls2en"
         }
       ]
     },
@@ -405,12 +351,25 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "MLS 03 | EN",
-          "href": "https://futbollibre.ch/canales.php?stream=mls3en"
-        },
-        {
           "name": "MLS 03 | Español",
           "href": "https://futbollibre.ch/vivo/canal.php?stream=mls3en"
+        },
+        {
+          "name": "MLS 03 | EN",
+          "href": "https://futbollibre.ch/canales.php?stream=mls3en"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-08-06T07:00:00.000Z",
+      "match": "Leones Negros UdeG vs Correcaminos UAT",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4 MX",
+          "href": "https://futbollibre.ch/canales.php?stream=espn4mx"
         }
       ]
     },
@@ -426,14 +385,6 @@
           "href": "https://futbollibre.ch/canales.php?stream=espn4mx"
         }
       ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-08-06T07:00:00.000Z",
-      "match": "Leones Negros UdeG vs Correcaminos UAT",
-      "league": "Liga de Expansión MX",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "01:00",
@@ -462,6 +413,19 @@
         {
           "name": "MLS 04 | Español",
           "href": "https://futbollibre.ch/vivo/canal.php?stream=mls4en"
+        }
+      ]
+    },
+    {
+      "time": "01:15",
+      "time_utc": "2026-08-06T07:15:00.000Z",
+      "match": "Frances Tiafoe vs Arthur Rinderknech",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=even1"
         }
       ]
     },
@@ -513,74 +477,6 @@
       ]
     },
     {
-      "time": "21:00",
-      "time_utc": "2026-08-07T03:00:00.000Z",
-      "match": "Boyacá Chicó vs Alianza",
-      "league": "Categoría Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-07T04:00:00.000Z",
-      "match": "Unión Santa Fe vs Lanús",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-07T04:00:00.000Z",
-      "match": "Tlaxcala vs Alebrijes de Oaxaca",
-      "league": "Liga de Expansión MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 MX",
-          "href": "https://futbollibre.ch/canales.php?stream=espn4mx"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-07T04:00:00.000Z",
-      "match": "Club Sando vs Broki",
-      "league": "Copa Caribe de la CONCACAF",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
-        }
-      ]
-    },
-    {
       "time": "23:00",
       "time_utc": "2026-08-07T05:00:00.000Z",
       "match": "Tenis – M1000 Montreal – Tercera Ronda",
@@ -589,7 +485,7 @@
       "channels": [
         {
           "name": "ESPN 2 HD",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even7"
+          "href": "https://futbollibre.ch/online/canales.php?stream=even1"
         }
       ]
     },
@@ -661,7 +557,7 @@
       "channels": [
         {
           "name": "ESPN 2 HD",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even7"
+          "href": "https://futbollibre.ch/online/canales.php?stream=even1"
         }
       ]
     },
@@ -687,10 +583,6 @@
       "channels": [
         {
           "name": "MLS ES5HD",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=even5"
-        },
-        {
-          "name": "MLS 01",
           "href": "https://futbollibre.ch/canales.php?stream=mls1es"
         }
       ]
