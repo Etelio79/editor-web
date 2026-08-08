@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-08T15:18:19.853Z",
+  "actualizado_en": "2026-08-08T18:19:58.459Z",
   "fecha": "sábado, 8 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 61,
-  "contar_con_canales": 52,
+  "contar": 60,
+  "contar_con_canales": 50,
   "events": [
     {
       "time": "00:00",
@@ -195,7 +195,7 @@
       "channels": [
         {
           "name": "FOX ONE",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
+          "href": "https://futbollibre.ch/1.php?stream=even3"
         }
       ]
     },
@@ -268,100 +268,39 @@
       ]
     },
     {
-      "time": "13:30",
-      "time_utc": "2026-08-08T19:30:00.000Z",
-      "match": "Bayer Leverkusen vs Sevilla",
-      "league": "Amistoso Internacional",
+      "time": "16:00",
+      "time_utc": "2026-08-08T22:00:00.000Z",
+      "match": "FALLECIÓ JORGE MESSI, PADRE DE LIONEL MESSI",
+      "league": "ÚLTIMA HORA",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Premier Sports 1UK",
-          "href": "https://futbollibre.ch/1.php?stream=premier1uk"
-        }
-      ]
-    },
-    {
-      "time": "13:45",
-      "time_utc": "2026-08-08T19:45:00.000Z",
-      "match": "Ciclismo – Tour de France Femenino – Etapa #8",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn3"
+          "name": "TYC Sports",
+          "href": "https://futbollibre.ch/1.php?stream=tycsports"
         },
         {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/1.php?stream=espn3"
+          "name": "TyC Sports Internacional",
+          "href": "https://futbollibre.ch/1.php?stream=tycinternacional"
         },
         {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn3"
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=tycinternacional"
         },
         {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-08-08T20:00:00.000Z",
-      "match": "Central Español vs Progreso",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "14:30",
-      "time_utc": "2026-08-08T20:30:00.000Z",
-      "match": "MotoGP – GP Gran Bretaña – Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://futbollibre.ch/1.php?stream=even4"
-        }
-      ]
-    },
-    {
-      "time": "14:30",
-      "time_utc": "2026-08-08T20:30:00.000Z",
-      "match": "NEC vs Telstar",
-      "league": "Eredivisie en Países Bajos",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "href": "https://futbollibre.ch/canales.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "time": "14:30",
-      "time_utc": "2026-08-08T20:30:00.000Z",
-      "match": "Den Bosch vs Almere City",
-      "league": "Eerste Divisie",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN NL",
-          "href": "https://futbollibre.ch/canales.php?stream=espn1_nl"
+          "name": "TyC Sports International | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=tycinternacional"
         },
         {
-          "name": "ESPN NL | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn1_nl"
+          "name": "TYC Sports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tycsports"
         },
         {
-          "name": "ESPN NL | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn1_nl"
+          "name": "TyC Sports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=tycsports"
         }
       ]
     },
@@ -392,6 +331,19 @@
       ]
     },
     {
+      "time": "16:30",
+      "time_utc": "2026-08-08T22:30:00.000Z",
+      "match": "Colchester United vs Southampton",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        }
+      ]
+    },
+    {
       "time": "16:45",
       "time_utc": "2026-08-08T22:45:00.000Z",
       "match": "Go Ahead Eagles vs Willem II",
@@ -400,7 +352,7 @@
       "channels": [
         {
           "name": "ESPN 3 NL",
-          "href": "https://futbollibre.ch/canales.php?stream=espn3_nl"
+          "href": "https://futbollibre.ch/1.php?stream=espn3_nl"
         }
       ]
     },
@@ -412,8 +364,8 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "FOX ONE",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
+          "name": "Fox Soccer Plus",
+          "href": "https://futbollibre.ch/1.php?stream=foxsoccerplus"
         }
       ]
     },
@@ -429,12 +381,29 @@
           "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney5"
+        },
+        {
           "name": "ESPN AR┃OP2",
           "href": "https://futbollibre.ch/2.php?stream=espn"
         },
         {
           "name": "ESPN AR┃OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "17:30",
+      "time_utc": "2026-08-08T23:30:00.000Z",
+      "match": "Argentina vs Ecuador",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Tigo Sports",
+          "href": "https://futbollibre.ch/1.php?stream=even2"
         }
       ]
     },
@@ -497,7 +466,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney6"
         }
       ]
     },
@@ -554,19 +523,40 @@
     {
       "time": "18:30",
       "time_utc": "2026-08-09T00:30:00.000Z",
+      "match": "Real Betis vs AFC Bournemouth",
+      "league": "Amistoso Internacional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Claro Sports",
+          "href": "https://futbollibre.ch/1.php?stream=clarosports1"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-08-09T00:30:00.000Z",
       "match": "Wolfsburg vs Kaiserslautern",
       "league": "2. Bundesliga",
       "flag": "⚽",
       "channels": [
         {
           "name": "Fox Sports 2",
-          "href": "https://futbollibre.ch/canales.php?stream=foxsports2"
+          "href": "https://futbollibre.ch/1.php?stream=foxsports2"
         },
         {
           "name": "Fox Sports 2 | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=foxsports2"
+          "href": "https://futbollibre.ch/2.php?stream=foxsports2"
         }
       ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-09T01:00:00.000Z",
+      "match": "Mallorca vs Elversberg",
+      "league": "Amistoso Internacional",
+      "flag": "⚽",
+      "channels": []
     },
     {
       "time": "19:00",
@@ -991,7 +981,7 @@
       "channels": [
         {
           "name": "FOX ONE",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
+          "href": "https://futbollibre.ch/1.php?stream=even3"
         }
       ]
     },
@@ -1229,7 +1219,7 @@
       "channels": [
         {
           "name": "FOX ONE",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
+          "href": "https://futbollibre.ch/1.php?stream=even3"
         }
       ]
     },
@@ -1302,100 +1292,39 @@
       ]
     },
     {
-      "time": "13:30",
-      "time_utc": "2026-08-08T19:30:00.000Z",
-      "match": "Bayer Leverkusen vs Sevilla",
-      "league": "Amistoso Internacional",
+      "time": "16:00",
+      "time_utc": "2026-08-08T22:00:00.000Z",
+      "match": "FALLECIÓ JORGE MESSI, PADRE DE LIONEL MESSI",
+      "league": "ÚLTIMA HORA",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Premier Sports 1UK",
-          "href": "https://futbollibre.ch/1.php?stream=premier1uk"
-        }
-      ]
-    },
-    {
-      "time": "13:45",
-      "time_utc": "2026-08-08T19:45:00.000Z",
-      "match": "Ciclismo – Tour de France Femenino – Etapa #8",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn3"
+          "name": "TYC Sports",
+          "href": "https://futbollibre.ch/1.php?stream=tycsports"
         },
         {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/1.php?stream=espn3"
+          "name": "TyC Sports Internacional",
+          "href": "https://futbollibre.ch/1.php?stream=tycinternacional"
         },
         {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn3"
+          "name": "TyC Sports Internacional | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=tycinternacional"
         },
         {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-08-08T20:00:00.000Z",
-      "match": "Central Español vs Progreso",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "14:30",
-      "time_utc": "2026-08-08T20:30:00.000Z",
-      "match": "MotoGP – GP Gran Bretaña – Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://futbollibre.ch/1.php?stream=even4"
-        }
-      ]
-    },
-    {
-      "time": "14:30",
-      "time_utc": "2026-08-08T20:30:00.000Z",
-      "match": "NEC vs Telstar",
-      "league": "Eredivisie en Países Bajos",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 NL",
-          "href": "https://futbollibre.ch/canales.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "time": "14:30",
-      "time_utc": "2026-08-08T20:30:00.000Z",
-      "match": "Den Bosch vs Almere City",
-      "league": "Eerste Divisie",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN NL",
-          "href": "https://futbollibre.ch/canales.php?stream=espn1_nl"
+          "name": "TyC Sports International | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=tycinternacional"
         },
         {
-          "name": "ESPN NL | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espn1_nl"
+          "name": "TYC Sports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tycsports"
         },
         {
-          "name": "ESPN NL | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espn1_nl"
+          "name": "TyC Sports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=tycsports"
         }
       ]
     },
@@ -1426,6 +1355,19 @@
       ]
     },
     {
+      "time": "16:30",
+      "time_utc": "2026-08-08T22:30:00.000Z",
+      "match": "Colchester United vs Southampton",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        }
+      ]
+    },
+    {
       "time": "16:45",
       "time_utc": "2026-08-08T22:45:00.000Z",
       "match": "Go Ahead Eagles vs Willem II",
@@ -1434,7 +1376,7 @@
       "channels": [
         {
           "name": "ESPN 3 NL",
-          "href": "https://futbollibre.ch/canales.php?stream=espn3_nl"
+          "href": "https://futbollibre.ch/1.php?stream=espn3_nl"
         }
       ]
     },
@@ -1446,8 +1388,8 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "FOX ONE",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
+          "name": "Fox Soccer Plus",
+          "href": "https://futbollibre.ch/1.php?stream=foxsoccerplus"
         }
       ]
     },
@@ -1463,12 +1405,29 @@
           "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney5"
+        },
+        {
           "name": "ESPN AR┃OP2",
           "href": "https://futbollibre.ch/2.php?stream=espn"
         },
         {
           "name": "ESPN AR┃OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "17:30",
+      "time_utc": "2026-08-08T23:30:00.000Z",
+      "match": "Argentina vs Ecuador",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Tigo Sports",
+          "href": "https://futbollibre.ch/1.php?stream=even2"
         }
       ]
     },
@@ -1531,7 +1490,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney6"
         }
       ]
     },
@@ -1588,19 +1547,40 @@
     {
       "time": "18:30",
       "time_utc": "2026-08-09T00:30:00.000Z",
+      "match": "Real Betis vs AFC Bournemouth",
+      "league": "Amistoso Internacional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Claro Sports",
+          "href": "https://futbollibre.ch/1.php?stream=clarosports1"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-08-09T00:30:00.000Z",
       "match": "Wolfsburg vs Kaiserslautern",
       "league": "2. Bundesliga",
       "flag": "⚽",
       "channels": [
         {
           "name": "Fox Sports 2",
-          "href": "https://futbollibre.ch/canales.php?stream=foxsports2"
+          "href": "https://futbollibre.ch/1.php?stream=foxsports2"
         },
         {
           "name": "Fox Sports 2 | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=foxsports2"
+          "href": "https://futbollibre.ch/2.php?stream=foxsports2"
         }
       ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-09T01:00:00.000Z",
+      "match": "Mallorca vs Elversberg",
+      "league": "Amistoso Internacional",
+      "flag": "⚽",
+      "channels": []
     },
     {
       "time": "19:00",
@@ -2025,7 +2005,7 @@
       "channels": [
         {
           "name": "FOX ONE",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
+          "href": "https://futbollibre.ch/1.php?stream=even3"
         }
       ]
     },
