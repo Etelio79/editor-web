@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-08T09:26:27.829Z",
+  "actualizado_en": "2026-08-08T12:21:40.561Z",
   "fecha": "sábado, 8 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 66,
-  "contar_con_canales": 56,
+  "contar": 64,
+  "contar_con_canales": 54,
   "events": [
     {
       "time": "00:00",
@@ -69,7 +69,7 @@
       "channels": [
         {
           "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even7"
+          "href": "https://futbollibre.ch/1.php?stream=even6"
         }
       ]
     },
@@ -82,19 +82,19 @@
       "channels": [
         {
           "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/hd.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/1.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/2.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/3.php?stream=ecdf_ligapro"
         }
       ]
     },
@@ -132,19 +132,19 @@
       "channels": [
         {
           "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
         },
         {
           "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/1.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+          "href": "https://futbollibre.ch/2.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/3.php?stream=tntsports"
         }
       ]
     },
@@ -268,57 +268,6 @@
       ]
     },
     {
-      "time": "07:00",
-      "time_utc": "2026-08-08T13:00:00.000Z",
-      "match": "ESPN Knockout – Floyd Masson vs. David Nyika",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://futbollibre.ch/1.php?stream=even7"
-        }
-      ]
-    },
-    {
-      "time": "09:00",
-      "time_utc": "2026-08-08T15:00:00.000Z",
-      "match": "Auckland vs Chelsea",
-      "league": "Amistoso de Clubes Femenino",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Claro Sports",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=clarosports1"
-        }
-      ]
-    },
-    {
-      "time": "10:45",
-      "time_utc": "2026-08-08T16:45:00.000Z",
-      "match": "MotoGP – GP Gran Bretaña – Clasificación",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/1.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn3"
-        }
-      ]
-    },
-    {
       "time": "11:00",
       "time_utc": "2026-08-08T17:00:00.000Z",
       "match": "Darmstadt 98 vs Holstein Kiel",
@@ -343,8 +292,33 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Claro Sports",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=clarosports1"
+          "name": "Dsports Argentina HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+        },
+        {
+          "name": "Dsports ES7HD",
+          "href": "https://futbollibre.ch/1.php?stream=even7"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-08-08T17:30:00.000Z",
+      "match": "MotoGP – GP Gran Bretaña – Clasificación",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://futbollibre.ch/1.php?stream=even4"
         }
       ]
     },
@@ -355,6 +329,10 @@
       "league": "Amistoso Internacional",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Claro Sports",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=clarosports1"
+        },
         {
           "name": "FOX Deportes | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
@@ -407,7 +385,20 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "14:30",
+      "time_utc": "2026-08-08T20:30:00.000Z",
+      "match": "MotoGP – GP Gran Bretaña – Sprint",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://futbollibre.ch/1.php?stream=even4"
         }
       ]
     },
@@ -421,31 +412,6 @@
         {
           "name": "ESPN 2 NL",
           "href": "https://futbollibre.ch/canales.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "time": "14:30",
-      "time_utc": "2026-08-08T20:30:00.000Z",
-      "match": "MotoGP – GP Gran Bretaña – Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
         }
       ]
     },
@@ -473,38 +439,26 @@
     {
       "time": "16:30",
       "time_utc": "2026-08-08T22:30:00.000Z",
-      "match": "Unión San Felipe vs Recoleta",
-      "league": "Primera B",
+      "match": "Tenis – M1000 Montreal – Octavos de Final",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even7"
+          "name": "ESPN 2 HD",
+          "href": "https://futbollibre.ch/1.php?stream=even4"
         }
       ]
     },
     {
       "time": "16:30",
       "time_utc": "2026-08-08T22:30:00.000Z",
-      "match": "Tenis – M1000 Montreal – Octavos de Final",
-      "league": "",
+      "match": "Unión San Felipe vs Recoleta",
+      "league": "Primera B",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
+          "name": "TNT Sports Chile",
+          "href": "https://futbollibre.ch/1.php?stream=even6"
         }
       ]
     },
@@ -589,19 +543,19 @@
       "channels": [
         {
           "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
         },
         {
           "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/1.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+          "href": "https://futbollibre.ch/2.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/3.php?stream=tntsports"
         }
       ]
     },
@@ -614,7 +568,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
         }
       ]
     },
@@ -702,7 +656,7 @@
       "channels": [
         {
           "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even7"
+          "href": "https://futbollibre.ch/1.php?stream=even6"
         }
       ]
     },
@@ -811,19 +765,19 @@
       "channels": [
         {
           "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
         },
         {
           "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/1.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+          "href": "https://futbollibre.ch/2.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/3.php?stream=tntsports"
         }
       ]
     },
@@ -925,7 +879,20 @@
       "match": "Coquimbo Unido vs La Serena",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
+        }
+      ]
     },
     {
       "time": "21:30",
@@ -936,23 +903,31 @@
       "channels": [
         {
           "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/hd.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/1.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/2.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/3.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf"
+          "href": "https://futbollibre.ch/1.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=ecdf"
         }
       ]
     },
@@ -962,12 +937,7 @@
       "match": "Cobreloa vs Deportes Iquique",
       "league": "Primera B",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even7"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "21:30",
@@ -978,7 +948,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
         }
       ]
     },
@@ -1062,19 +1032,19 @@
       "channels": [
         {
           "name": "ESPN MX | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnmx"
+          "href": "https://futbollibre.ch/hd.php?stream=espnmx"
         },
         {
           "name": "ESPN MX",
-          "href": "https://futbollibre.ch/canales.php?stream=espnmx"
+          "href": "https://futbollibre.ch/1.php?stream=espnmx"
         },
         {
           "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnmx"
+          "href": "https://futbollibre.ch/2.php?stream=espnmx"
         },
         {
           "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnmx"
+          "href": "https://futbollibre.ch/3.php?stream=espnmx"
         }
       ]
     },
@@ -1199,7 +1169,7 @@
       "channels": [
         {
           "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even7"
+          "href": "https://futbollibre.ch/1.php?stream=even6"
         }
       ]
     },
@@ -1212,19 +1182,19 @@
       "channels": [
         {
           "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/hd.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/1.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/2.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/3.php?stream=ecdf_ligapro"
         }
       ]
     },
@@ -1262,19 +1232,19 @@
       "channels": [
         {
           "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
         },
         {
           "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/1.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+          "href": "https://futbollibre.ch/2.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/3.php?stream=tntsports"
         }
       ]
     },
@@ -1398,57 +1368,6 @@
       ]
     },
     {
-      "time": "07:00",
-      "time_utc": "2026-08-08T13:00:00.000Z",
-      "match": "ESPN Knockout – Floyd Masson vs. David Nyika",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 HD",
-          "href": "https://futbollibre.ch/1.php?stream=even7"
-        }
-      ]
-    },
-    {
-      "time": "09:00",
-      "time_utc": "2026-08-08T15:00:00.000Z",
-      "match": "Auckland vs Chelsea",
-      "league": "Amistoso de Clubes Femenino",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Claro Sports",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=clarosports1"
-        }
-      ]
-    },
-    {
-      "time": "10:45",
-      "time_utc": "2026-08-08T16:45:00.000Z",
-      "match": "MotoGP – GP Gran Bretaña – Clasificación",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/1.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn3"
-        }
-      ]
-    },
-    {
       "time": "11:00",
       "time_utc": "2026-08-08T17:00:00.000Z",
       "match": "Darmstadt 98 vs Holstein Kiel",
@@ -1473,8 +1392,33 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Claro Sports",
-          "href": "https://futbollibre.ch/tv/canales.php?stream=clarosports1"
+          "name": "Dsports Argentina HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+        },
+        {
+          "name": "Dsports ES7HD",
+          "href": "https://futbollibre.ch/1.php?stream=even7"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/canales.php?stream=dsports"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=dsports"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-08-08T17:30:00.000Z",
+      "match": "MotoGP – GP Gran Bretaña – Clasificación",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://futbollibre.ch/1.php?stream=even4"
         }
       ]
     },
@@ -1485,6 +1429,10 @@
       "league": "Amistoso Internacional",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Claro Sports",
+          "href": "https://futbollibre.ch/tv/canales.php?stream=clarosports1"
+        },
         {
           "name": "FOX Deportes | HD",
           "href": "https://futbollibre.ch/online/canales.php?stream=foxdeportes"
@@ -1537,7 +1485,20 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "14:30",
+      "time_utc": "2026-08-08T20:30:00.000Z",
+      "match": "MotoGP – GP Gran Bretaña – Sprint",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 HD",
+          "href": "https://futbollibre.ch/1.php?stream=even4"
         }
       ]
     },
@@ -1551,31 +1512,6 @@
         {
           "name": "ESPN 2 NL",
           "href": "https://futbollibre.ch/canales.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "time": "14:30",
-      "time_utc": "2026-08-08T20:30:00.000Z",
-      "match": "MotoGP – GP Gran Bretaña – Sprint",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
         }
       ]
     },
@@ -1603,38 +1539,26 @@
     {
       "time": "16:30",
       "time_utc": "2026-08-08T22:30:00.000Z",
-      "match": "Unión San Felipe vs Recoleta",
-      "league": "Primera B",
+      "match": "Tenis – M1000 Montreal – Octavos de Final",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even7"
+          "name": "ESPN 2 HD",
+          "href": "https://futbollibre.ch/1.php?stream=even4"
         }
       ]
     },
     {
       "time": "16:30",
       "time_utc": "2026-08-08T22:30:00.000Z",
-      "match": "Tenis – M1000 Montreal – Octavos de Final",
-      "league": "",
+      "match": "Unión San Felipe vs Recoleta",
+      "league": "Primera B",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
+          "name": "TNT Sports Chile",
+          "href": "https://futbollibre.ch/1.php?stream=even6"
         }
       ]
     },
@@ -1719,19 +1643,19 @@
       "channels": [
         {
           "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
         },
         {
           "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/1.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+          "href": "https://futbollibre.ch/2.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/3.php?stream=tntsports"
         }
       ]
     },
@@ -1744,7 +1668,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
         }
       ]
     },
@@ -1832,7 +1756,7 @@
       "channels": [
         {
           "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even7"
+          "href": "https://futbollibre.ch/1.php?stream=even6"
         }
       ]
     },
@@ -1941,19 +1865,19 @@
       "channels": [
         {
           "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
         },
         {
           "name": "TNT Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/1.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsports"
+          "href": "https://futbollibre.ch/2.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=tntsports"
+          "href": "https://futbollibre.ch/3.php?stream=tntsports"
         }
       ]
     },
@@ -2055,7 +1979,20 @@
       "match": "Coquimbo Unido vs La Serena",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/canales.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "href": "https://futbollibre.ch/vivo/canal.php?stream=tntsportschile"
+        }
+      ]
     },
     {
       "time": "21:30",
@@ -2066,23 +2003,31 @@
       "channels": [
         {
           "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/hd.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/1.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/2.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=ecdf_ligapro"
+          "href": "https://futbollibre.ch/3.php?stream=ecdf_ligapro"
         },
         {
           "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/canales.php?stream=ecdf"
+          "href": "https://futbollibre.ch/1.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=ecdf"
         }
       ]
     },
@@ -2092,12 +2037,7 @@
       "match": "Cobreloa vs Deportes Iquique",
       "league": "Primera B",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even7"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "21:30",
@@ -2108,7 +2048,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/canales.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
         }
       ]
     },
@@ -2192,19 +2132,19 @@
       "channels": [
         {
           "name": "ESPN MX | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espnmx"
+          "href": "https://futbollibre.ch/hd.php?stream=espnmx"
         },
         {
           "name": "ESPN MX",
-          "href": "https://futbollibre.ch/canales.php?stream=espnmx"
+          "href": "https://futbollibre.ch/1.php?stream=espnmx"
         },
         {
           "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ch/vivo/canal.php?stream=espnmx"
+          "href": "https://futbollibre.ch/2.php?stream=espnmx"
         },
         {
           "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ch/vivo/canales.php?stream=espnmx"
+          "href": "https://futbollibre.ch/3.php?stream=espnmx"
         }
       ]
     },
