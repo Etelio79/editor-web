@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-09T09:28:21.500Z",
+  "actualizado_en": "2026-08-09T12:23:50.593Z",
   "fecha": "domingo, 9 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 67,
-  "contar_con_canales": 52,
+  "contar": 71,
+  "contar_con_canales": 57,
   "events": [
     {
       "time": "00:00",
@@ -250,24 +250,59 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
         },
         {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=dsports"
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-08-09T17:30:00.000Z",
+      "match": "Energie Cottbus vs Hannover 96",
+      "league": "2. Bundesliga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-08-09T17:30:00.000Z",
+      "match": "St. Pauli vs Greuther Fürth",
+      "league": "2. Bundesliga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=foxsports"
         },
         {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=dsports"
-        },
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-08-09T17:30:00.000Z",
+      "match": "Nürnberg vs Dynamo Dresden",
+      "league": "2. Bundesliga",
+      "flag": "⚽",
+      "channels": [
         {
-          "name": "Dsports Argentina",
-          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
         }
       ]
     },
@@ -325,6 +360,47 @@
     {
       "time": "13:00",
       "time_utc": "2026-08-09T19:00:00.000Z",
+      "match": "Arsenal vs Borussia Dortmund",
+      "league": "Emirates Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney7"
+        },
+        {
+          "name": "ESPN MX | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX",
+          "href": "https://futbollibre.ch/1.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espnmx"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-08-09T19:00:00.000Z",
       "match": "Premier Padel Pretoria – Final Femenina",
       "league": "",
       "flag": "⚽",
@@ -369,6 +445,10 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://futbollibre.ch/3.php?stream=foxdeportes"
+        },
+        {
+          "name": "Claro Sports",
+          "href": "https://futbollibre.ch/1.php?stream=clarosports1"
         }
       ]
     },
@@ -403,7 +483,16 @@
       "match": "Cruzeiro vs Mirassol",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz1"
+        },
+        {
+          "name": "Amazon Prime C",
+          "href": "https://futbollibre.ch/canales.php?stream=amazon_prime1"
+        }
+      ]
     },
     {
       "time": "14:00",
@@ -414,7 +503,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney8"
         }
       ]
     },
@@ -483,7 +572,16 @@
       "match": "Mansfield Town vs Sheffield United",
       "league": "EFL Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney9"
+        },
+        {
+          "name": "Paramount+",
+          "href": "https://futbollibre.ch/1.php?stream=paramount1"
+        }
+      ]
     },
     {
       "time": "16:30",
@@ -771,12 +869,7 @@
       "match": "Benfica vs Academico Viseu",
       "league": "Primeira Liga",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "20:00",
@@ -1468,24 +1561,59 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
         },
         {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=dsports"
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-08-09T17:30:00.000Z",
+      "match": "Energie Cottbus vs Hannover 96",
+      "league": "2. Bundesliga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-08-09T17:30:00.000Z",
+      "match": "St. Pauli vs Greuther Fürth",
+      "league": "2. Bundesliga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports",
+          "href": "https://futbollibre.ch/canales.php?stream=foxsports"
         },
         {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=dsports"
-        },
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-08-09T17:30:00.000Z",
+      "match": "Nürnberg vs Dynamo Dresden",
+      "league": "2. Bundesliga",
+      "flag": "⚽",
+      "channels": [
         {
-          "name": "Dsports Argentina",
-          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
         }
       ]
     },
@@ -1543,6 +1671,47 @@
     {
       "time": "13:00",
       "time_utc": "2026-08-09T19:00:00.000Z",
+      "match": "Arsenal vs Borussia Dortmund",
+      "league": "Emirates Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney7"
+        },
+        {
+          "name": "ESPN MX | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX",
+          "href": "https://futbollibre.ch/1.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espnmx"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-08-09T19:00:00.000Z",
       "match": "Premier Padel Pretoria – Final Femenina",
       "league": "",
       "flag": "⚽",
@@ -1587,6 +1756,10 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://futbollibre.ch/3.php?stream=foxdeportes"
+        },
+        {
+          "name": "Claro Sports",
+          "href": "https://futbollibre.ch/1.php?stream=clarosports1"
         }
       ]
     },
@@ -1621,7 +1794,16 @@
       "match": "Cruzeiro vs Mirassol",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/canales.php?stream=fanatiz1"
+        },
+        {
+          "name": "Amazon Prime C",
+          "href": "https://futbollibre.ch/canales.php?stream=amazon_prime1"
+        }
+      ]
     },
     {
       "time": "14:00",
@@ -1632,7 +1814,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney8"
         }
       ]
     },
@@ -1701,7 +1883,16 @@
       "match": "Mansfield Town vs Sheffield United",
       "league": "EFL Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney9"
+        },
+        {
+          "name": "Paramount+",
+          "href": "https://futbollibre.ch/1.php?stream=paramount1"
+        }
+      ]
     },
     {
       "time": "16:30",
@@ -1989,12 +2180,7 @@
       "match": "Benfica vs Academico Viseu",
       "league": "Primeira Liga",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "20:00",
