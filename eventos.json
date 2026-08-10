@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-10T15:46:34.206Z",
+  "actualizado_en": "2026-08-10T18:38:53.045Z",
   "fecha": "lunes, 10 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 19,
-  "contar_con_canales": 17,
+  "contar": 20,
+  "contar_con_canales": 20,
   "events": [
     {
       "time": "00:00",
@@ -188,6 +188,32 @@
     {
       "time": "19:00",
       "time_utc": "2026-08-11T01:00:00.000Z",
+      "match": "Plymouth Argyle vs Exeter City",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-11T01:00:00.000Z",
+      "match": "Rentistas vs Plaza Colonia",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-11T01:00:00.000Z",
       "match": "Tigres vs Envigado",
       "league": "Primera B",
       "flag": "⚽",
@@ -209,14 +235,6 @@
           "href": "https://futbollibre.ch/3.php?stream=winsports2"
         }
       ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-11T01:00:00.000Z",
-      "match": "Plymouth Argyle vs Exeter City",
-      "league": "EFL Cup",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "19:00",
@@ -261,7 +279,12 @@
       "match": "Libertad vs Sportivo Trinidense",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
+        }
+      ]
     },
     {
       "time": "21:00",
@@ -333,20 +356,21 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
+          "name": "ESPN 2 HD",
+          "href": "https://futbollibre.ch/1.php?stream=even4"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-11T04:00:00.000Z",
+      "match": "Deportivo Maldonado vs Racing",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
         {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
         }
       ]
     },
@@ -372,19 +396,6 @@
         {
           "name": "TNT Sports | OP3",
           "href": "https://futbollibre.ch/3.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-11T04:00:00.000Z",
-      "match": "Deportivo Maldonado vs Racing",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
         }
       ]
     },
@@ -611,6 +622,32 @@
     {
       "time": "19:00",
       "time_utc": "2026-08-11T01:00:00.000Z",
+      "match": "Plymouth Argyle vs Exeter City",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-11T01:00:00.000Z",
+      "match": "Rentistas vs Plaza Colonia",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-11T01:00:00.000Z",
       "match": "Tigres vs Envigado",
       "league": "Primera B",
       "flag": "⚽",
@@ -632,14 +669,6 @@
           "href": "https://futbollibre.ch/3.php?stream=winsports2"
         }
       ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-11T01:00:00.000Z",
-      "match": "Plymouth Argyle vs Exeter City",
-      "league": "EFL Cup",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "19:00",
@@ -684,7 +713,12 @@
       "match": "Libertad vs Sportivo Trinidense",
       "league": "Primera División",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
+        }
+      ]
     },
     {
       "time": "21:00",
@@ -756,20 +790,21 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
+          "name": "ESPN 2 HD",
+          "href": "https://futbollibre.ch/1.php?stream=even4"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-11T04:00:00.000Z",
+      "match": "Deportivo Maldonado vs Racing",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
         {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
         }
       ]
     },
@@ -795,19 +830,6 @@
         {
           "name": "TNT Sports | OP3",
           "href": "https://futbollibre.ch/3.php?stream=tntsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-11T04:00:00.000Z",
-      "match": "Deportivo Maldonado vs Racing",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
         }
       ]
     },
