@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-11T15:46:49.643Z",
+  "actualizado_en": "2026-08-11T18:42:37.955Z",
   "fecha": "martes, 11 de agosto",
   "fuente": "futbollibres-puppeteer",
   "contar": 25,
-  "contar_con_canales": 17,
+  "contar_con_canales": 19,
   "events": [
     {
       "time": "00:00",
@@ -15,6 +15,14 @@
         {
           "name": "FOX Sports 1 USA",
           "href": "https://futbollibre.ch/canales.php?stream=foxsports1_usa"
+        },
+        {
+          "name": "MLS 03 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls3en"
+        },
+        {
+          "name": "MLS 03 | Español",
+          "href": "https://futbollibre.ch/2.php?stream=mls3en"
         }
       ]
     },
@@ -102,7 +110,7 @@
       "channels": [
         {
           "name": "Fox Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=foxsports"
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
         },
         {
           "name": "ESPN 2 | HD",
@@ -319,26 +327,13 @@
     {
       "time": "22:00",
       "time_utc": "2026-08-12T04:00:00.000Z",
-      "match": "Boca Juniors vs Deportivo Recoleta",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-12T04:00:00.000Z",
       "match": "Fluminense vs Independiente Rivadavia",
       "league": "Copa Libertadores",
       "flag": "⚽",
       "channels": [
         {
           "name": "Fox Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=foxsports"
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
         },
         {
           "name": "ESPN 2 | HD",
@@ -355,6 +350,63 @@
         {
           "name": "ESPN 2 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        },
+        {
+          "name": "ESPN 3 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn3mx"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-12T04:00:00.000Z",
+      "match": "Boca Juniors vs Deportivo Recoleta",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
+        },
+        {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
         }
       ]
     },
@@ -423,7 +475,12 @@
       "match": "Charlotte vs Pachuca",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 01 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls1es"
+        }
+      ]
     },
     {
       "time": "23:30",
@@ -452,7 +509,16 @@
       "match": "Columbus Crew vs Pumas UNAM",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 02 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls2en"
+        },
+        {
+          "name": "MLS 02 | Español",
+          "href": "https://futbollibre.ch/2.php?stream=mls2en"
+        }
+      ]
     }
   ],
   "eventos": [
@@ -466,6 +532,14 @@
         {
           "name": "FOX Sports 1 USA",
           "href": "https://futbollibre.ch/canales.php?stream=foxsports1_usa"
+        },
+        {
+          "name": "MLS 03 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls3en"
+        },
+        {
+          "name": "MLS 03 | Español",
+          "href": "https://futbollibre.ch/2.php?stream=mls3en"
         }
       ]
     },
@@ -553,7 +627,7 @@
       "channels": [
         {
           "name": "Fox Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=foxsports"
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
         },
         {
           "name": "ESPN 2 | HD",
@@ -770,26 +844,13 @@
     {
       "time": "22:00",
       "time_utc": "2026-08-12T04:00:00.000Z",
-      "match": "Boca Juniors vs Deportivo Recoleta",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-12T04:00:00.000Z",
       "match": "Fluminense vs Independiente Rivadavia",
       "league": "Copa Libertadores",
       "flag": "⚽",
       "channels": [
         {
           "name": "Fox Sports",
-          "href": "https://futbollibre.ch/canales.php?stream=foxsports"
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
         },
         {
           "name": "ESPN 2 | HD",
@@ -806,6 +867,63 @@
         {
           "name": "ESPN 2 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        },
+        {
+          "name": "ESPN 3 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn3mx"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-12T04:00:00.000Z",
+      "match": "Boca Juniors vs Deportivo Recoleta",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
+        },
+        {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
         }
       ]
     },
@@ -874,7 +992,12 @@
       "match": "Charlotte vs Pachuca",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 01 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls1es"
+        }
+      ]
     },
     {
       "time": "23:30",
@@ -903,7 +1026,16 @@
       "match": "Columbus Crew vs Pumas UNAM",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 02 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls2en"
+        },
+        {
+          "name": "MLS 02 | Español",
+          "href": "https://futbollibre.ch/2.php?stream=mls2en"
+        }
+      ]
     }
   ]
 }
