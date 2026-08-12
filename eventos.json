@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-12T18:44:20.285Z",
+  "actualizado_en": "2026-08-12T21:33:18.885Z",
   "fecha": "miércoles, 12 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 34,
-  "contar_con_canales": 25,
+  "contar": 30,
+  "contar_con_canales": 22,
   "events": [
     {
       "time": "00:00",
@@ -144,116 +144,12 @@
       "channels": []
     },
     {
-      "time": "16:15",
-      "time_utc": "2026-08-12T22:15:00.000Z",
-      "match": "Newcastle United vs Everton",
-      "league": "Amistoso Internacional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Claro Sports",
-          "href": "https://futbollibre.ch/1.php?stream=clarosports1"
-        },
-        {
-          "name": "FOX Deportes | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes",
-          "href": "https://futbollibre.ch/1.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-08-12T23:00:00.000Z",
-      "match": "29 de Setiembre vs Sportivo San Lorenzo",
-      "league": "Copa Paraguay",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-08-12T23:00:00.000Z",
-      "match": "Rosario Central  vs Banfield",
-      "league": "Torneo de Reserva",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-08-13T00:00:00.000Z",
-      "match": "MLB – St. Louis Cardinal vs Phialdelphia Phillies",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 7",
-          "href": "https://futbollibre.ch/1.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn7"
-        }
-      ]
-    },
-    {
       "time": "18:30",
       "time_utc": "2026-08-13T00:30:00.000Z",
       "match": "Arsenal vs Como",
       "league": "Amistoso Internacional",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        },
         {
           "name": "Disney+",
           "href": "https://futbollibre.ch/1.php?stream=disney1"
@@ -309,8 +205,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
         }
       ]
     },
@@ -542,6 +442,14 @@
         {
           "name": "TNT Sports Chile",
           "href": "https://futbollibre.ch/1.php?stream=even6"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
         }
       ]
     },
@@ -658,6 +566,10 @@
         {
           "name": "TYC Sports | OP3",
           "href": "https://futbollibre.ch/3.php?stream=tycsports"
+        },
+        {
+          "name": "fanatiz 07",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz7"
         }
       ]
     },
@@ -692,7 +604,12 @@
       "match": "Inter Miami vs León",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 01 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls1es"
+        }
+      ]
     },
     {
       "time": "23:30",
@@ -843,116 +760,12 @@
       "channels": []
     },
     {
-      "time": "16:15",
-      "time_utc": "2026-08-12T22:15:00.000Z",
-      "match": "Newcastle United vs Everton",
-      "league": "Amistoso Internacional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Claro Sports",
-          "href": "https://futbollibre.ch/1.php?stream=clarosports1"
-        },
-        {
-          "name": "FOX Deportes | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes",
-          "href": "https://futbollibre.ch/1.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-08-12T23:00:00.000Z",
-      "match": "29 de Setiembre vs Sportivo San Lorenzo",
-      "league": "Copa Paraguay",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-08-12T23:00:00.000Z",
-      "match": "Rosario Central  vs Banfield",
-      "league": "Torneo de Reserva",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-08-13T00:00:00.000Z",
-      "match": "MLB – St. Louis Cardinal vs Phialdelphia Phillies",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 7",
-          "href": "https://futbollibre.ch/1.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn7"
-        }
-      ]
-    },
-    {
       "time": "18:30",
       "time_utc": "2026-08-13T00:30:00.000Z",
       "match": "Arsenal vs Como",
       "league": "Amistoso Internacional",
       "flag": "⚽",
       "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        },
         {
           "name": "Disney+",
           "href": "https://futbollibre.ch/1.php?stream=disney1"
@@ -1008,8 +821,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
         }
       ]
     },
@@ -1241,6 +1058,14 @@
         {
           "name": "TNT Sports Chile",
           "href": "https://futbollibre.ch/1.php?stream=even6"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
         }
       ]
     },
@@ -1357,6 +1182,10 @@
         {
           "name": "TYC Sports | OP3",
           "href": "https://futbollibre.ch/3.php?stream=tycsports"
+        },
+        {
+          "name": "fanatiz 07",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz7"
         }
       ]
     },
@@ -1391,7 +1220,12 @@
       "match": "Inter Miami vs León",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 01 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls1es"
+        }
+      ]
     },
     {
       "time": "23:30",
