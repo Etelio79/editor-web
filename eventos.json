@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-12T15:47:01.086Z",
+  "actualizado_en": "2026-08-12T18:44:20.285Z",
   "fecha": "miércoles, 12 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 33,
-  "contar_con_canales": 24,
+  "contar": 34,
+  "contar_con_canales": 25,
   "events": [
     {
       "time": "00:00",
@@ -257,6 +257,10 @@
         {
           "name": "Disney+",
           "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn2mx"
         }
       ]
     },
@@ -313,31 +317,26 @@
     {
       "time": "19:00",
       "time_utc": "2026-08-13T01:00:00.000Z",
-      "match": "PSG vs Aston Villa",
-      "league": "Supercopa de la UEFA",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-13T01:00:00.000Z",
       "match": "Deportivo La Coruña vs Real Madrid",
       "league": "Amistoso Internacional",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
         {
           "name": "ESPN MX | HD",
           "href": "https://futbollibre.ch/hd.php?stream=espnmx"
@@ -369,6 +368,68 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://futbollibre.ch/3.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-13T01:00:00.000Z",
+      "match": "PSG vs Aston Villa",
+      "league": "Supercopa de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
+        },
+        {
+          "name": "TUDN USA | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://futbollibre.ch/1.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=tudn"
+        },
+        {
+          "name": "Univision",
+          "href": "https://futbollibre.ch/1.php?stream=univision"
+        }
+      ]
+    },
+    {
+      "time": "19:30",
+      "time_utc": "2026-08-13T01:30:00.000Z",
+      "match": "Sportivo Iteño vs Guaraní",
+      "league": "Copa Paraguay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
         }
       ]
     },
@@ -412,23 +473,6 @@
     {
       "time": "22:00",
       "time_utc": "2026-08-13T04:00:00.000Z",
-      "match": "Tigre vs Torque",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-13T04:00:00.000Z",
       "match": "Platense vs Coquimbo Unido",
       "league": "Copa Libertadores",
       "flag": "⚽",
@@ -448,6 +492,43 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
+        },
+        {
+          "name": "fanatiz 04",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz4"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-13T04:00:00.000Z",
+      "match": "Tigre vs Torque",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
+        {
+          "name": "fanatiz 06",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz6"
         }
       ]
     },
@@ -461,6 +542,39 @@
         {
           "name": "TNT Sports Chile",
           "href": "https://futbollibre.ch/1.php?stream=even6"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-13T04:00:00.000Z",
+      "match": "Palmeiras vs Cerro Porteño",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        },
+        {
+          "name": "Fox Sports 2",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports2"
+        },
+        {
+          "name": "fanatiz 03",
+          "href": "https://futbollibre.ch/2.php?stream=fanatiz3"
         }
       ]
     },
@@ -486,27 +600,14 @@
         {
           "name": "ESPN 2 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-13T04:00:00.000Z",
-      "match": "Palmeiras vs Cerro Porteño",
-      "league": "Copa Libertadores",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney5"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
         }
       ]
     },
@@ -855,6 +956,10 @@
         {
           "name": "Disney+",
           "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn2mx"
         }
       ]
     },
@@ -911,31 +1016,26 @@
     {
       "time": "19:00",
       "time_utc": "2026-08-13T01:00:00.000Z",
-      "match": "PSG vs Aston Villa",
-      "league": "Supercopa de la UEFA",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-13T01:00:00.000Z",
       "match": "Deportivo La Coruña vs Real Madrid",
       "league": "Amistoso Internacional",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
         {
           "name": "ESPN MX | HD",
           "href": "https://futbollibre.ch/hd.php?stream=espnmx"
@@ -967,6 +1067,68 @@
         {
           "name": "FOX Deportes | OP3",
           "href": "https://futbollibre.ch/3.php?stream=foxdeportes"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-13T01:00:00.000Z",
+      "match": "PSG vs Aston Villa",
+      "league": "Supercopa de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
+        },
+        {
+          "name": "TUDN USA | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://futbollibre.ch/1.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=tudn"
+        },
+        {
+          "name": "Univision",
+          "href": "https://futbollibre.ch/1.php?stream=univision"
+        }
+      ]
+    },
+    {
+      "time": "19:30",
+      "time_utc": "2026-08-13T01:30:00.000Z",
+      "match": "Sportivo Iteño vs Guaraní",
+      "league": "Copa Paraguay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
         }
       ]
     },
@@ -1010,23 +1172,6 @@
     {
       "time": "22:00",
       "time_utc": "2026-08-13T04:00:00.000Z",
-      "match": "Tigre vs Torque",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-13T04:00:00.000Z",
       "match": "Platense vs Coquimbo Unido",
       "league": "Copa Libertadores",
       "flag": "⚽",
@@ -1046,6 +1191,43 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
+        },
+        {
+          "name": "fanatiz 04",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz4"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-13T04:00:00.000Z",
+      "match": "Tigre vs Torque",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
+        {
+          "name": "fanatiz 06",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz6"
         }
       ]
     },
@@ -1059,6 +1241,39 @@
         {
           "name": "TNT Sports Chile",
           "href": "https://futbollibre.ch/1.php?stream=even6"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-13T04:00:00.000Z",
+      "match": "Palmeiras vs Cerro Porteño",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        },
+        {
+          "name": "Fox Sports 2",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports2"
+        },
+        {
+          "name": "fanatiz 03",
+          "href": "https://futbollibre.ch/2.php?stream=fanatiz3"
         }
       ]
     },
@@ -1084,27 +1299,14 @@
         {
           "name": "ESPN 2 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-13T04:00:00.000Z",
-      "match": "Palmeiras vs Cerro Porteño",
-      "league": "Copa Libertadores",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney5"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
         }
       ]
     },
