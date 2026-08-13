@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-13T15:46:50.832Z",
+  "actualizado_en": "2026-08-13T18:44:09.005Z",
   "fecha": "jueves, 13 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 28,
-  "contar_con_canales": 21,
+  "contar": 27,
+  "contar_con_canales": 24,
   "events": [
     {
       "time": "00:00",
@@ -11,7 +11,12 @@
       "match": "Alianza vs UMECIT",
       "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        }
+      ]
     },
     {
       "time": "00:00",
@@ -44,7 +49,16 @@
       "match": "América vs Austin",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 03 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls3en"
+        },
+        {
+          "name": "MLS 03 | Español",
+          "href": "https://futbollibre.ch/2.php?stream=mls3en"
+        }
+      ]
     },
     {
       "time": "00:30",
@@ -198,31 +212,6 @@
         {
           "name": "TUDN USA | OP3",
           "href": "https://futbollibre.ch/3.php?stream=tudn"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-08-13T21:00:00.000Z",
-      "match": "Tenis – M1000 Cincinnati – Primera Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
         }
       ]
     },
@@ -393,20 +382,24 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
         },
         {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
         },
         {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
         },
         {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
+        {
+          "name": "fanatiz 03",
+          "href": "https://futbollibre.ch/2.php?stream=fanatiz3"
         }
       ]
     },
@@ -532,7 +525,12 @@
       "match": "Philadelphia Union vs Santos Laguna",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 01 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls1es"
+        }
+      ]
     },
     {
       "time": "23:30",
@@ -540,7 +538,16 @@
       "match": "New York City vs Necaxa",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 02 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls2en"
+        },
+        {
+          "name": "MLS 02 | Español",
+          "href": "https://futbollibre.ch/2.php?stream=mls2en"
+        }
+      ]
     }
   ],
   "eventos": [
@@ -550,7 +557,12 @@
       "match": "Alianza vs UMECIT",
       "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        }
+      ]
     },
     {
       "time": "00:00",
@@ -583,7 +595,16 @@
       "match": "América vs Austin",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 03 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls3en"
+        },
+        {
+          "name": "MLS 03 | Español",
+          "href": "https://futbollibre.ch/2.php?stream=mls3en"
+        }
+      ]
     },
     {
       "time": "00:30",
@@ -737,31 +758,6 @@
         {
           "name": "TUDN USA | OP3",
           "href": "https://futbollibre.ch/3.php?stream=tudn"
-        }
-      ]
-    },
-    {
-      "time": "15:00",
-      "time_utc": "2026-08-13T21:00:00.000Z",
-      "match": "Tenis – M1000 Cincinnati – Primera Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
         }
       ]
     },
@@ -932,20 +928,24 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
         },
         {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
         },
         {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
         },
         {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
+        {
+          "name": "fanatiz 03",
+          "href": "https://futbollibre.ch/2.php?stream=fanatiz3"
         }
       ]
     },
@@ -1071,7 +1071,12 @@
       "match": "Philadelphia Union vs Santos Laguna",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 01 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls1es"
+        }
+      ]
     },
     {
       "time": "23:30",
@@ -1079,7 +1084,16 @@
       "match": "New York City vs Necaxa",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 02 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls2en"
+        },
+        {
+          "name": "MLS 02 | Español",
+          "href": "https://futbollibre.ch/2.php?stream=mls2en"
+        }
+      ]
     }
   ]
 }
