@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-13T12:39:29.816Z",
+  "actualizado_en": "2026-08-13T15:46:50.832Z",
   "fecha": "jueves, 13 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 25,
-  "contar_con_canales": 18,
+  "contar": 28,
+  "contar_con_canales": 21,
   "events": [
     {
       "time": "00:00",
@@ -156,6 +156,23 @@
       "channels": []
     },
     {
+      "time": "02:00",
+      "time_utc": "2026-08-13T08:00:00.000Z",
+      "match": "Panamá vs México - repeticion",
+      "league": "Liga de Naciones de Concacaf 2023-24",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TVMAX",
+          "href": "https://futbollibre.ch/1.php?stream=eventos4"
+        },
+        {
+          "name": "TVMAX | OP2",
+          "href": "https://futbollibre.ch/hd.php?stream=eventos4"
+        }
+      ]
+    },
+    {
       "time": "02:30",
       "time_utc": "2026-08-13T08:30:00.000Z",
       "match": "Portland Timbers vs Tijuana",
@@ -258,6 +275,19 @@
     {
       "time": "18:00",
       "time_utc": "2026-08-14T00:00:00.000Z",
+      "match": "Anderlecht vs PAOK",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Espn+",
+          "href": "https://futbollibre.ch/1.php?stream=espnplus1"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-08-14T00:00:00.000Z",
       "match": "Argentinos Juniors vs Gimnasia La Plata",
       "league": "Torneo de Reserva",
       "flag": "⚽",
@@ -277,6 +307,19 @@
         {
           "name": "TNT Sports | OP3",
           "href": "https://futbollibre.ch/3.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-14T01:00:00.000Z",
+      "match": "1 de Marzo Pilar vs Atlético Tembetary",
+      "league": "Copa Paraguay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
         }
       ]
     },
@@ -370,27 +413,6 @@
     {
       "time": "22:00",
       "time_utc": "2026-08-14T04:00:00.000Z",
-      "match": "Mirassol vs LDU Quito",
-      "league": "Copa Libertadores",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-14T04:00:00.000Z",
       "match": "San Luis vs Deportes Temuco",
       "league": "Primera B",
       "flag": "⚽",
@@ -416,13 +438,37 @@
     {
       "time": "22:00",
       "time_utc": "2026-08-14T04:00:00.000Z",
-      "match": "Santos vs Macará",
-      "league": "Copa Sudamericana",
+      "match": "Mirassol vs LDU Quito",
+      "league": "Copa Libertadores",
       "flag": "⚽",
       "channels": [
         {
-          "name": "BeIN Sports Ñ",
-          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
+          "name": "Fox Sports 2",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports2"
+        },
+        {
+          "name": "Fox Sports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=foxsports2"
+        },
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
         }
       ]
     },
@@ -448,6 +494,35 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-14T04:00:00.000Z",
+      "match": "Santos vs Macará",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2",
+          "href": "https://futbollibre.ch/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
         }
       ]
     },
@@ -620,6 +695,23 @@
       "channels": []
     },
     {
+      "time": "02:00",
+      "time_utc": "2026-08-13T08:00:00.000Z",
+      "match": "Panamá vs México - repeticion",
+      "league": "Liga de Naciones de Concacaf 2023-24",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TVMAX",
+          "href": "https://futbollibre.ch/1.php?stream=eventos4"
+        },
+        {
+          "name": "TVMAX | OP2",
+          "href": "https://futbollibre.ch/hd.php?stream=eventos4"
+        }
+      ]
+    },
+    {
       "time": "02:30",
       "time_utc": "2026-08-13T08:30:00.000Z",
       "match": "Portland Timbers vs Tijuana",
@@ -722,6 +814,19 @@
     {
       "time": "18:00",
       "time_utc": "2026-08-14T00:00:00.000Z",
+      "match": "Anderlecht vs PAOK",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Espn+",
+          "href": "https://futbollibre.ch/1.php?stream=espnplus1"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-08-14T00:00:00.000Z",
       "match": "Argentinos Juniors vs Gimnasia La Plata",
       "league": "Torneo de Reserva",
       "flag": "⚽",
@@ -741,6 +846,19 @@
         {
           "name": "TNT Sports | OP3",
           "href": "https://futbollibre.ch/3.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-14T01:00:00.000Z",
+      "match": "1 de Marzo Pilar vs Atlético Tembetary",
+      "league": "Copa Paraguay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
         }
       ]
     },
@@ -834,27 +952,6 @@
     {
       "time": "22:00",
       "time_utc": "2026-08-14T04:00:00.000Z",
-      "match": "Mirassol vs LDU Quito",
-      "league": "Copa Libertadores",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-14T04:00:00.000Z",
       "match": "San Luis vs Deportes Temuco",
       "league": "Primera B",
       "flag": "⚽",
@@ -880,13 +977,37 @@
     {
       "time": "22:00",
       "time_utc": "2026-08-14T04:00:00.000Z",
-      "match": "Santos vs Macará",
-      "league": "Copa Sudamericana",
+      "match": "Mirassol vs LDU Quito",
+      "league": "Copa Libertadores",
       "flag": "⚽",
       "channels": [
         {
-          "name": "BeIN Sports Ñ",
-          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
+          "name": "Fox Sports 2",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports2"
+        },
+        {
+          "name": "Fox Sports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=foxsports2"
+        },
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
         }
       ]
     },
@@ -912,6 +1033,35 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-14T04:00:00.000Z",
+      "match": "Santos vs Macará",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2",
+          "href": "https://futbollibre.ch/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
         }
       ]
     },
