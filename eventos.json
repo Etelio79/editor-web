@@ -1,8 +1,8 @@
 {
-  "actualizado_en": "2026-08-13T21:32:36.494Z",
+  "actualizado_en": "2026-08-14T00:51:18.878Z",
   "fecha": "jueves, 13 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 23,
+  "contar": 20,
   "contar_con_canales": 20,
   "events": [
     {
@@ -63,25 +63,42 @@
     {
       "time": "00:30",
       "time_utc": "2026-08-13T06:30:00.000Z",
+      "match": "Deportes Iquique vs Copiapó",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Chile",
+          "href": "https://futbollibre.ch/1.php?stream=even6"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-13T06:30:00.000Z",
       "match": "Cienciano vs Botafogo",
       "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn3"
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/1.php?stream=espn3"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney5"
         },
         {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn3"
+          "name": "fanatiz 05",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz5"
         }
       ]
     },
@@ -93,16 +110,48 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
+          "name": "ESPN 2",
+          "href": "https://futbollibre.ch/1.php?stream=espn2"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
+          "name": "ESPN 2 Argentina",
+          "href": "https://futbollibre.ch/1.php?stream=even3"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn2"
+        },
+        {
+          "name": "ESPN Argentina",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
+        },
+        {
+          "name": "fanatiz 04",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz4"
+        },
+        {
+          "name": "Fox Sports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=foxsports"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://futbollibre.ch/1.php?stream=telefe"
+        },
+        {
+          "name": "Telefe | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=telefe"
+        },
+        {
+          "name": "ESPN 3 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn3mx"
         }
       ]
     },
@@ -116,19 +165,14 @@
         {
           "name": "TNT Sports Chile",
           "href": "https://futbollibre.ch/1.php?stream=even6"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-08-13T06:30:00.000Z",
-      "match": "Deportes Iquique vs Copiapó",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
+        },
         {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
         }
       ]
     },
@@ -138,7 +182,16 @@
       "match": "Cruz Azul vs Chicago Fire",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 04 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls4en"
+        },
+        {
+          "name": "MLS 04 | Español",
+          "href": "https://futbollibre.ch/2.php?stream=mls4en"
+        }
+      ]
     },
     {
       "time": "01:00",
@@ -150,6 +203,10 @@
         {
           "name": "ESPN 4 MX",
           "href": "https://futbollibre.ch/1.php?stream=espn4mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney6"
         }
       ]
     },
@@ -159,7 +216,12 @@
       "match": "Firpo vs Diriangén",
       "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney8"
+        }
+      ]
     },
     {
       "time": "02:00",
@@ -167,7 +229,12 @@
       "match": "Antigua GFC vs Marathón",
       "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney7"
+        }
+      ]
     },
     {
       "time": "02:00",
@@ -202,6 +269,10 @@
           "href": "https://futbollibre.ch/hd.php?stream=tudn"
         },
         {
+          "name": "MLS 05 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls5en"
+        },
+        {
           "name": "TUDN USA",
           "href": "https://futbollibre.ch/1.php?stream=tudn"
         },
@@ -216,110 +287,6 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-08-14T01:00:00.000Z",
-      "match": "1 de Marzo Pilar vs Atlético Tembetary",
-      "league": "Copa Paraguay",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-08-14T02:00:00.000Z",
-      "match": "Central Córdoba SdE vs Independiente",
-      "league": "Torneo de Reserva",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/1.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-08-14T02:00:00.000Z",
-      "match": "Astillero vs Daquilema",
-      "league": "Copa Ecuador",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/1.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/1.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-14T04:00:00.000Z",
-      "match": "Vasco da Gama vs Olimpia",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=dsports"
-        },
-        {
-          "name": "fanatiz 03",
-          "href": "https://futbollibre.ch/2.php?stream=fanatiz3"
-        }
-      ]
-    },
-    {
       "time": "22:00",
       "time_utc": "2026-08-14T04:00:00.000Z",
       "match": "San Luis vs Deportes Temuco",
@@ -327,12 +294,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
         },
         {
           "name": "TNT Sports",
           "href": "https://futbollibre.ch/1.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP2",
@@ -356,16 +331,20 @@
           "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
           "name": "ESPN AR┃OP2",
           "href": "https://futbollibre.ch/2.php?stream=espn"
         },
         {
           "name": "ESPN AR┃OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
         },
         {
           "name": "Fox Sports 2",
@@ -376,8 +355,21 @@
           "href": "https://futbollibre.ch/2.php?stream=foxsports2"
         },
         {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+          "name": "ESPN 3 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn3mx"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-14T04:00:00.000Z",
+      "match": "Vasco da Gama vs Olimpia",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 03",
+          "href": "https://futbollibre.ch/2.php?stream=fanatiz3"
         }
       ]
     },
@@ -413,6 +405,14 @@
       "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
         {
           "name": "Dsports Argentina",
           "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
@@ -533,25 +533,42 @@
     {
       "time": "00:30",
       "time_utc": "2026-08-13T06:30:00.000Z",
+      "match": "Deportes Iquique vs Copiapó",
+      "league": "Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Chile",
+          "href": "https://futbollibre.ch/1.php?stream=even6"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-13T06:30:00.000Z",
       "match": "Cienciano vs Botafogo",
       "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn3"
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/1.php?stream=espn3"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney5"
         },
         {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn3"
+          "name": "fanatiz 05",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz5"
         }
       ]
     },
@@ -563,16 +580,48 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
+          "name": "ESPN 2",
+          "href": "https://futbollibre.ch/1.php?stream=espn2"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
+          "name": "ESPN 2 Argentina",
+          "href": "https://futbollibre.ch/1.php?stream=even3"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn2"
+        },
+        {
+          "name": "ESPN Argentina",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
+        },
+        {
+          "name": "fanatiz 04",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz4"
+        },
+        {
+          "name": "Fox Sports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=foxsports"
+        },
+        {
+          "name": "Telefe",
+          "href": "https://futbollibre.ch/1.php?stream=telefe"
+        },
+        {
+          "name": "Telefe | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=telefe"
+        },
+        {
+          "name": "ESPN 3 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn3mx"
         }
       ]
     },
@@ -586,19 +635,14 @@
         {
           "name": "TNT Sports Chile",
           "href": "https://futbollibre.ch/1.php?stream=even6"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-08-13T06:30:00.000Z",
-      "match": "Deportes Iquique vs Copiapó",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
+        },
         {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
         }
       ]
     },
@@ -608,7 +652,16 @@
       "match": "Cruz Azul vs Chicago Fire",
       "league": "Leagues Cup",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "MLS 04 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls4en"
+        },
+        {
+          "name": "MLS 04 | Español",
+          "href": "https://futbollibre.ch/2.php?stream=mls4en"
+        }
+      ]
     },
     {
       "time": "01:00",
@@ -620,6 +673,10 @@
         {
           "name": "ESPN 4 MX",
           "href": "https://futbollibre.ch/1.php?stream=espn4mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney6"
         }
       ]
     },
@@ -629,7 +686,12 @@
       "match": "Firpo vs Diriangén",
       "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney8"
+        }
+      ]
     },
     {
       "time": "02:00",
@@ -637,7 +699,12 @@
       "match": "Antigua GFC vs Marathón",
       "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney7"
+        }
+      ]
     },
     {
       "time": "02:00",
@@ -672,6 +739,10 @@
           "href": "https://futbollibre.ch/hd.php?stream=tudn"
         },
         {
+          "name": "MLS 05 | EN",
+          "href": "https://futbollibre.ch/1.php?stream=mls5en"
+        },
+        {
           "name": "TUDN USA",
           "href": "https://futbollibre.ch/1.php?stream=tudn"
         },
@@ -686,110 +757,6 @@
       ]
     },
     {
-      "time": "19:00",
-      "time_utc": "2026-08-14T01:00:00.000Z",
-      "match": "1 de Marzo Pilar vs Atlético Tembetary",
-      "league": "Copa Paraguay",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-08-14T02:00:00.000Z",
-      "match": "Central Córdoba SdE vs Independiente",
-      "league": "Torneo de Reserva",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/1.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-08-14T02:00:00.000Z",
-      "match": "Astillero vs Daquilema",
-      "league": "Copa Ecuador",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/1.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/1.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-14T04:00:00.000Z",
-      "match": "Vasco da Gama vs Olimpia",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=dsports"
-        },
-        {
-          "name": "fanatiz 03",
-          "href": "https://futbollibre.ch/2.php?stream=fanatiz3"
-        }
-      ]
-    },
-    {
       "time": "22:00",
       "time_utc": "2026-08-14T04:00:00.000Z",
       "match": "San Luis vs Deportes Temuco",
@@ -797,12 +764,20 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
+          "name": "TNT Sports Premiun CL HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
         },
         {
           "name": "TNT Sports",
           "href": "https://futbollibre.ch/1.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
         },
         {
           "name": "TNT Sports | OP2",
@@ -826,16 +801,20 @@
           "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
           "name": "ESPN AR┃OP2",
           "href": "https://futbollibre.ch/2.php?stream=espn"
         },
         {
           "name": "ESPN AR┃OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
         },
         {
           "name": "Fox Sports 2",
@@ -846,8 +825,21 @@
           "href": "https://futbollibre.ch/2.php?stream=foxsports2"
         },
         {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+          "name": "ESPN 3 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn3mx"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-14T04:00:00.000Z",
+      "match": "Vasco da Gama vs Olimpia",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 03",
+          "href": "https://futbollibre.ch/2.php?stream=fanatiz3"
         }
       ]
     },
@@ -883,6 +875,14 @@
       "league": "Copa Sudamericana",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
         {
           "name": "Dsports Argentina",
           "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
