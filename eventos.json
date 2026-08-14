@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-14T12:34:57.248Z",
+  "actualizado_en": "2026-08-14T15:39:29.443Z",
   "fecha": "viernes, 14 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 26,
-  "contar_con_canales": 24,
+  "contar": 28,
+  "contar_con_canales": 27,
   "events": [
     {
       "time": "00:00",
@@ -158,15 +158,56 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-08-15T00:00:00.000Z",
-      "match": "Cerrito vs Oriental",
-      "league": "Segunda División",
+      "time": "16:30",
+      "time_utc": "2026-08-14T22:30:00.000Z",
+      "match": "Cagliari vs Arezzo",
+      "league": "Copa Italia",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports2"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-08-14T22:30:00.000Z",
+      "match": "Parma vs Catania",
+      "league": "Copa Italia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
         }
       ]
     },
@@ -193,6 +234,19 @@
         {
           "name": "ESPN 3 NL",
           "href": "https://futbollibre.ch/1.php?stream=espn3_nl"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-08-15T00:00:00.000Z",
+      "match": "Cerrito vs Oriental",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
         }
       ]
     },
@@ -233,6 +287,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
           "name": "BeIN Sports Ñ",
           "href": "https://futbollibre.ch/1.php?stream=beinsportes"
         }
@@ -244,7 +302,24 @@
       "match": "Monza vs Avellino",
       "league": "Copa de Italia",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports2"
+        }
+      ]
     },
     {
       "time": "19:00",
@@ -652,15 +727,56 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-08-15T00:00:00.000Z",
-      "match": "Cerrito vs Oriental",
-      "league": "Segunda División",
+      "time": "16:30",
+      "time_utc": "2026-08-14T22:30:00.000Z",
+      "match": "Cagliari vs Arezzo",
+      "league": "Copa Italia",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports2"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-08-14T22:30:00.000Z",
+      "match": "Parma vs Catania",
+      "league": "Copa Italia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
         }
       ]
     },
@@ -687,6 +803,19 @@
         {
           "name": "ESPN 3 NL",
           "href": "https://futbollibre.ch/1.php?stream=espn3_nl"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-08-15T00:00:00.000Z",
+      "match": "Cerrito vs Oriental",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
         }
       ]
     },
@@ -727,6 +856,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
           "name": "BeIN Sports Ñ",
           "href": "https://futbollibre.ch/1.php?stream=beinsportes"
         }
@@ -738,7 +871,24 @@
       "match": "Monza vs Avellino",
       "league": "Copa de Italia",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports2"
+        }
+      ]
     },
     {
       "time": "19:00",
