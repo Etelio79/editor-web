@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-15T12:14:48.896Z",
+  "actualizado_en": "2026-08-15T15:10:49.470Z",
   "fecha": "sábado, 15 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 73,
-  "contar_con_canales": 55,
+  "contar": 75,
+  "contar_con_canales": 58,
   "events": [
     {
       "time": "00:00",
@@ -314,40 +314,6 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-08-15T17:00:00.000Z",
-      "match": "Tottenham Hotspur vs Hoffenheim",
-      "league": "Amistoso Internacional",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "11:00",
-      "time_utc": "2026-08-15T17:00:00.000Z",
-      "match": "Notts County vs Leicester City",
-      "league": "League One",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-08-15T17:30:00.000Z",
-      "match": "Greuther Fürth vs Núremberg",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Fox Sports",
-          "href": "https://futbollibre.ch/1.php?stream=foxsports"
-        }
-      ]
-    },
-    {
       "time": "13:00",
       "time_utc": "2026-08-15T19:00:00.000Z",
       "match": "Cerro vs Albion",
@@ -356,7 +322,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
         }
       ]
     },
@@ -369,7 +335,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
         }
       ]
     },
@@ -380,6 +346,23 @@
       "league": "Amistoso Internacional",
       "flag": "⚽",
       "channels": []
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-08-15T19:30:00.000Z",
+      "match": "Borussia M'gladbach vs Aston Villa",
+      "league": "Partido Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports EXTRA Español",
+          "href": "https://futbollibre.ch/1.php?stream=beinsportsxtra"
+        },
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        }
+      ]
     },
     {
       "time": "13:30",
@@ -396,6 +379,61 @@
       "league": "League Two",
       "flag": "⚽",
       "channels": []
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-15T20:00:00.000Z",
+      "match": "Brentford vs Eintracht Frankfurt",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-15T20:00:00.000Z",
+      "match": "Middlesbrough vs Lincoln City",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-15T20:00:00.000Z",
+      "match": "Tottenham Hotspur vs Hoffenheim",
+      "league": "Amistoso Internacional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn2mx"
+        },
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports2"
+        }
+      ]
     },
     {
       "time": "14:00",
@@ -456,27 +494,6 @@
       ]
     },
     {
-      "time": "14:00",
-      "time_utc": "2026-08-15T20:00:00.000Z",
-      "match": "Tottenham Hotspur vs Hoffenheim",
-      "league": "Amistoso Internacional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://futbollibre.ch/1.php?stream=espn2mx"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-08-15T20:00:00.000Z",
-      "match": "Middlesbrough vs Lincoln City",
-      "league": "Championship",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
       "time": "14:30",
       "time_utc": "2026-08-15T20:30:00.000Z",
       "match": "Willem II vs NEC",
@@ -497,8 +514,25 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
+        },
+        {
           "name": "BeIN Sports Ñ",
           "href": "https://futbollibre.ch/1.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-08-15T21:00:00.000Z",
+      "match": "FC Andorra vs Ceuta",
+      "league": "LaLiga 2",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://futbollibre.ch/1.php?stream=hypermotion1"
         }
       ]
     },
@@ -528,6 +562,23 @@
       ]
     },
     {
+      "time": "15:00",
+      "time_utc": "2026-08-15T21:00:00.000Z",
+      "match": "Tottenham Hotspur vs Hoffenheim",
+      "league": "Amistoso Internacional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        }
+      ]
+    },
+    {
       "time": "15:20",
       "time_utc": "2026-08-15T21:20:00.000Z",
       "match": "Mundial de Hockey Femenino – Argentina vs. Estados Unidos",
@@ -549,6 +600,51 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "15:30",
+      "time_utc": "2026-08-15T21:30:00.000Z",
+      "match": "Borussia Dortmund vs Roma",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
+        {
+          "name": "ESPN 4 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn4mx"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=foxdeportes"
         }
       ]
     },
@@ -1073,24 +1169,7 @@
       "match": "Los Chankas vs Melgar",
       "league": "Liga 1",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1MAX",
-          "href": "https://futbollibre.ch/1.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=liga1max"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "21:15",
@@ -1711,40 +1790,6 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-08-15T17:00:00.000Z",
-      "match": "Tottenham Hotspur vs Hoffenheim",
-      "league": "Amistoso Internacional",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "11:00",
-      "time_utc": "2026-08-15T17:00:00.000Z",
-      "match": "Notts County vs Leicester City",
-      "league": "League One",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-08-15T17:30:00.000Z",
-      "match": "Greuther Fürth vs Núremberg",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Fox Sports",
-          "href": "https://futbollibre.ch/1.php?stream=foxsports"
-        }
-      ]
-    },
-    {
       "time": "13:00",
       "time_utc": "2026-08-15T19:00:00.000Z",
       "match": "Cerro vs Albion",
@@ -1753,7 +1798,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
         }
       ]
     },
@@ -1766,7 +1811,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
         }
       ]
     },
@@ -1777,6 +1822,23 @@
       "league": "Amistoso Internacional",
       "flag": "⚽",
       "channels": []
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-08-15T19:30:00.000Z",
+      "match": "Borussia M'gladbach vs Aston Villa",
+      "league": "Partido Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports EXTRA Español",
+          "href": "https://futbollibre.ch/1.php?stream=beinsportsxtra"
+        },
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        }
+      ]
     },
     {
       "time": "13:30",
@@ -1793,6 +1855,61 @@
       "league": "League Two",
       "flag": "⚽",
       "channels": []
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-15T20:00:00.000Z",
+      "match": "Brentford vs Eintracht Frankfurt",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-15T20:00:00.000Z",
+      "match": "Middlesbrough vs Lincoln City",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-15T20:00:00.000Z",
+      "match": "Tottenham Hotspur vs Hoffenheim",
+      "league": "Amistoso Internacional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn2mx"
+        },
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports2"
+        }
+      ]
     },
     {
       "time": "14:00",
@@ -1853,27 +1970,6 @@
       ]
     },
     {
-      "time": "14:00",
-      "time_utc": "2026-08-15T20:00:00.000Z",
-      "match": "Tottenham Hotspur vs Hoffenheim",
-      "league": "Amistoso Internacional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://futbollibre.ch/1.php?stream=espn2mx"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-08-15T20:00:00.000Z",
-      "match": "Middlesbrough vs Lincoln City",
-      "league": "Championship",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
       "time": "14:30",
       "time_utc": "2026-08-15T20:30:00.000Z",
       "match": "Willem II vs NEC",
@@ -1894,8 +1990,25 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
+        },
+        {
           "name": "BeIN Sports Ñ",
           "href": "https://futbollibre.ch/1.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-08-15T21:00:00.000Z",
+      "match": "FC Andorra vs Ceuta",
+      "league": "LaLiga 2",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://futbollibre.ch/1.php?stream=hypermotion1"
         }
       ]
     },
@@ -1925,6 +2038,23 @@
       ]
     },
     {
+      "time": "15:00",
+      "time_utc": "2026-08-15T21:00:00.000Z",
+      "match": "Tottenham Hotspur vs Hoffenheim",
+      "league": "Amistoso Internacional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        }
+      ]
+    },
+    {
       "time": "15:20",
       "time_utc": "2026-08-15T21:20:00.000Z",
       "match": "Mundial de Hockey Femenino – Argentina vs. Estados Unidos",
@@ -1946,6 +2076,51 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "15:30",
+      "time_utc": "2026-08-15T21:30:00.000Z",
+      "match": "Borussia Dortmund vs Roma",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
+        {
+          "name": "ESPN 4 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn4mx"
+        },
+        {
+          "name": "FOX Deportes | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=foxdeportes"
         }
       ]
     },
@@ -2470,24 +2645,7 @@
       "match": "Los Chankas vs Melgar",
       "league": "Liga 1",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1MAX",
-          "href": "https://futbollibre.ch/1.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=liga1max"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "21:15",
