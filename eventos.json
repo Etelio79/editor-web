@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-17T12:17:20.765Z",
+  "actualizado_en": "2026-08-17T15:14:34.166Z",
   "fecha": "lunes, 17 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 29,
-  "contar_con_canales": 23,
+  "contar": 30,
+  "contar_con_canales": 25,
   "events": [
     {
       "time": "00:00",
@@ -223,7 +223,37 @@
       "match": "Sassuolo vs Cesena",
       "league": "Copa de Italia",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports2"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-08-17T23:00:00.000Z",
+      "match": "Sporting Gijón vs Sabadell",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://futbollibre.ch/1.php?stream=hypermotion1"
+        }
+      ]
     },
     {
       "time": "17:45",
@@ -772,7 +802,37 @@
       "match": "Sassuolo vs Cesena",
       "league": "Copa de Italia",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports2"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-08-17T23:00:00.000Z",
+      "match": "Sporting Gijón vs Sabadell",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "href": "https://futbollibre.ch/1.php?stream=hypermotion1"
+        }
+      ]
     },
     {
       "time": "17:45",
