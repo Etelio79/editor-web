@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-19T12:18:34.354Z",
+  "actualizado_en": "2026-08-19T15:18:58.009Z",
   "fecha": "miércoles, 19 de agosto",
   "fuente": "futbollibres-puppeteer",
   "contar": 31,
-  "contar_con_canales": 27,
+  "contar_con_canales": 28,
   "events": [
     {
       "time": "00:00",
@@ -229,7 +229,12 @@
       "match": "Barcelona vs Al Ahly",
       "league": "Amistoso Internacional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Eventos",
+          "href": "https://futbollibre.ch/1.php?stream=eventos5"
+        }
+      ]
     },
     {
       "time": "19:00",
@@ -866,7 +871,12 @@
       "match": "Barcelona vs Al Ahly",
       "league": "Amistoso Internacional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Eventos",
+          "href": "https://futbollibre.ch/1.php?stream=eventos5"
+        }
+      ]
     },
     {
       "time": "19:00",
