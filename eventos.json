@@ -1,23 +1,10 @@
 {
-  "actualizado_en": "2026-08-18T21:11:43.888Z",
+  "actualizado_en": "2026-08-19T00:27:41.045Z",
   "fecha": "martes, 18 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 22,
-  "contar_con_canales": 20,
+  "contar": 14,
+  "contar_con_canales": 14,
   "events": [
-    {
-      "time": "00:00",
-      "time_utc": "2026-08-18T06:00:00.000Z",
-      "match": "The Strongest vs Oriente Petrolero",
-      "league": "Copa de la División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
     {
       "time": "00:00",
       "time_utc": "2026-08-18T06:00:00.000Z",
@@ -28,6 +15,27 @@
         {
           "name": "fanatiz 01",
           "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/1.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-08-18T06:00:00.000Z",
+      "match": "The Strongest vs Oriente Petrolero",
+      "league": "Copa de la División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
         }
       ]
     },
@@ -57,6 +65,39 @@
         {
           "name": "fanatiz 04",
           "href": "https://futbollibre.ch/1.php?stream=fanatiz4"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-18T06:30:00.000Z",
+      "match": "São Paulo vs Bolívar",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Tigo Sports HD",
+          "href": "https://futbollibre.ch/1.php?stream=even2"
+        },
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
         }
       ]
     },
@@ -115,35 +156,6 @@
         {
           "name": "fanatiz 05",
           "href": "https://futbollibre.ch/1.php?stream=fanatiz5"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-08-18T06:30:00.000Z",
-      "match": "São Paulo vs Bolívar",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports Argentina",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=dsports"
         }
       ]
     },
@@ -249,188 +261,6 @@
       ]
     },
     {
-      "time": "18:40",
-      "time_utc": "2026-08-19T00:40:00.000Z",
-      "match": "Tenis – M1000 Cincinnati – Tercera Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-19T01:00:00.000Z",
-      "match": "San Antonio Bulo Bulo vs Aurora",
-      "league": "Copa de la División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-19T01:00:00.000Z",
-      "match": "Levski Sofia vs AEK Athens | Playoffs-Ida",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney2"
-        },
-        {
-          "name": "Fox Sports",
-          "href": "https://futbollibre.ch/1.php?stream=foxsports"
-        },
-        {
-          "name": "TUDN USA | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA",
-          "href": "https://futbollibre.ch/1.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=tudn"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-19T01:00:00.000Z",
-      "match": "Dinamo Zagreb vs Viking | Playoffs-Ida",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney3"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-19T01:00:00.000Z",
-      "match": "Fenerbahçe vs Olympique Lyonnais | Playoffs-Ida",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-08-19T01:30:00.000Z",
-      "match": "Benjamín Aceval vs Nacional Asunción",
-      "league": "Copa Paraguay",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-08-19T02:00:00.000Z",
-      "match": "Deportivo Riestra vs Gimnasia La Plata",
-      "league": "Copa Argentina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://futbollibre.ch/1.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=tycsports"
-        },
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
       "time": "22:00",
       "time_utc": "2026-08-19T04:00:00.000Z",
       "match": "Deportivo Recoleta vs Boca Juniors",
@@ -442,30 +272,26 @@
           "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
+          "name": "ESPN Argentina",
+          "href": "https://futbollibre.ch/1.php?stream=even2"
         },
         {
           "name": "Disney+",
           "href": "https://futbollibre.ch/1.php?stream=disney4"
         },
         {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
           "name": "fanatiz 02",
           "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
         }
       ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-19T04:00:00.000Z",
-      "match": "Mount Pleasant Academy vs Cibao",
-      "league": "Campeonato de Clubes del Caribe",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "22:00",
@@ -526,19 +352,6 @@
     {
       "time": "00:00",
       "time_utc": "2026-08-18T06:00:00.000Z",
-      "match": "The Strongest vs Oriente Petrolero",
-      "league": "Copa de la División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "00:00",
-      "time_utc": "2026-08-18T06:00:00.000Z",
       "match": "Llaneros vs Deportes Quindío",
       "league": "Copa Colombia",
       "flag": "⚽",
@@ -546,6 +359,27 @@
         {
           "name": "fanatiz 01",
           "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        },
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/1.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-08-18T06:00:00.000Z",
+      "match": "The Strongest vs Oriente Petrolero",
+      "league": "Copa de la División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
         }
       ]
     },
@@ -575,6 +409,39 @@
         {
           "name": "fanatiz 04",
           "href": "https://futbollibre.ch/1.php?stream=fanatiz4"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-18T06:30:00.000Z",
+      "match": "São Paulo vs Bolívar",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Tigo Sports HD",
+          "href": "https://futbollibre.ch/1.php?stream=even2"
+        },
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
         }
       ]
     },
@@ -633,35 +500,6 @@
         {
           "name": "fanatiz 05",
           "href": "https://futbollibre.ch/1.php?stream=fanatiz5"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-08-18T06:30:00.000Z",
-      "match": "São Paulo vs Bolívar",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports Argentina",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=dsports"
         }
       ]
     },
@@ -767,188 +605,6 @@
       ]
     },
     {
-      "time": "18:40",
-      "time_utc": "2026-08-19T00:40:00.000Z",
-      "match": "Tenis – M1000 Cincinnati – Tercera Ronda",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-19T01:00:00.000Z",
-      "match": "San Antonio Bulo Bulo vs Aurora",
-      "league": "Copa de la División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-19T01:00:00.000Z",
-      "match": "Levski Sofia vs AEK Athens | Playoffs-Ida",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney2"
-        },
-        {
-          "name": "Fox Sports",
-          "href": "https://futbollibre.ch/1.php?stream=foxsports"
-        },
-        {
-          "name": "TUDN USA | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA",
-          "href": "https://futbollibre.ch/1.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=tudn"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-19T01:00:00.000Z",
-      "match": "Dinamo Zagreb vs Viking | Playoffs-Ida",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney3"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-19T01:00:00.000Z",
-      "match": "Fenerbahçe vs Olympique Lyonnais | Playoffs-Ida",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-08-19T01:30:00.000Z",
-      "match": "Benjamín Aceval vs Nacional Asunción",
-      "league": "Copa Paraguay",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-08-19T02:00:00.000Z",
-      "match": "Deportivo Riestra vs Gimnasia La Plata",
-      "league": "Copa Argentina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TYC Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports",
-          "href": "https://futbollibre.ch/1.php?stream=tycsports"
-        },
-        {
-          "name": "TyC Sports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tycsports"
-        },
-        {
-          "name": "TYC Sports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=tycsports"
-        },
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
       "time": "22:00",
       "time_utc": "2026-08-19T04:00:00.000Z",
       "match": "Deportivo Recoleta vs Boca Juniors",
@@ -960,30 +616,26 @@
           "href": "https://futbollibre.ch/1.php?stream=espn"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
+          "name": "ESPN Argentina",
+          "href": "https://futbollibre.ch/1.php?stream=even2"
         },
         {
           "name": "Disney+",
           "href": "https://futbollibre.ch/1.php?stream=disney4"
         },
         {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
           "name": "fanatiz 02",
           "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
         }
       ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-19T04:00:00.000Z",
-      "match": "Mount Pleasant Academy vs Cibao",
-      "league": "Campeonato de Clubes del Caribe",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "22:00",
