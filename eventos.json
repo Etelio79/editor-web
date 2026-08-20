@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-20T15:22:16.230Z",
+  "actualizado_en": "2026-08-20T18:19:18.030Z",
   "fecha": "jueves, 20 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 27,
-  "contar_con_canales": 22,
+  "contar": 26,
+  "contar_con_canales": 24,
   "events": [
     {
       "time": "00:00",
@@ -108,18 +108,31 @@
     {
       "time": "01:00",
       "time_utc": "2026-08-20T07:00:00.000Z",
-      "match": "Medellín vs Deportivo Pasto",
-      "league": "Copa Colombia",
+      "match": "Alianza vs Olimpia",
+      "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
       "channels": []
     },
     {
       "time": "01:00",
       "time_utc": "2026-08-20T07:00:00.000Z",
-      "match": "Alianza vs Olimpia",
-      "league": "Copa Centroamericana de CONCACAF",
+      "match": "Medellín vs Deportivo Pasto",
+      "league": "Copa Colombia",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/1.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports 2",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
+        }
+      ]
     },
     {
       "time": "03:00",
@@ -278,14 +291,6 @@
           "href": "https://futbollibre.ch/3.php?stream=espn7"
         }
       ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-08-21T00:00:00.000Z",
-      "match": "Real Madrid II vs Zamora",
-      "league": "Amistoso Internacional",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "19:00",
@@ -469,31 +474,6 @@
     {
       "time": "22:00",
       "time_utc": "2026-08-21T04:00:00.000Z",
-      "match": "Macará vs Santos",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-21T04:00:00.000Z",
       "match": "Olimpia vs Vasco da Gama",
       "league": "Copa Sudamericana",
       "flag": "⚽",
@@ -536,6 +516,10 @@
           "href": "https://futbollibre.ch/3.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        },
+        {
           "name": "Fox Sports 2",
           "href": "https://futbollibre.ch/1.php?stream=foxsports2"
         },
@@ -546,6 +530,47 @@
         {
           "name": "ESPN 3 MX",
           "href": "https://futbollibre.ch/1.php?stream=espn3mx"
+        },
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-21T04:00:00.000Z",
+      "match": "Macará vs Santos",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4 | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4",
+          "href": "https://futbollibre.ch/1.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
+        },
+        {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
         }
       ]
     },
@@ -568,7 +593,20 @@
       "match": "Atlético Nacional vs Deportivo Cali",
       "league": "Copa Colombia",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/1.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports 2",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
+        }
+      ]
     },
     {
       "time": "23:00",
@@ -700,18 +738,31 @@
     {
       "time": "01:00",
       "time_utc": "2026-08-20T07:00:00.000Z",
-      "match": "Medellín vs Deportivo Pasto",
-      "league": "Copa Colombia",
+      "match": "Alianza vs Olimpia",
+      "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
       "channels": []
     },
     {
       "time": "01:00",
       "time_utc": "2026-08-20T07:00:00.000Z",
-      "match": "Alianza vs Olimpia",
-      "league": "Copa Centroamericana de CONCACAF",
+      "match": "Medellín vs Deportivo Pasto",
+      "league": "Copa Colombia",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/1.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports 2",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
+        }
+      ]
     },
     {
       "time": "03:00",
@@ -870,14 +921,6 @@
           "href": "https://futbollibre.ch/3.php?stream=espn7"
         }
       ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-08-21T00:00:00.000Z",
-      "match": "Real Madrid II vs Zamora",
-      "league": "Amistoso Internacional",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "19:00",
@@ -1061,31 +1104,6 @@
     {
       "time": "22:00",
       "time_utc": "2026-08-21T04:00:00.000Z",
-      "match": "Macará vs Santos",
-      "league": "Copa Sudamericana",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "22:00",
-      "time_utc": "2026-08-21T04:00:00.000Z",
       "match": "Olimpia vs Vasco da Gama",
       "league": "Copa Sudamericana",
       "flag": "⚽",
@@ -1128,6 +1146,10 @@
           "href": "https://futbollibre.ch/3.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        },
+        {
           "name": "Fox Sports 2",
           "href": "https://futbollibre.ch/1.php?stream=foxsports2"
         },
@@ -1138,6 +1160,47 @@
         {
           "name": "ESPN 3 MX",
           "href": "https://futbollibre.ch/1.php?stream=espn3mx"
+        },
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-08-21T04:00:00.000Z",
+      "match": "Macará vs Santos",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4 | HD",
+          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4",
+          "href": "https://futbollibre.ch/1.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
+        },
+        {
+          "name": "fanatiz 02",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz2"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
         }
       ]
     },
@@ -1160,7 +1223,20 @@
       "match": "Atlético Nacional vs Deportivo Cali",
       "league": "Copa Colombia",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/1.php?stream=winsports"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports 2",
+          "href": "https://futbollibre.ch/canales.php?stream=winsports2"
+        }
+      ]
     },
     {
       "time": "23:00",
