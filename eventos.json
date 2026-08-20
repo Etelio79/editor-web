@@ -1,8 +1,8 @@
 {
-  "actualizado_en": "2026-08-20T12:20:46.416Z",
+  "actualizado_en": "2026-08-20T15:22:16.230Z",
   "fecha": "jueves, 20 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 28,
+  "contar": 27,
   "contar_con_canales": 22,
   "events": [
     {
@@ -128,31 +128,6 @@
       "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
       "channels": []
-    },
-    {
-      "time": "10:20",
-      "time_utc": "2026-08-20T16:20:00.000Z",
-      "match": "Mundial de Hockey Masculino – Nueva Zelanda vs Argentina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        }
-      ]
     },
     {
       "time": "16:00",
@@ -372,6 +347,22 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://futbollibre.ch/1.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -381,7 +372,12 @@
       "match": "Sheffield Wednesday vs Bradford City",
       "league": "League One",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
+        }
+      ]
     },
     {
       "time": "20:00",
@@ -726,31 +722,6 @@
       "channels": []
     },
     {
-      "time": "10:20",
-      "time_utc": "2026-08-20T16:20:00.000Z",
-      "match": "Mundial de Hockey Masculino – Nueva Zelanda vs Argentina",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        }
-      ]
-    },
-    {
       "time": "16:00",
       "time_utc": "2026-08-20T22:00:00.000Z",
       "match": "Little League World Series",
@@ -968,6 +939,22 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://futbollibre.ch/1.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -977,7 +964,12 @@
       "match": "Sheffield Wednesday vs Bradford City",
       "league": "League One",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
+        }
+      ]
     },
     {
       "time": "20:00",
