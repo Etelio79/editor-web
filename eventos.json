@@ -1,10 +1,23 @@
 {
-  "actualizado_en": "2026-08-21T09:23:13.340Z",
+  "actualizado_en": "2026-08-21T12:19:26.508Z",
   "fecha": "viernes, 21 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 4,
-  "contar_con_canales": 4,
+  "contar": 9,
+  "contar_con_canales": 9,
   "events": [
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-21T06:30:00.000Z",
+      "match": "Oriente Petrolero vs San Antonio Bulo Bulo",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        }
+      ]
+    },
     {
       "time": "17:00",
       "time_utc": "2026-08-21T23:00:00.000Z",
@@ -27,6 +40,56 @@
         {
           "name": "Liga1Max | OP3",
           "href": "https://futbollibre.ch/3.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "17:30",
+      "time_utc": "2026-08-21T23:30:00.000Z",
+      "match": "Aldosivi vs Unión Santa Fe",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports",
+          "href": "https://futbollibre.ch/1.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-08-22T00:45:00.000Z",
+      "match": "Olympique Marseille vs Strasbourg",
+      "league": "Ligue 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2",
+          "href": "https://futbollibre.ch/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn2"
         }
       ]
     },
@@ -86,12 +149,63 @@
         {
           "name": "Liga1Max | OP3",
           "href": "https://futbollibre.ch/3.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-08-22T04:30:00.000Z",
+      "match": "The Strongest vs Universitario de Vinto",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-08-22T05:00:00.000Z",
+      "match": "Estudiantes Río Cuarto vs San Lorenzo",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium┃HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/1.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espnpremium"
         }
       ]
     }
   ],
   "eventos": [
     {
+      "time": "00:30",
+      "time_utc": "2026-08-21T06:30:00.000Z",
+      "match": "Oriente Petrolero vs San Antonio Bulo Bulo",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        }
+      ]
+    },
+    {
       "time": "17:00",
       "time_utc": "2026-08-21T23:00:00.000Z",
       "match": "FC Cajamarca vs Atlético Grau",
@@ -113,6 +227,56 @@
         {
           "name": "Liga1Max | OP3",
           "href": "https://futbollibre.ch/3.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "17:30",
+      "time_utc": "2026-08-21T23:30:00.000Z",
+      "match": "Aldosivi vs Unión Santa Fe",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports",
+          "href": "https://futbollibre.ch/1.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-08-22T00:45:00.000Z",
+      "match": "Olympique Marseille vs Strasbourg",
+      "league": "Ligue 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2",
+          "href": "https://futbollibre.ch/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn2"
         }
       ]
     },
@@ -172,6 +336,44 @@
         {
           "name": "Liga1Max | OP3",
           "href": "https://futbollibre.ch/3.php?stream=liga1max"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-08-22T04:30:00.000Z",
+      "match": "The Strongest vs Universitario de Vinto",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-08-22T05:00:00.000Z",
+      "match": "Estudiantes Río Cuarto vs San Lorenzo",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium┃HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/1.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espnpremium"
         }
       ]
     }
