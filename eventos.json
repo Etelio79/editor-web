@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-22T12:15:25.828Z",
+  "actualizado_en": "2026-08-22T15:10:27.464Z",
   "fecha": "sábado, 22 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 89,
-  "contar_con_canales": 73,
+  "contar": 87,
+  "contar_con_canales": 77,
   "events": [
     {
       "time": "00:00",
@@ -280,72 +280,6 @@
       ]
     },
     {
-      "time": "11:30",
-      "time_utc": "2026-08-22T17:30:00.000Z",
-      "match": "Lincoln City vs Portsmouth",
-      "league": "Championship",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        },
-        {
-          "name": "Fox Sports 2",
-          "href": "https://futbollibre.ch/1.php?stream=foxsports2"
-        },
-        {
-          "name": "Fox Sports 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=foxsports2"
-        },
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://futbollibre.ch/1.php?stream=espn2mx"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-08-22T17:30:00.000Z",
-      "match": "Hull City vs Manchester United",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        },
-        {
-          "name": "Universo",
-          "href": "https://futbollibre.ch/1.php?stream=universo"
-        },
-        {
-          "name": "Universo | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=universo"
-        }
-      ]
-    },
-    {
       "time": "12:00",
       "time_utc": "2026-08-22T18:00:00.000Z",
       "match": "PSV vs Utrecht",
@@ -363,56 +297,6 @@
         {
           "name": "ESPN NL | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn1_nl"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-08-22T20:00:00.000Z",
-      "match": "Everton vs Crystal Palace",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        },
-        {
-          "name": "Universo",
-          "href": "https://futbollibre.ch/1.php?stream=universo"
-        },
-        {
-          "name": "Universo | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-08-22T20:00:00.000Z",
-      "match": "Nottingham Forest vs Leeds United",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-08-22T20:00:00.000Z",
-      "match": "Central Español vs Juventud",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
         }
       ]
     },
@@ -452,10 +336,74 @@
     {
       "time": "14:00",
       "time_utc": "2026-08-22T20:00:00.000Z",
+      "match": "Nottingham Forest vs Leeds United",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-22T20:00:00.000Z",
+      "match": "Central Español vs Juventud",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-22T20:00:00.000Z",
+      "match": "Everton vs Crystal Palace",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
+        },
+        {
+          "name": "Universo",
+          "href": "https://futbollibre.ch/1.php?stream=universo"
+        },
+        {
+          "name": "Universo | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=universo"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-22T20:00:00.000Z",
       "match": "Ipswich Town vs Sunderland",
       "league": "Premier League",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney5"
+        }
+      ]
     },
     {
       "time": "14:00",
@@ -479,6 +427,10 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney7"
         },
         {
           "name": "Fox Sports 2",
@@ -523,35 +475,6 @@
     {
       "time": "14:30",
       "time_utc": "2026-08-22T20:30:00.000Z",
-      "match": "Fortuna Sittard vs AZ",
-      "league": "Eredivisie",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN MX | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX",
-          "href": "https://futbollibre.ch/1.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN 2 NL",
-          "href": "https://futbollibre.ch/1.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "time": "14:30",
-      "time_utc": "2026-08-22T20:30:00.000Z",
       "match": "NAC Breda vs Ajax II",
       "league": "Eerste Divisie",
       "flag": "⚽",
@@ -571,15 +494,35 @@
       ]
     },
     {
-      "time": "15:00",
-      "time_utc": "2026-08-22T21:00:00.000Z",
-      "match": "Athletic Club vs Sevilla",
-      "league": "LaLiga",
+      "time": "14:30",
+      "time_utc": "2026-08-22T20:30:00.000Z",
+      "match": "Fortuna Sittard vs AZ",
+      "league": "Eredivisie",
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney8"
+        },
+        {
+          "name": "ESPN MX | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX",
+          "href": "https://futbollibre.ch/1.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN 2 NL",
+          "href": "https://futbollibre.ch/1.php?stream=espn2_nl"
         }
       ]
     },
@@ -624,6 +567,47 @@
     {
       "time": "15:00",
       "time_utc": "2026-08-22T21:00:00.000Z",
+      "match": "Athletic Club vs Sevilla",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://futbollibre.ch/1.php?stream=sky_sports_laliga"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-08-22T21:00:00.000Z",
       "match": "Rugby – Test Match Internacional – Sudáfrica vs. Nueva Zelanda",
       "league": "",
       "flag": "⚽",
@@ -652,7 +636,16 @@
       "match": "Lens vs Auxerre",
       "league": "Ligue 1",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney9"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
+        }
+      ]
     },
     {
       "time": "16:00",
@@ -685,30 +678,10 @@
       "match": "Cerrito vs Uruguay Montevideo",
       "league": "Segunda División",
       "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-08-22T22:30:00.000Z",
-      "match": "Internazionale vs Monza",
-      "league": "Serie A",
-      "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney10"
         }
       ]
     },
@@ -736,10 +709,39 @@
     {
       "time": "16:30",
       "time_utc": "2026-08-22T22:30:00.000Z",
-      "match": "Brentford vs Tottenham Hotspur",
-      "league": "Premier League",
+      "match": "Internazionale vs Monza",
+      "league": "Serie A",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5",
+          "href": "https://futbollibre.ch/1.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney11"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://futbollibre.ch/1.php?stream=telemundo"
+        }
+      ]
     },
     {
       "time": "16:30",
@@ -763,6 +765,35 @@
         {
           "name": "ESPN MX | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espnmx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney13"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-08-22T22:30:00.000Z",
+      "match": "Brentford vs Tottenham Hotspur",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney12"
+        },
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
         }
       ]
     },
@@ -857,7 +888,20 @@
       "match": "Little Ligue World Series",
       "league": "",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 7",
+          "href": "https://futbollibre.ch/1.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn7"
+        }
+      ]
     },
     {
       "time": "17:30",
@@ -892,8 +936,32 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports2"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://futbollibre.ch/1.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -906,7 +974,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney14"
         }
       ]
     },
@@ -999,6 +1067,10 @@
         {
           "name": "Fox Sports 2 | OP2",
           "href": "https://futbollibre.ch/2.php?stream=foxsports2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney16"
         }
       ]
     },
@@ -1020,6 +1092,10 @@
         {
           "name": "ESPN AR┃OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney15"
         },
         {
           "name": "Telemundo",
@@ -1995,72 +2071,6 @@
       ]
     },
     {
-      "time": "11:30",
-      "time_utc": "2026-08-22T17:30:00.000Z",
-      "match": "Lincoln City vs Portsmouth",
-      "league": "Championship",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        },
-        {
-          "name": "Fox Sports 2",
-          "href": "https://futbollibre.ch/1.php?stream=foxsports2"
-        },
-        {
-          "name": "Fox Sports 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=foxsports2"
-        },
-        {
-          "name": "ESPN 2 MX",
-          "href": "https://futbollibre.ch/1.php?stream=espn2mx"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-08-22T17:30:00.000Z",
-      "match": "Hull City vs Manchester United",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        },
-        {
-          "name": "Universo",
-          "href": "https://futbollibre.ch/1.php?stream=universo"
-        },
-        {
-          "name": "Universo | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=universo"
-        }
-      ]
-    },
-    {
       "time": "12:00",
       "time_utc": "2026-08-22T18:00:00.000Z",
       "match": "PSV vs Utrecht",
@@ -2078,56 +2088,6 @@
         {
           "name": "ESPN NL | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn1_nl"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-08-22T20:00:00.000Z",
-      "match": "Everton vs Crystal Palace",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        },
-        {
-          "name": "Universo",
-          "href": "https://futbollibre.ch/1.php?stream=universo"
-        },
-        {
-          "name": "Universo | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-08-22T20:00:00.000Z",
-      "match": "Nottingham Forest vs Leeds United",
-      "league": "Premier League",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-08-22T20:00:00.000Z",
-      "match": "Central Español vs Juventud",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
         }
       ]
     },
@@ -2167,10 +2127,74 @@
     {
       "time": "14:00",
       "time_utc": "2026-08-22T20:00:00.000Z",
+      "match": "Nottingham Forest vs Leeds United",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-22T20:00:00.000Z",
+      "match": "Central Español vs Juventud",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-22T20:00:00.000Z",
+      "match": "Everton vs Crystal Palace",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney4"
+        },
+        {
+          "name": "Universo",
+          "href": "https://futbollibre.ch/1.php?stream=universo"
+        },
+        {
+          "name": "Universo | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=universo"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-08-22T20:00:00.000Z",
       "match": "Ipswich Town vs Sunderland",
       "league": "Premier League",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney5"
+        }
+      ]
     },
     {
       "time": "14:00",
@@ -2194,6 +2218,10 @@
         {
           "name": "ESPN 5 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney7"
         },
         {
           "name": "Fox Sports 2",
@@ -2238,35 +2266,6 @@
     {
       "time": "14:30",
       "time_utc": "2026-08-22T20:30:00.000Z",
-      "match": "Fortuna Sittard vs AZ",
-      "league": "Eredivisie",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN MX | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX",
-          "href": "https://futbollibre.ch/1.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN 2 NL",
-          "href": "https://futbollibre.ch/1.php?stream=espn2_nl"
-        }
-      ]
-    },
-    {
-      "time": "14:30",
-      "time_utc": "2026-08-22T20:30:00.000Z",
       "match": "NAC Breda vs Ajax II",
       "league": "Eerste Divisie",
       "flag": "⚽",
@@ -2286,15 +2285,35 @@
       ]
     },
     {
-      "time": "15:00",
-      "time_utc": "2026-08-22T21:00:00.000Z",
-      "match": "Athletic Club vs Sevilla",
-      "league": "LaLiga",
+      "time": "14:30",
+      "time_utc": "2026-08-22T20:30:00.000Z",
+      "match": "Fortuna Sittard vs AZ",
+      "league": "Eredivisie",
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney8"
+        },
+        {
+          "name": "ESPN MX | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX",
+          "href": "https://futbollibre.ch/1.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN MX | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espnmx"
+        },
+        {
+          "name": "ESPN 2 NL",
+          "href": "https://futbollibre.ch/1.php?stream=espn2_nl"
         }
       ]
     },
@@ -2339,6 +2358,47 @@
     {
       "time": "15:00",
       "time_utc": "2026-08-22T21:00:00.000Z",
+      "match": "Athletic Club vs Sevilla",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports Argentina",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports"
+        },
+        {
+          "name": "DSports",
+          "href": "https://futbollibre.ch/1.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports"
+        },
+        {
+          "name": "DSports | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://futbollibre.ch/1.php?stream=sky_sports_laliga"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-08-22T21:00:00.000Z",
       "match": "Rugby – Test Match Internacional – Sudáfrica vs. Nueva Zelanda",
       "league": "",
       "flag": "⚽",
@@ -2367,7 +2427,16 @@
       "match": "Lens vs Auxerre",
       "league": "Ligue 1",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney9"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
+        }
+      ]
     },
     {
       "time": "16:00",
@@ -2400,30 +2469,10 @@
       "match": "Cerrito vs Uruguay Montevideo",
       "league": "Segunda División",
       "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "16:30",
-      "time_utc": "2026-08-22T22:30:00.000Z",
-      "match": "Internazionale vs Monza",
-      "league": "Serie A",
-      "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney10"
         }
       ]
     },
@@ -2451,10 +2500,39 @@
     {
       "time": "16:30",
       "time_utc": "2026-08-22T22:30:00.000Z",
-      "match": "Brentford vs Tottenham Hotspur",
-      "league": "Premier League",
+      "match": "Internazionale vs Monza",
+      "league": "Serie A",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5",
+          "href": "https://futbollibre.ch/1.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney11"
+        },
+        {
+          "name": "Telemundo | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=telemundo"
+        },
+        {
+          "name": "Telemundo",
+          "href": "https://futbollibre.ch/1.php?stream=telemundo"
+        }
+      ]
     },
     {
       "time": "16:30",
@@ -2478,6 +2556,35 @@
         {
           "name": "ESPN MX | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espnmx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney13"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-08-22T22:30:00.000Z",
+      "match": "Brentford vs Tottenham Hotspur",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney12"
+        },
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
         }
       ]
     },
@@ -2572,7 +2679,20 @@
       "match": "Little Ligue World Series",
       "league": "",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN 7",
+          "href": "https://futbollibre.ch/1.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn7"
+        }
+      ]
     },
     {
       "time": "17:30",
@@ -2607,8 +2727,32 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
+          "name": "Dsports 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2",
+          "href": "https://futbollibre.ch/1.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=dsports2"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://futbollibre.ch/1.php?stream=sky_sports_laliga"
         }
       ]
     },
@@ -2621,7 +2765,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://futbollibre.ch/1.php?stream=disney14"
         }
       ]
     },
@@ -2714,6 +2858,10 @@
         {
           "name": "Fox Sports 2 | OP2",
           "href": "https://futbollibre.ch/2.php?stream=foxsports2"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney16"
         }
       ]
     },
@@ -2735,6 +2883,10 @@
         {
           "name": "ESPN AR┃OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney15"
         },
         {
           "name": "Telemundo",
