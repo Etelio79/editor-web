@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-22T21:10:41.504Z",
+  "actualizado_en": "2026-08-23T00:30:18.366Z",
   "fecha": "sábado, 22 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 61,
-  "contar_con_canales": 57,
+  "contar": 27,
+  "contar_con_canales": 26,
   "events": [
     {
       "time": "00:00",
@@ -11,7 +11,28 @@
       "match": "Huracán vs Deportivo Riestra",
       "league": "Liga Profesional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN Premium┃HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/1.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espnpremium"
+        },
+        {
+          "name": "fanatiz 07",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz7"
+        }
+      ]
     },
     {
       "time": "00:00",
@@ -267,271 +288,36 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-08-23T00:00:00.000Z",
-      "match": "Cerro Largo vs Defensor Sporting",
-      "league": "Primera División",
+      "time": "21:30",
+      "time_utc": "2026-08-23T03:30:00.000Z",
+      "match": "Cobreloa vs Unión Española",
+      "league": "Primera B",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney14"
+          "name": "TNT Sports Chile",
+          "href": "https://futbollibre.ch/1.php?stream=even6"
         }
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-08-23T00:00:00.000Z",
-      "match": "Al-Ahli vs Abha",
-      "league": "Pro League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "FOX Deportes | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes",
-          "href": "https://futbollibre.ch/1.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "time": "18:15",
-      "time_utc": "2026-08-23T00:15:00.000Z",
-      "match": "UTC Cajamarca vs Comerciantes Unidos",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1MAX",
-          "href": "https://futbollibre.ch/1.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=liga1max"
-        }
-      ]
-    },
-    {
-      "time": "18:25",
-      "time_utc": "2026-08-23T00:25:00.000Z",
-      "match": "Rugby – URBA – Hindú vs. SIC",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-08-23T00:30:00.000Z",
-      "match": "Fenerbahçe vs Konyaspor",
-      "league": "Super Lig",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Fox Sports 2",
-          "href": "https://futbollibre.ch/1.php?stream=foxsports2"
-        },
-        {
-          "name": "Fox Sports 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=foxsports2"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney16"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-08-23T00:30:00.000Z",
-      "match": "Borussia Dortmund vs Bayern München",
-      "league": "Supercopa de Alemania",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney15"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://futbollibre.ch/1.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=telemundo"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Ligue 1:",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Genoa vs Napoli",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN MX | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX",
-          "href": "https://futbollibre.ch/1.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espnmx"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney17"
-        },
-        {
-          "name": "Universo | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=universo"
-        },
-        {
-          "name": "Universo",
-          "href": "https://futbollibre.ch/1.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Nice vs Lorient",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney20"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Toulouse vs Olympique Lyonnais",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
-        },
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Le Mans vs Brest",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney19"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Parma vs Cagliari",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney18"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "ABB vs Gualberto Villarroel SJ",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Universidad Católica vs Manta",
+      "time": "21:30",
+      "time_utc": "2026-08-23T03:30:00.000Z",
+      "match": "Técnico Universitario vs Guayaquil City",
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
         {
           "name": "ECDF LigaPRO | HD",
           "href": "https://futbollibre.ch/hd.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECUAVISA",
+          "href": "https://futbollibre.ch/1.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=ecdf"
         },
         {
           "name": "ECDF LigaPro",
@@ -546,448 +332,8 @@
           "href": "https://futbollibre.ch/3.php?stream=ecdf_ligapro"
         },
         {
-          "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/1.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=ecdf"
-        },
-        {
           "name": "ECUAVISA | OP3",
           "href": "https://futbollibre.ch/3.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Sportivo Ameliano vs Deportivo Recoleta",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Paysandu vs River Plate",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Puerto Montt vs Deportes Iquique",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Gimnasia La Plata vs Gimnasia Mendoza",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/1.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espnpremium"
-        },
-        {
-          "name": "fanatiz 09",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz9"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Heerenveen vs PEC Zwolle",
-      "league": "Eredivisie",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN NL",
-          "href": "https://futbollibre.ch/1.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn1_nl"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Magallanes vs Deportes Santa Cruz",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "WTA Cincinnati – Semifinal #1",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Atlético Tucumán vs Instituto",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/1.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=tntsports"
-        },
-        {
-          "name": "fanatiz 08",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz8"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Fluminense vs Remo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere BR | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=premiere1"
-        },
-        {
-          "name": "Premiere BR",
-          "href": "https://futbollibre.ch/1.php?stream=premiere1"
-        },
-        {
-          "name": "Win Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://futbollibre.ch/1.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=winsports"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-08-23T01:30:00.000Z",
-      "match": "Espanyol vs Real Madrid",
-      "league": "LaLiga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD",
-          "href": "https://tv-90.com/dsportsar.php"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
-        },
-        {
-          "name": "Dsports Argentina HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
-        },
-        {
-          "name": "Dsports Argentina",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=dsports"
-        },
-        {
-          "name": "ESPN Deportes",
-          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
-        },
-        {
-          "name": "Sky Sports LaLiga MX",
-          "href": "https://futbollibre.ch/1.php?stream=sky_sports_laliga"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-08-23T01:30:00.000Z",
-      "match": "Sporting CP vs Alverca",
-      "league": "Primeira Liga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2",
-          "href": "https://futbollibre.ch/1.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=dsports2"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-08-23T01:30:00.000Z",
-      "match": "Eldense vs Cádiz",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://futbollibre.ch/1.php?stream=hypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "19:36",
-      "time_utc": "2026-08-23T01:36:00.000Z",
-      "match": "Troyes vs Paris",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney2"
-        },
-        {
-          "name": "BeIN Sports EXTRA Español",
-          "href": "https://futbollibre.ch/1.php?stream=beinsportsxtra"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-08-23T02:00:00.000Z",
-      "match": "Anthony Hernandez vs Gregory Rodriguez",
-      "league": "UFC",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Paramount+",
-          "href": "https://futbollibre.ch/1.php?stream=paramount1"
-        },
-        {
-          "name": "Paramount+",
-          "href": "https://futbollibre.ch/1.php?stream=paramount2"
-        },
-        {
-          "name": "Paramount+",
-          "href": "https://futbollibre.ch/1.php?stream=paramount3"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-08-23T02:30:00.000Z",
-      "match": "Rionegro Águilas vs Millonarios",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ch/1.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "20:50",
-      "time_utc": "2026-08-23T02:50:00.000Z",
-      "match": "Juan Pablo II College vs ADT",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1MAX",
-          "href": "https://futbollibre.ch/1.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=liga1max"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-08-23T03:00:00.000Z",
-      "match": "Corinthians vs Internacional RS",
-      "league": "Brasileiro Femenino",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Sportv 2 BR",
-          "href": "https://futbollibre.ch/1.php?stream=sportv2"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-08-23T03:00:00.000Z",
-      "match": "Cruzeiro vs Palmeiras",
-      "league": "Brasileiro Femenino",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Sportv 3",
-          "href": "https://futbollibre.ch/1.php?stream=sportv3"
-        }
-      ]
-    },
-    {
-      "time": "21:05",
-      "time_utc": "2026-08-23T03:05:00.000Z",
-      "match": "Deportes Tolima vs Atlético Bucaramanga",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports",
-          "href": "https://futbollibre.ch/1.php?stream=winsports"
-        }
-      ]
-    },
-    {
-      "time": "21:15",
-      "time_utc": "2026-08-23T03:15:00.000Z",
-      "match": "Aurora vs Real Potosí",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-23T03:30:00.000Z",
-      "match": "Cobreloa vs Unión Española",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
         }
       ]
     },
@@ -1034,43 +380,6 @@
         {
           "name": "TNT Sports Premiun CL OP2",
           "href": "https://futbollibre.ch/2.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-23T03:30:00.000Z",
-      "match": "Técnico Universitario vs Guayaquil City",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/1.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/1.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=ecdf"
         }
       ]
     },
@@ -1338,7 +647,28 @@
       "match": "Huracán vs Deportivo Riestra",
       "league": "Liga Profesional",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "ESPN Premium┃HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium",
+          "href": "https://futbollibre.ch/1.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espnpremium"
+        },
+        {
+          "name": "fanatiz 07",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz7"
+        }
+      ]
     },
     {
       "time": "00:00",
@@ -1594,271 +924,36 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-08-23T00:00:00.000Z",
-      "match": "Cerro Largo vs Defensor Sporting",
-      "league": "Primera División",
+      "time": "21:30",
+      "time_utc": "2026-08-23T03:30:00.000Z",
+      "match": "Cobreloa vs Unión Española",
+      "league": "Primera B",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney14"
+          "name": "TNT Sports Chile",
+          "href": "https://futbollibre.ch/1.php?stream=even6"
         }
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-08-23T00:00:00.000Z",
-      "match": "Al-Ahli vs Abha",
-      "league": "Pro League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "FOX Deportes | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes",
-          "href": "https://futbollibre.ch/1.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "time": "18:15",
-      "time_utc": "2026-08-23T00:15:00.000Z",
-      "match": "UTC Cajamarca vs Comerciantes Unidos",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1MAX",
-          "href": "https://futbollibre.ch/1.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=liga1max"
-        }
-      ]
-    },
-    {
-      "time": "18:25",
-      "time_utc": "2026-08-23T00:25:00.000Z",
-      "match": "Rugby – URBA – Hindú vs. SIC",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-08-23T00:30:00.000Z",
-      "match": "Fenerbahçe vs Konyaspor",
-      "league": "Super Lig",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Fox Sports 2",
-          "href": "https://futbollibre.ch/1.php?stream=foxsports2"
-        },
-        {
-          "name": "Fox Sports 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=foxsports2"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney16"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-08-23T00:30:00.000Z",
-      "match": "Borussia Dortmund vs Bayern München",
-      "league": "Supercopa de Alemania",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
-        },
-        {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney15"
-        },
-        {
-          "name": "Telemundo",
-          "href": "https://futbollibre.ch/1.php?stream=telemundo"
-        },
-        {
-          "name": "Telemundo | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=telemundo"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Ligue 1:",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Genoa vs Napoli",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN MX | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX",
-          "href": "https://futbollibre.ch/1.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espnmx"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney17"
-        },
-        {
-          "name": "Universo | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=universo"
-        },
-        {
-          "name": "Universo",
-          "href": "https://futbollibre.ch/1.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Nice vs Lorient",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney20"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Toulouse vs Olympique Lyonnais",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
-        },
-        {
-          "name": "BeIN Sports Ñ",
-          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Le Mans vs Brest",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney19"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-08-23T00:45:00.000Z",
-      "match": "Parma vs Cagliari",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney18"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "ABB vs Gualberto Villarroel SJ",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Universidad Católica vs Manta",
+      "time": "21:30",
+      "time_utc": "2026-08-23T03:30:00.000Z",
+      "match": "Técnico Universitario vs Guayaquil City",
       "league": "Serie A",
       "flag": "⚽",
       "channels": [
         {
           "name": "ECDF LigaPRO | HD",
           "href": "https://futbollibre.ch/hd.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECUAVISA",
+          "href": "https://futbollibre.ch/1.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=ecdf"
         },
         {
           "name": "ECDF LigaPro",
@@ -1873,448 +968,8 @@
           "href": "https://futbollibre.ch/3.php?stream=ecdf_ligapro"
         },
         {
-          "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/1.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=ecdf"
-        },
-        {
           "name": "ECUAVISA | OP3",
           "href": "https://futbollibre.ch/3.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Sportivo Ameliano vs Deportivo Recoleta",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "fanatiz 01",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Paysandu vs River Plate",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Puerto Montt vs Deportes Iquique",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL",
-          "href": "https://futbollibre.ch/1.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Gimnasia La Plata vs Gimnasia Mendoza",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Premium┃HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium",
-          "href": "https://futbollibre.ch/1.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espnpremium"
-        },
-        {
-          "name": "ESPN Premium┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espnpremium"
-        },
-        {
-          "name": "fanatiz 09",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz9"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Heerenveen vs PEC Zwolle",
-      "league": "Eredivisie",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN NL",
-          "href": "https://futbollibre.ch/1.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn1_nl"
-        },
-        {
-          "name": "ESPN NL | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn1_nl"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Magallanes vs Deportes Santa Cruz",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "WTA Cincinnati – Semifinal #1",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Atlético Tucumán vs Instituto",
-      "league": "Liga Profesional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports",
-          "href": "https://futbollibre.ch/1.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tntsports"
-        },
-        {
-          "name": "TNT Sports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=tntsports"
-        },
-        {
-          "name": "fanatiz 08",
-          "href": "https://futbollibre.ch/1.php?stream=fanatiz8"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-23T01:00:00.000Z",
-      "match": "Fluminense vs Remo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere BR | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=premiere1"
-        },
-        {
-          "name": "Premiere BR",
-          "href": "https://futbollibre.ch/1.php?stream=premiere1"
-        },
-        {
-          "name": "Win Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports",
-          "href": "https://futbollibre.ch/1.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=winsports"
-        },
-        {
-          "name": "Win Sports ┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=winsports"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-08-23T01:30:00.000Z",
-      "match": "Espanyol vs Real Madrid",
-      "league": "LaLiga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports HD",
-          "href": "https://tv-90.com/dsportsar.php"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
-        },
-        {
-          "name": "Dsports Argentina HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=dsports_eventos"
-        },
-        {
-          "name": "Dsports Argentina",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports_eventos"
-        },
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=dsports"
-        },
-        {
-          "name": "DSports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=dsports"
-        },
-        {
-          "name": "ESPN Deportes",
-          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
-        },
-        {
-          "name": "Sky Sports LaLiga MX",
-          "href": "https://futbollibre.ch/1.php?stream=sky_sports_laliga"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-08-23T01:30:00.000Z",
-      "match": "Sporting CP vs Alverca",
-      "league": "Primeira Liga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2",
-          "href": "https://futbollibre.ch/1.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=dsports2"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-08-23T01:30:00.000Z",
-      "match": "Eldense vs Cádiz",
-      "league": "LaLiga SmartBank",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "href": "https://futbollibre.ch/1.php?stream=hypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "19:36",
-      "time_utc": "2026-08-23T01:36:00.000Z",
-      "match": "Troyes vs Paris",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney2"
-        },
-        {
-          "name": "BeIN Sports EXTRA Español",
-          "href": "https://futbollibre.ch/1.php?stream=beinsportsxtra"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-08-23T02:00:00.000Z",
-      "match": "Anthony Hernandez vs Gregory Rodriguez",
-      "league": "UFC",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Paramount+",
-          "href": "https://futbollibre.ch/1.php?stream=paramount1"
-        },
-        {
-          "name": "Paramount+",
-          "href": "https://futbollibre.ch/1.php?stream=paramount2"
-        },
-        {
-          "name": "Paramount+",
-          "href": "https://futbollibre.ch/1.php?stream=paramount3"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-08-23T02:30:00.000Z",
-      "match": "Rionegro Águilas vs Millonarios",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports +",
-          "href": "https://futbollibre.ch/1.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=winsports2"
-        }
-      ]
-    },
-    {
-      "time": "20:50",
-      "time_utc": "2026-08-23T02:50:00.000Z",
-      "match": "Juan Pablo II College vs ADT",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1MAX | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1MAX",
-          "href": "https://futbollibre.ch/1.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=liga1max"
-        },
-        {
-          "name": "Liga1Max | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=liga1max"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-08-23T03:00:00.000Z",
-      "match": "Corinthians vs Internacional RS",
-      "league": "Brasileiro Femenino",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Sportv 2 BR",
-          "href": "https://futbollibre.ch/1.php?stream=sportv2"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-08-23T03:00:00.000Z",
-      "match": "Cruzeiro vs Palmeiras",
-      "league": "Brasileiro Femenino",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Sportv 3",
-          "href": "https://futbollibre.ch/1.php?stream=sportv3"
-        }
-      ]
-    },
-    {
-      "time": "21:05",
-      "time_utc": "2026-08-23T03:05:00.000Z",
-      "match": "Deportes Tolima vs Atlético Bucaramanga",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports",
-          "href": "https://futbollibre.ch/1.php?stream=winsports"
-        }
-      ]
-    },
-    {
-      "time": "21:15",
-      "time_utc": "2026-08-23T03:15:00.000Z",
-      "match": "Aurora vs Real Potosí",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-23T03:30:00.000Z",
-      "match": "Cobreloa vs Unión Española",
-      "league": "Primera B",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Chile",
-          "href": "https://futbollibre.ch/1.php?stream=even6"
         }
       ]
     },
@@ -2361,43 +1016,6 @@
         {
           "name": "TNT Sports Premiun CL OP2",
           "href": "https://futbollibre.ch/2.php?stream=tntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "21:30",
-      "time_utc": "2026-08-23T03:30:00.000Z",
-      "match": "Técnico Universitario vs Guayaquil City",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ECDF LigaPRO | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro",
-          "href": "https://futbollibre.ch/1.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "href": "https://futbollibre.ch/1.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=ecdf"
         }
       ]
     },
