@@ -1,9 +1,653 @@
 {
-  "actualizado_en": "2026-08-25T06:22:44.784Z",
+  "actualizado_en": "2026-08-25T09:23:30.729Z",
   "fecha": "martes, 25 de agosto",
-  "fuente": "none",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "fuente": "futbollibres-puppeteer",
+  "contar": 19,
+  "contar_con_canales": 13,
+  "events": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-08-25T06:00:00.000Z",
+      "match": "Cruzeiro vs Atlético Mineiro",
+      "league": "Copa de Brasil",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR HD",
+          "href": "https://futbollibre.ch/hd.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://futbollibre.ch/1.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-25T06:30:00.000Z",
+      "match": "Independiente del Valle vs Deportes Tolima",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
+        },
+        {
+          "name": "Fox Sports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=foxsports"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-25T06:30:00.000Z",
+      "match": "Monterrey vs Chicago Fire",
+      "league": "Leagues Cup",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-08-25T07:00:00.000Z",
+      "match": "Cúcuta Deportivo vs Alianza",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "01:05",
+      "time_utc": "2026-08-25T07:05:00.000Z",
+      "match": "Santa Fe vs Jaguares de Córdoba",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/1.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "02:30",
+      "time_utc": "2026-08-25T08:30:00.000Z",
+      "match": "Cartaginés vs FAS",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "02:30",
+      "time_utc": "2026-08-25T08:30:00.000Z",
+      "match": "Municipal vs Motagua",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "02:30",
+      "time_utc": "2026-08-25T08:30:00.000Z",
+      "match": "León vs Real Salt Lake",
+      "league": "Leagues Cup",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-08-25T22:45:00.000Z",
+      "match": "Sabah vs Hapoel Be'er Sheva",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3",
+          "href": "https://futbollibre.ch/1.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-08-26T00:45:00.000Z",
+      "match": "Sheffield Wednesday vs Wolverhampton Wanderers",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-08-26T00:45:00.000Z",
+      "match": "Southampton vs West Ham United",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-26T01:00:00.000Z",
+      "match": "Nottingham Forest vs Leeds United",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-26T01:00:00.000Z",
+      "match": "Bodø / Glimt vs NEC",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3",
+          "href": "https://futbollibre.ch/1.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-26T01:00:00.000Z",
+      "match": "LASK Linz vs Celtic",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5",
+          "href": "https://futbollibre.ch/1.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-26T01:00:00.000Z",
+      "match": "Valencia vs Real Betis",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2",
+          "href": "https://futbollibre.ch/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn2"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-26T01:00:00.000Z",
+      "match": "Gualberto Villarroel SJ vs Oriente Petrolero",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-08-26T03:30:00.000Z",
+      "match": "2 de Mayo vs Guaraní",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-08-26T05:00:00.000Z",
+      "match": "Universitario de Vinto vs Nacional Potosí",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-08-26T05:00:00.000Z",
+      "match": "Atlético Bucaramanga vs Rionegro Águilas",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=winsports2"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-08-25T06:00:00.000Z",
+      "match": "Cruzeiro vs Atlético Mineiro",
+      "league": "Copa de Brasil",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR HD",
+          "href": "https://futbollibre.ch/hd.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://futbollibre.ch/1.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-25T06:30:00.000Z",
+      "match": "Independiente del Valle vs Deportes Tolima",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
+        },
+        {
+          "name": "Fox Sports | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=foxsports"
+        },
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://futbollibre.ch/1.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-08-25T06:30:00.000Z",
+      "match": "Monterrey vs Chicago Fire",
+      "league": "Leagues Cup",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-08-25T07:00:00.000Z",
+      "match": "Cúcuta Deportivo vs Alianza",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "01:05",
+      "time_utc": "2026-08-25T07:05:00.000Z",
+      "match": "Santa Fe vs Jaguares de Córdoba",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports",
+          "href": "https://futbollibre.ch/1.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "02:30",
+      "time_utc": "2026-08-25T08:30:00.000Z",
+      "match": "Cartaginés vs FAS",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "02:30",
+      "time_utc": "2026-08-25T08:30:00.000Z",
+      "match": "Municipal vs Motagua",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "02:30",
+      "time_utc": "2026-08-25T08:30:00.000Z",
+      "match": "León vs Real Salt Lake",
+      "league": "Leagues Cup",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-08-25T22:45:00.000Z",
+      "match": "Sabah vs Hapoel Be'er Sheva",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3",
+          "href": "https://futbollibre.ch/1.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-08-26T00:45:00.000Z",
+      "match": "Sheffield Wednesday vs Wolverhampton Wanderers",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "href": "https://futbollibre.ch/1.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-08-26T00:45:00.000Z",
+      "match": "Southampton vs West Ham United",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-26T01:00:00.000Z",
+      "match": "Nottingham Forest vs Leeds United",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-26T01:00:00.000Z",
+      "match": "Bodø / Glimt vs NEC",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3",
+          "href": "https://futbollibre.ch/1.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-26T01:00:00.000Z",
+      "match": "LASK Linz vs Celtic",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5",
+          "href": "https://futbollibre.ch/1.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-26T01:00:00.000Z",
+      "match": "Valencia vs Real Betis",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2",
+          "href": "https://futbollibre.ch/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn2"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-26T01:00:00.000Z",
+      "match": "Gualberto Villarroel SJ vs Oriente Petrolero",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-08-26T03:30:00.000Z",
+      "match": "2 de Mayo vs Guaraní",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "fanatiz 01",
+          "href": "https://futbollibre.ch/1.php?stream=fanatiz1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-08-26T05:00:00.000Z",
+      "match": "Universitario de Vinto vs Nacional Potosí",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-08-26T05:00:00.000Z",
+      "match": "Atlético Bucaramanga vs Rionegro Águilas",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports +",
+          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=winsports2"
+        }
+      ]
+    }
+  ]
 }
