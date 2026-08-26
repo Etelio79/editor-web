@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-26T16:08:07.578Z",
+  "actualizado_en": "2026-08-26T19:28:55.694Z",
   "fecha": "miércoles, 26 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 31,
-  "contar_con_canales": 25,
+  "contar": 33,
+  "contar_con_canales": 28,
   "events": [
     {
       "time": "00:30",
@@ -271,20 +271,21 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn3"
-        },
+          "name": "ESPN 3 Argentina",
+          "href": "https://futbollibre.ch/1.php?stream=even5"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-08-27T00:45:00.000Z",
+      "match": "Bradford City vs Burnley",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
         {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/1.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn3"
+          "name": "Paramount+",
+          "href": "https://futbollibre.ch/1.php?stream=paramount3"
         }
       ]
     },
@@ -298,6 +299,27 @@
         {
           "name": "ESPN 2 MX",
           "href": "https://futbollibre.ch/1.php?stream=espn2mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
+          "name": "Paramount+",
+          "href": "https://futbollibre.ch/1.php?stream=paramount1"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-08-27T00:45:00.000Z",
+      "match": "Newcastle United vs West Bromwich Albion",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Paramount+",
+          "href": "https://futbollibre.ch/1.php?stream=paramount2"
         }
       ]
     },
@@ -329,31 +351,6 @@
     {
       "time": "19:00",
       "time_utc": "2026-08-27T01:00:00.000Z",
-      "match": "AEK Athens vs Levski Sofia",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-27T01:00:00.000Z",
       "match": "Olympique Lyonnais vs Fenerbahçe",
       "league": "UEFA Champions League",
       "flag": "⚽",
@@ -379,6 +376,77 @@
     {
       "time": "19:00",
       "time_utc": "2026-08-27T01:00:00.000Z",
+      "match": "San Antonio Bulo Bulo vs The Strongest",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-27T01:00:00.000Z",
+      "match": "Preston North End vs Everton",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
+        },
+        {
+          "name": "Paramount+",
+          "href": "https://futbollibre.ch/1.php?stream=paramount4"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-27T01:00:00.000Z",
+      "match": "Real Madrid vs Real Sociedad",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR HD",
+          "href": "https://futbollibre.ch/1.php?stream=even2"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://futbollibre.ch/1.php?stream=sky_sports_laliga"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-27T01:00:00.000Z",
       "match": "Viking vs Dinamo Zagreb",
       "league": "UEFA Champions League",
       "flag": "⚽",
@@ -398,58 +466,61 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney6"
         }
       ]
     },
     {
       "time": "19:00",
       "time_utc": "2026-08-27T01:00:00.000Z",
-      "match": "Real Madrid vs Real Sociedad",
-      "league": "LaLiga",
+      "match": "AEK Athens vs Levski Sofia",
+      "league": "UEFA Champions League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
+          "name": "ESPN 5 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn5"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
+          "name": "ESPN 5",
+          "href": "https://futbollibre.ch/1.php?stream=espn5"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
+          "name": "ESPN 5 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn5"
         },
         {
-          "name": "ESPN Deportes",
-          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+          "name": "ESPN 5 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn5"
         },
         {
-          "name": "ESPN Deportes | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney7"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
+        },
+        {
+          "name": "TUDN USA | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://futbollibre.ch/1.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=tudn"
         }
       ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-27T01:00:00.000Z",
-      "match": "San Antonio Bulo Bulo vs The Strongest",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-27T01:00:00.000Z",
-      "match": "Preston North End vs Everton",
-      "league": "EFL Cup",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "21:00",
@@ -874,20 +945,21 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 3 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn3"
-        },
+          "name": "ESPN 3 Argentina",
+          "href": "https://futbollibre.ch/1.php?stream=even5"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-08-27T00:45:00.000Z",
+      "match": "Bradford City vs Burnley",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
         {
-          "name": "ESPN 3",
-          "href": "https://futbollibre.ch/1.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn3"
-        },
-        {
-          "name": "ESPN 3 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn3"
+          "name": "Paramount+",
+          "href": "https://futbollibre.ch/1.php?stream=paramount3"
         }
       ]
     },
@@ -901,6 +973,27 @@
         {
           "name": "ESPN 2 MX",
           "href": "https://futbollibre.ch/1.php?stream=espn2mx"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney1"
+        },
+        {
+          "name": "Paramount+",
+          "href": "https://futbollibre.ch/1.php?stream=paramount1"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-08-27T00:45:00.000Z",
+      "match": "Newcastle United vs West Bromwich Albion",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Paramount+",
+          "href": "https://futbollibre.ch/1.php?stream=paramount2"
         }
       ]
     },
@@ -932,31 +1025,6 @@
     {
       "time": "19:00",
       "time_utc": "2026-08-27T01:00:00.000Z",
-      "match": "AEK Athens vs Levski Sofia",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-27T01:00:00.000Z",
       "match": "Olympique Lyonnais vs Fenerbahçe",
       "league": "UEFA Champions League",
       "flag": "⚽",
@@ -982,6 +1050,77 @@
     {
       "time": "19:00",
       "time_utc": "2026-08-27T01:00:00.000Z",
+      "match": "San Antonio Bulo Bulo vs The Strongest",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "href": "https://futbollibre.ch/1.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-27T01:00:00.000Z",
+      "match": "Preston North End vs Everton",
+      "league": "EFL Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney2"
+        },
+        {
+          "name": "Paramount+",
+          "href": "https://futbollibre.ch/1.php?stream=paramount4"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-27T01:00:00.000Z",
+      "match": "Real Madrid vs Real Sociedad",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibre.ch/1.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR HD",
+          "href": "https://futbollibre.ch/1.php?stream=even2"
+        },
+        {
+          "name": "ESPN AR┃OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn"
+        },
+        {
+          "name": "ESPN AR┃OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney3"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+        },
+        {
+          "name": "ESPN Deportes | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+        },
+        {
+          "name": "Sky Sports LaLiga MX",
+          "href": "https://futbollibre.ch/1.php?stream=sky_sports_laliga"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-08-27T01:00:00.000Z",
       "match": "Viking vs Dinamo Zagreb",
       "league": "UEFA Champions League",
       "flag": "⚽",
@@ -1001,58 +1140,61 @@
         {
           "name": "ESPN 4 | OP3",
           "href": "https://futbollibre.ch/3.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney6"
         }
       ]
     },
     {
       "time": "19:00",
       "time_utc": "2026-08-27T01:00:00.000Z",
-      "match": "Real Madrid vs Real Sociedad",
-      "league": "LaLiga",
+      "match": "AEK Athens vs Levski Sofia",
+      "league": "UEFA Champions League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN",
-          "href": "https://futbollibre.ch/1.php?stream=espn"
+          "name": "ESPN 5 | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=espn5"
         },
         {
-          "name": "ESPN AR┃OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn"
+          "name": "ESPN 5",
+          "href": "https://futbollibre.ch/1.php?stream=espn5"
         },
         {
-          "name": "ESPN AR┃OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn"
+          "name": "ESPN 5 | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=espn5"
         },
         {
-          "name": "ESPN Deportes",
-          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
+          "name": "ESPN 5 | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=espn5"
         },
         {
-          "name": "ESPN Deportes | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
+          "name": "Disney+",
+          "href": "https://futbollibre.ch/1.php?stream=disney7"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://futbollibre.ch/1.php?stream=foxsports"
+        },
+        {
+          "name": "TUDN USA | HD",
+          "href": "https://futbollibre.ch/hd.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://futbollibre.ch/1.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "href": "https://futbollibre.ch/2.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "href": "https://futbollibre.ch/3.php?stream=tudn"
         }
       ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-27T01:00:00.000Z",
-      "match": "San Antonio Bulo Bulo vs The Strongest",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-27T01:00:00.000Z",
-      "match": "Preston North End vs Everton",
-      "league": "EFL Cup",
-      "flag": "⚽",
-      "channels": []
     },
     {
       "time": "21:00",
