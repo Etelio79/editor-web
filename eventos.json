@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-27T13:12:12.751Z",
+  "actualizado_en": "2026-08-28T00:07:48.774Z",
   "fecha": "jueves, 27 de agosto",
   "fuente": "futbollibres-puppeteer",
-  "contar": 25,
-  "contar_con_canales": 21,
+  "contar": 14,
+  "contar_con_canales": 14,
   "events": [
     {
       "time": "00:00",
@@ -14,19 +14,7 @@
       "channels": [
         {
           "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
+          "href": "https://tvf90.com/1.php?stream=espn4"
         }
       ]
     },
@@ -39,19 +27,19 @@
       "channels": [
         {
           "name": "TYC Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tycsports"
+          "href": "https://tvf90.com/hd.php?stream=tycsports"
         },
         {
           "name": "TYC Sports",
-          "href": "https://futbollibre.ch/1.php?stream=tycsports"
+          "href": "https://tvf90.com/1.php?stream=tycsports"
         },
         {
           "name": "TyC Sports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tycsports"
+          "href": "https://tvf90.com/2.php?stream=tycsports"
         },
         {
           "name": "TYC Sports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=tycsports"
+          "href": "https://tvf90.com/3.php?stream=tycsports"
         }
       ]
     },
@@ -64,7 +52,7 @@
       "channels": [
         {
           "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
+          "href": "https://tvf90.com/1.php?stream=even1"
         }
       ]
     },
@@ -77,7 +65,7 @@
       "channels": [
         {
           "name": "ESPN 3 MX",
-          "href": "https://futbollibre.ch/1.php?stream=espn3mx"
+          "href": "https://tvf90.com/1.php?stream=espn3mx"
         }
       ]
     },
@@ -90,19 +78,32 @@
       "channels": [
         {
           "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=winsports2"
+          "href": "https://tvf90.com/hd.php?stream=winsports2"
         },
         {
           "name": "Win Sports +",
-          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+          "href": "https://tvf90.com/1.php?stream=winsports2"
         },
         {
           "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=winsports2"
+          "href": "https://tvf90.com/2.php?stream=winsports2"
         },
         {
           "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=winsports2"
+          "href": "https://tvf90.com/3.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "02:30",
+      "time_utc": "2026-08-27T08:30:00.000Z",
+      "match": "Mixco vs Alianza",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney1"
         }
       ]
     },
@@ -112,260 +113,23 @@
       "match": "Olimpia vs Deportivo Saprissa",
       "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "02:30",
-      "time_utc": "2026-08-27T08:30:00.000Z",
-      "match": "Mixco vs Alianza",
-      "league": "Copa Centroamericana de CONCACAF",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "12:45",
-      "time_utc": "2026-08-27T18:45:00.000Z",
-      "match": "Ciclismo – La Vuelta – Etapa #6",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "15:50",
-      "time_utc": "2026-08-27T21:50:00.000Z",
-      "match": "Mundial de Hockey Femenino – Semifinal #1 – A Confirmar",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "16:00",
-      "time_utc": "2026-08-27T22:00:00.000Z",
-      "match": "UEFA Champions League Draw\n*Fase de Grupos",
-      "league": "",
-      "flag": "⚽",
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://tvf90.com/1.php?stream=disney2"
         }
       ]
     },
     {
-      "time": "17:00",
-      "time_utc": "2026-08-27T23:00:00.000Z",
-      "match": "Golf – Tour Championship – Primera Vuelta",
-      "league": "",
+      "time": "21:30",
+      "time_utc": "2026-08-28T03:30:00.000Z",
+      "match": "Resistencia vs Cerro Porteño",
+      "league": "Copa Paraguay",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-08-27T23:00:00.000Z",
-      "match": "Belgrano vs Newell's Old Boys",
-      "league": "Torneo de Reserva",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-08-28T00:00:00.000Z",
-      "match": "MLB – St. Louis Cardinals vs. Baltimore Orioles",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 7",
-          "href": "https://futbollibre.ch/1.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn7"
-        }
-      ]
-    },
-    {
-      "time": "18:15",
-      "time_utc": "2026-08-28T00:15:00.000Z",
-      "match": "Mundial de Hockey Femenino – Semifinal #2 – A Confirmar",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-08-28T00:30:00.000Z",
-      "match": "Celta de Vigo vs Osasuna",
-      "league": "LaLiga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-08-28T00:30:00.000Z",
-      "match": "Chelsea vs Luton Town",
-      "league": "EFL Cup",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-28T01:00:00.000Z",
-      "match": "Barcelona vs Athletic Club",
-      "league": "LaLiga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Deportes",
-          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-28T01:00:00.000Z",
-      "match": "Always Ready vs Aurora",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-28T01:00:00.000Z",
-      "match": "Fulham vs AFC Wimbledon",
-      "league": "EFL Cup",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-28T01:00:00.000Z",
-      "match": "Little League World Series",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
+          "name": "fanatiz 02",
+          "href": "https://tvf90.com/1.php?stream=fanatiz2"
         }
       ]
     },
@@ -378,19 +142,19 @@
       "channels": [
         {
           "name": "TYC Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tycsports"
+          "href": "https://tvf90.com/hd.php?stream=tycsports"
         },
         {
           "name": "TYC Sports",
-          "href": "https://futbollibre.ch/1.php?stream=tycsports"
+          "href": "https://tvf90.com/1.php?stream=tycsports"
         },
         {
           "name": "TyC Sports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tycsports"
+          "href": "https://tvf90.com/2.php?stream=tycsports"
         },
         {
           "name": "TYC Sports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=tycsports"
+          "href": "https://tvf90.com/3.php?stream=tycsports"
         }
       ]
     },
@@ -403,19 +167,7 @@
       "channels": [
         {
           "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
+          "href": "https://tvf90.com/1.php?stream=espn5"
         }
       ]
     },
@@ -428,7 +180,20 @@
       "channels": [
         {
           "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
+          "href": "https://tvf90.com/1.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-08-28T04:30:00.000Z",
+      "match": "Marta Kostyuk v Amanda Anisimova",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3 MX",
+          "href": "https://tvf90.com/1.php?stream=espn3mx"
         }
       ]
     },
@@ -440,8 +205,16 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Dsports HD",
+          "href": "https://tv-90.com/dsportsar.php"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvf90.com/1.php?stream=dsports"
+        },
+        {
           "name": "Amazon Prime C",
-          "href": "https://futbollibre.ch/1.php?stream=amazon_prime1"
+          "href": "https://tvf90.com/1.php?stream=amazon_prime1"
         }
       ]
     },
@@ -454,19 +227,19 @@
       "channels": [
         {
           "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=winsports2"
+          "href": "https://tvf90.com/hd.php?stream=winsports2"
         },
         {
           "name": "Win Sports +",
-          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+          "href": "https://tvf90.com/1.php?stream=winsports2"
         },
         {
           "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=winsports2"
+          "href": "https://tvf90.com/2.php?stream=winsports2"
         },
         {
           "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=winsports2"
+          "href": "https://tvf90.com/3.php?stream=winsports2"
         }
       ]
     }
@@ -481,19 +254,7 @@
       "channels": [
         {
           "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
+          "href": "https://tvf90.com/1.php?stream=espn4"
         }
       ]
     },
@@ -506,19 +267,19 @@
       "channels": [
         {
           "name": "TYC Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tycsports"
+          "href": "https://tvf90.com/hd.php?stream=tycsports"
         },
         {
           "name": "TYC Sports",
-          "href": "https://futbollibre.ch/1.php?stream=tycsports"
+          "href": "https://tvf90.com/1.php?stream=tycsports"
         },
         {
           "name": "TyC Sports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tycsports"
+          "href": "https://tvf90.com/2.php?stream=tycsports"
         },
         {
           "name": "TYC Sports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=tycsports"
+          "href": "https://tvf90.com/3.php?stream=tycsports"
         }
       ]
     },
@@ -531,7 +292,7 @@
       "channels": [
         {
           "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
+          "href": "https://tvf90.com/1.php?stream=even1"
         }
       ]
     },
@@ -544,7 +305,7 @@
       "channels": [
         {
           "name": "ESPN 3 MX",
-          "href": "https://futbollibre.ch/1.php?stream=espn3mx"
+          "href": "https://tvf90.com/1.php?stream=espn3mx"
         }
       ]
     },
@@ -557,19 +318,32 @@
       "channels": [
         {
           "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=winsports2"
+          "href": "https://tvf90.com/hd.php?stream=winsports2"
         },
         {
           "name": "Win Sports +",
-          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+          "href": "https://tvf90.com/1.php?stream=winsports2"
         },
         {
           "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=winsports2"
+          "href": "https://tvf90.com/2.php?stream=winsports2"
         },
         {
           "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=winsports2"
+          "href": "https://tvf90.com/3.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "02:30",
+      "time_utc": "2026-08-27T08:30:00.000Z",
+      "match": "Mixco vs Alianza",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney1"
         }
       ]
     },
@@ -579,260 +353,23 @@
       "match": "Olimpia vs Deportivo Saprissa",
       "league": "Copa Centroamericana de CONCACAF",
       "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "02:30",
-      "time_utc": "2026-08-27T08:30:00.000Z",
-      "match": "Mixco vs Alianza",
-      "league": "Copa Centroamericana de CONCACAF",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "12:45",
-      "time_utc": "2026-08-27T18:45:00.000Z",
-      "match": "Ciclismo – La Vuelta – Etapa #6",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "15:50",
-      "time_utc": "2026-08-27T21:50:00.000Z",
-      "match": "Mundial de Hockey Femenino – Semifinal #1 – A Confirmar",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "16:00",
-      "time_utc": "2026-08-27T22:00:00.000Z",
-      "match": "UEFA Champions League Draw\n*Fase de Grupos",
-      "league": "",
-      "flag": "⚽",
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://futbollibre.ch/1.php?stream=disney1"
+          "href": "https://tvf90.com/1.php?stream=disney2"
         }
       ]
     },
     {
-      "time": "17:00",
-      "time_utc": "2026-08-27T23:00:00.000Z",
-      "match": "Golf – Tour Championship – Primera Vuelta",
-      "league": "",
+      "time": "21:30",
+      "time_utc": "2026-08-28T03:30:00.000Z",
+      "match": "Resistencia vs Cerro Porteño",
+      "league": "Copa Paraguay",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2",
-          "href": "https://futbollibre.ch/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-08-27T23:00:00.000Z",
-      "match": "Belgrano vs Newell's Old Boys",
-      "league": "Torneo de Reserva",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "18:00",
-      "time_utc": "2026-08-28T00:00:00.000Z",
-      "match": "MLB – St. Louis Cardinals vs. Baltimore Orioles",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 7",
-          "href": "https://futbollibre.ch/1.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn7"
-        }
-      ]
-    },
-    {
-      "time": "18:15",
-      "time_utc": "2026-08-28T00:15:00.000Z",
-      "match": "Mundial de Hockey Femenino – Semifinal #2 – A Confirmar",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-08-28T00:30:00.000Z",
-      "match": "Celta de Vigo vs Osasuna",
-      "league": "LaLiga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "DSports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=dsports"
-        },
-        {
-          "name": "DSports",
-          "href": "https://futbollibre.ch/1.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "18:30",
-      "time_utc": "2026-08-28T00:30:00.000Z",
-      "match": "Chelsea vs Luton Town",
-      "league": "EFL Cup",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-28T01:00:00.000Z",
-      "match": "Barcelona vs Athletic Club",
-      "league": "LaLiga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN Deportes",
-          "href": "https://futbollibre.ch/1.php?stream=espndeportes"
-        },
-        {
-          "name": "ESPN Deportes | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espndeportes"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-28T01:00:00.000Z",
-      "match": "Always Ready vs Aurora",
-      "league": "Primera División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-28T01:00:00.000Z",
-      "match": "Fulham vs AFC Wimbledon",
-      "league": "EFL Cup",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-08-28T01:00:00.000Z",
-      "match": "Little League World Series",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 4 | HD",
-          "href": "https://futbollibre.ch/online/canales.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4",
-          "href": "https://futbollibre.ch/1.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn4"
-        },
-        {
-          "name": "ESPN 4 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn4"
+          "name": "fanatiz 02",
+          "href": "https://tvf90.com/1.php?stream=fanatiz2"
         }
       ]
     },
@@ -845,19 +382,19 @@
       "channels": [
         {
           "name": "TYC Sports | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=tycsports"
+          "href": "https://tvf90.com/hd.php?stream=tycsports"
         },
         {
           "name": "TYC Sports",
-          "href": "https://futbollibre.ch/1.php?stream=tycsports"
+          "href": "https://tvf90.com/1.php?stream=tycsports"
         },
         {
           "name": "TyC Sports | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=tycsports"
+          "href": "https://tvf90.com/2.php?stream=tycsports"
         },
         {
           "name": "TYC Sports | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=tycsports"
+          "href": "https://tvf90.com/3.php?stream=tycsports"
         }
       ]
     },
@@ -870,19 +407,7 @@
       "channels": [
         {
           "name": "ESPN 5 | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5",
-          "href": "https://futbollibre.ch/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=espn5"
+          "href": "https://tvf90.com/1.php?stream=espn5"
         }
       ]
     },
@@ -895,7 +420,20 @@
       "channels": [
         {
           "name": "Entel TV PLUS+",
-          "href": "https://futbollibre.ch/1.php?stream=even1"
+          "href": "https://tvf90.com/1.php?stream=even1"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-08-28T04:30:00.000Z",
+      "match": "Marta Kostyuk v Amanda Anisimova",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3 MX",
+          "href": "https://tvf90.com/1.php?stream=espn3mx"
         }
       ]
     },
@@ -907,8 +445,16 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "Dsports HD",
+          "href": "https://tv-90.com/dsportsar.php"
+        },
+        {
+          "name": "DSports | HD",
+          "href": "https://tvf90.com/1.php?stream=dsports"
+        },
+        {
           "name": "Amazon Prime C",
-          "href": "https://futbollibre.ch/1.php?stream=amazon_prime1"
+          "href": "https://tvf90.com/1.php?stream=amazon_prime1"
         }
       ]
     },
@@ -921,19 +467,19 @@
       "channels": [
         {
           "name": "Win Sports + | HD",
-          "href": "https://futbollibre.ch/hd.php?stream=winsports2"
+          "href": "https://tvf90.com/hd.php?stream=winsports2"
         },
         {
           "name": "Win Sports +",
-          "href": "https://futbollibre.ch/1.php?stream=winsports2"
+          "href": "https://tvf90.com/1.php?stream=winsports2"
         },
         {
           "name": "Win Sports + | OP2",
-          "href": "https://futbollibre.ch/2.php?stream=winsports2"
+          "href": "https://tvf90.com/2.php?stream=winsports2"
         },
         {
           "name": "Win Sports + | OP3",
-          "href": "https://futbollibre.ch/3.php?stream=winsports2"
+          "href": "https://tvf90.com/3.php?stream=winsports2"
         }
       ]
     }
