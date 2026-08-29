@@ -1,9 +1,9 @@
 {
-  "actualizado_en": "2026-08-29T11:54:11.587Z",
+  "actualizado_en": "2026-08-29T13:19:42.929Z",
   "fecha": "sábado, 29 de agosto",
   "fuente": "futbollibres-puppeteer",
   "contar": 94,
-  "contar_con_canales": 66,
+  "contar_con_canales": 71,
   "events": [
     {
       "time": "00:00",
@@ -333,19 +333,6 @@
     {
       "time": "11:00",
       "time_utc": "2026-08-29T17:00:00.000Z",
-      "match": "Energie Cottbus vs Greuther Fürth",
-      "league": "2. Bundesliga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvf90.com/1.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "11:00",
-      "time_utc": "2026-08-29T17:00:00.000Z",
       "match": "Karlsruher SC vs Wolfsburg",
       "league": "2. Bundesliga",
       "flag": "⚽",
@@ -355,8 +342,25 @@
           "href": "https://tvf90.com/1.php?stream=foxsports"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney4"
+        },
+        {
           "name": "Fox Sports | OP2",
           "href": "https://tvf90.com/2.php?stream=foxsports"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-08-29T17:00:00.000Z",
+      "match": "Energie Cottbus vs Greuther Fürth",
+      "league": "2. Bundesliga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney2"
         }
       ]
     },
@@ -369,28 +373,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvf90.com/1.php?stream=disney2"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-08-29T17:30:00.000Z",
-      "match": "Middlesbrough vs West Bromwich Albion",
-      "league": "Championship",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 7",
-          "href": "https://tvf90.com/1.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "href": "https://tvf90.com/2.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP3",
-          "href": "https://tvf90.com/3.php?stream=espn7"
+          "href": "https://tvf90.com/1.php?stream=disney3"
         }
       ]
     },
@@ -414,12 +397,45 @@
           "href": "https://tvf90.com/3.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney1"
+        },
+        {
+          "name": "MAX",
+          "href": "https://tvf90.com/1.php?stream=max1"
+        },
+        {
           "name": "Universo | HD",
           "href": "https://tvf90.com/hd.php?stream=universo"
         },
         {
           "name": "Universo",
           "href": "https://tvf90.com/1.php?stream=universo"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-08-29T17:30:00.000Z",
+      "match": "Middlesbrough vs West Bromwich Albion",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 7",
+          "href": "https://tvf90.com/1.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://tvf90.com/2.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://tvf90.com/3.php?stream=espn7"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney5"
         }
       ]
     },
@@ -479,30 +495,10 @@
       "match": "Deportivo Colonia vs Tacuarembó",
       "league": "Segunda División",
       "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "13:30",
-      "time_utc": "2026-08-29T19:30:00.000Z",
-      "match": "Köln vs Hoffenheim",
-      "league": "Bundesliga",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "13:30",
-      "time_utc": "2026-08-29T19:30:00.000Z",
-      "match": "RB Leipzig vs Borussia M'gladbach",
-      "league": "Bundesliga",
-      "flag": "⚽",
       "channels": [
         {
-          "name": "Sportv BR HD",
-          "href": "https://tvf90.com/hd.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvf90.com/1.php?stream=sportv"
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney6"
         }
       ]
     },
@@ -517,10 +513,49 @@
     {
       "time": "13:30",
       "time_utc": "2026-08-29T19:30:00.000Z",
+      "match": "Köln vs Hoffenheim",
+      "league": "Bundesliga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-08-29T19:30:00.000Z",
+      "match": "RB Leipzig vs Borussia M'gladbach",
+      "league": "Bundesliga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvf90.com/hd.php?stream=sportv"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney10"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvf90.com/1.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-08-29T19:30:00.000Z",
       "match": "Elversberg vs Bayer Leverkusen",
       "league": "Bundesliga",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney7"
+        }
+      ]
     },
     {
       "time": "13:30",
@@ -528,7 +563,12 @@
       "match": "Mainz 05 vs Paderborn",
       "league": "Bundesliga",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney9"
+        }
+      ]
     },
     {
       "time": "13:50",
@@ -936,7 +976,12 @@
       "match": "Leganés vs Eldense",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion 2",
+          "href": "https://tvf90.com/1.php?stream=hypermotion2"
+        }
+      ]
     },
     {
       "time": "17:10",
@@ -1965,19 +2010,6 @@
     {
       "time": "11:00",
       "time_utc": "2026-08-29T17:00:00.000Z",
-      "match": "Energie Cottbus vs Greuther Fürth",
-      "league": "2. Bundesliga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://tvf90.com/1.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "11:00",
-      "time_utc": "2026-08-29T17:00:00.000Z",
       "match": "Karlsruher SC vs Wolfsburg",
       "league": "2. Bundesliga",
       "flag": "⚽",
@@ -1987,8 +2019,25 @@
           "href": "https://tvf90.com/1.php?stream=foxsports"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney4"
+        },
+        {
           "name": "Fox Sports | OP2",
           "href": "https://tvf90.com/2.php?stream=foxsports"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-08-29T17:00:00.000Z",
+      "match": "Energie Cottbus vs Greuther Fürth",
+      "league": "2. Bundesliga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney2"
         }
       ]
     },
@@ -2001,28 +2050,7 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://tvf90.com/1.php?stream=disney2"
-        }
-      ]
-    },
-    {
-      "time": "11:30",
-      "time_utc": "2026-08-29T17:30:00.000Z",
-      "match": "Middlesbrough vs West Bromwich Albion",
-      "league": "Championship",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 7",
-          "href": "https://tvf90.com/1.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP2",
-          "href": "https://tvf90.com/2.php?stream=espn7"
-        },
-        {
-          "name": "ESPN 7 | OP3",
-          "href": "https://tvf90.com/3.php?stream=espn7"
+          "href": "https://tvf90.com/1.php?stream=disney3"
         }
       ]
     },
@@ -2046,12 +2074,45 @@
           "href": "https://tvf90.com/3.php?stream=espn"
         },
         {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney1"
+        },
+        {
+          "name": "MAX",
+          "href": "https://tvf90.com/1.php?stream=max1"
+        },
+        {
           "name": "Universo | HD",
           "href": "https://tvf90.com/hd.php?stream=universo"
         },
         {
           "name": "Universo",
           "href": "https://tvf90.com/1.php?stream=universo"
+        }
+      ]
+    },
+    {
+      "time": "11:30",
+      "time_utc": "2026-08-29T17:30:00.000Z",
+      "match": "Middlesbrough vs West Bromwich Albion",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 7",
+          "href": "https://tvf90.com/1.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP2",
+          "href": "https://tvf90.com/2.php?stream=espn7"
+        },
+        {
+          "name": "ESPN 7 | OP3",
+          "href": "https://tvf90.com/3.php?stream=espn7"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney5"
         }
       ]
     },
@@ -2111,30 +2172,10 @@
       "match": "Deportivo Colonia vs Tacuarembó",
       "league": "Segunda División",
       "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "13:30",
-      "time_utc": "2026-08-29T19:30:00.000Z",
-      "match": "Köln vs Hoffenheim",
-      "league": "Bundesliga",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "13:30",
-      "time_utc": "2026-08-29T19:30:00.000Z",
-      "match": "RB Leipzig vs Borussia M'gladbach",
-      "league": "Bundesliga",
-      "flag": "⚽",
       "channels": [
         {
-          "name": "Sportv BR HD",
-          "href": "https://tvf90.com/hd.php?stream=sportv"
-        },
-        {
-          "name": "Sportv BR",
-          "href": "https://tvf90.com/1.php?stream=sportv"
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney6"
         }
       ]
     },
@@ -2149,10 +2190,49 @@
     {
       "time": "13:30",
       "time_utc": "2026-08-29T19:30:00.000Z",
+      "match": "Köln vs Hoffenheim",
+      "league": "Bundesliga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-08-29T19:30:00.000Z",
+      "match": "RB Leipzig vs Borussia M'gladbach",
+      "league": "Bundesliga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR HD",
+          "href": "https://tvf90.com/hd.php?stream=sportv"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney10"
+        },
+        {
+          "name": "Sportv BR",
+          "href": "https://tvf90.com/1.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-08-29T19:30:00.000Z",
       "match": "Elversberg vs Bayer Leverkusen",
       "league": "Bundesliga",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney7"
+        }
+      ]
     },
     {
       "time": "13:30",
@@ -2160,7 +2240,12 @@
       "match": "Mainz 05 vs Paderborn",
       "league": "Bundesliga",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://tvf90.com/1.php?stream=disney9"
+        }
+      ]
     },
     {
       "time": "13:50",
@@ -2568,7 +2653,12 @@
       "match": "Leganés vs Eldense",
       "league": "LaLiga SmartBank",
       "flag": "⚽",
-      "channels": []
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion 2",
+          "href": "https://tvf90.com/1.php?stream=hypermotion2"
+        }
+      ]
     },
     {
       "time": "17:10",
