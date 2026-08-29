@@ -5,7 +5,7 @@ const path      = require('path');
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // URL del sitio - cambiar aquí si vuelve a moverse el dominio
-const SITE_URL = process.env.SITE_URL || 'https://futbollibretv-hd.net/';
+const SITE_URL = process.env.SITE_URL || 'https://futbollibrevip.pe/';
 
 // Convierte "19:00" (hora México, America/Mexico_City) a ISO UTC
 // Detecta automáticamente el offset vigente (México ya no usa horario de verano
