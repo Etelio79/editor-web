@@ -1,9 +1,431 @@
 {
-  "actualizado_en": "2026-09-01T13:44:50.563Z",
+  "actualizado_en": "2026-09-01T18:01:00.171Z",
   "fecha": "martes, 1 de septiembre",
-  "fuente": "none",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "fuente": "futbollibres-puppeteer",
+  "contar": 10,
+  "contar_con_canales": 10,
+  "events": [
+    {
+      "time": "00:30",
+      "time_utc": "2026-09-01T06:30:00.000Z",
+      "match": "Atlético Mineiro vs Cruzeiro",
+      "league": "Copa do Brasil",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports HD",
+          "href": "https://la16hd.com/dsportsar.php"
+        },
+        {
+          "name": "Dsports ARG",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos"
+        },
+        {
+          "name": "Dsports Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
+        },
+        {
+          "name": "Dsports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "Dsports | OP2",
+          "href": "https://la18hd.su/vivo/canal.php?stream=vtvplus"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | Móvil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/foxdeportestv.html"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-09-01T22:00:00.000Z",
+      "match": "Parma vs Cremonese",
+      "league": "Copa de Italia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
+        },
+        {
+          "name": "Paramount+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=paramount1"
+        }
+      ]
+    },
+    {
+      "time": "17:45",
+      "time_utc": "2026-09-01T23:45:00.000Z",
+      "match": "Rostov vs CSKA Moskva",
+      "league": "Copa de Rusia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsportsplus"
+        },
+        {
+          "name": "Dsports+ | OP2",
+          "href": "https://la18hd.su/vivo/canal.php?stream=eventos15"
+        },
+        {
+          "name": "Dsports+ Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsportsplus.html"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-09-02T00:00:00.000Z",
+      "match": "Al Hilal vs Al-Ahli",
+      "league": "Liga Profesional Saudí",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "FOX Deportes",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | Móvil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/foxdeportestv.html"
+        },
+        {
+          "name": "FOX Sports 2 USA",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-02T00:45:00.000Z",
+      "match": "West Ham United vs Wolverhampton",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Paramount+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=paramount2"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-02T01:00:00.000Z",
+      "match": "Torino vs Monza",
+      "league": "Copa de Italia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports HD",
+          "href": "https://la16hd.com/dsportsar.php"
+        },
+        {
+          "name": "Dsports ARG",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos"
+        },
+        {
+          "name": "Dsports Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
+        },
+        {
+          "name": "Dsports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "Dsports | OP2",
+          "href": "https://la18hd.su/vivo/canal.php?stream=vtvplus"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-02T01:00:00.000Z",
+      "match": "Stoke City vs Norwich City",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN5",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney1"
+        },
+        {
+          "name": "ESPN5 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports"
+        },
+        {
+          "name": "ESPN4 MX",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn4mx"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-02T01:00:00.000Z",
+      "match": "Rubio Ñú vs Sportivo San Lorenzo",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fanatiz01",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-02T01:00:00.000Z",
+      "match": "Birmingham City vs Southampton",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Paramount+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=paramount3"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-09-02T03:30:00.000Z",
+      "match": "2 de Mayo vs Sportivo Luqueño",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fanatiz02",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz2"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "00:30",
+      "time_utc": "2026-09-01T06:30:00.000Z",
+      "match": "Atlético Mineiro vs Cruzeiro",
+      "league": "Copa do Brasil",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports HD",
+          "href": "https://la16hd.com/dsportsar.php"
+        },
+        {
+          "name": "Dsports ARG",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos"
+        },
+        {
+          "name": "Dsports Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
+        },
+        {
+          "name": "Dsports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "Dsports | OP2",
+          "href": "https://la18hd.su/vivo/canal.php?stream=vtvplus"
+        },
+        {
+          "name": "FOX Deportes",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | Móvil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/foxdeportestv.html"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-09-01T22:00:00.000Z",
+      "match": "Parma vs Cremonese",
+      "league": "Copa de Italia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports2"
+        },
+        {
+          "name": "Dsports 2 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
+        },
+        {
+          "name": "Paramount+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=paramount1"
+        }
+      ]
+    },
+    {
+      "time": "17:45",
+      "time_utc": "2026-09-01T23:45:00.000Z",
+      "match": "Rostov vs CSKA Moskva",
+      "league": "Copa de Rusia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsportsplus"
+        },
+        {
+          "name": "Dsports+ | OP2",
+          "href": "https://la18hd.su/vivo/canal.php?stream=eventos15"
+        },
+        {
+          "name": "Dsports+ Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsportsplus.html"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-09-02T00:00:00.000Z",
+      "match": "Al Hilal vs Al-Ahli",
+      "league": "Liga Profesional Saudí",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "FOX Deportes",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | Móvil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/foxdeportestv.html"
+        },
+        {
+          "name": "FOX Sports 2 USA",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-02T00:45:00.000Z",
+      "match": "West Ham United vs Wolverhampton",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Paramount+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=paramount2"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-02T01:00:00.000Z",
+      "match": "Torino vs Monza",
+      "league": "Copa de Italia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports HD",
+          "href": "https://la16hd.com/dsportsar.php"
+        },
+        {
+          "name": "Dsports ARG",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos"
+        },
+        {
+          "name": "Dsports Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
+        },
+        {
+          "name": "Dsports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "Dsports | OP2",
+          "href": "https://la18hd.su/vivo/canal.php?stream=vtvplus"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-02T01:00:00.000Z",
+      "match": "Stoke City vs Norwich City",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN5",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney1"
+        },
+        {
+          "name": "ESPN5 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports"
+        },
+        {
+          "name": "ESPN4 MX",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn4mx"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-02T01:00:00.000Z",
+      "match": "Rubio Ñú vs Sportivo San Lorenzo",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fanatiz01",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-02T01:00:00.000Z",
+      "match": "Birmingham City vs Southampton",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Paramount+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=paramount3"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-09-02T03:30:00.000Z",
+      "match": "2 de Mayo vs Sportivo Luqueño",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fanatiz02",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz2"
+        }
+      ]
+    }
+  ]
 }
