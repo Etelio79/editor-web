@@ -1,86 +1,10 @@
 {
-  "actualizado_en": "2026-09-08T13:07:13.784Z",
+  "actualizado_en": "2026-09-08T18:09:23.652Z",
   "fecha": "martes, 8 de septiembre",
   "fuente": "futbollibres-puppeteer",
-  "contar": 11,
-  "contar_con_canales": 11,
+  "contar": 14,
+  "contar_con_canales": 14,
   "events": [
-    {
-      "time": "12:00",
-      "time_utc": "2026-09-08T18:00:00.000Z",
-      "match": "Club Brugge Sub-19 vs Aston Villa FC Sub-19",
-      "league": "UEFA Youth League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://la18hd.su/vivo/canal.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-09-08T19:00:00.000Z",
-      "match": "Benín Sub-20 vs Argentina Sub-20",
-      "league": "Copa Mundial Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports ARG",
-          "href": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos"
-        },
-        {
-          "name": "Dsports",
-          "href": "https://la18hd.su/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "Dsports Movil",
-          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
-        },
-        {
-          "name": "Dsports | OP2",
-          "href": "https://la18hd.su/vivo/canal.php?stream=vtvplus"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-09-08T19:00:00.000Z",
-      "match": "Brasil Sub-20 vs Canadá Sub-20",
-      "league": "Copa Mundial Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2",
-          "href": "https://la18hd.su/vivo/canal.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 Movil",
-          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
-        },
-        {
-          "name": "TUDN MX",
-          "href": "https://la18hd.su/vivo/canal.php?stream=tudn_mx"
-        },
-        {
-          "name": "FOX Sports 2 USA",
-          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-09-08T20:00:00.000Z",
-      "match": "Real Madrid Sub-19 vs Inter Sub-19",
-      "league": "UEFA Youth League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://la18hd.su/vivo/canal.php?stream=disney2"
-        }
-      ]
-    },
     {
       "time": "16:00",
       "time_utc": "2026-09-08T22:00:00.000Z",
@@ -110,12 +34,12 @@
           "href": "https://la18hd.su/vivo/canal.php?stream=tudn_mx"
         },
         {
-          "name": "Fox Sports 2",
-          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports2"
-        },
-        {
           "name": "Universo",
           "href": "https://la18hd.su/vivo/canal.php?stream=universo"
+        },
+        {
+          "name": "FOX Sports 2 USA",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa"
         }
       ]
     },
@@ -208,89 +132,172 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://la18hd.su/vivo/canal.php?stream=disney6"
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Real Madrid vs Inter",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney8"
+        },
+        {
+          "name": "ESPN Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://la18hd.su/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tudnusatv.html"
+        },
+        {
+          "name": "UniMás",
+          "href": "https://la18hd.su/vivo/canal.php?stream=unimas"
+        },
+        {
+          "name": "MAX",
+          "href": "https://la18hd.su/vivo/canal.php?stream=max1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Porto vs Manchester City",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN5",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney11"
+        },
+        {
+          "name": "ESPN5 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Lille vs Real Betis",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN4",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney9"
+        },
+        {
+          "name": "ESPN4 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn4tv.html"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Millwall vs Newcastle United",
+      "league": "Carabao Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney12"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Bolton Wanderers vs West Ham United",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney13"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Borussia Dortmund vs Villarreal",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN6",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn6"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney10"
+        },
+        {
+          "name": "ESPN6 Movil",
+          "href": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn6tv.html"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-09-09T04:00:00.000Z",
+      "match": "Santa Fe vs Vasco da Gama",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports ARG",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos"
+        },
+        {
+          "name": "Dsports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "Dsports Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
+        },
+        {
+          "name": "Dsports | OP2",
+          "href": "https://la18hd.su/vivo/canal.php?stream=vtvplus"
+        },
+        {
+          "name": "beIN Sports Ñ",
+          "href": "https://la18hd.su/vivo/canal.php?stream=beinsportes"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "12:00",
-      "time_utc": "2026-09-08T18:00:00.000Z",
-      "match": "Club Brugge Sub-19 vs Aston Villa FC Sub-19",
-      "league": "UEFA Youth League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://la18hd.su/vivo/canal.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-09-08T19:00:00.000Z",
-      "match": "Benín Sub-20 vs Argentina Sub-20",
-      "league": "Copa Mundial Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports ARG",
-          "href": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos"
-        },
-        {
-          "name": "Dsports",
-          "href": "https://la18hd.su/vivo/canal.php?stream=dsports"
-        },
-        {
-          "name": "Dsports Movil",
-          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
-        },
-        {
-          "name": "Dsports | OP2",
-          "href": "https://la18hd.su/vivo/canal.php?stream=vtvplus"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-09-08T19:00:00.000Z",
-      "match": "Brasil Sub-20 vs Canadá Sub-20",
-      "league": "Copa Mundial Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2",
-          "href": "https://la18hd.su/vivo/canal.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 Movil",
-          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
-        },
-        {
-          "name": "TUDN MX",
-          "href": "https://la18hd.su/vivo/canal.php?stream=tudn_mx"
-        },
-        {
-          "name": "FOX Sports 2 USA",
-          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa"
-        }
-      ]
-    },
-    {
-      "time": "14:00",
-      "time_utc": "2026-09-08T20:00:00.000Z",
-      "match": "Real Madrid Sub-19 vs Inter Sub-19",
-      "league": "UEFA Youth League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney+",
-          "href": "https://la18hd.su/vivo/canal.php?stream=disney2"
-        }
-      ]
-    },
-    {
       "time": "16:00",
       "time_utc": "2026-09-08T22:00:00.000Z",
       "match": "Inglaterra Sub-20 vs Tanzania Sub-20",
@@ -319,12 +326,12 @@
           "href": "https://la18hd.su/vivo/canal.php?stream=tudn_mx"
         },
         {
-          "name": "Fox Sports 2",
-          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports2"
-        },
-        {
           "name": "Universo",
           "href": "https://la18hd.su/vivo/canal.php?stream=universo"
+        },
+        {
+          "name": "FOX Sports 2 USA",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa"
         }
       ]
     },
@@ -417,7 +424,166 @@
       "channels": [
         {
           "name": "Disney+",
-          "href": "https://la18hd.su/vivo/canal.php?stream=disney6"
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Real Madrid vs Inter",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney8"
+        },
+        {
+          "name": "ESPN Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html"
+        },
+        {
+          "name": "TUDN USA",
+          "href": "https://la18hd.su/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tudnusatv.html"
+        },
+        {
+          "name": "UniMás",
+          "href": "https://la18hd.su/vivo/canal.php?stream=unimas"
+        },
+        {
+          "name": "MAX",
+          "href": "https://la18hd.su/vivo/canal.php?stream=max1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Porto vs Manchester City",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN5",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney11"
+        },
+        {
+          "name": "ESPN5 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html"
+        },
+        {
+          "name": "Fox Sports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Lille vs Real Betis",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN4",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney9"
+        },
+        {
+          "name": "ESPN4 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn4tv.html"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Millwall vs Newcastle United",
+      "league": "Carabao Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney12"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Bolton Wanderers vs West Ham United",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney13"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-09T01:00:00.000Z",
+      "match": "Borussia Dortmund vs Villarreal",
+      "league": "UEFA Champions League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN6",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn6"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney10"
+        },
+        {
+          "name": "ESPN6 Movil",
+          "href": "https://rojadirectatve.com/sw3.html?get=https://rojadirectatve.com/repro/espn6tv.html"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-09-09T04:00:00.000Z",
+      "match": "Santa Fe vs Vasco da Gama",
+      "league": "Copa Sudamericana",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports ARG",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports_eventos"
+        },
+        {
+          "name": "Dsports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=dsports"
+        },
+        {
+          "name": "Dsports Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/directvperu.html"
+        },
+        {
+          "name": "Dsports | OP2",
+          "href": "https://la18hd.su/vivo/canal.php?stream=vtvplus"
+        },
+        {
+          "name": "beIN Sports Ñ",
+          "href": "https://la18hd.su/vivo/canal.php?stream=beinsportes"
         }
       ]
     }
