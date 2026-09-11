@@ -1,57 +1,176 @@
 {
-  "actualizado_en": "2026-09-11T13:03:50.201Z",
+  "actualizado_en": "2026-09-11T17:58:36.215Z",
   "fecha": "viernes, 11 de septiembre",
   "fuente": "futbollibres-puppeteer",
-  "contar": 11,
-  "contar_con_canales": 11,
+  "contar": 28,
+  "contar_con_canales": 28,
   "events": [
     {
-      "time": "11:30",
-      "time_utc": "2026-09-11T17:30:00.000Z",
-      "match": "Entrenamientos #1",
-      "league": "F1 | GP de España",
+      "time": "00:00",
+      "time_utc": "2026-09-11T06:00:00.000Z",
+      "match": "Coritiba vs Athletico-PR",
+      "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN2",
-          "href": "https://la18hd.su/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://la18hd.su/vivo/canal.php?stream=disney1"
-        },
-        {
-          "name": "ESPN2 Movil",
-          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn2tv.html"
-        },
-        {
-          "name": "Fox Sports",
-          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-09-11T19:00:00.000Z",
-      "match": "Inglaterra Sub-20 vs Brasil Sub-20",
-      "league": "Copa Mundial Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2",
-          "href": "https://la18hd.su/vivo/canal.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 Movil",
-          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
+          "name": "Premiere BR",
+          "href": "https://la18hd.su/vivo/canal.php?stream=premiere1"
         },
         {
           "name": "Sportv",
           "href": "https://la18hd.su/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-09-11T06:00:00.000Z",
+      "match": "Oriental vs Miramar Misiones",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney12"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-09-11T06:00:00.000Z",
+      "match": "Cusco vs Melgar",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1max",
+          "href": "https://la18hd.su/vivo/canal.php?stream=liga1max"
         },
         {
-          "name": "FOX Sports 2 USA",
-          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa"
+          "name": "Liga1max Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-09-11T06:30:00.000Z",
+      "match": "Boca Juniors vs Central Córdoba SdE",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney13"
+        },
+        {
+          "name": "ESPN Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html"
+        },
+        {
+          "name": "ESPN Premium",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-09-11T07:00:00.000Z",
+      "match": "Correcaminos UAT vs Cancún",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney14"
+        },
+        {
+          "name": "ESPN2 MX",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-09-11T07:00:00.000Z",
+      "match": "Necaxa vs Puebla",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "FOX Deportes",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | Móvil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/foxdeportestv.html"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-09-11T07:30:00.000Z",
+      "match": "Santa Fe vs Deportes Tolima",
+      "league": "Liga BetPlay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + HD",
+          "href": "https://la18hd.su/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | opc3",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-09-11T09:00:00.000Z",
+      "match": "Tijuana vs Querétaro",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "href": "https://la18hd.su/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tudnusatv.html"
+        },
+        {
+          "name": "UniMás",
+          "href": "https://la18hd.su/vivo/canal.php?stream=unimas"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-09-11T09:00:00.000Z",
+      "match": "Atlante vs Pachuca",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Azteca 7",
+          "href": "https://la18hd.su/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/azteca7tv.html"
+        },
+        {
+          "name": "ESPN2 MX",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn2mx"
         }
       ]
     },
@@ -217,58 +336,363 @@
         {
           "name": "LaLiga TV Hypermotion",
           "href": "https://la18hd.su/vivo/canal.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-12T00:45:00.000Z",
+      "match": "Rennes vs Olympique Marseille",
+      "league": "Ligue 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney8"
+        },
+        {
+          "name": "beIN Sports Ñ",
+          "href": "https://la18hd.su/vivo/canal.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-12T00:45:00.000Z",
+      "match": "Venezia vs Fiorentina",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN4",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney9"
+        },
+        {
+          "name": "ESPN4 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn4tv.html"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-12T01:00:00.000Z",
+      "match": "West Ham United vs Wrexham",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN7",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn7"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney11"
+        },
+        {
+          "name": "ESPN7 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn7.11.html"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-12T01:00:00.000Z",
+      "match": "Sportivo Ameliano vs Sportivo San Lorenzo",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fanatiz01",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-12T01:00:00.000Z",
+      "match": "Sevilla vs Valencia",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN5",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney10"
+        },
+        {
+          "name": "ESPN5 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espndeportes"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-09-12T02:00:00.000Z",
+      "match": "Newell's Old Boys vs Vélez Sarsfield",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "Fanatiz02",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz2"
+        },
+        {
+          "name": "ESPN Premium Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-09-12T02:00:00.000Z",
+      "match": "UTC Cajamarca vs Juan Pablo II College",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1max",
+          "href": "https://la18hd.su/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1max Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-09-12T03:30:00.000Z",
+      "match": "2 de Mayo vs Libertad",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fanatiz03",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz3"
+        }
+      ]
+    },
+    {
+      "time": "22:15",
+      "time_utc": "2026-09-12T04:15:00.000Z",
+      "match": "Defensa y Justicia vs Gimnasia Mendoza",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
+        },
+        {
+          "name": "Fanatiz04",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz4"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-09-12T05:00:00.000Z",
+      "match": "Jaguares de Córdoba vs Fortaleza CEIF",
+      "league": "Liga BetPlay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + HD",
+          "href": "https://la18hd.su/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | opc3",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "11:30",
-      "time_utc": "2026-09-11T17:30:00.000Z",
-      "match": "Entrenamientos #1",
-      "league": "F1 | GP de España",
+      "time": "00:00",
+      "time_utc": "2026-09-11T06:00:00.000Z",
+      "match": "Coritiba vs Athletico-PR",
+      "league": "Brasileirão",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN2",
-          "href": "https://la18hd.su/vivo/canal.php?stream=espn2"
-        },
-        {
-          "name": "Disney+",
-          "href": "https://la18hd.su/vivo/canal.php?stream=disney1"
-        },
-        {
-          "name": "ESPN2 Movil",
-          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn2tv.html"
-        },
-        {
-          "name": "Fox Sports",
-          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports"
-        }
-      ]
-    },
-    {
-      "time": "13:00",
-      "time_utc": "2026-09-11T19:00:00.000Z",
-      "match": "Inglaterra Sub-20 vs Brasil Sub-20",
-      "league": "Copa Mundial Femenina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports 2",
-          "href": "https://la18hd.su/vivo/canal.php?stream=dsports2"
-        },
-        {
-          "name": "Dsports 2 Movil",
-          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/dsports2.html"
+          "name": "Premiere BR",
+          "href": "https://la18hd.su/vivo/canal.php?stream=premiere1"
         },
         {
           "name": "Sportv",
           "href": "https://la18hd.su/vivo/canales.php?stream=sportv"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-09-11T06:00:00.000Z",
+      "match": "Oriental vs Miramar Misiones",
+      "league": "Segunda División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney12"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-09-11T06:00:00.000Z",
+      "match": "Cusco vs Melgar",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1max",
+          "href": "https://la18hd.su/vivo/canal.php?stream=liga1max"
         },
         {
-          "name": "FOX Sports 2 USA",
-          "href": "https://la18hd.su/vivo/canal.php?stream=foxsports2_usa"
+          "name": "Liga1max Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-09-11T06:30:00.000Z",
+      "match": "Boca Juniors vs Central Córdoba SdE",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney13"
+        },
+        {
+          "name": "ESPN Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn1tv.html"
+        },
+        {
+          "name": "ESPN Premium",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "ESPN Premium Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-09-11T07:00:00.000Z",
+      "match": "Correcaminos UAT vs Cancún",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney14"
+        },
+        {
+          "name": "ESPN2 MX",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-09-11T07:00:00.000Z",
+      "match": "Necaxa vs Puebla",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "FOX Deportes",
+          "href": "https://la18hd.su/vivo/canal.php?stream=foxdeportes"
+        },
+        {
+          "name": "FOX Deportes | Móvil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/foxdeportestv.html"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-09-11T07:30:00.000Z",
+      "match": "Santa Fe vs Deportes Tolima",
+      "league": "Liga BetPlay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + HD",
+          "href": "https://la18hd.su/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | opc3",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-09-11T09:00:00.000Z",
+      "match": "Tijuana vs Querétaro",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "href": "https://la18hd.su/vivo/canal.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tudnusatv.html"
+        },
+        {
+          "name": "UniMás",
+          "href": "https://la18hd.su/vivo/canal.php?stream=unimas"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-09-11T09:00:00.000Z",
+      "match": "Atlante vs Pachuca",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Azteca 7",
+          "href": "https://la18hd.su/vivo/canal.php?stream=azteca7"
+        },
+        {
+          "name": "Azteca 7 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/azteca7tv.html"
+        },
+        {
+          "name": "ESPN2 MX",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn2mx"
         }
       ]
     },
@@ -434,6 +858,192 @@
         {
           "name": "LaLiga TV Hypermotion",
           "href": "https://la18hd.su/vivo/canal.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-12T00:45:00.000Z",
+      "match": "Rennes vs Olympique Marseille",
+      "league": "Ligue 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney8"
+        },
+        {
+          "name": "beIN Sports Ñ",
+          "href": "https://la18hd.su/vivo/canal.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-12T00:45:00.000Z",
+      "match": "Venezia vs Fiorentina",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN4",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn4"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney9"
+        },
+        {
+          "name": "ESPN4 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn4tv.html"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-12T01:00:00.000Z",
+      "match": "West Ham United vs Wrexham",
+      "league": "Championship",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN7",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn7"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney11"
+        },
+        {
+          "name": "ESPN7 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn7.11.html"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-12T01:00:00.000Z",
+      "match": "Sportivo Ameliano vs Sportivo San Lorenzo",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fanatiz01",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-12T01:00:00.000Z",
+      "match": "Sevilla vs Valencia",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN5",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espn5"
+        },
+        {
+          "name": "Disney+",
+          "href": "https://la18hd.su/vivo/canal.php?stream=disney10"
+        },
+        {
+          "name": "ESPN5 Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espn5tv.html"
+        },
+        {
+          "name": "ESPN Deportes",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espndeportes"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-09-12T02:00:00.000Z",
+      "match": "Newell's Old Boys vs Vélez Sarsfield",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium",
+          "href": "https://la18hd.su/vivo/canal.php?stream=espnpremium"
+        },
+        {
+          "name": "Fanatiz02",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz2"
+        },
+        {
+          "name": "ESPN Premium Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/espnpremium2.html"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-09-12T02:00:00.000Z",
+      "match": "UTC Cajamarca vs Juan Pablo II College",
+      "league": "Liga 1",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Liga1max",
+          "href": "https://la18hd.su/vivo/canal.php?stream=liga1max"
+        },
+        {
+          "name": "Liga1max Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/ligaperu.html"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-09-12T03:30:00.000Z",
+      "match": "2 de Mayo vs Libertad",
+      "league": "Copa de Primera",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fanatiz03",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz3"
+        }
+      ]
+    },
+    {
+      "time": "22:15",
+      "time_utc": "2026-09-12T04:15:00.000Z",
+      "match": "Defensa y Justicia vs Gimnasia Mendoza",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "href": "https://la18hd.su/vivo/canal.php?stream=tntsports"
+        },
+        {
+          "name": "TNT Sports Movil",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/tntsports2.html"
+        },
+        {
+          "name": "Fanatiz04",
+          "href": "https://la18hd.su/vivo/canal.php?stream=fanatiz4"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-09-12T05:00:00.000Z",
+      "match": "Jaguares de Córdoba vs Fortaleza CEIF",
+      "league": "Liga BetPlay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports + HD",
+          "href": "https://la18hd.su/vivo/canal.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | opc3",
+          "href": "https://www.tarjetarojita.xyz/sw3.html?get=https://www.tarjetarojita.xyz/repro/winsports.html"
         }
       ]
     }
