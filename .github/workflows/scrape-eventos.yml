@@ -8,6 +8,7 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,14 +31,12 @@ jobs:
       - name: Instalar Puppeteer
         run: npm install puppeteer
 
-      - name: Correr scraper
-        env:
-          API_URL: https://sportstream-api-production.up.railway.app
-        run: node scripts/scrape.js
+      - name: Diagnostico futbollibres
+        run: node debug.js
 
       - name: Guardar eventos.json
         run: |
-          git config user.name  "SportStream Bot"
+          git config user.name "SportStream Bot"
           git config user.email "bot@sportstream.app"
           git add eventos.json
           git diff --staged --quiet || (
