@@ -2,76 +2,107 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
-const SITE_URL = process.env.SITE_URL || 'https://futbollibres.info/';
+const SITE_URL =
+  process.env.SITE_URL || 'https://futbollibres.info/';
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function normalizeTime(value) {
-  if (!value) return '';
+function normalizeTime(text) {
+  if (!text) return '';
 
-  let s = value.trim().replace(/\s+/g, ' ');
+  text = text
+    .replace(/\s+/g, ' ')
+    .trim();
 
-  // 24 horas: 19:30
-  let m = s.match(/\b(\d{1,2}):(\d{2})\b/);
-  if (m) {
-    let h = Number(m[1]);
-    let min = Number(m[2]);
+  const m = text.match(
+    /(\d{1,2}):(\d{2})\s*(AM|PM)?/i
+  );
 
-    // Si hay AM/PM, convertir
-    const ampm = s.match(/\b(AM|PM)\b/i);
-    if (ampm) {
-      const p = ampm[1].toUpperCase();
-      if (p === 'PM' && h < 12) h += 12;
-      if (p === 'AM' && h === 12) h = 0;
-    }
+  if (!m) return '';
 
-    return `${String(h).padStart(2, '0')}:${String(min).padStart(2, '0')}`;
-  }
+  let h = Number(m[1]);
+  const min = Number(m[2]);
+  const ampm = m[3]?.toUpperCase();
 
-  return '';
+  if (ampm === 'PM' && h < 12) h += 12;
+  if (ampm === 'AM' && h === 12) h = 0;
+
+  return `${String(h).padStart(2, '0')}:${String(min).padStart(2, '0')}`;
 }
 
-function timeBogotaToUTC(timeStr) {
-  const [h, m] = timeStr.split(':').map(Number);
+function timeBogotaToUTC(time) {
+  const [h, m] = time.split(':').map(Number);
 
   const now = new Date();
 
-  const bogotaDate = new Date(
+  const bogota = new Date(
     now.toLocaleString('en-US', {
       timeZone: 'America/Bogota'
     })
   );
 
-  // Bogotá = UTC-5
-  const utc = new Date(Date.UTC(
-    bogotaDate.getFullYear(),
-    bogotaDate.getMonth(),
-    bogotaDate.getDate(),
-    h + 5,
-    m
-  ));
+  const utc = new Date(
+    Date.UTC(
+      bogota.getFullYear(),
+      bogota.getMonth(),
+      bogota.getDate(),
+      h + 5,
+      m
+    )
+  );
 
   return utc.toISOString();
 }
 
 function decodeEmbedUrl(href) {
+  if (!href) return '';
+
   try {
     const url = new URL(href);
 
     const r = url.searchParams.get('r');
 
-    if (!r) return href;
+    if (r) {
+      const decoded = Buffer
+        .from(r, 'base64')
+        .toString('utf8');
 
-    const decoded = Buffer.from(r, 'base64').toString('utf8');
+      try {
+        new URL(decoded);
+        return decoded;
+      } catch {}
+    }
 
-    new URL(decoded);
-
-    return decoded;
+    return href;
   } catch {
     return href;
   }
+}
+
+function cleanChannelName(name, index) {
+  if (!name) {
+    return `Canal ${index + 1}`;
+  }
+
+  name = name
+    .replace(/[▶►•]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  /*
+   * El texto de .ag-toggle puede contener la hora.
+   * No queremos que termine en el nombre del canal.
+   */
+  name = name
+    .replace(
+      /^\d{1,2}:\d{2}\s*(AM|PM)?\s*/i,
+      ''
+    )
+    .trim();
+
+  return name || `Canal ${index + 1}`;
 }
 
 async function scrapeFutbolLibre() {
@@ -100,9 +131,12 @@ async function scrapeFutbolLibre() {
     await page.setRequestInterception(true);
 
     page.on('request', req => {
+
       const type = req.resourceType();
 
-      if (['image', 'font', 'media'].includes(type)) {
+      if (
+        ['image', 'font', 'media'].includes(type)
+      ) {
         req.abort();
       } else {
         req.continue();
@@ -110,7 +144,9 @@ async function scrapeFutbolLibre() {
     });
 
     await page.setUserAgent(
-      'Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 Chrome/120.0.0.0 Mobile Safari/537.36'
+      'Mozilla/5.0 (Linux; Android 13; Pixel 7) ' +
+      'AppleWebKit/537.36 (KHTML, like Gecko) ' +
+      'Chrome/120.0.0.0 Mobile Safari/537.36'
     );
 
     await page.setViewport({
@@ -121,563 +157,546 @@ async function scrapeFutbolLibre() {
     console.log('[PUP] Cargando página...');
 
     await page.goto(SITE_URL, {
-      waitUntil: 'networkidle2',
+      waitUntil: 'domcontentloaded',
       timeout: 60000
     });
 
-    console.log('[PUP] Página cargada');
-
-    await sleep(1500);
+    /*
+     * La agenda es dinámica.
+     */
+    await sleep(2500);
 
     /*
-     * ==========================================================
-     * OBTENER EVENTOS
-     * ==========================================================
-     *
-     * No dependemos exclusivamente de #ag-list.
+     * Esperar a que aparezca #ag-list.
      */
-
-    const eventsInfo = await page.evaluate(() => {
-
-      const timeRx = /^\d{1,2}:\d{2}(?:\s?(?:AM|PM))?$/i;
-
-      const walker = document.createTreeWalker(
-        document.body,
-        NodeFilter.SHOW_TEXT
+    try {
+      await page.waitForSelector(
+        '#ag-list',
+        { timeout: 15000 }
       );
 
-      const found = [];
+      console.log('[PUP] #ag-list encontrado');
 
-      let node;
+    } catch {
+      console.warn(
+        '[PUP] #ag-list no apareció'
+      );
+    }
 
-      while (node = walker.nextNode()) {
+    /*
+     * Esperar a que haya eventos.
+     */
+    for (let i = 0; i < 10; i++) {
 
-        const text = node.textContent
-          .trim()
-          .replace(/\s+/g, ' ');
+      const count = await page.evaluate(() => {
 
-        if (!timeRx.test(text)) continue;
+        const list =
+          document.querySelector('#ag-list');
 
-        const timeEl = node.parentElement;
+        if (!list) return 0;
 
-        if (!timeEl) continue;
+        return list.querySelectorAll(
+          'li[data-id]'
+        ).length;
 
-        /*
-         * Buscar hacia arriba el bloque del evento.
-         */
-        let container = timeEl;
+      });
 
-        for (let level = 0; level < 8 && container; level++) {
-
-          const textContent = container.innerText
-            ?.trim()
-            .replace(/\s+/g, ' ');
-
-          if (!textContent) {
-            container = container.parentElement;
-            continue;
-          }
-
-          /*
-           * Un bloque razonable de evento normalmente contiene
-           * el nombre del partido.
-           */
-          const possibleTexts = Array.from(
-            container.querySelectorAll('*')
-          )
-            .filter(el => el.children.length === 0)
-            .map(el =>
-              el.textContent
-                .trim()
-                .replace(/\s+/g, ' ')
-            )
-            .filter(t =>
-              t.length > 4 &&
-              !timeRx.test(t)
-            );
-
-          if (possibleTexts.length >= 1) {
-
-            found.push({
-              time: text,
-              texts: possibleTexts,
-              marker: found.length
-            });
-
-            break;
-          }
-
-          container = container.parentElement;
-        }
+      if (count > 0) {
+        console.log(
+          `[PUP] Eventos cargados: ${count}`
+        );
+        break;
       }
 
-      return found;
+      await sleep(1000);
+    }
+
+    /*
+     * ========================================================
+     * LEER EVENTOS REALES DE #ag-list
+     * ========================================================
+     */
+
+    const eventIds = await page.evaluate(() => {
+
+      const list =
+        document.querySelector('#ag-list');
+
+      if (!list) return [];
+
+      return Array.from(
+        list.querySelectorAll('li[data-id]')
+      )
+        .map(li => ({
+          id: li.getAttribute('data-id'),
+          text: li.innerText
+            .replace(/\s+/g, ' ')
+            .trim()
+        }))
+        .filter(x => x.id);
 
     });
 
     console.log(
-      `[PUP] ${eventsInfo.length} eventos detectados`
-    );
-
-    /*
-     * ==========================================================
-     * DEDUPLICAR EVENTOS
-     * ==========================================================
-     */
-
-    const unique = [];
-
-    const seen = new Set();
-
-    for (const item of eventsInfo) {
-
-      const key =
-        `${item.time}|${item.texts.join('|')}`;
-
-      if (seen.has(key)) continue;
-
-      seen.add(key);
-
-      unique.push(item);
-    }
-
-    console.log(
-      `[PUP] ${unique.length} eventos únicos`
+      `[PUP] ${eventIds.length} eventos encontrados en #ag-list`
     );
 
     const events = [];
 
     /*
-     * ==========================================================
-     * PROCESAR EVENTOS
-     * ==========================================================
+     * ========================================================
+     * PROCESAR CADA EVENTO
+     * ========================================================
      */
 
-    for (let i = 0; i < unique.length; i++) {
+    for (let i = 0; i < eventIds.length; i++) {
 
-      const info = unique[i];
+      const eventId = eventIds[i].id;
 
       console.log(
-        `[PUP] Procesando evento ${i + 1}/${unique.length}`
+        `[PUP] Procesando ${i + 1}/${eventIds.length} | ID ${eventId}`
       );
-
-      const result = await page.evaluate(
-        ({ index, info }) => {
-
-          const timeRx =
-            /^\d{1,2}:\d{2}(?:\s?(?:AM|PM))?$/i;
-
-          const walker =
-            document.createTreeWalker(
-              document.body,
-              NodeFilter.SHOW_TEXT
-            );
-
-          let node;
-          let count = 0;
-
-          while (node = walker.nextNode()) {
-
-            const text = node.textContent
-              .trim()
-              .replace(/\s+/g, ' ');
-
-            if (!timeRx.test(text)) continue;
-
-            if (count === index) break;
-
-            count++;
-          }
-
-          if (!node) return null;
-
-          const timeEl = node.parentElement;
-
-          if (!timeEl) return null;
-
-          /*
-           * Buscar el contenedor real del evento.
-           */
-          let container = timeEl;
-
-          for (let level = 0; level < 10; level++) {
-
-            if (!container) break;
-
-            const buttons =
-              container.querySelectorAll(
-                '.ag-play, .ag-toggle'
-              );
-
-            if (buttons.length > 0) {
-              break;
-            }
-
-            container = container.parentElement;
-          }
-
-          if (!container) {
-            container = timeEl.parentElement;
-          }
-
-          /*
-           * Recoger textos visibles del evento.
-           */
-          const texts = Array.from(
-            container.querySelectorAll('*')
-          )
-            .filter(el =>
-              el.children.length === 0
-            )
-            .map(el =>
-              el.textContent
-                .trim()
-                .replace(/\s+/g, ' ')
-            )
-            .filter(t =>
-              t.length > 3 &&
-              !timeRx.test(t)
-            );
-
-          /*
-           * Buscar primero textos que parezcan partido.
-           */
-          let match = '';
-
-          for (const text of texts) {
-
-            if (
-              /\s+(vs\.?|v\.?)\s+/i.test(text)
-            ) {
-              match = text;
-              break;
-            }
-          }
-
-          /*
-           * Si no encontramos "vs", buscar un texto
-           * que contenga dos equipos.
-           */
-          if (!match) {
-
-            for (const text of texts) {
-
-              if (
-                text.length >= 10 &&
-                text.length <= 150 &&
-                !/clasificación|torneo|liga|copa|nations/i.test(text)
-              ) {
-                match = text;
-                break;
-              }
-            }
-          }
-
-          if (!match) {
-            match = texts[0] || '';
-          }
-
-          /*
-           * Separar liga del partido.
-           */
-          let league = '';
-
-          const colonIndex = match.indexOf(':');
-
-          if (colonIndex > 0) {
-
-            const left = match
-              .slice(0, colonIndex)
-              .trim();
-
-            const right = match
-              .slice(colonIndex + 1)
-              .trim();
-
-            if (
-              left.length >= 3 &&
-              right.length >= 5
-            ) {
-              league = left;
-              match = right;
-            }
-          }
-
-          /*
-           * Quitar hora que pueda haberse colado.
-           */
-          match = match
-            .replace(
-              /^\d{1,2}:\d{2}(?:\s?(?:AM|PM))?\s*/i,
-              ''
-            )
-            .trim();
-
-          /*
-           * Guardamos una referencia al evento.
-           */
-          container.setAttribute(
-            'data-scraper-event',
-            String(index)
-          );
-
-          container.scrollIntoView({
-            block: 'center'
-          });
-
-          return {
-            time: timeEl.textContent.trim(),
-            match,
-            league,
-            eventIndex: index
-          };
-
-        },
-        {
-          index: i,
-          info
-        }
-      );
-
-      if (!result || !result.match) {
-        continue;
-      }
 
       /*
-       * ========================================================
+       * Extraer información del evento SIN hacer click todavía.
+       */
+      const info = await page.evaluate(id => {
+
+        const li =
+          document.querySelector(
+            `#ag-list li[data-id="${CSS.escape(id)}"]`
+          );
+
+        if (!li) return null;
+
+        /*
+         * Hora.
+         */
+        const timeCandidates = Array.from(
+          li.querySelectorAll(
+            'time, .ag-time, [class*="time"], .ag-toggle'
+          )
+        );
+
+        let timeText = '';
+
+        for (const el of timeCandidates) {
+
+          const text = el.innerText
+            ?.replace(/\s+/g, ' ')
+            .trim();
+
+          if (
+            text &&
+            /\d{1,2}:\d{2}/.test(text)
+          ) {
+            timeText = text;
+            break;
+          }
+        }
+
+        if (!timeText) {
+
+          const m = li.innerText.match(
+            /\d{1,2}:\d{2}\s*(?:AM|PM)?/i
+          );
+
+          if (m) {
+            timeText = m[0];
+          }
+        }
+
+        /*
+         * Texto completo.
+         */
+        const fullText = li.innerText
+          .replace(/\s+/g, ' ')
+          .trim();
+
+        /*
+         * Intentar encontrar el texto del partido.
+         */
+        const elements = Array.from(
+          li.querySelectorAll('*')
+        )
+          .filter(el => el.children.length === 0)
+          .map(el =>
+            el.textContent
+              .replace(/\s+/g, ' ')
+              .trim()
+          )
+          .filter(t => t.length >= 4);
+
+        let match = '';
+
+        /*
+         * Prioridad: texto que tenga "vs".
+         */
+        for (const t of elements) {
+
+          if (
+            /\bvs\.?\b/i.test(t) &&
+            !/^\d{1,2}:\d{2}/.test(t)
+          ) {
+            match = t;
+            break;
+          }
+        }
+
+        /*
+         * Buscar " v ".
+         */
+        if (!match) {
+
+          for (const t of elements) {
+
+            if (
+              /\s+v\s+/i.test(t) &&
+              !/^\d{1,2}:\d{2}/.test(t)
+            ) {
+              match = t;
+              break;
+            }
+          }
+        }
+
+        /*
+         * Fallback.
+         */
+        if (!match) {
+
+          match =
+            li.querySelector(
+              '.ag-name, .ag-title, .ag-event-title'
+            )?.innerText
+              ?.replace(/\s+/g, ' ')
+              .trim() || '';
+        }
+
+        /*
+         * Si todavía no hay partido, usar texto completo.
+         */
+        if (!match) {
+          match = fullText;
+        }
+
+        /*
+         * Quitar hora inicial.
+         */
+        match = match
+          .replace(
+            /^\d{1,2}:\d{2}\s*(?:AM|PM)?\s*/i,
+            ''
+          )
+          .trim();
+
+        /*
+         * Separar liga: partido.
+         */
+        let league = '';
+
+        const colon = match.indexOf(':');
+
+        if (colon > 0) {
+
+          const left =
+            match.slice(0, colon).trim();
+
+          const right =
+            match.slice(colon + 1).trim();
+
+          if (
+            left.length >= 3 &&
+            right.length >= 5
+          ) {
+            league = left;
+            match = right;
+          }
+        }
+
+        return {
+          id,
+          time: timeText,
+          match,
+          league
+        };
+
+      }, eventId);
+
+      if (!info) continue;
+
+      const time = normalizeTime(info.time);
+
+      /*
+       * ======================================================
        * CANALES
-       * ========================================================
+       * ======================================================
        *
-       * AQUÍ recuperamos la lógica que ya funcionaba:
+       * ESTA ES LA PARTE IMPORTANTE.
        *
-       * .ag-toggle
-       * .ag-play
-       * #ag-modal-frame
+       * Primero intentamos obtener los .ag-play existentes
+       * dentro del li.
        *
-       * No reproducimos el canal.
+       * Si la página utiliza .ag-toggle para desplegar las
+       * señales, hacemos click en el toggle del EVENTO,
+       * no en cada canal.
        */
 
       let channels = [];
 
-      try {
+      /*
+       * Abrir/desplegar el evento.
+       */
+      await page.evaluate(id => {
 
-        /*
-         * Buscar botones .ag-play dentro del evento.
-         */
-        const playButtons = await page.evaluate(
-          eventIndex => {
-
-            const container =
-              document.querySelector(
-                `[data-scraper-event="${eventIndex}"]`
-              );
-
-            if (!container) return [];
-
-            return Array.from(
-              container.querySelectorAll('.ag-play')
-            ).map((el, index) => {
-
-              const text =
-                el.textContent
-                  ?.replace(/\s+/g, ' ')
-                  .trim();
-
-              return {
-                index,
-                name: text || `Canal ${index + 1}`
-              };
-
-            });
-
-          },
-          result.eventIndex
-        );
-
-        /*
-         * Si no encontramos .ag-play directamente,
-         * intentamos .ag-toggle.
-         */
-        if (playButtons.length === 0) {
-
-          const toggles = await page.evaluate(
-            eventIndex => {
-
-              const container =
-                document.querySelector(
-                  `[data-scraper-event="${eventIndex}"]`
-                );
-
-              if (!container) return [];
-
-              return Array.from(
-                container.querySelectorAll('.ag-toggle')
-              ).map((el, index) => {
-
-                return {
-                  index,
-                  name: el.textContent
-                    ?.replace(/\s+/g, ' ')
-                    .trim()
-                    || `Canal ${index + 1}`
-                };
-
-              });
-
-            },
-            result.eventIndex
+        const li =
+          document.querySelector(
+            `#ag-list li[data-id="${CSS.escape(id)}"]`
           );
 
-          /*
-           * Usamos los toggles como botones.
-           */
-          for (const toggle of toggles) {
+        if (!li) return;
 
-            const channel = await page.evaluate(
-              ({ eventIndex, index }) => {
+        const toggle =
+          li.querySelector(
+            '.ag-toggle'
+          );
 
-                const container =
-                  document.querySelector(
-                    `[data-scraper-event="${eventIndex}"]`
-                  );
-
-                if (!container) return null;
-
-                const elements =
-                  container.querySelectorAll('.ag-toggle');
-
-                const el = elements[index];
-
-                if (!el) return null;
-
-                el.click();
-
-                return true;
-
-              },
-              {
-                eventIndex: result.eventIndex,
-                index: toggle.index
-              }
-            );
-
-            if (!channel) continue;
-
-            await sleep(350);
-
-            const frameUrl =
-              await page.evaluate(() => {
-
-                const frame =
-                  document.querySelector(
-                    '#ag-modal-frame'
-                  );
-
-                if (!frame) return '';
-
-                return (
-                  frame.getAttribute('src') ||
-                  frame.src ||
-                  ''
-                );
-
-              });
-
-            if (frameUrl) {
-
-              channels.push({
-                name: toggle.name,
-                href: decodeEmbedUrl(frameUrl)
-              });
-            }
-
-            await page.keyboard.press('Escape');
-
-            await sleep(100);
-          }
-
-        } else {
-
-          /*
-           * Caso normal: .ag-play.
-           */
-          for (const button of playButtons) {
-
-            await page.evaluate(
-              ({ eventIndex, index }) => {
-
-                const container =
-                  document.querySelector(
-                    `[data-scraper-event="${eventIndex}"]`
-                  );
-
-                if (!container) return;
-
-                const buttons =
-                  container.querySelectorAll('.ag-play');
-
-                const el = buttons[index];
-
-                if (el) el.click();
-
-              },
-              {
-                eventIndex: result.eventIndex,
-                index: button.index
-              }
-            );
-
-            await sleep(350);
-
-            const frameUrl =
-              await page.evaluate(() => {
-
-                const frame =
-                  document.querySelector(
-                    '#ag-modal-frame'
-                  );
-
-                if (!frame) return '';
-
-                return (
-                  frame.getAttribute('src') ||
-                  frame.src ||
-                  ''
-                );
-
-              });
-
-            if (frameUrl) {
-
-              channels.push({
-                name: button.name,
-                href: decodeEmbedUrl(frameUrl)
-              });
-            }
-
-            await page.keyboard.press('Escape');
-
-            await sleep(100);
-          }
+        if (toggle) {
+          toggle.click();
+          return;
         }
 
-      } catch (err) {
+        /*
+         * Fallback: click sobre el li.
+         */
+        li.click();
 
-        console.warn(
-          `[PUP] Error canales: ${err.message}`
-        );
+      }, eventId);
+
+      /*
+       * Dar tiempo para que aparezcan los canales.
+       */
+      await sleep(500);
+
+      /*
+       * Esperar .ag-play.
+       */
+      for (let wait = 0; wait < 10; wait++) {
+
+        const count = await page.evaluate(id => {
+
+          const li =
+            document.querySelector(
+              `#ag-list li[data-id="${CSS.escape(id)}"]`
+            );
+
+          if (!li) return 0;
+
+          return li.querySelectorAll(
+            '.ag-play'
+          ).length;
+
+        }, eventId);
+
+        if (count > 0) break;
+
+        await sleep(300);
       }
 
       /*
-       * Eliminar duplicados.
+       * Obtener los canales.
        */
+      const buttons = await page.evaluate(id => {
+
+        const li =
+          document.querySelector(
+            `#ag-list li[data-id="${CSS.escape(id)}"]`
+          );
+
+        if (!li) return [];
+
+        /*
+         * Prioridad .ag-play.
+         */
+        let els = Array.from(
+          li.querySelectorAll('.ag-play')
+        );
+
+        /*
+         * Fallback.
+         */
+        if (els.length === 0) {
+
+          els = Array.from(
+            li.querySelectorAll(
+              '[data-url], [data-href], a[href*="/reproducir/"]'
+            )
+          );
+        }
+
+        return els.map((el, index) => ({
+          index,
+          name:
+            el.innerText
+              ?.replace(/\s+/g, ' ')
+              .trim() ||
+            el.getAttribute('title') ||
+            el.getAttribute('aria-label') ||
+            `Canal ${index + 1}`,
+          href:
+            el.getAttribute('href') ||
+            el.getAttribute('data-url') ||
+            el.getAttribute('data-href') ||
+            ''
+        }));
+
+      }, eventId);
+
+      /*
+       * ======================================================
+       * CASO 1: EL BOTÓN YA TIENE HREF
+       * ======================================================
+       */
+
+      for (const button of buttons) {
+
+        if (!button.href) continue;
+
+        channels.push({
+          name: cleanChannelName(
+            button.name,
+            channels.length
+          ),
+          href: decodeEmbedUrl(
+            button.href
+          )
+        });
+      }
+
+      /*
+       * ======================================================
+       * CASO 2: .ag-play ABRE #ag-modal-frame
+       * ======================================================
+       *
+       * Esta es la ruta que ya habíamos comprobado.
+       */
+
+      if (
+        channels.length === 0 &&
+        buttons.length > 0
+      ) {
+
+        for (const button of buttons) {
+
+          await page.evaluate(
+            ({ id, index }) => {
+
+              const li =
+                document.querySelector(
+                  `#ag-list li[data-id="${CSS.escape(id)}"]`
+                );
+
+              if (!li) return;
+
+              const els =
+                li.querySelectorAll('.ag-play');
+
+              const el = els[index];
+
+              if (el) {
+                el.click();
+              }
+
+            },
+            {
+              id: eventId,
+              index: button.index
+            }
+          );
+
+          await sleep(500);
+
+          let frameUrl = '';
+
+          for (let wait = 0; wait < 10; wait++) {
+
+            frameUrl = await page.evaluate(() => {
+
+              const frame =
+                document.querySelector(
+                  '#ag-modal-frame'
+                );
+
+              if (!frame) return '';
+
+              return (
+                frame.getAttribute('src') ||
+                frame.src ||
+                ''
+              );
+
+            });
+
+            if (frameUrl) break;
+
+            await sleep(300);
+          }
+
+          if (frameUrl) {
+
+            channels.push({
+              name: cleanChannelName(
+                button.name,
+                channels.length
+              ),
+              href: decodeEmbedUrl(
+                frameUrl
+              )
+            });
+          }
+
+          /*
+           * Cerrar modal.
+           */
+          await page.keyboard.press('Escape');
+
+          await page.evaluate(() => {
+
+            const close =
+              document.querySelector(
+                '[class*="close"], ' +
+                '[class*="cerrar"], ' +
+                '[aria-label*="lose"]'
+              );
+
+            if (
+              close &&
+              close.getBoundingClientRect().width > 0
+            ) {
+              close.click();
+            }
+
+          });
+
+          await sleep(150);
+        }
+      }
+
+      /*
+       * ======================================================
+       * ELIMINAR DUPLICADOS
+       * ======================================================
+       */
+
       const seenChannels = new Set();
 
       channels = channels.filter(channel => {
 
         if (!channel.href) return false;
 
-        if (seenChannels.has(channel.href)) {
+        if (
+          seenChannels.has(channel.href)
+        ) {
           return false;
         }
 
@@ -687,57 +706,48 @@ async function scrapeFutbolLibre() {
       });
 
       /*
-       * Quitar marcador.
+       * ======================================================
+       * EVENTO FINAL
+       * ======================================================
        */
-      await page.evaluate(eventIndex => {
-
-        const container =
-          document.querySelector(
-            `[data-scraper-event="${eventIndex}"]`
-          );
-
-        if (container) {
-          container.removeAttribute(
-            'data-scraper-event'
-          );
-        }
-
-      }, result.eventIndex);
-
-      /*
-       * Normalizar hora.
-       */
-      const time = normalizeTime(result.time);
 
       events.push({
         time,
-        time_utc: time ? timeBogotaToUTC(time) : null,
-        match: result.match,
-        league: result.league,
+        time_utc:
+          time
+            ? timeBogotaToUTC(time)
+            : null,
+        match: info.match,
+        league: info.league,
         flag: '⚽',
         channels
       });
 
-      if (channels.length > 0) {
+      if (channels.length) {
 
         console.log(
-          `OK ${time} | ${result.match} -> ${channels.length} canales`
+          `OK ${time} | ${info.match} -> ${channels.length} canales`
         );
 
-        channels.forEach(channel => {
+        channels.forEach(c => {
           console.log(
-            `   ${channel.name}: ${channel.href}`
+            `   ${c.name}: ${c.href}`
           );
         });
 
       } else {
 
         console.log(
-          `-- ${time} | ${result.match} -> sin canales`
+          `-- ${time} | ${info.match} -> sin canales`
         );
       }
 
-      await sleep(150);
+      /*
+       * Cerrar cualquier modal restante.
+       */
+      await page.keyboard.press('Escape');
+
+      await sleep(100);
     }
 
     return events;
@@ -746,7 +756,9 @@ async function scrapeFutbolLibre() {
 
     await browser.close();
 
-    console.log('[PUP] Navegador cerrado');
+    console.log(
+      '[PUP] Navegador cerrado'
+    );
   }
 }
 
@@ -768,10 +780,12 @@ async function main() {
 
   try {
 
-    events = await scrapeFutbolLibre();
+    events =
+      await scrapeFutbolLibre();
 
     if (events.length > 0) {
-      source = 'futbollibres-puppeteer';
+      source =
+        'futbollibres-puppeteer';
     }
 
   } catch (e) {
@@ -782,25 +796,28 @@ async function main() {
   }
 
   /*
-   * Ordenar por hora.
+   * Ordenar.
    */
   events.sort((a, b) => {
 
-    const minutes = time => {
+    const toMinutes = time => {
+
+      if (!time) return 9999;
 
       const [h, m] =
-        (time || '00:00')
-          .split(':')
-          .map(Number);
+        time.split(':').map(Number);
 
       return h * 60 + m;
     };
 
-    return minutes(a.time) - minutes(b.time);
+    return (
+      toMinutes(a.time) -
+      toMinutes(b.time)
+    );
   });
 
   /*
-   * Eliminar eventos duplicados.
+   * Eliminar duplicados.
    */
   const seen = new Set();
 
@@ -820,16 +837,10 @@ async function main() {
 
   const withChannels =
     events.filter(
-      event =>
-        Array.isArray(event.channels) &&
-        event.channels.length > 0
+      e =>
+        Array.isArray(e.channels) &&
+        e.channels.length > 0
     ).length;
-
-  /*
-   * ==========================================================
-   * JSON FINAL
-   * ==========================================================
-   */
 
   const output = {
 
@@ -849,13 +860,16 @@ async function main() {
 
     fuente: source,
 
-    contar: events.length,
+    contar:
+      events.length,
 
-    contar_con_canales: withChannels,
+    contar_con_canales:
+      withChannels,
 
     events,
 
-    eventos: events
+    eventos:
+      events
   };
 
   const outputPath =
@@ -883,11 +897,11 @@ async function main() {
   );
 }
 
-main().catch(error => {
+main().catch(err => {
 
   console.error(
     'ERROR FATAL:',
-    error
+    err
   );
 
   process.exit(1);
