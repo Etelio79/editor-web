@@ -26,16 +26,19 @@ const puppeteer = require('puppeteer');
 
   console.log('===== ABRIENDO PARTIDO =====');
 
-  const partido = page.locator(
-    'li[data-id="39982"] .ag-toggle'
-  );
+  const selector = 'li[data-id="39982"] .ag-toggle';
 
-  console.log(
-    'Botón encontrado:',
-    await partido.count()
-  );
+  const botones = await page.$$(selector);
 
-  await partido.click();
+  console.log('Botones encontrados:', botones.length);
+
+  if (botones.length === 0) {
+    console.log('NO SE ENCONTRO EL BOTON DEL PARTIDO');
+    await browser.close();
+    return;
+  }
+
+  await botones[0].click();
 
   await new Promise(r => setTimeout(r, 2000));
 
@@ -55,20 +58,25 @@ const puppeteer = require('puppeteer');
 
     return {
       encontrado: true,
-      html: li.outerHTML.substring(0, 10000),
+
+      html: li.outerHTML.substring(0, 15000),
+
       texto: li.innerText,
+
       enlaces: [
         ...li.querySelectorAll('a')
       ].map(a => ({
         texto: a.innerText.trim(),
         href: a.getAttribute('href')
       })),
+
       botones: [
         ...li.querySelectorAll('button')
       ].map(b => ({
         texto: b.innerText.trim(),
         clase: b.className
       })),
+
       iframes: [
         ...li.querySelectorAll('iframe')
       ].map(f => ({
@@ -91,7 +99,7 @@ const puppeteer = require('puppeteer');
     ].map((f, i) => ({
       numero: i,
       src: f.getAttribute('src') || '',
-      html: f.outerHTML.substring(0, 1000)
+      html: f.outerHTML.substring(0, 2000)
     }));
 
   });
