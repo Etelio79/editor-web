@@ -3,33 +3,29 @@ const fs = require('fs');
 const path = require('path');
 
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise(r => setTimeout(r, ms));
 }
 
 const SITE_URL =
   process.env.SITE_URL || 'https://futbollibres.info/';
 
-/**
- * Normaliza una hora:
- *
- * 08:00       -> 08:00
- * 8:00        -> 08:00
- * 01:00 PM    -> 13:00
- * 1:00 PM     -> 13:00
- * 12:30 AM    -> 00:30
- */
-function normalizeTime(timeStr) {
-  if (!timeStr) return null;
 
-  const match = String(timeStr)
+/* =========================================================
+   UTILIDADES
+========================================================= */
+
+function normalizeTime(value) {
+  if (!value) return null;
+
+  const m = String(value)
     .trim()
     .match(/^(\d{1,2}):(\d{2})(?:\s*(AM|PM))?$/i);
 
-  if (!match) return null;
+  if (!m) return null;
 
-  let hour = Number(match[1]);
-  const minute = Number(match[2]);
-  const ampm = match[3]?.toUpperCase();
+  let hour = Number(m[1]);
+  const minute = Number(m[2]);
+  const ampm = m[3]?.toUpperCase();
 
   if (minute > 59) return null;
 
@@ -49,75 +45,58 @@ function normalizeTime(timeStr) {
 }
 
 
-/**
- * Convierte hora de Colombia (America/Bogota) a UTC.
- *
- * Colombia = UTC-5 durante todo el año.
- */
 function timeBogotaToUTC(timeStr) {
-  const normalized = normalizeTime(timeStr);
+  const time = normalizeTime(timeStr);
 
-  if (!normalized) {
+  if (!time) {
     return new Date().toISOString();
   }
 
-  const [hour, minute] = normalized.split(':').map(Number);
+  const [hour, minute] = time.split(':').map(Number);
 
   const now = new Date();
 
-  const colombiaNow = new Date(
+  const bogotaNow = new Date(
     now.toLocaleString('en-US', {
       timeZone: 'America/Bogota'
     })
   );
 
-  // Colombia está en UTC-5.
-  const utc = new Date(
+  return new Date(
     Date.UTC(
-      colombiaNow.getFullYear(),
-      colombiaNow.getMonth(),
-      colombiaNow.getDate(),
+      bogotaNow.getFullYear(),
+      bogotaNow.getMonth(),
+      bogotaNow.getDate(),
       hour + 5,
       minute
     )
-  );
-
-  return utc.toISOString();
+  ).toISOString();
 }
 
 
-/**
- * Extrae la URL real si el enlace usa ?r=BASE64
- */
 function decodeEmbedUrl(href) {
   try {
     const url = new URL(href);
+
     const r = url.searchParams.get('r');
 
     if (!r) return href;
 
-    const decoded = Buffer.from(r, 'base64').toString('utf-8');
+    const decoded =
+      Buffer.from(r, 'base64').toString('utf8');
 
     new URL(decoded);
 
     return decoded;
+
   } catch {
     return href;
   }
 }
 
 
-/**
- * Extrae liga y partido de:
- *
- * Torneo de Reserva: Newell's Old Boys vs Rosario Central
- *
- * Resultado:
- *
- * league = Torneo de Reserva
- * match  = Newell's Old Boys vs Rosario Central
- */
 function splitLeagueMatch(title) {
+
   if (!title) {
     return {
       league: '',
@@ -129,7 +108,6 @@ function splitLeagueMatch(title) {
     .replace(/\s+/g, ' ')
     .trim();
 
-  // Quitar hora al principio por seguridad.
   text = text.replace(
     /^\d{1,2}:\d{2}(?:\s*(?:AM|PM))?\s*/i,
     ''
@@ -138,18 +116,21 @@ function splitLeagueMatch(title) {
   const colon = text.indexOf(':');
 
   if (colon > 0) {
-    const left = text.slice(0, colon).trim();
-    const right = text.slice(colon + 1).trim();
 
-    // Si la parte derecha parece un partido,
-    // usamos la parte izquierda como liga.
+    const league =
+      text.substring(0, colon).trim();
+
+    const match =
+      text.substring(colon + 1).trim();
+
     if (
-      right.length > 3 &&
-      /\bvs\.?\b/i.test(right)
+      league &&
+      match &&
+      /\bvs\.?\b/i.test(match)
     ) {
       return {
-        league: left,
-        match: right
+        league,
+        match
       };
     }
   }
@@ -161,7 +142,12 @@ function splitLeagueMatch(title) {
 }
 
 
+/* =========================================================
+   SCRAPER
+========================================================= */
+
 async function scrapeFutbolLibre() {
+
   console.log('[PUP] ========================================');
   console.log('[PUP] Iniciando scraper');
   console.log(`[PUP] URL: ${SITE_URL}`);
@@ -169,6 +155,7 @@ async function scrapeFutbolLibre() {
 
   const browser = await puppeteer.launch({
     headless: 'new',
+
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
@@ -181,30 +168,47 @@ async function scrapeFutbolLibre() {
   });
 
   try {
+
     const page = await browser.newPage();
 
-    // No cargar imágenes, fuentes ni vídeo.
+
+    /* -----------------------------------------------------
+       BLOQUEAR RECURSOS PESADOS
+    ----------------------------------------------------- */
+
     await page.setRequestInterception(true);
 
-    page.on('request', request => {
-      const type = request.resourceType();
+    page.on('request', req => {
 
-      if (['image', 'font', 'media'].includes(type)) {
-        request.abort();
+      const type = req.resourceType();
+
+      if (
+        ['image', 'font', 'media'].includes(type)
+      ) {
+        req.abort();
       } else {
-        request.continue();
+        req.continue();
       }
+
     });
 
+
     await page.setUserAgent(
-      'Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 ' +
-      '(KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36'
+      'Mozilla/5.0 (Linux; Android 13; Pixel 7) ' +
+      'AppleWebKit/537.36 (KHTML, like Gecko) ' +
+      'Chrome/120.0.0.0 Mobile Safari/537.36'
     );
+
 
     await page.setViewport({
       width: 390,
       height: 844
     });
+
+
+    /* -----------------------------------------------------
+       CARGAR
+    ----------------------------------------------------- */
 
     console.log('[PUP] Cargando página...');
 
@@ -215,39 +219,48 @@ async function scrapeFutbolLibre() {
 
     console.log('[PUP] Página cargada');
 
-    /**
-     * Algunas partes de la página pueden cargarse después.
-     */
-    let horasDetectadas = false;
+
+    /* -----------------------------------------------------
+       ESPERAR HORARIOS
+    ----------------------------------------------------- */
+
+    let horarios = false;
 
     for (let intento = 1; intento <= 3; intento++) {
-      try {
-        await page.waitForFunction(
-          () => {
-            const rx =
-              /^\d{1,2}:\d{2}(?:\s*(?:AM|PM))?$/i;
 
-            const walker = document.createTreeWalker(
+      try {
+
+        await page.waitForFunction(() => {
+
+          const rx =
+            /^\d{1,2}:\d{2}(?:\s*(?:AM|PM))?$/i;
+
+          const walker =
+            document.createTreeWalker(
               document.body,
               NodeFilter.SHOW_TEXT
             );
 
-            let node;
+          let node;
 
-            while ((node = walker.nextNode())) {
-              if (rx.test(node.textContent.trim())) {
-                return true;
-              }
+          while ((node = walker.nextNode())) {
+
+            if (
+              rx.test(
+                node.textContent.trim()
+              )
+            ) {
+              return true;
             }
-
-            return false;
-          },
-          {
-            timeout: 7000
           }
-        );
 
-        horasDetectadas = true;
+          return false;
+
+        }, {
+          timeout: 7000
+        });
+
+        horarios = true;
 
         console.log(
           `[PUP] Horarios detectados (intento ${intento})`
@@ -256,88 +269,94 @@ async function scrapeFutbolLibre() {
         break;
 
       } catch {
+
         console.log(
-          `[PUP] No se detectaron horarios ` +
+          `[PUP] Sin horarios ` +
           `(intento ${intento}/3)`
         );
 
         await page.evaluate(async () => {
+
           for (
             let y = 0;
             y < document.body.scrollHeight;
             y += 400
           ) {
+
             window.scrollTo(0, y);
 
-            await new Promise(resolve =>
-              setTimeout(resolve, 100)
+            await new Promise(r =>
+              setTimeout(r, 100)
             );
           }
 
           window.scrollTo(0, 0);
+
         });
 
         await sleep(800);
       }
     }
 
-    if (!horasDetectadas) {
-      console.warn('[PUP] No se encontraron eventos.');
+
+    if (!horarios) {
+      console.log(
+        '[PUP] No se encontraron eventos'
+      );
+
       return [];
     }
 
-    await sleep(500);
 
+    /* -----------------------------------------------------
+       CONTAR EVENTOS
+    ----------------------------------------------------- */
 
-    /**
-     * Contar horarios reales.
-     *
-     * Usamos TreeWalker como en el scraper original.
-     * Esto evita depender de:
-     *
-     * #ag-list > li[data-id]
-     *
-     * que era lo que estaba haciendo que faltaran eventos.
-     */
     const eventCount = await page.evaluate(() => {
-      const timeRx =
+
+      const rx =
         /^\d{1,2}:\d{2}(?:\s*(?:AM|PM))?$/i;
 
-      const walker = document.createTreeWalker(
-        document.body,
-        NodeFilter.SHOW_TEXT
-      );
+      const walker =
+        document.createTreeWalker(
+          document.body,
+          NodeFilter.SHOW_TEXT
+        );
 
       let node;
       let count = 0;
 
       while ((node = walker.nextNode())) {
-        const text = node.textContent.trim();
 
-        if (!timeRx.test(text)) continue;
+        if (!rx.test(node.textContent.trim())) {
+          continue;
+        }
 
-        const parent = node.parentElement;
+        const parent =
+          node.parentElement;
 
         if (!parent) continue;
 
-        const rect = parent.getBoundingClientRect();
+        const rect =
+          parent.getBoundingClientRect();
 
-        const style = window.getComputedStyle(parent);
+        const style =
+          window.getComputedStyle(parent);
 
-        const visible =
+        if (
           rect.width > 0 &&
           rect.height > 0 &&
           style.display !== 'none' &&
           style.visibility !== 'hidden' &&
-          style.opacity !== '0';
-
-        if (visible) {
+          style.opacity !== '0'
+        ) {
           count++;
         }
       }
 
       return count;
     });
+
 
     console.log(
       `[PUP] ${eventCount} eventos detectados`
@@ -347,61 +366,64 @@ async function scrapeFutbolLibre() {
     const events = [];
 
 
-    /**
-     * Procesar cada evento.
-     */
-    for (let idx = 0; idx < eventCount; idx++) {
+    /* =====================================================
+       PROCESAR EVENTOS
+    ===================================================== */
+
+    for (
+      let index = 0;
+      index < eventCount;
+      index++
+    ) {
 
       console.log(
-        `[PUP] Procesando evento ${idx + 1}/${eventCount}`
+        `[PUP] Procesando evento ` +
+        `${index + 1}/${eventCount}`
       );
 
 
-      /**
-       * PASO A
-       *
-       * Localizar el horario exacto.
-       */
-      const result = await page.evaluate(
-        async (index) => {
+      /* ---------------------------------------------------
+         ENCONTRAR EVENTO
+      --------------------------------------------------- */
 
-          const timeRx =
+      const eventInfo = await page.evaluate(
+        index => {
+
+          const rx =
             /^\d{1,2}:\d{2}(?:\s*(?:AM|PM))?$/i;
 
-          const walker = document.createTreeWalker(
-            document.body,
-            NodeFilter.SHOW_TEXT
-          );
+          const walker =
+            document.createTreeWalker(
+              document.body,
+              NodeFilter.SHOW_TEXT
+            );
 
           let node;
           let count = 0;
 
           while ((node = walker.nextNode())) {
 
-            const text = node.textContent.trim();
+            const text =
+              node.textContent.trim();
 
-            if (!timeRx.test(text)) {
+            if (!rx.test(text)) {
               continue;
             }
 
-            const parent = node.parentElement;
+            const parent =
+              node.parentElement;
 
             if (!parent) continue;
 
             const rect =
               parent.getBoundingClientRect();
 
-            const style =
-              window.getComputedStyle(parent);
-
-            const visible =
-              rect.width > 0 &&
-              rect.height > 0 &&
-              style.display !== 'none' &&
-              style.visibility !== 'hidden' &&
-              style.opacity !== '0';
-
-            if (!visible) continue;
+            if (
+              rect.width <= 0 ||
+              rect.height <= 0
+            ) {
+              continue;
+            }
 
             if (count === index) {
               break;
@@ -412,104 +434,72 @@ async function scrapeFutbolLibre() {
 
           if (!node) return null;
 
-          const time = node.textContent.trim();
+          const time =
+            node.textContent.trim();
 
-          const timeEl = node.parentElement;
+          const timeEl =
+            node.parentElement;
 
           if (!timeEl) return null;
 
-          /**
-           * Marcador para volver a encontrar
-           * este evento después del click.
-           */
+
           timeEl.setAttribute(
-            'data-time-marker',
-            `evt-${index}`
+            'data-scrape-event',
+            `event-${index}`
           );
 
 
-          /**
-           * Buscar el contenedor del evento.
+          /*
+           * Buscar el texto del partido.
+           *
+           * Preferimos un elemento que contenga "vs".
            */
           let container = timeEl;
 
-          for (let level = 0; level < 8; level++) {
+          let title = '';
 
-            if (!container) break;
+          for (
+            let level = 0;
+            level < 8 && container;
+            level++
+          ) {
 
-            const leaves = Array.from(
-              container.querySelectorAll('*')
-            )
-              .filter(el => el.children.length === 0)
-              .map(el => el.textContent.trim())
-              .filter(text =>
-                text.length > 3 &&
-                !timeRx.test(text)
-              );
+            const texts =
+              Array.from(
+                container.querySelectorAll('*')
+              )
+                .filter(el =>
+                  el.children.length === 0
+                )
+                .map(el =>
+                  el.textContent
+                    .replace(/\s+/g, ' ')
+                    .trim()
+                )
+                .filter(text =>
+                  text.length > 3 &&
+                  !rx.test(text)
+                );
 
-            if (leaves.length > 0) {
-              break;
-            }
+
+            title =
+              texts.find(text =>
+                /\bvs\.?\b/i.test(text)
+              ) || '';
+
+
+            if (title) break;
 
             container =
               container.parentElement;
           }
 
-          if (!container) return null;
 
-
-          /**
-           * Obtener textos del contenedor.
-           */
-          const texts = Array.from(
-            container.querySelectorAll('*')
-          )
-            .filter(el => el.children.length === 0)
-            .map(el => el.textContent.trim())
-            .filter(text =>
-              text.length > 2 &&
-              !timeRx.test(text)
-            );
-
-
-          /**
-           * Buscar primero un texto que tenga
-           * "vs".
-           */
-          let title =
-            texts.find(text =>
-              /\bvs\.?\b/i.test(text)
-            ) || '';
-
-
-          /**
-           * Si no encontramos un texto con vs,
-           * buscar un texto que tenga ":".
-           */
           if (!title) {
-            title =
-              texts.find(text =>
-                text.includes(':')
-              ) || '';
-          }
-
-
-          /**
-           * Último recurso.
-           */
-          if (!title) {
-            title = texts[0] || '';
-          }
-
-          if (!title || title.length < 4) {
             return null;
           }
 
 
-          /**
-           * Quitar hora si por alguna razón
-           * viene pegada al título.
-           */
           title = title
             .replace(
               /^\d{1,2}:\d{2}(?:\s*(?:AM|PM))?\s*/i,
@@ -518,193 +508,216 @@ async function scrapeFutbolLibre() {
             .trim();
 
 
-          /**
-           * Abrir el evento.
+          /*
+           * Guardamos también referencias a posibles
+           * contenedores relacionados.
            */
           container.scrollIntoView({
             behavior: 'instant',
             block: 'center'
           });
 
+
+          /*
+           * Abrir evento.
+           */
           container.click();
 
 
           return {
             time,
             title,
-            eventIdx: index
+            eventIndex: index
           };
 
         },
-        idx
+        index
       );
 
 
       if (
-        !result ||
-        !result.title ||
-        result.title.length < 4
+        !eventInfo ||
+        !eventInfo.title
       ) {
         console.log(
-          `[PUP] Evento ${idx + 1} no pudo identificarse`
+          `[PUP] No se pudo identificar ` +
+          `evento ${index + 1}`
         );
 
         continue;
       }
 
 
-      /**
-       * Separar liga y partido.
-       */
-      const parts =
-        splitLeagueMatch(result.title);
+      const {
+        league,
+        match
+      } = splitLeagueMatch(
+        eventInfo.title
+      );
 
 
-      /**
-       * PASO B
-       *
-       * Buscar los canales SIN hacer click en ellos.
-       *
-       * Esto es importante para reducir muchísimo
-       * el tiempo de ejecución.
-       */
+      /* ---------------------------------------------------
+         BUSCAR CANALES
+         
+         AQUÍ ESTÁ EL CAMBIO IMPORTANTE.
+         
+         No buscamos solamente dentro de un ancestro.
+         Buscamos todos los enlaces de reproducción
+         visibles después de abrir el evento y usamos
+         proximidad al evento para asociarlos.
+      --------------------------------------------------- */
+
       let rawChannels = [];
 
-      for (let intento = 0; intento < 10; intento++) {
+
+      for (
+        let intento = 0;
+        intento < 8;
+        intento++
+      ) {
 
         await sleep(300);
 
-        rawChannels = await page.evaluate(
-          eventIdx => {
 
-            const timeRx =
-              /^\d{1,2}:\d{2}(?:\s*(?:AM|PM))?$/i;
+        rawChannels =
+          await page.evaluate(
+            eventIndex => {
 
+              const isVisible = el => {
 
-            const isVisible = el => {
+                const rect =
+                  el.getBoundingClientRect();
 
-              const rect =
-                el.getBoundingClientRect();
+                const style =
+                  window.getComputedStyle(el);
 
-              const style =
-                window.getComputedStyle(el);
-
-              return (
-                rect.width > 0 &&
-                rect.height > 0 &&
-                style.display !== 'none' &&
-                style.visibility !== 'hidden' &&
-                style.opacity !== '0'
-              );
-            };
+                return (
+                  rect.width > 0 &&
+                  rect.height > 0 &&
+                  style.display !== 'none' &&
+                  style.visibility !== 'hidden' &&
+                  style.opacity !== '0'
+                );
+              };
 
 
-            /**
-             * Detectar enlaces de canales.
-             */
-            const isChannel = href => {
+              /*
+               * Este es el formato que vimos en el
+               * sitio nuevo:
+               *
+               * /reproducir/?url=...
+               */
+              const isChannelHref = href => {
 
-              if (!href) return false;
+                if (!href) return false;
 
-              try {
+                try {
 
-                const url = new URL(href);
+                  const url =
+                    new URL(href);
 
-                const host =
-                  url.hostname.toLowerCase();
+                  const host =
+                    url.hostname.toLowerCase();
 
-                const pathname =
-                  url.pathname.toLowerCase();
+                  const path =
+                    url.pathname.toLowerCase();
 
-                /**
-                 * Nuevo sitio:
-                 *
-                 * /reproducir/?url=...
-                 */
-                if (
-                  host.includes('futbollibre') &&
-                  pathname.includes('reproducir')
-                ) {
-                  return true;
+
+                  if (
+                    host.includes('futbollibre') &&
+                    path.includes('reproducir')
+                  ) {
+                    return true;
+                  }
+
+
+                  /*
+                   * Compatibilidad con embeds.
+                   */
+                  if (
+                    path.includes('/embed/') &&
+                    url.searchParams.has('r')
+                  ) {
+                    return true;
+                  }
+
+
+                  return false;
+
+                } catch {
+                  return false;
                 }
+              };
 
 
-                /**
-                 * Compatibilidad con embeds antiguos.
-                 */
-                if (
-                  pathname.includes('/embed/') &&
-                  url.searchParams.has('r')
-                ) {
-                  return true;
-                }
+              /*
+               * Localizar el horario actual.
+               */
+              const timeEl =
+                document.querySelector(
+                  `[data-scrape-event="event-${eventIndex}"]`
+                );
 
 
-                /**
-                 * Otros dominios relacionados.
-                 */
-                if (
-                  host.includes('pelotalibre') ||
-                  host.includes('rojadirecta')
-                ) {
-                  return true;
-                }
-
-              } catch {
-                return false;
+              if (!timeEl) {
+                return [];
               }
 
-              return false;
-            };
+
+              /*
+               * Primero buscamos un contenedor que
+               * tenga el evento y enlaces.
+               */
+              const ancestors = [];
+
+              let current =
+                timeEl.parentElement;
 
 
-            /**
-             * Encontrar horario marcado.
-             */
-            const timeEl =
-              document.querySelector(
-                `[data-time-marker="evt-${eventIdx}"]`
-              );
+              for (
+                let i = 0;
+                i < 12 && current;
+                i++
+              ) {
 
-            if (!timeEl) return [];
+                ancestors.push(current);
 
-
-            /**
-             * Subir por los ancestros hasta encontrar
-             * el contenedor mínimo que tenga:
-             *
-             * - nuestro horario
-             * - enlaces de canales
-             */
-            let bestAncestor = null;
-
-            let ancestor =
-              timeEl.parentElement;
+                current =
+                  current.parentElement;
+              }
 
 
-            for (
-              let level = 0;
-              level < 10 && ancestor;
-              level++
-            ) {
+              /*
+               * Ordenar de pequeño a grande.
+               */
+              for (
+                const ancestor of ancestors
+              ) {
 
-              const links =
-                Array.from(
-                  ancestor.querySelectorAll('a[href]')
-                )
-                  .filter(a =>
-                    isChannel(a.href)
+                const links =
+                  Array.from(
+                    ancestor.querySelectorAll(
+                      'a[href]'
+                    )
                   )
-                  .filter(isVisible);
+                    .filter(a =>
+                      isChannelHref(a.href)
+                    )
+                    .filter(isVisible);
 
 
-              if (links.length > 0) {
+                if (!links.length) {
+                  continue;
+                }
 
-                /**
-                 * Contar horarios dentro
-                 * del ancestro.
+
+                /*
+                 * Comprobar cuántos horarios tiene.
                  */
-                const allTimes = [];
+                const timeRx =
+                  /^\d{1,2}:\d{2}(?:\s*(?:AM|PM))?$/i;
+
+                const times = [];
 
                 const walker =
                   document.createTreeWalker(
@@ -712,114 +725,191 @@ async function scrapeFutbolLibre() {
                     NodeFilter.SHOW_TEXT
                   );
 
-                let n;
+                let node;
 
-                while ((n = walker.nextNode())) {
+                while (
+                  (node = walker.nextNode())
+                ) {
 
                   if (
                     timeRx.test(
-                      n.textContent.trim()
+                      node.textContent.trim()
                     )
                   ) {
-                    allTimes.push(
-                      n.parentElement
+                    times.push(
+                      node.parentElement
                     );
                   }
                 }
 
 
-                /**
-                 * Perfecto:
-                 * solo contiene nuestro horario.
+                /*
+                 * Si este contenedor solo tiene
+                 * nuestro horario, perfecto.
                  */
                 if (
-                  allTimes.length === 1 &&
-                  allTimes[0] === timeEl
+                  times.length === 1 &&
+                  times[0] === timeEl
                 ) {
-                  bestAncestor = ancestor;
-                  break;
+
+                  const result = [];
+                  const seen = new Set();
+
+
+                  for (const link of links) {
+
+                    const href =
+                      link.href;
+
+                    if (seen.has(href)) {
+                      continue;
+                    }
+
+                    seen.add(href);
+
+
+                    let name =
+                      link.textContent
+                        .replace(
+                          /[▶►•\-\s]+/g,
+                          ' '
+                        )
+                        .trim();
+
+
+                    if (!name) {
+                      name =
+                        `Canal ${result.length + 1}`;
+                    }
+
+
+                    result.push({
+                      name,
+                      href
+                    });
+                  }
+
+
+                  return result;
                 }
-
-
-                /**
-                 * Si contiene varios horarios,
-                 * ya estamos abrazando otros eventos.
-                 */
-                if (allTimes.length > 1) {
-                  break;
-                }
-
-
-                bestAncestor = ancestor;
               }
 
 
-              ancestor =
-                ancestor.parentElement;
-            }
+              /*
+               * SEGUNDO MÉTODO
+               *
+               * Si no encontramos el ancestro perfecto,
+               * buscar enlaces dentro de elementos que
+               * estén muy cerca del horario en el DOM.
+               */
+              const allLinks =
+                Array.from(
+                  document.querySelectorAll(
+                    'a[href]'
+                  )
+                )
+                  .filter(a =>
+                    isChannelHref(a.href)
+                  )
+                  .filter(isVisible);
 
 
-            if (!bestAncestor) {
-              return [];
-            }
+              if (!allLinks.length) {
+                return [];
+              }
 
 
-            /**
-             * Extraer canales.
-             */
-            const results = [];
-            const seen = new Set();
+              /*
+               * Buscar el primer contenedor común
+               * razonablemente pequeño que tenga enlaces.
+               */
+              for (
+                let level = 1;
+                level <= 8;
+                level++
+              ) {
 
+                let parent =
+                  timeEl;
 
-            bestAncestor
-              .querySelectorAll('a[href]')
-              .forEach(a => {
-
-                const href =
-                  a.href || '';
-
-                if (!isChannel(href)) {
-                  return;
+                for (
+                  let i = 0;
+                  i < level && parent;
+                  i++
+                ) {
+                  parent =
+                    parent.parentElement;
                 }
 
-                if (seen.has(href)) {
-                  return;
-                }
-
-                if (!isVisible(a)) {
-                  return;
-                }
-
-                seen.add(href);
+                if (!parent) continue;
 
 
-                let name =
-                  a.textContent
-                    ?.replace(
-                      /[▶►•\-\s]+/g,
-                      ' '
+                const links =
+                  Array.from(
+                    parent.querySelectorAll(
+                      'a[href]'
                     )
-                    .trim();
+                  )
+                    .filter(a =>
+                      isChannelHref(a.href)
+                    )
+                    .filter(isVisible);
 
 
-                if (!name) {
-                  name =
-                    `Canal ${results.length + 1}`;
+                if (!links.length) {
+                  continue;
                 }
 
 
-                results.push({
-                  name,
-                  href
-                });
-              });
+                const result = [];
+                const seen = new Set();
 
 
-            return results;
+                for (const link of links) {
 
-          },
-          result.eventIdx
-        );
+                  const href =
+                    link.href;
+
+                  if (seen.has(href)) {
+                    continue;
+                  }
+
+                  seen.add(href);
+
+
+                  let name =
+                    link.textContent
+                      .replace(
+                        /[▶►•\-\s]+/g,
+                        ' '
+                      )
+                      .trim();
+
+
+                  if (!name) {
+                    name =
+                      `Canal ${result.length + 1}`;
+                  }
+
+
+                  result.push({
+                    name,
+                    href
+                  });
+                }
+
+
+                if (result.length) {
+                  return result;
+                }
+              }
+
+
+              return [];
+
+            },
+            eventInfo.eventIndex
+          );
 
 
         if (rawChannels.length > 0) {
@@ -828,47 +918,42 @@ async function scrapeFutbolLibre() {
       }
 
 
-      /**
-       * Quitar marcador.
-       */
+      /* ---------------------------------------------------
+         QUITAR MARCADOR
+      --------------------------------------------------- */
+
       await page.evaluate(
-        eventIdx => {
+        eventIndex => {
 
           const el =
             document.querySelector(
-              `[data-time-marker="evt-${eventIdx}"]`
+              `[data-scrape-event="event-${eventIndex}"]`
             );
 
           if (el) {
             el.removeAttribute(
-              'data-time-marker'
+              'data-scrape-event'
             );
           }
 
         },
-        result.eventIdx
+        eventInfo.eventIndex
       );
 
 
-      /**
-       * Normalizar hora.
-       */
-      const normalizedTime =
-        normalizeTime(result.time);
+      /* ---------------------------------------------------
+         EVENTO FINAL
+      --------------------------------------------------- */
+
+      const time =
+        normalizeTime(eventInfo.time);
 
 
-      if (!normalizedTime) {
-        console.log(
-          `[PUP] Hora inválida: ${result.time}`
-        );
-
+      if (!time) {
         continue;
       }
 
 
-      /**
-       * Procesar canales.
-       */
       const channels =
         rawChannels.map(channel => ({
           name: channel.name,
@@ -876,57 +961,57 @@ async function scrapeFutbolLibre() {
         }));
 
 
-      /**
-       * Guardar evento.
-       */
       events.push({
-        time: normalizedTime,
+
+        time,
 
         time_utc:
-          timeBogotaToUTC(normalizedTime),
+          timeBogotaToUTC(time),
 
-        match: parts.match,
+        match,
 
-        league: parts.league,
+        league,
 
         flag: '⚽',
 
         channels
+
       });
 
 
-      if (channels.length > 0) {
+      if (channels.length) {
 
         console.log(
-          `OK ${normalizedTime} | ` +
-          `${parts.league ? parts.league + ': ' : ''}` +
-          `${parts.match} -> ` +
+          `OK ${time} | ` +
+          `${league}: ${match} -> ` +
           `${channels.length} canales`
         );
 
         channels.forEach(channel => {
+
           console.log(
             `   ${channel.name}: ${channel.href}`
           );
+
         });
 
       } else {
 
         console.log(
-          `-- ${normalizedTime} | ` +
-          `${parts.league ? parts.league + ': ' : ''}` +
-          `${parts.match} -> sin canales`
+          `-- ${time} | ` +
+          `${league}: ${match} -> sin canales`
         );
+
       }
 
 
-      /**
-       * Cerrar acordeón/modal.
-       */
+      /* ---------------------------------------------------
+         CERRAR EVENTO
+      --------------------------------------------------- */
+
       await page.keyboard.press('Escape');
 
       await sleep(150);
-
 
       await page.evaluate(() => {
 
@@ -936,78 +1021,83 @@ async function scrapeFutbolLibre() {
           '[aria-label*="lose"]'
         ];
 
-        for (const selector of selectors) {
+        for (
+          const selector of selectors
+        ) {
 
           const button =
-            document.querySelector(selector);
+            document.querySelector(
+              selector
+            );
 
           if (
             button &&
             button.getBoundingClientRect().width > 0
           ) {
+
             button.click();
+
             return;
           }
         }
 
       });
 
-
       await sleep(150);
     }
 
 
-    /**
-     * Eliminar duplicados.
-     */
-    const unique = new Map();
+    /* =====================================================
+       ELIMINAR DUPLICADOS
+    ===================================================== */
+
+    const map = new Map();
 
     for (const event of events) {
 
       const key =
         `${event.time}|${event.match}`;
 
-      if (!unique.has(key)) {
-        unique.set(key, event);
+      if (!map.has(key)) {
+
+        map.set(key, event);
+
       } else {
 
-        /**
-         * Si el duplicado tiene canales y el
-         * original no, conservar el que tiene canales.
-         */
-        const current =
-          unique.get(key);
+        const old =
+          map.get(key);
 
         if (
-          current.channels.length === 0 &&
+          old.channels.length === 0 &&
           event.channels.length > 0
         ) {
-          unique.set(key, event);
+          map.set(key, event);
         }
       }
     }
 
 
     const finalEvents =
-      Array.from(unique.values());
+      Array.from(map.values());
 
 
-    /**
-     * Ordenar por hora.
-     */
+    /* =====================================================
+       ORDENAR
+    ===================================================== */
+
     finalEvents.sort((a, b) => {
 
-      const toMinutes = time => {
+      const minutes = value => {
 
         const [h, m] =
-          time.split(':').map(Number);
+          value.split(':').map(Number);
 
         return h * 60 + m;
       };
 
       return (
-        toMinutes(a.time) -
-        toMinutes(b.time)
+        minutes(a.time) -
+        minutes(b.time)
       );
     });
 
@@ -1015,7 +1105,6 @@ async function scrapeFutbolLibre() {
     const withChannels =
       finalEvents.filter(
         event =>
-          event.channels &&
           event.channels.length > 0
       ).length;
 
@@ -1037,14 +1126,17 @@ async function scrapeFutbolLibre() {
 
     await browser.close();
 
-    console.log('[PUP] Navegador cerrado');
+    console.log(
+      '[PUP] Navegador cerrado'
+    );
   }
 }
 
 
-/**
- * MAIN
- */
+/* =========================================================
+   MAIN
+========================================================= */
+
 async function main() {
 
   console.log(
@@ -1077,9 +1169,6 @@ async function main() {
   }
 
 
-  /**
-   * Fecha actual en Colombia.
-   */
   const fecha =
     new Date().toLocaleDateString(
       'es-ES',
@@ -1099,10 +1188,6 @@ async function main() {
     ).length;
 
 
-  /**
-   * Mantener exactamente la estructura
-   * que utilizaba el scraper original.
-   */
   const output = {
 
     actualizado_en:
@@ -1140,11 +1225,12 @@ async function main() {
       null,
       2
     ),
-    'utf-8'
+    'utf8'
   );
 
 
   console.log('');
+
   console.log(
     `LISTO | ${source} | ` +
     `total:${events.length} | ` +
@@ -1165,4 +1251,5 @@ main().catch(error => {
   );
 
   process.exit(1);
+
 });
