@@ -17,8 +17,6 @@ const puppeteer = require('puppeteer');
     height: 844
   });
 
-  console.log('Abriendo futbollibres.info...');
-
   await page.goto('https://futbollibres.info/', {
     waitUntil: 'networkidle2',
     timeout: 60000
@@ -26,50 +24,79 @@ const puppeteer = require('puppeteer');
 
   await new Promise(r => setTimeout(r, 5000));
 
-  console.log('\n===== PAGINA =====\n');
+  console.log('');
+  console.log('===== RESULTADO =====');
 
-  const texto = await page.evaluate(() => {
-    return document.body.innerText;
-  });
+  const datos = await page.evaluate(() => {
 
-  console.log(texto.substring(0, 15000));
-
-  console.log('\n===== ENLACES Y BOTONES =====\n');
-
-  const elementos = await page.evaluate(() => {
-
-    return [...document.querySelectorAll(
-      'a, button, [role="button"]'
-    )]
-    .map(el => ({
-      texto: (el.innerText || '').trim(),
-      href: el.href || ''
-    }))
-    .filter(x => x.texto);
-
-  });
-
-  console.log(
-    JSON.stringify(elementos, null, 2)
-  );
-
-  console.log('\n===== IFRAMES =====\n');
-
-  const iframes = await page.evaluate(() => {
-
-    return [...document.querySelectorAll('iframe')]
-      .map(el =>
-        el.src ||
-        el.getAttribute('src') ||
-        ''
+    const elementos = [
+      ...document.querySelectorAll(
+        'a, button, [role="button"]'
       )
-      .filter(Boolean);
+    ];
 
+    const botones = elementos
+      .map(el => ({
+        texto: (el.innerText || '').trim(),
+        href: el.href || ''
+      }))
+      .filter(x => x.texto)
+      .slice(0, 100);
+
+    const iframes = [
+      ...document.querySelectorAll('iframe')
+    ].map(el =>
+      el.src ||
+      el.getAttribute('src') ||
+      ''
+    ).filter(Boolean);
+
+    const eventos =
+      document.body.innerText
+        .split('\n')
+        .map(x => x.trim())
+        .filter(x => x.length > 3)
+        .filter(x =>
+          /\d{1,2}:\d{2}/.test(x)
+        )
+        .slice(0, 30);
+
+    return {
+      botones,
+      iframes,
+      eventos
+    };
   });
 
-  console.log(
-    JSON.stringify(iframes, null, 2)
+  console.log('');
+  console.log('--- EVENTOS ---');
+
+  datos.eventos.forEach(x =>
+    console.log(x)
   );
+
+  console.log('');
+  console.log('--- BOTONES Y ENLACES ---');
+
+  datos.botones.forEach((x, i) =>
+    console.log(
+      `${i}: ${x.texto} | ${x.href}`
+    )
+  );
+
+  console.log('');
+  console.log('--- IFRAMES ---');
+
+  if (datos.iframes.length === 0) {
+    console.log('NINGUNO');
+  } else {
+    datos.iframes.forEach(x =>
+      console.log(x)
+    );
+  }
+
+  console.log('');
+  console.log('===== FIN =====');
 
   await browser.close();
 
