@@ -6,73 +6,44 @@ function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
-// ============================================================
-// CONFIGURACIÓN
-// ============================================================
-
 const SITE_URL =
   process.env.SITE_URL || 'https://futbollibres.info/';
 
-// ============================================================
-// CONVERSIÓN DE HORA
-// ============================================================
-
-function timeMexicoToUTC(timeStr) {
-  const [h, m] = timeStr.split(':').map(Number);
-
-  const now = new Date();
-
-  const mexicoNow = new Date(
-    now.toLocaleString('en-US', {
-      timeZone: 'America/Mexico_City'
-    })
-  );
-
-  const mexicoOffset = Math.round(
-    (mexicoNow - now) / 3600000
-  );
-
-  const utc = new Date(
-    Date.UTC(
-      mexicoNow.getFullYear(),
-      mexicoNow.getMonth(),
-      mexicoNow.getDate(),
-      h - mexicoOffset,
-      m
-    )
-  );
-
-  return utc.toISOString();
-}
-
-// ============================================================
-// DECODIFICAR URL BASE64 SI EXISTE
-// ============================================================
-
-function decodeEmbedUrl(href) {
+/*
+ * Convierte una hora local de Colombia a UTC.
+ * El sitio muestra las horas según su propia página.
+ *
+ * Se mantiene el campo time_utc porque tu API ya lo utiliza.
+ */
+function timeBogotaToUTC(timeStr) {
   try {
-    const url = new URL(href);
+    const [h, m] = timeStr.split(':').map(Number);
 
-    const r = url.searchParams.get('r');
+    const now = new Date();
 
-    if (!r) return href;
+    const bogotaNow = new Date(
+      now.toLocaleString('en-US', {
+        timeZone: 'America/Bogota'
+      })
+    );
 
-    const decoded = Buffer
-      .from(r, 'base64')
-      .toString('utf-8');
+    const utc = new Date(
+      Date.UTC(
+        bogotaNow.getFullYear(),
+        bogotaNow.getMonth(),
+        bogotaNow.getDate(),
+        h + 5,
+        m
+      )
+    );
 
-    new URL(decoded);
-
-    return decoded;
+    return utc.toISOString();
 
   } catch {
-    return href;
+    return new Date().toISOString();
   }
 }
 
-// ============================================================
-// SCRAPER PRINCIPAL
-// ============================================================
 
 async function scrapeFutbolLibre() {
 
@@ -81,15 +52,13 @@ async function scrapeFutbolLibre() {
 
   const browser = await puppeteer.launch({
     headless: 'new',
-
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
       '--disable-gpu',
       '--no-first-run',
-      '--no-zygote',
-      '--single-process'
+      '--no-zygote'
     ]
   });
 
@@ -97,19 +66,17 @@ async function scrapeFutbolLibre() {
 
     const page = await browser.newPage();
 
-    // --------------------------------------------------------
-    // BLOQUEAR RECURSOS PESADOS
-    // --------------------------------------------------------
-
     await page.setRequestInterception(true);
 
     page.on('request', req => {
 
       const type = req.resourceType();
 
-      if (
-        ['image', 'font', 'media'].includes(type)
-      ) {
+      /*
+       * No necesitamos descargar imágenes, fuentes ni audio/video
+       * para obtener la información de los eventos.
+       */
+      if (['image', 'font', 'media'].includes(type)) {
         req.abort();
       } else {
         req.continue();
@@ -117,14 +84,9 @@ async function scrapeFutbolLibre() {
 
     });
 
-    // --------------------------------------------------------
-    // USER AGENT
-    // --------------------------------------------------------
-
     await page.setUserAgent(
-      'Mozilla/5.0 (Linux; Android 13; Pixel 7) ' +
-      'AppleWebKit/537.36 (KHTML, like Gecko) ' +
-      'Chrome/120.0.0.0 Mobile Safari/537.36'
+      'Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 ' +
+      '(KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36'
     );
 
     await page.setViewport({
@@ -132,1018 +94,377 @@ async function scrapeFutbolLibre() {
       height: 844
     });
 
-    // --------------------------------------------------------
-    // ABRIR SITIO
-    // --------------------------------------------------------
-
     console.log('[PUP] Cargando página...');
 
-    await page.goto(
-      SITE_URL,
-      {
-        waitUntil: 'networkidle2',
-        timeout: 45000
-      }
+    await page.goto(SITE_URL, {
+      waitUntil: 'networkidle2',
+      timeout: 60000
+    });
+
+    await sleep(5000);
+
+
+    /*
+     * Obtener todos los IDs de los partidos.
+     */
+    const ids = await page.$$eval(
+      '#ag-list > li[data-id]',
+      elementos =>
+        elementos.map(el =>
+          el.getAttribute('data-id')
+        )
     );
 
-    // --------------------------------------------------------
-    // ESPERAR EVENTOS
-    // --------------------------------------------------------
+    console.log(
+      `[PUP] ${ids.length} partidos detectados`
+    );
 
-    let horasDetectadas = false;
 
-    for (let intento = 1; intento <= 3; intento++) {
-
-      try {
-
-        await page.waitForFunction(
-          () => /\d{1,2}:\d{2}/.test(
-            document.body.innerText
-          ),
-          {
-            timeout: 8000
-          }
-        );
-
-        horasDetectadas = true;
-
-        console.log(
-          `[PUP] Horas detectadas (intento ${intento})`
-        );
-
-        break;
-
-      } catch {
-
-        console.warn(
-          `[PUP] Sin horas (intento ${intento}/3), scrolleando...`
-        );
-
-        await page.evaluate(async () => {
-
-          for (
-            let y = 0;
-            y < document.body.scrollHeight;
-            y += 300
-          ) {
-
-            window.scrollTo(0, y);
-
-            await new Promise(
-              r => setTimeout(r, 150)
-            );
-          }
-
-          window.scrollTo(0, 0);
-
-        });
-
-        await sleep(1500);
-      }
-    }
-
-    if (!horasDetectadas) {
+    if (!ids.length) {
 
       console.warn(
-        '[PUP] No se encontraron horarios.'
+        '[PUP] No se encontraron partidos.'
       );
 
       return [];
+
     }
 
-    await sleep(1000);
-
-    // --------------------------------------------------------
-    // CONTAR EVENTOS
-    // --------------------------------------------------------
-
-    const eventCount = await page.evaluate(() => {
-
-      const timeRx = /^\d{1,2}:\d{2}$/;
-
-      const walker =
-        document.createTreeWalker(
-          document.body,
-          NodeFilter.SHOW_TEXT,
-          null
-        );
-
-      let node;
-      let count = 0;
-
-      while ((node = walker.nextNode())) {
-
-        if (
-          timeRx.test(
-            node.textContent.trim()
-          )
-        ) {
-          count++;
-        }
-      }
-
-      return count;
-    });
-
-    console.log(
-      `[PUP] ${eventCount} eventos detectados`
-    );
 
     const events = [];
 
-    // ========================================================
-    // PROCESAR EVENTOS
-    // ========================================================
 
-    for (
-      let idx = 0;
-      idx < eventCount;
-      idx++
-    ) {
+    /*
+     * Procesar cada partido.
+     */
+    for (const id of ids) {
 
-      // ------------------------------------------------------
-      // LOCALIZAR EVENTO
-      // ------------------------------------------------------
+      try {
 
-      const result = await page.evaluate(
-        async index => {
+        const selector =
+          `li[data-id="${id}"] .ag-toggle`;
 
-          const timeRx =
-            /^\d{1,2}:\d{2}$/;
 
-          const walker =
-            document.createTreeWalker(
-              document.body,
-              NodeFilter.SHOW_TEXT,
-              null
-            );
+        /*
+         * Leer información básica antes de abrirlo.
+         */
+        const basicInfo = await page.$eval(
+          `li[data-id="${id}"]`,
+          li => {
 
-          let node;
-          let count = 0;
+            const timeElement =
+              li.querySelector('time');
 
-          while ((node = walker.nextNode())) {
+            const toggle =
+              li.querySelector('.ag-toggle');
 
-            if (
-              !timeRx.test(
-                node.textContent.trim()
-              )
-            ) {
-              continue;
-            }
+            return {
 
-            if (count === index) {
-              break;
-            }
+              time: timeElement
+                ? timeElement.innerText.trim()
+                : '',
 
-            count++;
+              texto: toggle
+                ? toggle.innerText
+                    .replace(/\s+/g, ' ')
+                    .trim()
+                : ''
+
+            };
+
           }
+        );
 
-          if (!node) {
-            return null;
-          }
 
-          const time =
-            node.textContent.trim();
-
-          const timeEl =
-            node.parentElement;
-
-          timeEl.setAttribute(
-            'data-time-marker',
-            `evt-${index}`
+        if (!basicInfo.time) {
+          console.log(
+            `[PUP] ${id} -> sin hora`
           );
-
-          // Buscar contenedor del evento
-          let container = timeEl;
-
-          for (
-            let i = 0;
-            i < 8;
-            i++
-          ) {
-
-            if (!container) break;
-
-            const texts =
-              Array.from(
-                container.querySelectorAll('*')
-              )
-              .filter(el =>
-                el.children.length === 0 &&
-                el.textContent.trim().length > 5 &&
-                !timeRx.test(
-                  el.textContent.trim()
-                )
-              );
-
-            if (texts.length > 0) {
-              break;
-            }
-
-            container =
-              container.parentElement;
-          }
-
-          if (!container) {
-            return null;
-          }
-
-          const allText =
-            Array.from(
-              container.querySelectorAll('*')
-            )
-            .filter(
-              el => el.children.length === 0
-            )
-            .map(
-              el => el.textContent.trim()
-            )
-            .filter(
-              t =>
-                t.length > 4 &&
-                !timeRx.test(t)
-            );
-
-          let matchTitle =
-            allText[0] || '';
-
-          if (
-            !matchTitle ||
-            matchTitle.length < 4
-          ) {
-            return null;
-          }
-
-          let league = '';
-          let match = matchTitle;
-
-          if (
-            matchTitle.includes(':') &&
-            matchTitle
-              .split(':')[1]
-              .trim()
-              .length > 3
-          ) {
-
-            league =
-              matchTitle
-                .split(':')[0]
-                .trim();
-
-            match =
-              matchTitle
-                .split(':')
-                .slice(1)
-                .join(':')
-                .trim();
-          }
-
-          container.scrollIntoView({
-            behavior: 'instant',
-            block: 'center'
-          });
-
-          container.click();
-
-          return {
-            time,
-            match,
-            league,
-            eventIdx: index
-          };
-
-        },
-        idx
-      );
-
-      if (
-        !result ||
-        !result.match ||
-        result.match.length < 4
-      ) {
-        continue;
-      }
-
-      // ======================================================
-      // BUSCAR CANALES
-      // ======================================================
-
-      let channelNames = [];
-
-      for (
-        let t = 0;
-        t < 20;
-        t++
-      ) {
-
-        channelNames =
-          await page.evaluate(
-            eventIdx => {
-
-              const timeRx =
-                /^\d{1,2}:\d{2}$/;
-
-              const isVisible = el => {
-
-                if (!el) return false;
-
-                const r =
-                  el.getBoundingClientRect();
-
-                const s =
-                  getComputedStyle(el);
-
-                return (
-                  r.width > 0 &&
-                  r.height > 0 &&
-                  s.display !== 'none' &&
-                  s.visibility !== 'hidden' &&
-                  s.opacity !== '0'
-                );
-              };
-
-              const norm = s =>
-                (s || '')
-                  .replace(
-                    /[▶►•\-\s]+/g,
-                    ' '
-                  )
-                  .trim();
-
-              const timeEl =
-                document.querySelector(
-                  `[data-time-marker="evt-${eventIdx}"]`
-                );
-
-              if (!timeEl) {
-                return [];
-              }
-
-              let ancestor =
-                timeEl.parentElement;
-
-              let best = null;
-
-              for (
-                let level = 0;
-                level < 10 && ancestor;
-                level++,
-                ancestor =
-                  ancestor.parentElement
-              ) {
-
-                const times =
-                  Array.from(
-                    ancestor.querySelectorAll('*')
-                  )
-                  .filter(el =>
-                    timeRx.test(
-                      (
-                        el.textContent || ''
-                      ).trim()
-                    )
-                  );
-
-                if (times.length > 1) {
-                  break;
-                }
-
-                const clickable =
-                  Array.from(
-                    ancestor.querySelectorAll(
-                      'a,button,[role="button"],[onclick],[tabindex]'
-                    )
-                  )
-                  .filter(isVisible);
-
-                if (clickable.length) {
-
-                  best = ancestor;
-
-                  break;
-                }
-              }
-
-              if (!best) {
-                return [];
-              }
-
-              const out = [];
-              const seen = new Set();
-
-              const clickable =
-                Array.from(
-                  best.querySelectorAll(
-                    'a,button,[role="button"],[onclick],[tabindex]'
-                  )
-                );
-
-              for (const el of clickable) {
-
-                if (!isVisible(el)) {
-                  continue;
-                }
-
-                const text =
-                  norm(el.textContent);
-
-                if (
-                  !text ||
-                  text.length < 3 ||
-                  text.length > 100
-                ) {
-                  continue;
-                }
-
-                if (
-                  timeRx.test(text)
-                ) {
-                  continue;
-                }
-
-                const low =
-                  text.toLowerCase();
-
-                if (
-                  /^(cerrar|close|recargar|reload|buscar|filtrar|agenda)$/i
-                    .test(text)
-                ) {
-                  continue;
-                }
-
-                if (
-                  low.includes(
-                    'descargar apk'
-                  )
-                ) {
-                  continue;
-                }
-
-                const key =
-                  text.toLowerCase();
-
-                if (seen.has(key)) {
-                  continue;
-                }
-
-                seen.add(key);
-
-                out.push(text);
-              }
-
-              return out;
-            },
-            result.eventIdx
-          );
-
-        if (channelNames.length) {
-          break;
-        }
-
-        await sleep(400);
-      }
-
-      console.log(
-        `[PUP] ${result.time} | ${result.match} -> controles encontrados: ${channelNames.length}`
-      );
-
-      // ======================================================
-      // FUNCIÓN PARA CERRAR EL REPRODUCTOR
-      // ======================================================
-
-      async function closePlayerModal() {
-
-        await page
-          .keyboard
-          .press('Escape')
-          .catch(() => {});
-
-        await sleep(250);
-
-        await page.evaluate(() => {
-
-          const candidates = [
-
-            '[class*="close"]',
-
-            '[class*="cerrar"]',
-
-            '[aria-label*="Close"]',
-
-            '[aria-label*="close"]',
-
-            '[aria-label*="Cerrar"]',
-
-            '[aria-label*="cerrar"]'
-
-          ];
-
-          for (
-            const selector of candidates
-          ) {
-
-            const elements =
-              document.querySelectorAll(
-                selector
-              );
-
-            for (
-              const el of elements
-            ) {
-
-              const r =
-                el.getBoundingClientRect();
-
-              if (
-                r.width > 0 &&
-                r.height > 0
-              ) {
-
-                el.click();
-
-                return;
-              }
-            }
-          }
-
-        }).catch(() => {});
-
-        await sleep(350);
-      }
-
-      // ======================================================
-      // PROCESAR CADA CANAL
-      // ======================================================
-
-      const rawChannels = [];
-
-      for (
-        let ci = 0;
-        ci < channelNames.length;
-        ci++
-      ) {
-
-        const channelName =
-          channelNames[ci];
-
-        await closePlayerModal();
-
-        // ----------------------------------------------------
-        // IFRAMES ANTES DEL CLICK
-        // ----------------------------------------------------
-
-        const beforeFrames =
-          await page.evaluate(() => {
-
-            return Array.from(
-              document.querySelectorAll(
-                'iframe'
-              )
-            )
-            .map(f => ({
-              src:
-                f.src ||
-                f.getAttribute('src') ||
-                ''
-            }))
-            .filter(
-              f => f.src
-            );
-          });
-
-        const beforeSrcs =
-          new Set(
-            beforeFrames.map(
-              f => f.src
-            )
-          );
-
-        // ----------------------------------------------------
-        // CLICK EN EL CANAL
-        // ----------------------------------------------------
-
-        const clicked =
-          await page.evaluate(
-            ({ eventIdx, channelName }) => {
-
-              const norm = s =>
-                (s || '')
-                  .replace(
-                    /[▶►•\-\s]+/g,
-                    ' '
-                  )
-                  .trim();
-
-              const timeEl =
-                document.querySelector(
-                  `[data-time-marker="evt-${eventIdx}"]`
-                );
-
-              if (!timeEl) {
-                return false;
-              }
-
-              let ancestor =
-                timeEl.parentElement;
-
-              let best = null;
-
-              for (
-                let level = 0;
-                level < 10 &&
-                ancestor;
-                level++,
-                ancestor =
-                  ancestor.parentElement
-              ) {
-
-                const times =
-                  Array.from(
-                    ancestor.querySelectorAll('*')
-                  )
-                  .filter(el =>
-                    /^\d{1,2}:\d{2}$/.test(
-                      (
-                        el.textContent || ''
-                      ).trim()
-                    )
-                  );
-
-                if (times.length > 1) {
-                  break;
-                }
-
-                const controls =
-                  Array.from(
-                    ancestor.querySelectorAll(
-                      'a,button,[role="button"],[onclick],[tabindex]'
-                    )
-                  );
-
-                if (controls.length) {
-
-                  best = ancestor;
-
-                  break;
-                }
-              }
-
-              if (!best) {
-                return false;
-              }
-
-              const target =
-                norm(channelName)
-                  .toLowerCase();
-
-              const controls =
-                Array.from(
-                  best.querySelectorAll(
-                    'a,button,[role="button"],[onclick],[tabindex]'
-                  )
-                );
-
-              // Coincidencia exacta
-              let el =
-                controls.find(
-                  x =>
-                    norm(
-                      x.textContent
-                    ).toLowerCase() ===
-                    target
-                );
-
-              // Coincidencia parcial
-              if (!el) {
-
-                el =
-                  controls.find(x => {
-
-                    const t =
-                      norm(
-                        x.textContent
-                      ).toLowerCase();
-
-                    return (
-                      t.includes(target) ||
-                      target.includes(t)
-                    );
-                  });
-              }
-
-              if (!el) {
-                return false;
-              }
-
-              el.scrollIntoView({
-                behavior: 'instant',
-                block: 'center'
-              });
-
-              el.click();
-
-              return true;
-            },
-            {
-              eventIdx:
-                result.eventIdx,
-              channelName
-            }
-          );
-
-        if (!clicked) {
-
-          console.warn(
-            `[PUP] No se pudo pulsar canal: ${channelName}`
-          );
-
           continue;
         }
 
-        // ====================================================
-        // ESPERAR IFRAME
-        // ====================================================
 
-        let iframeInfo = null;
+        /*
+         * Separar liga y partido.
+         *
+         * Ejemplo:
+         *
+         * Liga de Naciones de la CONCACAF:
+         * República Dominicana vs Nicaragua
+         */
+        let texto = basicInfo.texto;
 
-        for (
-          let wait = 0;
-          wait < 25;
-          wait++
-        ) {
+        /*
+         * Quitar la flecha del acordeón.
+         */
+        texto = texto
+          .replace(/[▾▴]/g, '')
+          .replace(/\s+/g, ' ')
+          .trim();
 
-          iframeInfo =
-            await page.evaluate(
-              before => {
 
-                const isVisible =
-                  el => {
+        let league = '';
+        let match = texto;
 
-                    const r =
-                      el.getBoundingClientRect();
 
-                    const s =
-                      getComputedStyle(el);
+        if (texto.includes(':')) {
 
-                    return (
-                      r.width > 0 &&
-                      r.height > 0 &&
-                      s.display !== 'none' &&
-                      s.visibility !== 'hidden'
-                    );
-                  };
+          const partes = texto.split(':');
 
-                const frames =
-                  Array.from(
-                    document.querySelectorAll(
-                      'iframe'
-                    )
-                  )
-                  .filter(isVisible)
-                  .map(f => ({
-                    src:
-                      f.src ||
-                      f.getAttribute(
-                        'src'
-                      ) ||
-                      '',
+          if (partes.length >= 2) {
 
-                    title:
-                      f.title || ''
-                  }))
-                  .filter(
-                    f =>
-                      f.src &&
-                      f.src !==
-                        'about:blank'
-                  );
+            league = partes.shift().trim();
 
-                // Buscar iframe nuevo
-                const fresh =
-                  frames.find(
-                    f =>
-                      !before.includes(
-                        f.src
-                      )
-                  );
+            match = partes
+              .join(':')
+              .trim();
 
-                return (
-                  fresh ||
-                  frames[
-                    frames.length - 1
-                  ] ||
-                  null
-                );
-              },
-              Array.from(
-                beforeSrcs
-              )
-            );
+          }
 
-          if (
-            iframeInfo &&
-            iframeInfo.src
-          ) {
+        }
+
+
+        console.log(
+          `\n[PUP] ${id} | ${basicInfo.time} | ${match}`
+        );
+
+
+        /*
+         * Abrir el partido.
+         */
+        await page.click(selector);
+
+        await sleep(500);
+
+
+        /*
+         * Esperar a que aparezcan los canales.
+         */
+        let canales = [];
+
+        for (let intento = 0; intento < 10; intento++) {
+
+          canales = await page.$$eval(
+            `li[data-id="${id}"] .ag-play`,
+            elementos =>
+              elementos.map((el, index) => ({
+                index,
+                nombre: el.innerText
+                  .replace(/^[▶►•]\s*/g, '')
+                  .replace(/\s+/g, ' ')
+                  .trim()
+              }))
+          );
+
+          if (canales.length > 0) {
             break;
           }
 
-          await sleep(400);
+          await sleep(300);
+
         }
 
-        // ====================================================
-        // GUARDAR CANAL
-        // ====================================================
 
-        if (
-          iframeInfo &&
-          iframeInfo.src
-        ) {
+        console.log(
+          `[PUP] Canales encontrados: ${canales.length}`
+        );
 
-          rawChannels.push({
 
-            name:
-              channelName,
+        const channels = [];
 
-            href:
-              iframeInfo.src
 
-          });
+        /*
+         * Abrir cada canal.
+         */
+        for (const canal of canales) {
+
+          try {
+
+            console.log(
+              `[PUP] Canal: ${canal.nombre}`
+            );
+
+
+            /*
+             * Localizar nuevamente el botón porque
+             * el DOM puede cambiar después de cada clic.
+             */
+            const canalSelector =
+              `li[data-id="${id}"] .ag-play`;
+
+
+            const botones =
+              await page.$$(canalSelector);
+
+
+            if (!botones[canal.index]) {
+
+              console.log(
+                `[PUP] No se pudo localizar el canal ${canal.nombre}`
+              );
+
+              continue;
+
+            }
+
+
+            await botones[canal.index].click();
+
+
+            /*
+             * Esperar a que el sitio coloque la URL
+             * dentro de #ag-modal-frame.
+             */
+            let iframeSrc = '';
+
+            for (let intento = 0; intento < 10; intento++) {
+
+              iframeSrc = await page.$eval(
+                '#ag-modal-frame',
+                iframe =>
+                  iframe.getAttribute('src') || ''
+              ).catch(() => '');
+
+
+              if (iframeSrc) {
+                break;
+              }
+
+              await sleep(300);
+
+            }
+
+
+            /*
+             * Convertir URL relativa en absoluta.
+             */
+            if (iframeSrc) {
+
+              try {
+
+                iframeSrc = new URL(
+                  iframeSrc,
+                  SITE_URL
+                ).href;
+
+              } catch {}
+
+            }
+
+
+            if (iframeSrc) {
+
+              channels.push({
+
+                name: canal.nombre,
+
+                href: iframeSrc
+
+              });
+
+              console.log(
+                `   OK: ${iframeSrc}`
+              );
+
+            } else {
+
+              console.log(
+                `   -- sin URL para ${canal.nombre}`
+              );
+
+            }
+
+
+          } catch (error) {
+
+            console.warn(
+              `[PUP] Error canal ${canal.nombre}: ${error.message}`
+            );
+
+          }
+
+        }
+
+
+        /*
+         * Guardar el evento.
+         */
+        events.push({
+
+          time: basicInfo.time,
+
+          time_utc:
+            timeBogotaToUTC(basicInfo.time),
+
+          match,
+
+          league,
+
+          flag: '⚽',
+
+          channels
+
+        });
+
+
+        if (channels.length > 0) {
 
           console.log(
-            `   CANAL ${ci + 1}: ${channelName} -> ${iframeInfo.src}`
+            `[PUP] OK ${basicInfo.time} | ${match} -> ${channels.length} canales`
           );
 
         } else {
 
-          console.warn(
-            `   CANAL ${ci + 1}: ${channelName} -> no apareció iframe`
-          );
-        }
-
-        await closePlayerModal();
-      }
-
-      // ======================================================
-      // LIMPIAR MARCADOR
-      // ======================================================
-
-      await page.evaluate(
-        eventIdx => {
-
-          const el =
-            document.querySelector(
-              `[data-time-marker="evt-${eventIdx}"]`
-            );
-
-          if (el) {
-            el.removeAttribute(
-              'data-time-marker'
-            );
-          }
-
-        },
-        result.eventIdx
-      );
-
-      // ======================================================
-      // CREAR EVENTO
-      // ======================================================
-
-      const channels =
-        rawChannels.map(ch => ({
-
-          name:
-            ch.name,
-
-          href:
-            decodeEmbedUrl(
-              ch.href
-            )
-
-        }));
-
-      events.push({
-
-        time:
-          result.time,
-
-        time_utc:
-          timeMexicoToUTC(
-            result.time
-          ),
-
-        match:
-          result.match,
-
-        league:
-          result.league,
-
-        flag:
-          '⚽',
-
-        channels
-
-      });
-
-      if (
-        channels.length > 0
-      ) {
-
-        console.log(
-          `OK ${result.time} | ${result.match} -> ${channels.length} canales`
-        );
-
-        channels.forEach(c =>
           console.log(
-            `   ${c.name}: ${c.href}`
-          )
-        );
+            `[PUP] -- ${basicInfo.time} | ${match} -> sin canales`
+          );
 
-      } else {
-
-        console.log(
-          `-- ${result.time} | ${result.match} -> sin canales`
-        );
-      }
-
-      // ------------------------------------------------------
-      // CERRAR EVENTO
-      // ------------------------------------------------------
-
-      await page
-        .keyboard
-        .press('Escape');
-
-      await sleep(200);
-
-      await page.evaluate(() => {
-
-        const selectors = [
-
-          '[class*="close"]',
-
-          '[class*="cerrar"]',
-
-          '[aria-label*="lose"]'
-
-        ];
-
-        for (
-          const selector of selectors
-        ) {
-
-          const buttons =
-            document.querySelectorAll(
-              selector
-            );
-
-          for (
-            const b of buttons
-          ) {
-
-            if (
-              b.getBoundingClientRect()
-                .width > 0
-            ) {
-
-              b.click();
-
-              return;
-            }
-          }
         }
 
-      });
 
-      await sleep(200);
+        /*
+         * Cerrar el modal si está abierto.
+         */
+        await page.keyboard
+          .press('Escape')
+          .catch(() => {});
+
+
+        await sleep(200);
+
+      } catch (error) {
+
+        console.warn(
+          `[PUP] Error en partido ${id}: ${error.message}`
+        );
+
+      }
+
     }
 
-    // ========================================================
-    // RESULTADO
-    // ========================================================
-
-    const withCh =
-      events.filter(
-        e =>
-          e.channels.length > 0
-      ).length;
 
     console.log(
-      `\n[PUP] Total: ${events.length} | Con canales: ${withCh}`
+      `\n[PUP] Total: ${events.length}`
     );
 
+    console.log(
+      `[PUP] Con canales: ${
+        events.filter(e => e.channels.length > 0).length
+      }`
+    );
+
+
     return events;
+
 
   } finally {
 
     await browser.close();
 
   }
+
 }
 
-// ============================================================
-// MAIN
-// ============================================================
 
 async function main() {
 
@@ -1151,20 +472,17 @@ async function main() {
     `[${new Date().toISOString()}] === SportStream Scraper ===`
   );
 
+
   let events = [];
   let source = 'none';
 
+
   try {
 
-    events =
-      await scrapeFutbolLibre();
+    events = await scrapeFutbolLibre();
 
-    if (
-      events.length > 0
-    ) {
-
-      source =
-        'futbollibres-puppeteer';
+    if (events.length > 0) {
+      source = 'futbollibres-puppeteer';
     }
 
   } catch (e) {
@@ -1172,35 +490,127 @@ async function main() {
     console.warn(
       `[PUP] FALLO: ${e.message}`
     );
+
   }
 
-  // ----------------------------------------------------------
-  // ORDENAR POR HORA
-  // ----------------------------------------------------------
 
+  /*
+   * Ordenar por hora.
+   */
   events.sort((a, b) => {
 
-    const m = t => {
+    const minutos = t => {
 
-      const [
-        h,
-        mm
-      ] =
+      const [h, m] =
         (t || '0:0')
           .split(':')
           .map(Number);
 
-      return (
-        h * 60 +
-        (mm || 0)
-      );
+      return h * 60 + (m || 0);
+
     };
 
-    return (
-      m(a.time) -
-      m(b.time)
-    );
+    return minutos(a.time) - minutos(b.time);
+
   });
 
-  // ----------------------------------------------------------
-  //
+
+  /*
+   * Eliminar duplicados.
+   */
+  const seen = new Set();
+
+  events = events.filter(ev => {
+
+    const key =
+      `${ev.time}|${ev.match}`;
+
+    if (seen.has(key)) {
+      return false;
+    }
+
+    seen.add(key);
+
+    return true;
+
+  });
+
+
+  const withCh =
+    events.filter(
+      e => (e.channels || []).length > 0
+    ).length;
+
+
+  /*
+   * Mantener exactamente la estructura
+   * que tenía tu scraper anterior.
+   */
+  const output = {
+
+    actualizado_en:
+      new Date().toISOString(),
+
+    fecha:
+      new Date().toLocaleDateString(
+        'es-ES',
+        {
+          weekday: 'long',
+          day: 'numeric',
+          month: 'long',
+          timeZone: 'America/Bogota'
+        }
+      ),
+
+    fuente:
+      source,
+
+    contar:
+      events.length,
+
+    contar_con_canales:
+      withCh,
+
+    events,
+
+    eventos:
+      events
+
+  };
+
+
+  fs.writeFileSync(
+
+    path.join(
+      process.cwd(),
+      'eventos.json'
+    ),
+
+    JSON.stringify(
+      output,
+      null,
+      2
+    ),
+
+    'utf-8'
+
+  );
+
+
+  console.log(
+    `LISTO | ${source} | total:${events.length} | canales:${withCh}`
+  );
+
+}
+
+
+main().catch(e => {
+
+  console.error(
+    'ERROR FATAL:',
+    e
+  );
+
+  process.exit(1);
+
+});
