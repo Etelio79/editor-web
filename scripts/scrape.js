@@ -5,17 +5,14 @@ const path      = require('path');
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // URL del sitio - cambiar aquí si vuelve a moverse el dominio
-const SITE_URL = process.env.SITE_URL || 'https://tarjetaroja.tax/';
+const SITE_URL = process.env.SITE_URL || 'https://futbollibres.info/';
+const DEBUG = !!process.env.DEBUG;
 
 // Convierte "19:00" (hora México, America/Mexico_City) a ISO UTC
-// Detecta automáticamente el offset vigente (México ya no usa horario de verano
-// desde 2022, pero se calcula dinámicamente por si cambia o por zonas fronterizas)
 function timeMexicoToUTC(timeStr) {
   const [h, m] = timeStr.split(':').map(Number);
   const now = new Date();
-  // Obtener la fecha/hora actual en Ciudad de México
   const mexicoNow = new Date(now.toLocaleString('en-US', { timeZone: 'America/Mexico_City' }));
-  // Calcular offset México vs UTC en horas (normalmente -6)
   const mexicoOffset = Math.round((mexicoNow - now) / 3600000);
   const utc = new Date(Date.UTC(
     mexicoNow.getFullYear(),
@@ -27,19 +24,14 @@ function timeMexicoToUTC(timeStr) {
   return utc.toISOString();
 }
 
-
-/**
- * Decodifica la URL real desde un enlace embed de futbollibres.com.pe.
- * Entrada:  https://futbollibres.com.pe/embed/eventos.html?r=aHR0cHM6Ly90dmhkMi5jb20v...
- * Salida:   https://tvhd2.com/canales.php?stream=dsports
- */
+// Por si algún canal todavía trae un link tipo /embed/xxx?r=BASE64 (sitios espejo viejos)
 function decodeEmbedUrl(href) {
   try {
     const url = new URL(href);
     const r = url.searchParams.get('r');
     if (!r) return href;
     const decoded = Buffer.from(r, 'base64').toString('utf-8');
-    new URL(decoded); // valida que sea URL real
+    new URL(decoded);
     return decoded;
   } catch {
     return href;
@@ -62,10 +54,13 @@ async function scrapeFutbolLibre() {
   try {
     const page = await browser.newPage();
 
+    // OJO: aquí NO bloqueamos 'media' porque algunos reproductores dependen
+    // de peticiones tipo media/xhr para levantar el iframe. Sí bloqueamos
+    // imágenes y fuentes para que cargue rápido.
     await page.setRequestInterception(true);
     page.on('request', req => {
       const type = req.resourceType();
-      if (['image','font','media'].includes(type)) req.abort();
+      if (['image','font'].includes(type)) req.abort();
       else req.continue();
     });
 
@@ -76,6 +71,17 @@ async function scrapeFutbolLibre() {
 
     console.log('[PUP] Cargando página...');
     await page.goto(SITE_URL, { waitUntil: 'networkidle2', timeout: 45000 });
+
+    // La agenda se carga por AJAX y muestra "Cargando agenda…" mientras tanto
+    try {
+      await page.waitForFunction(
+        () => !document.body.innerText.includes('Cargando agenda'),
+        { timeout: 20000 }
+      );
+      console.log('[PUP] Placeholder de carga desapareció');
+    } catch {
+      console.warn('[PUP] La agenda no terminó de cargar a tiempo, sigo de todas formas');
+    }
 
     // Esperar horas con reintentos + scroll para activar lazy-loading
     let horasDetectadas = false;
@@ -115,7 +121,8 @@ async function scrapeFutbolLibre() {
 
     await sleep(1000);
 
-    // Contar nodos de hora
+    // Contar nodos de hora (dentro de la sección de agenda, para no contar
+    // horas sueltas que pudieran aparecer en otras partes de la página)
     const eventCount = await page.evaluate(() => {
       const timeRx = /^\d{1,2}:\d{2}$/;
       const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
@@ -130,7 +137,6 @@ async function scrapeFutbolLibre() {
 
     const events = [];
 
-    // Iterar cada evento por índice
     for (let idx = 0; idx < eventCount; idx++) {
 
       // ── PASO A: localizar el evento por su hora, marcarlo y hacer click ──
@@ -147,13 +153,9 @@ async function scrapeFutbolLibre() {
         if (!node) return null;
 
         const time = node.textContent.trim();
-
-        // Marcamos el padre del nodo de hora con un ID único
-        // Esto nos permite re-localizarlo después del click aunque el DOM cambie
         const timeEl = node.parentElement;
         timeEl.setAttribute('data-time-marker', `evt-${index}`);
 
-        // Subir hasta el contenedor que tenga texto del partido
         let container = timeEl;
         for (let i = 0; i < 6; i++) {
           if (!container) break;
@@ -188,15 +190,14 @@ async function scrapeFutbolLibre() {
 
       if (!result || !result.match || result.match.length < 4) continue;
 
-      // ── PASO B: esperar a que aparezcan los canales del evento ─────────────
-      // Buscamos el "ancestro mínimo" que contenga la hora del evento Y los
-      // enlaces embed, asegurándonos de que no abrace OTROS eventos (otras horas).
-      let rawChannels = [];
+      // ── PASO B: esperar los botones de canal (prefijo ▶/►) del evento ──
+      let channelHandles = [];
       for (let t = 0; t < 15; t++) {
         await sleep(400);
 
-        rawChannels = await page.evaluate((eventIdx) => {
-          const timeRx = /^\d{1,2}:\d{2}$/;
+        channelHandles = await page.evaluate((eventIdx) => {
+          const timeRx  = /^\d{1,2}:\d{2}$/;
+          const arrowRx = /^[▶►•\-\s]+\S/; // debe empezar con flecha y tener texto después
 
           const isVisible = (el) => {
             const rect = el.getBoundingClientRect();
@@ -207,98 +208,119 @@ async function scrapeFutbolLibre() {
               && style.opacity !== '0';
           };
 
-          // Detecta si un href es un enlace embed válido (del sitio actual o de cualquier
-          // dominio "espejo" tipo rojadirecta/futbollibre/pelotalibre, etc.)
-          const isEmbed = (href) => {
-            if (!href) return false;
-            // Caso 1: enlace embed con parámetro ?r= (Base64)
-            if (href.includes('/embed/') && href.includes('?r=')) return true;
-            // Caso 2: enlace directo a un stream del mismo dominio del sitio
-            try {
-              const u = new URL(href);
-              const host = u.hostname.toLowerCase();
-              if (host.includes('futbollibre') || host.includes('pelotalibre') || host.includes('rojadirect')) return true;
-              // el nuevo dominio incluye "futbollibre" así que ya queda cubierto arriba
-            } catch { return false; }
-            return false;
-          };
-
-          // Re-localizar el elemento de la hora del evento clickeado
           const timeEl = document.querySelector(`[data-time-marker="evt-${eventIdx}"]`);
           if (!timeEl) return [];
 
-          // Subir por ancestros buscando el contenedor expandido del evento
-          // (debe contener la hora del evento Y al menos un enlace embed)
+          // Subir ancestros hasta encontrar el contenedor que agrupa
+          // exactamente esta hora (evita mezclar con otros eventos)
           let bestAncestor = null;
           let ancestor = timeEl.parentElement;
-
           for (let level = 0; level < 10 && ancestor; level++) {
-            const links = Array.from(ancestor.querySelectorAll('a[href]'))
-              .filter(a => isEmbed(a.href) && isVisible(a));
-
-            if (links.length > 0) {
-              // Contar cuántas horas contiene este ancestro
-              const allTimes = [];
-              const walker = document.createTreeWalker(ancestor, NodeFilter.SHOW_TEXT, null);
-              let n;
-              while ((n = walker.nextNode())) {
-                if (timeRx.test(n.textContent.trim())) {
-                  allTimes.push(n.parentElement);
-                }
-              }
-
-              // Si contiene SOLO la hora de nuestro evento, este es el ancestro perfecto
-              if (allTimes.length === 1 && allTimes[0] === timeEl) {
-                bestAncestor = ancestor;
-                break;
-              }
-
-              // Si contiene más de una hora, es demasiado grande - usar el anterior
-              if (allTimes.length > 1) {
-                break;
-              }
-
-              // Si contiene 0 horas pero tiene enlaces, también vale
+            const allTimes = [];
+            const walker = document.createTreeWalker(ancestor, NodeFilter.SHOW_TEXT, null);
+            let n;
+            while ((n = walker.nextNode())) {
+              if (timeRx.test(n.textContent.trim())) allTimes.push(n.parentElement);
+            }
+            if (allTimes.length === 1 && allTimes[0] === timeEl) {
               bestAncestor = ancestor;
             }
+            if (allTimes.length > 1) break;
             ancestor = ancestor.parentElement;
           }
-
+          if (!bestAncestor) bestAncestor = timeEl.parentElement?.parentElement;
           if (!bestAncestor) return [];
 
-          // Extraer enlaces embed del ancestro encontrado
+          // Buscar elementos "hoja lógica" cuyo texto empiece con flecha ▶/►
+          const all = Array.from(bestAncestor.querySelectorAll('*'));
+          const matches = all.filter(el => arrowRx.test((el.textContent || '').trim()));
+          // quedarnos solo con los más internos (sin otro match anidado adentro)
+          const innermost = matches.filter(el =>
+            !matches.some(other => other !== el && el.contains(other))
+          );
+
+          const seenText = new Set();
           const results = [];
-          const seen = new Set();
-
-          bestAncestor.querySelectorAll('a[href]').forEach(a => {
-            const href = a.href || '';
-            if (!isEmbed(href)) return;
-            if (seen.has(href)) return;
-            if (!isVisible(a)) return;
-
-            seen.add(href);
-            const name = a.textContent?.replace(/[▶►•\-\s]+/g, ' ').trim()
-                      || `Canal ${results.length + 1}`;
-            results.push({ name, href });
+          innermost.forEach((el, i) => {
+            if (!isVisible(el)) return;
+            const name = el.textContent.replace(/[▶►•\-\s]+/g, ' ').trim();
+            if (!name || name.length < 2) return;
+            if (seenText.has(name)) return;
+            seenText.add(name);
+            el.setAttribute('data-chan-marker', `ch-${eventIdx}-${i}`);
+            results.push({ name, marker: `ch-${eventIdx}-${i}` });
           });
-
           return results;
         }, result.eventIdx);
 
-        if (rawChannels.length > 0) break;
+        if (channelHandles.length > 0) break;
       }
 
-      // Limpiar marcador del evento actual
+      // Limpiar marcador de hora del evento actual
       await page.evaluate((eventIdx) => {
         const el = document.querySelector(`[data-time-marker="evt-${eventIdx}"]`);
         if (el) el.removeAttribute('data-time-marker');
       }, result.eventIdx);
 
-      // Decodificar Base64 → URL real
-      const channels = rawChannels.map(ch => ({
-        name: ch.name,
-        href: decodeEmbedUrl(ch.href),
-      }));
+      // ── PASO C: hacer click en cada canal y capturar el src real del iframe ──
+      const channels = [];
+      for (const chan of channelHandles) {
+        const clicked = await page.evaluate((marker) => {
+          const el = document.querySelector(`[data-chan-marker="${marker}"]`);
+          if (!el) return false;
+          el.scrollIntoView({ behavior: 'instant', block: 'center' });
+          el.click();
+          return true;
+        }, chan.marker);
+
+        if (!clicked) continue;
+
+        let streamUrl = null;
+        for (let t = 0; t < 15; t++) {
+          await sleep(400);
+          streamUrl = await page.evaluate(() => {
+            const iframes = Array.from(document.querySelectorAll('iframe'));
+            for (const f of iframes) {
+              if (f.src && /^https?:\/\//i.test(f.src) && f.getBoundingClientRect().width > 50) {
+                return f.src;
+              }
+            }
+            return null;
+          });
+          if (streamUrl) break;
+        }
+
+        if (streamUrl) {
+          channels.push({ name: chan.name, href: decodeEmbedUrl(streamUrl) });
+        } else if (DEBUG) {
+          console.warn(`[DEBUG] Sin iframe tras click en "${chan.name}"`);
+        }
+
+        // Cerrar el modal del reproductor antes del siguiente canal
+        await page.evaluate(() => {
+          const candidates = Array.from(document.querySelectorAll('button, a, span, div'));
+          for (const el of candidates) {
+            const t = (el.textContent || '').trim();
+            if (/^✕?\s*Cerrar$/i.test(t) && el.getBoundingClientRect().width > 0) {
+              el.click();
+              return true;
+            }
+          }
+          const sels = ['[class*="close"]', '[class*="cerrar"]', '[aria-label*="lose"]'];
+          for (const s of sels) {
+            const b = document.querySelector(s);
+            if (b && b.getBoundingClientRect().width > 0) { b.click(); return true; }
+          }
+          return false;
+        });
+        await sleep(300);
+      }
+
+      // limpiar marcadores de canal de este evento
+      await page.evaluate((eventIdx) => {
+        document.querySelectorAll(`[data-chan-marker^="ch-${eventIdx}-"]`)
+          .forEach(el => el.removeAttribute('data-chan-marker'));
+      }, result.eventIdx);
 
       events.push({
         time     : result.time,
@@ -316,16 +338,8 @@ async function scrapeFutbolLibre() {
         console.log(`-- ${result.time} | ${result.match} -> sin canales`);
       }
 
-      // Cerrar acordeón/modal antes del siguiente evento
+      // Cerrar acordeón antes del siguiente evento
       await page.keyboard.press('Escape');
-      await sleep(200);
-      await page.evaluate(() => {
-        const sels = ['[class*="close"]','[class*="cerrar"]','[aria-label*="lose"]'];
-        for (const s of sels) {
-          const b = document.querySelector(s);
-          if (b && b.getBoundingClientRect().width > 0) { b.click(); return; }
-        }
-      });
       await sleep(200);
     }
 
