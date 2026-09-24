@@ -116,6 +116,36 @@ async function scrapeFutbolLibre() {
       } else {
         console.warn('[PUP] Sin horas en horario activo — posible cambio en la web.');
       }
+
+      // ── DIAGNÓSTICO: guardar evidencia de qué vio realmente el navegador ──
+      try {
+        await page.screenshot({ path: path.join(process.cwd(), 'debug-screenshot.png'), fullPage: true });
+        const html = await page.content();
+        fs.writeFileSync(path.join(process.cwd(), 'debug-page.html'), html, 'utf-8');
+        console.warn('[PUP] Guardé debug-screenshot.png y debug-page.html');
+
+        const title = await page.title();
+        console.warn(`[PUP] <title>: ${title}`);
+
+        const bodyText = await page.evaluate(() => document.body.innerText.slice(0, 400));
+        console.warn('[PUP] Primeros 400 caracteres del texto visible:');
+        console.warn(bodyText);
+
+        const blockHints = ['cloudflare','just a moment','verificando','checking your browser','captcha','attention required','access denied','are you human','403 forbidden'];
+        const htmlLower = html.toLowerCase();
+        const found = blockHints.filter(h => htmlLower.includes(h));
+        if (found.length) {
+          console.warn(`[PUP] Posibles señales de bloqueo anti-bot: ${found.join(', ')}`);
+        } else {
+          console.warn('[PUP] No hay señales obvias de bloqueo anti-bot en el HTML.');
+        }
+
+        const iframeCount = await page.evaluate(() => document.querySelectorAll('iframe').length);
+        console.warn(`[PUP] iframes en la página: ${iframeCount}`);
+      } catch (e) {
+        console.warn('[PUP] No pude guardar el diagnóstico:', e.message);
+      }
+
       return [];
     }
 
