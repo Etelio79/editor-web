@@ -12,11 +12,6 @@ const puppeteer = require('puppeteer');
 
   const page = await browser.newPage();
 
-  await page.setViewport({
-    width: 390,
-    height: 844
-  });
-
   await page.goto('https://futbollibres.info/', {
     waitUntil: 'networkidle2',
     timeout: 60000
@@ -24,95 +19,114 @@ const puppeteer = require('puppeteer');
 
   await new Promise(r => setTimeout(r, 5000));
 
-  console.log('===== ABRIENDO PARTIDO =====');
+  console.log('===== BUSCANDO PARTIDOS =====');
 
-  const partido = await page.$(
-    'li[data-id="39982"] .ag-toggle'
+  const partidos = await page.$$(
+    '#ag-list > li[data-id]'
   );
 
-  if (!partido) {
-    console.log('No se encontró el partido');
-    await browser.close();
-    return;
-  }
-
-  await partido.click();
-
-  await new Promise(r => setTimeout(r, 1500));
-
-  console.log('Partido abierto');
-
-  console.log('\n===== CANAL =====');
-
-  const canal = await page.$(
-    'li[data-id="39982"] .ag-play'
+  console.log(
+    'Partidos encontrados:',
+    partidos.length
   );
 
-  if (!canal) {
-    console.log('No se encontró el canal');
-    await browser.close();
-    return;
-  }
+  const resultados = [];
 
-  const infoCanal = await page.evaluate(el => ({
-    texto: el.innerText,
-    html: el.outerHTML
-  }), canal);
+  for (let i = 0; i < partidos.length; i++) {
 
-  console.log(JSON.stringify(infoCanal, null, 2));
+    try {
 
-  console.log('\n===== HACIENDO CLIC EN EL CANAL =====');
+      const li = partidos[i];
 
-  await canal.click();
+      const info = await page.evaluate(el => {
 
-  await new Promise(r => setTimeout(r, 3000));
+        const boton = el.querySelector('.ag-toggle');
 
-  console.log('\n===== MODAL =====');
+        return {
+          id: el.getAttribute('data-id'),
+          texto: boton ? boton.innerText.trim() : '',
+        };
 
-  const modal = await page.evaluate(() => {
+      }, li);
 
-    const iframe = document.querySelector(
-      '#ag-modal-frame'
-    );
+      console.log(
+        `\n[${i + 1}/${partidos.length}]`,
+        info.id,
+        info.texto.replace(/\n/g, ' ')
+      );
 
-    if (!iframe) {
-      return {
-        encontrado: false
-      };
+      await li.$eval(
+        '.ag-toggle',
+        el => el.click()
+      );
+
+      await new Promise(r => setTimeout(r, 300));
+
+      const canales = await li.$$(
+        '.ag-play'
+      );
+
+      console.log(
+        'Canales:',
+        canales.length
+      );
+
+      const listaCanales = [];
+
+      for (let j = 0; j < canales.length; j++) {
+
+        const canal = canales[j];
+
+        const nombre = await page.evaluate(
+          el => el.innerText.trim(),
+          canal
+        );
+
+        await canal.click();
+
+        await new Promise(r => setTimeout(r, 500));
+
+        const src = await page.$eval(
+          '#ag-modal-frame',
+          iframe => iframe.getAttribute('src') || ''
+        ).catch(() => '');
+
+        console.log(
+          '  -',
+          nombre.replace(/\n/g, ' '),
+          '=>',
+          src
+        );
+
+        listaCanales.push({
+          nombre: nombre.replace(/\s+/g, ' '),
+          url: src
+        });
+
+      }
+
+      resultados.push({
+        id: info.id,
+        evento: info.texto.replace(/\s+/g, ' '),
+        canales: listaCanales
+      });
+
+    } catch (error) {
+
+      console.log(
+        'ERROR:',
+        error.message
+      );
+
     }
 
-    return {
-      encontrado: true,
-      src: iframe.getAttribute('src') || '',
-      html: iframe.outerHTML
-    };
+  }
 
-  });
+  console.log('\n===== RESULTADO FINAL =====');
 
   console.log(
-    JSON.stringify(modal, null, 2)
+    JSON.stringify(resultados, null, 2)
   );
-
-  console.log('\n===== TODOS LOS IFRAMES =====');
-
-  const iframes = await page.evaluate(() => {
-
-    return [
-      ...document.querySelectorAll('iframe')
-    ].map((f, i) => ({
-      numero: i,
-      id: f.id,
-      src: f.getAttribute('src') || '',
-      html: f.outerHTML.substring(0, 3000)
-    }));
-
-  });
-
-  console.log(
-    JSON.stringify(iframes, null, 2)
-  );
-
-  console.log('\n===== FIN =====');
 
   await browser.close();
 
