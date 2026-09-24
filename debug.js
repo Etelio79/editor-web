@@ -24,79 +24,96 @@ const puppeteer = require('puppeteer');
 
   await new Promise(r => setTimeout(r, 5000));
 
-  console.log('');
-  console.log('===== RESULTADO =====');
+  console.log('===== BUSCANDO PARTIDO =====');
+
+  const encontrado = await page.evaluate(() => {
+
+    const elementos = [...document.querySelectorAll('body *')];
+
+    const elemento = elementos.find(el =>
+      (el.innerText || '').includes(
+        'República Dominicana vs Nicaragua'
+      )
+    );
+
+    if (!elemento) return false;
+
+    elemento.scrollIntoView({
+      behavior: 'instant',
+      block: 'center'
+    });
+
+    elemento.click();
+
+    return true;
+  });
+
+  console.log('Partido encontrado:', encontrado);
+
+  await new Promise(r => setTimeout(r, 2000));
+
+  console.log('\n===== CONTENIDO DESPUES DE ABRIR =====');
 
   const datos = await page.evaluate(() => {
 
-    const elementos = [
-      ...document.querySelectorAll(
-        'a, button, [role="button"]'
-      )
-    ];
-
-    const botones = elementos
-      .map(el => ({
-        texto: (el.innerText || '').trim(),
-        href: el.href || ''
-      }))
-      .filter(x => x.texto)
-      .slice(0, 100);
+    const texto = document.body.innerText;
 
     const iframes = [
       ...document.querySelectorAll('iframe')
-    ].map(el =>
-      el.src ||
-      el.getAttribute('src') ||
-      ''
-    ).filter(Boolean);
+    ].map((iframe, i) => ({
+      numero: i,
+      src: iframe.getAttribute('src') || '',
+      title: iframe.getAttribute('title') || ''
+    }));
 
-    const eventos =
-      document.body.innerText
-        .split('\n')
-        .map(x => x.trim())
-        .filter(x => x.length > 3)
-        .filter(x =>
-          /\d{1,2}:\d{2}/.test(x)
+    const botones = [
+      ...document.querySelectorAll(
+        'a, button, [role="button"]'
+      )
+    ]
+      .map(el => ({
+        texto: (el.innerText || '').trim(),
+        href: el.getAttribute('href') || ''
+      }))
+      .filter(x =>
+        x.texto &&
+        (
+          x.texto.toLowerCase().includes('fox') ||
+          x.texto.toLowerCase().includes('espn') ||
+          x.texto.toLowerCase().includes('canal') ||
+          x.texto.toLowerCase().includes('ver')
         )
-        .slice(0, 30);
+      );
 
     return {
-      botones,
       iframes,
-      eventos
+      botones,
+      texto: texto.substring(
+        Math.max(0, texto.indexOf(
+          'República Dominicana vs Nicaragua'
+        ) - 200),
+        texto.indexOf(
+          'República Dominicana vs Nicaragua'
+        ) + 1500
+      )
     };
+
   });
 
-  console.log('');
-  console.log('--- EVENTOS ---');
+  console.log('\n--- TEXTO DEL PARTIDO ---');
+  console.log(datos.texto);
 
-  datos.eventos.forEach(x =>
-    console.log(x)
+  console.log('\n--- CANALES ---');
+  console.log(
+    JSON.stringify(datos.botones, null, 2)
   );
 
-  console.log('');
-  console.log('--- BOTONES Y ENLACES ---');
-
-  datos.botones.forEach((x, i) =>
-    console.log(
-      `${i}: ${x.texto} | ${x.href}`
-    )
+  console.log('\n--- IFRAMES ---');
+  console.log(
+    JSON.stringify(datos.iframes, null, 2)
   );
 
-  console.log('');
-  console.log('--- IFRAMES ---');
-
-  if (datos.iframes.length === 0) {
-    console.log('NINGUNO');
-  } else {
-    datos.iframes.forEach(x =>
-      console.log(x)
-    );
-  }
-
-  console.log('');
-  console.log('===== FIN =====');
+  console.log('\n===== FIN =====');
 
   await browser.close();
 
