@@ -26,31 +26,56 @@ const puppeteer = require('puppeteer');
 
   console.log('===== ABRIENDO PARTIDO =====');
 
-  const selector = 'li[data-id="39982"] .ag-toggle';
+  const partido = await page.$(
+    'li[data-id="39982"] .ag-toggle'
+  );
 
-  const botones = await page.$$(selector);
-
-  console.log('Botones encontrados:', botones.length);
-
-  if (botones.length === 0) {
-    console.log('NO SE ENCONTRO EL BOTON DEL PARTIDO');
+  if (!partido) {
+    console.log('No se encontró el partido');
     await browser.close();
     return;
   }
 
-  await botones[0].click();
+  await partido.click();
 
-  await new Promise(r => setTimeout(r, 2000));
+  await new Promise(r => setTimeout(r, 1500));
 
-  console.log('\n===== DESPUES DEL CLIC =====');
+  console.log('Partido abierto');
 
-  const resultado = await page.evaluate(() => {
+  console.log('\n===== CANAL =====');
 
-    const li = document.querySelector(
-      'li[data-id="39982"]'
+  const canal = await page.$(
+    'li[data-id="39982"] .ag-play'
+  );
+
+  if (!canal) {
+    console.log('No se encontró el canal');
+    await browser.close();
+    return;
+  }
+
+  const infoCanal = await page.evaluate(el => ({
+    texto: el.innerText,
+    html: el.outerHTML
+  }), canal);
+
+  console.log(JSON.stringify(infoCanal, null, 2));
+
+  console.log('\n===== HACIENDO CLIC EN EL CANAL =====');
+
+  await canal.click();
+
+  await new Promise(r => setTimeout(r, 3000));
+
+  console.log('\n===== MODAL =====');
+
+  const modal = await page.evaluate(() => {
+
+    const iframe = document.querySelector(
+      '#ag-modal-frame'
     );
 
-    if (!li) {
+    if (!iframe) {
       return {
         encontrado: false
       };
@@ -58,39 +83,17 @@ const puppeteer = require('puppeteer');
 
     return {
       encontrado: true,
-
-      html: li.outerHTML.substring(0, 15000),
-
-      texto: li.innerText,
-
-      enlaces: [
-        ...li.querySelectorAll('a')
-      ].map(a => ({
-        texto: a.innerText.trim(),
-        href: a.getAttribute('href')
-      })),
-
-      botones: [
-        ...li.querySelectorAll('button')
-      ].map(b => ({
-        texto: b.innerText.trim(),
-        clase: b.className
-      })),
-
-      iframes: [
-        ...li.querySelectorAll('iframe')
-      ].map(f => ({
-        src: f.getAttribute('src') || ''
-      }))
+      src: iframe.getAttribute('src') || '',
+      html: iframe.outerHTML
     };
 
   });
 
   console.log(
-    JSON.stringify(resultado, null, 2)
+    JSON.stringify(modal, null, 2)
   );
 
-  console.log('\n===== IFRAMES DE TODA LA PAGINA =====');
+  console.log('\n===== TODOS LOS IFRAMES =====');
 
   const iframes = await page.evaluate(() => {
 
@@ -98,8 +101,9 @@ const puppeteer = require('puppeteer');
       ...document.querySelectorAll('iframe')
     ].map((f, i) => ({
       numero: i,
+      id: f.id,
       src: f.getAttribute('src') || '',
-      html: f.outerHTML.substring(0, 2000)
+      html: f.outerHTML.substring(0, 3000)
     }));
 
   });
