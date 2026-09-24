@@ -12,13 +12,9 @@ function sleep(ms) {
 function normalizeTime(text) {
   if (!text) return '';
 
-  text = text
-    .replace(/\s+/g, ' ')
-    .trim();
+  text = text.replace(/\s+/g, ' ').trim();
 
-  const m = text.match(
-    /(\d{1,2}):(\d{2})\s*(AM|PM)?/i
-  );
+  const m = text.match(/(\d{1,2}):(\d{2})\s*(AM|PM)?/i);
 
   if (!m) return '';
 
@@ -56,12 +52,28 @@ function timeBogotaToUTC(time) {
   return utc.toISOString();
 }
 
+function normalizeChannelUrl(href) {
+  if (!href) return '';
+
+  href = href
+    .replace(/\r/g, '')
+    .replace(/\n/g, '')
+    .trim();
+
+  if (!href) return '';
+
+  try {
+    return new URL(href, SITE_URL).href;
+  } catch {
+    return href;
+  }
+}
+
 function decodeEmbedUrl(href) {
   if (!href) return '';
 
   try {
-    const url = new URL(href);
-
+    const url = new URL(href, SITE_URL);
     const r = url.searchParams.get('r');
 
     if (r) {
@@ -82,24 +94,15 @@ function decodeEmbedUrl(href) {
 }
 
 function cleanChannelName(name, index) {
-  if (!name) {
-    return `Canal ${index + 1}`;
-  }
+  if (!name) return `Canal ${index + 1}`;
 
   name = name
     .replace(/[▶►•]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 
-  /*
-   * El texto de .ag-toggle puede contener la hora.
-   * No queremos que termine en el nombre del canal.
-   */
   name = name
-    .replace(
-      /^\d{1,2}:\d{2}\s*(AM|PM)?\s*/i,
-      ''
-    )
+    .replace(/^\d{1,2}:\d{2}\s*(AM|PM)?\s*/i, '')
     .trim();
 
   return name || `Canal ${index + 1}`;
@@ -131,12 +134,9 @@ async function scrapeFutbolLibre() {
     await page.setRequestInterception(true);
 
     page.on('request', req => {
-
       const type = req.resourceType();
 
-      if (
-        ['image', 'font', 'media'].includes(type)
-      ) {
+      if (['image', 'font', 'media'].includes(type)) {
         req.abort();
       } else {
         req.continue();
@@ -161,66 +161,39 @@ async function scrapeFutbolLibre() {
       timeout: 60000
     });
 
-    /*
-     * La agenda es dinámica.
-     */
     await sleep(2500);
 
-    /*
-     * Esperar a que aparezca #ag-list.
-     */
     try {
-      await page.waitForSelector(
-        '#ag-list',
-        { timeout: 15000 }
-      );
+      await page.waitForSelector('#ag-list', {
+        timeout: 15000
+      });
 
       console.log('[PUP] #ag-list encontrado');
 
     } catch {
-      console.warn(
-        '[PUP] #ag-list no apareció'
-      );
+      console.warn('[PUP] #ag-list no apareció');
     }
 
-    /*
-     * Esperar a que haya eventos.
-     */
     for (let i = 0; i < 10; i++) {
 
       const count = await page.evaluate(() => {
-
-        const list =
-          document.querySelector('#ag-list');
-
+        const list = document.querySelector('#ag-list');
         if (!list) return 0;
 
-        return list.querySelectorAll(
-          'li[data-id]'
-        ).length;
-
+        return list.querySelectorAll('li[data-id]').length;
       });
 
       if (count > 0) {
-        console.log(
-          `[PUP] Eventos cargados: ${count}`
-        );
+        console.log(`[PUP] Eventos cargados: ${count}`);
         break;
       }
 
       await sleep(1000);
     }
 
-    /*
-     * ========================================================
-     * LEER EVENTOS REALES DE #ag-list
-     * ========================================================
-     */
-
     const eventIds = await page.evaluate(() => {
 
-      const list =
-        document.querySelector('#ag-list');
+      const list = document.querySelector('#ag-list');
 
       if (!list) return [];
 
@@ -243,12 +216,6 @@ async function scrapeFutbolLibre() {
 
     const events = [];
 
-    /*
-     * ========================================================
-     * PROCESAR CADA EVENTO
-     * ========================================================
-     */
-
     for (let i = 0; i < eventIds.length; i++) {
 
       const eventId = eventIds[i].id;
@@ -257,21 +224,14 @@ async function scrapeFutbolLibre() {
         `[PUP] Procesando ${i + 1}/${eventIds.length} | ID ${eventId}`
       );
 
-      /*
-       * Extraer información del evento SIN hacer click todavía.
-       */
       const info = await page.evaluate(id => {
 
-        const li =
-          document.querySelector(
-            `#ag-list li[data-id="${CSS.escape(id)}"]`
-          );
+        const li = document.querySelector(
+          `#ag-list li[data-id="${CSS.escape(id)}"]`
+        );
 
         if (!li) return null;
 
-        /*
-         * Hora.
-         */
         const timeCandidates = Array.from(
           li.querySelectorAll(
             'time, .ag-time, [class*="time"], .ag-toggle'
@@ -301,21 +261,13 @@ async function scrapeFutbolLibre() {
             /\d{1,2}:\d{2}\s*(?:AM|PM)?/i
           );
 
-          if (m) {
-            timeText = m[0];
-          }
+          if (m) timeText = m[0];
         }
 
-        /*
-         * Texto completo.
-         */
         const fullText = li.innerText
           .replace(/\s+/g, ' ')
           .trim();
 
-        /*
-         * Intentar encontrar el texto del partido.
-         */
         const elements = Array.from(
           li.querySelectorAll('*')
         )
@@ -329,9 +281,6 @@ async function scrapeFutbolLibre() {
 
         let match = '';
 
-        /*
-         * Prioridad: texto que tenga "vs".
-         */
         for (const t of elements) {
 
           if (
@@ -343,9 +292,6 @@ async function scrapeFutbolLibre() {
           }
         }
 
-        /*
-         * Buscar " v ".
-         */
         if (!match) {
 
           for (const t of elements) {
@@ -360,9 +306,6 @@ async function scrapeFutbolLibre() {
           }
         }
 
-        /*
-         * Fallback.
-         */
         if (!match) {
 
           match =
@@ -373,16 +316,8 @@ async function scrapeFutbolLibre() {
               .trim() || '';
         }
 
-        /*
-         * Si todavía no hay partido, usar texto completo.
-         */
-        if (!match) {
-          match = fullText;
-        }
+        if (!match) match = fullText;
 
-        /*
-         * Quitar hora inicial.
-         */
         match = match
           .replace(
             /^\d{1,2}:\d{2}\s*(?:AM|PM)?\s*/i,
@@ -390,20 +325,14 @@ async function scrapeFutbolLibre() {
           )
           .trim();
 
-        /*
-         * Separar liga: partido.
-         */
         let league = '';
 
         const colon = match.indexOf(':');
 
         if (colon > 0) {
 
-          const left =
-            match.slice(0, colon).trim();
-
-          const right =
-            match.slice(colon + 1).trim();
+          const left = match.slice(0, colon).trim();
+          const right = match.slice(colon + 1).trim();
 
           if (
             left.length >= 3 &&
@@ -427,74 +356,40 @@ async function scrapeFutbolLibre() {
 
       const time = normalizeTime(info.time);
 
-      /*
-       * ======================================================
-       * CANALES
-       * ======================================================
-       *
-       * ESTA ES LA PARTE IMPORTANTE.
-       *
-       * Primero intentamos obtener los .ag-play existentes
-       * dentro del li.
-       *
-       * Si la página utiliza .ag-toggle para desplegar las
-       * señales, hacemos click en el toggle del EVENTO,
-       * no en cada canal.
-       */
-
       let channels = [];
 
-      /*
-       * Abrir/desplegar el evento.
-       */
       await page.evaluate(id => {
 
-        const li =
-          document.querySelector(
-            `#ag-list li[data-id="${CSS.escape(id)}"]`
-          );
+        const li = document.querySelector(
+          `#ag-list li[data-id="${CSS.escape(id)}"]`
+        );
 
         if (!li) return;
 
-        const toggle =
-          li.querySelector(
-            '.ag-toggle'
-          );
+        const toggle = li.querySelector('.ag-toggle');
 
         if (toggle) {
           toggle.click();
           return;
         }
 
-        /*
-         * Fallback: click sobre el li.
-         */
         li.click();
 
       }, eventId);
 
-      /*
-       * Dar tiempo para que aparezcan los canales.
-       */
       await sleep(500);
 
-      /*
-       * Esperar .ag-play.
-       */
       for (let wait = 0; wait < 10; wait++) {
 
         const count = await page.evaluate(id => {
 
-          const li =
-            document.querySelector(
-              `#ag-list li[data-id="${CSS.escape(id)}"]`
-            );
+          const li = document.querySelector(
+            `#ag-list li[data-id="${CSS.escape(id)}"]`
+          );
 
           if (!li) return 0;
 
-          return li.querySelectorAll(
-            '.ag-play'
-          ).length;
+          return li.querySelectorAll('.ag-play').length;
 
         }, eventId);
 
@@ -503,28 +398,18 @@ async function scrapeFutbolLibre() {
         await sleep(300);
       }
 
-      /*
-       * Obtener los canales.
-       */
       const buttons = await page.evaluate(id => {
 
-        const li =
-          document.querySelector(
-            `#ag-list li[data-id="${CSS.escape(id)}"]`
-          );
+        const li = document.querySelector(
+          `#ag-list li[data-id="${CSS.escape(id)}"]`
+        );
 
         if (!li) return [];
 
-        /*
-         * Prioridad .ag-play.
-         */
         let els = Array.from(
           li.querySelectorAll('.ag-play')
         );
 
-        /*
-         * Fallback.
-         */
         if (els.length === 0) {
 
           els = Array.from(
@@ -552,12 +437,6 @@ async function scrapeFutbolLibre() {
 
       }, eventId);
 
-      /*
-       * ======================================================
-       * CASO 1: EL BOTÓN YA TIENE HREF
-       * ======================================================
-       */
-
       for (const button of buttons) {
 
         if (!button.href) continue;
@@ -567,19 +446,11 @@ async function scrapeFutbolLibre() {
             button.name,
             channels.length
           ),
-          href: decodeEmbedUrl(
-            button.href
+          href: normalizeChannelUrl(
+            decodeEmbedUrl(button.href)
           )
         });
       }
-
-      /*
-       * ======================================================
-       * CASO 2: .ag-play ABRE #ag-modal-frame
-       * ======================================================
-       *
-       * Esta es la ruta que ya habíamos comprobado.
-       */
 
       if (
         channels.length === 0 &&
@@ -591,10 +462,9 @@ async function scrapeFutbolLibre() {
           await page.evaluate(
             ({ id, index }) => {
 
-              const li =
-                document.querySelector(
-                  `#ag-list li[data-id="${CSS.escape(id)}"]`
-                );
+              const li = document.querySelector(
+                `#ag-list li[data-id="${CSS.escape(id)}"]`
+              );
 
               if (!li) return;
 
@@ -603,9 +473,7 @@ async function scrapeFutbolLibre() {
 
               const el = els[index];
 
-              if (el) {
-                el.click();
-              }
+              if (el) el.click();
 
             },
             {
@@ -623,9 +491,7 @@ async function scrapeFutbolLibre() {
             frameUrl = await page.evaluate(() => {
 
               const frame =
-                document.querySelector(
-                  '#ag-modal-frame'
-                );
+                document.querySelector('#ag-modal-frame');
 
               if (!frame) return '';
 
@@ -649,15 +515,12 @@ async function scrapeFutbolLibre() {
                 button.name,
                 channels.length
               ),
-              href: decodeEmbedUrl(
-                frameUrl
+              href: normalizeChannelUrl(
+                decodeEmbedUrl(frameUrl)
               )
             });
           }
 
-          /*
-           * Cerrar modal.
-           */
           await page.keyboard.press('Escape');
 
           await page.evaluate(() => {
@@ -682,21 +545,13 @@ async function scrapeFutbolLibre() {
         }
       }
 
-      /*
-       * ======================================================
-       * ELIMINAR DUPLICADOS
-       * ======================================================
-       */
-
       const seenChannels = new Set();
 
       channels = channels.filter(channel => {
 
         if (!channel.href) return false;
 
-        if (
-          seenChannels.has(channel.href)
-        ) {
+        if (seenChannels.has(channel.href)) {
           return false;
         }
 
@@ -704,12 +559,6 @@ async function scrapeFutbolLibre() {
 
         return true;
       });
-
-      /*
-       * ======================================================
-       * EVENTO FINAL
-       * ======================================================
-       */
 
       events.push({
         time,
@@ -742,9 +591,6 @@ async function scrapeFutbolLibre() {
         );
       }
 
-      /*
-       * Cerrar cualquier modal restante.
-       */
       await page.keyboard.press('Escape');
 
       await sleep(100);
@@ -756,18 +602,9 @@ async function scrapeFutbolLibre() {
 
     await browser.close();
 
-    console.log(
-      '[PUP] Navegador cerrado'
-    );
+    console.log('[PUP] Navegador cerrado');
   }
 }
-
-
-/*
- * ============================================================
- * MAIN
- * ============================================================
- */
 
 async function main() {
 
@@ -780,12 +617,10 @@ async function main() {
 
   try {
 
-    events =
-      await scrapeFutbolLibre();
+    events = await scrapeFutbolLibre();
 
     if (events.length > 0) {
-      source =
-        'futbollibres-puppeteer';
+      source = 'futbollibres-puppeteer';
     }
 
   } catch (e) {
@@ -795,30 +630,20 @@ async function main() {
     );
   }
 
-  /*
-   * Ordenar.
-   */
   events.sort((a, b) => {
 
     const toMinutes = time => {
 
       if (!time) return 9999;
 
-      const [h, m] =
-        time.split(':').map(Number);
+      const [h, m] = time.split(':').map(Number);
 
       return h * 60 + m;
     };
 
-    return (
-      toMinutes(a.time) -
-      toMinutes(b.time)
-    );
+    return toMinutes(a.time) - toMinutes(b.time);
   });
 
-  /*
-   * Eliminar duplicados.
-   */
   const seen = new Set();
 
   events = events.filter(event => {
@@ -826,9 +651,7 @@ async function main() {
     const key =
       `${event.time}|${event.match}`;
 
-    if (seen.has(key)) {
-      return false;
-    }
+    if (seen.has(key)) return false;
 
     seen.add(key);
 
@@ -860,16 +683,13 @@ async function main() {
 
     fuente: source,
 
-    contar:
-      events.length,
+    contar: events.length,
 
-    contar_con_canales:
-      withChannels,
+    contar_con_canales: withChannels,
 
     events,
 
-    eventos:
-      events
+    eventos: events
   };
 
   const outputPath =
@@ -880,18 +700,16 @@ async function main() {
 
   fs.writeFileSync(
     outputPath,
-    JSON.stringify(
-      output,
-      null,
-      2
-    ),
+    JSON.stringify(output, null, 2),
     'utf8'
   );
 
   console.log('');
+
   console.log(
     `LISTO | ${source} | total:${events.length} | canales:${withChannels}`
   );
+
   console.log(
     `Archivo: ${outputPath}`
   );
