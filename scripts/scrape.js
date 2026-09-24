@@ -1,433 +1,1206 @@
 const puppeteer = require('puppeteer');
-const fs        = require('fs');
-const path      = require('path');
+const fs = require('fs');
+const path = require('path');
 
-function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+function sleep(ms) {
+  return new Promise(r => setTimeout(r, ms));
+}
 
-// URL del sitio - cambiar aquí si vuelve a moverse el dominio
-const SITE_URL = process.env.SITE_URL || 'https://futbollibres.info/';
-const DEBUG = !!process.env.DEBUG;
+// ============================================================
+// CONFIGURACIÓN
+// ============================================================
 
-// Convierte "19:00" (hora México, America/Mexico_City) a ISO UTC
+const SITE_URL =
+  process.env.SITE_URL || 'https://futbollibres.info/';
+
+// ============================================================
+// CONVERSIÓN DE HORA
+// ============================================================
+
 function timeMexicoToUTC(timeStr) {
   const [h, m] = timeStr.split(':').map(Number);
+
   const now = new Date();
-  const mexicoNow = new Date(now.toLocaleString('en-US', { timeZone: 'America/Mexico_City' }));
-  const mexicoOffset = Math.round((mexicoNow - now) / 3600000);
-  const utc = new Date(Date.UTC(
-    mexicoNow.getFullYear(),
-    mexicoNow.getMonth(),
-    mexicoNow.getDate(),
-    h - mexicoOffset,
-    m
-  ));
+
+  const mexicoNow = new Date(
+    now.toLocaleString('en-US', {
+      timeZone: 'America/Mexico_City'
+    })
+  );
+
+  const mexicoOffset = Math.round(
+    (mexicoNow - now) / 3600000
+  );
+
+  const utc = new Date(
+    Date.UTC(
+      mexicoNow.getFullYear(),
+      mexicoNow.getMonth(),
+      mexicoNow.getDate(),
+      h - mexicoOffset,
+      m
+    )
+  );
+
   return utc.toISOString();
 }
 
-// Por si algún canal todavía trae un link tipo /embed/xxx?r=BASE64 (sitios espejo viejos)
+// ============================================================
+// DECODIFICAR URL BASE64 SI EXISTE
+// ============================================================
+
 function decodeEmbedUrl(href) {
   try {
     const url = new URL(href);
+
     const r = url.searchParams.get('r');
+
     if (!r) return href;
-    const decoded = Buffer.from(r, 'base64').toString('utf-8');
+
+    const decoded = Buffer
+      .from(r, 'base64')
+      .toString('utf-8');
+
     new URL(decoded);
+
     return decoded;
+
   } catch {
     return href;
   }
 }
 
+// ============================================================
+// SCRAPER PRINCIPAL
+// ============================================================
+
 async function scrapeFutbolLibre() {
+
   console.log(`[PUP] Usando Chromium de Puppeteer`);
   console.log(`[PUP] URL: ${SITE_URL}`);
 
   const browser = await puppeteer.launch({
     headless: 'new',
+
     args: [
-      '--no-sandbox','--disable-setuid-sandbox',
-      '--disable-dev-shm-usage','--disable-gpu',
-      '--no-first-run','--no-zygote','--single-process',
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+      '--no-first-run',
+      '--no-zygote',
+      '--single-process'
     ]
   });
 
   try {
+
     const page = await browser.newPage();
 
-    // OJO: aquí NO bloqueamos 'media' porque algunos reproductores dependen
-    // de peticiones tipo media/xhr para levantar el iframe. Sí bloqueamos
-    // imágenes y fuentes para que cargue rápido.
+    // --------------------------------------------------------
+    // BLOQUEAR RECURSOS PESADOS
+    // --------------------------------------------------------
+
     await page.setRequestInterception(true);
+
     page.on('request', req => {
+
       const type = req.resourceType();
-      if (['image','font'].includes(type)) req.abort();
-      else req.continue();
+
+      if (
+        ['image', 'font', 'media'].includes(type)
+      ) {
+        req.abort();
+      } else {
+        req.continue();
+      }
+
     });
 
+    // --------------------------------------------------------
+    // USER AGENT
+    // --------------------------------------------------------
+
     await page.setUserAgent(
-      'Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36'
+      'Mozilla/5.0 (Linux; Android 13; Pixel 7) ' +
+      'AppleWebKit/537.36 (KHTML, like Gecko) ' +
+      'Chrome/120.0.0.0 Mobile Safari/537.36'
     );
-    await page.setViewport({ width: 390, height: 844 });
+
+    await page.setViewport({
+      width: 390,
+      height: 844
+    });
+
+    // --------------------------------------------------------
+    // ABRIR SITIO
+    // --------------------------------------------------------
 
     console.log('[PUP] Cargando página...');
-    await page.goto(SITE_URL, { waitUntil: 'networkidle2', timeout: 45000 });
 
-    // La agenda se carga por AJAX y muestra "Cargando agenda…" mientras tanto
-    try {
-      await page.waitForFunction(
-        () => !document.body.innerText.includes('Cargando agenda'),
-        { timeout: 20000 }
-      );
-      console.log('[PUP] Placeholder de carga desapareció');
-    } catch {
-      console.warn('[PUP] La agenda no terminó de cargar a tiempo, sigo de todas formas');
-    }
+    await page.goto(
+      SITE_URL,
+      {
+        waitUntil: 'networkidle2',
+        timeout: 45000
+      }
+    );
 
-    // Esperar horas con reintentos + scroll para activar lazy-loading
+    // --------------------------------------------------------
+    // ESPERAR EVENTOS
+    // --------------------------------------------------------
+
     let horasDetectadas = false;
+
     for (let intento = 1; intento <= 3; intento++) {
+
       try {
+
         await page.waitForFunction(
-          () => document.body.innerText.match(/\d{1,2}:\d{2}/),
-          { timeout: 8000 }
-        );
-        horasDetectadas = true;
-        console.log(`[PUP] Horas detectadas (intento ${intento})`);
-        break;
-      } catch {
-        console.warn(`[PUP] Sin horas (intento ${intento}/3), scrolleando...`);
-        await page.evaluate(async () => {
-          for (let y = 0; y < document.body.scrollHeight; y += 300) {
-            window.scrollTo(0, y);
-            await new Promise(r => setTimeout(r, 150));
+          () => /\d{1,2}:\d{2}/.test(
+            document.body.innerText
+          ),
+          {
+            timeout: 8000
           }
+        );
+
+        horasDetectadas = true;
+
+        console.log(
+          `[PUP] Horas detectadas (intento ${intento})`
+        );
+
+        break;
+
+      } catch {
+
+        console.warn(
+          `[PUP] Sin horas (intento ${intento}/3), scrolleando...`
+        );
+
+        await page.evaluate(async () => {
+
+          for (
+            let y = 0;
+            y < document.body.scrollHeight;
+            y += 300
+          ) {
+
+            window.scrollTo(0, y);
+
+            await new Promise(
+              r => setTimeout(r, 150)
+            );
+          }
+
           window.scrollTo(0, 0);
+
         });
+
         await sleep(1500);
       }
     }
 
     if (!horasDetectadas) {
-      const horaMexico = Number(new Date().toLocaleString('en-US', {
-        timeZone: 'America/Mexico_City', hour: '2-digit', hour12: false
-      }));
-      if (horaMexico < 8) {
-        console.log(`[PUP] Son las ${horaMexico}h México — normal que no haya eventos aún.`);
-      } else {
-        console.warn('[PUP] Sin horas en horario activo — posible cambio en la web.');
-      }
 
-      // ── DIAGNÓSTICO: guardar evidencia de qué vio realmente el navegador ──
-      try {
-        await page.screenshot({ path: path.join(process.cwd(), 'debug-screenshot.png'), fullPage: true });
-        const html = await page.content();
-        fs.writeFileSync(path.join(process.cwd(), 'debug-page.html'), html, 'utf-8');
-        console.warn('[PUP] Guardé debug-screenshot.png y debug-page.html');
-
-        const title = await page.title();
-        console.warn(`[PUP] <title>: ${title}`);
-
-        const bodyText = await page.evaluate(() => document.body.innerText.slice(0, 400));
-        console.warn('[PUP] Primeros 400 caracteres del texto visible:');
-        console.warn(bodyText);
-
-        const blockHints = ['cloudflare','just a moment','verificando','checking your browser','captcha','attention required','access denied','are you human','403 forbidden'];
-        const htmlLower = html.toLowerCase();
-        const found = blockHints.filter(h => htmlLower.includes(h));
-        if (found.length) {
-          console.warn(`[PUP] Posibles señales de bloqueo anti-bot: ${found.join(', ')}`);
-        } else {
-          console.warn('[PUP] No hay señales obvias de bloqueo anti-bot en el HTML.');
-        }
-
-        const iframeCount = await page.evaluate(() => document.querySelectorAll('iframe').length);
-        console.warn(`[PUP] iframes en la página: ${iframeCount}`);
-      } catch (e) {
-        console.warn('[PUP] No pude guardar el diagnóstico:', e.message);
-      }
+      console.warn(
+        '[PUP] No se encontraron horarios.'
+      );
 
       return [];
     }
 
     await sleep(1000);
 
-    // Contar nodos de hora (dentro de la sección de agenda, para no contar
-    // horas sueltas que pudieran aparecer en otras partes de la página)
+    // --------------------------------------------------------
+    // CONTAR EVENTOS
+    // --------------------------------------------------------
+
     const eventCount = await page.evaluate(() => {
+
       const timeRx = /^\d{1,2}:\d{2}$/;
-      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
-      let node, count = 0;
+
+      const walker =
+        document.createTreeWalker(
+          document.body,
+          NodeFilter.SHOW_TEXT,
+          null
+        );
+
+      let node;
+      let count = 0;
+
       while ((node = walker.nextNode())) {
-        if (timeRx.test(node.textContent.trim())) count++;
+
+        if (
+          timeRx.test(
+            node.textContent.trim()
+          )
+        ) {
+          count++;
+        }
       }
+
       return count;
     });
 
-    console.log(`[PUP] ${eventCount} eventos detectados`);
+    console.log(
+      `[PUP] ${eventCount} eventos detectados`
+    );
 
     const events = [];
 
-    for (let idx = 0; idx < eventCount; idx++) {
+    // ========================================================
+    // PROCESAR EVENTOS
+    // ========================================================
 
-      // ── PASO A: localizar el evento por su hora, marcarlo y hacer click ──
-      const result = await page.evaluate(async (index) => {
-        const timeRx = /^\d{1,2}:\d{2}$/;
-        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
-        let node, count = 0;
+    for (
+      let idx = 0;
+      idx < eventCount;
+      idx++
+    ) {
 
-        while ((node = walker.nextNode())) {
-          if (!timeRx.test(node.textContent.trim())) continue;
-          if (count === index) break;
-          count++;
-        }
-        if (!node) return null;
+      // ------------------------------------------------------
+      // LOCALIZAR EVENTO
+      // ------------------------------------------------------
 
-        const time = node.textContent.trim();
-        const timeEl = node.parentElement;
-        timeEl.setAttribute('data-time-marker', `evt-${index}`);
+      const result = await page.evaluate(
+        async index => {
 
-        let container = timeEl;
-        for (let i = 0; i < 6; i++) {
-          if (!container) break;
-          const texts = Array.from(container.querySelectorAll('*'))
-            .filter(el => el.children.length === 0
-              && el.textContent.trim().length > 5
-              && !timeRx.test(el.textContent.trim()));
-          if (texts.length > 0) break;
-          container = container.parentElement;
-        }
-        if (!container) return null;
+          const timeRx =
+            /^\d{1,2}:\d{2}$/;
 
-        const allText = Array.from(container.querySelectorAll('*'))
-          .filter(el => el.children.length === 0)
-          .map(el => el.textContent.trim())
-          .filter(t => t.length > 4 && !timeRx.test(t));
+          const walker =
+            document.createTreeWalker(
+              document.body,
+              NodeFilter.SHOW_TEXT,
+              null
+            );
 
-        let matchTitle = allText[0] || '';
-        if (!matchTitle || matchTitle.length < 4) return null;
+          let node;
+          let count = 0;
 
-        let league = '', match = matchTitle;
-        if (matchTitle.includes(':') && matchTitle.split(':')[1].trim().length > 3) {
-          league = matchTitle.split(':')[0].trim();
-          match  = matchTitle.split(':').slice(1).join(':').trim();
-        }
+          while ((node = walker.nextNode())) {
 
-        container.scrollIntoView({ behavior: 'instant', block: 'center' });
-        container.click();
-
-        return { time, match, league, eventIdx: index };
-      }, idx);
-
-      if (!result || !result.match || result.match.length < 4) continue;
-
-      // ── PASO B: esperar los botones de canal (prefijo ▶/►) del evento ──
-      let channelHandles = [];
-      for (let t = 0; t < 15; t++) {
-        await sleep(400);
-
-        channelHandles = await page.evaluate((eventIdx) => {
-          const timeRx  = /^\d{1,2}:\d{2}$/;
-          const arrowRx = /^[▶►•\-\s]+\S/; // debe empezar con flecha y tener texto después
-
-          const isVisible = (el) => {
-            const rect = el.getBoundingClientRect();
-            const style = window.getComputedStyle(el);
-            return rect.width > 0 && rect.height > 0
-              && style.display !== 'none'
-              && style.visibility !== 'hidden'
-              && style.opacity !== '0';
-          };
-
-          const timeEl = document.querySelector(`[data-time-marker="evt-${eventIdx}"]`);
-          if (!timeEl) return [];
-
-          // Subir ancestros hasta encontrar el contenedor que agrupa
-          // exactamente esta hora (evita mezclar con otros eventos)
-          let bestAncestor = null;
-          let ancestor = timeEl.parentElement;
-          for (let level = 0; level < 10 && ancestor; level++) {
-            const allTimes = [];
-            const walker = document.createTreeWalker(ancestor, NodeFilter.SHOW_TEXT, null);
-            let n;
-            while ((n = walker.nextNode())) {
-              if (timeRx.test(n.textContent.trim())) allTimes.push(n.parentElement);
+            if (
+              !timeRx.test(
+                node.textContent.trim()
+              )
+            ) {
+              continue;
             }
-            if (allTimes.length === 1 && allTimes[0] === timeEl) {
-              bestAncestor = ancestor;
+
+            if (count === index) {
+              break;
             }
-            if (allTimes.length > 1) break;
-            ancestor = ancestor.parentElement;
+
+            count++;
           }
-          if (!bestAncestor) bestAncestor = timeEl.parentElement?.parentElement;
-          if (!bestAncestor) return [];
 
-          // Buscar elementos "hoja lógica" cuyo texto empiece con flecha ▶/►
-          const all = Array.from(bestAncestor.querySelectorAll('*'));
-          const matches = all.filter(el => arrowRx.test((el.textContent || '').trim()));
-          // quedarnos solo con los más internos (sin otro match anidado adentro)
-          const innermost = matches.filter(el =>
-            !matches.some(other => other !== el && el.contains(other))
+          if (!node) {
+            return null;
+          }
+
+          const time =
+            node.textContent.trim();
+
+          const timeEl =
+            node.parentElement;
+
+          timeEl.setAttribute(
+            'data-time-marker',
+            `evt-${index}`
           );
 
-          const seenText = new Set();
-          const results = [];
-          innermost.forEach((el, i) => {
-            if (!isVisible(el)) return;
-            const name = el.textContent.replace(/[▶►•\-\s]+/g, ' ').trim();
-            if (!name || name.length < 2) return;
-            if (seenText.has(name)) return;
-            seenText.add(name);
-            el.setAttribute('data-chan-marker', `ch-${eventIdx}-${i}`);
-            results.push({ name, marker: `ch-${eventIdx}-${i}` });
-          });
-          return results;
-        }, result.eventIdx);
+          // Buscar contenedor del evento
+          let container = timeEl;
 
-        if (channelHandles.length > 0) break;
+          for (
+            let i = 0;
+            i < 8;
+            i++
+          ) {
+
+            if (!container) break;
+
+            const texts =
+              Array.from(
+                container.querySelectorAll('*')
+              )
+              .filter(el =>
+                el.children.length === 0 &&
+                el.textContent.trim().length > 5 &&
+                !timeRx.test(
+                  el.textContent.trim()
+                )
+              );
+
+            if (texts.length > 0) {
+              break;
+            }
+
+            container =
+              container.parentElement;
+          }
+
+          if (!container) {
+            return null;
+          }
+
+          const allText =
+            Array.from(
+              container.querySelectorAll('*')
+            )
+            .filter(
+              el => el.children.length === 0
+            )
+            .map(
+              el => el.textContent.trim()
+            )
+            .filter(
+              t =>
+                t.length > 4 &&
+                !timeRx.test(t)
+            );
+
+          let matchTitle =
+            allText[0] || '';
+
+          if (
+            !matchTitle ||
+            matchTitle.length < 4
+          ) {
+            return null;
+          }
+
+          let league = '';
+          let match = matchTitle;
+
+          if (
+            matchTitle.includes(':') &&
+            matchTitle
+              .split(':')[1]
+              .trim()
+              .length > 3
+          ) {
+
+            league =
+              matchTitle
+                .split(':')[0]
+                .trim();
+
+            match =
+              matchTitle
+                .split(':')
+                .slice(1)
+                .join(':')
+                .trim();
+          }
+
+          container.scrollIntoView({
+            behavior: 'instant',
+            block: 'center'
+          });
+
+          container.click();
+
+          return {
+            time,
+            match,
+            league,
+            eventIdx: index
+          };
+
+        },
+        idx
+      );
+
+      if (
+        !result ||
+        !result.match ||
+        result.match.length < 4
+      ) {
+        continue;
       }
 
-      // Limpiar marcador de hora del evento actual
-      await page.evaluate((eventIdx) => {
-        const el = document.querySelector(`[data-time-marker="evt-${eventIdx}"]`);
-        if (el) el.removeAttribute('data-time-marker');
-      }, result.eventIdx);
+      // ======================================================
+      // BUSCAR CANALES
+      // ======================================================
 
-      // ── PASO C: hacer click en cada canal y capturar el src real del iframe ──
-      const channels = [];
-      for (const chan of channelHandles) {
-        const clicked = await page.evaluate((marker) => {
-          const el = document.querySelector(`[data-chan-marker="${marker}"]`);
-          if (!el) return false;
-          el.scrollIntoView({ behavior: 'instant', block: 'center' });
-          el.click();
-          return true;
-        }, chan.marker);
+      let channelNames = [];
 
-        if (!clicked) continue;
+      for (
+        let t = 0;
+        t < 20;
+        t++
+      ) {
 
-        let streamUrl = null;
-        for (let t = 0; t < 15; t++) {
-          await sleep(400);
-          streamUrl = await page.evaluate(() => {
-            const iframes = Array.from(document.querySelectorAll('iframe'));
-            for (const f of iframes) {
-              if (f.src && /^https?:\/\//i.test(f.src) && f.getBoundingClientRect().width > 50) {
-                return f.src;
+        channelNames =
+          await page.evaluate(
+            eventIdx => {
+
+              const timeRx =
+                /^\d{1,2}:\d{2}$/;
+
+              const isVisible = el => {
+
+                if (!el) return false;
+
+                const r =
+                  el.getBoundingClientRect();
+
+                const s =
+                  getComputedStyle(el);
+
+                return (
+                  r.width > 0 &&
+                  r.height > 0 &&
+                  s.display !== 'none' &&
+                  s.visibility !== 'hidden' &&
+                  s.opacity !== '0'
+                );
+              };
+
+              const norm = s =>
+                (s || '')
+                  .replace(
+                    /[▶►•\-\s]+/g,
+                    ' '
+                  )
+                  .trim();
+
+              const timeEl =
+                document.querySelector(
+                  `[data-time-marker="evt-${eventIdx}"]`
+                );
+
+              if (!timeEl) {
+                return [];
+              }
+
+              let ancestor =
+                timeEl.parentElement;
+
+              let best = null;
+
+              for (
+                let level = 0;
+                level < 10 && ancestor;
+                level++,
+                ancestor =
+                  ancestor.parentElement
+              ) {
+
+                const times =
+                  Array.from(
+                    ancestor.querySelectorAll('*')
+                  )
+                  .filter(el =>
+                    timeRx.test(
+                      (
+                        el.textContent || ''
+                      ).trim()
+                    )
+                  );
+
+                if (times.length > 1) {
+                  break;
+                }
+
+                const clickable =
+                  Array.from(
+                    ancestor.querySelectorAll(
+                      'a,button,[role="button"],[onclick],[tabindex]'
+                    )
+                  )
+                  .filter(isVisible);
+
+                if (clickable.length) {
+
+                  best = ancestor;
+
+                  break;
+                }
+              }
+
+              if (!best) {
+                return [];
+              }
+
+              const out = [];
+              const seen = new Set();
+
+              const clickable =
+                Array.from(
+                  best.querySelectorAll(
+                    'a,button,[role="button"],[onclick],[tabindex]'
+                  )
+                );
+
+              for (const el of clickable) {
+
+                if (!isVisible(el)) {
+                  continue;
+                }
+
+                const text =
+                  norm(el.textContent);
+
+                if (
+                  !text ||
+                  text.length < 3 ||
+                  text.length > 100
+                ) {
+                  continue;
+                }
+
+                if (
+                  timeRx.test(text)
+                ) {
+                  continue;
+                }
+
+                const low =
+                  text.toLowerCase();
+
+                if (
+                  /^(cerrar|close|recargar|reload|buscar|filtrar|agenda)$/i
+                    .test(text)
+                ) {
+                  continue;
+                }
+
+                if (
+                  low.includes(
+                    'descargar apk'
+                  )
+                ) {
+                  continue;
+                }
+
+                const key =
+                  text.toLowerCase();
+
+                if (seen.has(key)) {
+                  continue;
+                }
+
+                seen.add(key);
+
+                out.push(text);
+              }
+
+              return out;
+            },
+            result.eventIdx
+          );
+
+        if (channelNames.length) {
+          break;
+        }
+
+        await sleep(400);
+      }
+
+      console.log(
+        `[PUP] ${result.time} | ${result.match} -> controles encontrados: ${channelNames.length}`
+      );
+
+      // ======================================================
+      // FUNCIÓN PARA CERRAR EL REPRODUCTOR
+      // ======================================================
+
+      async function closePlayerModal() {
+
+        await page
+          .keyboard
+          .press('Escape')
+          .catch(() => {});
+
+        await sleep(250);
+
+        await page.evaluate(() => {
+
+          const candidates = [
+
+            '[class*="close"]',
+
+            '[class*="cerrar"]',
+
+            '[aria-label*="Close"]',
+
+            '[aria-label*="close"]',
+
+            '[aria-label*="Cerrar"]',
+
+            '[aria-label*="cerrar"]'
+
+          ];
+
+          for (
+            const selector of candidates
+          ) {
+
+            const elements =
+              document.querySelectorAll(
+                selector
+              );
+
+            for (
+              const el of elements
+            ) {
+
+              const r =
+                el.getBoundingClientRect();
+
+              if (
+                r.width > 0 &&
+                r.height > 0
+              ) {
+
+                el.click();
+
+                return;
               }
             }
-            return null;
-          });
-          if (streamUrl) break;
-        }
-
-        if (streamUrl) {
-          channels.push({ name: chan.name, href: decodeEmbedUrl(streamUrl) });
-        } else if (DEBUG) {
-          console.warn(`[DEBUG] Sin iframe tras click en "${chan.name}"`);
-        }
-
-        // Cerrar el modal del reproductor antes del siguiente canal
-        await page.evaluate(() => {
-          const candidates = Array.from(document.querySelectorAll('button, a, span, div'));
-          for (const el of candidates) {
-            const t = (el.textContent || '').trim();
-            if (/^✕?\s*Cerrar$/i.test(t) && el.getBoundingClientRect().width > 0) {
-              el.click();
-              return true;
-            }
           }
-          const sels = ['[class*="close"]', '[class*="cerrar"]', '[aria-label*="lose"]'];
-          for (const s of sels) {
-            const b = document.querySelector(s);
-            if (b && b.getBoundingClientRect().width > 0) { b.click(); return true; }
-          }
-          return false;
-        });
-        await sleep(300);
+
+        }).catch(() => {});
+
+        await sleep(350);
       }
 
-      // limpiar marcadores de canal de este evento
-      await page.evaluate((eventIdx) => {
-        document.querySelectorAll(`[data-chan-marker^="ch-${eventIdx}-"]`)
-          .forEach(el => el.removeAttribute('data-chan-marker'));
-      }, result.eventIdx);
+      // ======================================================
+      // PROCESAR CADA CANAL
+      // ======================================================
+
+      const rawChannels = [];
+
+      for (
+        let ci = 0;
+        ci < channelNames.length;
+        ci++
+      ) {
+
+        const channelName =
+          channelNames[ci];
+
+        await closePlayerModal();
+
+        // ----------------------------------------------------
+        // IFRAMES ANTES DEL CLICK
+        // ----------------------------------------------------
+
+        const beforeFrames =
+          await page.evaluate(() => {
+
+            return Array.from(
+              document.querySelectorAll(
+                'iframe'
+              )
+            )
+            .map(f => ({
+              src:
+                f.src ||
+                f.getAttribute('src') ||
+                ''
+            }))
+            .filter(
+              f => f.src
+            );
+          });
+
+        const beforeSrcs =
+          new Set(
+            beforeFrames.map(
+              f => f.src
+            )
+          );
+
+        // ----------------------------------------------------
+        // CLICK EN EL CANAL
+        // ----------------------------------------------------
+
+        const clicked =
+          await page.evaluate(
+            ({ eventIdx, channelName }) => {
+
+              const norm = s =>
+                (s || '')
+                  .replace(
+                    /[▶►•\-\s]+/g,
+                    ' '
+                  )
+                  .trim();
+
+              const timeEl =
+                document.querySelector(
+                  `[data-time-marker="evt-${eventIdx}"]`
+                );
+
+              if (!timeEl) {
+                return false;
+              }
+
+              let ancestor =
+                timeEl.parentElement;
+
+              let best = null;
+
+              for (
+                let level = 0;
+                level < 10 &&
+                ancestor;
+                level++,
+                ancestor =
+                  ancestor.parentElement
+              ) {
+
+                const times =
+                  Array.from(
+                    ancestor.querySelectorAll('*')
+                  )
+                  .filter(el =>
+                    /^\d{1,2}:\d{2}$/.test(
+                      (
+                        el.textContent || ''
+                      ).trim()
+                    )
+                  );
+
+                if (times.length > 1) {
+                  break;
+                }
+
+                const controls =
+                  Array.from(
+                    ancestor.querySelectorAll(
+                      'a,button,[role="button"],[onclick],[tabindex]'
+                    )
+                  );
+
+                if (controls.length) {
+
+                  best = ancestor;
+
+                  break;
+                }
+              }
+
+              if (!best) {
+                return false;
+              }
+
+              const target =
+                norm(channelName)
+                  .toLowerCase();
+
+              const controls =
+                Array.from(
+                  best.querySelectorAll(
+                    'a,button,[role="button"],[onclick],[tabindex]'
+                  )
+                );
+
+              // Coincidencia exacta
+              let el =
+                controls.find(
+                  x =>
+                    norm(
+                      x.textContent
+                    ).toLowerCase() ===
+                    target
+                );
+
+              // Coincidencia parcial
+              if (!el) {
+
+                el =
+                  controls.find(x => {
+
+                    const t =
+                      norm(
+                        x.textContent
+                      ).toLowerCase();
+
+                    return (
+                      t.includes(target) ||
+                      target.includes(t)
+                    );
+                  });
+              }
+
+              if (!el) {
+                return false;
+              }
+
+              el.scrollIntoView({
+                behavior: 'instant',
+                block: 'center'
+              });
+
+              el.click();
+
+              return true;
+            },
+            {
+              eventIdx:
+                result.eventIdx,
+              channelName
+            }
+          );
+
+        if (!clicked) {
+
+          console.warn(
+            `[PUP] No se pudo pulsar canal: ${channelName}`
+          );
+
+          continue;
+        }
+
+        // ====================================================
+        // ESPERAR IFRAME
+        // ====================================================
+
+        let iframeInfo = null;
+
+        for (
+          let wait = 0;
+          wait < 25;
+          wait++
+        ) {
+
+          iframeInfo =
+            await page.evaluate(
+              before => {
+
+                const isVisible =
+                  el => {
+
+                    const r =
+                      el.getBoundingClientRect();
+
+                    const s =
+                      getComputedStyle(el);
+
+                    return (
+                      r.width > 0 &&
+                      r.height > 0 &&
+                      s.display !== 'none' &&
+                      s.visibility !== 'hidden'
+                    );
+                  };
+
+                const frames =
+                  Array.from(
+                    document.querySelectorAll(
+                      'iframe'
+                    )
+                  )
+                  .filter(isVisible)
+                  .map(f => ({
+                    src:
+                      f.src ||
+                      f.getAttribute(
+                        'src'
+                      ) ||
+                      '',
+
+                    title:
+                      f.title || ''
+                  }))
+                  .filter(
+                    f =>
+                      f.src &&
+                      f.src !==
+                        'about:blank'
+                  );
+
+                // Buscar iframe nuevo
+                const fresh =
+                  frames.find(
+                    f =>
+                      !before.includes(
+                        f.src
+                      )
+                  );
+
+                return (
+                  fresh ||
+                  frames[
+                    frames.length - 1
+                  ] ||
+                  null
+                );
+              },
+              Array.from(
+                beforeSrcs
+              )
+            );
+
+          if (
+            iframeInfo &&
+            iframeInfo.src
+          ) {
+            break;
+          }
+
+          await sleep(400);
+        }
+
+        // ====================================================
+        // GUARDAR CANAL
+        // ====================================================
+
+        if (
+          iframeInfo &&
+          iframeInfo.src
+        ) {
+
+          rawChannels.push({
+
+            name:
+              channelName,
+
+            href:
+              iframeInfo.src
+
+          });
+
+          console.log(
+            `   CANAL ${ci + 1}: ${channelName} -> ${iframeInfo.src}`
+          );
+
+        } else {
+
+          console.warn(
+            `   CANAL ${ci + 1}: ${channelName} -> no apareció iframe`
+          );
+        }
+
+        await closePlayerModal();
+      }
+
+      // ======================================================
+      // LIMPIAR MARCADOR
+      // ======================================================
+
+      await page.evaluate(
+        eventIdx => {
+
+          const el =
+            document.querySelector(
+              `[data-time-marker="evt-${eventIdx}"]`
+            );
+
+          if (el) {
+            el.removeAttribute(
+              'data-time-marker'
+            );
+          }
+
+        },
+        result.eventIdx
+      );
+
+      // ======================================================
+      // CREAR EVENTO
+      // ======================================================
+
+      const channels =
+        rawChannels.map(ch => ({
+
+          name:
+            ch.name,
+
+          href:
+            decodeEmbedUrl(
+              ch.href
+            )
+
+        }));
 
       events.push({
-        time     : result.time,
-        time_utc : timeMexicoToUTC(result.time),
-        match    : result.match,
-        league   : result.league,
-        flag     : '⚽',
+
+        time:
+          result.time,
+
+        time_utc:
+          timeMexicoToUTC(
+            result.time
+          ),
+
+        match:
+          result.match,
+
+        league:
+          result.league,
+
+        flag:
+          '⚽',
+
         channels
+
       });
 
-      if (channels.length > 0) {
-        console.log(`OK ${result.time} | ${result.match} -> ${channels.length} canales`);
-        channels.forEach(c => console.log(`   ${c.name}: ${c.href}`));
+      if (
+        channels.length > 0
+      ) {
+
+        console.log(
+          `OK ${result.time} | ${result.match} -> ${channels.length} canales`
+        );
+
+        channels.forEach(c =>
+          console.log(
+            `   ${c.name}: ${c.href}`
+          )
+        );
+
       } else {
-        console.log(`-- ${result.time} | ${result.match} -> sin canales`);
+
+        console.log(
+          `-- ${result.time} | ${result.match} -> sin canales`
+        );
       }
 
-      // Cerrar acordeón antes del siguiente evento
-      await page.keyboard.press('Escape');
+      // ------------------------------------------------------
+      // CERRAR EVENTO
+      // ------------------------------------------------------
+
+      await page
+        .keyboard
+        .press('Escape');
+
+      await sleep(200);
+
+      await page.evaluate(() => {
+
+        const selectors = [
+
+          '[class*="close"]',
+
+          '[class*="cerrar"]',
+
+          '[aria-label*="lose"]'
+
+        ];
+
+        for (
+          const selector of selectors
+        ) {
+
+          const buttons =
+            document.querySelectorAll(
+              selector
+            );
+
+          for (
+            const b of buttons
+          ) {
+
+            if (
+              b.getBoundingClientRect()
+                .width > 0
+            ) {
+
+              b.click();
+
+              return;
+            }
+          }
+        }
+
+      });
+
       await sleep(200);
     }
 
-    const withCh = events.filter(e => e.channels.length > 0).length;
-    console.log(`\n[PUP] Total: ${events.length} | Con canales: ${withCh}`);
+    // ========================================================
+    // RESULTADO
+    // ========================================================
+
+    const withCh =
+      events.filter(
+        e =>
+          e.channels.length > 0
+      ).length;
+
+    console.log(
+      `\n[PUP] Total: ${events.length} | Con canales: ${withCh}`
+    );
+
     return events;
 
   } finally {
+
     await browser.close();
+
   }
 }
+
+// ============================================================
+// MAIN
+// ============================================================
 
 async function main() {
-  console.log(`[${new Date().toISOString()}] === SportStream Scraper ===`);
-  let events = [], source = 'none';
 
-  try {
-    events = await scrapeFutbolLibre();
-    if (events.length > 0) source = 'futbollibres-puppeteer';
-  } catch(e) {
-    console.warn(`[PUP] FALLO: ${e.message}`);
-  }
-
-  events.sort((a, b) => {
-    const m = t => { const [h,mm]=(t||'0:0').split(':').map(Number); return h*60+(mm||0); };
-    return m(a.time) - m(b.time);
-  });
-
-  const seen = new Set();
-  events = events.filter(ev => {
-    const key = `${ev.time}|${ev.match}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-
-  const withCh = events.filter(e => (e.channels||[]).length > 0).length;
-
-  const output = {
-    actualizado_en     : new Date().toISOString(),
-    fecha              : new Date().toLocaleDateString('es-ES', {
-                           weekday: 'long', day: 'numeric', month: 'long',
-                           timeZone: 'America/Bogota'
-                         }),
-    fuente             : source,
-    contar             : events.length,
-    contar_con_canales : withCh,
-    events,
-    eventos            : events
-  };
-
-  fs.writeFileSync(
-    path.join(process.cwd(), 'eventos.json'),
-    JSON.stringify(output, null, 2),
-    'utf-8'
+  console.log(
+    `[${new Date().toISOString()}] === SportStream Scraper ===`
   );
 
-  console.log(`LISTO | ${source} | total:${events.length} | canales:${withCh}`);
-}
+  let events = [];
+  let source = 'none';
 
-main().catch(e => { console.error('ERROR FATAL:', e); process.exit(1); });
+  try {
+
+    events =
+      await scrapeFutbolLibre();
+
+    if (
+      events.length > 0
+    ) {
+
+      source =
+        'futbollibres-puppeteer';
+    }
+
+  } catch (e) {
+
+    console.warn(
+      `[PUP] FALLO: ${e.message}`
+    );
+  }
+
+  // ----------------------------------------------------------
+  // ORDENAR POR HORA
+  // ----------------------------------------------------------
+
+  events.sort((a, b) => {
+
+    const m = t => {
+
+      const [
+        h,
+        mm
+      ] =
+        (t || '0:0')
+          .split(':')
+          .map(Number);
+
+      return (
+        h * 60 +
+        (mm || 0)
+      );
+    };
+
+    return (
+      m(a.time) -
+      m(b.time)
+    );
+  });
+
+  // ----------------------------------------------------------
+  //
