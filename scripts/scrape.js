@@ -96,28 +96,20 @@ function timeBogotaToUTC(time) {
 
 
 /*
-  Algunos enlaces pueden venir codificados en:
-  ?r=BASE64
+  Los enlaces de canal vienen como rutas relativas:
+  /reproducir/?url=<stream-codificado>
 
-  Si no existe r, conservamos el enlace original.
+  Los resolvemos contra SITE_URL para obtener la URL
+  absoluta y completa. NO decodificamos el parámetro
+  "url": debe permanecer codificado tal cual, porque así
+  lo espera la página /reproducir/ para funcionar.
 */
 function decodeEmbedUrl(href) {
   if (!href) return null;
 
   try {
     const url = new URL(href, SITE_URL);
-
-    const encoded = url.searchParams.get('r');
-
-    if (encoded) {
-      try {
-        return Buffer.from(encoded, 'base64').toString('utf8');
-      } catch (e) {
-        return href;
-      }
-    }
-
-    return href;
+    return url.href;
   } catch (e) {
     return href;
   }
