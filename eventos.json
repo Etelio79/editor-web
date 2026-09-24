@@ -1,9 +1,351 @@
 {
-  "actualizado_en": "2026-09-24T17:50:11.884Z",
+  "actualizado_en": "2026-09-24T19:28:57.368Z",
   "fecha": "jueves, 24 de septiembre",
-  "fuente": "none",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "fuente": "futbollibres-puppeteer",
+  "contar": 17,
+  "contar_con_canales": 6,
+  "events": [
+    {
+      "time": "01:00 PM",
+      "time_utc": "2026-09-24T19:22:12.160Z",
+      "match": "00 PM Torneo de Reserva: Newell's Old Boys vs Rosario Central",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:00 PM",
+      "time_utc": "2026-09-24T19:22:15.936Z",
+      "match": "00 PM Torneo de Reserva: Instituto vs Estudiantes Rio Cuarto",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:20.495Z",
+      "match": "45 PM UEFA Nations League: Liechtenstein vs Lituania",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:24.302Z",
+      "match": "45 PM UEFA Nations League: Austria vs Israel",
+      "league": "01",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 06",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney6"
+        }
+      ]
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:28.064Z",
+      "match": "45 PM UEFA Nations League: Kosovo vs República de Irlanda",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:28.831Z",
+      "match": "45 PM UEFA Nations League: Países Bajos vs Alemania",
+      "league": "01",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn"
+        },
+        {
+          "name": "Disney 08",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn"
+        }
+      ]
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:32.631Z",
+      "match": "45 PM UEFA Nations League: Noruega vs Dinamarca",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:36.456Z",
+      "match": "45 PM UEFA Nations League: Portugal vs Gales",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:40.240Z",
+      "match": "45 PM UEFA Nations League: Serbia vs Grecia",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "02:00 PM",
+      "time_utc": "2026-09-24T19:22:08.379Z",
+      "match": "00 PM Clasificación para la Copa Africana de Naciones: Camerún vs Comoras",
+      "league": "02",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dbeinsportes"
+        }
+      ]
+    },
+    {
+      "time": "04:00 PM",
+      "time_utc": "2026-09-24T19:22:40.982Z",
+      "match": "00 PM Copa Chile: O'Higgins vs Deportes Santa Cruz",
+      "league": "04",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "05:00 PM",
+      "time_utc": "2026-09-24T19:22:16.684Z",
+      "match": "00 PM Torneo de Reserva: Racing Club vs Independiente",
+      "league": "05",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN2",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2%20"
+        }
+      ]
+    },
+    {
+      "time": "06:30 PM",
+      "time_utc": "2026-09-24T19:22:44.821Z",
+      "match": "30 PM Copa Chile: Everton vs Universidad Chile",
+      "league": "06",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "07:00 PM",
+      "time_utc": "2026-09-24T19:22:45.571Z",
+      "match": "00 PM Liga de Naciones de la CONCACAF: República Dominicana vs Nicaragua",
+      "league": "07",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2 USA",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
+        }
+      ]
+    },
+    {
+      "time": "07:00 PM",
+      "time_utc": "2026-09-24T19:22:53.130Z",
+      "match": "00 PM NFL – Green Bay Packers vs. Atlanta Falcons",
+      "league": "07",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "09:00 PM",
+      "time_utc": "2026-09-24T19:22:49.371Z",
+      "match": "00 PM Liga de Naciones de la CONCACAF: Costa Rica vs Curazao",
+      "league": "09",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "09:00 PM",
+      "time_utc": "2026-09-24T19:22:56.930Z",
+      "match": "00 PM Liga Nacional: Municipal vs Suchitepéquez",
+      "league": "09",
+      "flag": "⚽",
+      "channels": []
+    }
+  ],
+  "eventos": [
+    {
+      "time": "01:00 PM",
+      "time_utc": "2026-09-24T19:22:12.160Z",
+      "match": "00 PM Torneo de Reserva: Newell's Old Boys vs Rosario Central",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:00 PM",
+      "time_utc": "2026-09-24T19:22:15.936Z",
+      "match": "00 PM Torneo de Reserva: Instituto vs Estudiantes Rio Cuarto",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:20.495Z",
+      "match": "45 PM UEFA Nations League: Liechtenstein vs Lituania",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:24.302Z",
+      "match": "45 PM UEFA Nations League: Austria vs Israel",
+      "league": "01",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 06",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney6"
+        }
+      ]
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:28.064Z",
+      "match": "45 PM UEFA Nations League: Kosovo vs República de Irlanda",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:28.831Z",
+      "match": "45 PM UEFA Nations League: Países Bajos vs Alemania",
+      "league": "01",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn"
+        },
+        {
+          "name": "Disney 08",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn"
+        }
+      ]
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:32.631Z",
+      "match": "45 PM UEFA Nations League: Noruega vs Dinamarca",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:36.456Z",
+      "match": "45 PM UEFA Nations League: Portugal vs Gales",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "01:45 PM",
+      "time_utc": "2026-09-24T19:22:40.240Z",
+      "match": "45 PM UEFA Nations League: Serbia vs Grecia",
+      "league": "01",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "02:00 PM",
+      "time_utc": "2026-09-24T19:22:08.379Z",
+      "match": "00 PM Clasificación para la Copa Africana de Naciones: Camerún vs Comoras",
+      "league": "02",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dbeinsportes"
+        }
+      ]
+    },
+    {
+      "time": "04:00 PM",
+      "time_utc": "2026-09-24T19:22:40.982Z",
+      "match": "00 PM Copa Chile: O'Higgins vs Deportes Santa Cruz",
+      "league": "04",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "05:00 PM",
+      "time_utc": "2026-09-24T19:22:16.684Z",
+      "match": "00 PM Torneo de Reserva: Racing Club vs Independiente",
+      "league": "05",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN2",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2%20"
+        }
+      ]
+    },
+    {
+      "time": "06:30 PM",
+      "time_utc": "2026-09-24T19:22:44.821Z",
+      "match": "30 PM Copa Chile: Everton vs Universidad Chile",
+      "league": "06",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "07:00 PM",
+      "time_utc": "2026-09-24T19:22:45.571Z",
+      "match": "00 PM Liga de Naciones de la CONCACAF: República Dominicana vs Nicaragua",
+      "league": "07",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2 USA",
+          "href": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
+        }
+      ]
+    },
+    {
+      "time": "07:00 PM",
+      "time_utc": "2026-09-24T19:22:53.130Z",
+      "match": "00 PM NFL – Green Bay Packers vs. Atlanta Falcons",
+      "league": "07",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "09:00 PM",
+      "time_utc": "2026-09-24T19:22:49.371Z",
+      "match": "00 PM Liga de Naciones de la CONCACAF: Costa Rica vs Curazao",
+      "league": "09",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "09:00 PM",
+      "time_utc": "2026-09-24T19:22:56.930Z",
+      "match": "00 PM Liga Nacional: Municipal vs Suchitepéquez",
+      "league": "09",
+      "flag": "⚽",
+      "channels": []
+    }
+  ]
 }
