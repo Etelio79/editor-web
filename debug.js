@@ -17,99 +17,64 @@ const puppeteer = require('puppeteer');
     timeout: 60000
   });
 
-  await new Promise(r => setTimeout(r, 5000));
+  await new Promise(r => setTimeout(r, 4000));
 
-  console.log('===== BUSCANDO PARTIDOS =====');
-
-  const partidos = await page.$$(
-    '#ag-list > li[data-id]'
+  const ids = await page.$$eval(
+    '#ag-list > li[data-id]',
+    elementos => elementos.map(el => el.getAttribute('data-id'))
   );
 
-  console.log(
-    'Partidos encontrados:',
-    partidos.length
-  );
+  console.log('===== PARTIDOS =====');
+  console.log('Total:', ids.length);
 
   const resultados = [];
 
-  for (let i = 0; i < partidos.length; i++) {
+  for (const id of ids) {
+
+    console.log(`\n===== PARTIDO ${id} =====`);
 
     try {
 
-      const li = partidos[i];
+      const selector = `li[data-id="${id}"] .ag-toggle`;
 
-      const info = await page.evaluate(el => {
+      await page.click(selector);
 
-        const boton = el.querySelector('.ag-toggle');
+      // Esperar a que el sitio abra el evento
+      await new Promise(r => setTimeout(r, 500));
 
-        return {
-          id: el.getAttribute('data-id'),
-          texto: boton ? boton.innerText.trim() : '',
-        };
+      const datos = await page.$eval(
+        `li[data-id="${id}"]`,
+        li => {
 
-      }, li);
+          const boton = li.querySelector('.ag-toggle');
 
-      console.log(
-        `\n[${i + 1}/${partidos.length}]`,
-        info.id,
-        info.texto.replace(/\n/g, ' ')
+          const canales = [
+            ...li.querySelectorAll('.ag-play')
+          ].map(el => ({
+            nombre: el.innerText
+              .replace(/\s+/g, ' ')
+              .trim()
+          }));
+
+          return {
+            id: li.getAttribute('data-id'),
+            evento: boton
+              ? boton.innerText.replace(/\s+/g, ' ').trim()
+              : '',
+            canales
+          };
+
+        }
       );
 
-      await li.$eval(
-        '.ag-toggle',
-        el => el.click()
-      );
+      console.log('Evento:', datos.evento);
+      console.log('Canales encontrados:', datos.canales.length);
 
-      await new Promise(r => setTimeout(r, 300));
-
-      const canales = await li.$$(
-        '.ag-play'
-      );
-
-      console.log(
-        'Canales:',
-        canales.length
-      );
-
-      const listaCanales = [];
-
-      for (let j = 0; j < canales.length; j++) {
-
-        const canal = canales[j];
-
-        const nombre = await page.evaluate(
-          el => el.innerText.trim(),
-          canal
-        );
-
-        await canal.click();
-
-        await new Promise(r => setTimeout(r, 500));
-
-        const src = await page.$eval(
-          '#ag-modal-frame',
-          iframe => iframe.getAttribute('src') || ''
-        ).catch(() => '');
-
-        console.log(
-          '  -',
-          nombre.replace(/\n/g, ' '),
-          '=>',
-          src
-        );
-
-        listaCanales.push({
-          nombre: nombre.replace(/\s+/g, ' '),
-          url: src
-        });
-
+      for (const canal of datos.canales) {
+        console.log('  Canal:', canal.nombre);
       }
 
-      resultados.push({
-        id: info.id,
-        evento: info.texto.replace(/\s+/g, ' '),
-        canales: listaCanales
-      });
+      resultados.push(datos);
 
     } catch (error) {
 
@@ -117,6 +82,11 @@ const puppeteer = require('puppeteer');
         'ERROR:',
         error.message
       );
+
+      resultados.push({
+        id,
+        error: error.message
+      });
 
     }
 
