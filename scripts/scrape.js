@@ -226,7 +226,36 @@ async function scrapeRojaDirecta() {
 
   await new Promise(resolve => setTimeout(resolve, 2500));
 
-  await page.waitForSelector('#ag-list', { timeout: 30000 });
+  try {
+    await page.waitForSelector('#ag-list', { timeout: 30000 });
+  } catch (e) {
+    /*
+      Diagnóstico: si #ag-list nunca aparece, puede ser que el
+      selector esté mal (plantilla distinta) o que el sitio esté
+      bloqueando el IP del runner (Cloudflare / anti-bot). Esto
+      imprime lo necesario para distinguir un caso del otro sin
+      necesitar acceso visual al runner.
+    */
+    console.log('[PUP] #ag-list no apareció. Diagnóstico:');
+    console.log(`[PUP] URL actual: ${page.url()}`);
+
+    try {
+      console.log(`[PUP] Título de la página: ${await page.title()}`);
+    } catch (e2) {
+      console.log('[PUP] No se pudo leer el título');
+    }
+
+    try {
+      const html = await page.content();
+      console.log(`[PUP] Longitud del HTML: ${html.length} caracteres`);
+      console.log('[PUP] Primeros 2000 caracteres del HTML:');
+      console.log(html.slice(0, 2000));
+    } catch (e3) {
+      console.log('[PUP] No se pudo leer el HTML de la página');
+    }
+
+    throw e;
+  }
 
   try {
     await page.waitForFunction(
