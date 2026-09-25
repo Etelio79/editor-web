@@ -10,6 +10,62 @@ const OUTPUT_FILE = 'eventos.json';
    UTILIDADES
 ========================================================= */
 
+/*
+  El sitio fuente muestra los horarios 5 horas por detrás
+  de la hora real (confirmado comparando contra otro sitio
+  espejo). Antes de usar el horario extraído, lo corregimos
+  sumándole este offset.
+
+  Si el sitio cambia de comportamiento en el futuro, ajustar
+  (o poner en 0) esta constante.
+*/
+const SOURCE_TIME_OFFSET_HOURS = 5;
+
+/*
+  Suma horas a un string "HH:MM" y devuelve tanto el nuevo
+  horario como cuántos días se corrió (por si cruza medianoche).
+*/
+function addHoursToTimeString(time, hoursToAdd) {
+  if (!time) return { time: null, dayOffset: 0 };
+
+  const match = time.match(/^(\d{2}):(\d{2})$/);
+
+  if (!match) return { time: null, dayOffset: 0 };
+
+  let hour = Number(match[1]) + hoursToAdd;
+  const minute = Number(match[2]);
+
+  let dayOffset = 0;
+
+  while (hour >= 24) {
+    hour -= 24;
+    dayOffset += 1;
+  }
+
+  while (hour < 0) {
+    hour += 24;
+    dayOffset -= 1;
+  }
+
+  return {
+    time: `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`,
+    dayOffset
+  };
+}
+
+/*
+  Quita asteriscos u otros símbolos sueltos que el sitio deja
+  pegados al final del texto (ej. nombre de equipo terminando
+  en "*").
+*/
+function stripTrailingSymbols(text) {
+  if (!text) return text;
+
+  return String(text)
+    .replace(/[\s*]+$/, '')
+    .trim();
+}
+
 function normalizeTime(text) {
   if (!text) return null;
 
@@ -62,7 +118,7 @@ function normalizeTime(text) {
   Ejemplo:
   19:30 Colombia -> 00:30 UTC del día siguiente
 */
-function timeBogotaToUTC(time) {
+function timeBogotaToUTC(time, extraDayOffset = 0) {
   if (!time) return null;
 
   const match = time.match(/^(\d{2}):(\d{2})$/);
@@ -80,6 +136,8 @@ function timeBogotaToUTC(time) {
     hour -= 24;
     dayOffset = 1;
   }
+
+  dayOffset += extraDayOffset;
 
   const now = new Date();
 
@@ -363,7 +421,14 @@ async function scrapeFutbolLibre() {
         continue;
       }
 
-      const time = normalizeTime(info.timeText);
+      const rawTime = normalizeTime(info.timeText);
+
+      const correctedTime = addHoursToTimeString(
+        rawTime,
+        SOURCE_TIME_OFFSET_HOURS
+      );
+
+      const time = correctedTime.time;
 
       let rawMatch = info.matchText || '';
 
@@ -430,6 +495,9 @@ async function scrapeFutbolLibre() {
           match = foundMatch[1].trim();
         }
       }
+
+      league = stripTrailingSymbols(league);
+      match = stripTrailingSymbols(match);
 
       /*
         -----------------------------------------------------
@@ -725,7 +793,7 @@ async function scrapeFutbolLibre() {
 
       events.push({
         time: time || '',
-        time_utc: timeBogotaToUTC(time),
+        time_utc: timeBogotaToUTC(time, correctedTime.dayOffset),
         match: match || '',
         league: league || '',
         flag: '⚽',
