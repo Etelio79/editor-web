@@ -1,13 +1,94 @@
 {
-  "actualizado_en": "2026-09-25T12:05:09.834Z",
+  "actualizado_en": "2026-09-25T12:27:18.544Z",
   "fecha": "2026-09-25",
   "fuente": "futbollibres-puppeteer",
-  "contar": 19,
-  "contar_con_canales": 19,
+  "contar": 22,
+  "contar_con_canales": 22,
   "events": [
     {
-      "time": "05:00",
-      "time_utc": "2026-09-25T10:00:00.000Z",
+      "time": "01:00",
+      "time_utc": "2026-09-26T06:00:00.000Z",
+      "match": "Atlante vs Monterrey ▾",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
+        },
+        {
+          "name": "ESPN MX",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despnmx"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-09-26T06:00:00.000Z",
+      "match": "Correcaminos UAT vs CDS Tampico Madero ▾",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Ftvf90.com%2F1.php%3Fstream%3Despn2mx"
+        },
+        {
+          "name": "Disney 09",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney9"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-09-26T06:00:00.000Z",
+      "match": "Once Caldas vs Atlético Bucaramanga ▾",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
+        },
+        {
+          "name": "Win Sports + HD",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-09-26T08:00:00.000Z",
+      "match": "Tijuana vs Atlas ▾",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
+        },
+        {
+          "name": "Unimas",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Ftvf90.com%2F1.php%3Fstream%3Dunimas"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-09-26T08:00:00.000Z",
+      "match": "El Salvador vs Martinica ▾",
+      "league": "Liga de Naciones de la CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2 USA",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
+        }
+      ]
+    },
+    {
+      "time": "10:00",
+      "time_utc": "2026-09-25T15:00:00.000Z",
       "match": "Australia vs Brasil ▾",
       "league": "Amistoso",
       "flag": "⚽",
@@ -19,8 +100,29 @@
       ]
     },
     {
-      "time": "08:00",
-      "time_utc": "2026-09-25T13:00:00.000Z",
+      "time": "12:00",
+      "time_utc": "2026-09-25T17:00:00.000Z",
+      "match": "Clasificación: F1 | GP de Azerbaiyán ▾",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 10",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney10"
+        },
+        {
+          "name": "Fox Sports Arg",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports"
+        },
+        {
+          "name": "Disney 11",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney11"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-09-25T18:00:00.000Z",
       "match": "Tanzania vs Guinea-Bissau ▾",
       "league": "Clasificación para la Copa Africana de Naciones",
       "flag": "⚽",
@@ -32,8 +134,8 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-09-25T16:00:00.000Z",
+      "time": "16:00",
+      "time_utc": "2026-09-25T21:00:00.000Z",
       "match": "Gambia vs Somalia ▾",
       "league": "Clasificación para la Copa Africana de Naciones",
       "flag": "⚽",
@@ -45,8 +147,8 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-09-25T16:00:00.000Z",
+      "time": "16:00",
+      "time_utc": "2026-09-25T21:00:00.000Z",
       "match": "Georgia vs Irlanda del Norte ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -62,8 +164,8 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-09-25T16:00:00.000Z",
+      "time": "16:00",
+      "time_utc": "2026-09-25T21:00:00.000Z",
       "match": "Armenia vs Letonia ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -79,8 +181,8 @@
       ]
     },
     {
-      "time": "13:30",
-      "time_utc": "2026-09-25T18:30:00.000Z",
+      "time": "18:30",
+      "time_utc": "2026-09-25T23:30:00.000Z",
       "match": "Girona vs Albacete ▾",
       "league": "LaLiga 2",
       "flag": "⚽",
@@ -92,8 +194,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Hungría vs Ucrania ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -109,8 +211,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Polonia vs Bosnia-Herzegovina ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -122,8 +224,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Suecia vs Rumania ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -139,8 +241,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Italia vs Bélgica ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -160,8 +262,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Turquía vs Francia ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -177,8 +279,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Montenegro vs Chipre ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -190,8 +292,8 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-09-25T23:00:00.000Z",
+      "time": "23:00",
+      "time_utc": "2026-09-26T04:00:00.000Z",
       "match": "Unión Magdalena vs Santa Fe ▾",
       "league": "Copa Colombia",
       "flag": "⚽",
@@ -203,8 +305,8 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-09-25T23:00:00.000Z",
+      "time": "23:00",
+      "time_utc": "2026-09-26T04:00:00.000Z",
       "match": "Colo-Colo vs Audax Italiano ▾",
       "league": "Copa Chile",
       "flag": "⚽",
@@ -216,8 +318,8 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-09-25T23:00:00.000Z",
+      "time": "23:00",
+      "time_utc": "2026-09-26T04:00:00.000Z",
       "match": "MLB – Boston Red Sox vs. Chicago Cubs ▾",
       "league": "",
       "flag": "⚽",
@@ -229,56 +331,9 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-09-25T23:00:00.000Z",
+      "time": "23:00",
+      "time_utc": "2026-09-26T04:00:00.000Z",
       "match": "Boyacá Chicó vs Deportivo Pasto ▾",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
-        },
-        {
-          "name": "Win Sports + HD",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsportsplus"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-09-26T01:00:00.000Z",
-      "match": "Atlante vs Monterrey ▾",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TUDN USA",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-09-26T01:00:00.000Z",
-      "match": "Correcaminos UAT vs CDS Tampico Madero ▾",
-      "league": "Liga de Expansión MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Ftvf90.com%2F1.php%3Fstream%3Despn2mx"
-        },
-        {
-          "name": "Disney 09",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney9"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-09-26T01:00:00.000Z",
-      "match": "Once Caldas vs Atlético Bucaramanga ▾",
       "league": "Primera A",
       "flag": "⚽",
       "channels": [
@@ -295,8 +350,89 @@
   ],
   "eventos": [
     {
-      "time": "05:00",
-      "time_utc": "2026-09-25T10:00:00.000Z",
+      "time": "01:00",
+      "time_utc": "2026-09-26T06:00:00.000Z",
+      "match": "Atlante vs Monterrey ▾",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
+        },
+        {
+          "name": "ESPN MX",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despnmx"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-09-26T06:00:00.000Z",
+      "match": "Correcaminos UAT vs CDS Tampico Madero ▾",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Ftvf90.com%2F1.php%3Fstream%3Despn2mx"
+        },
+        {
+          "name": "Disney 09",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney9"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-09-26T06:00:00.000Z",
+      "match": "Once Caldas vs Atlético Bucaramanga ▾",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
+        },
+        {
+          "name": "Win Sports + HD",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsportsplus"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-09-26T08:00:00.000Z",
+      "match": "Tijuana vs Atlas ▾",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
+        },
+        {
+          "name": "Unimas",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Ftvf90.com%2F1.php%3Fstream%3Dunimas"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-09-26T08:00:00.000Z",
+      "match": "El Salvador vs Martinica ▾",
+      "league": "Liga de Naciones de la CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2 USA",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
+        }
+      ]
+    },
+    {
+      "time": "10:00",
+      "time_utc": "2026-09-25T15:00:00.000Z",
       "match": "Australia vs Brasil ▾",
       "league": "Amistoso",
       "flag": "⚽",
@@ -308,8 +444,29 @@
       ]
     },
     {
-      "time": "08:00",
-      "time_utc": "2026-09-25T13:00:00.000Z",
+      "time": "12:00",
+      "time_utc": "2026-09-25T17:00:00.000Z",
+      "match": "Clasificación: F1 | GP de Azerbaiyán ▾",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 10",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney10"
+        },
+        {
+          "name": "Fox Sports Arg",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports"
+        },
+        {
+          "name": "Disney 11",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney11"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-09-25T18:00:00.000Z",
       "match": "Tanzania vs Guinea-Bissau ▾",
       "league": "Clasificación para la Copa Africana de Naciones",
       "flag": "⚽",
@@ -321,8 +478,8 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-09-25T16:00:00.000Z",
+      "time": "16:00",
+      "time_utc": "2026-09-25T21:00:00.000Z",
       "match": "Gambia vs Somalia ▾",
       "league": "Clasificación para la Copa Africana de Naciones",
       "flag": "⚽",
@@ -334,8 +491,8 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-09-25T16:00:00.000Z",
+      "time": "16:00",
+      "time_utc": "2026-09-25T21:00:00.000Z",
       "match": "Georgia vs Irlanda del Norte ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -351,8 +508,8 @@
       ]
     },
     {
-      "time": "11:00",
-      "time_utc": "2026-09-25T16:00:00.000Z",
+      "time": "16:00",
+      "time_utc": "2026-09-25T21:00:00.000Z",
       "match": "Armenia vs Letonia ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -368,8 +525,8 @@
       ]
     },
     {
-      "time": "13:30",
-      "time_utc": "2026-09-25T18:30:00.000Z",
+      "time": "18:30",
+      "time_utc": "2026-09-25T23:30:00.000Z",
       "match": "Girona vs Albacete ▾",
       "league": "LaLiga 2",
       "flag": "⚽",
@@ -381,8 +538,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Hungría vs Ucrania ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -398,8 +555,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Polonia vs Bosnia-Herzegovina ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -411,8 +568,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Suecia vs Rumania ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -428,8 +585,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Italia vs Bélgica ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -449,8 +606,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Turquía vs Francia ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -466,8 +623,8 @@
       ]
     },
     {
-      "time": "13:45",
-      "time_utc": "2026-09-25T18:45:00.000Z",
+      "time": "18:45",
+      "time_utc": "2026-09-25T23:45:00.000Z",
       "match": "Montenegro vs Chipre ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -479,8 +636,8 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-09-25T23:00:00.000Z",
+      "time": "23:00",
+      "time_utc": "2026-09-26T04:00:00.000Z",
       "match": "Unión Magdalena vs Santa Fe ▾",
       "league": "Copa Colombia",
       "flag": "⚽",
@@ -492,8 +649,8 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-09-25T23:00:00.000Z",
+      "time": "23:00",
+      "time_utc": "2026-09-26T04:00:00.000Z",
       "match": "Colo-Colo vs Audax Italiano ▾",
       "league": "Copa Chile",
       "flag": "⚽",
@@ -505,8 +662,8 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-09-25T23:00:00.000Z",
+      "time": "23:00",
+      "time_utc": "2026-09-26T04:00:00.000Z",
       "match": "MLB – Boston Red Sox vs. Chicago Cubs ▾",
       "league": "",
       "flag": "⚽",
@@ -518,56 +675,9 @@
       ]
     },
     {
-      "time": "18:00",
-      "time_utc": "2026-09-25T23:00:00.000Z",
+      "time": "23:00",
+      "time_utc": "2026-09-26T04:00:00.000Z",
       "match": "Boyacá Chicó vs Deportivo Pasto ▾",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
-        },
-        {
-          "name": "Win Sports + HD",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsportsplus"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-09-26T01:00:00.000Z",
-      "match": "Atlante vs Monterrey ▾",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TUDN USA",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-09-26T01:00:00.000Z",
-      "match": "Correcaminos UAT vs CDS Tampico Madero ▾",
-      "league": "Liga de Expansión MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 2 MX",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Ftvf90.com%2F1.php%3Fstream%3Despn2mx"
-        },
-        {
-          "name": "Disney 09",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney9"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-09-26T01:00:00.000Z",
-      "match": "Once Caldas vs Atlético Bucaramanga ▾",
       "league": "Primera A",
       "flag": "⚽",
       "channels": [
