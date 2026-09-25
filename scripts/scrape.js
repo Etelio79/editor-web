@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 const SITE_URL =
-  process.env.SITE_URL || 'https://futbollibrefullhd.org/agenda';
+  process.env.SITE_URL || 'https://alangulotv.cx/inicio.php';
 
 const OUTPUT_FILE = 'eventos.json';
 
@@ -20,7 +20,7 @@ function normalizeTime(datetimeAttr) {
 }
 
 /*
-  Se asume que futbollibrefullhd.org muestra horarios en hora de
+  Se asume que https://alangulotv.cx/inicio.php muestra horarios en hora de
   Colombia (UTC-5), igual que los sitios anteriores. Si el horario
   mostrado no corresponde, ajusta el offset aquí.
 */
