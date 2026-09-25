@@ -1,240 +1,123 @@
 {
-  "actualizado_en": "2026-09-25T00:43:09.347Z",
+  "actualizado_en": "2026-09-25T00:54:25.783Z",
   "fecha": "2026-09-25",
-  "fuente": "rojadirecta-puppeteer",
-  "contar": 9,
-  "contar_con_canales": 9,
+  "fuente": "futbollibres-puppeteer",
+  "contar": 8,
+  "contar_con_canales": 8,
   "events": [
     {
       "time": "17:00",
       "time_utc": "2026-09-25T22:00:00.000Z",
-      "match": "Racing Club vs Independiente",
+      "match": "Racing Club vs Independiente ▾",
       "league": "Torneo de Reserva",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2",
-          "url": "https://tvf90.com/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "url": "https://tvf90.com/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "url": "https://tvf90.com/3.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | HD",
-          "url": "https://tvf90.com/hd.php?stream=espn2"
+          "name": "ESPN2",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2%20"
         }
       ]
     },
     {
       "time": "18:30",
       "time_utc": "2026-09-25T23:30:00.000Z",
-      "match": "Everton vs Universidad Chile",
+      "match": "Everton vs Universidad Chile ▾",
       "league": "Copa Chile",
       "flag": "⚽",
       "channels": [
         {
           "name": "TNT Sports Premiun CL",
-          "url": "https://tvf90.com/1.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "url": "https://tvf90.com/2.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "url": "https://tvf90.com/hd.php?stream=tntsportschile"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsportschile"
         }
       ]
     },
     {
       "time": "19:00",
       "time_utc": "2026-09-26T00:00:00.000Z",
-      "match": "República Dominicana vs Nicaragua",
+      "match": "República Dominicana vs Nicaragua ▾",
       "league": "Liga de Naciones de la CONCACAF",
       "flag": "⚽",
       "channels": [
         {
           "name": "Fox Sports 2 USA",
-          "url": "https://tvf90.com/1.php?stream=foxsports2_usa"
-        },
-        {
-          "name": "Fox Sports 2 USA | OP2",
-          "url": "https://tvf90.com/2.php?stream=foxsports2_usa"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
         }
       ]
     },
     {
       "time": "19:00",
       "time_utc": "2026-09-26T00:00:00.000Z",
-      "match": "Gualaceo vs Independiente del Valle",
-      "league": "Copa Ecuador",
+      "match": "NFL – Green Bay Packers vs. Atlanta Falcons ▾",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ECDF LigaPro",
-          "url": "https://tvf90.com/1.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "url": "https://tvf90.com/2.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "url": "https://tvf90.com/3.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPRO | HD",
-          "url": "https://tvf90.com/hd.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "url": "https://tvf90.com/1.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP2",
-          "url": "https://tvf90.com/2.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP3",
-          "url": "https://tvf90.com/3.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-09-26T00:00:00.000Z",
-      "match": "Green Bay Packers vs. Atlanta Falcons",
-      "league": "NFL",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "url": "https://tvf90.com/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "url": "https://tvf90.com/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "url": "https://tvf90.com/3.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "url": "https://tvf90.com/hd.php?stream=espn5"
+          "name": "ESPN5",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn5%20"
         }
       ]
     },
     {
       "time": "19:30",
       "time_utc": "2026-09-26T00:30:00.000Z",
-      "match": "Atlético Nacional vs Millonarios",
+      "match": "Atlético Nacional vs Millonarios ▾",
       "league": "Primera A",
       "flag": "⚽",
       "channels": [
         {
           "name": "Win Sports +",
-          "url": "https://tvf90.com/1.php?stream=winsports2"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
         },
         {
-          "name": "Win Sports + | OP2",
-          "url": "https://tvf90.com/2.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "url": "https://tvf90.com/3.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | HD",
-          "url": "https://tvf90.com/hd.php?stream=winsports2"
+          "name": "Win Sports + HD",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsportsplus"
         }
       ]
     },
     {
       "time": "20:00",
       "time_utc": "2026-09-26T01:00:00.000Z",
-      "match": "Alebrijes de Oaxaca vs CA La Paz",
+      "match": "Alebrijes de Oaxaca vs CA La Paz ▾",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
       "channels": [
         {
+          "name": "Disney 12",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Ftvf90.com%2F1.php%3Fstream%3Ddisney12"
+        },
+        {
           "name": "ESPN MX",
-          "url": "https://tvf90.com/1.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "url": "https://tvf90.com/2.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "url": "https://tvf90.com/3.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | HD",
-          "url": "https://tvf90.com/canal.php?stream=espnmx"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despnmx"
         }
       ]
     },
     {
       "time": "21:00",
       "time_utc": "2026-09-26T02:00:00.000Z",
-      "match": "Costa Rica vs Curazao",
+      "match": "Costa Rica vs Curazao ▾",
       "league": "Liga de Naciones de la CONCACAF",
       "flag": "⚽",
       "channels": [
         {
           "name": "Fox Sports 2 USA",
-          "url": "https://tvf90.com/1.php?stream=foxsports2_usa"
-        },
-        {
-          "name": "Fox Sports 2 USA | OP2",
-          "url": "https://tvf90.com/2.php?stream=foxsports2_usa"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
         },
         {
           "name": "TUDN USA",
-          "url": "https://tvf90.com/3.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP2",
-          "url": "https://tvf90.com/1.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP3",
-          "url": "https://tvf90.com/2.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | HD",
-          "url": "https://tvf90.com/hd.php?stream=tudn"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
         }
       ]
     },
     {
       "time": "21:00",
       "time_utc": "2026-09-26T02:00:00.000Z",
-      "match": "Municipal vs Suchitepéquez",
+      "match": "Municipal vs Suchitepéquez ▾",
       "league": "Liga Nacional",
       "flag": "⚽",
       "channels": [
         {
           "name": "FOX Deportes",
-          "url": "https://tvf90.com/1.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP2",
-          "url": "https://tvf90.com/2.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "url": "https://tvf90.com/3.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | HD",
-          "url": "https://tvf90.com/hd.php?stream=foxdeportes"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxdeportes"
         }
       ]
     }
@@ -243,233 +126,116 @@
     {
       "time": "17:00",
       "time_utc": "2026-09-25T22:00:00.000Z",
-      "match": "Racing Club vs Independiente",
+      "match": "Racing Club vs Independiente ▾",
       "league": "Torneo de Reserva",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN 2",
-          "url": "https://tvf90.com/1.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP2",
-          "url": "https://tvf90.com/2.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | OP3",
-          "url": "https://tvf90.com/3.php?stream=espn2"
-        },
-        {
-          "name": "ESPN 2 | HD",
-          "url": "https://tvf90.com/hd.php?stream=espn2"
+          "name": "ESPN2",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2%20"
         }
       ]
     },
     {
       "time": "18:30",
       "time_utc": "2026-09-25T23:30:00.000Z",
-      "match": "Everton vs Universidad Chile",
+      "match": "Everton vs Universidad Chile ▾",
       "league": "Copa Chile",
       "flag": "⚽",
       "channels": [
         {
           "name": "TNT Sports Premiun CL",
-          "url": "https://tvf90.com/1.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL OP2",
-          "url": "https://tvf90.com/2.php?stream=tntsportschile"
-        },
-        {
-          "name": "TNT Sports Premiun CL HD",
-          "url": "https://tvf90.com/hd.php?stream=tntsportschile"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsportschile"
         }
       ]
     },
     {
       "time": "19:00",
       "time_utc": "2026-09-26T00:00:00.000Z",
-      "match": "República Dominicana vs Nicaragua",
+      "match": "República Dominicana vs Nicaragua ▾",
       "league": "Liga de Naciones de la CONCACAF",
       "flag": "⚽",
       "channels": [
         {
           "name": "Fox Sports 2 USA",
-          "url": "https://tvf90.com/1.php?stream=foxsports2_usa"
-        },
-        {
-          "name": "Fox Sports 2 USA | OP2",
-          "url": "https://tvf90.com/2.php?stream=foxsports2_usa"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
         }
       ]
     },
     {
       "time": "19:00",
       "time_utc": "2026-09-26T00:00:00.000Z",
-      "match": "Gualaceo vs Independiente del Valle",
-      "league": "Copa Ecuador",
+      "match": "NFL – Green Bay Packers vs. Atlanta Falcons ▾",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ECDF LigaPro",
-          "url": "https://tvf90.com/1.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP2",
-          "url": "https://tvf90.com/2.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPro | OP3",
-          "url": "https://tvf90.com/3.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECDF LigaPRO | HD",
-          "url": "https://tvf90.com/hd.php?stream=ecdf_ligapro"
-        },
-        {
-          "name": "ECUAVISA",
-          "url": "https://tvf90.com/1.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP2",
-          "url": "https://tvf90.com/2.php?stream=ecdf"
-        },
-        {
-          "name": "ECUAVISA | OP3",
-          "url": "https://tvf90.com/3.php?stream=ecdf"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-09-26T00:00:00.000Z",
-      "match": "Green Bay Packers vs. Atlanta Falcons",
-      "league": "NFL",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN 5",
-          "url": "https://tvf90.com/1.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP2",
-          "url": "https://tvf90.com/2.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | OP3",
-          "url": "https://tvf90.com/3.php?stream=espn5"
-        },
-        {
-          "name": "ESPN 5 | HD",
-          "url": "https://tvf90.com/hd.php?stream=espn5"
+          "name": "ESPN5",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn5%20"
         }
       ]
     },
     {
       "time": "19:30",
       "time_utc": "2026-09-26T00:30:00.000Z",
-      "match": "Atlético Nacional vs Millonarios",
+      "match": "Atlético Nacional vs Millonarios ▾",
       "league": "Primera A",
       "flag": "⚽",
       "channels": [
         {
           "name": "Win Sports +",
-          "url": "https://tvf90.com/1.php?stream=winsports2"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
         },
         {
-          "name": "Win Sports + | OP2",
-          "url": "https://tvf90.com/2.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | OP3",
-          "url": "https://tvf90.com/3.php?stream=winsports2"
-        },
-        {
-          "name": "Win Sports + | HD",
-          "url": "https://tvf90.com/hd.php?stream=winsports2"
+          "name": "Win Sports + HD",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsportsplus"
         }
       ]
     },
     {
       "time": "20:00",
       "time_utc": "2026-09-26T01:00:00.000Z",
-      "match": "Alebrijes de Oaxaca vs CA La Paz",
+      "match": "Alebrijes de Oaxaca vs CA La Paz ▾",
       "league": "Liga de Expansión MX",
       "flag": "⚽",
       "channels": [
         {
+          "name": "Disney 12",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Ftvf90.com%2F1.php%3Fstream%3Ddisney12"
+        },
+        {
           "name": "ESPN MX",
-          "url": "https://tvf90.com/1.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP2",
-          "url": "https://tvf90.com/2.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | OP3",
-          "url": "https://tvf90.com/3.php?stream=espnmx"
-        },
-        {
-          "name": "ESPN MX | HD",
-          "url": "https://tvf90.com/canal.php?stream=espnmx"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despnmx"
         }
       ]
     },
     {
       "time": "21:00",
       "time_utc": "2026-09-26T02:00:00.000Z",
-      "match": "Costa Rica vs Curazao",
+      "match": "Costa Rica vs Curazao ▾",
       "league": "Liga de Naciones de la CONCACAF",
       "flag": "⚽",
       "channels": [
         {
           "name": "Fox Sports 2 USA",
-          "url": "https://tvf90.com/1.php?stream=foxsports2_usa"
-        },
-        {
-          "name": "Fox Sports 2 USA | OP2",
-          "url": "https://tvf90.com/2.php?stream=foxsports2_usa"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
         },
         {
           "name": "TUDN USA",
-          "url": "https://tvf90.com/3.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP2",
-          "url": "https://tvf90.com/1.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | OP3",
-          "url": "https://tvf90.com/2.php?stream=tudn"
-        },
-        {
-          "name": "TUDN USA | HD",
-          "url": "https://tvf90.com/hd.php?stream=tudn"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
         }
       ]
     },
     {
       "time": "21:00",
       "time_utc": "2026-09-26T02:00:00.000Z",
-      "match": "Municipal vs Suchitepéquez",
+      "match": "Municipal vs Suchitepéquez ▾",
       "league": "Liga Nacional",
       "flag": "⚽",
       "channels": [
         {
           "name": "FOX Deportes",
-          "url": "https://tvf90.com/1.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP2",
-          "url": "https://tvf90.com/2.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | OP3",
-          "url": "https://tvf90.com/3.php?stream=foxdeportes"
-        },
-        {
-          "name": "FOX Deportes | HD",
-          "url": "https://tvf90.com/hd.php?stream=foxdeportes"
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxdeportes"
         }
       ]
     }
