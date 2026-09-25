@@ -1,69 +1,1289 @@
 {
-  "actualizado_en": "2026-09-25T08:14:10.494Z",
+  "actualizado_en": "2026-09-25T11:09:00.261Z",
   "fecha": "2026-09-25",
-  "fuente": "futbollibres-puppeteer",
-  "contar": 2,
-  "contar_con_canales": 2,
+  "fuente": "futbollibrefullhd-puppeteer",
+  "contar": 36,
+  "contar_con_canales": 28,
   "events": [
     {
-      "time": "21:00",
-      "time_utc": "2026-09-26T02:00:00.000Z",
-      "match": "Costa Rica vs Curazao ▾",
+      "time": "05:00",
+      "time_utc": "2026-09-25T10:00:00.000Z",
+      "match": "Australia vs Brasil",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "url": "https://tvf90.com/1.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "url": "https://tvf90.com/hd.php?stream=sportv"
+        },
+        {
+          "name": "TYC Sports",
+          "url": "https://tvf90.com/1.php?stream=tycsports"
+        },
+        {
+          "name": "TyC Sports | OP2",
+          "url": "https://tvf90.com/2.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "url": "https://tvf90.com/3.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | HD",
+          "url": "https://tvf90.com/hd.php?stream=tycsports"
+        }
+      ]
+    },
+    {
+      "time": "05:00",
+      "time_utc": "2026-09-25T10:00:00.000Z",
+      "match": "F2 Bakú – Carrera #1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "url": "https://tvf90.com/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "05:30",
+      "time_utc": "2026-09-25T10:30:00.000Z",
+      "match": "WTA: Singapore Tennis Open presented by BNP Paribas Open (Quarterfinals) |",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "url": "https://tvf90.com/plus1.php?stream=disney21\n"
+        }
+      ]
+    },
+    {
+      "time": "06:30",
+      "time_utc": "2026-09-25T11:30:00.000Z",
+      "match": "Tenis – Laver Cup – Día 1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "url": "https://tvf90.com/1.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "08:00",
+      "time_utc": "2026-09-25T13:00:00.000Z",
+      "match": "Tanzania vs Guinea-Bissau",
+      "league": "Clasificación para la Copa Africana de Naciones",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "url": "https://tvf90.com/1.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "09:00",
+      "time_utc": "2026-09-25T14:00:00.000Z",
+      "match": "Academia Costa Del Este vs Potros Del Este",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "url": "https://tvf90.com/1.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP2",
+          "url": "https://tvf90.com/2.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP3",
+          "url": "https://tvf90.com/3.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPRO | HD",
+          "url": "https://tvf90.com/hd.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECUAVISA",
+          "url": "https://tvf90.com/1.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP2",
+          "url": "https://tvf90.com/2.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP3",
+          "url": "https://tvf90.com/3.php?stream=ecdf"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-09-25T16:00:00.000Z",
+      "match": "Georgia vs Irlanda del Norte",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "url": "https://tvf90.com/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-09-25T16:00:00.000Z",
+      "match": "Gambia vs Somalia",
+      "league": "Clasificación para la Copa Africana de Naciones",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "url": "https://tvf90.com/1.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-09-25T16:00:00.000Z",
+      "match": "Armenia vs Letonia",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-09-25T18:00:00.000Z",
+      "match": "Golf – 2026 Presidents Cup – Segunda Vuelta",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "url": "https://tvf90.com/1.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-09-25T18:00:00.000Z",
+      "match": "Tenis – Laver Cup – Día 1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "url": "https://tvf90.com/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-09-25T18:30:00.000Z",
+      "match": "Girona vs Albacete",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "url": "https://tvf90.com/1.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-09-25T18:30:00.000Z",
+      "match": "Premiership – Harlequins vs. Bath Rugby",
+      "league": "Rugby",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "url": "https://tvf90.com/1.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Montenegro vs Chipre",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Italia vs Bélgica",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2 USA",
+          "url": "https://tvf90.com/1.php?stream=foxsports2_usa"
+        }
+      ]
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Polonia vs Bosnia-Herzegovina",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Turquía vs Francia",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Suecia vs Rumania",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Hungría vs Ucrania",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-09-25T19:00:00.000Z",
+      "match": "Egipto vs Angola",
+      "league": "Clasificación para la Copa Africana de Naciones",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "url": "https://tvf90.com/1.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-09-25T19:00:00.000Z",
+      "match": "San Antonio Bulo Bulo vs Real Potosí",
+      "league": "Copa de la División Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "url": "https://tvf90.com/plus1.php?stream=even1\n"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-09-25T19:00:00.000Z",
+      "match": "Dordrecht vs Almere City",
+      "league": "Eerste Divisie",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN NL",
+          "url": "https://tvf90.com/1.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn1_nl"
+        }
+      ]
+    },
+    {
+      "time": "14:30",
+      "time_utc": "2026-09-25T19:30:00.000Z",
+      "match": "Sportivo Luqueño vs Guaraní",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-09-25T21:00:00.000Z",
+      "match": "Chorrillo vs Umecit Reserves",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "url": "https://tvf90.com/1.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP2",
+          "url": "https://tvf90.com/2.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP3",
+          "url": "https://tvf90.com/3.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPRO | HD",
+          "url": "https://tvf90.com/hd.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECUAVISA",
+          "url": "https://tvf90.com/1.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP2",
+          "url": "https://tvf90.com/2.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP3",
+          "url": "https://tvf90.com/3.php?stream=ecdf"
+        }
+      ]
+    },
+    {
+      "time": "16:15",
+      "time_utc": "2026-09-25T21:15:00.000Z",
+      "match": "ABB vs Aurora",
+      "league": "Copa de la División Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "url": "https://tvf90.com/plus1.php?stream=even1\n"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-09-25T22:00:00.000Z",
+      "match": "Nacional Asunción vs Sportivo Ameliano",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-09-25T23:00:00.000Z",
+      "match": "Unión Magdalena vs Santa Fe",
+      "league": "Copa Colombia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports",
+          "url": "https://tvf90.com/3.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-09-25T23:00:00.000Z",
+      "match": "Colo-Colo vs Audax Italiano",
+      "league": "Copa Chile",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "url": "https://tvf90.com/1.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "url": "https://tvf90.com/2.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "url": "https://tvf90.com/hd.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-09-25T23:00:00.000Z",
+      "match": "Boston Red Sox vs. Chicago Cubs",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "url": "https://tvf90.com/1.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "18:10",
+      "time_utc": "2026-09-25T23:10:00.000Z",
+      "match": "Boyacá Chicó vs Deportivo Pasto",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "url": "https://tvf90.com/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "url": "https://tvf90.com/2.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "url": "https://tvf90.com/3.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | HD",
+          "url": "https://tvf90.com/hd.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-09-25T23:30:00.000Z",
+      "match": "Nacional Potosí vs Always Ready",
+      "league": "Copa de la División Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "url": "https://tvf90.com/plus1.php?stream=even1\n"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-09-26T01:00:00.000Z",
+      "match": "Atlante vs Monterrey",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "url": "https://tvf90.com/3.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "url": "https://tvf90.com/1.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "url": "https://tvf90.com/2.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | HD",
+          "url": "https://tvf90.com/hd.php?stream=tudn"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-09-26T01:00:00.000Z",
+      "match": "Correcaminos UAT vs CDS Tampico Madero",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "url": "https://tvf90.com/1.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "20:15",
+      "time_utc": "2026-09-26T01:15:00.000Z",
+      "match": "Once Caldas vs Atlético Bucaramanga",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "url": "https://tvf90.com/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "url": "https://tvf90.com/2.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "url": "https://tvf90.com/3.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | HD",
+          "url": "https://tvf90.com/hd.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-09-26T03:00:00.000Z",
+      "match": "Tijuana vs Atlas",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "url": "https://tvf90.com/3.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "url": "https://tvf90.com/1.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "url": "https://tvf90.com/2.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | HD",
+          "url": "https://tvf90.com/hd.php?stream=tudn"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-09-26T03:00:00.000Z",
+      "match": "El Salvador vs Martinica",
       "league": "Liga de Naciones de la CONCACAF",
       "flag": "⚽",
       "channels": [
         {
           "name": "Fox Sports 2 USA",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
-        },
-        {
-          "name": "TUDN USA",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-09-26T02:00:00.000Z",
-      "match": "Municipal vs Suchitepéquez ▾",
-      "league": "Liga Nacional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "FOX Deportes",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxdeportes"
+          "url": "https://tvf90.com/1.php?stream=foxsports2_usa"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "21:00",
-      "time_utc": "2026-09-26T02:00:00.000Z",
-      "match": "Costa Rica vs Curazao ▾",
+      "time": "05:00",
+      "time_utc": "2026-09-25T10:00:00.000Z",
+      "match": "Australia vs Brasil",
+      "league": "Amistoso",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Sportv BR",
+          "url": "https://tvf90.com/1.php?stream=sportv"
+        },
+        {
+          "name": "Sportv BR HD",
+          "url": "https://tvf90.com/hd.php?stream=sportv"
+        },
+        {
+          "name": "TYC Sports",
+          "url": "https://tvf90.com/1.php?stream=tycsports"
+        },
+        {
+          "name": "TyC Sports | OP2",
+          "url": "https://tvf90.com/2.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | OP3",
+          "url": "https://tvf90.com/3.php?stream=tycsports"
+        },
+        {
+          "name": "TYC Sports | HD",
+          "url": "https://tvf90.com/hd.php?stream=tycsports"
+        }
+      ]
+    },
+    {
+      "time": "05:00",
+      "time_utc": "2026-09-25T10:00:00.000Z",
+      "match": "F2 Bakú – Carrera #1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "url": "https://tvf90.com/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "05:30",
+      "time_utc": "2026-09-25T10:30:00.000Z",
+      "match": "WTA: Singapore Tennis Open presented by BNP Paribas Open (Quarterfinals) |",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney+",
+          "url": "https://tvf90.com/plus1.php?stream=disney21\n"
+        }
+      ]
+    },
+    {
+      "time": "06:30",
+      "time_utc": "2026-09-25T11:30:00.000Z",
+      "match": "Tenis – Laver Cup – Día 1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 5",
+          "url": "https://tvf90.com/1.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn5"
+        },
+        {
+          "name": "ESPN 5 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "08:00",
+      "time_utc": "2026-09-25T13:00:00.000Z",
+      "match": "Tanzania vs Guinea-Bissau",
+      "league": "Clasificación para la Copa Africana de Naciones",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "url": "https://tvf90.com/1.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "09:00",
+      "time_utc": "2026-09-25T14:00:00.000Z",
+      "match": "Academia Costa Del Este vs Potros Del Este",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "url": "https://tvf90.com/1.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP2",
+          "url": "https://tvf90.com/2.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP3",
+          "url": "https://tvf90.com/3.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPRO | HD",
+          "url": "https://tvf90.com/hd.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECUAVISA",
+          "url": "https://tvf90.com/1.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP2",
+          "url": "https://tvf90.com/2.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP3",
+          "url": "https://tvf90.com/3.php?stream=ecdf"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-09-25T16:00:00.000Z",
+      "match": "Georgia vs Irlanda del Norte",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "url": "https://tvf90.com/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-09-25T16:00:00.000Z",
+      "match": "Gambia vs Somalia",
+      "league": "Clasificación para la Copa Africana de Naciones",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "url": "https://tvf90.com/1.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "11:00",
+      "time_utc": "2026-09-25T16:00:00.000Z",
+      "match": "Armenia vs Letonia",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-09-25T18:00:00.000Z",
+      "match": "Golf – 2026 Presidents Cup – Segunda Vuelta",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "url": "https://tvf90.com/1.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "13:00",
+      "time_utc": "2026-09-25T18:00:00.000Z",
+      "match": "Tenis – Laver Cup – Día 1",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "url": "https://tvf90.com/1.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn2"
+        },
+        {
+          "name": "ESPN 2 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-09-25T18:30:00.000Z",
+      "match": "Girona vs Albacete",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga TV Hypermotion",
+          "url": "https://tvf90.com/1.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "13:30",
+      "time_utc": "2026-09-25T18:30:00.000Z",
+      "match": "Premiership – Harlequins vs. Bath Rugby",
+      "league": "Rugby",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 4",
+          "url": "https://tvf90.com/1.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn4"
+        },
+        {
+          "name": "ESPN 4 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Montenegro vs Chipre",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Italia vs Bélgica",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Sports 2 USA",
+          "url": "https://tvf90.com/1.php?stream=foxsports2_usa"
+        }
+      ]
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Polonia vs Bosnia-Herzegovina",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Turquía vs Francia",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Suecia vs Rumania",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "13:45",
+      "time_utc": "2026-09-25T18:45:00.000Z",
+      "match": "Hungría vs Ucrania",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-09-25T19:00:00.000Z",
+      "match": "Egipto vs Angola",
+      "league": "Clasificación para la Copa Africana de Naciones",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "url": "https://tvf90.com/1.php?stream=beinsportes"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-09-25T19:00:00.000Z",
+      "match": "San Antonio Bulo Bulo vs Real Potosí",
+      "league": "Copa de la División Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "url": "https://tvf90.com/plus1.php?stream=even1\n"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "time_utc": "2026-09-25T19:00:00.000Z",
+      "match": "Dordrecht vs Almere City",
+      "league": "Eerste Divisie",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN NL",
+          "url": "https://tvf90.com/1.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn1_nl"
+        },
+        {
+          "name": "ESPN NL | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn1_nl"
+        }
+      ]
+    },
+    {
+      "time": "14:30",
+      "time_utc": "2026-09-25T19:30:00.000Z",
+      "match": "Sportivo Luqueño vs Guaraní",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-09-25T21:00:00.000Z",
+      "match": "Chorrillo vs Umecit Reserves",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ECDF LigaPro",
+          "url": "https://tvf90.com/1.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP2",
+          "url": "https://tvf90.com/2.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPro | OP3",
+          "url": "https://tvf90.com/3.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECDF LigaPRO | HD",
+          "url": "https://tvf90.com/hd.php?stream=ecdf_ligapro"
+        },
+        {
+          "name": "ECUAVISA",
+          "url": "https://tvf90.com/1.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP2",
+          "url": "https://tvf90.com/2.php?stream=ecdf"
+        },
+        {
+          "name": "ECUAVISA | OP3",
+          "url": "https://tvf90.com/3.php?stream=ecdf"
+        }
+      ]
+    },
+    {
+      "time": "16:15",
+      "time_utc": "2026-09-25T21:15:00.000Z",
+      "match": "ABB vs Aurora",
+      "league": "Copa de la División Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "url": "https://tvf90.com/plus1.php?stream=even1\n"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-09-25T22:00:00.000Z",
+      "match": "Nacional Asunción vs Sportivo Ameliano",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": []
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-09-25T23:00:00.000Z",
+      "match": "Unión Magdalena vs Santa Fe",
+      "league": "Copa Colombia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports",
+          "url": "https://tvf90.com/3.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-09-25T23:00:00.000Z",
+      "match": "Colo-Colo vs Audax Italiano",
+      "league": "Copa Chile",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "url": "https://tvf90.com/1.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL OP2",
+          "url": "https://tvf90.com/2.php?stream=tntsportschile"
+        },
+        {
+          "name": "TNT Sports Premiun CL HD",
+          "url": "https://tvf90.com/hd.php?stream=tntsportschile"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-09-25T23:00:00.000Z",
+      "match": "Boston Red Sox vs. Chicago Cubs",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "url": "https://tvf90.com/1.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP2",
+          "url": "https://tvf90.com/2.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | OP3",
+          "url": "https://tvf90.com/3.php?stream=espn3"
+        },
+        {
+          "name": "ESPN 3 | HD",
+          "url": "https://tvf90.com/hd.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "18:10",
+      "time_utc": "2026-09-25T23:10:00.000Z",
+      "match": "Boyacá Chicó vs Deportivo Pasto",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "url": "https://tvf90.com/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "url": "https://tvf90.com/2.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "url": "https://tvf90.com/3.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | HD",
+          "url": "https://tvf90.com/hd.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-09-25T23:30:00.000Z",
+      "match": "Nacional Potosí vs Always Ready",
+      "league": "Copa de la División Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Entel TV PLUS+",
+          "url": "https://tvf90.com/plus1.php?stream=even1\n"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-09-26T01:00:00.000Z",
+      "match": "Atlante vs Monterrey",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "url": "https://tvf90.com/3.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "url": "https://tvf90.com/1.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "url": "https://tvf90.com/2.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | HD",
+          "url": "https://tvf90.com/hd.php?stream=tudn"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-09-26T01:00:00.000Z",
+      "match": "Correcaminos UAT vs CDS Tampico Madero",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2 MX",
+          "url": "https://tvf90.com/1.php?stream=espn2mx"
+        }
+      ]
+    },
+    {
+      "time": "20:15",
+      "time_utc": "2026-09-26T01:15:00.000Z",
+      "match": "Once Caldas vs Atlético Bucaramanga",
+      "league": "Primera A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win Sports +",
+          "url": "https://tvf90.com/1.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP2",
+          "url": "https://tvf90.com/2.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | OP3",
+          "url": "https://tvf90.com/3.php?stream=winsports2"
+        },
+        {
+          "name": "Win Sports + | HD",
+          "url": "https://tvf90.com/hd.php?stream=winsports2"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-09-26T03:00:00.000Z",
+      "match": "Tijuana vs Atlas",
+      "league": "Liga MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TUDN USA",
+          "url": "https://tvf90.com/3.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP2",
+          "url": "https://tvf90.com/1.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | OP3",
+          "url": "https://tvf90.com/2.php?stream=tudn"
+        },
+        {
+          "name": "TUDN USA | HD",
+          "url": "https://tvf90.com/hd.php?stream=tudn"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-09-26T03:00:00.000Z",
+      "match": "El Salvador vs Martinica",
       "league": "Liga de Naciones de la CONCACAF",
       "flag": "⚽",
       "channels": [
         {
           "name": "Fox Sports 2 USA",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
-        },
-        {
-          "name": "TUDN USA",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-09-26T02:00:00.000Z",
-      "match": "Municipal vs Suchitepéquez ▾",
-      "league": "Liga Nacional",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "FOX Deportes",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxdeportes"
+          "url": "https://tvf90.com/1.php?stream=foxsports2_usa"
         }
       ]
     }
