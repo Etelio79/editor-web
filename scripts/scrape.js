@@ -226,53 +226,68 @@ async function scrapeRojaDirecta() {
 
   await new Promise(resolve => setTimeout(resolve, 2500));
 
-  try {
-    await page.waitForSelector('#ag-list', { timeout: 30000 });
-  } catch (e) {
-    /*
-      Diagnóstico: si #ag-list nunca aparece, puede ser que el
-      selector esté mal (plantilla distinta) o que el sitio esté
-      bloqueando el IP del runner (Cloudflare / anti-bot). Esto
-      imprime lo necesario para distinguir un caso del otro sin
-      necesitar acceso visual al runner.
-    */
-    console.log('[PUP] #ag-list no apareció. Diagnóstico:');
-    console.log(`[PUP] URL actual: ${page.url()}`);
-
-    try {
-      console.log(`[PUP] Título de la página: ${await page.title()}`);
-    } catch (e2) {
-      console.log('[PUP] No se pudo leer el título');
-    }
-
-    try {
-      const html = await page.content();
-      console.log(`[PUP] Longitud del HTML: ${html.length} caracteres`);
-      console.log('[PUP] Primeros 2000 caracteres del HTML:');
-      console.log(html.slice(0, 2000));
-    } catch (e3) {
-      console.log('[PUP] No se pudo leer el HTML de la página');
-    }
-
-    throw e;
-  }
+  await page.waitForSelector('#menu', { timeout: 30000 });
 
   try {
     await page.waitForFunction(
-      () => document.querySelectorAll('#ag-list li[data-id]').length > 0,
+      () => document.querySelectorAll('#menu li.toggle-submenu').length > 0,
       { timeout: 10000 }
     );
   } catch (e) {
     console.log('[PUP] No aparecieron eventos dentro del tiempo esperado');
   }
 
-  const eventIds = await page.evaluate(() => {
-    return Array.from(document.querySelectorAll('#ag-list li[data-id]'))
-      .map(li => li.getAttribute('data-id'))
-      .filter(Boolean);
+  const eventCount = await page.evaluate(() => {
+    return document.querySelectorAll('#menu li.toggle-submenu').length;
   });
 
-  console.log(`[PUP] ${eventIds.length} eventos detectados`);
+  console.log(`[PUP] ${eventCount} eventos detectados`);
+
+  /*
+    -----------------------------------------------------------
+    DIAGNÓSTICO TEMPORAL — quitar una vez que sepamos la
+    estructura real de un evento y de sus canales.
+
+    1. Volcamos el HTML completo del primer <li.toggle-submenu>
+       tal cual está antes de tocarlo.
+    2. Le hacemos click (simulando abrir el acordeón).
+    3. Esperamos un poco y volcamos su HTML de nuevo, para ver
+       qué se agregó (canales) y con qué clases/atributos.
+    -----------------------------------------------------------
+  */
+  if (eventCount > 0) {
+    const beforeHtml = await page.evaluate(() => {
+      const li = document.querySelector('#menu li.toggle-submenu');
+      return li ? li.outerHTML : null;
+    });
+
+    console.log('[DEBUG] HTML del primer evento ANTES del click:');
+    console.log(beforeHtml);
+
+    await page.evaluate(() => {
+      const li = document.querySelector('#menu li.toggle-submenu');
+      if (li) li.click();
+    });
+
+    await new Promise(resolve => setTimeout(resolve, 1500));
+
+    const afterHtml = await page.evaluate(() => {
+      const li = document.querySelector('#menu li.toggle-submenu');
+      return li ? li.outerHTML : null;
+    });
+
+    console.log('[DEBUG] HTML del primer evento DESPUÉS del click:');
+    console.log(afterHtml);
+
+    console.log(`[DEBUG] URL tras el click: ${page.url()}`);
+  }
+
+  await browser.close();
+  console.log('[DEBUG] Fin del diagnóstico. Navegador cerrado.');
+  return;
+
+  // eslint-disable-next-line no-unreachable
+  const eventIds = [];
 
   const events = [];
 
