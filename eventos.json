@@ -1,61 +1,10 @@
 {
-  "actualizado_en": "2026-09-26T02:09:55.287Z",
+  "actualizado_en": "2026-09-26T08:02:07.773Z",
   "fecha": "2026-09-26",
   "fuente": "futbollibres-puppeteer",
-  "contar": 9,
-  "contar_con_canales": 9,
+  "contar": 2,
+  "contar_con_canales": 2,
   "events": [
-    {
-      "time": "01:00",
-      "time_utc": "2026-09-27T06:00:00.000Z",
-      "match": "Atlante vs Monterrey ▾",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TUDN USA",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
-        },
-        {
-          "name": "ESPN MX",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despnmx"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-09-27T06:00:00.000Z",
-      "match": "Correcaminos UAT vs CDS Tampico Madero ▾",
-      "league": "Liga de Expansión MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN2 MX",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2mx%20"
-        },
-        {
-          "name": "Disney 09",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney9"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-09-27T06:00:00.000Z",
-      "match": "Once Caldas vs Atlético Bucaramanga ▾",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
-        },
-        {
-          "name": "Win Sports + HD",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsportsplus"
-        }
-      ]
-    },
     {
       "time": "03:00",
       "time_utc": "2026-09-27T08:00:00.000Z",
@@ -81,121 +30,18 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Fox Sports 2 USA",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-09-27T04:00:00.000Z",
-      "match": "Unión Magdalena vs Santa Fe ▾",
-      "league": "Copa Colombia",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsports"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-09-27T04:00:00.000Z",
-      "match": "Colo-Colo vs Audax Italiano ▾",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-09-27T04:00:00.000Z",
-      "match": "MLB – Boston Red Sox vs. Chicago Cubs ▾",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN3",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn3"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-09-27T04:00:00.000Z",
-      "match": "Boyacá Chicó vs Deportivo Pasto ▾",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
+          "name": "Vix plus 03",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dvix3"
         },
         {
-          "name": "Win Sports + HD",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsportsplus"
+          "name": "Fox Sports 2 USA",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "01:00",
-      "time_utc": "2026-09-27T06:00:00.000Z",
-      "match": "Atlante vs Monterrey ▾",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TUDN USA",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtudn%20"
-        },
-        {
-          "name": "ESPN MX",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despnmx"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-09-27T06:00:00.000Z",
-      "match": "Correcaminos UAT vs CDS Tampico Madero ▾",
-      "league": "Liga de Expansión MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN2 MX",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2mx%20"
-        },
-        {
-          "name": "Disney 09",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney9"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-09-27T06:00:00.000Z",
-      "match": "Once Caldas vs Atlético Bucaramanga ▾",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
-        },
-        {
-          "name": "Win Sports + HD",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsportsplus"
-        }
-      ]
-    },
-    {
       "time": "03:00",
       "time_utc": "2026-09-27T08:00:00.000Z",
       "match": "Tijuana vs Atlas ▾",
@@ -220,64 +66,12 @@
       "flag": "⚽",
       "channels": [
         {
-          "name": "Fox Sports 2 USA",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-09-27T04:00:00.000Z",
-      "match": "Unión Magdalena vs Santa Fe ▾",
-      "league": "Copa Colombia",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsports"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-09-27T04:00:00.000Z",
-      "match": "Colo-Colo vs Audax Italiano ▾",
-      "league": "Copa Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsportschile"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-09-27T04:00:00.000Z",
-      "match": "MLB – Boston Red Sox vs. Chicago Cubs ▾",
-      "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN3",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn3"
-        }
-      ]
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-09-27T04:00:00.000Z",
-      "match": "Boyacá Chicó vs Deportivo Pasto ▾",
-      "league": "Primera A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win Sports +",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
+          "name": "Vix plus 03",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dvix3"
         },
         {
-          "name": "Win Sports + HD",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinsportsplus"
+          "name": "Fox Sports 2 USA",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports2_usa"
         }
       ]
     }
