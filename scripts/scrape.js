@@ -11,12 +11,15 @@ const OUTPUT_FILE = 'eventos.json';
 ========================================================= */
 
 /*
-  El sitio fuente YA muestra los horarios en hora real de Colombia
-  (verificado contra la app y contra la hora real de los partidos).
-  No hace falta corregir nada aquí; se deja la constante en 0
-  por si en el futuro el sitio cambia y hay que reintroducir un offset.
+  El sitio fuente muestra los horarios 5 horas por detrás
+  de la hora real (confirmado comparando contra otro sitio
+  espejo). Antes de usar el horario extraído, lo corregimos
+  sumándole este offset.
+
+  Si el sitio cambia de comportamiento en el futuro, ajustar
+  (o poner en 0) esta constante.
 */
-const SOURCE_TIME_OFFSET_HOURS = 0;
+const SOURCE_TIME_OFFSET_HOURS = 5;
 
 /*
   Suma horas a un string "HH:MM" y devuelve tanto el nuevo
