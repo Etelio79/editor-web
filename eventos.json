@@ -1,23 +1,10 @@
 {
-  "actualizado_en": "2026-09-29T13:17:58.558Z",
+  "actualizado_en": "2026-09-29T17:06:03.074Z",
   "fecha": "2026-09-29",
   "fuente": "futbollibres-puppeteer",
-  "contar": 7,
-  "contar_con_canales": 7,
+  "contar": 15,
+  "contar_con_canales": 15,
   "events": [
-    {
-      "time": "13:00",
-      "time_utc": "2026-09-29T18:00:00.000Z",
-      "match": "Sudán del Sur vs Egipto ▾",
-      "league": "Copa Africana de Naciones",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "BeIN Sports Ñ",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dbeinsportes"
-        }
-      ]
-    },
     {
       "time": "16:00",
       "time_utc": "2026-09-29T21:00:00.000Z",
@@ -89,6 +76,19 @@
     {
       "time": "18:45",
       "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "Escocia vs Suiza ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 10",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney10"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
       "match": "Luxemburgo vs Islandia ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -111,6 +111,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "La1TVE",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Ffubolazo.com%2Fdrm%2Fla1tve.php"
+        },
+        {
           "name": "ESPN",
           "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn"
         },
@@ -129,25 +133,128 @@
         {
           "name": "FOX Sports 1 USA",
           "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "Eslovaquia vs Kazajstán ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 05",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney5"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "Eslovenia vs Macedonia del Norte ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 06",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney6"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "San Marino vs Albania ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 07",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney7%0A"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "Bulgaria vs Estonia ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 08",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney8"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "República Checa vs Inglaterra ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN2",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2%20"
+        },
+        {
+          "name": "Disney 09",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney9"
+        },
+        {
+          "name": "ESPN2 Movil",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Ftarjetarojita.xyz%2Frepro%2Fespn2.html"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-30T00:00:00.000Z",
+      "match": "Somalia vs Costa de Marfil ▾",
+      "league": "Copa Africana de Naciones",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dbeinsportes"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-30T00:00:00.000Z",
+      "match": "Islas Vírgenes Británicas vs Islas Turcas y Caicos ▾",
+      "league": "Liga de Naciones de la CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Soccer Plus",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsoccerplus"
+        }
+      ]
+    },
+    {
+      "time": "20:30",
+      "time_utc": "2026-09-30T01:30:00.000Z",
+      "match": "Puerto Montt vs Colo-Colo ▾",
+      "league": "Copa Chile",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsportschile"
+        },
+        {
+          "name": "TNT Sports Premium CL Movil",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Ftarjetarojita.xyz%2Frepro%2Ftntchile.html"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "13:00",
-      "time_utc": "2026-09-29T18:00:00.000Z",
-      "match": "Sudán del Sur vs Egipto ▾",
-      "league": "Copa Africana de Naciones",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "BeIN Sports Ñ",
-          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dbeinsportes"
-        }
-      ]
-    },
-    {
       "time": "16:00",
       "time_utc": "2026-09-29T21:00:00.000Z",
       "match": "Islas de Cabo Verde vs Ruanda ▾",
@@ -218,6 +325,19 @@
     {
       "time": "18:45",
       "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "Escocia vs Suiza ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 10",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney10"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
       "match": "Luxemburgo vs Islandia ▾",
       "league": "UEFA Nations League",
       "flag": "⚽",
@@ -240,6 +360,10 @@
       "flag": "⚽",
       "channels": [
         {
+          "name": "La1TVE",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Ffubolazo.com%2Fdrm%2Fla1tve.php"
+        },
+        {
           "name": "ESPN",
           "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn"
         },
@@ -258,6 +382,122 @@
         {
           "name": "FOX Sports 1 USA",
           "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsports1_usa"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "Eslovaquia vs Kazajstán ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 05",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney5"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "Eslovenia vs Macedonia del Norte ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 06",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney6"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "San Marino vs Albania ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 07",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney7%0A"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "Bulgaria vs Estonia ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 08",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney8"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-09-29T23:45:00.000Z",
+      "match": "República Checa vs Inglaterra ▾",
+      "league": "UEFA Nations League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN2",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2%20"
+        },
+        {
+          "name": "Disney 09",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney9"
+        },
+        {
+          "name": "ESPN2 Movil",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Ftarjetarojita.xyz%2Frepro%2Fespn2.html"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-30T00:00:00.000Z",
+      "match": "Somalia vs Costa de Marfil ▾",
+      "league": "Copa Africana de Naciones",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "BeIN Sports Ñ",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dbeinsportes"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-09-30T00:00:00.000Z",
+      "match": "Islas Vírgenes Británicas vs Islas Turcas y Caicos ▾",
+      "league": "Liga de Naciones de la CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox Soccer Plus",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dfoxsoccerplus"
+        }
+      ]
+    },
+    {
+      "time": "20:30",
+      "time_utc": "2026-09-30T01:30:00.000Z",
+      "match": "Puerto Montt vs Colo-Colo ▾",
+      "league": "Copa Chile",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Premiun CL",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsportschile"
+        },
+        {
+          "name": "TNT Sports Premium CL Movil",
+          "url": "https://futbollibres.info/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Ftarjetarojita.xyz%2Frepro%2Ftntchile.html"
         }
       ]
     }
