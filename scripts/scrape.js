@@ -9,13 +9,13 @@ const OUTPUT_FILE = 'eventos.json';
 ========================================================= */
 
 function normalizeTime(timeText, datetimeAttr) {
-  // El atributo datetime no existe en esta web, usamos data-rj-original-time o el texto visible
-  if (datetimeAttr) {
-    const match = String(datetimeAttr).match(/^(\d{2}):(\d{2})/);
-    if (match) return `${match[1]}:${match[2]}`;
-  }
+  // Priorizamos el texto visible, ya que ahora el navegador estará en hora de Colombia
   if (timeText) {
     const match = String(timeText).trim().match(/^(\d{2}):(\d{2})/);
+    if (match) return `${match[1]}:${match[2]}`;
+  }
+  if (datetimeAttr) {
+    const match = String(datetimeAttr).match(/^(\d{2}):(\d{2})/);
     if (match) return `${match[1]}:${match[2]}`;
   }
   return null;
@@ -26,6 +26,7 @@ function timeBogotaToUTC(time) {
   const match = time.match(/^(\d{2}):(\d{2})$/);
   if (!match) return null;
 
+  // Sumamos 5 horas para convertir de Bogotá (UTC-5) a UTC
   let hour = Number(match[1]) + 5;
   const minute = Number(match[2]);
 
@@ -69,12 +70,10 @@ function cleanChannelName(name, index) {
 
 /* =========================================================
    EXTRACTOR DE IFRAME
-   Abre la página /ver/... y extrae el src del iframe real
 ========================================================= */
 async function getIframeSrc(browser, channelUrl) {
   if (!channelUrl) return null;
   
-  // Si ya es un enlace directo, lo devolvemos
   if (channelUrl.includes('.m3u8') || channelUrl.includes('.mp4') || channelUrl.includes('embed')) {
     return channelUrl;
   }
@@ -89,7 +88,6 @@ async function getIframeSrc(browser, channelUrl) {
 
     await page.goto(channelUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
     
-    // Esperamos a que aparezca el iframe (máx 8 segundos)
     await page.waitForSelector('iframe', { timeout: 8000 });
     
     const src = await page.evaluate(() => {
@@ -129,6 +127,9 @@ async function scrapeTarjetaRoja() {
 
   await page.setUserAgent('Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36');
   await page.setViewport({ width: 390, height: 844, isMobile: true });
+  
+  // ⚡ CLAVE: Forzamos a que el navegador use la zona horaria de Colombia
+  await page.emulateTimezone('America/Bogota');
 
   console.log('[PUP] Cargando página...');
   await page.goto(SITE_URL, { waitUntil: 'networkidle2', timeout: 60000 });
@@ -144,29 +145,23 @@ async function scrapeTarjetaRoja() {
     if (items.length === 0) return [];
 
     return items.map(li => {
-      // Hora: buscamos el span con clase tr-event-time
       const timeEl = li.querySelector('.tr-event-time');
+      // Leemos el texto visible (que ya estará en hora Colombia gracias a emulateTimezone)
       const timeText = timeEl ? timeEl.innerText.trim() : '';
-      // Intentamos obtener el atributo data-rj-original-time que tiene la hora original
       const datetimeAttr = timeEl ? timeEl.getAttribute('data-rj-original-time') : null;
 
-      // Título: span con clase tr-event-title
       const titleEl = li.querySelector('.tr-event-title');
-      // Limpiamos el texto interno para quitar la liga
       let matchText = '';
       if (titleEl) {
-        // Clonamos el nodo para no modificar el original
         const clone = titleEl.cloneNode(true);
         const competitionSpan = clone.querySelector('.tr-event-competition');
         if (competitionSpan) competitionSpan.remove();
         matchText = clone.innerText.trim();
       }
 
-      // Liga: span con clase tr-event-competition
       const leagueEl = li.querySelector('.tr-event-competition');
       const leagueText = leagueEl ? leagueEl.innerText.trim() : '';
 
-      // Canales: ahora buscamos directamente los elementos <a> con clase tr-event-channel
       const channelLinks = Array.from(li.querySelectorAll('a.tr-event-channel'));
       const channels = channelLinks.map(a => ({
         name: (a.innerText || '').trim(),
@@ -177,7 +172,7 @@ async function scrapeTarjetaRoja() {
     }).filter(e => e.matchText);
   });
 
-  console.log(`[PUP] ${rawEvents.length} eventos detectados. Extrayendo URLs finales... (Esto puede tardar)`);
+  console.log(`[PUP] ${rawEvents.length} eventos detectados. Extrayendo URLs finales...`);
 
   const events = [];
 
@@ -207,7 +202,7 @@ async function scrapeTarjetaRoja() {
 
     events.push({
       time: time || '',
-      time_utc: timeBogotaToUTC(time),
+      time_utc: timeBogotaToUTC(time), // Ahora convierte correctamente a UTC
       match: match || '',
       league: league || '',
       flag: '⚽',
