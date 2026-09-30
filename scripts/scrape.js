@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 const SITE_URL =
-  process.env.SITE_URL || 'https://futbollibres.info/';
+  process.env.SITE_URL || 'https://futbollibres.live/';
 
 const OUTPUT_FILE = 'eventos.json';
 
