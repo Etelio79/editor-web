@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 const SITE_URL =
-  process.env.SITE_URL || 'https://tarjetaroja.love/';
+  process.env.SITE_URL || 'https://tarjetaroja.mba/';
 
 const OUTPUT_FILE = 'eventos.json';
 
