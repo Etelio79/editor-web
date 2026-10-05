@@ -1,51 +1,793 @@
 {
-  "actualizado_en": "2026-10-05T11:27:44.190Z",
+  "actualizado_en": "2026-10-05T13:53:42.905Z",
   "fecha": "2026-10-05",
-  "fuente": "futbollibres-puppeteer",
-  "contar": 1,
-  "contar_con_canales": 1,
+  "fuente": "tarjetaroja.love-puppeteer",
+  "contar": 28,
+  "contar_con_canales": 28,
   "events": [
     {
-      "time": "16:00",
-      "time_utc": "2026-10-05T21:00:00.000Z",
-      "match": "Chipre vs Letonia ▾",
-      "league": "Liga de Naciones UEFA",
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "Medellín vs Santa Fe",
+      "league": "Liga Colombia:",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN2",
-          "url": "https://tarjetarojatv.mobi/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2"
+          "name": "Win Sports +",
+          "url": "https://streamtp-golden1.click/global1.php?stream=winplus"
         },
         {
-          "name": "Disney 01",
-          "url": "https://tarjetarojatv.mobi/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney1"
+          "name": "Win Sports XHD",
+          "url": "https://streamxhd.com/live1.php?stream=winplus"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "Guatemala vs Surinam",
+      "league": "Liga de Naciones de la CONCACAF:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Vix 3",
+          "url": "https://streamxhd.com/live1.php?stream=vix3"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "New York Yankees vs Tampa Bay Rays",
+      "league": "MLB:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "Memphis Grizzlies vs Atlanta Hawks",
+      "league": "NBA Pretemporada:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "NBA League Pass",
+          "url": "https://streamxhd.com/live1.php?stream=nba1"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "Phoenix Suns vs Detroit Pistons",
+      "league": "NBA Pretemporada:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "NBA League Pass 2",
+          "url": "https://streamxhd.com/live1.php?stream=nba2"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "New York Knicks vs Philadelphia 76ers",
+      "league": "NBA Pretemporada:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "NBA League Pass 3",
+          "url": "https://streamxhd.com/live1.php?stream=nba3"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "New Orleans Saints vs Atlanta Falcons",
+      "league": "NFL:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-10-05T05:15:00.000Z",
+      "match": "Banfield vs Rosario Central",
+      "league": "Liga Profesional:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium Argentina",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espnpremium"
         },
         {
-          "name": "ESPN2 Movil Español",
-          "url": "https://tarjetarojatv.mobi/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn2tv.html"
+          "name": "ESPN Premium Argentina 2",
+          "url": "https://streamxhd.com/live1.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-10-05T06:00:00.000Z",
+      "match": "Minnesota Timberwolves vs Milwaukee Bucks",
+      "league": "NBA Pretemporada:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "NBA League Pass 4",
+          "url": "https://streamxhd.com/live1.php?stream=nba4"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-10-05T07:00:00.000Z",
+      "match": "Honduras vs Jamaica",
+      "league": "Liga de Naciones de la CONCACAF:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Vix 4",
+          "url": "https://streamxhd.com/live1.php?stream=vix4"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-10-05T08:00:00.000Z",
+      "match": "Los Angeles Lakers vs Sacramento Kings",
+      "league": "NBA Pretemporada:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "NBA League Pass 5",
+          "url": "https://streamxhd.com/live1.php?stream=nba5"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-10-05T21:00:00.000Z",
+      "match": "Chipre vs Letonia",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 1",
+          "url": "https://streamxhd.com/live2.php?stream=disney1"
+        },
+        {
+          "name": "ESPN 2",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-10-05T23:30:00.000Z",
+      "match": "Córdoba vs Tenerife",
+      "league": "LaLiga SmartBank:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga Hypermotion",
+          "url": "https://streamtp-golden1.click/global1.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Montenegro vs Armenia",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 2",
+          "url": "https://streamxhd.com/live2.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Italia vs Turquía",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 3",
+          "url": "https://streamxhd.com/live2.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Francia vs Bélgica",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 4",
+          "url": "https://streamxhd.com/live2.php?stream=disney4"
+        },
+        {
+          "name": "ESPN 1",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Ucrania vs Hungría",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 5",
+          "url": "https://streamxhd.com/live2.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Rumania vs Suecia",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 6",
+          "url": "https://streamxhd.com/live2.php?stream=disney6"
+        },
+        {
+          "name": "ESPN 2",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Irlanda del Norte vs Georgia",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 7",
+          "url": "https://streamxhd.com/live2.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Bosnia-Herzegovina vs Polonia",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 8",
+          "url": "https://streamxhd.com/live2.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-10-06T00:45:00.000Z",
+      "match": "Deportivo Riestra vs Central Córdoba SdE",
+      "league": "Liga Profesional:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Argentina",
+          "url": "https://streamtp-golden1.click/global1.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-10-06T01:00:00.000Z",
+      "match": "Sportivo Trinidense vs Sportivo Luqueño",
+      "league": "Liga Paraguay:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Tigo Sports",
+          "url": "https://streamxhd.com/live1.php?stream=tigo1"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-10-06T02:00:00.000Z",
+      "match": "Cuba vs San Cristóbal y Nieves",
+      "league": "Liga de Naciones de la CONCACAF:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Vix 1",
+          "url": "https://streamxhd.com/live1.php?stream=vix1"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-10-06T02:00:00.000Z",
+      "match": "Chicago White Sox vs Cleveland Guardians",
+      "league": "MLB:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-10-06T03:00:00.000Z",
+      "match": "Vélez Sarsfield vs Platense",
+      "league": "Liga Profesional:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Argentina",
+          "url": "https://streamtp-golden1.click/global1.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-10-06T03:00:00.000Z",
+      "match": "Estudiantes vs Gimnasia Mendoza",
+      "league": "Liga Profesional:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium Argentina",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espnpremium"
+        },
+        {
+          "name": "Disney 9",
+          "url": "https://streamxhd.com/live2.php?stream=disney9"
+        },
+        {
+          "name": "ESPN Premium Argentina 2",
+          "url": "https://streamxhd.com/live1.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-10-06T03:00:00.000Z",
+      "match": "Martinica vs El Salvador",
+      "league": "Liga de Naciones de la CONCACAF:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Vix 2",
+          "url": "https://streamxhd.com/live1.php?stream=vix2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-06T04:00:00.000Z",
+      "match": "Nacional vs Torque",
+      "league": "Primera División:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 10",
+          "url": "https://streamxhd.com/live2.php?stream=disney10"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "16:00",
-      "time_utc": "2026-10-05T21:00:00.000Z",
-      "match": "Chipre vs Letonia ▾",
-      "league": "Liga de Naciones UEFA",
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "Medellín vs Santa Fe",
+      "league": "Liga Colombia:",
       "flag": "⚽",
       "channels": [
         {
-          "name": "ESPN2",
-          "url": "https://tarjetarojatv.mobi/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2"
+          "name": "Win Sports +",
+          "url": "https://streamtp-golden1.click/global1.php?stream=winplus"
         },
         {
-          "name": "Disney 01",
-          "url": "https://tarjetarojatv.mobi/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney1"
+          "name": "Win Sports XHD",
+          "url": "https://streamxhd.com/live1.php?stream=winplus"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "Guatemala vs Surinam",
+      "league": "Liga de Naciones de la CONCACAF:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Vix 3",
+          "url": "https://streamxhd.com/live1.php?stream=vix3"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "New York Yankees vs Tampa Bay Rays",
+      "league": "MLB:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "Memphis Grizzlies vs Atlanta Hawks",
+      "league": "NBA Pretemporada:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "NBA League Pass",
+          "url": "https://streamxhd.com/live1.php?stream=nba1"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "Phoenix Suns vs Detroit Pistons",
+      "league": "NBA Pretemporada:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "NBA League Pass 2",
+          "url": "https://streamxhd.com/live1.php?stream=nba2"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "New York Knicks vs Philadelphia 76ers",
+      "league": "NBA Pretemporada:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "NBA League Pass 3",
+          "url": "https://streamxhd.com/live1.php?stream=nba3"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-05T05:00:00.000Z",
+      "match": "New Orleans Saints vs Atlanta Falcons",
+      "league": "NFL:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 2",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-10-05T05:15:00.000Z",
+      "match": "Banfield vs Rosario Central",
+      "league": "Liga Profesional:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium Argentina",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espnpremium"
         },
         {
-          "name": "ESPN2 Movil Español",
-          "url": "https://tarjetarojatv.mobi/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn2tv.html"
+          "name": "ESPN Premium Argentina 2",
+          "url": "https://streamxhd.com/live1.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "01:00",
+      "time_utc": "2026-10-05T06:00:00.000Z",
+      "match": "Minnesota Timberwolves vs Milwaukee Bucks",
+      "league": "NBA Pretemporada:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "NBA League Pass 4",
+          "url": "https://streamxhd.com/live1.php?stream=nba4"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-10-05T07:00:00.000Z",
+      "match": "Honduras vs Jamaica",
+      "league": "Liga de Naciones de la CONCACAF:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Vix 4",
+          "url": "https://streamxhd.com/live1.php?stream=vix4"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-10-05T08:00:00.000Z",
+      "match": "Los Angeles Lakers vs Sacramento Kings",
+      "league": "NBA Pretemporada:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "NBA League Pass 5",
+          "url": "https://streamxhd.com/live1.php?stream=nba5"
+        }
+      ]
+    },
+    {
+      "time": "16:00",
+      "time_utc": "2026-10-05T21:00:00.000Z",
+      "match": "Chipre vs Letonia",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 1",
+          "url": "https://streamxhd.com/live2.php?stream=disney1"
+        },
+        {
+          "name": "ESPN 2",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-10-05T23:30:00.000Z",
+      "match": "Córdoba vs Tenerife",
+      "league": "LaLiga SmartBank:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "LaLiga Hypermotion",
+          "url": "https://streamtp-golden1.click/global1.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Montenegro vs Armenia",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 2",
+          "url": "https://streamxhd.com/live2.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Italia vs Turquía",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 3",
+          "url": "https://streamxhd.com/live2.php?stream=disney3"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Francia vs Bélgica",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 4",
+          "url": "https://streamxhd.com/live2.php?stream=disney4"
+        },
+        {
+          "name": "ESPN 1",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Ucrania vs Hungría",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 5",
+          "url": "https://streamxhd.com/live2.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Rumania vs Suecia",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 6",
+          "url": "https://streamxhd.com/live2.php?stream=disney6"
+        },
+        {
+          "name": "ESPN 2",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Irlanda del Norte vs Georgia",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 7",
+          "url": "https://streamxhd.com/live2.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-05T23:45:00.000Z",
+      "match": "Bosnia-Herzegovina vs Polonia",
+      "league": "Liga de Naciones de la UEFA:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 8",
+          "url": "https://streamxhd.com/live2.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-10-06T00:45:00.000Z",
+      "match": "Deportivo Riestra vs Central Córdoba SdE",
+      "league": "Liga Profesional:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Argentina",
+          "url": "https://streamtp-golden1.click/global1.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-10-06T01:00:00.000Z",
+      "match": "Sportivo Trinidense vs Sportivo Luqueño",
+      "league": "Liga Paraguay:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Tigo Sports",
+          "url": "https://streamxhd.com/live1.php?stream=tigo1"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-10-06T02:00:00.000Z",
+      "match": "Cuba vs San Cristóbal y Nieves",
+      "league": "Liga de Naciones de la CONCACAF:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Vix 1",
+          "url": "https://streamxhd.com/live1.php?stream=vix1"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-10-06T02:00:00.000Z",
+      "match": "Chicago White Sox vs Cleveland Guardians",
+      "league": "MLB:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN 3",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-10-06T03:00:00.000Z",
+      "match": "Vélez Sarsfield vs Platense",
+      "league": "Liga Profesional:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports Argentina",
+          "url": "https://streamtp-golden1.click/global1.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-10-06T03:00:00.000Z",
+      "match": "Estudiantes vs Gimnasia Mendoza",
+      "league": "Liga Profesional:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN Premium Argentina",
+          "url": "https://streamtp-golden1.click/global1.php?stream=espnpremium"
+        },
+        {
+          "name": "Disney 9",
+          "url": "https://streamxhd.com/live2.php?stream=disney9"
+        },
+        {
+          "name": "ESPN Premium Argentina 2",
+          "url": "https://streamxhd.com/live1.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-10-06T03:00:00.000Z",
+      "match": "Martinica vs El Salvador",
+      "league": "Liga de Naciones de la CONCACAF:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Vix 2",
+          "url": "https://streamxhd.com/live1.php?stream=vix2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-06T04:00:00.000Z",
+      "match": "Nacional vs Torque",
+      "league": "Primera División:",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 10",
+          "url": "https://streamxhd.com/live2.php?stream=disney10"
         }
       ]
     }
