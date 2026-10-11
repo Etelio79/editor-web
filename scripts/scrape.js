@@ -25,7 +25,7 @@ function timeOriginalToUTC(time) {
 
   let hour = Number(match[1]);
   const minute = Number(match[2]);
-  hour += 5; // UTC-5 -> UTC
+  hour += 3; // UTC-3 -> UTC
 
   let dayOffset = 0;
   if (hour >= 24) {
