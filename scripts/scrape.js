@@ -15,17 +15,17 @@ function normalizeTime(timeText) {
 }
 
 /*
-  La página muestra la hora original en UTC-6 (Hora del Centro de México).
-  Sumamos 6 horas para obtener UTC.
+  La página guarda la hora original en UTC-5 (hora de Colombia/Perú/Ecuador).
+  Sumamos 5 horas para obtener UTC.
 */
-function timeMexicoToUTC(time) {
+function timeOriginalToUTC(time) {
   if (!time) return null;
   const match = time.match(/^(\d{2}):(\d{2})$/);
   if (!match) return null;
 
   let hour = Number(match[1]);
   const minute = Number(match[2]);
-  hour += 6; // UTC-6 -> UTC
+  hour += 5; // UTC-5 -> UTC
 
   let dayOffset = 0;
   if (hour >= 24) {
@@ -42,7 +42,6 @@ function timeMexicoToUTC(time) {
 }
 
 function splitLeagueMatch(rawTitle, rawLeague) {
-  // La liga ya viene separada en el primer <td>, pero por si acaso
   if (rawLeague && rawLeague.trim() !== '') {
     return { league: rawLeague.trim(), match: rawTitle.trim() };
   }
@@ -65,7 +64,6 @@ function splitLeagueMatch(rawTitle, rawLeague) {
 
 function cleanChannelName(url, index) {
   if (!url) return `Canal ${index + 1}`;
-  // Extraemos el último segmento: /stream/espn3 -> espn3
   const parts = url.split('/').filter(Boolean);
   const last = parts[parts.length - 1];
   return last || `Canal ${index + 1}`;
@@ -73,7 +71,6 @@ function cleanChannelName(url, index) {
 
 /* =========================================================
    EXTRACTOR DE IFRAME
-   Abre la página /stream/... y extrae el src del iframe real
 ========================================================= */
 async function getIframeSrc(browser, channelUrl) {
   if (!channelUrl) return null;
@@ -87,8 +84,6 @@ async function getIframeSrc(browser, channelUrl) {
     });
 
     await page.goto(channelUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
-
-    // Esperar el iframe del reproductor
     await page.waitForSelector('iframe', { timeout: 8000 });
 
     const src = await page.evaluate(() => {
@@ -107,7 +102,7 @@ async function getIframeSrc(browser, channelUrl) {
 
 /* =========================================================
    SCRAPER
-   ========================================================= */
+========================================================= */
 
 async function scrapeRojaDirecta() {
   console.log('========================================');
@@ -125,6 +120,9 @@ async function scrapeRojaDirecta() {
   });
 
   const page = await browser.newPage();
+
+  // Forzamos zona horaria UTC para que el navegador no altere nada
+  await page.emulateTimezone('UTC');
 
   await page.setRequestInterception(true);
   page.on('request', request => {
@@ -165,7 +163,6 @@ async function scrapeRojaDirecta() {
       const tds = tr.querySelectorAll('td');
       if (tds.length < 3) return null;
 
-      // Primer td: "Liga:<a href="..."><b>Equipos</b></a>"
       const firstTd = tds[0];
       const link = firstTd.querySelector('a');
       if (!link) return null;
@@ -173,9 +170,7 @@ async function scrapeRojaDirecta() {
       const href = link.getAttribute('href');
       if (!href) return null;
 
-      // Texto completo del primer td: "Liga:Equipos"
       const fullText = firstTd.textContent.trim();
-      // Separamos por el primer ":"
       const colonIdx = fullText.indexOf(':');
       let leagueText = '';
       let matchText = '';
@@ -186,7 +181,6 @@ async function scrapeRojaDirecta() {
         matchText = fullText;
       }
 
-      // Tercer td: hora
       const timeSpan = tds[2].querySelector('span.t');
       const timeText = timeSpan ? timeSpan.getAttribute('data-rj-original-time') || timeSpan.textContent.trim() : '';
 
@@ -214,11 +208,10 @@ async function scrapeRojaDirecta() {
         league,
         match,
         time: normalizeTime(raw.timeText),
-        channels: [] // { href }
+        channels: []
       });
     }
 
-    // Añadimos el canal (puede haber duplicados de URL, los filtramos después)
     grouped.get(key).channels.push({ href: raw.href });
   }
 
@@ -234,7 +227,6 @@ async function scrapeRojaDirecta() {
       const ch = group.channels[i];
       const absoluteUrl = new URL(ch.href, SITE_URL).href;
 
-      // Evitamos duplicados de URL
       if (seenUrls.has(absoluteUrl)) continue;
       seenUrls.add(absoluteUrl);
 
@@ -247,11 +239,26 @@ async function scrapeRojaDirecta() {
       });
     }
 
-    console.log(`-- ${group.time || '--:--'} | ${group.league ? group.league + ': ' : ''}${group.match} -> ${channels.length} canales`);
+    // ─── CAMBIO CLAVE ──────────────────────────────────────
+    // Calculamos el ISO en UTC y extraemos HH:MM para el campo "time".
+    // Así la app (que interpreta "time" como UTC) mostrará la hora
+    // local correcta de cada usuario, sin tocar la app.
+    const isoUTC = timeOriginalToUTC(group.time);
+
+    let timeUTC_HHMM = '';
+    if (isoUTC) {
+      const d = new Date(isoUTC);
+      timeUTC_HHMM =
+        d.getUTCHours().toString().padStart(2, '0') + ':' +
+        d.getUTCMinutes().toString().padStart(2, '0');
+    }
+    // ───────────────────────────────────────────────────────
+
+    console.log(`-- ${timeUTC_HHMM || '--:--'} UTC | ${group.league ? group.league + ': ' : ''}${group.match} -> ${channels.length} canales`);
 
     events.push({
-      time: group.time || '',
-      time_utc: timeMexicoToUTC(group.time),
+      time: timeUTC_HHMM,        // ← HH:MM en UTC (antes venía en hora del sitio)
+      time_utc: isoUTC,          // ← ISO completo en UTC (igual que antes)
       match: group.match,
       league: group.league,
       flag: '⚽',
