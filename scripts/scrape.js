@@ -1,33 +1,24 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-const SITE_URL =
-  process.env.SITE_URL || 'https://futbollibremx.mx/';
-
+const SITE_URL = 'https://futbollibremx.mx/';
 const OUTPUT_FILE = 'eventos.json';
 
 /* =========================================================
    UTILIDADES
 ========================================================= */
 
-function normalizeTime(timeText, datetimeAttr) {
-  // Usamos el atributo datetime si existe (es más limpio), si no, el texto visible
-  if (datetimeAttr) {
-    const match = String(datetimeAttr).match(/^(\d{2}):(\d{2})/);
-    if (match) return `${match[1]}:${match[2]}`;
-  }
-  if (timeText) {
-    const match = String(timeText).trim().match(/^(\d{2}):(\d{2})/);
-    if (match) return `${match[1]}:${match[2]}`;
-  }
-  return null;
+function normalizeTime(timeText) {
+  if (!timeText) return null;
+  const match = String(timeText).trim().match(/^(\d{2}):(\d{2})/);
+  return match ? `${match[1]}:${match[2]}` : null;
 }
 
 /*
-  Se asume que la hora extraída ya está en hora de Colombia (UTC-5).
-  Sumamos 5 horas para obtener UTC.
+  El sitio muestra la hora en UTC-6 (Hora del Centro de México).
+  Sumamos 6 horas para obtener UTC.
 */
-function timeBogotaToUTC(time) {
+function timeMexicoToUTC(time) {
   if (!time) return null;
 
   const match = time.match(/^(\d{2}):(\d{2})$/);
@@ -36,7 +27,7 @@ function timeBogotaToUTC(time) {
   let hour = Number(match[1]);
   const minute = Number(match[2]);
 
-  hour += 5;
+  hour += 6; // Convertir de UTC-6 a UTC
 
   let dayOffset = 0;
   if (hour >= 24) {
@@ -55,11 +46,10 @@ function timeBogotaToUTC(time) {
 }
 
 function splitLeagueMatch(rawTitle, rawLeague) {
-  // Si la web ya nos da la liga por separado, la usamos directamente
   if (rawLeague && rawLeague.trim() !== '') {
     return { league: rawLeague.trim(), match: rawTitle.trim() };
   }
-  
+
   const text = String(rawTitle || '').replace(/\s+/g, ' ').trim();
   const separators = [':', '–', '—', ' - '];
 
@@ -78,22 +68,16 @@ function splitLeagueMatch(rawTitle, rawLeague) {
 
 function cleanChannelName(name, index) {
   if (!name) return `Canal ${index + 1}`;
-
   const value = String(name).replace(/\s+/g, ' ').trim();
-
   return value || `Canal ${index + 1}`;
 }
 
 /* =========================================================
    EXTRACTOR DE IFRAME
-   Abre la página /ver/... y extrae el src del iframe real
+   Abre la página /eventos.html?r=... y extrae el src del iframe real
 ========================================================= */
 async function getIframeSrc(browser, channelUrl) {
   if (!channelUrl) return null;
-  
-  if (channelUrl.includes('.m3u8') || channelUrl.includes('.mp4') || channelUrl.includes('embed')) {
-    return channelUrl;
-  }
 
   const page = await browser.newPage();
   try {
@@ -104,20 +88,21 @@ async function getIframeSrc(browser, channelUrl) {
     });
 
     await page.goto(channelUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
-    
+
+    // Esperar el iframe del reproductor
     await page.waitForSelector('iframe', { timeout: 8000 });
-    
+
     const src = await page.evaluate(() => {
       const iframe = document.querySelector('iframe');
       return iframe ? iframe.src : null;
     });
 
     await page.close();
-    return src || channelUrl; 
+    return src || channelUrl;
   } catch (error) {
     console.log(`   [!] No se pudo extraer iframe de: ${channelUrl}`);
     await page.close();
-    return channelUrl; 
+    return channelUrl;
   }
 }
 
@@ -125,9 +110,9 @@ async function getIframeSrc(browser, channelUrl) {
    SCRAPER
    ========================================================= */
 
-async function scrapeTarjetaRoja() {
+async function scrapeFutbolLibreMX() {
   console.log('========================================');
-  console.log('Iniciando scraper para tarjetaroja.love');
+  console.log('Iniciando scraper para futbollibremx.mx');
   console.log('========================================');
 
   const browser = await puppeteer.launch({
@@ -143,7 +128,6 @@ async function scrapeTarjetaRoja() {
   const page = await browser.newPage();
 
   await page.setRequestInterception(true);
-
   page.on('request', request => {
     const type = request.resourceType();
     if (type === 'image' || type === 'font' || type === 'media') {
@@ -169,42 +153,51 @@ async function scrapeTarjetaRoja() {
 
   console.log('[PUP] Página cargada');
 
-  await page.waitForSelector('.tr-event', { timeout: 15000 }).catch(() => {});
+  // Esperar el menú de la agenda
+  await page.waitForSelector('#menu-agenda', { timeout: 15000 }).catch(() => {});
   await new Promise(resolve => setTimeout(resolve, 3000));
 
   console.log('[PUP] Extrayendo datos del DOM...');
 
   const rawEvents = await page.evaluate(() => {
-    const items = Array.from(document.querySelectorAll('.tr-event'));
-    
-    if (items.length === 0) return [];
+    const menu = document.querySelector('#menu-agenda');
+    if (!menu) return [];
+
+    const items = Array.from(menu.children); // <li> directos
 
     return items.map(li => {
-      const timeEl = li.querySelector('.tr-event-time');
-      const timeText = timeEl ? timeEl.innerText.trim() : '';
-      // Extraemos el texto visible de la hora (que debería ser la hora local del navegador)
-      const datetimeAttr = timeEl ? timeEl.innerText.trim() : null;
+      // Título y hora
+      const mainLink = li.querySelector('a');
+      if (!mainLink) return null;
 
-      const titleEl = li.querySelector('.tr-event-title');
-      let matchText = '';
-      if (titleEl) {
-        const clone = titleEl.cloneNode(true);
-        const competitionSpan = clone.querySelector('.tr-event-competition');
-        if (competitionSpan) competitionSpan.remove();
-        matchText = clone.innerText.trim();
+      const timeSpan = mainLink.querySelector('.t');
+      const timeText = timeSpan ? timeSpan.textContent.trim() : '';
+
+      // Título: texto del enlace sin la hora
+      const clone = mainLink.cloneNode(true);
+      if (clone.querySelector('.t')) clone.querySelector('.t').remove();
+      const titleText = clone.textContent.trim();
+
+      // Liga: clase del <li> (ej. F1, ENG, ESP, etc.)
+      const leagueText = li.className || '';
+
+      // Canales: sublista
+      const subUl = li.querySelector('ul');
+      const channels = [];
+      if (subUl) {
+        const subItems = Array.from(subUl.querySelectorAll('li.subitem1'));
+        subItems.forEach(subLi => {
+          const a = subLi.querySelector('a');
+          if (a) {
+            const name = a.textContent.replace(/\s*HD\s*$/i, '').trim();
+            const href = a.getAttribute('href');
+            if (name && href) channels.push({ name, href });
+          }
+        });
       }
 
-      const leagueEl = li.querySelector('.tr-event-competition');
-      const leagueText = leagueEl ? leagueEl.innerText.trim() : '';
-
-      const channelLinks = Array.from(li.querySelectorAll('a.tr-event-channel'));
-      const channels = channelLinks.map(a => ({
-        name: (a.innerText || '').trim(),
-        href: a.getAttribute('href')
-      })).filter(c => c.name && c.href);
-
-      return { timeText, datetimeAttr, matchText, leagueText, channels };
-    }).filter(e => e.matchText);
+      return { timeText, titleText, leagueText, channels };
+    }).filter(e => e && e.titleText);
   });
 
   console.log(`[PUP] ${rawEvents.length} eventos detectados. Extrayendo URLs finales...`);
@@ -212,23 +205,22 @@ async function scrapeTarjetaRoja() {
   const events = [];
 
   for (const raw of rawEvents) {
-    // Usamos la hora tal cual viene (sin restar 7 horas)
-    const time = normalizeTime(raw.timeText, raw.datetimeAttr);
+    const time = normalizeTime(raw.timeText);
 
-    const { league, match } = splitLeagueMatch(raw.matchText, raw.leagueText);
+    const { league, match } = splitLeagueMatch(raw.titleText, raw.leagueText);
 
     const channels = [];
     const seenChannels = new Set();
 
     for (let i = 0; i < raw.channels.length; i++) {
       const channel = raw.channels[i];
-      
+
       const absoluteUrl = new URL(channel.href, SITE_URL).href;
       const finalUrl = await getIframeSrc(browser, absoluteUrl);
 
       if (!finalUrl || seenChannels.has(finalUrl)) continue;
       seenChannels.add(finalUrl);
-      
+
       channels.push({
         name: cleanChannelName(channel.name, i),
         url: finalUrl
@@ -239,7 +231,7 @@ async function scrapeTarjetaRoja() {
 
     events.push({
       time: time || '',
-      time_utc: timeBogotaToUTC(time), // Convierte a UTC correctamente (hora + 5)
+      time_utc: timeMexicoToUTC(time),
       match: match || '',
       league: league || '',
       flag: '⚽',
@@ -262,7 +254,7 @@ async function scrapeTarjetaRoja() {
   const result = {
     actualizado_en: new Date().toISOString(),
     fecha: new Date().toISOString().slice(0, 10),
-    fuente: 'tarjetaroja.love-puppeteer',
+    fuente: 'futbollibremx.mx-puppeteer',
     contar: uniqueEvents.length,
     contar_con_canales: uniqueEvents.filter(
       event => Array.isArray(event.channels) && event.channels.length > 0
@@ -282,12 +274,12 @@ async function scrapeTarjetaRoja() {
 
   console.log('[PUP] Navegador cerrado');
   console.log(
-    `LISTO | tarjetaroja.love-puppeteer | total:${result.contar} | canales:${result.contar_con_canales}`
+    `LISTO | futbollibremx.mx-puppeteer | total:${result.contar} | canales:${result.contar_con_canales}`
   );
   console.log(`Archivo: ${process.cwd()}/${OUTPUT_FILE}`);
 }
 
-scrapeTarjetaRoja().catch(error => {
+scrapeFutbolLibreMX().catch(error => {
   console.error('[PUP] ERROR FATAL:', error);
   process.exit(1);
 });
