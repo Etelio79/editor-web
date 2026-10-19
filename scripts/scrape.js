@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-const SITE_URL = 'https://rojadirecta.cash/';
+const SITE_URL = 'http://rojadirecta.tel/';
 const OUTPUT_FILE = 'eventos.json';
 
 /* =========================================================
