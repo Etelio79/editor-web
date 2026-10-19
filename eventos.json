@@ -1,9 +1,921 @@
 {
-  "actualizado_en": "2026-10-19T17:57:38.535Z",
+  "actualizado_en": "2026-10-19T18:02:34.857Z",
   "fecha": "2026-10-19",
   "fuente": "rojadirecta.cash-puppeteer",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "contar": 27,
+  "contar_con_canales": 27,
+  "events": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-20T00:00:00.000Z",
+      "match": "Tampa Bay Rays vs Cleveland Guardians",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "espn-3",
+          "url": "https://streamxhd.st/live2.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-20T00:00:00.000Z",
+      "match": "San Francisco 49ers vs Washington Commanders",
+      "league": "NFL",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "espn-2-stxhd",
+          "url": "https://streamxhd.st/live2.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-10-20T00:15:00.000Z",
+      "match": "Deportivo Riestra vs Unión Santa Fe",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney9",
+          "url": "https://streamxhd.st/live2.php?stream=disney9"
+        },
+        {
+          "name": "espnpremium",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espnpremium"
+        },
+        {
+          "name": "espnpremium2",
+          "url": "https://streamxhd.st/live1.php?stream=espnpremium"
+        },
+        {
+          "name": "espnar",
+          "url": "https://streamxhd.st/live1.php?stream=espnar"
+        }
+      ]
+    },
+    {
+      "time": "01:05",
+      "time_utc": "2026-10-20T01:05:00.000Z",
+      "match": "Deportivo Pasto vs Alianza",
+      "league": "Liga Colombia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        },
+        {
+          "name": "winsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-10-19T15:00:00.000Z",
+      "match": "España vs México",
+      "league": "Copa Mundial Femenina Sub-17",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsports2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
+        },
+        {
+          "name": "tudn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
+        },
+        {
+          "name": "canal9mx",
+          "url": "https://streamxhd.st/live1.php?stream=canal9mx"
+        }
+      ]
+    },
+    {
+      "time": "15:05",
+      "time_utc": "2026-10-19T15:05:00.000Z",
+      "match": "Al Feiha vs Al-Ahli Saudi",
+      "league": "Saudi Pro League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
+        {
+          "name": "fox_deportes_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
+        },
+        {
+          "name": "sporttvbr2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sporttvbr2"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-10-19T16:30:00.000Z",
+      "match": "Monza vs Cagliari",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-1",
+          "url": "https://streamxhd.st/live2.php?stream=disney1"
+        },
+        {
+          "name": "espn-2-stxhd",
+          "url": "https://streamxhd.st/live2.php?stream=espn2"
+        },
+        {
+          "name": "espn2ar",
+          "url": "https://streamxhd.st/live1.php?stream=espn2ar"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-10-19T17:00:00.000Z",
+      "match": "Trabzonspor vs Beşiktaş",
+      "league": "Super Lig",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-2",
+          "url": "https://streamxhd.st/live2.php?stream=disney2"
+        },
+        {
+          "name": "espn5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn5"
+        },
+        {
+          "name": "fox2ar",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox2ar"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-19T18:00:00.000Z",
+      "match": "Australia vs Chile",
+      "league": "Copa Mundial Femenina Sub-17",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsports2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-19T18:00:00.000Z",
+      "match": "Estados Unidos vs Samoa",
+      "league": "Copa Mundial Femenina Sub-17",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "universo_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=universo_usa"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-19T18:00:00.000Z",
+      "match": "Al Hilal vs Al Hazm",
+      "league": "Saudi Pro League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "xsports",
+          "url": "https://streamxhd.st/live1.php?stream=xsports"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-10-19T18:30:00.000Z",
+      "match": "Celta de Vigo II vs Tenerife",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "hypermotion1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-19T18:45:00.000Z",
+      "match": "Parma vs Torino",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-3",
+          "url": "https://streamxhd.st/live2.php?stream=disney3"
+        },
+        {
+          "name": "espn-2-stxhd",
+          "url": "https://streamxhd.st/live2.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-19T19:00:00.000Z",
+      "match": "Tottenham Hotspur vs Coventry City",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-4",
+          "url": "https://streamxhd.st/live2.php?stream=disney4"
+        },
+        {
+          "name": "espnar",
+          "url": "https://streamxhd.st/live1.php?stream=espnar"
+        },
+        {
+          "name": "espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-19T19:00:00.000Z",
+      "match": "Getafe vs Rayo Vallecano",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsportsop2",
+          "url": "https://streamxhd.st/live1.php?stream=dsports"
+        },
+        {
+          "name": "dspts",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports"
+        },
+        {
+          "name": "espnplus1",
+          "url": "https://streamxhd.st/live1.php?stream=espnplus1"
+        },
+        {
+          "name": "espn-deportes",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espndeportes"
+        },
+        {
+          "name": "canal-6",
+          "url": "https://streamxhd.st/live1.php?stream=daznlaliga"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-19T19:00:00.000Z",
+      "match": "Real Santander vs Leones",
+      "league": "Categoria Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    },
+    {
+      "time": "19:15",
+      "time_utc": "2026-10-19T19:15:00.000Z",
+      "match": "Sporting Braga vs Gil Vicente",
+      "league": "Primeira Liga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-5",
+          "url": "https://streamxhd.st/live2.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-10-19T20:00:00.000Z",
+      "match": "Cruzeiro vs Bolívar",
+      "league": "Copa Libertadores Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "sporttvbr1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sporttvbr1"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-10-19T20:00:00.000Z",
+      "match": "Deportivo Cali vs Nacional",
+      "league": "Copa Libertadores Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "20:30",
+      "time_utc": "2026-10-19T20:30:00.000Z",
+      "match": "Mushuc Runa vs Orense",
+      "league": "Liga Ecuador",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "zappingec",
+          "url": "https://streamxhd.st/live1.php?stream=zapping_ec"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-10-19T21:00:00.000Z",
+      "match": "Internacional de Palmira vs Unión Magdalena",
+      "league": "Categoria Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-10-19T22:00:00.000Z",
+      "match": "Newell's Old Boys vs Central Córdoba SdE",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "tntsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-10-19T22:00:00.000Z",
+      "match": "Sarmiento vs Barracas Central",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-6",
+          "url": "https://streamxhd.st/live2.php?stream=disney6"
+        },
+        {
+          "name": "espnpremium",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-10-19T22:30:00.000Z",
+      "match": "Goiás vs Náutico",
+      "league": "Serie B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-7",
+          "url": "https://streamxhd.st/live2.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-19T23:00:00.000Z",
+      "match": "Nacional vs Deportivo Maldonado",
+      "league": "Liga Uruguay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney8",
+          "url": "https://streamxhd.st/live2.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-19T23:00:00.000Z",
+      "match": "Corinthians vs Vitória",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
+        },
+        {
+          "name": "sporttvbr1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sporttvbr1"
+        },
+        {
+          "name": "premiere1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=premiere1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-19T23:00:00.000Z",
+      "match": "Real Cartagena vs Patriotas",
+      "league": "Categoria Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-20T00:00:00.000Z",
+      "match": "Tampa Bay Rays vs Cleveland Guardians",
+      "league": "MLB",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "espn-3",
+          "url": "https://streamxhd.st/live2.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "00:00",
+      "time_utc": "2026-10-20T00:00:00.000Z",
+      "match": "San Francisco 49ers vs Washington Commanders",
+      "league": "NFL",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "espn-2-stxhd",
+          "url": "https://streamxhd.st/live2.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "00:15",
+      "time_utc": "2026-10-20T00:15:00.000Z",
+      "match": "Deportivo Riestra vs Unión Santa Fe",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney9",
+          "url": "https://streamxhd.st/live2.php?stream=disney9"
+        },
+        {
+          "name": "espnpremium",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espnpremium"
+        },
+        {
+          "name": "espnpremium2",
+          "url": "https://streamxhd.st/live1.php?stream=espnpremium"
+        },
+        {
+          "name": "espnar",
+          "url": "https://streamxhd.st/live1.php?stream=espnar"
+        }
+      ]
+    },
+    {
+      "time": "01:05",
+      "time_utc": "2026-10-20T01:05:00.000Z",
+      "match": "Deportivo Pasto vs Alianza",
+      "league": "Liga Colombia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        },
+        {
+          "name": "winsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-10-19T15:00:00.000Z",
+      "match": "España vs México",
+      "league": "Copa Mundial Femenina Sub-17",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsports2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
+        },
+        {
+          "name": "tudn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
+        },
+        {
+          "name": "canal9mx",
+          "url": "https://streamxhd.st/live1.php?stream=canal9mx"
+        }
+      ]
+    },
+    {
+      "time": "15:05",
+      "time_utc": "2026-10-19T15:05:00.000Z",
+      "match": "Al Feiha vs Al-Ahli Saudi",
+      "league": "Saudi Pro League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
+        {
+          "name": "fox_deportes_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
+        },
+        {
+          "name": "sporttvbr2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sporttvbr2"
+        }
+      ]
+    },
+    {
+      "time": "16:30",
+      "time_utc": "2026-10-19T16:30:00.000Z",
+      "match": "Monza vs Cagliari",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-1",
+          "url": "https://streamxhd.st/live2.php?stream=disney1"
+        },
+        {
+          "name": "espn-2-stxhd",
+          "url": "https://streamxhd.st/live2.php?stream=espn2"
+        },
+        {
+          "name": "espn2ar",
+          "url": "https://streamxhd.st/live1.php?stream=espn2ar"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-10-19T17:00:00.000Z",
+      "match": "Trabzonspor vs Beşiktaş",
+      "league": "Super Lig",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-2",
+          "url": "https://streamxhd.st/live2.php?stream=disney2"
+        },
+        {
+          "name": "espn5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn5"
+        },
+        {
+          "name": "fox2ar",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox2ar"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-19T18:00:00.000Z",
+      "match": "Australia vs Chile",
+      "league": "Copa Mundial Femenina Sub-17",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsports2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-19T18:00:00.000Z",
+      "match": "Estados Unidos vs Samoa",
+      "league": "Copa Mundial Femenina Sub-17",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "universo_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=universo_usa"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-19T18:00:00.000Z",
+      "match": "Al Hilal vs Al Hazm",
+      "league": "Saudi Pro League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "xsports",
+          "url": "https://streamxhd.st/live1.php?stream=xsports"
+        }
+      ]
+    },
+    {
+      "time": "18:30",
+      "time_utc": "2026-10-19T18:30:00.000Z",
+      "match": "Celta de Vigo II vs Tenerife",
+      "league": "LaLiga SmartBank",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "hypermotion1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=hypermotion1"
+        }
+      ]
+    },
+    {
+      "time": "18:45",
+      "time_utc": "2026-10-19T18:45:00.000Z",
+      "match": "Parma vs Torino",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-3",
+          "url": "https://streamxhd.st/live2.php?stream=disney3"
+        },
+        {
+          "name": "espn-2-stxhd",
+          "url": "https://streamxhd.st/live2.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-19T19:00:00.000Z",
+      "match": "Tottenham Hotspur vs Coventry City",
+      "league": "Premier League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-4",
+          "url": "https://streamxhd.st/live2.php?stream=disney4"
+        },
+        {
+          "name": "espnar",
+          "url": "https://streamxhd.st/live1.php?stream=espnar"
+        },
+        {
+          "name": "espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-19T19:00:00.000Z",
+      "match": "Getafe vs Rayo Vallecano",
+      "league": "LaLiga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsportsop2",
+          "url": "https://streamxhd.st/live1.php?stream=dsports"
+        },
+        {
+          "name": "dspts",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports"
+        },
+        {
+          "name": "espnplus1",
+          "url": "https://streamxhd.st/live1.php?stream=espnplus1"
+        },
+        {
+          "name": "espn-deportes",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espndeportes"
+        },
+        {
+          "name": "canal-6",
+          "url": "https://streamxhd.st/live1.php?stream=daznlaliga"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-19T19:00:00.000Z",
+      "match": "Real Santander vs Leones",
+      "league": "Categoria Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    },
+    {
+      "time": "19:15",
+      "time_utc": "2026-10-19T19:15:00.000Z",
+      "match": "Sporting Braga vs Gil Vicente",
+      "league": "Primeira Liga",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-5",
+          "url": "https://streamxhd.st/live2.php?stream=disney5"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-10-19T20:00:00.000Z",
+      "match": "Cruzeiro vs Bolívar",
+      "league": "Copa Libertadores Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "sporttvbr1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sporttvbr1"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-10-19T20:00:00.000Z",
+      "match": "Deportivo Cali vs Nacional",
+      "league": "Copa Libertadores Femenina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "20:30",
+      "time_utc": "2026-10-19T20:30:00.000Z",
+      "match": "Mushuc Runa vs Orense",
+      "league": "Liga Ecuador",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "zappingec",
+          "url": "https://streamxhd.st/live1.php?stream=zapping_ec"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-10-19T21:00:00.000Z",
+      "match": "Internacional de Palmira vs Unión Magdalena",
+      "league": "Categoria Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-10-19T22:00:00.000Z",
+      "match": "Newell's Old Boys vs Central Córdoba SdE",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "tntsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tntsports"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-10-19T22:00:00.000Z",
+      "match": "Sarmiento vs Barracas Central",
+      "league": "Liga Profesional",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-6",
+          "url": "https://streamxhd.st/live2.php?stream=disney6"
+        },
+        {
+          "name": "espnpremium",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espnpremium"
+        }
+      ]
+    },
+    {
+      "time": "22:30",
+      "time_utc": "2026-10-19T22:30:00.000Z",
+      "match": "Goiás vs Náutico",
+      "league": "Serie B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-7",
+          "url": "https://streamxhd.st/live2.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-19T23:00:00.000Z",
+      "match": "Nacional vs Deportivo Maldonado",
+      "league": "Liga Uruguay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney8",
+          "url": "https://streamxhd.st/live2.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-19T23:00:00.000Z",
+      "match": "Corinthians vs Vitória",
+      "league": "Brasileirão",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
+        },
+        {
+          "name": "sporttvbr1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sporttvbr1"
+        },
+        {
+          "name": "premiere1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=premiere1"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-19T23:00:00.000Z",
+      "match": "Real Cartagena vs Patriotas",
+      "league": "Categoria Primera B",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    }
+  ]
 }
