@@ -1,9 +1,95 @@
 {
-  "actualizado_en": "2026-10-19T08:08:50.406Z",
+  "actualizado_en": "2026-10-19T15:55:32.400Z",
   "fecha": "2026-10-19",
   "fuente": "rojadirecta.cash-puppeteer",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "contar": 2,
+  "contar_con_canales": 2,
+  "events": [
+    {
+      "time": "15:00",
+      "time_utc": "2026-10-19T15:00:00.000Z",
+      "match": "España vs México",
+      "league": "Copa Mundial Femenina Sub-17",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsports2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
+        },
+        {
+          "name": "tudn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
+        },
+        {
+          "name": "canal9mx",
+          "url": "https://streamxhd.st/live1.php?stream=canal9mx"
+        }
+      ]
+    },
+    {
+      "time": "15:05",
+      "time_utc": "2026-10-19T15:05:00.000Z",
+      "match": "Al Feiha vs Al-Ahli Saudi",
+      "league": "Saudi Pro League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
+        {
+          "name": "fox_deportes_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
+        },
+        {
+          "name": "sporttvbr2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sporttvbr2"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "15:00",
+      "time_utc": "2026-10-19T15:00:00.000Z",
+      "match": "España vs México",
+      "league": "Copa Mundial Femenina Sub-17",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsports2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
+        },
+        {
+          "name": "tudn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
+        },
+        {
+          "name": "canal9mx",
+          "url": "https://streamxhd.st/live1.php?stream=canal9mx"
+        }
+      ]
+    },
+    {
+      "time": "15:05",
+      "time_utc": "2026-10-19T15:05:00.000Z",
+      "match": "Al Feiha vs Al-Ahli Saudi",
+      "league": "Saudi Pro League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
+        {
+          "name": "fox_deportes_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
+        },
+        {
+          "name": "sporttvbr2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sporttvbr2"
+        }
+      ]
+    }
+  ]
 }
