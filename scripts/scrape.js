@@ -5,7 +5,7 @@ const SITE_URL = 'http://rojadirecta.tel/';
 const OUTPUT_FILE = 'eventos.json';
 
 /* =========================================================
-   UTILIDADES (SIN CAMBIOS)
+   UTILIDADES
 ========================================================= */
 
 function normalizeTime(timeText) {
@@ -87,7 +87,7 @@ function cleanChannelName(name, index) {
 }
 
 /* =========================================================
-   EXTRACTOR DE IFRAME (SIN CAMBIOS)
+   EXTRACTOR DE IFRAME
 ========================================================= */
 async function getIframeSrc(browser, channelUrl) {
   if (!channelUrl) return null;
@@ -133,7 +133,9 @@ async function scrapeRojadirecta() {
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
-      '--disable-gpu'
+      '--disable-gpu',
+      // SOLUCIÓN AL ERROR ERR_BLOCKED_BY_CLIENT EN GITHUB ACTIONS
+      '--disable-features=HttpsFirstBalancedModeAutoEnable'
     ]
   });
 
@@ -169,7 +171,7 @@ async function scrapeRojadirecta() {
 
   console.log('[PUP] Extrayendo datos del DOM...');
 
-  // EXTRACCIÓN CORREGIDA: Captura la liga completa de la fila
+  // EXTRACCIÓN: Captura la liga y los equipos de la fila completa
   const rawRows = await page.evaluate(() => {
     const results = [];
     const elements = Array.from(document.querySelectorAll('tr, li'));
@@ -209,7 +211,7 @@ async function scrapeRojadirecta() {
 
   console.log(`[PUP] ${rawRows.length} filas detectadas. Agrupando eventos...`);
 
-  // AGRUPACIÓN (SIN CAMBIOS)
+  // AGRUPACIÓN
   const eventsMap = new Map();
 
   for (const raw of rawRows) {
@@ -240,7 +242,7 @@ async function scrapeRojadirecta() {
 
   const events = [];
 
-  // PROCESAMIENTO DE CANALES E IFRAMES (SIN CAMBIOS)
+  // PROCESAMIENTO DE CANALES E IFRAMES
   for (const event of eventsMap.values()) {
     const resolvedChannels = [];
     const seenChannels = new Set();
@@ -266,10 +268,10 @@ async function scrapeRojadirecta() {
     events.push(event);
   }
 
-  // ORDENAR (SIN CAMBIOS)
+  // ORDENAR
   events.sort((a, b) => String(a.time).localeCompare(String(b.time)));
 
-  // SALIDA JSON (SIN CAMBIOS)
+  // SALIDA JSON
   const result = {
     actualizado_en: new Date().toISOString(),
     fecha: new Date().toISOString().slice(0, 10),
