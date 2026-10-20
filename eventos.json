@@ -1,9 +1,45 @@
 {
-  "actualizado_en": "2026-10-20T19:24:06.456Z",
+  "actualizado_en": "2026-10-20T19:39:13.152Z",
   "fecha": "2026-10-20",
   "fuente": "rojadirecta.tel-puppeteer",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "contar": 1,
+  "contar_con_canales": 1,
+  "events": [
+    {
+      "time": "21:30",
+      "time_utc": "2026-10-21T02:30:00.000Z",
+      "league": "",
+      "match": "Deportivo Pereira vs Boyacá Chicó",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "21:30",
+      "time_utc": "2026-10-21T02:30:00.000Z",
+      "league": "",
+      "match": "Deportivo Pereira vs Boyacá Chicó",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    }
+  ]
 }
