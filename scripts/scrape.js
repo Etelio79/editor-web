@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-const SITE_URL = 'http://rojadirecta.tel/';
+const SITE_URL = 'https://futbollibremx.mx/';
 const OUTPUT_FILE = 'eventos.json';
 
 /* =========================================================
@@ -15,17 +15,19 @@ function normalizeTime(timeText) {
 }
 
 /*
-  La página guarda la hora original en UTC-5 (hora de Colombia/Perú/Ecuador).
-  Sumamos 5 horas para obtener UTC.
+  El sitio muestra la hora en UTC-6 (Hora del Centro de México).
+  Sumamos 6 horas para obtener UTC.
 */
-function timeOriginalToUTC(time) {
+function timeMexicoToUTC(time) {
   if (!time) return null;
+
   const match = time.match(/^(\d{2}):(\d{2})$/);
   if (!match) return null;
 
   let hour = Number(match[1]);
   const minute = Number(match[2]);
-  hour += 3; // UTC-3 -> UTC
+
+  hour += 6; // Convertir de UTC-6 a UTC
 
   let dayOffset = 0;
   if (hour >= 24) {
@@ -38,7 +40,9 @@ function timeOriginalToUTC(time) {
   const month = now.getUTCMonth();
   const day = now.getUTCDate() + dayOffset;
 
-  return new Date(Date.UTC(year, month, day, hour, minute, 0)).toISOString();
+  return new Date(
+    Date.UTC(year, month, day, hour, minute, 0)
+  ).toISOString();
 }
 
 function splitLeagueMatch(rawTitle, rawLeague) {
@@ -62,15 +66,15 @@ function splitLeagueMatch(rawTitle, rawLeague) {
   return { league: '', match: text };
 }
 
-function cleanChannelName(url, index) {
-  if (!url) return `Canal ${index + 1}`;
-  const parts = url.split('/').filter(Boolean);
-  const last = parts[parts.length - 1];
-  return last || `Canal ${index + 1}`;
+function cleanChannelName(name, index) {
+  if (!name) return `Canal ${index + 1}`;
+  const value = String(name).replace(/\s+/g, ' ').trim();
+  return value || `Canal ${index + 1}`;
 }
 
 /* =========================================================
    EXTRACTOR DE IFRAME
+   Abre la página /eventos.html?r=... y extrae el src del iframe real
 ========================================================= */
 async function getIframeSrc(browser, channelUrl) {
   if (!channelUrl) return null;
@@ -84,6 +88,8 @@ async function getIframeSrc(browser, channelUrl) {
     });
 
     await page.goto(channelUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
+
+    // Esperar el iframe del reproductor
     await page.waitForSelector('iframe', { timeout: 8000 });
 
     const src = await page.evaluate(() => {
@@ -102,11 +108,11 @@ async function getIframeSrc(browser, channelUrl) {
 
 /* =========================================================
    SCRAPER
-========================================================= */
+   ========================================================= */
 
-async function scrapeRojaDirecta() {
+async function scrapeFutbolLibreMX() {
   console.log('========================================');
-  console.log('Iniciando scraper para rojadirecta.cash');
+  console.log('Iniciando scraper para futbollibremx.mx');
   console.log('========================================');
 
   const browser = await puppeteer.launch({
@@ -120,9 +126,6 @@ async function scrapeRojaDirecta() {
   });
 
   const page = await browser.newPage();
-
-  // Forzamos zona horaria UTC para que el navegador no altere nada
-  await page.emulateTimezone('UTC');
 
   await page.setRequestInterception(true);
   page.on('request', request => {
@@ -150,117 +153,87 @@ async function scrapeRojaDirecta() {
 
   console.log('[PUP] Página cargada');
 
-  await page.waitForSelector('.programacion table', { timeout: 15000 }).catch(() => {});
+  // Esperar el menú de la agenda
+  await page.waitForSelector('#menu-agenda', { timeout: 15000 }).catch(() => {});
   await new Promise(resolve => setTimeout(resolve, 3000));
 
   console.log('[PUP] Extrayendo datos del DOM...');
 
   const rawEvents = await page.evaluate(() => {
-    const rows = Array.from(document.querySelectorAll('.programacion table tbody tr'));
-    if (rows.length === 0) return [];
+    const menu = document.querySelector('#menu-agenda');
+    if (!menu) return [];
 
-    return rows.map(tr => {
-      const tds = tr.querySelectorAll('td');
-      if (tds.length < 3) return null;
+    const items = Array.from(menu.children); // <li> directos
 
-      const firstTd = tds[0];
-      const link = firstTd.querySelector('a');
-      if (!link) return null;
+    return items.map(li => {
+      // Título y hora
+      const mainLink = li.querySelector('a');
+      if (!mainLink) return null;
 
-      const href = link.getAttribute('href');
-      if (!href) return null;
+      const timeSpan = mainLink.querySelector('.t');
+      const timeText = timeSpan ? timeSpan.textContent.trim() : '';
 
-      const fullText = firstTd.textContent.trim();
-      const colonIdx = fullText.indexOf(':');
-      let leagueText = '';
-      let matchText = '';
-      if (colonIdx > -1) {
-        leagueText = fullText.slice(0, colonIdx).trim();
-        matchText = fullText.slice(colonIdx + 1).trim();
-      } else {
-        matchText = fullText;
+      // Título: texto del enlace sin la hora
+      const clone = mainLink.cloneNode(true);
+      if (clone.querySelector('.t')) clone.querySelector('.t').remove();
+      const titleText = clone.textContent.trim();
+
+      // Liga: clase del <li> (ej. F1, ENG, ESP, etc.)
+      const leagueText = li.className || '';
+
+      // Canales: sublista
+      const subUl = li.querySelector('ul');
+      const channels = [];
+      if (subUl) {
+        const subItems = Array.from(subUl.querySelectorAll('li.subitem1'));
+        subItems.forEach(subLi => {
+          const a = subLi.querySelector('a');
+          if (a) {
+            const name = a.textContent.replace(/\s*HD\s*$/i, '').trim();
+            const href = a.getAttribute('href');
+            if (name && href) channels.push({ name, href });
+          }
+        });
       }
 
-      const timeSpan = tds[2].querySelector('span.t');
-      const timeText = timeSpan ? timeSpan.getAttribute('data-rj-original-time') || timeSpan.textContent.trim() : '';
-
-      return {
-        leagueText,
-        matchText,
-        timeText,
-        href
-      };
-    }).filter(Boolean);
+      return { timeText, titleText, leagueText, channels };
+    }).filter(e => e && e.titleText);
   });
 
-  console.log(`[PUP] ${rawEvents.length} filas detectadas. Agrupando eventos...`);
-
-  // Agrupamos por liga + partido
-  const grouped = new Map();
-
-  for (const raw of rawEvents) {
-    const league = raw.leagueText.trim();
-    const match = raw.matchText.trim();
-    const key = `${league}|${match}`;
-
-    if (!grouped.has(key)) {
-      grouped.set(key, {
-        league,
-        match,
-        time: normalizeTime(raw.timeText),
-        channels: []
-      });
-    }
-
-    grouped.get(key).channels.push({ href: raw.href });
-  }
-
-  console.log(`[PUP] ${grouped.size} eventos únicos tras agrupar. Extrayendo URLs finales...`);
+  console.log(`[PUP] ${rawEvents.length} eventos detectados. Extrayendo URLs finales...`);
 
   const events = [];
 
-  for (const [key, group] of grouped.entries()) {
+  for (const raw of rawEvents) {
+    const time = normalizeTime(raw.timeText);
+
+    const { league, match } = splitLeagueMatch(raw.titleText, raw.leagueText);
+
     const channels = [];
-    const seenUrls = new Set();
+    const seenChannels = new Set();
 
-    for (let i = 0; i < group.channels.length; i++) {
-      const ch = group.channels[i];
-      const absoluteUrl = new URL(ch.href, SITE_URL).href;
+    for (let i = 0; i < raw.channels.length; i++) {
+      const channel = raw.channels[i];
 
-      if (seenUrls.has(absoluteUrl)) continue;
-      seenUrls.add(absoluteUrl);
-
+      const absoluteUrl = new URL(channel.href, SITE_URL).href;
       const finalUrl = await getIframeSrc(browser, absoluteUrl);
-      if (!finalUrl) continue;
+
+      if (!finalUrl || seenChannels.has(finalUrl)) continue;
+      seenChannels.add(finalUrl);
 
       channels.push({
-        name: cleanChannelName(absoluteUrl, i),
+        name: cleanChannelName(channel.name, i),
         url: finalUrl
       });
     }
 
-    // ─── CAMBIO CLAVE ──────────────────────────────────────
-    // Calculamos el ISO en UTC y extraemos HH:MM para el campo "time".
-    // Así la app (que interpreta "time" como UTC) mostrará la hora
-    // local correcta de cada usuario, sin tocar la app.
-    const isoUTC = timeOriginalToUTC(group.time);
-
-    let timeUTC_HHMM = '';
-    if (isoUTC) {
-      const d = new Date(isoUTC);
-      timeUTC_HHMM =
-        d.getUTCHours().toString().padStart(2, '0') + ':' +
-        d.getUTCMinutes().toString().padStart(2, '0');
-    }
-    // ───────────────────────────────────────────────────────
-
-    console.log(`-- ${timeUTC_HHMM || '--:--'} UTC | ${group.league ? group.league + ': ' : ''}${group.match} -> ${channels.length} canales`);
+    console.log(`-- ${time || '--:--'} | ${league ? league + ': ' : ''}${match} -> ${channels.length} canales`);
 
     events.push({
-      time: timeUTC_HHMM,        // ← HH:MM en UTC (antes venía en hora del sitio)
-      time_utc: isoUTC,          // ← ISO completo en UTC (igual que antes)
-      match: group.match,
-      league: group.league,
+      time: time || '',
+      time_utc: timeMexicoToUTC(time),
+      match: match || '',
+      league: league || '',
       flag: '⚽',
       channels
     });
@@ -268,14 +241,26 @@ async function scrapeRojaDirecta() {
 
   events.sort((a, b) => String(a.time).localeCompare(String(b.time)));
 
+  const uniqueEvents = [];
+  const seenEvents = new Set();
+
+  for (const event of events) {
+    const key = `${event.time}|${event.match}`;
+    if (seenEvents.has(key)) continue;
+    seenEvents.add(key);
+    uniqueEvents.push(event);
+  }
+
   const result = {
     actualizado_en: new Date().toISOString(),
     fecha: new Date().toISOString().slice(0, 10),
-    fuente: 'rojadirecta.cash-puppeteer',
-    contar: events.length,
-    contar_con_canales: events.filter(e => Array.isArray(e.channels) && e.channels.length > 0).length,
-    events,
-    eventos: events
+    fuente: 'futbollibremx.mx-puppeteer',
+    contar: uniqueEvents.length,
+    contar_con_canales: uniqueEvents.filter(
+      event => Array.isArray(event.channels) && event.channels.length > 0
+    ).length,
+    events: uniqueEvents,
+    eventos: uniqueEvents
   };
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2), 'utf8');
@@ -289,12 +274,12 @@ async function scrapeRojaDirecta() {
 
   console.log('[PUP] Navegador cerrado');
   console.log(
-    `LISTO | rojadirecta.cash-puppeteer | total:${result.contar} | canales:${result.contar_con_canales}`
+    `LISTO | futbollibremx.mx-puppeteer | total:${result.contar} | canales:${result.contar_con_canales}`
   );
   console.log(`Archivo: ${process.cwd()}/${OUTPUT_FILE}`);
 }
 
-scrapeRojaDirecta().catch(error => {
+scrapeFutbolLibreMX().catch(error => {
   console.error('[PUP] ERROR FATAL:', error);
   process.exit(1);
 });
