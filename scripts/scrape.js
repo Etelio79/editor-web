@@ -45,24 +45,45 @@ function timeMexicoToUTC(time) {
   ).toISOString();
 }
 
-function splitLeagueMatch(rawTitle, rawLeague) {
-  if (rawLeague && rawLeague.trim() !== '') {
-    return { league: rawLeague.trim(), match: rawTitle.trim() };
-  }
-
+/* =========================================================
+   CAMBIO 1 y 2: Se elimina el parámetro de la liga (país) 
+   y se extrae la liga del título, limpiando la duplicación.
+========================================================= */
+function splitLeagueMatch(rawTitle) {
   const text = String(rawTitle || '').replace(/\s+/g, ' ').trim();
-  const separators = [':', '–', '—', ' - '];
-
+  
+  // Separar por dos puntos (formato habitual en la web)
+  const parts = text.split(':').map(p => p.trim());
+  if (parts.length >= 2) {
+    const league = parts[0];
+    let match = parts.slice(1).join(': ').trim();
+    
+    // Eliminar la liga duplicada al inicio del partido (Ej: "Liga MX: Liga MX: Guadalaj...")
+    const leagueRegex = new RegExp(`^${league.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[:\\s-]+`, 'i');
+    match = match.replace(leagueRegex, '').trim();
+    
+    if (league && match) {
+      return { league, match };
+    }
+  }
+  
+  // Respaldo por si no hay dos puntos
+  const separators = ['–', '—', ' - '];
   for (const sep of separators) {
     const idx = text.indexOf(sep);
     if (idx > -1) {
       const league = text.slice(0, idx).trim();
-      const match = text.slice(idx + sep.length).trim();
+      let match = text.slice(idx + sep.length).trim();
+      
+      const leagueRegex = new RegExp(`^${league.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[:\\s-]+`, 'i');
+      match = match.replace(leagueRegex, '').trim();
+      
       if (league && match && /\bvs\.?\b/i.test(match)) {
         return { league, match };
       }
     }
   }
+  
   return { league: '', match: text };
 }
 
@@ -108,7 +129,7 @@ async function getIframeSrc(browser, channelUrl) {
 
 /* =========================================================
    SCRAPER
-   ========================================================= */
+========================================================= */
 
 async function scrapeFutbolLibreMX() {
   console.log('========================================');
@@ -207,7 +228,8 @@ async function scrapeFutbolLibreMX() {
   for (const raw of rawEvents) {
     const time = normalizeTime(raw.timeText);
 
-    const { league, match } = splitLeagueMatch(raw.titleText, raw.leagueText);
+    // CAMBIO 3: Se llama solo con el raw.titleText, ignorando el país (raw.leagueText)
+    const { league, match } = splitLeagueMatch(raw.titleText);
 
     const channels = [];
     const seenChannels = new Set();
