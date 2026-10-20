@@ -1,27 +1,23 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-const SITE_URL = 'https://tarjetaroja.mba/';
+// CAMBIO 1: Nueva URL objetivo
+const SITE_URL = 'http://rojadirecta.tel/';
 const OUTPUT_FILE = 'eventos.json';
-const SITE_HOST = new URL(SITE_URL).host;
-const MOBILE_UA =
-  'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 ' +
-  '(KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36';
-
-const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 /* =========================================================
-   UTILIDADES (IGUAL QUE EL SCRAPER ORIGINAL)
+   UTILIDADES (SIN CAMBIOS)
 ========================================================= */
 
 function normalizeTime(timeText) {
   if (!timeText) return null;
-  const match = String(timeText).trim().match(/^(\d{1,2}):(\d{2})/);
-  return match ? `${match[1].padStart(2, '0')}:${match[2]}` : null;
+  const match = String(timeText).trim().match(/^(\d{2}):(\d{2})/);
+  return match ? `${match[1]}:${match[2]}` : null;
 }
 
 /*
-  Igual que el original: se suman 6 horas para obtener UTC.
+  El sitio muestra la hora en UTC-6 (Hora del Centro de México).
+  Sumamos 6 horas para obtener UTC.
 */
 function timeMexicoToUTC(time) {
   if (!time) return null;
@@ -45,95 +41,80 @@ function timeMexicoToUTC(time) {
   const month = now.getUTCMonth();
   const day = now.getUTCDate() + dayOffset;
 
-  return new Date(Date.UTC(year, month, day, hour, minute, 0)).toISOString();
+  return new Date(
+    Date.UTC(year, month, day, hour, minute, 0)
+  ).toISOString();
 }
 
-function escapeRegex(s) {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
-/*
-  "Liga MX: Guadalajara vs Necaxa" -> { league: 'Liga MX', match: 'Guadalajara vs Necaxa' }
-  Quita la liga si quedara repetida dentro del match.
-*/
 function splitLeagueMatch(rawTitle) {
-  const text = String(rawTitle || '').replace(/\s+/g, ' ').replace(/▶|►|▼/g, '').trim();
-
-  const idx = text.indexOf(':');
-  if (idx > -1) {
-    const league = text.slice(0, idx).trim();
-    let match = text.slice(idx + 1).trim();
-
-    if (league) {
-      const re = new RegExp(`^${escapeRegex(league)}\\s*[:\\-–—]?\\s*`, 'i');
-      let prev;
-      do {
-        prev = match;
-        match = match.replace(re, '').trim();
-      } while (match !== prev && match);
+  const text = String(rawTitle || '').replace(/\s+/g, ' ').trim();
+  
+  const parts = text.split(':').map(p => p.trim());
+  if (parts.length >= 2) {
+    const league = parts[0];
+    let match = parts.slice(1).join(': ').trim();
+    
+    const leagueRegex = new RegExp(`^${league.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[:\\s-]+`, 'i');
+    match = match.replace(leagueRegex, '').trim();
+    
+    if (league && match) {
+      return { league, match };
     }
-
-    if (league && match) return { league, match };
   }
-
+  
+  const separators = ['–', '—', ' - '];
+  for (const sep of separators) {
+    const idx = text.indexOf(sep);
+    if (idx > -1) {
+      const league = text.slice(0, idx).trim();
+      let match = text.slice(idx + sep.length).trim();
+      
+      const leagueRegex = new RegExp(`^${league.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[:\\s-]+`, 'i');
+      match = match.replace(leagueRegex, '').trim();
+      
+      if (league && match && /\bvs\.?\b/i.test(match)) {
+        return { league, match };
+      }
+    }
+  }
+  
   return { league: '', match: text };
 }
 
 function cleanChannelName(name, index) {
   if (!name) return `Canal ${index + 1}`;
-  const value = String(name).replace(/\s+/g, ' ').replace(/▶|►|▼/g, '').trim();
+  const value = String(name).replace(/\s+/g, ' ').trim();
   return value || `Canal ${index + 1}`;
 }
 
 /* =========================================================
-   PÁGINA
+   EXTRACTOR DE IFRAME (SIN CAMBIOS)
 ========================================================= */
-
-async function newPage(browser) {
-  const page = await browser.newPage();
-  await page.setRequestInterception(true);
-  page.on('request', req => {
-    if (['image', 'font', 'media'].includes(req.resourceType())) req.abort();
-    else req.continue();
-  });
-  await page.setUserAgent(MOBILE_UA);
-  await page.setViewport({ width: 390, height: 844, isMobile: true });
-  return page;
-}
-
-/* =========================================================
-   EXTRACTOR DE IFRAME DEL REPRODUCTOR (ignora anuncios)
-========================================================= */
-
-const AD_PATTERN =
-  /doubleclick|googlesyndication|googleads|adsterra|popads|propeller|exoclick|histats|facebook\.com|twitter\.com|banner|\/ads?[\/\-_.]|adserver|taboola|outbrain/i;
-
 async function getIframeSrc(browser, channelUrl) {
   if (!channelUrl) return null;
 
-  const page = await newPage(browser);
+  const page = await browser.newPage();
   try {
-    await page.goto(channelUrl, { waitUntil: 'domcontentloaded', timeout: 20000 });
-    await page.waitForSelector('iframe', { timeout: 10000 });
-    await sleep(1500); // dar tiempo a que el iframe real reemplace al de carga
+    await page.setRequestInterception(true);
+    page.on('request', req => {
+      if (['image', 'font', 'media'].includes(req.resourceType())) req.abort();
+      else req.continue();
+    });
 
-    const frames = await page.evaluate(() =>
-      Array.from(document.querySelectorAll('iframe')).map(f => {
-        const r = f.getBoundingClientRect();
-        return { src: f.src || f.getAttribute('data-src') || '', area: r.width * r.height };
-      })
-    );
+    await page.goto(channelUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
+
+    await page.waitForSelector('iframe', { timeout: 8000 });
+
+    const src = await page.evaluate(() => {
+      const iframe = document.querySelector('iframe');
+      return iframe ? iframe.src : null;
+    });
 
     await page.close();
-
-    const good = frames
-      .filter(f => /^https?:/i.test(f.src) && !AD_PATTERN.test(f.src))
-      .sort((a, b) => b.area - a.area);
-
-    return good.length ? good[0].src : channelUrl;
+    return src || channelUrl;
   } catch (error) {
     console.log(`   [!] No se pudo extraer iframe de: ${channelUrl}`);
-    await page.close().catch(() => {});
+    await page.close();
     return channelUrl;
   }
 }
@@ -142,213 +123,159 @@ async function getIframeSrc(browser, channelUrl) {
    SCRAPER PRINCIPAL
 ========================================================= */
 
-async function scrapeTarjetaRoja() {
+async function scrapeFutbolLibreMX() {
   console.log('========================================');
-  console.log('Iniciando scraper para tarjetaroja.mba');
+  console.log('Iniciando scraper para rojadirecta.tel');
   console.log('========================================');
 
   const browser = await puppeteer.launch({
     headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu'
+    ]
   });
 
-  const page = await newPage(browser);
+  const page = await browser.newPage();
 
-  // 1) Abrir la página
-  let loaded = false;
-  for (let attempt = 1; attempt <= 3 && !loaded; attempt++) {
-    try {
-      console.log(`[PUP] Cargando página (intento ${attempt}/3)...`);
-      await page.goto(SITE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
-      loaded = true;
-    } catch (err) {
-      console.log(`   [!] Intento ${attempt} falló: ${err.message}`);
-      await sleep(3000 * attempt);
+  await page.setRequestInterception(true);
+  page.on('request', request => {
+    const type = request.resourceType();
+    if (type === 'image' || type === 'font' || type === 'media') {
+      request.abort();
+    } else {
+      request.continue();
     }
-  }
-  if (!loaded) throw new Error('No se pudo cargar tarjetaroja.mba');
+  });
 
-  // 2) Esperar los eventos y marcar cada fila con data-sx
-  await page
-    .waitForFunction(() => /\d{2}:\d{2}[\s\S]{0,200}\svs\s/i.test(document.body.innerText), {
-      timeout: 30000,
-      polling: 1000
-    })
-    .catch(() => console.log('   [!] No aparecieron eventos en 30s'));
-  await sleep(1500);
+  await page.setUserAgent(
+    'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 ' +
+    '(KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36'
+  );
 
-  console.log('[PUP] Extrayendo eventos del DOM...');
+  await page.setViewport({ width: 390, height: 844, isMobile: true });
 
+  console.log('[PUP] Cargando página...');
+
+  await page.goto(SITE_URL, {
+    waitUntil: 'networkidle2',
+    timeout: 60000
+  });
+
+  console.log('[PUP] Página cargada');
+  
+  // Esperar un poco para que la tabla se renderice
+  await new Promise(resolve => setTimeout(resolve, 4000));
+
+  console.log('[PUP] Extrayendo datos del DOM...');
+
+  // CAMBIO 2: Nueva lógica de extracción de la tabla
   const rawRows = await page.evaluate(() => {
-    const re = /^\d{1,2}:\d{2}\s+.+\svs\s.+/i;
-    const norm = el => el.textContent.replace(/\s+/g, ' ').trim();
-    const isRow = el => {
-      const t = norm(el);
-      return t.length < 220 && re.test(t);
-    };
+    const results = [];
+    // En rojadirecta, los partidos suelen ser enlaces dentro de filas de tabla
+    const links = Array.from(document.querySelectorAll('a'));
+    
+    for (const a of links) {
+      const text = a.textContent.trim();
+      // Buscamos textos que tengan pinta de partido
+      if (!text || (!text.includes('vs') && !text.includes('VS') && !text.includes(' - '))) continue;
+      
+      const href = a.getAttribute('href');
+      if (!href) continue;
 
-    const all = Array.from(document.querySelectorAll('li, tr, div, a, p, span'));
-    const rows = all.filter(el => isRow(el) && !Array.from(el.children).some(isRow));
-
-    return rows.map((el, i) => {
-      el.setAttribute('data-sx', String(i));
-      const text = norm(el);
-      const m = text.match(/^(\d{1,2}:\d{2})\s+(.+)$/);
-      return { idx: i, timeText: m ? m[1] : '', titleText: m ? m[2] : text };
-    });
+      // Buscar la hora en el contenedor padre (fila de tabla o li)
+      const container = a.closest('tr') || a.closest('li') || a.parentElement;
+      let timeText = '';
+      if (container) {
+        const timeEl = container.querySelector('.t') || container.querySelector('span');
+        if (timeEl) timeText = timeEl.textContent.trim();
+      }
+      
+      // Solo agregamos si encontramos una hora (formato HH:MM)
+      if (timeText && /\d{2}:\d{2}/.test(timeText)) {
+        results.push({ timeText, titleText: text, href });
+      }
+    }
+    return results;
   });
 
-  console.log(`[PUP] ${rawRows.length} eventos detectados. Abriendo acordeones...`);
+  console.log(`[PUP] ${rawRows.length} filas de canales detectadas. Agrupando eventos...`);
 
-  // Cerrar pestañas de publicidad que se abran al hacer clic
-  let clicking = false;
-  browser.on('targetcreated', async target => {
-    if (!clicking || target.type() !== 'page') return;
-    try {
-      const p = await target.page();
-      if (p && p !== page) await p.close();
-    } catch (e) {}
-  });
-
-  const visibleLinks = () =>
-    page.evaluate(() =>
-      Array.from(document.querySelectorAll('a[href]'))
-        .filter(a => a.getClientRects().length > 0)
-        .map(a => ({
-          href: a.href,
-          text: a.textContent.replace(/\s+/g, ' ').trim()
-        }))
-    );
-
-  // 3) Para cada evento: clic -> leer canales nuevos que aparecen -> cerrar
+  // CAMBIO 3: Lógica de agrupación antes de extraer iframes
   const eventsMap = new Map();
-  let debugShown = 0;
 
   for (const raw of rawRows) {
     const time = normalizeTime(raw.timeText);
     if (!time) continue;
 
     const { league, match } = splitLeagueMatch(raw.titleText);
-    if (!match) continue;
+    const key = `${time}|${match}`;
 
-    const key = `${time}|${match.toLowerCase()}`;
     if (!eventsMap.has(key)) {
       eventsMap.set(key, {
-        time,
+        time: time,
         time_utc: timeMexicoToUTC(time),
-        match,
-        league,
+        match: match || '',
+        league: league || '',
         flag: '⚽',
         channels: []
       });
     }
+
     const event = eventsMap.get(key);
-
-    try {
-      const handle = await page.$(`[data-sx="${raw.idx}"]`);
-      if (!handle) continue;
-
-      const before = new Set((await visibleLinks()).map(l => `${l.href}\t${l.text}`));
-
-      clicking = true;
-      await handle.click();
-      await sleep(600);
-      clicking = false;
-
-      if (!page.url().startsWith(SITE_URL.replace(/\/$/, ''))) {
-        console.log(`   [!] La página redirigió a ${page.url()}, volviendo...`);
-        await page.goBack().catch(() => {});
-        continue;
-      }
-
-      const after = await visibleLinks();
-      const fresh = after.filter(
-        l =>
-          !before.has(`${l.href}\t${l.text}`) &&
-          /^https?:/i.test(l.href) &&
-          l.href.replace(/\/$/, '') !== SITE_URL.replace(/\/$/, '')
-      );
-
-      // preferir enlaces del mismo sitio
-      const sameHost = fresh.filter(l => {
-        try { return new URL(l.href).host === SITE_HOST; } catch (e) { return false; }
-      });
-      const chosen = sameHost.length ? sameHost : fresh;
-
-      for (const l of chosen) {
-        if (!event.channels.find(c => c.originalUrl === l.href)) {
-          event.channels.push({ originalUrl: l.href, name: l.text });
-        }
-      }
-
-      if (chosen.length === 0 && debugShown < 2) {
-        debugShown++;
-        const html = await page.evaluate(i => {
-          const el = document.querySelector(`[data-sx="${i}"]`);
-          return el && el.parentElement ? el.parentElement.outerHTML.slice(0, 900) : '';
-        }, raw.idx);
-        console.log(`   [DEBUG] Sin canales para "${match}". HTML cercano:\n${html}`);
-      }
-
-      // cerrar el acordeón
-      await handle.click().catch(() => {});
-      await sleep(150);
-    } catch (err) {
-      clicking = false;
-      console.log(`   [!] Error con "${match}": ${err.message}`);
+    
+    // El nombre del canal lo sacamos del slug de la URL (ej. .../stream/dsports -> dsports)
+    const channelSlug = raw.href.split('/').filter(Boolean).pop() || `Canal ${event.channels.length + 1}`;
+    
+    // Evitar duplicados de la misma URL en el mismo evento
+    if (!event.channels.find(c => c.originalUrl === raw.href)) {
+      event.channels.push({ originalUrl: raw.href, name: channelSlug });
     }
   }
-
-  await page.close();
-
-  // 4) Resolver iframes (3 en paralelo, con pausa)
-  const cache = new Map();
-  const queue = [];
-  for (const event of eventsMap.values()) {
-    for (const ch of event.channels) queue.push(ch);
-  }
-
-  async function worker() {
-    while (queue.length) {
-      const ch = queue.shift();
-      const abs = new URL(ch.originalUrl, SITE_URL).href;
-      if (!cache.has(abs)) cache.set(abs, await getIframeSrc(browser, abs));
-      ch.resolved = cache.get(abs);
-      await sleep(300);
-    }
-  }
-  await Promise.all([worker(), worker(), worker()]);
 
   const events = [];
 
+  // Ahora resolvemos los iframes para cada grupo de canales
   for (const event of eventsMap.values()) {
     const resolvedChannels = [];
     const seenChannels = new Set();
 
-    event.channels.forEach((ch, i) => {
-      const finalUrl = ch.resolved;
-      if (!finalUrl || seenChannels.has(finalUrl)) return;
+    for (let i = 0; i < event.channels.length; i++) {
+      const ch = event.channels[i];
+      const absoluteUrl = new URL(ch.originalUrl, SITE_URL).href;
+      
+      const finalUrl = await getIframeSrc(browser, absoluteUrl);
+
+      if (!finalUrl || seenChannels.has(finalUrl)) continue;
       seenChannels.add(finalUrl);
-      resolvedChannels.push({ name: cleanChannelName(ch.name, i), url: finalUrl });
-    });
+
+      resolvedChannels.push({
+        name: cleanChannelName(ch.name, i),
+        url: finalUrl
+      });
+    }
 
     event.channels = resolvedChannels;
 
-    console.log(
-      `-- ${event.time || '--:--'} | ${event.league ? event.league + ': ' : ''}${event.match} -> ${event.channels.length} canales`
-    );
+    console.log(`-- ${event.time || '--:--'} | ${event.league ? event.league + ': ' : ''}${event.match} -> ${event.channels.length} canales`);
     events.push(event);
   }
 
+  // Ordenar eventos por hora
   events.sort((a, b) => String(a.time).localeCompare(String(b.time)));
 
+  // Estructura de salida (SIN CAMBIOS)
   const result = {
     actualizado_en: new Date().toISOString(),
     fecha: new Date().toISOString().slice(0, 10),
-    fuente: 'tarjetaroja.mba-puppeteer',
+    fuente: 'rojadirecta.tel-puppeteer',
     contar: events.length,
-    contar_con_canales: events.filter(e => Array.isArray(e.channels) && e.channels.length > 0).length,
-    events,
+    contar_con_canales: events.filter(
+      event => Array.isArray(event.channels) && event.channels.length > 0
+    ).length,
+    events: events,
     eventos: events
   };
 
@@ -363,12 +290,12 @@ async function scrapeTarjetaRoja() {
 
   console.log('[PUP] Navegador cerrado');
   console.log(
-    `LISTO | tarjetaroja.mba-puppeteer | total:${result.contar} | canales:${result.contar_con_canales}`
+    `LISTO | rojadirecta.tel-puppeteer | total:${result.contar} | canales:${result.contar_con_canales}`
   );
   console.log(`Archivo: ${process.cwd()}/${OUTPUT_FILE}`);
 }
 
-scrapeTarjetaRoja().catch(error => {
+scrapeFutbolLibreMX().catch(error => {
   console.error('[PUP] ERROR FATAL:', error);
   process.exit(1);
 });
