@@ -5,7 +5,7 @@ const SITE_URL = 'http://rojadirecta.tel/';
 const OUTPUT_FILE = 'eventos.json';
 
 /* =========================================================
-   UTILIDADES
+   UTILIDADES (SIN CAMBIOS)
 ========================================================= */
 
 function normalizeTime(timeText) {
@@ -14,35 +14,23 @@ function normalizeTime(timeText) {
   return match ? `${match[1].padStart(2, '0')}:${match[2]}` : null;
 }
 
-/*
-  El sitio muestra la hora en UTC-6 (Hora del Centro de México).
-  Sumamos 6 horas para obtener UTC.
-*/
 function timeMexicoToUTC(time) {
   if (!time) return null;
-
   const match = time.match(/^(\d{2}):(\d{2})$/);
   if (!match) return null;
-
   let hour = Number(match[1]);
   const minute = Number(match[2]);
-
-  hour += 6; // Convertir de UTC-6 a UTC
-
+  hour += 6;
   let dayOffset = 0;
   if (hour >= 24) {
     hour -= 24;
     dayOffset = 1;
   }
-
   const now = new Date();
   const year = now.getUTCFullYear();
   const month = now.getUTCMonth();
   const day = now.getUTCDate() + dayOffset;
-
-  return new Date(
-    Date.UTC(year, month, day, hour, minute, 0)
-  ).toISOString();
+  return new Date(Date.UTC(year, month, day, hour, minute, 0)).toISOString();
 }
 
 function splitLeagueMatch(rawTitle) {
@@ -52,7 +40,6 @@ function splitLeagueMatch(rawTitle) {
   if (parts.length >= 2) {
     const league = parts[0];
     let match = parts.slice(1).join(': ').trim();
-    
     const leagueRegex = new RegExp(`^${league.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[:\\s-]+`, 'i');
     match = match.replace(leagueRegex, '').trim();
     
@@ -67,16 +54,13 @@ function splitLeagueMatch(rawTitle) {
     if (idx > -1) {
       const league = text.slice(0, idx).trim();
       let match = text.slice(idx + sep.length).trim();
-      
       const leagueRegex = new RegExp(`^${league.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[:\\s-]+`, 'i');
       match = match.replace(leagueRegex, '').trim();
-      
       if (league && match && /\bvs\.?\b/i.test(match)) {
         return { league, match };
       }
     }
   }
-  
   return { league: '', match: text };
 }
 
@@ -87,11 +71,10 @@ function cleanChannelName(name, index) {
 }
 
 /* =========================================================
-   EXTRACTOR DE IFRAME
+   EXTRACTOR DE IFRAME (SIN CAMBIOS)
 ========================================================= */
 async function getIframeSrc(browser, channelUrl) {
   if (!channelUrl) return null;
-
   const page = await browser.newPage();
   try {
     await page.setRequestInterception(true);
@@ -99,16 +82,12 @@ async function getIframeSrc(browser, channelUrl) {
       if (['image', 'font', 'media'].includes(req.resourceType())) req.abort();
       else req.continue();
     });
-
     await page.goto(channelUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
-
     await page.waitForSelector('iframe', { timeout: 8000 });
-
     const src = await page.evaluate(() => {
       const iframe = document.querySelector('iframe');
       return iframe ? iframe.src : null;
     });
-
     await page.close();
     return src || channelUrl;
   } catch (error) {
@@ -134,8 +113,7 @@ async function scrapeRojadirecta() {
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
       '--disable-gpu',
-      // SOLUCIÓN AL ERROR ERR_BLOCKED_BY_CLIENT EN GITHUB ACTIONS
-      '--disable-features=HttpsFirstBalancedModeAutoEnable'
+      '--disable-features=HttpsFirstBalancedModeAutoEnable' // Para el error ERR_BLOCKED_BY_CLIENT
     ]
   });
 
@@ -159,52 +137,43 @@ async function scrapeRojadirecta() {
   await page.setViewport({ width: 390, height: 844, isMobile: true });
 
   console.log('[PUP] Cargando página...');
-
-  await page.goto(SITE_URL, {
-    waitUntil: 'networkidle2',
-    timeout: 60000
-  });
-
+  await page.goto(SITE_URL, { waitUntil: 'networkidle2', timeout: 60000 });
   console.log('[PUP] Página cargada');
   
   await new Promise(resolve => setTimeout(resolve, 3000));
 
   console.log('[PUP] Extrayendo datos del DOM...');
 
-  // EXTRACCIÓN: Captura la liga y los equipos de la fila completa
+  // LÓGICA RESTAURADA: Busca enlaces <a> y lee el texto del contenedor padre
   const rawRows = await page.evaluate(() => {
     const results = [];
-    const elements = Array.from(document.querySelectorAll('tr, li'));
+    const links = Array.from(document.querySelectorAll('a'));
 
-    for (const el of elements) {
-      const rawText = el.textContent.replace(/\s+/g, ' ').trim();
+    for (const a of links) {
+      const linkText = a.textContent.trim();
       
-      // Debe tener hora y decir "vs"
-      if (!/\d{1,2}:\d{2}/.test(rawText) || !/vs/i.test(rawText)) continue;
+      // Solo procesar enlaces que parezcan partidos
+      if (!linkText || (!linkText.includes('vs') && !linkText.includes('VS') && !linkText.includes(' - '))) continue;
 
-      // Extraer la hora
-      const timeMatch = rawText.match(/(\d{1,2}:\d{2})/);
-      const timeText = timeMatch ? timeMatch[1] : '';
-
-      // Buscar el enlace del partido
-      const a = Array.from(el.querySelectorAll('a')).find(link => /vs/i.test(link.textContent));
-      if (!a) continue;
-      
       const href = a.getAttribute('href');
-      if (!href) continue;
+      if (!href || href === '#') continue;
 
-      // Clonar para limpiar imágenes (banderas) y extraer texto completo
-      const clone = el.cloneNode(true);
-      clone.querySelectorAll('img').forEach(img => img.remove());
-      
-      let titleText = clone.textContent.replace(/\s+/g, ' ').trim();
-      
-      // Quitar la hora del texto final para que splitLeagueMatch no se confunda
-      titleText = titleText.replace(timeText, '').trim();
+      // Obtener el contenedor padre (ahí está la liga)
+      const container = a.closest('tr') || a.closest('li') || a.parentElement;
+      if (!container) continue;
 
-      if (titleText) {
-        results.push({ timeText, titleText, href });
-      }
+      // Obtener TODO el texto del contenedor (Liga + Equipos + Hora)
+      const containerText = container.textContent.replace(/\s+/g, ' ').trim();
+      
+      // Extraer la hora (HH:MM)
+      const timeMatch = containerText.match(/\b\d{1,2}:\d{2}\b/);
+      if (!timeMatch) continue;
+      const timeText = timeMatch[0];
+
+      // Quitar la hora del texto para que quede: "Liga: Equipo vs Equipo"
+      let titleText = containerText.replace(timeText, '').trim();
+
+      results.push({ timeText, titleText, href });
     }
     return results;
   });
@@ -250,7 +219,6 @@ async function scrapeRojadirecta() {
     for (let i = 0; i < event.channels.length; i++) {
       const ch = event.channels[i];
       const absoluteUrl = new URL(ch.originalUrl, SITE_URL).href;
-      
       const finalUrl = await getIframeSrc(browser, absoluteUrl);
 
       if (!finalUrl || seenChannels.has(finalUrl)) continue;
@@ -263,15 +231,12 @@ async function scrapeRojadirecta() {
     }
 
     event.channels = resolvedChannels;
-
     console.log(`-- ${event.time || '--:--'} | ${event.league ? event.league + ': ' : ''}${event.match} -> ${event.channels.length} canales`);
     events.push(event);
   }
 
-  // ORDENAR
   events.sort((a, b) => String(a.time).localeCompare(String(b.time)));
 
-  // SALIDA JSON
   const result = {
     actualizado_en: new Date().toISOString(),
     fecha: new Date().toISOString().slice(0, 10),
@@ -294,9 +259,7 @@ async function scrapeRojadirecta() {
   await browser.close();
 
   console.log('[PUP] Navegador cerrado');
-  console.log(
-    `LISTO | rojadirecta.tel-puppeteer | total:${result.contar} | canales:${result.contar_con_canales}`
-  );
+  console.log(`LISTO | rojadirecta.tel-puppeteer | total:${result.contar} | canales:${result.contar_con_canales}`);
   console.log(`Archivo: ${process.cwd()}/${OUTPUT_FILE}`);
 }
 
