@@ -103,13 +103,28 @@ async function preparePage(browser) {
 
 async function loadMainPage(browser) {
   // Intento 1-3: navegación normal, pero SIN esperar a que la red quede quieta
+  const urls = [SITE_URL, SITE_URL.replace('http://', 'https://'), SITE_URL];
   for (let attempt = 1; attempt <= 3; attempt++) {
     const page = await preparePage(browser);
+    const url = urls[attempt - 1];
     try {
-      console.log(`[PUP] Cargando página (intento ${attempt}/3)...`);
-      await page.goto(SITE_URL, { waitUntil: 'domcontentloaded', timeout: 45000 });
-      await page.waitForSelector('a', { timeout: 15000 });
-      await new Promise(r => setTimeout(r, 3000));
+      console.log(`[PUP] Cargando ${url} (intento ${attempt}/3)...`);
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45000 });
+
+      // Esperar a que la tabla tenga partidos con hora (mínimo 5 filas)
+      await page.waitForFunction(
+        () => {
+          let n = 0;
+          for (const a of document.querySelectorAll('a')) {
+            if (!/\bvs\b/i.test(a.textContent)) continue;
+            const c = a.closest('tr') || a.closest('li') || a.parentElement;
+            if (c && /\b\d{2}:\d{2}\b/.test(c.textContent)) n++;
+          }
+          return n >= 5;
+        },
+        { timeout: 30000, polling: 1000 }
+      );
+      await new Promise(r => setTimeout(r, 2000));
       return page;
     } catch (err) {
       console.log(`   [!] Intento ${attempt} falló: ${err.message}`);
