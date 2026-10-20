@@ -1,12 +1,12 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-// URL objetivo
+// CAMBIO 1: Nueva URL objetivo
 const SITE_URL = 'http://rojadirecta.tel/';
 const OUTPUT_FILE = 'eventos.json';
 
 /* =========================================================
-   UTILIDADES
+   UTILIDADES (SIN CAMBIOS)
 ========================================================= */
 
 function normalizeTime(timeText) {
@@ -46,54 +46,29 @@ function timeMexicoToUTC(time) {
   ).toISOString();
 }
 
-// Función mejorada para limpiar códigos de país (MEX, SUD, COL, etc.) y extraer la liga
 function splitLeagueMatch(rawTitle) {
-  let text = String(rawTitle || '').replace(/\s+/g, ' ').trim();
-
-  // Códigos de país comunes en el sitio
-  const countryCodes = ['MEX', 'COL', 'SUD', 'ARG', 'BRA', 'ESP', 'ENG', 'ITA', 'FRA', 'ALE', 'USA', 'URU', 'PAR', 'CHI', 'ECU', 'PER', 'BOL', 'VEN'];
-
-  // 1. Intentar separar por dos puntos ":"
+  const text = String(rawTitle || '').replace(/\s+/g, ' ').trim();
+  
   const parts = text.split(':').map(p => p.trim());
   if (parts.length >= 2) {
-    let league = parts[0];
+    const league = parts[0];
     let match = parts.slice(1).join(': ').trim();
-
-    // Caso: "MEX:Liga MX:Guadalajara vs Necaxa"
-    if (countryCodes.includes(league.toUpperCase()) && parts.length >= 3) {
-        league = parts[1];
-        match = parts.slice(2).join(': ').trim();
-    } 
-    // Caso: "MEX Liga MX:Guadalajara vs Necaxa"
-    else {
-        const leagueWords = league.split(/\s+/);
-        if (leagueWords.length > 1 && countryCodes.includes(leagueWords[0].toUpperCase())) {
-            league = leagueWords.slice(1).join(' ');
-        }
-    }
-
-    // Limpiar si el nombre de la liga se repite al inicio del partido
+    
     const leagueRegex = new RegExp(`^${league.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[:\\s-]+`, 'i');
     match = match.replace(leagueRegex, '').trim();
-
+    
     if (league && match) {
       return { league, match };
     }
   }
   
-  // 2. Intentar separar por guiones
   const separators = ['–', '—', ' - '];
   for (const sep of separators) {
     const idx = text.indexOf(sep);
     if (idx > -1) {
-      let league = text.slice(0, idx).trim();
+      const league = text.slice(0, idx).trim();
       let match = text.slice(idx + sep.length).trim();
       
-      const leagueWords = league.split(/\s+/);
-      if (leagueWords.length > 1 && countryCodes.includes(leagueWords[0].toUpperCase())) {
-          league = leagueWords.slice(1).join(' ');
-      }
-
       const leagueRegex = new RegExp(`^${league.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[:\\s-]+`, 'i');
       match = match.replace(leagueRegex, '').trim();
       
@@ -113,7 +88,7 @@ function cleanChannelName(name, index) {
 }
 
 /* =========================================================
-   EXTRACTOR DE IFRAME
+   EXTRACTOR DE IFRAME (SIN CAMBIOS)
 ========================================================= */
 async function getIframeSrc(browser, channelUrl) {
   if (!channelUrl) return null;
@@ -122,7 +97,6 @@ async function getIframeSrc(browser, channelUrl) {
   try {
     await page.setRequestInterception(true);
     page.on('request', req => {
-      // Permitir siempre documentos (HTML), bloquear imágenes/fuentes/videos para ahorrar datos
       if (['image', 'font', 'media'].includes(req.resourceType())) req.abort();
       else req.continue();
     });
@@ -160,9 +134,7 @@ async function scrapeFutbolLibreMX() {
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
-      '--disable-gpu',
-      // SOLUCIÓN AL ERROR ERR_BLOCKED_BY_CLIENT: Evita que Chrome bloquee sitios HTTP
-      '--disable-features=HttpsFirstBalancedModeAutoEnable'
+      '--disable-gpu'
     ]
   });
 
@@ -171,14 +143,6 @@ async function scrapeFutbolLibreMX() {
   await page.setRequestInterception(true);
   page.on('request', request => {
     const type = request.resourceType();
-    
-    // SOLUCIÓN AL ERROR: Nunca abortar el documento principal (la página web en sí)
-    if (type === 'document') {
-      request.continue();
-      return;
-    }
-    
-    // Ahorro de ancho de banda
     if (type === 'image' || type === 'font' || type === 'media') {
       request.abort();
     } else {
@@ -202,45 +166,36 @@ async function scrapeFutbolLibreMX() {
 
   console.log('[PUP] Página cargada');
   
-  // Esperar un poco para que la tabla se renderice dinámicamente
+  // Esperar un poco para que la tabla se renderice
   await new Promise(resolve => setTimeout(resolve, 4000));
 
   console.log('[PUP] Extrayendo datos del DOM...');
 
-  // Extracción mejorada para buscar la liga en caso de que esté fuera del enlace principal
+  // CAMBIO 2: Nueva lógica de extracción de la tabla
   const rawRows = await page.evaluate(() => {
     const results = [];
+    // En rojadirecta, los partidos suelen ser enlaces dentro de filas de tabla
     const links = Array.from(document.querySelectorAll('a'));
     
     for (const a of links) {
-      const href = a.getAttribute('href');
-      if (!href || href.startsWith('javascript') || href === '#') continue;
-
-      const text = a.textContent.replace(/\s+/g, ' ').trim();
-      if (!text || (!/vs\.?/i.test(text) && !/ - /.test(text))) continue;
+      const text = a.textContent.trim();
+      // Buscamos textos que tengan pinta de partido
+      if (!text || (!text.includes('vs') && !text.includes('VS') && !text.includes(' - '))) continue;
       
+      const href = a.getAttribute('href');
+      if (!href) continue;
+
+      // Buscar la hora en el contenedor padre (fila de tabla o li)
       const container = a.closest('tr') || a.closest('li') || a.parentElement;
       let timeText = '';
-      
       if (container) {
         const timeEl = container.querySelector('.t') || container.querySelector('span');
         if (timeEl) timeText = timeEl.textContent.trim();
-        
-        // Fallback si la hora no está en un span específico
-        if (!/\d{2}:\d{2}/.test(timeText)) {
-            const timeMatch = container.textContent.match(/\b\d{2}:\d{2}\b/);
-            if (timeMatch) timeText = timeMatch[0];
-        }
       }
       
+      // Solo agregamos si encontramos una hora (formato HH:MM)
       if (timeText && /\d{2}:\d{2}/.test(timeText)) {
-        // Intentar buscar la liga en un elemento hermano si no viene en el texto del enlace
-        let leagueText = '';
-        if (container) {
-            const leagueEl = container.querySelector('.league') || container.querySelector('.liga');
-            if (leagueEl) leagueText = leagueEl.textContent.trim();
-        }
-        results.push({ timeText, titleText: text, leagueText, href });
+        results.push({ timeText, titleText: text, href });
       }
     }
     return results;
@@ -248,23 +203,14 @@ async function scrapeFutbolLibreMX() {
 
   console.log(`[PUP] ${rawRows.length} filas de canales detectadas. Agrupando eventos...`);
 
+  // CAMBIO 3: Lógica de agrupación antes de extraer iframes
   const eventsMap = new Map();
 
   for (const raw of rawRows) {
     const time = normalizeTime(raw.timeText);
     if (!time) continue;
 
-    let { league, match } = splitLeagueMatch(raw.titleText);
-
-    // Si no se detectó liga en el texto, usar la del contenedor si existe
-    if (!league && raw.leagueText) {
-        league = raw.leagueText;
-        // Limpiar el nombre de la liga del inicio del partido si se duplica
-        if (match.startsWith(league + ':')) {
-            match = match.substring(league.length + 1).trim();
-        }
-    }
-
+    const { league, match } = splitLeagueMatch(raw.titleText);
     const key = `${time}|${match}`;
 
     if (!eventsMap.has(key)) {
@@ -280,7 +226,7 @@ async function scrapeFutbolLibreMX() {
 
     const event = eventsMap.get(key);
     
-    // El nombre del canal lo sacamos del slug de la URL
+    // El nombre del canal lo sacamos del slug de la URL (ej. .../stream/dsports -> dsports)
     const channelSlug = raw.href.split('/').filter(Boolean).pop() || `Canal ${event.channels.length + 1}`;
     
     // Evitar duplicados de la misma URL en el mismo evento
@@ -291,7 +237,7 @@ async function scrapeFutbolLibreMX() {
 
   const events = [];
 
-  // Resolver los iframes para cada grupo de canales
+  // Ahora resolvemos los iframes para cada grupo de canales
   for (const event of eventsMap.values()) {
     const resolvedChannels = [];
     const seenChannels = new Set();
@@ -320,7 +266,7 @@ async function scrapeFutbolLibreMX() {
   // Ordenar eventos por hora
   events.sort((a, b) => String(a.time).localeCompare(String(b.time)));
 
-  // Estructura de salida
+  // Estructura de salida (SIN CAMBIOS)
   const result = {
     actualizado_en: new Date().toISOString(),
     fecha: new Date().toISOString().slice(0, 10),
