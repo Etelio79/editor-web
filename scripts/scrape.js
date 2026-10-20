@@ -1,66 +1,103 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
+// CAMBIO 1: Nueva URL objetivo
 const SITE_URL = 'http://rojadirecta.tel/';
 const OUTPUT_FILE = 'eventos.json';
 
 /* =========================================================
-   UTILIDADES (SIN CAMBIOS)
+   UTILIDADES
 ========================================================= */
 
 function normalizeTime(timeText) {
   if (!timeText) return null;
-  const match = String(timeText).trim().match(/^(\d{1,2}):(\d{2})/);
-  return match ? `${match[1].padStart(2, '0')}:${match[2]}` : null;
+  const match = String(timeText).trim().match(/^(\d{2}):(\d{2})/);
+  return match ? `${match[1]}:${match[2]}` : null;
 }
 
 function timeMexicoToUTC(time) {
   if (!time) return null;
   const match = time.match(/^(\d{2}):(\d{2})$/);
   if (!match) return null;
+
   let hour = Number(match[1]);
   const minute = Number(match[2]);
-  hour += 6;
+
+  hour += 6; // Convertir de UTC-6 a UTC
+
   let dayOffset = 0;
   if (hour >= 24) {
     hour -= 24;
     dayOffset = 1;
   }
+
   const now = new Date();
   const year = now.getUTCFullYear();
   const month = now.getUTCMonth();
   const day = now.getUTCDate() + dayOffset;
-  return new Date(Date.UTC(year, month, day, hour, minute, 0)).toISOString();
+
+  return new Date(
+    Date.UTC(year, month, day, hour, minute, 0)
+  ).toISOString();
 }
 
+// CAMBIO 2: Función mejorada para limpiar códigos de país y extraer la liga correctamente
 function splitLeagueMatch(rawTitle) {
-  const text = String(rawTitle || '').replace(/\s+/g, ' ').trim();
-  
+  let text = String(rawTitle || '').replace(/\s+/g, ' ').trim();
+
+  // Lista de códigos de país que el sitio suele anteponer
+  const countryCodes = ['MEX', 'COL', 'SUD', 'ARG', 'BRA', 'ESP', 'ENG', 'ITA', 'FRA', 'ALE', 'USA', 'URU', 'PAR', 'CHI', 'ECU', 'PER', 'BOL', 'VEN'];
+
+  // 1. Intentar separar por dos puntos ":"
   const parts = text.split(':').map(p => p.trim());
   if (parts.length >= 2) {
-    const league = parts[0];
+    let league = parts[0];
     let match = parts.slice(1).join(': ').trim();
+
+    // Caso: "MEX:Liga MX:Guadalajara vs Necaxa"
+    if (countryCodes.includes(league.toUpperCase()) && parts.length >= 3) {
+        league = parts[1];
+        match = parts.slice(2).join(': ').trim();
+    } 
+    // Caso: "MEX Liga MX:Guadalajara vs Necaxa"
+    else {
+        const leagueWords = league.split(/\s+/);
+        if (leagueWords.length > 1 && countryCodes.includes(leagueWords[0].toUpperCase())) {
+            league = leagueWords.slice(1).join(' ');
+        }
+    }
+
+    // Limpiar si el nombre de la liga se repite al inicio del partido
     const leagueRegex = new RegExp(`^${league.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[:\\s-]+`, 'i');
     match = match.replace(leagueRegex, '').trim();
-    
+
     if (league && match) {
       return { league, match };
     }
   }
   
+  // 2. Intentar separar por guiones
   const separators = ['–', '—', ' - '];
   for (const sep of separators) {
     const idx = text.indexOf(sep);
     if (idx > -1) {
-      const league = text.slice(0, idx).trim();
+      let league = text.slice(0, idx).trim();
       let match = text.slice(idx + sep.length).trim();
+      
+      const leagueWords = league.split(/\s+/);
+      if (leagueWords.length > 1 && countryCodes.includes(leagueWords[0].toUpperCase())) {
+          league = leagueWords.slice(1).join(' ');
+      }
+
       const leagueRegex = new RegExp(`^${league.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[:\\s-]+`, 'i');
       match = match.replace(leagueRegex, '').trim();
+      
       if (league && match && /\bvs\.?\b/i.test(match)) {
         return { league, match };
       }
     }
   }
+  
   return { league: '', match: text };
 }
 
@@ -71,10 +108,11 @@ function cleanChannelName(name, index) {
 }
 
 /* =========================================================
-   EXTRACTOR DE IFRAME (Aumento de timeout a 15s)
+   EXTRACTOR DE IFRAME
 ========================================================= */
 async function getIframeSrc(browser, channelUrl) {
   if (!channelUrl) return null;
+
   const page = await browser.newPage();
   try {
     await page.setRequestInterception(true);
@@ -82,15 +120,15 @@ async function getIframeSrc(browser, channelUrl) {
       if (['image', 'font', 'media'].includes(req.resourceType())) req.abort();
       else req.continue();
     });
-    await page.goto(channelUrl, { waitUntil: 'domcontentloaded', timeout: 20000 });
-    
-    // Aumentamos a 15 segundos por si el reproductor tarda en cargar
-    await page.waitForSelector('iframe', { timeout: 15000 });
-    
+
+    await page.goto(channelUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
+    await page.waitForSelector('iframe', { timeout: 8000 });
+
     const src = await page.evaluate(() => {
       const iframe = document.querySelector('iframe');
       return iframe ? iframe.src : null;
     });
+
     await page.close();
     return src || channelUrl;
   } catch (error) {
@@ -104,7 +142,7 @@ async function getIframeSrc(browser, channelUrl) {
    SCRAPER PRINCIPAL
 ========================================================= */
 
-async function scrapeRojadirecta() {
+async function scrapeFutbolLibreMX() {
   console.log('========================================');
   console.log('Iniciando scraper para rojadirecta.tel');
   console.log('========================================');
@@ -115,8 +153,7 @@ async function scrapeRojadirecta() {
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
-      '--disable-gpu',
-      '--disable-features=HttpsFirstBalancedModeAutoEnable'
+      '--disable-gpu'
     ]
   });
 
@@ -140,65 +177,75 @@ async function scrapeRojadirecta() {
   await page.setViewport({ width: 390, height: 844, isMobile: true });
 
   console.log('[PUP] Cargando página...');
-  await page.goto(SITE_URL, { waitUntil: 'networkidle2', timeout: 60000 });
+
+  await page.goto(SITE_URL, {
+    waitUntil: 'networkidle2',
+    timeout: 60000
+  });
+
   console.log('[PUP] Página cargada');
-  
-  // Hacer scroll para forzar la carga de todos los eventos si hay "lazy loading"
-  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-  await new Promise(resolve => setTimeout(resolve, 3000));
+  await new Promise(resolve => setTimeout(resolve, 4000));
 
   console.log('[PUP] Extrayendo datos del DOM...');
 
-  // NUEVA LÓGICA: Recorre todos los <a>, sube a su contenedor y busca Hora + "vs"
+  // CAMBIO 3: Extracción mejorada para buscar la liga en caso de que esté fuera del enlace
   const rawRows = await page.evaluate(() => {
     const results = [];
     const links = Array.from(document.querySelectorAll('a'));
-
+    
     for (const a of links) {
       const href = a.getAttribute('href');
-      if (!href || href === '#' || href.startsWith('javascript')) continue;
+      if (!href || href.startsWith('javascript') || href === '#') continue;
 
-      let container = a;
+      const text = a.textContent.replace(/\s+/g, ' ').trim();
+      if (!text || (!/vs\.?/i.test(text) && !/ - /.test(text))) continue;
+      
+      const container = a.closest('tr') || a.closest('li') || a.parentElement;
       let timeText = '';
-      let titleText = '';
-
-      // Subir hasta 5 niveles en el HTML para encontrar la fila entera
-      for (let i = 0; i < 5; i++) {
-        if (!container) break;
+      
+      if (container) {
+        const timeEl = container.querySelector('.t') || container.querySelector('span');
+        if (timeEl) timeText = timeEl.textContent.trim();
         
-        const text = container.textContent.replace(/\s+/g, ' ').trim();
-        
-        // Verificar si este contenedor tiene la hora y el partido
-        if (/\b\d{1,2}:\d{2}\b/.test(text) && (/\bvs\b/i.test(text) || / - /.test(text))) {
-          const timeMatch = text.match(/\b\d{1,2}:\d{2}\b/);
-          timeText = timeMatch[0];
-          // Quitar la hora del texto para que quede "Liga: Equipo vs Equipo"
-          titleText = text.replace(timeText, '').trim();
-          break;
+        // Fallback si la hora no está en un span específico
+        if (!/\d{2}:\d{2}/.test(timeText)) {
+            const timeMatch = container.textContent.match(/\b\d{2}:\d{2}\b/);
+            if (timeMatch) timeText = timeMatch[0];
         }
-        container = container.parentElement;
       }
-
-      if (timeText && titleText) {
-        // Evitar procesar el mismo enlace dos veces
-        if (!results.find(r => r.href === href && r.timeText === timeText)) {
-          results.push({ timeText, titleText, href });
+      
+      if (timeText && /\d{2}:\d{2}/.test(timeText)) {
+        // Intentar buscar la liga en un elemento hermano (por si no está en el texto del enlace)
+        let leagueText = '';
+        if (container) {
+            const leagueEl = container.querySelector('.league') || container.querySelector('.liga');
+            if (leagueEl) leagueText = leagueEl.textContent.trim();
         }
+        results.push({ timeText, titleText: text, leagueText, href });
       }
     }
     return results;
   });
 
-  console.log(`[PUP] ${rawRows.length} filas detectadas. Agrupando eventos...`);
+  console.log(`[PUP] ${rawRows.length} filas de canales detectadas. Agrupando eventos...`);
 
-  // AGRUPACIÓN
   const eventsMap = new Map();
 
   for (const raw of rawRows) {
     const time = normalizeTime(raw.timeText);
     if (!time) continue;
 
-    const { league, match } = splitLeagueMatch(raw.titleText);
+    let { league, match } = splitLeagueMatch(raw.titleText);
+
+    // Si no se detectó liga en el texto, usar la del contenedor si existe
+    if (!league && raw.leagueText) {
+        league = raw.leagueText;
+        // Limpiar el nombre de la liga del inicio del partido si se duplica
+        if (match.startsWith(league + ':')) {
+            match = match.substring(league.length + 1).trim();
+        }
+    }
+
     const key = `${time}|${match}`;
 
     if (!eventsMap.has(key)) {
@@ -222,7 +269,6 @@ async function scrapeRojadirecta() {
 
   const events = [];
 
-  // PROCESAMIENTO DE CANALES E IFRAMES
   for (const event of eventsMap.values()) {
     const resolvedChannels = [];
     const seenChannels = new Set();
@@ -243,6 +289,7 @@ async function scrapeRojadirecta() {
     }
 
     event.channels = resolvedChannels;
+
     console.log(`-- ${event.time || '--:--'} | ${event.league ? event.league + ': ' : ''}${event.match} -> ${event.channels.length} canales`);
     events.push(event);
   }
@@ -269,13 +316,12 @@ async function scrapeRojadirecta() {
   console.log('========================================');
 
   await browser.close();
-
   console.log('[PUP] Navegador cerrado');
   console.log(`LISTO | rojadirecta.tel-puppeteer | total:${result.contar} | canales:${result.contar_con_canales}`);
   console.log(`Archivo: ${process.cwd()}/${OUTPUT_FILE}`);
 }
 
-scrapeRojadirecta().catch(error => {
+scrapeFutbolLibreMX().catch(error => {
   console.error('[PUP] ERROR FATAL:', error);
   process.exit(1);
 });
