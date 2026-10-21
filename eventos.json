@@ -1,96 +1,23 @@
 {
-  "actualizado_en": "2026-10-21T03:05:55.100Z",
+  "actualizado_en": "2026-10-21T13:47:03.927564+00:00",
   "fecha": "2026-10-21",
-  "fuente": "futbollibremx.mx-puppeteer",
-  "contar": 6,
-  "contar_con_canales": 6,
+  "fuente": "rojadirecta.tel-playwright",
+  "contar": 1,
+  "contar_con_canales": 1,
   "events": [
     {
-      "time": "01:00",
-      "time_utc": "2026-10-21T07:00:00.000Z",
-      "match": "Atlético San Luis vs Querétaro",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney11",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-10-21T07:00:00.000Z",
-      "match": "Juárez vs Atlante",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Azteca 7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
-        },
-        {
-          "name": "Fox Deportes Usa",
-          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
-        }
-      ]
-    },
-    {
-      "time": "01:30",
-      "time_utc": "2026-10-21T07:30:00.000Z",
-      "match": "Thunder vs Spurs",
-      "league": "NBA",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Max2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max2"
-        }
-      ]
-    },
-    {
-      "time": "01:30",
-      "time_utc": "2026-10-21T07:30:00.000Z",
-      "match": "Millonarios vs Once Caldas",
-      "league": "Liga BetPlay",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win+",
-          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
-        }
-      ]
-    },
-    {
-      "time": "02:00",
-      "time_utc": "2026-10-21T08:00:00.000Z",
-      "match": "Marathón vs Alianza",
-      "league": "Copa Centroamericana de CONCACAF",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney12",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
-        }
-      ]
-    },
-    {
       "time": "03:00",
-      "time_utc": "2026-10-21T09:00:00.000Z",
+      "time_utc": "2026-10-21T09:00:00+00:00",
       "match": "Tigres UANL vs León",
-      "league": "Liga MX",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Azteca 7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
+          "name": "azteca7",
+          "url": "https://streamxhd.st/live1.php?stream=azteca7"
         },
         {
-          "name": "Fox Deportes Usa",
-          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
-        },
-        {
-          "name": "Universo",
+          "name": "universo_usa",
           "url": "https://streamtp99a.sbs/global1.php?stream=universo_usa"
         }
       ]
@@ -98,91 +25,18 @@
   ],
   "eventos": [
     {
-      "time": "01:00",
-      "time_utc": "2026-10-21T07:00:00.000Z",
-      "match": "Atlético San Luis vs Querétaro",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney11",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-10-21T07:00:00.000Z",
-      "match": "Juárez vs Atlante",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Azteca 7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
-        },
-        {
-          "name": "Fox Deportes Usa",
-          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
-        }
-      ]
-    },
-    {
-      "time": "01:30",
-      "time_utc": "2026-10-21T07:30:00.000Z",
-      "match": "Thunder vs Spurs",
-      "league": "NBA",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Max2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max2"
-        }
-      ]
-    },
-    {
-      "time": "01:30",
-      "time_utc": "2026-10-21T07:30:00.000Z",
-      "match": "Millonarios vs Once Caldas",
-      "league": "Liga BetPlay",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win+",
-          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
-        }
-      ]
-    },
-    {
-      "time": "02:00",
-      "time_utc": "2026-10-21T08:00:00.000Z",
-      "match": "Marathón vs Alianza",
-      "league": "Copa Centroamericana de CONCACAF",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney12",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
-        }
-      ]
-    },
-    {
       "time": "03:00",
-      "time_utc": "2026-10-21T09:00:00.000Z",
+      "time_utc": "2026-10-21T09:00:00+00:00",
       "match": "Tigres UANL vs León",
-      "league": "Liga MX",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Azteca 7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
+          "name": "azteca7",
+          "url": "https://streamxhd.st/live1.php?stream=azteca7"
         },
         {
-          "name": "Fox Deportes Usa",
-          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
-        },
-        {
-          "name": "Universo",
+          "name": "universo_usa",
           "url": "https://streamtp99a.sbs/global1.php?stream=universo_usa"
         }
       ]
