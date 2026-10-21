@@ -1,27 +1,52 @@
 {
-  "actualizado_en": "2026-10-21T02:51:11.444008+00:00",
+  "actualizado_en": "2026-10-21T02:59:29.605606+00:00",
   "fecha": "2026-10-21",
-  "fuente": "futbollibremx.mx-playwright",
-  "contar": 7,
-  "contar_con_canales": 7,
+  "fuente": "rojadirecta.tel-playwright",
+  "contar": 28,
+  "contar_con_canales": 28,
   "events": [
+    {
+      "time": "00:07",
+      "time_utc": "2026-10-21T06:07:00+00:00",
+      "match": "Guadalajara vs Necaxa",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "primevideo",
+          "url": "https://streamxhd.st/live1.php?stream=amazon1"
+        },
+        {
+          "name": "universo_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=universo_usa"
+        }
+      ]
+    },
     {
       "time": "00:30",
       "time_utc": "2026-10-21T06:30:00+00:00",
       "match": "Vasco da Gama vs Boca Juniors",
-      "league": "Copa Sudamericana",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Dsports FullHD Recomendado F",
-          "url": "https://streamtp99a.sbs/return/dsports-fullHD-recomendado.html"
+          "name": "dsportsop2",
+          "url": "https://streamxhd.st/live1.php?stream=dsports"
         },
         {
-          "name": "Disney10",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
+          "name": "dspts",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports"
         },
         {
-          "name": "Espn",
+          "name": "disney10",
+          "url": "https://streamxhd.st/live2.php?stream=disney10"
+        },
+        {
+          "name": "espnar",
+          "url": "https://streamxhd.st/live1.php?stream=espnar"
+        },
+        {
+          "name": "espn",
           "url": "https://streamtp99a.sbs/global1.php?stream=espn"
         }
       ]
@@ -30,12 +55,12 @@
       "time": "01:00",
       "time_utc": "2026-10-21T07:00:00+00:00",
       "match": "Atlético San Luis vs Querétaro",
-      "league": "Liga MX",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney11",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
+          "name": "disney11",
+          "url": "https://streamxhd.st/live2.php?stream=disney11"
         }
       ]
     },
@@ -43,29 +68,20 @@
       "time": "01:00",
       "time_utc": "2026-10-21T07:00:00+00:00",
       "match": "Juárez vs Atlante",
-      "league": "Liga MX",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Azteca 7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
+          "name": "azteca7",
+          "url": "https://streamxhd.st/live1.php?stream=azteca7"
         },
         {
-          "name": "Fox Deportes Usa",
-          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
-        }
-      ]
-    },
-    {
-      "time": "01:30",
-      "time_utc": "2026-10-21T07:30:00+00:00",
-      "match": "Thunder vs Spurs",
-      "league": "NBA",
-      "flag": "⚽",
-      "channels": [
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
         {
-          "name": "Max2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max2"
+          "name": "fox_deportes_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
         }
       ]
     },
@@ -73,12 +89,33 @@
       "time": "01:30",
       "time_utc": "2026-10-21T07:30:00+00:00",
       "match": "Millonarios vs Once Caldas",
-      "league": "Liga BetPlay",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Win+",
+          "name": "winplus",
           "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-10-21T07:30:00+00:00",
+      "match": "Spurs vs Thunder",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "max4",
+          "url": "https://streamxhd.st/live1.php?stream=max4"
+        },
+        {
+          "name": "nbaleaguepass3",
+          "url": "https://streamxhd.st/live1.php?stream=nba3"
         }
       ]
     },
@@ -86,12 +123,12 @@
       "time": "02:00",
       "time_utc": "2026-10-21T08:00:00+00:00",
       "match": "Marathón vs Alianza",
-      "league": "Copa Centroamericana de CONCACAF",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney12",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
+          "name": "disney12",
+          "url": "https://streamxhd.st/live2.php?stream=disney12"
         }
       ]
     },
@@ -99,42 +136,475 @@
       "time": "03:00",
       "time_utc": "2026-10-21T09:00:00+00:00",
       "match": "Tigres UANL vs León",
-      "league": "Liga MX",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Azteca 7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
+          "name": "azteca7",
+          "url": "https://streamxhd.st/live1.php?stream=azteca7"
         },
         {
-          "name": "Fox Deportes Usa",
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
+        {
+          "name": "universo_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=universo_usa"
+        },
+        {
+          "name": "fox_deportes_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-10-21T21:00:00+00:00",
+      "match": "Argentina vs Nueva Zelanda",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsports2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
+        },
+        {
+          "name": "tudn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
+        }
+      ]
+    },
+    {
+      "time": "15:10",
+      "time_utc": "2026-10-21T21:10:00+00:00",
+      "match": "Al Taawon vs Al Qadisiya",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
+        {
+          "name": "fox_deportes_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-21T22:45:00+00:00",
+      "match": "Fenerbahçe vs Slavia Praha",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-1",
+          "url": "https://streamxhd.st/live2.php?stream=disney1"
+        },
+        {
+          "name": "espn2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+        },
+        {
+          "name": "espn-2-stxhd",
+          "url": "https://streamxhd.st/live2.php?stream=espn2"
+        },
+        {
+          "name": "espn2ar",
+          "url": "https://streamxhd.st/live1.php?stream=espn2ar"
+        },
+        {
+          "name": "vix1",
+          "url": "https://streamxhd.st/live1.php?stream=vix1"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-21T22:45:00+00:00",
+      "match": "Sabah vs Borussia Dortmund",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-2",
+          "url": "https://streamxhd.st/live2.php?stream=disney2"
+        },
+        {
+          "name": "espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        },
+        {
+          "name": "fox1ar",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox1ar"
+        },
+        {
+          "name": "max1",
+          "url": "https://streamxhd.st/live1.php?stream=max1"
+        },
+        {
+          "name": "tudn_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudn_usa"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-22T00:00:00+00:00",
+      "match": "Marruecos vs Alemania",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "tudn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-22T00:00:00+00:00",
+      "match": "Al Nassr vs NEOM",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
+        {
+          "name": "fox_deportes_usa",
           "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
         },
         {
-          "name": "Universo",
-          "url": "https://streamtp99a.sbs/global1.php?stream=universo_usa"
+          "name": "sporttvbr1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sporttvbr1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "PSG vs Barcelona",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-3",
+          "url": "https://streamxhd.st/live2.php?stream=disney3"
+        },
+        {
+          "name": "espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        },
+        {
+          "name": "espn-1",
+          "url": "https://streamxhd.st/live2.php?stream=espn"
+        },
+        {
+          "name": "espnar",
+          "url": "https://streamxhd.st/live1.php?stream=espnar"
+        },
+        {
+          "name": "max1",
+          "url": "https://streamxhd.st/live1.php?stream=max1"
+        },
+        {
+          "name": "tudn_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudn_usa"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Liverpool vs Villarreal",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-4",
+          "url": "https://streamxhd.st/live2.php?stream=disney4"
+        },
+        {
+          "name": "espn2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+        },
+        {
+          "name": "espn-2-stxhd",
+          "url": "https://streamxhd.st/live2.php?stream=espn2"
+        },
+        {
+          "name": "max2",
+          "url": "https://streamxhd.st/live1.php?stream=max2"
+        },
+        {
+          "name": "vix2",
+          "url": "https://streamxhd.st/live1.php?stream=vix2"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Stuttgart vs Atlético Madrid",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-5",
+          "url": "https://streamxhd.st/live2.php?stream=disney5"
+        },
+        {
+          "name": "espn7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn7"
+        },
+        {
+          "name": "fox2ar",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox2ar"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Manchester City vs AEK Athens",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-6",
+          "url": "https://streamxhd.st/live2.php?stream=disney6"
+        },
+        {
+          "name": "espn5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn5"
+        },
+        {
+          "name": "fox1ar",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox1ar"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Roma vs Slovan Bratislava",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-7",
+          "url": "https://streamxhd.st/live2.php?stream=disney7"
+        },
+        {
+          "name": "espn3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn3"
+        },
+        {
+          "name": "vix3",
+          "url": "https://streamxhd.st/live1.php?stream=vix3"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Porto vs PSV",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney8",
+          "url": "https://streamxhd.st/live2.php?stream=disney8"
+        },
+        {
+          "name": "espn6",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn6"
+        },
+        {
+          "name": "vix4",
+          "url": "https://streamxhd.st/live1.php?stream=vix4"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Napoli vs Bodø / Glimt",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney9",
+          "url": "https://streamxhd.st/live2.php?stream=disney9"
+        },
+        {
+          "name": "espn4",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn4"
+        },
+        {
+          "name": "max3",
+          "url": "https://streamxhd.st/live1.php?stream=max3"
+        },
+        {
+          "name": "vix5",
+          "url": "https://streamxhd.st/live1.php?stream=vix5"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Pistons vs Celtics",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "max4",
+          "url": "https://streamxhd.st/live1.php?stream=max4"
+        },
+        {
+          "name": "nbaleaguepass",
+          "url": "https://streamxhd.st/live1.php?stream=nba1"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-10-22T03:00:00+00:00",
+      "match": "Colo Colo vs Puerto Montt",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "max1",
+          "url": "https://streamxhd.st/live1.php?stream=max1"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-10-22T03:30:00+00:00",
+      "match": "Deportivo Pereira vs Boyacá Chicó",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-22T05:00:00+00:00",
+      "match": "Unión La Calera vs Coquimbo Unido",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "max2",
+          "url": "https://streamxhd.st/live1.php?stream=max2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-22T05:00:00+00:00",
+      "match": "Knicks vs 76ers",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "max3",
+          "url": "https://streamxhd.st/live1.php?stream=max3"
+        },
+        {
+          "name": "nbaleaguepass2",
+          "url": "https://streamxhd.st/live1.php?stream=nba2"
+        }
+      ]
+    },
+    {
+      "time": "23:15",
+      "time_utc": "2026-10-22T05:15:00+00:00",
+      "match": "Inter Bogotá vs Fortaleza CEIF",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-10-22T05:30:00+00:00",
+      "match": "Cúcuta Deportivo vs Atlético Nacional",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "00:30",
-      "time_utc": "2026-10-21T06:30:00+00:00",
-      "match": "Vasco da Gama vs Boca Juniors",
-      "league": "Copa Sudamericana",
+      "time": "00:07",
+      "time_utc": "2026-10-21T06:07:00+00:00",
+      "match": "Guadalajara vs Necaxa",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Dsports FullHD Recomendado F",
-          "url": "https://streamtp99a.sbs/return/dsports-fullHD-recomendado.html"
+          "name": "primevideo",
+          "url": "https://streamxhd.st/live1.php?stream=amazon1"
         },
         {
-          "name": "Disney10",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
+          "name": "universo_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=universo_usa"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-10-21T06:30:00+00:00",
+      "match": "Vasco da Gama vs Boca Juniors",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsportsop2",
+          "url": "https://streamxhd.st/live1.php?stream=dsports"
         },
         {
-          "name": "Espn",
+          "name": "dspts",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports"
+        },
+        {
+          "name": "disney10",
+          "url": "https://streamxhd.st/live2.php?stream=disney10"
+        },
+        {
+          "name": "espnar",
+          "url": "https://streamxhd.st/live1.php?stream=espnar"
+        },
+        {
+          "name": "espn",
           "url": "https://streamtp99a.sbs/global1.php?stream=espn"
         }
       ]
@@ -143,12 +613,12 @@
       "time": "01:00",
       "time_utc": "2026-10-21T07:00:00+00:00",
       "match": "Atlético San Luis vs Querétaro",
-      "league": "Liga MX",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney11",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
+          "name": "disney11",
+          "url": "https://streamxhd.st/live2.php?stream=disney11"
         }
       ]
     },
@@ -156,29 +626,20 @@
       "time": "01:00",
       "time_utc": "2026-10-21T07:00:00+00:00",
       "match": "Juárez vs Atlante",
-      "league": "Liga MX",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Azteca 7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
+          "name": "azteca7",
+          "url": "https://streamxhd.st/live1.php?stream=azteca7"
         },
         {
-          "name": "Fox Deportes Usa",
-          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
-        }
-      ]
-    },
-    {
-      "time": "01:30",
-      "time_utc": "2026-10-21T07:30:00+00:00",
-      "match": "Thunder vs Spurs",
-      "league": "NBA",
-      "flag": "⚽",
-      "channels": [
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
         {
-          "name": "Max2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max2"
+          "name": "fox_deportes_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
         }
       ]
     },
@@ -186,12 +647,33 @@
       "time": "01:30",
       "time_utc": "2026-10-21T07:30:00+00:00",
       "match": "Millonarios vs Once Caldas",
-      "league": "Liga BetPlay",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Win+",
+          "name": "winplus",
           "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-10-21T07:30:00+00:00",
+      "match": "Spurs vs Thunder",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "max4",
+          "url": "https://streamxhd.st/live1.php?stream=max4"
+        },
+        {
+          "name": "nbaleaguepass3",
+          "url": "https://streamxhd.st/live1.php?stream=nba3"
         }
       ]
     },
@@ -199,12 +681,12 @@
       "time": "02:00",
       "time_utc": "2026-10-21T08:00:00+00:00",
       "match": "Marathón vs Alianza",
-      "league": "Copa Centroamericana de CONCACAF",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney12",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
+          "name": "disney12",
+          "url": "https://streamxhd.st/live2.php?stream=disney12"
         }
       ]
     },
@@ -212,20 +694,428 @@
       "time": "03:00",
       "time_utc": "2026-10-21T09:00:00+00:00",
       "match": "Tigres UANL vs León",
-      "league": "Liga MX",
+      "league": "",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Azteca 7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
+          "name": "azteca7",
+          "url": "https://streamxhd.st/live1.php?stream=azteca7"
         },
         {
-          "name": "Fox Deportes Usa",
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
+        {
+          "name": "universo_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=universo_usa"
+        },
+        {
+          "name": "fox_deportes_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
+        }
+      ]
+    },
+    {
+      "time": "15:00",
+      "time_utc": "2026-10-21T21:00:00+00:00",
+      "match": "Argentina vs Nueva Zelanda",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "dsports2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
+        },
+        {
+          "name": "tudn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
+        }
+      ]
+    },
+    {
+      "time": "15:10",
+      "time_utc": "2026-10-21T21:10:00+00:00",
+      "match": "Al Taawon vs Al Qadisiya",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
+        {
+          "name": "fox_deportes_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-21T22:45:00+00:00",
+      "match": "Fenerbahçe vs Slavia Praha",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-1",
+          "url": "https://streamxhd.st/live2.php?stream=disney1"
+        },
+        {
+          "name": "espn2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+        },
+        {
+          "name": "espn-2-stxhd",
+          "url": "https://streamxhd.st/live2.php?stream=espn2"
+        },
+        {
+          "name": "espn2ar",
+          "url": "https://streamxhd.st/live1.php?stream=espn2ar"
+        },
+        {
+          "name": "vix1",
+          "url": "https://streamxhd.st/live1.php?stream=vix1"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-21T22:45:00+00:00",
+      "match": "Sabah vs Borussia Dortmund",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-2",
+          "url": "https://streamxhd.st/live2.php?stream=disney2"
+        },
+        {
+          "name": "espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        },
+        {
+          "name": "fox1ar",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox1ar"
+        },
+        {
+          "name": "max1",
+          "url": "https://streamxhd.st/live1.php?stream=max1"
+        },
+        {
+          "name": "tudn_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudn_usa"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-22T00:00:00+00:00",
+      "match": "Marruecos vs Alemania",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "tudn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-22T00:00:00+00:00",
+      "match": "Al Nassr vs NEOM",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "foxone",
+          "url": "https://streamtp99a.sbs/global1.php?stream=foxone"
+        },
+        {
+          "name": "fox_deportes_usa",
           "url": "https://streamtp99a.sbs/global1.php?stream=fox_deportes_usa"
         },
         {
-          "name": "Universo",
-          "url": "https://streamtp99a.sbs/global1.php?stream=universo_usa"
+          "name": "sporttvbr1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sporttvbr1"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "PSG vs Barcelona",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-3",
+          "url": "https://streamxhd.st/live2.php?stream=disney3"
+        },
+        {
+          "name": "espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        },
+        {
+          "name": "espn-1",
+          "url": "https://streamxhd.st/live2.php?stream=espn"
+        },
+        {
+          "name": "espnar",
+          "url": "https://streamxhd.st/live1.php?stream=espnar"
+        },
+        {
+          "name": "max1",
+          "url": "https://streamxhd.st/live1.php?stream=max1"
+        },
+        {
+          "name": "tudn_usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudn_usa"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Liverpool vs Villarreal",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-4",
+          "url": "https://streamxhd.st/live2.php?stream=disney4"
+        },
+        {
+          "name": "espn2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+        },
+        {
+          "name": "espn-2-stxhd",
+          "url": "https://streamxhd.st/live2.php?stream=espn2"
+        },
+        {
+          "name": "max2",
+          "url": "https://streamxhd.st/live1.php?stream=max2"
+        },
+        {
+          "name": "vix2",
+          "url": "https://streamxhd.st/live1.php?stream=vix2"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Stuttgart vs Atlético Madrid",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-5",
+          "url": "https://streamxhd.st/live2.php?stream=disney5"
+        },
+        {
+          "name": "espn7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn7"
+        },
+        {
+          "name": "fox2ar",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox2ar"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Manchester City vs AEK Athens",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-6",
+          "url": "https://streamxhd.st/live2.php?stream=disney6"
+        },
+        {
+          "name": "espn5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn5"
+        },
+        {
+          "name": "fox1ar",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox1ar"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Roma vs Slovan Bratislava",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney-7",
+          "url": "https://streamxhd.st/live2.php?stream=disney7"
+        },
+        {
+          "name": "espn3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn3"
+        },
+        {
+          "name": "vix3",
+          "url": "https://streamxhd.st/live1.php?stream=vix3"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Porto vs PSV",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney8",
+          "url": "https://streamxhd.st/live2.php?stream=disney8"
+        },
+        {
+          "name": "espn6",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn6"
+        },
+        {
+          "name": "vix4",
+          "url": "https://streamxhd.st/live1.php?stream=vix4"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Napoli vs Bodø / Glimt",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "disney9",
+          "url": "https://streamxhd.st/live2.php?stream=disney9"
+        },
+        {
+          "name": "espn4",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn4"
+        },
+        {
+          "name": "max3",
+          "url": "https://streamxhd.st/live1.php?stream=max3"
+        },
+        {
+          "name": "vix5",
+          "url": "https://streamxhd.st/live1.php?stream=vix5"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-22T01:00:00+00:00",
+      "match": "Pistons vs Celtics",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "max4",
+          "url": "https://streamxhd.st/live1.php?stream=max4"
+        },
+        {
+          "name": "nbaleaguepass",
+          "url": "https://streamxhd.st/live1.php?stream=nba1"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "time_utc": "2026-10-22T03:00:00+00:00",
+      "match": "Colo Colo vs Puerto Montt",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "max1",
+          "url": "https://streamxhd.st/live1.php?stream=max1"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "time_utc": "2026-10-22T03:30:00+00:00",
+      "match": "Deportivo Pereira vs Boyacá Chicó",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-22T05:00:00+00:00",
+      "match": "Unión La Calera vs Coquimbo Unido",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "max2",
+          "url": "https://streamxhd.st/live1.php?stream=max2"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-10-22T05:00:00+00:00",
+      "match": "Knicks vs 76ers",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "max3",
+          "url": "https://streamxhd.st/live1.php?stream=max3"
+        },
+        {
+          "name": "nbaleaguepass2",
+          "url": "https://streamxhd.st/live1.php?stream=nba2"
+        }
+      ]
+    },
+    {
+      "time": "23:15",
+      "time_utc": "2026-10-22T05:15:00+00:00",
+      "match": "Inter Bogotá vs Fortaleza CEIF",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winsports",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
+        }
+      ]
+    },
+    {
+      "time": "23:30",
+      "time_utc": "2026-10-22T05:30:00+00:00",
+      "match": "Cúcuta Deportivo vs Atlético Nacional",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
         }
       ]
     }
