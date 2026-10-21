@@ -1,0 +1,47 @@
+name: Ejecutar Scrapers
+
+on:
+  workflow_dispatch: # Solo manual
+    inputs:
+      cual_scraper:
+        description: '¿Cuál scraper quieres ejecutar?'
+        required: true
+        default: 'scraper1'
+        type: choice
+        options:
+          - scraper1
+          - scraper2
+
+jobs:
+  correr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Descargar mi código
+        uses: actions/checkout@v4
+      
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          
+      - name: Instalar Playwright
+        run: |
+          pip install -r scripts/requirements.txt
+          python -m playwright install chromium
+
+      - name: Ejecutar Scraper 1
+        if: ${{ inputs.cual_scraper == 'scraper1' }}
+        run: python scripts/scraper1.py
+        
+      - name: Ejecutar Scraper 2
+        if: ${{ inputs.cual_scraper == 'scraper2' }}
+        run: python scripts/scraper2.py
+
+      - name: Guardar los cambios en GitHub
+        run: |
+          git config user.name "SportStream Bot"
+          git config user.email "bot@sportstream.app"
+          git add eventos.json
+          git diff --staged --quiet || (git commit -m "Actualizado por ${{ inputs.cual_scraper }}" && git push)
