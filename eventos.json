@@ -1,20 +1,33 @@
 {
-  "actualizado_en": "2026-10-21T16:31:58.538Z",
-  "fecha": "2026-10-21",
-  "fuente": "futbollibremx.mx-puppeteer",
-  "contar": 25,
-  "contar_con_canales": 25,
+  "actualizado_en": "2026-10-22T16:16:07.937308+00:00",
+  "fecha": "2026-10-22",
+  "fuente": "futbollibremx.mx-playwright",
+  "contar": 43,
+  "contar_con_canales": 43,
   "events": [
     {
       "time": "00:30",
-      "time_utc": "2026-10-21T06:30:00.000Z",
-      "match": "Palmeiras vs Fluminense",
-      "league": "Copa Sudamericana",
+      "time_utc": "2026-10-22T06:30:00+00:00",
+      "match": "Bears vs Patriots",
+      "league": "NFL",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney11",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
+          "name": "Espn7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn7"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-10-22T06:30:00+00:00",
+      "match": "Flamengo vs Estudiantes LP",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
         },
         {
           "name": "Espn",
@@ -27,86 +40,9 @@
       ]
     },
     {
-      "time": "00:30",
-      "time_utc": "2026-10-21T06:30:00.000Z",
-      "match": "Barranquilla vs América de Cali",
-      "league": "Copa Colombia",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Winsports",
-          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-21T06:30:00.000Z",
-      "match": "Firpo vs Deportivo Saprissa",
-      "league": "Copa Centroamericana de CONCACAF",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney12",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
-        }
-      ]
-    },
-    {
       "time": "01:00",
-      "time_utc": "2026-10-21T07:00:00.000Z",
-      "match": "Atlas vs América",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Canal5mx Recomendado Fullhd F",
-          "url": "https://streamtp99a.sbs/return/canal5mx-recomendado-fullhd.html"
-        },
-        {
-          "name": "Tudnmx",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
-        },
-        {
-          "name": "Tudnus",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-10-21T07:00:00.000Z",
-      "match": "Puebla vs Monterrey",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney13",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney13"
-        },
-        {
-          "name": "Espnmx",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espnmx"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-10-21T07:00:00.000Z",
-      "match": "Toluca vs Tijuana",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Azteca 7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
-        }
-      ]
-    },
-    {
-      "time": "01:20",
-      "time_utc": "2026-10-21T07:20:00.000Z",
-      "match": "Santa Fe vs Jaguares de Córdoba",
+      "time_utc": "2026-10-22T07:00:00+00:00",
+      "match": "Atlético Nacional vs Deportivo Pasto",
       "league": "Liga BetPlay",
       "flag": "⚽",
       "channels": [
@@ -117,9 +53,22 @@
       ]
     },
     {
-      "time": "02:00",
-      "time_utc": "2026-10-21T08:00:00.000Z",
-      "match": "Warriors vs Lakers",
+      "time": "01:00",
+      "time_utc": "2026-10-22T07:00:00+00:00",
+      "match": "Motagua vs Alajuelense",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-10-22T07:30:00+00:00",
+      "match": "Nuggets vs Thunder",
       "league": "NBA",
       "flag": "⚽",
       "channels": [
@@ -130,10 +79,207 @@
       ]
     },
     {
-      "time": "02:30",
-      "time_utc": "2026-10-21T08:30:00.000Z",
-      "match": "Cartaginés vs Olimpia",
-      "league": "Copa Centroamericana de CONCACAF",
+      "time": "14:30",
+      "time_utc": "2026-10-22T20:30:00+00:00",
+      "match": "Kairat vs Panathinaikos",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Juventus vs Rennes",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
+        },
+        {
+          "name": "Espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        },
+        {
+          "name": "Tudnus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Sturm Graz vs Olympique Marseille",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
+        },
+        {
+          "name": "Espn2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "OFI vs Bayer Leverkusen",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney4",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
+        },
+        {
+          "name": "Espn3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Ararat-Armenia vs AZ",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
+        },
+        {
+          "name": "Espn4",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Lech Poznań vs Sunderland",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney6",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
+        },
+        {
+          "name": "Espn5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Union Saint-Gilloise vs Hapoel Be\\'er Sheva",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
+        },
+        {
+          "name": "Espn7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn7"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Ferencváros vs Torreense",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney8",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Dinamo Zagreb vs NEC",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney9",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Getafe vs Lugano",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney10",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Trabzonspor vs Hearts",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney11",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Paphos vs Riga",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney12",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Jablonec vs Brighton & Hove Albion",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney13",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney13"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Kauno Žalgiris vs Brann",
+      "league": "UEFA Conference League",
       "flag": "⚽",
       "channels": [
         {
@@ -143,103 +289,80 @@
       ]
     },
     {
-      "time": "03:10",
-      "time_utc": "2026-10-21T09:10:00.000Z",
-      "match": "Santos Laguna vs Pumas UNAM",
-      "league": "Liga MX",
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Nordsjælland vs CSKA Sofia",
+      "league": "UEFA Conference League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Canal5 Mex F",
-          "url": "https://streamx723.sbs/channel/canal5-mex.html"
-        },
-        {
-          "name": "Tudnmx",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
-        },
-        {
-          "name": "Tudnus",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
+          "name": "Disney15",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney15"
         }
       ]
     },
     {
       "time": "16:45",
-      "time_utc": "2026-10-21T22:45:00.000Z",
-      "match": "Como vs Manchester United",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Inter Club d\\'Escaldes vs CSU Craiova",
+      "league": "UEFA Conference League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
-        },
-        {
-          "name": "Espn",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
-        },
-        {
-          "name": "Tudnus",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
+          "name": "Disney16",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney16"
         }
       ]
     },
     {
       "time": "16:45",
-      "time_utc": "2026-10-21T22:45:00.000Z",
-      "match": "Lille vs Galatasaray",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Iberia 1999 vs Mjällby",
+      "league": "UEFA Conference League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
-        },
+          "name": "Disney17",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney17"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Crvena Zvezda vs København",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
         {
-          "name": "Max1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max1"
-        },
-        {
-          "name": "Espn2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+          "name": "Disney18",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney18"
         }
       ]
     },
     {
       "time": "18:00",
-      "time_utc": "2026-10-22T00:00:00.000Z",
-      "match": "Levante vs Athletic Club",
-      "league": "LaLiga",
+      "time_utc": "2026-10-23T00:00:00+00:00",
+      "match": "Al-Ahli vs Al Khaleej",
+      "league": "Liga Profesional Saudí",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Dsports2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
-        },
-        {
-          "name": "Espnplus1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espnplus1"
-        },
-        {
-          "name": "Espndeportes",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espndeportes"
+          "name": "Sportv3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sportv3"
         }
       ]
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Bayern München vs Arsenal",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "AFC Bournemouth vs Milan",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
-        },
-        {
-          "name": "Max2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max2"
+          "name": "Disney19",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney19"
         },
         {
           "name": "Espn",
@@ -253,14 +376,14 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Real Madrid vs RB Leipzig",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Beşiktaş vs Crystal Palace",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
+          "name": "Disney20",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney20"
         },
         {
           "name": "Espn2",
@@ -270,14 +393,14 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Aston Villa vs Viking",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Omonia Nicosia vs Benfica",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney5",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
+          "name": "Disney1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
         },
         {
           "name": "Espn3",
@@ -287,14 +410,14 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Real Betis vs Feyenoord",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Hoffenheim vs Olympique Lyonnais",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney6",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
+          "name": "Disney2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
         },
         {
           "name": "Espn4",
@@ -304,56 +427,35 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Inter vs Shakhtar Donetsk",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Celtic vs Celta de Vigo",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
-        },
-        {
-          "name": "Max3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max3"
+          "name": "Disney3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
         },
         {
           "name": "Espn5",
           "url": "https://streamtp99a.sbs/global1.php?stream=espn5"
+        },
+        {
+          "name": "Espn2cl",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn2cl"
         }
       ]
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Sporting CP vs LASK Linz",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Olympiakos Piraeus vs Sparta Praha",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney8",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
-        },
-        {
-          "name": "Max4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max4"
-        },
-        {
-          "name": "Espn6",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn6"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Club Brugge vs Lens",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney9",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
+          "name": "Disney4",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
         },
         {
           "name": "Espn7",
@@ -362,69 +464,165 @@
       ]
     },
     {
-      "time": "22:00",
-      "time_utc": "2026-10-22T04:00:00.000Z",
-      "match": "Torque vs Atlético Mineiro",
-      "league": "Copa Sudamericana",
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Lillestrøm vs Real Sociedad",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Dsports FullHD Recomendado F",
-          "url": "https://streamtp99a.sbs/return/dsports-fullHD-recomendado.html"
-        },
-        {
-          "name": "Disney10",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
-        },
-        {
-          "name": "Espn",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+          "name": "Disney5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
         }
       ]
     },
     {
-      "time": "22:00",
-      "time_utc": "2026-10-22T04:00:00.000Z",
-      "match": "Universidad Chile vs Antofagasta",
-      "league": "Copa Chile",
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Jagiellonia Białystok vs Anderlecht",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Tntsportscl",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tntsportscl"
+          "name": "Disney6",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Celje vs Salzburg",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Viktoria Plzeň vs Levski Sofia",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney8",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Ajax vs Atalanta",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney9",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Monaco vs Freiburg",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney10",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Sporting Braga vs Gent",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney11",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "AGF vs Egnatia Rrogozhinë",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney12",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Thun vs Hajduk Split",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney13",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney13"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Midtjylland vs Sint-Truiden",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney14",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney14"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Lincoln Red Imps vs Twente",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney15",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney15"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Borac Banja Luka vs KuPS",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney16",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney16"
         }
       ]
     },
     {
       "time": "23:00",
-      "time_utc": "2026-10-22T05:00:00.000Z",
-      "match": "Cincinnati vs DC United",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls1"
-        }
-      ]
-    },
-    {
-      "time": "23:15",
-      "time_utc": "2026-10-22T05:15:00.000Z",
-      "match": "Llaneros vs Deportivo Cali",
-      "league": "Liga BetPlay",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win+",
-          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
-        }
-      ]
-    },
-    {
-      "time": "23:30",
-      "time_utc": "2026-10-22T05:30:00.000Z",
-      "match": "Wolves vs Heart",
+      "time_utc": "2026-10-23T05:00:00+00:00",
+      "match": "Cavaliers vs 76ers",
       "league": "NBA",
       "flag": "⚽",
       "channels": [
@@ -438,14 +636,27 @@
   "eventos": [
     {
       "time": "00:30",
-      "time_utc": "2026-10-21T06:30:00.000Z",
-      "match": "Palmeiras vs Fluminense",
-      "league": "Copa Sudamericana",
+      "time_utc": "2026-10-22T06:30:00+00:00",
+      "match": "Bears vs Patriots",
+      "league": "NFL",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney11",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
+          "name": "Espn7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn7"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-10-22T06:30:00+00:00",
+      "match": "Flamengo vs Estudiantes LP",
+      "league": "Copa Libertadores",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
         },
         {
           "name": "Espn",
@@ -458,86 +669,9 @@
       ]
     },
     {
-      "time": "00:30",
-      "time_utc": "2026-10-21T06:30:00.000Z",
-      "match": "Barranquilla vs América de Cali",
-      "league": "Copa Colombia",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Winsports",
-          "url": "https://streamtp99a.sbs/global1.php?stream=winsports"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-21T06:30:00.000Z",
-      "match": "Firpo vs Deportivo Saprissa",
-      "league": "Copa Centroamericana de CONCACAF",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney12",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
-        }
-      ]
-    },
-    {
       "time": "01:00",
-      "time_utc": "2026-10-21T07:00:00.000Z",
-      "match": "Atlas vs América",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Canal5mx Recomendado Fullhd F",
-          "url": "https://streamtp99a.sbs/return/canal5mx-recomendado-fullhd.html"
-        },
-        {
-          "name": "Tudnmx",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
-        },
-        {
-          "name": "Tudnus",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-10-21T07:00:00.000Z",
-      "match": "Puebla vs Monterrey",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney13",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney13"
-        },
-        {
-          "name": "Espnmx",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espnmx"
-        }
-      ]
-    },
-    {
-      "time": "01:00",
-      "time_utc": "2026-10-21T07:00:00.000Z",
-      "match": "Toluca vs Tijuana",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Azteca 7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=azteca7"
-        }
-      ]
-    },
-    {
-      "time": "01:20",
-      "time_utc": "2026-10-21T07:20:00.000Z",
-      "match": "Santa Fe vs Jaguares de Córdoba",
+      "time_utc": "2026-10-22T07:00:00+00:00",
+      "match": "Atlético Nacional vs Deportivo Pasto",
       "league": "Liga BetPlay",
       "flag": "⚽",
       "channels": [
@@ -548,9 +682,22 @@
       ]
     },
     {
-      "time": "02:00",
-      "time_utc": "2026-10-21T08:00:00.000Z",
-      "match": "Warriors vs Lakers",
+      "time": "01:00",
+      "time_utc": "2026-10-22T07:00:00+00:00",
+      "match": "Motagua vs Alajuelense",
+      "league": "Copa Centroamericana de CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "01:30",
+      "time_utc": "2026-10-22T07:30:00+00:00",
+      "match": "Nuggets vs Thunder",
       "league": "NBA",
       "flag": "⚽",
       "channels": [
@@ -561,10 +708,207 @@
       ]
     },
     {
-      "time": "02:30",
-      "time_utc": "2026-10-21T08:30:00.000Z",
-      "match": "Cartaginés vs Olimpia",
-      "league": "Copa Centroamericana de CONCACAF",
+      "time": "14:30",
+      "time_utc": "2026-10-22T20:30:00+00:00",
+      "match": "Kairat vs Panathinaikos",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Juventus vs Rennes",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
+        },
+        {
+          "name": "Espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        },
+        {
+          "name": "Tudnus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Sturm Graz vs Olympique Marseille",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
+        },
+        {
+          "name": "Espn2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "OFI vs Bayer Leverkusen",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney4",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
+        },
+        {
+          "name": "Espn3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Ararat-Armenia vs AZ",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
+        },
+        {
+          "name": "Espn4",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn4"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Lech Poznań vs Sunderland",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney6",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
+        },
+        {
+          "name": "Espn5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Union Saint-Gilloise vs Hapoel Be\\'er Sheva",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
+        },
+        {
+          "name": "Espn7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn7"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Ferencváros vs Torreense",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney8",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Dinamo Zagreb vs NEC",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney9",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Getafe vs Lugano",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney10",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Trabzonspor vs Hearts",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney11",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Paphos vs Riga",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney12",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Jablonec vs Brighton & Hove Albion",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney13",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney13"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Kauno Žalgiris vs Brann",
+      "league": "UEFA Conference League",
       "flag": "⚽",
       "channels": [
         {
@@ -574,103 +918,80 @@
       ]
     },
     {
-      "time": "03:10",
-      "time_utc": "2026-10-21T09:10:00.000Z",
-      "match": "Santos Laguna vs Pumas UNAM",
-      "league": "Liga MX",
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Nordsjælland vs CSKA Sofia",
+      "league": "UEFA Conference League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Canal5 Mex F",
-          "url": "https://streamx723.sbs/channel/canal5-mex.html"
-        },
-        {
-          "name": "Tudnmx",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
-        },
-        {
-          "name": "Tudnus",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
+          "name": "Disney15",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney15"
         }
       ]
     },
     {
       "time": "16:45",
-      "time_utc": "2026-10-21T22:45:00.000Z",
-      "match": "Como vs Manchester United",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Inter Club d\\'Escaldes vs CSU Craiova",
+      "league": "UEFA Conference League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
-        },
-        {
-          "name": "Espn",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
-        },
-        {
-          "name": "Tudnus",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
+          "name": "Disney16",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney16"
         }
       ]
     },
     {
       "time": "16:45",
-      "time_utc": "2026-10-21T22:45:00.000Z",
-      "match": "Lille vs Galatasaray",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Iberia 1999 vs Mjällby",
+      "league": "UEFA Conference League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
-        },
+          "name": "Disney17",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney17"
+        }
+      ]
+    },
+    {
+      "time": "16:45",
+      "time_utc": "2026-10-22T22:45:00+00:00",
+      "match": "Crvena Zvezda vs København",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
         {
-          "name": "Max1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max1"
-        },
-        {
-          "name": "Espn2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+          "name": "Disney18",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney18"
         }
       ]
     },
     {
       "time": "18:00",
-      "time_utc": "2026-10-22T00:00:00.000Z",
-      "match": "Levante vs Athletic Club",
-      "league": "LaLiga",
+      "time_utc": "2026-10-23T00:00:00+00:00",
+      "match": "Al-Ahli vs Al Khaleej",
+      "league": "Liga Profesional Saudí",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Dsports2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
-        },
-        {
-          "name": "Espnplus1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espnplus1"
-        },
-        {
-          "name": "Espndeportes",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espndeportes"
+          "name": "Sportv3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=sportv3"
         }
       ]
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Bayern München vs Arsenal",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "AFC Bournemouth vs Milan",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
-        },
-        {
-          "name": "Max2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max2"
+          "name": "Disney19",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney19"
         },
         {
           "name": "Espn",
@@ -684,14 +1005,14 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Real Madrid vs RB Leipzig",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Beşiktaş vs Crystal Palace",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
+          "name": "Disney20",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney20"
         },
         {
           "name": "Espn2",
@@ -701,14 +1022,14 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Aston Villa vs Viking",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Omonia Nicosia vs Benfica",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney5",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
+          "name": "Disney1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
         },
         {
           "name": "Espn3",
@@ -718,14 +1039,14 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Real Betis vs Feyenoord",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Hoffenheim vs Olympique Lyonnais",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney6",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
+          "name": "Disney2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
         },
         {
           "name": "Espn4",
@@ -735,56 +1056,35 @@
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Inter vs Shakhtar Donetsk",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Celtic vs Celta de Vigo",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
-        },
-        {
-          "name": "Max3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max3"
+          "name": "Disney3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
         },
         {
           "name": "Espn5",
           "url": "https://streamtp99a.sbs/global1.php?stream=espn5"
+        },
+        {
+          "name": "Espn2cl",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn2cl"
         }
       ]
     },
     {
       "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Sporting CP vs LASK Linz",
-      "league": "UEFA Champions League",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Olympiakos Piraeus vs Sparta Praha",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Disney8",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
-        },
-        {
-          "name": "Max4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max4"
-        },
-        {
-          "name": "Espn6",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn6"
-        }
-      ]
-    },
-    {
-      "time": "19:00",
-      "time_utc": "2026-10-22T01:00:00.000Z",
-      "match": "Club Brugge vs Lens",
-      "league": "UEFA Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney9",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
+          "name": "Disney4",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
         },
         {
           "name": "Espn7",
@@ -793,69 +1093,165 @@
       ]
     },
     {
-      "time": "22:00",
-      "time_utc": "2026-10-22T04:00:00.000Z",
-      "match": "Torque vs Atlético Mineiro",
-      "league": "Copa Sudamericana",
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Lillestrøm vs Real Sociedad",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Dsports FullHD Recomendado F",
-          "url": "https://streamtp99a.sbs/return/dsports-fullHD-recomendado.html"
-        },
-        {
-          "name": "Disney10",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
-        },
-        {
-          "name": "Espn",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+          "name": "Disney5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
         }
       ]
     },
     {
-      "time": "22:00",
-      "time_utc": "2026-10-22T04:00:00.000Z",
-      "match": "Universidad Chile vs Antofagasta",
-      "league": "Copa Chile",
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Jagiellonia Białystok vs Anderlecht",
+      "league": "UEFA Europa League",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Tntsportscl",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tntsportscl"
+          "name": "Disney6",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Celje vs Salzburg",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Viktoria Plzeň vs Levski Sofia",
+      "league": "UEFA Europa League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney8",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Ajax vs Atalanta",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney9",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Monaco vs Freiburg",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney10",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Sporting Braga vs Gent",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney11",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "AGF vs Egnatia Rrogozhinë",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney12",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Thun vs Hajduk Split",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney13",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney13"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Midtjylland vs Sint-Truiden",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney14",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney14"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Lincoln Red Imps vs Twente",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney15",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney15"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-23T01:00:00+00:00",
+      "match": "Borac Banja Luka vs KuPS",
+      "league": "UEFA Conference League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney16",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney16"
         }
       ]
     },
     {
       "time": "23:00",
-      "time_utc": "2026-10-22T05:00:00.000Z",
-      "match": "Cincinnati vs DC United",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls1"
-        }
-      ]
-    },
-    {
-      "time": "23:15",
-      "time_utc": "2026-10-22T05:15:00.000Z",
-      "match": "Llaneros vs Deportivo Cali",
-      "league": "Liga BetPlay",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win+",
-          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
-        }
-      ]
-    },
-    {
-      "time": "23:30",
-      "time_utc": "2026-10-22T05:30:00.000Z",
-      "match": "Wolves vs Heart",
+      "time_utc": "2026-10-23T05:00:00+00:00",
+      "match": "Cavaliers vs 76ers",
       "league": "NBA",
       "flag": "⚽",
       "channels": [
