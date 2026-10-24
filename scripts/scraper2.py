@@ -7,7 +7,6 @@ from urllib.parse import urljoin
 
 from playwright.async_api import TimeoutError as PWTimeout, async_playwright
 
-# CAMBIO 1: Nueva URL objetivo
 SITE_URL = "http://rojadirecta.tel/"
 OUTPUT_FILE = "eventos.json"
 NAV_TIMEOUT_MS = 20_000
@@ -17,7 +16,7 @@ MOBILE_UA = (
 )
 
 # =========================================================
-# UTILIDADES (SIN CAMBIOS)
+# UTILIDADES
 # =========================================================
 
 def normalize_time(time_text):
@@ -44,7 +43,7 @@ def time_mexico_to_utc(time_str):
 
 def split_league_match(raw_title):
     text = re.sub(r"\s+", " ", str(raw_title or "")).strip()
-    
+
     parts = [p.strip() for p in text.split(":")]
     if len(parts) >= 2:
         league = parts[0]
@@ -53,7 +52,7 @@ def split_league_match(raw_title):
         match = league_re.sub("", match).strip()
         if league and match:
             return league, match
-            
+
     for sep in ("–", "—", " - "):
         idx = text.find(sep)
         if idx > -1:
@@ -63,7 +62,7 @@ def split_league_match(raw_title):
             match = league_re.sub("", match).strip()
             if league and match and re.search(r"\bvs\.?\b", match, re.IGNORECASE):
                 return league, match
-                
+
     return "", text
 
 def clean_channel_name(name, index):
@@ -73,7 +72,7 @@ def clean_channel_name(name, index):
     return value or f"Canal {index + 1}"
 
 # =========================================================
-# EXTRACTOR DE IFRAME (SIN CAMBIOS)
+# EXTRACTOR DE IFRAME
 # =========================================================
 async def get_iframe_src(context, channel_url):
     if not channel_url:
@@ -88,7 +87,7 @@ async def get_iframe_src(context, channel_url):
             src = None
         await page.close()
         return src or channel_url
-    except Exception as e:
+    except Exception:
         print(f"   [!] No se pudo extraer iframe de: {channel_url}")
         await page.close()
         return channel_url
@@ -107,8 +106,8 @@ async def scrape_rojadirecta():
             args=["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage", "--disable-gpu"]
         )
         context = await browser.new_context(
-            user_agent=MOBILE_UA, 
-            viewport={"width": 390, "height": 844}, 
+            user_agent=MOBILE_UA,
+            viewport={"width": 390, "height": 844},
             is_mobile=True
         )
 
@@ -124,34 +123,51 @@ async def scrape_rojadirecta():
         print("[PY] Cargando página...")
         await page.goto(SITE_URL, wait_until="networkidle", timeout=60000)
         print("[PY] Página cargada")
-        
-        # Esperar un poco para que la tabla se renderice
+
         await asyncio.sleep(4)
 
         print("[PY] Extrayendo datos del DOM...")
 
-        # CAMBIO 2: Nueva lógica de extracción de la tabla
+        # FIX: la liga ("Premier League:") es texto suelto FUERA del <a>,
+        # antes del enlace. Con un Range tomamos todo el texto que hay desde
+        # el inicio de la fila hasta el enlace y se lo anteponemos al título.
         raw_rows = await page.evaluate("""
             () => {
                 const results = [];
                 const links = Array.from(document.querySelectorAll('a'));
-                
+
                 for (const a of links) {
                     const text = a.textContent.trim();
                     if (!text || (!text.includes('vs') && !text.includes('VS') && !text.includes(' - '))) continue;
-                    
+
                     const href = a.getAttribute('href');
                     if (!href) continue;
 
                     const container = a.closest('tr') || a.closest('li') || a.parentElement;
                     let timeText = '';
+                    let prefix = '';
+
                     if (container) {
                         const timeEl = container.querySelector('.t') || container.querySelector('span');
                         if (timeEl) timeText = timeEl.textContent.trim();
+
+                        try {
+                            const range = document.createRange();
+                            range.setStart(container, 0);
+                            range.setEndBefore(a);
+                            prefix = range.toString();
+                        } catch (e) {
+                            prefix = '';
+                        }
                     }
-                    
+
+                    // Quitar horas y espacios sobrantes del prefijo
+                    prefix = prefix.replace(/\\d{2}:\\d{2}/g, '').replace(/\\s+/g, ' ').trim();
+                    if (prefix && !prefix.endsWith(':')) prefix += ':';
+                    const titleText = prefix ? (prefix + text) : text;
+
                     if (timeText && /\\d{2}:\\d{2}/.test(timeText)) {
-                        results.push({ timeText, titleText: text, href });
+                        results.push({ timeText, titleText, href });
                     }
                 }
                 return results;
@@ -160,7 +176,6 @@ async def scrape_rojadirecta():
 
         print(f"[PY] {len(raw_rows)} filas de canales detectadas. Agrupando eventos...")
 
-        # CAMBIO 3: Lógica de agrupación antes de extraer iframes
         events_map = {}
 
         for raw in raw_rows:
@@ -180,20 +195,19 @@ async def scrape_rojadirecta():
                     "flag": "⚽",
                     "channels": []
                 }
+            elif league and not events_map[key]["league"]:
+                events_map[key]["league"] = league
 
             event = events_map[key]
-            
-            # El nombre del canal lo sacamos del slug de la URL
+
             parts = [p for p in raw["href"].split('/') if p]
             channel_slug = parts[-1] if parts else f"Canal {len(event['channels']) + 1}"
-            
-            # Evitar duplicados de la misma URL en el mismo evento
+
             if not any(c["originalUrl"] == raw["href"] for c in event["channels"]):
                 event["channels"].append({"originalUrl": raw["href"], "name": channel_slug})
 
         events = []
 
-        # Ahora resolvemos los iframes para cada grupo de canales
         for event in events_map.values():
             resolved_channels = []
             seen_channels = set()
@@ -216,10 +230,8 @@ async def scrape_rojadirecta():
             print(f"-- {event['time'] or '--:--'} | {event['league'] + ': ' if event['league'] else ''}{event['match']} -> {len(event['channels'])} canales")
             events.append(event)
 
-        # Ordenar eventos por hora
         events.sort(key=lambda x: str(x["time"]))
 
-        # Estructura de salida (SIN CAMBIOS)
         result = {
             "actualizado_en": datetime.now(timezone.utc).isoformat(),
             "fecha": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
