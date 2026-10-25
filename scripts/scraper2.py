@@ -307,18 +307,7 @@ async def scrape_rojadirecta():
             "eventos": events,
         }
 
-        out_path = Path(OUTPUT_FILE)
-        keep_old = False
-        if not events and out_path.exists():
-            try:
-                old = json.loads(out_path.read_text(encoding="utf-8"))
-                keep_old = bool(old.get("events") or old.get("eventos"))
-            except Exception:
-                keep_old = False
-        if keep_old:
-            print("[PY] 0 eventos: conservo el eventos.json anterior para no dejar la app vacía")
-        else:
-            out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        Path(OUTPUT_FILE).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
 
         print("========================================")
         print(f"[PY] Total: {result['contar']}")
