@@ -137,49 +137,83 @@ async def scrape_rojadirecta():
         raw_rows = await page.evaluate(r"""
             () => {
                 const results = [];
-                const timeRe = /\b\d{2}:\d{2}\b/g;
-                const links = Array.from(document.querySelectorAll('a'));
+                const timeRe = /\b\d{2}:\d{2}\b/;
+                const timeReG = /\b\d{2}:\d{2}\b/g;
+                const isVsLink = (a) => !!a && /\bvs\b/i.test(a.textContent || '');
 
+                // Todos los nodos de texto visibles, en orden de documento
+                const nodes = [];
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+                while (walker.nextNode()) {
+                    const n = walker.currentNode;
+                    const tag = n.parentElement ? n.parentElement.tagName : '';
+                    if (['SCRIPT', 'STYLE', 'NOSCRIPT'].includes(tag)) continue;
+                    if (!n.textContent.trim()) continue;
+                    nodes.push(n);
+                }
+
+                const links = Array.from(document.querySelectorAll('a'));
                 for (const a of links) {
-                    const text = a.textContent.trim();
-                    if (!text || !/\bvs\b/i.test(text)) continue;
+                    if (!isVsLink(a)) continue;
                     const href = a.getAttribute('href');
                     if (!href) continue;
 
-                    // Subir hasta encontrar un ancestro que contenga UNA hora
-                    let row = a.parentElement;
-                    let timeText = '';
-                    for (let i = 0; i < 5 && row; i++) {
-                        const found = (row.textContent || '').match(timeRe);
-                        if (found && found.length === 1) { timeText = found[0]; break; }
-                        row = row.parentElement;
+                    let first = -1, last = -1;
+                    for (let i = 0; i < nodes.length; i++) {
+                        if (a.contains(nodes[i])) {
+                            if (first === -1) first = i;
+                            last = i;
+                        }
                     }
-                    if (!timeText || !row) continue;
+                    if (first === -1) continue;
 
+                    // Hora: primer texto con hh:mm DESPUES del enlace
+                    // (si antes aparece otro enlace de partido, esta fila no tiene hora)
+                    let timeText = '';
+                    for (let j = last + 1; j < Math.min(nodes.length, last + 15); j++) {
+                        const other = nodes[j].parentElement.closest('a');
+                        if (other && other !== a && isVsLink(other)) break;
+                        const m = nodes[j].textContent.match(timeRe);
+                        if (m) { timeText = m[0]; break; }
+                    }
+                    if (!timeText) continue;
+
+                    // Liga: texto inmediatamente ANTES del enlace (termina en ':')
                     let prefix = '';
-                    try {
-                        const range = document.createRange();
-                        range.setStart(row, 0);
-                        range.setEndBefore(a);
-                        prefix = range.toString();
-                    } catch (e) {}
+                    for (let j = first - 1; j >= Math.max(0, first - 3); j--) {
+                        const other = nodes[j].parentElement.closest('a');
+                        if (other && isVsLink(other)) break;
+                        const t = nodes[j].textContent.replace(timeReG, '').replace(/\s+/g, ' ').trim();
+                        if (!t) continue;
+                        if (t.endsWith(':') && t.length < 60) prefix = t;
+                        break;
+                    }
 
-                    prefix = prefix.replace(timeRe, '').replace(/\s+/g, ' ').trim();
-                    if (prefix && !prefix.endsWith(':')) prefix += ':';
+                    const text = a.textContent.replace(/\s+/g, ' ').trim();
                     results.push({ timeText, titleText: prefix ? prefix + text : text, href });
                 }
                 return results;
             }
         """)
 
-        # Diagnóstico si no se detecta nada
-        if not raw_rows:
+        # Diagnóstico: compara enlaces con 'vs' contra filas detectadas
+        vs_links = await page.locator("a:has-text('vs')").count()
+        print(f"[DEBUG] enlaces con 'vs': {vs_links} | filas detectadas: {len(raw_rows)}")
+        if len(raw_rows) < vs_links:
+            sample = await page.evaluate(r"""
+                () => {
+                    const a = Array.from(document.querySelectorAll('a'))
+                        .find(x => /\bvs\b/i.test(x.textContent || ''));
+                    if (!a) return '';
+                    const box = a.parentElement && a.parentElement.parentElement
+                        ? a.parentElement.parentElement : a.parentElement;
+                    return box ? box.outerHTML.slice(0, 900) : '';
+                }
+            """)
+            print("[DEBUG] muestra HTML:", sample)
             html = await page.content()
             Path("debug.html").write_text(html, encoding="utf-8")
-            vs_links = await page.locator("a:has-text('vs')").count()
-            title = await page.title()
-            print(f"[DEBUG] título: {title} | html: {len(html)} chars")
-            print(f"[DEBUG] enlaces con 'vs': {vs_links}")
+            print(f"[DEBUG] título: {await page.title()} | html: {len(html)} chars")
 
         print(f"[PY] {len(raw_rows)} filas de canales detectadas. Agrupando eventos...")
 
