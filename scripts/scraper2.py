@@ -8,7 +8,7 @@ from urllib.parse import urljoin
 from playwright.async_api import TimeoutError as PWTimeout, async_playwright
 
 SITE_URL = "http://rojadirecta.tel/"
-OUTPUT_FILE = "eventos.json"
+OUTPUT_FILE = "eventos2.json"
 NAV_TIMEOUT_MS = 20_000
 MOBILE_UA = (
     "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 "
