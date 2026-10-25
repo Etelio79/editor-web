@@ -92,49 +92,7 @@ async def get_iframe_src(context, channel_url):
         await page.close()
         return channel_url
 
-# =========================================================
-# SCRAPER PRINCIPAL
-# =========================================================
-async def scrape_rojadirecta():
-    print("========================================")
-    print("Iniciando scraper para rojadirecta.tel")
-    print("========================================")
-
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=True,
-            args=["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage", "--disable-gpu"]
-        )
-        context = await browser.new_context(
-            user_agent=MOBILE_UA,
-            viewport={"width": 390, "height": 844},
-            is_mobile=True
-        )
-
-        async def _route(route):
-            if route.request.resource_type in ("image", "font", "media"):
-                await route.abort()
-            else:
-                await route.continue_()
-
-        page = await context.new_page()
-        await page.route("**/*", _route)
-
-        print("[PY] Cargando página...")
-        await page.goto(SITE_URL, wait_until="networkidle", timeout=60000)
-        print("[PY] Página cargada")
-
-        await asyncio.sleep(4)
-
-        print("[PY] Extrayendo datos del DOM...")
-
-        # FIX 1: la liga ("Premier League:") es texto suelto FUERA del <a>,
-        # antes del enlace. Con un Range tomamos todo el texto que hay desde
-        # el inicio de la fila hasta el enlace y se lo anteponemos al título.
-        # FIX 2: la hora ya no se busca por selector (.t / span), sino por
-        # regex hh:mm subiendo por los ancestros del enlace hasta hallar una
-        # fila que contenga UNA sola hora. Así no depende de la estructura.
-        raw_rows = await page.evaluate(r"""
+EXTRACT_JS = r"""
             () => {
                 const results = [];
                 const timeRe = /\b\d{2}:\d{2}\b/;
@@ -194,26 +152,92 @@ async def scrape_rojadirecta():
                 }
                 return results;
             }
-        """)
+        """
 
-        # Diagnóstico: compara enlaces con 'vs' contra filas detectadas
-        vs_links = await page.locator("a:has-text('vs')").count()
-        print(f"[DEBUG] enlaces con 'vs': {vs_links} | filas detectadas: {len(raw_rows)}")
-        if len(raw_rows) < vs_links:
-            sample = await page.evaluate(r"""
-                () => {
-                    const a = Array.from(document.querySelectorAll('a'))
-                        .find(x => /\bvs\b/i.test(x.textContent || ''));
-                    if (!a) return '';
-                    const box = a.parentElement && a.parentElement.parentElement
-                        ? a.parentElement.parentElement : a.parentElement;
-                    return box ? box.outerHTML.slice(0, 900) : '';
-                }
-            """)
-            print("[DEBUG] muestra HTML:", sample)
-            html = await page.content()
-            Path("debug.html").write_text(html, encoding="utf-8")
-            print(f"[DEBUG] título: {await page.title()} | html: {len(html)} chars")
+WAIT_VS_JS = r"() => Array.from(document.querySelectorAll('a')).some(a => /\bvs\b/i.test(a.textContent || ''))"
+
+# =========================================================
+# DIAGNÓSTICO
+# =========================================================
+async def log_diagnostics(page, attempt):
+    try:
+        html = await page.content()
+        Path("debug.html").write_text(html, encoding="utf-8")
+        try:
+            await page.screenshot(path="debug.png")
+        except Exception:
+            pass
+        info = await page.evaluate(r"""
+            () => {
+                const clean = (t) => (t || '').replace(/\s+/g, ' ').trim();
+                const anchors = Array.from(document.querySelectorAll('a'));
+                const text = (document.body && document.body.innerText) || '';
+                return {
+                    anchors: anchors.length,
+                    iframes: document.querySelectorAll('iframe').length,
+                    times: (text.match(/\b\d{2}:\d{2}\b/g) || []).length,
+                    body: clean(text).slice(0, 400),
+                    sample: anchors.slice(0, 12).map(a => clean(a.textContent).slice(0, 40)).filter(Boolean),
+                };
+            }
+        """)
+        title = await page.title()
+        print(f"[DEBUG] intento {attempt} | url final: {page.url} | título: {title} | html: {len(html)} chars")
+        print(f"[DEBUG] enlaces: {info['anchors']} | iframes: {info['iframes']} | horas hh:mm en el texto: {info['times']}")
+        print(f"[DEBUG] texto de la página: {info['body']}")
+        print(f"[DEBUG] primeros enlaces: {info['sample']}")
+    except Exception as e:
+        print(f"[DEBUG] no se pudo generar el diagnóstico: {e}")
+
+# =========================================================
+# SCRAPER PRINCIPAL
+# =========================================================
+async def scrape_rojadirecta():
+    print("========================================")
+    print("Iniciando scraper para rojadirecta.tel")
+    print("========================================")
+
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage", "--disable-gpu"]
+        )
+        context = await browser.new_context(
+            user_agent=MOBILE_UA,
+            viewport={"width": 390, "height": 844},
+            is_mobile=True
+        )
+
+        async def _route(route):
+            if route.request.resource_type in ("image", "font", "media"):
+                await route.abort()
+            else:
+                await route.continue_()
+
+        page = await context.new_page()
+        await page.route("**/*", _route)
+
+        raw_rows = []
+        for attempt in range(1, 4):
+            print(f"[PY] Cargando página (intento {attempt}/3)...")
+            try:
+                await page.goto(SITE_URL, wait_until="domcontentloaded", timeout=60000)
+            except PWTimeout:
+                print("[PY] Timeout cargando la página, continúo con lo que haya")
+            try:
+                await page.wait_for_function(WAIT_VS_JS, timeout=20000)
+            except PWTimeout:
+                print("[PY] No aparecieron enlaces con 'vs' tras 20s")
+            await asyncio.sleep(2)
+
+            print("[PY] Extrayendo datos del DOM...")
+            raw_rows = await page.evaluate(EXTRACT_JS)
+            vs_links = await page.locator("a:has-text('vs')").count()
+            print(f"[DEBUG] enlaces con 'vs': {vs_links} | filas detectadas: {len(raw_rows)}")
+            if raw_rows:
+                break
+            await log_diagnostics(page, attempt)
+            await asyncio.sleep(3)
 
         print(f"[PY] {len(raw_rows)} filas de canales detectadas. Agrupando eventos...")
 
@@ -283,7 +307,18 @@ async def scrape_rojadirecta():
             "eventos": events,
         }
 
-        Path(OUTPUT_FILE).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        out_path = Path(OUTPUT_FILE)
+        keep_old = False
+        if not events and out_path.exists():
+            try:
+                old = json.loads(out_path.read_text(encoding="utf-8"))
+                keep_old = bool(old.get("events") or old.get("eventos"))
+            except Exception:
+                keep_old = False
+        if keep_old:
+            print("[PY] 0 eventos: conservo el eventos.json anterior para no dejar la app vacía")
+        else:
+            out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
 
         print("========================================")
         print(f"[PY] Total: {result['contar']}")
