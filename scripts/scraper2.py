@@ -128,51 +128,58 @@ async def scrape_rojadirecta():
 
         print("[PY] Extrayendo datos del DOM...")
 
-        # FIX: la liga ("Premier League:") es texto suelto FUERA del <a>,
+        # FIX 1: la liga ("Premier League:") es texto suelto FUERA del <a>,
         # antes del enlace. Con un Range tomamos todo el texto que hay desde
         # el inicio de la fila hasta el enlace y se lo anteponemos al título.
-        raw_rows = await page.evaluate("""
+        # FIX 2: la hora ya no se busca por selector (.t / span), sino por
+        # regex hh:mm subiendo por los ancestros del enlace hasta hallar una
+        # fila que contenga UNA sola hora. Así no depende de la estructura.
+        raw_rows = await page.evaluate(r"""
             () => {
                 const results = [];
+                const timeRe = /\b\d{2}:\d{2}\b/g;
                 const links = Array.from(document.querySelectorAll('a'));
 
                 for (const a of links) {
                     const text = a.textContent.trim();
-                    if (!text || (!text.includes('vs') && !text.includes('VS') && !text.includes(' - '))) continue;
-
+                    if (!text || !/\bvs\b/i.test(text)) continue;
                     const href = a.getAttribute('href');
                     if (!href) continue;
 
-                    const container = a.closest('tr') || a.closest('li') || a.parentElement;
+                    // Subir hasta encontrar un ancestro que contenga UNA hora
+                    let row = a.parentElement;
                     let timeText = '';
+                    for (let i = 0; i < 5 && row; i++) {
+                        const found = (row.textContent || '').match(timeRe);
+                        if (found && found.length === 1) { timeText = found[0]; break; }
+                        row = row.parentElement;
+                    }
+                    if (!timeText || !row) continue;
+
                     let prefix = '';
+                    try {
+                        const range = document.createRange();
+                        range.setStart(row, 0);
+                        range.setEndBefore(a);
+                        prefix = range.toString();
+                    } catch (e) {}
 
-                    if (container) {
-                        const timeEl = container.querySelector('.t') || container.querySelector('span');
-                        if (timeEl) timeText = timeEl.textContent.trim();
-
-                        try {
-                            const range = document.createRange();
-                            range.setStart(container, 0);
-                            range.setEndBefore(a);
-                            prefix = range.toString();
-                        } catch (e) {
-                            prefix = '';
-                        }
-                    }
-
-                    // Quitar horas y espacios sobrantes del prefijo
-                    prefix = prefix.replace(/\\d{2}:\\d{2}/g, '').replace(/\\s+/g, ' ').trim();
+                    prefix = prefix.replace(timeRe, '').replace(/\s+/g, ' ').trim();
                     if (prefix && !prefix.endsWith(':')) prefix += ':';
-                    const titleText = prefix ? (prefix + text) : text;
-
-                    if (timeText && /\\d{2}:\\d{2}/.test(timeText)) {
-                        results.push({ timeText, titleText, href });
-                    }
+                    results.push({ timeText, titleText: prefix ? prefix + text : text, href });
                 }
                 return results;
             }
         """)
+
+        # Diagnóstico si no se detecta nada
+        if not raw_rows:
+            html = await page.content()
+            Path("debug.html").write_text(html, encoding="utf-8")
+            vs_links = await page.locator("a:has-text('vs')").count()
+            title = await page.title()
+            print(f"[DEBUG] título: {title} | html: {len(html)} chars")
+            print(f"[DEBUG] enlaces con 'vs': {vs_links}")
 
         print(f"[PY] {len(raw_rows)} filas de canales detectadas. Agrupando eventos...")
 
