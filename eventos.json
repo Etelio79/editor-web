@@ -1,9 +1,45 @@
 {
-  "actualizado_en": "2026-10-25T13:46:10.875955+00:00",
+  "actualizado_en": "2026-10-25T13:54:35.679469+00:00",
   "fecha": "2026-10-25",
   "fuente": "rojadirecta.tel-playwright",
-  "contar": 0,
-  "contar_con_canales": 0,
-  "events": [],
-  "eventos": []
+  "contar": 1,
+  "contar_con_canales": 1,
+  "events": [
+    {
+      "time": "21:05",
+      "time_utc": "2026-10-26T03:05:00+00:00",
+      "match": "Alianza vs Inter Bogotá",
+      "league": "Liga Colombia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    }
+  ],
+  "eventos": [
+    {
+      "time": "21:05",
+      "time_utc": "2026-10-26T03:05:00+00:00",
+      "match": "Alianza vs Inter Bogotá",
+      "league": "Liga Colombia",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "winplus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        },
+        {
+          "name": "winsportsplus",
+          "url": "https://streamxhd.st/live1.php?stream=winplus"
+        }
+      ]
+    }
+  ]
 }
