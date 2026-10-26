@@ -7,26 +7,87 @@ from playwright.async_api import async_playwright
 URL = "https://pirlotvapp.pro/"
 SITE_ROOT = "https://pirlotvapp.pro"
 OUTPUT_FILE = "eventos.json"
-# Zona horaria de las horas que muestra la página (UTC-6 = México, como en tu eventos.json)
-UTC_OFFSET_HORAS = -6
 
-def construir_evento(titulo, hora, canales):
+# Zona horaria en la que la PÁGINA muestra las horas.
+# (Jaguares sale a las 01:00 en la página y juega a las 18:00 en Colombia -> la página va en UTC+2)
+PAGE_UTC_OFFSET = 2
+# Zona horaria en la que quieres las horas en el JSON (Colombia = UTC-5)
+OUT_UTC_OFFSET = -5
+
+# Pestañas trabajando en paralelo
+N_WORKERS = 4
+# No cargar el contenido de los iframes (solo necesitamos su src). Acelera mucho.
+BLOQUEAR_IFRAMES = True
+
+LISTA_JS = """
+() => [...document.querySelectorAll('button.ag-toggle')].map(b => {
+    const t = b.querySelector('span.font-semibold');
+    const li = b.closest('li');
+    const txt = li ? li.innerText : b.innerText;
+    const m = txt.match(/\\b(\\d{1,2}:\\d{2})\\b/);
+    return { titulo: t ? t.textContent.trim() : '', hora: m ? m[1] : '' };
+})
+"""
+BLANK_JS = """
+() => document.querySelectorAll('iframe').forEach(f => {
+    try { f.setAttribute('src', 'about:blank'); } catch (e) {}
+})
+"""
+HAS_SRC_JS = """
+() => [...document.querySelectorAll('iframe')].some(f => {
+    const s = f.getAttribute('src');
+    return s && s !== 'about:blank';
+})
+"""
+GET_SRC_JS = """
+() => {
+    const f = [...document.querySelectorAll('iframe')]
+        .map(x => x.getAttribute('src') || '')
+        .filter(s => s && s !== 'about:blank');
+    return f.length ? f[0] : '';
+}
+"""
+
+
+def limpiar_nombre(texto):
+    """Quita la flechita y la palabra 'Español'. Deja la opción si viene (| opc3, | OP2...)."""
+    n = texto.replace("▶", " ").replace("\n", " ")
+    n = re.sub(r"Espa\S{1,2}ol", "", n, flags=re.IGNORECASE)
+    n = re.sub(r"\s+", " ", n).strip()
+    return n.strip(" |·-").strip()
+
+
+def calcular_horas(horas):
+    """
+    Recibe las horas de la página en orden ('HH:MM') y devuelve [(hora_colombia, time_utc), ...].
+    Si la hora baja respecto a la anterior (ej. 23:30 -> 01:00), la página cruzó la medianoche: suma un día.
+    """
+    tz_page = timezone(timedelta(hours=PAGE_UTC_OFFSET))
+    tz_out = timezone(timedelta(hours=OUT_UTC_OFFSET))
+    fecha = datetime.now(tz_page).date()
+    previo = -1
+    salida = []
+    for hora in horas:
+        try:
+            h, m = map(int, hora.split(":"))
+        except Exception:
+            salida.append((hora, ""))
+            continue
+        minutos = h * 60 + m
+        if minutos < previo:
+            fecha += timedelta(days=1)
+        previo = minutos
+        dt = datetime(fecha.year, fecha.month, fecha.day, h, m, tzinfo=tz_page)
+        salida.append((dt.astimezone(tz_out).strftime("%H:%M"), dt.astimezone(timezone.utc).isoformat()))
+    return salida
+
+
+def construir_evento(titulo, hora, time_utc, canales):
     """Convierte el título 'Liga: A vs B' + hora + canales al formato de eventos.json"""
     if ": " in titulo:
         liga, partido = titulo.split(": ", 1)
     else:
         liga, partido = "", titulo
-
-    time_utc = ""
-    if hora:
-        try:
-            h, m = map(int, hora.split(":"))
-            tz = timezone(timedelta(hours=UTC_OFFSET_HORAS))
-            hoy = datetime.now(tz).replace(hour=h, minute=m, second=0, microsecond=0)
-            time_utc = hoy.astimezone(timezone.utc).isoformat()
-            hora = f"{h:02d}:{m:02d}"
-        except Exception:
-            pass
 
     return {
         "time": hora,
@@ -37,8 +98,100 @@ def construir_evento(titulo, hora, canales):
         "channels": canales,
     }
 
+
+async def cargar_agenda(page):
+    await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
+    await page.wait_for_selector("button.ag-toggle", state="attached", timeout=30000)
+    await page.wait_for_timeout(1000)
+
+
+async def procesar_evento(page, titulo):
+    canales_evento = []
+
+    evento_li = page.locator("li", has_text=titulo).first
+    # click por JS: no depende de que algo tape el botón
+    await evento_li.locator("button.ag-toggle").evaluate("el => el.click()")
+
+    canales = evento_li.locator("button, a").filter(has_text="Español")
+    try:
+        await canales.first.wait_for(state="attached", timeout=3000)
+    except Exception:
+        return canales_evento  # evento sin canales
+
+    total_canales = await canales.count()
+    print(f"  -> {titulo}: {total_canales} canales", flush=True)
+
+    for j in range(total_canales):
+        try:
+            canal_elem = canales.nth(j)
+            nombre_canal = limpiar_nombre(await canal_elem.inner_text())
+
+            if len(nombre_canal) < 3 or "vs" in nombre_canal:
+                continue
+
+            # Vaciamos el iframe para detectar con certeza el src del canal que vamos a abrir
+            await page.evaluate(BLANK_JS)
+            await canal_elem.evaluate("el => el.click()")
+            await page.wait_for_function(HAS_SRC_JS, timeout=8000)
+            src = await page.evaluate(GET_SRC_JS)
+
+            if src:
+                if src.startswith("/"):
+                    src = SITE_ROOT + src
+                canales_evento.append({"name": nombre_canal, "url": src})
+                print(f"     ✅ {nombre_canal}: {src}", flush=True)
+            else:
+                print(f"     ❌ {nombre_canal}: sin src", flush=True)
+
+        except Exception as e:
+            print(f"     ⚠️ Error al abrir canal: {e}", flush=True)
+
+    return canales_evento
+
+
+async def worker(context, cola, resultados, wid):
+    page = await context.new_page()
+    page.set_default_timeout(8000)
+    try:
+        await cargar_agenda(page)
+    except Exception as e:
+        print(f"[w{wid}] Error cargando página: {e}", flush=True)
+        await page.close()
+        return
+
+    while True:
+        try:
+            i, titulo = cola.get_nowait()
+        except asyncio.QueueEmpty:
+            break
+        try:
+            resultados[i] = await procesar_evento(page, titulo)
+        except Exception as e:
+            print(f"  ⚠️ Error con el evento {titulo}: {e}", flush=True)
+            resultados[i] = []
+            try:
+                await cargar_agenda(page)
+            except Exception:
+                pass
+
+    await page.close()
+
+
+async def filtrar(route):
+    try:
+        req = route.request
+        if req.resource_type in ("image", "media", "font"):
+            await route.abort()
+            return
+        if BLOQUEAR_IFRAMES and req.frame.parent_frame is not None:
+            await route.abort()
+            return
+    except Exception:
+        pass
+    await route.continue_()
+
+
 async def main():
-    events = []
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         context = await browser.new_context(
@@ -47,124 +200,46 @@ async def main():
                         "Chrome/120.0.0.0 Safari/537.36"),
             viewport={"width": 1280, "height": 900},
         )
+        await context.route("**/*", filtrar)
+
         page = await context.new_page()
         page.set_default_timeout(8000)
 
         print("🌐 Abriendo pirlotvapp...", flush=True)
         try:
-            await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
+            await cargar_agenda(page)
+            await page.wait_for_timeout(1500)
         except Exception as e:
             print(f"Error cargando página: {e}", flush=True)
             await browser.close()
             return
 
-        await page.wait_for_timeout(5000)
+        # 1. TÍTULOS Y HORAS de todos los eventos de una sola pasada
+        datos = [d for d in await page.evaluate(LISTA_JS) if d["titulo"]]
+        await page.close()
+        print(f"Se encontraron {len(datos)} eventos.", flush=True)
 
-        # 1. OBTENER LISTA DE TÍTULOS (Evita errores si la página se actualiza)
-        botones_eventos = page.locator("button.ag-toggle")
-        total_eventos = await botones_eventos.count()
-        print(f"Se encontraron {total_eventos} eventos.", flush=True)
+        horas = calcular_horas([d["hora"] for d in datos])
 
-        titulos_eventos = []
-        for i in range(total_eventos):
-            try:
-                texto = await botones_eventos.nth(i).locator("span.font-semibold").inner_text()
-                titulos_eventos.append(texto.strip())
-            except:
-                pass
-
-        for i, titulo in enumerate(titulos_eventos):
-            print(f"\n[{i+1}/{len(titulos_eventos)}] Abriendo evento: {titulo}", flush=True)
-            
-            try:
-                # Buscamos el evento exacto por su título
-                evento_li = page.locator("li", has_text=titulo).first
-                
-                # Hora del evento (si la página la muestra dentro del <li>)
-                texto_li = await evento_li.inner_text()
-                m_hora = re.search(r"\b(\d{1,2}:\d{2})\b", texto_li)
-                hora_evento = m_hora.group(1) if m_hora else ""
-
-                # Hacemos clic en el acordeón
-                await evento_li.locator("button.ag-toggle").click()
-                await page.wait_for_timeout(2500)
-
-                canales_evento = []
-
-                # 2. BUSCAR CANALES (Solo dentro de este evento)
-                # Buscamos los botones que estén dentro de este <li>
-                canales = evento_li.locator("button, a").filter(has_text="Español")
-                total_canales = await canales.count()
-                print(f"  -> Canales encontrados en este evento: {total_canales}", flush=True)
-
-                for j in range(total_canales):
-                    try:
-                        canal_elem = canales.nth(j)
-                        
-                        # 3. LIMPIAR EL NOMBRE DEL CANAL (Quitar la flechita ▶)
-                        nombre_canal = await canal_elem.inner_text()
-                        nombre_canal = nombre_canal.replace("▶", "").strip().replace("\n", " ")
-                        
-                        if len(nombre_canal) < 3 or "vs" in nombre_canal: 
-                            continue
-
-                        print(f"     -> Abriendo canal: {nombre_canal}", flush=True)
-                        
-                        await canal_elem.click(force=True) 
-                        await page.wait_for_timeout(4000)
-
-                        # 4. EXTRAER Y COMPLETAR LA URL
-                        iframe = page.locator("iframe").first
-                        if await iframe.count() > 0:
-                            src = await iframe.get_attribute("src")
-                            if src:
-                                # Si el enlace empieza con "/", le agregamos el dominio
-                                if src.startswith("/"):
-                                    src = SITE_ROOT + src
-                                canales_evento.append({"name": nombre_canal, "url": src})
-                                print(f"     ✅ {src}", flush=True)
-                        else:
-                            print("     ❌ No se encontró iframe", flush=True)
-
-                        # 5. CERRAR EL MODAL A LA FUERZA
-                        # Intentamos con Escape
-                        await page.keyboard.press("Escape") 
-                        await page.wait_for_timeout(1000)
-                        
-                        # Si el iframe sigue ahí, significa que el modal no se cerró.
-                        # Buscamos el botón de la "X" y le damos clic.
-                        if await page.locator("iframe").count() > 0:
-                            try:
-                                # Buscamos cualquier botón que diga "×", "X" o tenga la clase close
-                                cerrar = page.locator("button", has_text="×").or_(page.locator("button", has_text="X")).or_(page.locator(".close-btn")).first
-                                await cerrar.click(timeout=3000)
-                            except:
-                                # Si de plano no encuentra cómo cerrar, recarga la página (a prueba de balas)
-                                print("     (Forzando recarga para cerrar modal)", flush=True)
-                                await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
-                                await page.wait_for_timeout(3000)
-                                await page.locator("li", has_text=titulo).first.locator("button.ag-toggle").click()
-                                await page.wait_for_timeout(2000)
-
-                    except Exception as e:
-                        print(f"     ⚠️ Error al abrir canal: {e}", flush=True)
-
-                events.append(construir_evento(titulo, hora_evento, canales_evento))
-
-                # Al terminar con los canales, cerramos el acordeón (si no se recargó la página)
-                if await page.locator("iframe").count() == 0:
-                    await evento_li.locator("button.ag-toggle").click()
-                    await page.wait_for_timeout(1000)
-
-            except Exception as e:
-                print(f"  ⚠️ Error con el evento: {e}", flush=True)
+        # 2. CANALES en paralelo
+        cola = asyncio.Queue()
+        for i, d in enumerate(datos):
+            cola.put_nowait((i, d["titulo"]))
+        resultados = {}
+        n = max(1, min(N_WORKERS, len(datos)))
+        await asyncio.gather(*(worker(context, cola, resultados, w + 1) for w in range(n)))
 
         await browser.close()
+
+    events = []
+    for i, d in enumerate(datos):
+        hora, time_utc = horas[i]
+        events.append(construir_evento(d["titulo"], hora, time_utc, resultados.get(i, [])))
 
     ahora = datetime.now(timezone.utc)
     salida = {
         "actualizado_en": ahora.isoformat(),
-        "fecha": ahora.astimezone(timezone(timedelta(hours=UTC_OFFSET_HORAS))).strftime("%Y-%m-%d"),
+        "fecha": ahora.astimezone(timezone(timedelta(hours=OUT_UTC_OFFSET))).strftime("%Y-%m-%d"),
         "fuente": "pirlotvapp.pro-playwright",
         "contar": len(events),
         "contar_con_canales": sum(1 for e in events if e["channels"]),
