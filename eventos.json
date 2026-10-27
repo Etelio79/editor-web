@@ -1,95 +1,49 @@
 {
-  "actualizado_en": "2026-10-26T21:49:30.791887+00:00",
-  "fecha": "2026-10-26",
+  "actualizado_en": "2026-10-27T14:57:37.312375+00:00",
+  "fecha": "2026-10-27",
   "fuente": "pirlotvapp.pro-playwright",
-  "contar": 12,
-  "contar_con_canales": 10,
+  "contar": 15,
+  "contar_con_canales": 15,
   "events": [
     {
-      "time": "18:45",
-      "time_utc": "2026-10-25T23:45:00+00:00",
-      "match": "Messi Cup – Boca Juniors vs. UE Cornellà",
+      "time": "00:15",
+      "time_utc": "2026-10-27T05:15:00+00:00",
+      "match": "Beijing Guoan vs Jeonbuk Motors",
+      "league": "AFC Champions League Elite",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 01",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney1"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-10-27T08:00:00+00:00",
+      "match": "Fakel vs Akhmat",
+      "league": "Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2"
+        },
+        {
+          "name": "Dsports 2 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fdsports2.html"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2_op2"
+        }
+      ]
+    },
+    {
+      "time": "05:30",
+      "time_utc": "2026-10-27T10:30:00+00:00",
+      "match": "Messi Cup – Boca Juniors vs. Flamengo",
       "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN2",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2"
-        },
-        {
-          "name": "ESPN2 Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn2tv.html"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-10-25T23:45:00+00:00",
-      "match": "Santa Clara vs Benfica",
-      "league": "Primeira Liga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports AR",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanales.php%3Fstream%3Ddsportsar"
-        },
-        {
-          "name": "Dsports | OP2",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports_op2"
-        },
-        {
-          "name": "Dsports Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fdirectvperu.html"
-        },
-        {
-          "name": "Dsports",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-10-26T00:30:00+00:00",
-      "match": "FC Andorra vs Burgos",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dhypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-10-26T00:30:00+00:00",
-      "match": "París Saint-Germain vs Lyon",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn"
-        },
-        {
-          "name": "Disney 06",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney6"
-        },
-        {
-          "name": "ESPN Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn1tv.html"
-        },
-        {
-          "name": "BeIN Sports Ñ",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dbeinsportes"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-10-26T01:00:00+00:00",
-      "match": "Sevilla vs Osasuna",
-      "league": "LaLiga",
       "flag": "⚽",
       "channels": [
         {
@@ -97,24 +51,139 @@
           "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn5"
         },
         {
-          "name": "Disney 07",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney7"
-        },
-        {
           "name": "ESPN5 Movil",
           "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn5tv.html"
-        },
-        {
-          "name": "ESPN Deportes",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despndeportes"
         }
       ]
     },
     {
-      "time": "20:00",
-      "time_utc": "2026-10-26T01:00:00+00:00",
-      "match": "Walsall vs Salford City",
-      "league": "League Two",
+      "time": "05:30",
+      "time_utc": "2026-10-27T10:30:00+00:00",
+      "match": "Sassuolo vs Lazio",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2"
+        },
+        {
+          "name": "Disney 02",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney2"
+        },
+        {
+          "name": "ESPN2 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn2tv.html"
+        },
+        {
+          "name": "ESPN2 MX",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2mx"
+        },
+        {
+          "name": "Universo",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Duniverso"
+        }
+      ]
+    },
+    {
+      "time": "05:30",
+      "time_utc": "2026-10-27T10:30:00+00:00",
+      "match": "FC Krasnodar vs Dynamo",
+      "league": "Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2"
+        },
+        {
+          "name": "Dsports 2 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fdsports2.html"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2_op2"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-27T23:00:00+00:00",
+      "match": "Independiente Res. vs Defensa y Justicia Res.",
+      "league": "Reserve League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsports"
+        },
+        {
+          "name": "TNT Sports Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Ftntsports2.html"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-27T23:00:00+00:00",
+      "match": "Pinatar vs Elche",
+      "league": "Copa del Rey",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 03",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney3"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-27T23:00:00+00:00",
+      "match": "Sestao River vs Espanyol",
+      "league": "Copa del Rey",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 04",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney4"
+        }
+      ]
+    },
+    {
+      "time": "18:15",
+      "time_utc": "2026-10-27T23:15:00+00:00",
+      "match": "Al Shamal vs Al-Hilal Saudi FC",
+      "league": "AFC Champions League Elite",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 05",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney5"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-28T00:00:00+00:00",
+      "match": "Messi Cup – Barcelona vs. Newell’s Old Boys",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN5",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn5"
+        },
+        {
+          "name": "ESPN5 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn5tv.html"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-10-28T00:45:00+00:00",
+      "match": "Bradford vs Peterborough",
+      "league": "League Cup",
       "flag": "⚽",
       "channels": [
         {
@@ -124,10 +193,10 @@
       ]
     },
     {
-      "time": "20:30",
-      "time_utc": "2026-10-26T01:30:00+00:00",
-      "match": "Messi Cup – Barcelona vs. Arsenal",
-      "league": "",
+      "time": "19:45",
+      "time_utc": "2026-10-28T00:45:00+00:00",
+      "match": "Roma vs Cagliari",
+      "league": "Serie A",
       "flag": "⚽",
       "channels": [
         {
@@ -135,169 +204,123 @@
           "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2"
         },
         {
-          "name": "ESPN2 Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn2tv.html"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-10-26T02:00:00+00:00",
-      "match": "Universidad de Chile vs Everton de Viña del Mar",
-      "league": "Primera División de Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsportschile"
+          "name": "Disney 06",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney6"
         },
         {
-          "name": "TNT Sports Premium CL Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Ftntchile.html"
+          "name": "ESPN2 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn2tv.html"
+        },
+        {
+          "name": "ESPN2 MX",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2mx"
+        },
+        {
+          "name": "Universo",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Duniverso"
         }
       ]
     },
     {
-      "time": "22:00",
-      "time_utc": "2026-10-26T03:00:00+00:00",
-      "match": "Unión de Santa Fe vs Estudiantes de La Plata",
-      "league": "Liga Profesional Argentina",
+      "time": "19:45",
+      "time_utc": "2026-10-28T00:45:00+00:00",
+      "match": "Torino vs Como",
+      "league": "Serie A",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney 07",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney7"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-10-28T01:00:00+00:00",
+      "match": "Fleetwood Town vs Arsenal",
+      "league": "League Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn"
+        },
         {
           "name": "Disney 09",
           "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney9"
         },
         {
-          "name": "ESPN Premium",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despnpremium"
+          "name": "ESPN Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn1tv.html"
         },
         {
-          "name": "ESPN Premium Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespnpremium2.html"
+          "name": "ESPN MX",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despnmx"
         }
       ]
     },
     {
-      "time": "22:30",
-      "time_utc": "2026-10-26T03:30:00+00:00",
-      "match": "Coritiba vs Grêmio",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-10-26T04:00:00+00:00",
-      "match": "Flamengo vs Atlético Mineiro",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-10-26T04:00:00+00:00",
-      "match": "Jaguares de Córdoba vs Llaneros",
-      "league": "Liga BetPlay",
+      "time": "20:00",
+      "time_utc": "2026-10-28T01:00:00+00:00",
+      "match": "Juan Pablo II College vs Sport Huancayo",
+      "league": "Liga 1",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Win Sports +",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
+          "name": "Liga1max",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max"
         },
         {
-          "name": "Win Sports + | opc3",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fwinsports.html"
+          "name": "Liga1max Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fligaperu.html"
+        },
+        {
+          "name": "Liga1max OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max_op2"
         }
       ]
     }
   ],
   "eventos": [
     {
-      "time": "18:45",
-      "time_utc": "2026-10-25T23:45:00+00:00",
-      "match": "Messi Cup – Boca Juniors vs. UE Cornellà",
+      "time": "00:15",
+      "time_utc": "2026-10-27T05:15:00+00:00",
+      "match": "Beijing Guoan vs Jeonbuk Motors",
+      "league": "AFC Champions League Elite",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 01",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney1"
+        }
+      ]
+    },
+    {
+      "time": "03:00",
+      "time_utc": "2026-10-27T08:00:00+00:00",
+      "match": "Fakel vs Akhmat",
+      "league": "Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2"
+        },
+        {
+          "name": "Dsports 2 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fdsports2.html"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2_op2"
+        }
+      ]
+    },
+    {
+      "time": "05:30",
+      "time_utc": "2026-10-27T10:30:00+00:00",
+      "match": "Messi Cup – Boca Juniors vs. Flamengo",
       "league": "",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN2",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2"
-        },
-        {
-          "name": "ESPN2 Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn2tv.html"
-        }
-      ]
-    },
-    {
-      "time": "18:45",
-      "time_utc": "2026-10-25T23:45:00+00:00",
-      "match": "Santa Clara vs Benfica",
-      "league": "Primeira Liga",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports AR",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanales.php%3Fstream%3Ddsportsar"
-        },
-        {
-          "name": "Dsports | OP2",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports_op2"
-        },
-        {
-          "name": "Dsports Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fdirectvperu.html"
-        },
-        {
-          "name": "Dsports",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-10-26T00:30:00+00:00",
-      "match": "FC Andorra vs Burgos",
-      "league": "Segunda División",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "LaLiga TV Hypermotion",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dhypermotion1"
-        }
-      ]
-    },
-    {
-      "time": "19:30",
-      "time_utc": "2026-10-26T00:30:00+00:00",
-      "match": "París Saint-Germain vs Lyon",
-      "league": "Ligue 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "ESPN",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn"
-        },
-        {
-          "name": "Disney 06",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney6"
-        },
-        {
-          "name": "ESPN Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn1tv.html"
-        },
-        {
-          "name": "BeIN Sports Ñ",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dbeinsportes"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-10-26T01:00:00+00:00",
-      "match": "Sevilla vs Osasuna",
-      "league": "LaLiga",
       "flag": "⚽",
       "channels": [
         {
@@ -305,24 +328,139 @@
           "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn5"
         },
         {
-          "name": "Disney 07",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney7"
-        },
-        {
           "name": "ESPN5 Movil",
           "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn5tv.html"
-        },
-        {
-          "name": "ESPN Deportes",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despndeportes"
         }
       ]
     },
     {
-      "time": "20:00",
-      "time_utc": "2026-10-26T01:00:00+00:00",
-      "match": "Walsall vs Salford City",
-      "league": "League Two",
+      "time": "05:30",
+      "time_utc": "2026-10-27T10:30:00+00:00",
+      "match": "Sassuolo vs Lazio",
+      "league": "Serie A",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2"
+        },
+        {
+          "name": "Disney 02",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney2"
+        },
+        {
+          "name": "ESPN2 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn2tv.html"
+        },
+        {
+          "name": "ESPN2 MX",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2mx"
+        },
+        {
+          "name": "Universo",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Duniverso"
+        }
+      ]
+    },
+    {
+      "time": "05:30",
+      "time_utc": "2026-10-27T10:30:00+00:00",
+      "match": "FC Krasnodar vs Dynamo",
+      "league": "Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2"
+        },
+        {
+          "name": "Dsports 2 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fdsports2.html"
+        },
+        {
+          "name": "Dsports 2 | OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2_op2"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-27T23:00:00+00:00",
+      "match": "Independiente Res. vs Defensa y Justicia Res.",
+      "league": "Reserve League",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "TNT Sports",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsports"
+        },
+        {
+          "name": "TNT Sports Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Ftntsports2.html"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-27T23:00:00+00:00",
+      "match": "Pinatar vs Elche",
+      "league": "Copa del Rey",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 03",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney3"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "time_utc": "2026-10-27T23:00:00+00:00",
+      "match": "Sestao River vs Espanyol",
+      "league": "Copa del Rey",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 04",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney4"
+        }
+      ]
+    },
+    {
+      "time": "18:15",
+      "time_utc": "2026-10-27T23:15:00+00:00",
+      "match": "Al Shamal vs Al-Hilal Saudi FC",
+      "league": "AFC Champions League Elite",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 05",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney5"
+        }
+      ]
+    },
+    {
+      "time": "19:00",
+      "time_utc": "2026-10-28T00:00:00+00:00",
+      "match": "Messi Cup – Barcelona vs. Newell’s Old Boys",
+      "league": "",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN5",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn5"
+        },
+        {
+          "name": "ESPN5 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn5tv.html"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-10-28T00:45:00+00:00",
+      "match": "Bradford vs Peterborough",
+      "league": "League Cup",
       "flag": "⚽",
       "channels": [
         {
@@ -332,10 +470,10 @@
       ]
     },
     {
-      "time": "20:30",
-      "time_utc": "2026-10-26T01:30:00+00:00",
-      "match": "Messi Cup – Barcelona vs. Arsenal",
-      "league": "",
+      "time": "19:45",
+      "time_utc": "2026-10-28T00:45:00+00:00",
+      "match": "Roma vs Cagliari",
+      "league": "Serie A",
       "flag": "⚽",
       "channels": [
         {
@@ -343,79 +481,79 @@
           "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2"
         },
         {
-          "name": "ESPN2 Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn2tv.html"
-        }
-      ]
-    },
-    {
-      "time": "21:00",
-      "time_utc": "2026-10-26T02:00:00+00:00",
-      "match": "Universidad de Chile vs Everton de Viña del Mar",
-      "league": "Primera División de Chile",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "TNT Sports Premiun CL",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dtntsportschile"
+          "name": "Disney 06",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney6"
         },
         {
-          "name": "TNT Sports Premium CL Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Ftntchile.html"
+          "name": "ESPN2 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn2tv.html"
+        },
+        {
+          "name": "ESPN2 MX",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn2mx"
+        },
+        {
+          "name": "Universo",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Duniverso"
         }
       ]
     },
     {
-      "time": "22:00",
-      "time_utc": "2026-10-26T03:00:00+00:00",
-      "match": "Unión de Santa Fe vs Estudiantes de La Plata",
-      "league": "Liga Profesional Argentina",
+      "time": "19:45",
+      "time_utc": "2026-10-28T00:45:00+00:00",
+      "match": "Torino vs Como",
+      "league": "Serie A",
       "flag": "⚽",
       "channels": [
+        {
+          "name": "Disney 07",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney7"
+        }
+      ]
+    },
+    {
+      "time": "20:00",
+      "time_utc": "2026-10-28T01:00:00+00:00",
+      "match": "Fleetwood Town vs Arsenal",
+      "league": "League Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "ESPN",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despn"
+        },
         {
           "name": "Disney 09",
           "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney9"
         },
         {
-          "name": "ESPN Premium",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despnpremium"
+          "name": "ESPN Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespn1tv.html"
         },
         {
-          "name": "ESPN Premium Movil",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fespnpremium2.html"
+          "name": "ESPN MX",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Despnmx"
         }
       ]
     },
     {
-      "time": "22:30",
-      "time_utc": "2026-10-26T03:30:00+00:00",
-      "match": "Coritiba vs Grêmio",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-10-26T04:00:00+00:00",
-      "match": "Flamengo vs Atlético Mineiro",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": []
-    },
-    {
-      "time": "23:00",
-      "time_utc": "2026-10-26T04:00:00+00:00",
-      "match": "Jaguares de Córdoba vs Llaneros",
-      "league": "Liga BetPlay",
+      "time": "20:00",
+      "time_utc": "2026-10-28T01:00:00+00:00",
+      "match": "Juan Pablo II College vs Sport Huancayo",
+      "league": "Liga 1",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Win Sports +",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dwinplus"
+          "name": "Liga1max",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max"
         },
         {
-          "name": "Win Sports + | opc3",
-          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fwinsports.html"
+          "name": "Liga1max Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fligaperu.html"
+        },
+        {
+          "name": "Liga1max OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max_op2"
         }
       ]
     }
