@@ -13,9 +13,9 @@ PAGE_UTC_OFFSET = 2
 # Zona horaria en la que quieres las horas en el JSON (Colombia = UTC-5)
 OUT_UTC_OFFSET = -5
 
-# Pestañas trabajando en paralelo (reducido a 2 por apertura de nuevas ventanas)
+# Pestañas trabajando en paralelo (2 es seguro para no saturar al abrir nuevas pestañas)
 N_WORKERS = 2
-BLOQUEAR_IFRAMES = False # En esta web el iframe carga en la nueva pestaña, no lo bloqueamos
+BLOQUEAR_IFRAMES = False 
 
 # Extrae los eventos leyendo el texto de la fila
 LISTA_JS = """
@@ -125,9 +125,17 @@ def construir_evento(titulo, hora, time_utc, canales):
     }
 
 async def cargar_agenda(page):
-    await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
-    # Esperar a que carguen los eventos
-    await page.wait_for_selector('text=" vs "', state="attached", timeout=30000)
+    # Usar networkidle para esperar a que terminen las peticiones AJAX de la página
+    await page.goto(URL, wait_until="networkidle", timeout=60000)
+    
+    try:
+        # Espera flexible usando expresión regular
+        await page.wait_for_selector('text=/\\s+vs\\s+/i', state="attached", timeout=45000)
+    except Exception:
+        # Respaldo: esperar por la tabla principal
+        await page.wait_for_selector('table', state="attached", timeout=20000)
+        await page.wait_for_timeout(2000)
+        
     await page.wait_for_timeout(1000)
 
 async def procesar_evento(page, titulo):
@@ -140,9 +148,14 @@ async def procesar_evento(page, titulo):
         # Buscar la fila del evento y hacer clic para abrir el acordeón
         evento_li = page.locator('div, tr, li').filter(has_text=titulo).filter(has_text=" vs ").first
         await evento_li.click()
-        await page.wait_for_timeout(1500) # Esperar animación del acordeón
+        
+        # Esperar a que aparezcan los canales (contienen la palabra "Calidad")
+        try:
+            await page.wait_for_selector('text=/Calidad \\d+p/i', timeout=5000)
+        except:
+            pass # Si no aparecen canales, el bucle de abajo simplemente no hará nada
 
-        # Buscar los canales dentro del acordeón abierto (contienen la palabra "Calidad")
+        # Buscar los canales dentro del acordeón abierto
         canales = page.locator('div, a, li').filter(has_text=re.compile(r'Calidad \d+p', re.I))
         
         total_canales = await canales.count()
@@ -157,8 +170,8 @@ async def procesar_evento(page, titulo):
                 if len(nombre_canal) < 2 or "vs" in nombre_canal:
                     continue
 
-                # Al hacer clic, se abre una nueva pestaña. La atrapamos con expect_page
-                async with page.context.expect_page(timeout=10000) as new_page_info:
+                # Al hacer clic, se abre una nueva pestaña. La atrapamos.
+                async with page.context.expect_page(timeout=15000) as new_page_info:
                     await canal_elem.click()
                 
                 new_page = await new_page_info.value
@@ -166,7 +179,7 @@ async def procesar_evento(page, titulo):
                 
                 # Extraer el iframe de la nueva pestaña
                 try:
-                    await new_page.wait_for_selector('iframe', timeout=5000)
+                    await new_page.wait_for_selector('iframe', timeout=8000)
                     src = await new_page.evaluate("() => { const f = document.querySelector('iframe'); return f ? f.src : ''; }")
                     
                     if src:
@@ -192,7 +205,8 @@ async def procesar_evento(page, titulo):
 
 async def worker(context, cola, resultados, wid):
     page = await context.new_page()
-    page.set_default_timeout(15000)
+    # Aumentado a 30s para evitar Timeouts en Github Actions
+    page.set_default_timeout(30000) 
     
     while True:
         try:
@@ -229,7 +243,7 @@ async def main():
         await context.route("**/*", filtrar)
 
         page = await context.new_page()
-        page.set_default_timeout(15000)
+        page.set_default_timeout(30000)
 
         print("🌐 Abriendo futbollibres.ad...", flush=True)
         try:
@@ -237,6 +251,14 @@ async def main():
             await page.wait_for_timeout(1500)
         except Exception as e:
             print(f"Error cargando página: {e}", flush=True)
+            # Si falla, toma una captura de pantalla para depurar en Github Actions
+            try:
+                await page.screenshot(path="debug_futbollibres.png", full_page=True)
+                with open("debug_futbollibres.html", "w", encoding="utf-8") as f:
+                    f.write(await page.content())
+                print("📸 Debug guardado: debug_futbollibres.png / .html", flush=True)
+            except:
+                pass
             await browser.close()
             return
 
