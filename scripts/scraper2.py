@@ -185,12 +185,59 @@ def src_desde_url(href):
     return ""
 
 
+# ¿Hay alguna hora tipo "12:30pm" en el texto visible de la página?
+HORA_EN_TEXTO_JS = """() => /\\d{1,2}:\\d{2}\\s*[ap]\\.?\\s*m/i.test(document.body ? document.body.innerText : '')"""
+
+# Detecta solo la etiqueta/clase de las filas de la agenda (fila = hora + "vs", la más externa)
+DETECTAR_JS = """
+() => {
+    const reHora = /^\\s*\\d{1,2}:\\d{2}\\s*(?:[ap]\\.?\\s*m\\.?)?/i;
+    const esFila = el => {
+        const t = (el.innerText || '').trim();
+        return reHora.test(t) && /\\svs\\s/i.test(t) && t.length < 250;
+    };
+    const cuenta = {};
+    document.querySelectorAll('body *').forEach(el => {
+        if (!esFila(el)) return;
+        if (el.parentElement && esFila(el.parentElement)) return;
+        const sig = el.tagName.toLowerCase() + (el.classList[0] ? '.' + el.classList[0] : '');
+        cuenta[sig] = (cuenta[sig] || 0) + 1;
+    });
+    const orden = Object.entries(cuenta).sort((a, b) => b[1] - a[1]);
+    return { sel: orden.length ? orden[0][0] : '', cuenta };
+}
+"""
+
+
+async def diagnostico(page):
+    """Imprime en el log lo que realmente ve el navegador (útil en GitHub Actions)."""
+    try:
+        info = await page.evaluate("""() => ({
+            titulo: document.title,
+            url: location.href,
+            iframes: document.querySelectorAll('iframe').length,
+            texto: (document.body ? document.body.innerText : '').replace(/\\s+/g, ' ').slice(0, 700)
+        })""")
+        print(f"🔎 DIAGNÓSTICO\n  título: {info['titulo']}\n  url: {info['url']}\n  iframes: {info['iframes']}\n  texto: {info['texto']}", flush=True)
+        with open("debug_agenda.html", "w", encoding="utf-8") as f:
+            f.write(await page.content())
+    except Exception as e:
+        print(f"🔎 No pude hacer el diagnóstico: {e}", flush=True)
+
+
 async def cargar_agenda(page):
+    global EVENT_SELECTOR
     await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
-    await page.wait_for_function(
-        """(sel) => [...document.querySelectorAll(sel)].some(e => /^\\s*\\d{1,2}:\\d{2}/.test(e.innerText || ''))""",
-        arg=EVENT_SELECTOR, timeout=30000)
+    try:
+        await page.wait_for_function(HORA_EN_TEXTO_JS, timeout=45000)
+    except Exception:
+        await diagnostico(page)
+        raise
     await page.wait_for_timeout(1000)
+    det = await page.evaluate(DETECTAR_JS)
+    print(f"  filas detectadas: {det['cuenta']}", flush=True)
+    if det["sel"]:
+        EVENT_SELECTOR = det["sel"]
 
 
 async def extraer_canales_evento(page, i, titulo):
@@ -274,7 +321,10 @@ async def filtrar(route):
 
 async def main():
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
         context = await browser.new_context(
             user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                         "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -284,6 +334,8 @@ async def main():
             timezone_id="America/Bogota",
             locale="es-CO",
         )
+        await context.add_init_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         await context.route("**/*", filtrar)
 
         page = await context.new_page()
