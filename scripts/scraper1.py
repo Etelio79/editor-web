@@ -2,253 +2,192 @@ import asyncio
 import json
 import re
 from datetime import datetime, timedelta, timezone
-from playwright.async_api import async_playwright
+from pathlib import Path
+from urllib.parse import urljoin
 
-URL = "https://pirlotvapp.pro/"
-SITE_ROOT = "https://pirlotvapp.pro"
+from playwright.async_api import TimeoutError as PWTimeout, async_playwright
+
+SITE_URL = "https://futbollibremx.mx/"
 OUTPUT_FILE = "eventos.json"
+MAX_CONCURRENT_PAGES = 4
+NAV_TIMEOUT_MS = 20_000
+MOBILE_UA = (
+    "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+)
 
-# Zona horaria en la que la PÁGINA muestra las horas.
-# (Jaguares sale a las 01:00 en la página y juega a las 18:00 en Colombia -> la página va en UTC+2)
-PAGE_UTC_OFFSET = 2
-# Zona horaria en la que quieres las horas en el JSON (Colombia = UTC-5)
-OUT_UTC_OFFSET = -5
+def normalize_time(time_text):
+    if not time_text:
+        return None
+    m = re.match(r"^(\d{2}):(\d{2})", str(time_text).strip())
+    return f"{m.group(1)}:{m.group(2)}" if m else None
 
-# Pestañas trabajando en paralelo
-N_WORKERS = 4
-# No cargar el contenido de los iframes (solo necesitamos su src). Acelera mucho.
-BLOQUEAR_IFRAMES = True
+def time_mexico_to_utc(time_str):
+    if not time_str:
+        return None
+    m = re.match(r"^(\d{2}):(\d{2})$", time_str)
+    if not m:
+        return None
+    hour = int(m.group(1)) + 6
+    minute = int(m.group(2))
+    day_offset = 0
+    if hour >= 24:
+        hour -= 24
+        day_offset = 1
+    now = datetime.now(timezone.utc)
+    base = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    return (base + timedelta(days=day_offset, hours=hour, minutes=minute)).isoformat()
 
-LISTA_JS = """
-() => [...document.querySelectorAll('button.ag-toggle')].map(b => {
-    const t = b.querySelector('span.font-semibold');
-    const li = b.closest('li');
-    const txt = li ? li.innerText : b.innerText;
-    const m = txt.match(/\\b(\\d{1,2}:\\d{2})\\b/);
-    return { titulo: t ? t.textContent.trim() : '', hora: m ? m[1] : '' };
-})
-"""
-BLANK_JS = """
-() => document.querySelectorAll('iframe').forEach(f => {
-    try { f.setAttribute('src', 'about:blank'); } catch (e) {}
-})
-"""
-HAS_SRC_JS = """
-() => [...document.querySelectorAll('iframe')].some(f => {
-    const s = f.getAttribute('src');
-    return s && s !== 'about:blank';
-})
-"""
-GET_SRC_JS = """
-() => {
-    const f = [...document.querySelectorAll('iframe')]
-        .map(x => x.getAttribute('src') || '')
-        .filter(s => s && s !== 'about:blank');
-    return f.length ? f[0] : '';
-}
-"""
-
-
-def limpiar_nombre(texto):
-    """Quita la flechita y la palabra 'Español'. Deja la opción si viene (| opc3, | OP2...)."""
-    n = texto.replace("▶", " ").replace("\n", " ")
-    n = re.sub(r"Espa\S{1,2}ol", "", n, flags=re.IGNORECASE)
-    n = re.sub(r"\s+", " ", n).strip()
-    return n.strip(" |·-").strip()
-
-
-def calcular_horas(horas):
-    """
-    Recibe las horas de la página en orden ('HH:MM') y devuelve [(hora_colombia, time_utc), ...].
-    Si la hora baja respecto a la anterior (ej. 23:30 -> 01:00), la página cruzó la medianoche: suma un día.
-    """
-    tz_page = timezone(timedelta(hours=PAGE_UTC_OFFSET))
-    tz_out = timezone(timedelta(hours=OUT_UTC_OFFSET))
-    fecha = datetime.now(tz_page).date()
-    previo = -1
-    salida = []
-    for hora in horas:
-        try:
-            h, m = map(int, hora.split(":"))
-        except Exception:
-            salida.append((hora, ""))
+def split_league_match(raw_title):
+    text = re.sub(r"\s+", " ", str(raw_title or "")).strip()
+    parts = [p.strip() for p in text.split(":")]
+    if len(parts) >= 2:
+        league = parts[0]
+        match = ": ".join(parts[1:]).strip()
+        league_re = re.compile(rf"^{re.escape(league)}[:\s-]+", re.IGNORECASE)
+        match = league_re.sub("", match).strip()
+        if league and match:
+            return league, match
+    for sep in ("–", "—", " - "):
+        idx = text.find(sep)
+        if idx == -1:
             continue
-        minutos = h * 60 + m
-        if minutos < previo:
-            fecha += timedelta(days=1)
-        previo = minutos
-        dt = datetime(fecha.year, fecha.month, fecha.day, h, m, tzinfo=tz_page)
-        salida.append((dt.astimezone(tz_out).strftime("%H:%M"), dt.astimezone(timezone.utc).isoformat()))
-    return salida
+        league = text[:idx].strip()
+        match = text[idx + len(sep):].strip()
+        league_re = re.compile(rf"^{re.escape(league)}[:\s-]+", re.IGNORECASE)
+        match = league_re.sub("", match).strip()
+        if league and match and re.search(r"\bvs\.?\b", match, re.IGNORECASE):
+            return league, match
+    return "", text
 
+def clean_channel_name(name, index):
+    if not name:
+        return f"Canal {index + 1}"
+    value = re.sub(r"\s+", " ", str(name)).strip()
+    return value or f"Canal {index + 1}"
 
-def construir_evento(titulo, hora, time_utc, canales):
-    """Convierte el título 'Liga: A vs B' + hora + canales al formato de eventos.json"""
-    if ": " in titulo:
-        liga, partido = titulo.split(": ", 1)
-    else:
-        liga, partido = "", titulo
-
-    return {
-        "time": hora,
-        "time_utc": time_utc,
-        "match": partido.strip(),
-        "league": liga.strip(),
-        "flag": "⚽",
-        "channels": canales,
-    }
-
-
-async def cargar_agenda(page):
-    await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
-    await page.wait_for_selector("button.ag-toggle", state="attached", timeout=30000)
-    await page.wait_for_timeout(1000)
-
-
-async def procesar_evento(page, titulo):
-    canales_evento = []
-
-    evento_li = page.locator("li", has_text=titulo).first
-    # click por JS: no depende de que algo tape el botón
-    await evento_li.locator("button.ag-toggle").evaluate("el => el.click()")
-
-    canales = evento_li.locator("button, a").filter(has_text="Español")
-    try:
-        await canales.first.wait_for(state="attached", timeout=3000)
-    except Exception:
-        return canales_evento  # evento sin canales
-
-    total_canales = await canales.count()
-    print(f"  -> {titulo}: {total_canales} canales", flush=True)
-
-    for j in range(total_canales):
+async def get_iframe_src(context, channel_url, sem):
+    if not channel_url:
+        return None
+    async with sem:
+        page = await context.new_page()
         try:
-            canal_elem = canales.nth(j)
-            nombre_canal = limpiar_nombre(await canal_elem.inner_text())
-
-            if len(nombre_canal) < 3 or "vs" in nombre_canal:
-                continue
-
-            # Vaciamos el iframe para detectar con certeza el src del canal que vamos a abrir
-            await page.evaluate(BLANK_JS)
-            await canal_elem.evaluate("el => el.click()")
-            await page.wait_for_function(HAS_SRC_JS, timeout=8000)
-            src = await page.evaluate(GET_SRC_JS)
-
-            if src:
-                if src.startswith("/"):
-                    src = SITE_ROOT + src
-                canales_evento.append({"name": nombre_canal, "url": src})
-                print(f"     ✅ {nombre_canal}: {src}", flush=True)
-            else:
-                print(f"     ❌ {nombre_canal}: sin src", flush=True)
-
-        except Exception as e:
-            print(f"     ⚠️ Error al abrir canal: {e}", flush=True)
-
-    return canales_evento
-
-
-async def worker(context, cola, resultados, wid):
-    page = await context.new_page()
-    page.set_default_timeout(8000)
-    try:
-        await cargar_agenda(page)
-    except Exception as e:
-        print(f"[w{wid}] Error cargando página: {e}", flush=True)
-        await page.close()
-        return
-
-    while True:
-        try:
-            i, titulo = cola.get_nowait()
-        except asyncio.QueueEmpty:
-            break
-        try:
-            resultados[i] = await procesar_evento(page, titulo)
-        except Exception as e:
-            print(f"  ⚠️ Error con el evento {titulo}: {e}", flush=True)
-            resultados[i] = []
+            await page.goto(channel_url, wait_until="domcontentloaded", timeout=NAV_TIMEOUT_MS)
             try:
-                await cargar_agenda(page)
-            except Exception:
-                pass
+                await page.wait_for_selector("iframe", timeout=8_000)
+                src = await page.eval_on_selector("iframe", "el => el && el.src")
+            except PWTimeout:
+                src = None
+            return src or channel_url
+        except Exception:
+            print(f"   [!] No se pudo extraer iframe de: {channel_url}")
+            return channel_url
+        finally:
+            await page.close()
 
-    await page.close()
-
-
-async def filtrar(route):
-    try:
-        req = route.request
-        if req.resource_type in ("image", "media", "font"):
-            await route.abort()
-            return
-        if BLOQUEAR_IFRAMES and req.frame.parent_frame is not None:
-            await route.abort()
-            return
-    except Exception:
-        pass
-    await route.continue_()
-
-
-async def main():
+async def scrape():
+    print("Iniciando scraper futbollibremx.mx...")
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(
-            user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                        "AppleWebKit/537.36 (KHTML, like Gecko) "
-                        "Chrome/120.0.0.0 Safari/537.36"),
-            viewport={"width": 1280, "height": 900},
-        )
-        await context.route("**/*", filtrar)
+        browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu"])
+        context = await browser.new_context(user_agent=MOBILE_UA, viewport={"width": 390, "height": 844}, is_mobile=True)
+
+        async def _route(route):
+            if route.request.resource_type in ("image", "font", "media"):
+                await route.abort()
+            else:
+                await route.continue_()
 
         page = await context.new_page()
-        page.set_default_timeout(8000)
+        await page.route("**/*", _route)
+        await page.goto(SITE_URL, wait_until="networkidle", timeout=60_000)
 
-        print("🌐 Abriendo pirlotvapp...", flush=True)
         try:
-            await cargar_agenda(page)
-            await page.wait_for_timeout(1500)
-        except Exception as e:
-            print(f"Error cargando página: {e}", flush=True)
-            await browser.close()
-            return
+            await page.wait_for_selector("#menu-agenda", timeout=15_000)
+        except PWTimeout:
+            print("[WARN] #menu-agenda no apareció a tiempo")
+        await asyncio.sleep(3)
 
-        # 1. TÍTULOS Y HORAS de todos los eventos de una sola pasada
-        datos = [d for d in await page.evaluate(LISTA_JS) if d["titulo"]]
-        await page.close()
-        print(f"Se encontraron {len(datos)} eventos.", flush=True)
+        raw_events = await page.evaluate("""
+            () => {
+                const menu = document.querySelector('#menu-agenda');
+                if (!menu) return [];
+                return Array.from(menu.children).map(li => {
+                    const mainLink = li.querySelector('a');
+                    if (!mainLink) return null;
+                    const timeSpan = mainLink.querySelector('.t');
+                    const timeText = timeSpan ? timeSpan.textContent.trim() : '';
+                    const clone = mainLink.cloneNode(true);
+                    const t = clone.querySelector('.t');
+                    if (t) t.remove();
+                    const titleText = clone.textContent.trim();
+                    const leagueText = li.className || '';
+                    const channels = [];
+                    const subUl = li.querySelector('ul');
+                    if (subUl) {
+                        subUl.querySelectorAll('li.subitem1').forEach(subLi => {
+                            const a = subLi.querySelector('a');
+                            if (!a) return;
+                            const name = a.textContent.replace(/\\s*HD\\s*$/i, '').trim();
+                            const href = a.getAttribute('href');
+                            if (name && href) channels.push({ name, href });
+                        });
+                    }
+                    return { timeText, titleText, leagueText, channels };
+                }).filter(e => e && e.titleText);
+            }
+        """)
 
-        horas = calcular_horas([d["hora"] for d in datos])
+        sem = asyncio.Semaphore(MAX_CONCURRENT_PAGES)
+        events = []
 
-        # 2. CANALES en paralelo
-        cola = asyncio.Queue()
-        for i, d in enumerate(datos):
-            cola.put_nowait((i, d["titulo"]))
-        resultados = {}
-        n = max(1, min(N_WORKERS, len(datos)))
-        await asyncio.gather(*(worker(context, cola, resultados, w + 1) for w in range(n)))
+        for raw in raw_events:
+            time_str = normalize_time(raw["timeText"])
+            league, match = split_league_match(raw["titleText"])
 
+            channel_tasks = []
+            for i, ch in enumerate(raw["channels"]):
+                abs_url = urljoin(SITE_URL, ch["href"])
+                channel_tasks.append((i, ch, asyncio.create_task(get_iframe_src(context, abs_url, sem))))
+
+            channels, seen = [], set()
+            for i, ch, task in channel_tasks:
+                final_url = await task
+                if not final_url or final_url in seen:
+                    continue
+                seen.add(final_url)
+                channels.append({"name": clean_channel_name(ch["name"], i), "url": final_url})
+
+            events.append({
+                "time": time_str or "",
+                "time_utc": time_mexico_to_utc(time_str),
+                "match": match or "",
+                "league": league or "",
+                "flag": "⚽",
+                "channels": channels,
+            })
+
+        events.sort(key=lambda e: str(e["time"]))
+        unique_events, seen_keys = [], set()
+        for ev in events:
+            key = f"{ev['time']}|{ev['match']}"
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
+            unique_events.append(ev)
+
+        result = {
+            "actualizado_en": datetime.now(timezone.utc).isoformat(),
+            "fecha": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "fuente": "futbollibremx.mx-playwright",
+            "contar": len(unique_events),
+            "contar_con_canales": sum(1 for e in unique_events if e["channels"]),
+            "events": unique_events,
+            "eventos": unique_events,
+        }
+
+        Path(OUTPUT_FILE).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"¡Listo! Se guardaron {len(unique_events)} eventos en eventos.json")
         await browser.close()
 
-    events = []
-    for i, d in enumerate(datos):
-        hora, time_utc = horas[i]
-        events.append(construir_evento(d["titulo"], hora, time_utc, resultados.get(i, [])))
-
-    ahora = datetime.now(timezone.utc)
-    salida = {
-        "actualizado_en": ahora.isoformat(),
-        "fecha": ahora.astimezone(timezone(timedelta(hours=OUT_UTC_OFFSET))).strftime("%Y-%m-%d"),
-        "fuente": "pirlotvapp.pro-playwright",
-        "contar": len(events),
-        "contar_con_canales": sum(1 for e in events if e["channels"]),
-        "events": events,
-        "eventos": events,
-    }
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(salida, f, indent=2, ensure_ascii=False)
-    print(f"\n✅ Guardado en {OUTPUT_FILE}", flush=True)
-
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(scrape())
