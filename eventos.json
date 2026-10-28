@@ -1,1347 +1,457 @@
 {
-  "actualizado_en": "2026-10-28T15:06:08.205112+00:00",
+  "actualizado_en": "2026-10-28T15:08:18.398099+00:00",
   "fecha": "2026-10-28",
-  "fuente": "futbollibremx.mx-playwright",
-  "contar": 48,
-  "contar_con_canales": 48,
+  "fuente": "pirlotvapp.pro-playwright",
+  "contar": 16,
+  "contar_con_canales": 11,
   "events": [
     {
-      "time": "00:00",
-      "time_utc": "2026-10-28T06:00:00+00:00",
-      "match": "Cienciano vs Atlético Grau",
+      "time": "02:00",
+      "time_utc": "2026-10-28T07:00:00+00:00",
+      "match": "River Plate U16 vs Flamengo U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 01",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney1"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-10-28T07:00:00+00:00",
+      "match": "Newell's Old Boys U16 vs Independiente del Valle U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 02",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney2"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-10-28T07:00:00+00:00",
+      "match": "Chelsea U16 vs Manchester City U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 03",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney3"
+        }
+      ]
+    },
+    {
+      "time": "03:30",
+      "time_utc": "2026-10-28T08:30:00+00:00",
+      "match": "Inter Miami U16 vs Arsenal U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 04",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney4"
+        }
+      ]
+    },
+    {
+      "time": "03:30",
+      "time_utc": "2026-10-28T08:30:00+00:00",
+      "match": "Atletico Madrid U16 vs Barcelona U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 05",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney5"
+        }
+      ]
+    },
+    {
+      "time": "03:30",
+      "time_utc": "2026-10-28T08:30:00+00:00",
+      "match": "Cornellà U16 vs Internazionale U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 06",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney6"
+        }
+      ]
+    },
+    {
+      "time": "04:00",
+      "time_utc": "2026-10-28T09:00:00+00:00",
+      "match": "ADT de Tarma vs UCV Moquegua",
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
         {
           "name": "Liga1max",
-          "url": "https://streamtp99a.sbs/global1.php?stream=liga1max"
-        }
-      ]
-    },
-    {
-      "time": "00:00",
-      "time_utc": "2026-10-28T06:00:00+00:00",
-      "match": "Milwaukee Brewers vs Tampa Bay Ray (Final, Game #5)",
-      "league": "MLB",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espn2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max"
         },
         {
-          "name": "Foxdeportes",
-          "url": "https://streamtp99a.sbs/global1.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "time": "00:15",
-      "time_utc": "2026-10-28T06:15:00+00:00",
-      "match": "Atlético Tucumán vs Platense",
-      "league": "Copa Argentina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Tyc",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tyc"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-28T06:30:00+00:00",
-      "match": "Deportivo Saprissa vs Firpo",
-      "league": "Copa Centroamericana de CONCACAF",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney19",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney19"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-28T06:30:00+00:00",
-      "match": "Remo vs Botafogo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=premiere3"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-28T06:30:00+00:00",
-      "match": "Bahia vs São Paulo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere5",
-          "url": "https://streamtp99a.sbs/global1.php?stream=premiere5"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-28T06:30:00+00:00",
-      "match": "Chicago Fire vs Orlando City SC",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls3es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls3es"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-28T06:30:00+00:00",
-      "match": "Dallas vs Columbus Crew",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls4es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls4es"
-        }
-      ]
-    },
-    {
-      "time": "01:05",
-      "time_utc": "2026-10-28T07:05:00+00:00",
-      "match": "Inter Bogotá vs Medellín",
-      "league": "Liga BetPlay",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win+",
-          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
-        }
-      ]
-    },
-    {
-      "time": "01:30",
-      "time_utc": "2026-10-28T07:30:00+00:00",
-      "match": "Thunder vs Mavericks",
-      "league": "NBA",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espn3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "02:30",
-      "time_utc": "2026-10-28T08:30:00+00:00",
-      "match": "Seattle Sounders FC vs Houston Dynamo",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls5es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls5es"
-        }
-      ]
-    },
-    {
-      "time": "02:30",
-      "time_utc": "2026-10-28T08:30:00+00:00",
-      "match": "Vancouver Whitecaps vs San Diego",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls6es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls6es"
-        }
-      ]
-    },
-    {
-      "time": "03:00",
-      "time_utc": "2026-10-28T09:00:00+00:00",
-      "match": "América vs Tijuana",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Canal5mx Recomendado Fullhd F",
-          "url": "https://streamtp99a.sbs/return/canal5mx-recomendado-fullhd.html"
+          "name": "Liga1max Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fligaperu.html"
         },
         {
-          "name": "Tudnmx",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
+          "name": "Liga1max OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max_op2"
+        }
+      ]
+    },
+    {
+      "time": "05:30",
+      "time_utc": "2026-10-28T10:30:00+00:00",
+      "match": "Spartak Moscow vs Rubin",
+      "league": "Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2"
         },
         {
-          "name": "Tudnus",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
-        }
-      ]
-    },
-    {
-      "time": "03:00",
-      "time_utc": "2026-10-28T09:00:00+00:00",
-      "match": "Olimpia vs Cartaginés",
-      "league": "Copa Centroamericana de CONCACAF",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney20",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney20"
-        }
-      ]
-    },
-    {
-      "time": "16:00",
-      "time_utc": "2026-10-28T22:00:00+00:00",
-      "match": "ADT vs Deportivo Moquegua",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1max",
-          "url": "https://streamtp99a.sbs/global1.php?stream=liga1max"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-10-28T23:00:00+00:00",
-      "match": "Dynamo Dresden vs Schalke 04",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-10-28T23:00:00+00:00",
-      "match": "Paderborn vs Stuttgart",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-10-28T23:00:00+00:00",
-      "match": "Jeddeloh vs Hertha BSC",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-10-28T23:00:00+00:00",
-      "match": "Freiburg vs Wolfsburg",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
-        }
-      ]
-    },
-    {
-      "time": "17:30",
-      "time_utc": "2026-10-28T23:30:00+00:00",
-      "match": "Venezia vs Inter",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney5",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
+          "name": "Dsports 2 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fdsports2.html"
         },
         {
-          "name": "Espn",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
-        },
-        {
-          "name": "Universo",
-          "url": "https://streamtp99a.sbs/global1.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "17:30",
-      "time_utc": "2026-10-28T23:30:00+00:00",
-      "match": "Milan vs Bologna",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney6",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
-        },
-        {
-          "name": "Espn2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "17:30",
-      "time_utc": "2026-10-28T23:30:00+00:00",
-      "match": "Parma vs Udinese",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
-        }
-      ]
-    },
-    {
-      "time": "17:30",
-      "time_utc": "2026-10-28T23:30:00+00:00",
-      "match": "Spartak Moskva vs Rubin Kazan\\'",
-      "league": "Copa de Rusia",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
-        }
-      ]
-    },
-    {
-      "time": "17:45",
-      "time_utc": "2026-10-28T23:45:00+00:00",
-      "match": "Bayern vs Real Madrid",
-      "league": "UEFA Women\\'s Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espn4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn4"
-        },
-        {
-          "name": "Espndeportes",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espndeportes"
+          "name": "Dsports 2 | OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2_op2"
         }
       ]
     },
     {
       "time": "18:15",
-      "time_utc": "2026-10-29T00:15:00+00:00",
-      "match": "FC Cajamarca vs UTC Cajamarca",
+      "time_utc": "2026-10-28T23:15:00+00:00",
+      "match": "FC Cajamarca vs UTC",
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
         {
           "name": "Liga1max",
-          "url": "https://streamtp99a.sbs/global1.php?stream=liga1max"
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max"
+        },
+        {
+          "name": "Liga1max Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fligaperu.html"
+        },
+        {
+          "name": "Liga1max OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max_op2"
         }
       ]
     },
     {
-      "time": "19:30",
+      "time": "20:30",
       "time_utc": "2026-10-29T01:30:00+00:00",
-      "match": "Manchester City vs Brighton & Hove Albion",
-      "league": "Carabao Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney8",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Genoa vs Juventus",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney9",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
-        },
-        {
-          "name": "Espn2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
-        },
-        {
-          "name": "Universo",
-          "url": "https://streamtp99a.sbs/global1.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Monza vs Napoli",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney10",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Bayer Leverkusen vs Nürnberg",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney11",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Bayern München vs Magdeburg",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney12",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Hannover 96 vs Kaiserslautern",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney13",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney13"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Holstein Kiel vs Hoffenheim",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney14",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney14"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "AFC Bournemouth vs Aston Villa",
-      "league": "Carabao Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney15",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney15"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Fulham vs Crystal Palace",
-      "league": "Carabao Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney16",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney16"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Sunderland vs Brentford",
-      "league": "Carabao Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney17",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney17"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-10-29T02:00:00+00:00",
-      "match": "Liverpool vs Chelsea",
-      "league": "Carabao Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney18",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney18"
-        },
-        {
-          "name": "Espn",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
-        },
-        {
-          "name": "Espn1cl",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn1cl"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-10-29T02:00:00+00:00",
-      "match": "OL Lyonnes vs Inter Milano",
-      "league": "UEFA Women\\'s Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espn4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-10-29T02:00:00+00:00",
-      "match": "Arsenal vs SL Benfica",
-      "league": "UEFA Women\\'s Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espndeportes",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espndeportes"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-10-29T02:30:00+00:00",
-      "match": "Porto vs Academico Viseu",
-      "league": "Copa de Portugal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports",
-          "url": "https://streamtp99a.sbs/global1.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-10-29T02:30:00+00:00",
       "match": "Alianza Atlético vs Deportivo Garcilaso",
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
         {
           "name": "Liga1max",
-          "url": "https://streamtp99a.sbs/global1.php?stream=liga1max"
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max"
+        },
+        {
+          "name": "Liga1max Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fligaperu.html"
+        },
+        {
+          "name": "Liga1max OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max_op2"
         }
       ]
     },
     {
       "time": "22:30",
-      "time_utc": "2026-10-29T04:30:00+00:00",
-      "match": "Santos vs Palmeiras",
+      "time_utc": "2026-10-29T03:30:00+00:00",
+      "match": "Red Bull Bragantino vs Chapecoense-sc",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=premiere1"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "22:30",
-      "time_utc": "2026-10-29T04:30:00+00:00",
+      "time_utc": "2026-10-29T03:30:00+00:00",
       "match": "Fluminense vs Internacional",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=premiere2"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "22:30",
-      "time_utc": "2026-10-29T04:30:00+00:00",
-      "match": "RB Bragantino vs Chapecoense",
+      "time_utc": "2026-10-29T03:30:00+00:00",
+      "match": "Santos vs Palmeiras",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=premiere4"
-        }
-      ]
+      "channels": []
     },
     {
-      "time": "23:00",
+      "time": "00:00",
       "time_utc": "2026-10-29T05:00:00+00:00",
-      "match": "Once Caldas vs Alianza",
-      "league": "Liga BetPlay",
+      "match": "Cienciano vs Atlético Grau",
+      "league": "Liga 1",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Win+",
-          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+          "name": "Liga1max",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max"
+        },
+        {
+          "name": "Liga1max Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fligaperu.html"
+        },
+        {
+          "name": "Liga1max OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max_op2"
         }
       ]
     },
     {
-      "time": "23:00",
-      "time_utc": "2026-10-29T05:00:00+00:00",
-      "match": "76ers vs Pacers",
-      "league": "NBA",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espn3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "23:30",
+      "time": "00:30",
       "time_utc": "2026-10-29T05:30:00+00:00",
-      "match": "Universidad Católica vs Audax Italiano",
-      "league": "Primera División",
+      "match": "Bahia vs São Paulo",
+      "league": "Brasileirão",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Tntsportscl",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tntsportscl"
-        }
-      ]
+      "channels": []
     },
     {
-      "time": "23:30",
+      "time": "00:30",
       "time_utc": "2026-10-29T05:30:00+00:00",
-      "match": "Inter Miami vs Cincinnati",
-      "league": "MLS",
+      "match": "Remo vs Botafogo",
+      "league": "Brasileirão",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls1es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls1es"
-        }
-      ]
-    },
-    {
-      "time": "23:30",
-      "time_utc": "2026-10-29T05:30:00+00:00",
-      "match": "New York City vs Atlanta United",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls2es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls2es"
-        }
-      ]
+      "channels": []
     }
   ],
   "eventos": [
     {
-      "time": "00:00",
-      "time_utc": "2026-10-28T06:00:00+00:00",
-      "match": "Cienciano vs Atlético Grau",
+      "time": "02:00",
+      "time_utc": "2026-10-28T07:00:00+00:00",
+      "match": "River Plate U16 vs Flamengo U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 01",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney1"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-10-28T07:00:00+00:00",
+      "match": "Newell's Old Boys U16 vs Independiente del Valle U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 02",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney2"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-10-28T07:00:00+00:00",
+      "match": "Chelsea U16 vs Manchester City U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 03",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney3"
+        }
+      ]
+    },
+    {
+      "time": "03:30",
+      "time_utc": "2026-10-28T08:30:00+00:00",
+      "match": "Inter Miami U16 vs Arsenal U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 04",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney4"
+        }
+      ]
+    },
+    {
+      "time": "03:30",
+      "time_utc": "2026-10-28T08:30:00+00:00",
+      "match": "Atletico Madrid U16 vs Barcelona U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 05",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney5"
+        }
+      ]
+    },
+    {
+      "time": "03:30",
+      "time_utc": "2026-10-28T08:30:00+00:00",
+      "match": "Cornellà U16 vs Internazionale U16",
+      "league": "Messi Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney 06",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddisney6"
+        }
+      ]
+    },
+    {
+      "time": "04:00",
+      "time_utc": "2026-10-28T09:00:00+00:00",
+      "match": "ADT de Tarma vs UCV Moquegua",
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
         {
           "name": "Liga1max",
-          "url": "https://streamtp99a.sbs/global1.php?stream=liga1max"
-        }
-      ]
-    },
-    {
-      "time": "00:00",
-      "time_utc": "2026-10-28T06:00:00+00:00",
-      "match": "Milwaukee Brewers vs Tampa Bay Ray (Final, Game #5)",
-      "league": "MLB",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espn2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max"
         },
         {
-          "name": "Foxdeportes",
-          "url": "https://streamtp99a.sbs/global1.php?stream=foxdeportes"
-        }
-      ]
-    },
-    {
-      "time": "00:15",
-      "time_utc": "2026-10-28T06:15:00+00:00",
-      "match": "Atlético Tucumán vs Platense",
-      "league": "Copa Argentina",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Tyc",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tyc"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-28T06:30:00+00:00",
-      "match": "Deportivo Saprissa vs Firpo",
-      "league": "Copa Centroamericana de CONCACAF",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney19",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney19"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-28T06:30:00+00:00",
-      "match": "Remo vs Botafogo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=premiere3"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-28T06:30:00+00:00",
-      "match": "Bahia vs São Paulo",
-      "league": "Brasileirão",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere5",
-          "url": "https://streamtp99a.sbs/global1.php?stream=premiere5"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-28T06:30:00+00:00",
-      "match": "Chicago Fire vs Orlando City SC",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls3es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls3es"
-        }
-      ]
-    },
-    {
-      "time": "00:30",
-      "time_utc": "2026-10-28T06:30:00+00:00",
-      "match": "Dallas vs Columbus Crew",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls4es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls4es"
-        }
-      ]
-    },
-    {
-      "time": "01:05",
-      "time_utc": "2026-10-28T07:05:00+00:00",
-      "match": "Inter Bogotá vs Medellín",
-      "league": "Liga BetPlay",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Win+",
-          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
-        }
-      ]
-    },
-    {
-      "time": "01:30",
-      "time_utc": "2026-10-28T07:30:00+00:00",
-      "match": "Thunder vs Mavericks",
-      "league": "NBA",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espn3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "02:30",
-      "time_utc": "2026-10-28T08:30:00+00:00",
-      "match": "Seattle Sounders FC vs Houston Dynamo",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls5es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls5es"
-        }
-      ]
-    },
-    {
-      "time": "02:30",
-      "time_utc": "2026-10-28T08:30:00+00:00",
-      "match": "Vancouver Whitecaps vs San Diego",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls6es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls6es"
-        }
-      ]
-    },
-    {
-      "time": "03:00",
-      "time_utc": "2026-10-28T09:00:00+00:00",
-      "match": "América vs Tijuana",
-      "league": "Liga MX",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Canal5mx Recomendado Fullhd F",
-          "url": "https://streamtp99a.sbs/return/canal5mx-recomendado-fullhd.html"
+          "name": "Liga1max Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fligaperu.html"
         },
         {
-          "name": "Tudnmx",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnmx"
+          "name": "Liga1max OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max_op2"
+        }
+      ]
+    },
+    {
+      "time": "05:30",
+      "time_utc": "2026-10-28T10:30:00+00:00",
+      "match": "Spartak Moscow vs Rubin",
+      "league": "Cup",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Dsports 2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2"
         },
         {
-          "name": "Tudnus",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
-        }
-      ]
-    },
-    {
-      "time": "03:00",
-      "time_utc": "2026-10-28T09:00:00+00:00",
-      "match": "Olimpia vs Cartaginés",
-      "league": "Copa Centroamericana de CONCACAF",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney20",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney20"
-        }
-      ]
-    },
-    {
-      "time": "16:00",
-      "time_utc": "2026-10-28T22:00:00+00:00",
-      "match": "ADT vs Deportivo Moquegua",
-      "league": "Liga 1",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Liga1max",
-          "url": "https://streamtp99a.sbs/global1.php?stream=liga1max"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-10-28T23:00:00+00:00",
-      "match": "Dynamo Dresden vs Schalke 04",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-10-28T23:00:00+00:00",
-      "match": "Paderborn vs Stuttgart",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-10-28T23:00:00+00:00",
-      "match": "Jeddeloh vs Hertha BSC",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
-        }
-      ]
-    },
-    {
-      "time": "17:00",
-      "time_utc": "2026-10-28T23:00:00+00:00",
-      "match": "Freiburg vs Wolfsburg",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
-        }
-      ]
-    },
-    {
-      "time": "17:30",
-      "time_utc": "2026-10-28T23:30:00+00:00",
-      "match": "Venezia vs Inter",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney5",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
+          "name": "Dsports 2 Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fdsports2.html"
         },
         {
-          "name": "Espn",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
-        },
-        {
-          "name": "Universo",
-          "url": "https://streamtp99a.sbs/global1.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "17:30",
-      "time_utc": "2026-10-28T23:30:00+00:00",
-      "match": "Milan vs Bologna",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney6",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
-        },
-        {
-          "name": "Espn2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
-        }
-      ]
-    },
-    {
-      "time": "17:30",
-      "time_utc": "2026-10-28T23:30:00+00:00",
-      "match": "Parma vs Udinese",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney7",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
-        }
-      ]
-    },
-    {
-      "time": "17:30",
-      "time_utc": "2026-10-28T23:30:00+00:00",
-      "match": "Spartak Moskva vs Rubin Kazan\\'",
-      "league": "Copa de Rusia",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=dsports2"
-        }
-      ]
-    },
-    {
-      "time": "17:45",
-      "time_utc": "2026-10-28T23:45:00+00:00",
-      "match": "Bayern vs Real Madrid",
-      "league": "UEFA Women\\'s Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espn4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn4"
-        },
-        {
-          "name": "Espndeportes",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espndeportes"
+          "name": "Dsports 2 | OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Ddsports2_op2"
         }
       ]
     },
     {
       "time": "18:15",
-      "time_utc": "2026-10-29T00:15:00+00:00",
-      "match": "FC Cajamarca vs UTC Cajamarca",
+      "time_utc": "2026-10-28T23:15:00+00:00",
+      "match": "FC Cajamarca vs UTC",
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
         {
           "name": "Liga1max",
-          "url": "https://streamtp99a.sbs/global1.php?stream=liga1max"
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max"
+        },
+        {
+          "name": "Liga1max Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fligaperu.html"
+        },
+        {
+          "name": "Liga1max OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max_op2"
         }
       ]
     },
     {
-      "time": "19:30",
+      "time": "20:30",
       "time_utc": "2026-10-29T01:30:00+00:00",
-      "match": "Manchester City vs Brighton & Hove Albion",
-      "league": "Carabao Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney8",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Genoa vs Juventus",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney9",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
-        },
-        {
-          "name": "Espn2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
-        },
-        {
-          "name": "Universo",
-          "url": "https://streamtp99a.sbs/global1.php?stream=universo"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Monza vs Napoli",
-      "league": "Serie A",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney10",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Bayer Leverkusen vs Nürnberg",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney11",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney11"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Bayern München vs Magdeburg",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney12",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney12"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Hannover 96 vs Kaiserslautern",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney13",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney13"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Holstein Kiel vs Hoffenheim",
-      "league": "DFB Pokal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney14",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney14"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "AFC Bournemouth vs Aston Villa",
-      "league": "Carabao Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney15",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney15"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Fulham vs Crystal Palace",
-      "league": "Carabao Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney16",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney16"
-        }
-      ]
-    },
-    {
-      "time": "19:45",
-      "time_utc": "2026-10-29T01:45:00+00:00",
-      "match": "Sunderland vs Brentford",
-      "league": "Carabao Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney17",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney17"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-10-29T02:00:00+00:00",
-      "match": "Liverpool vs Chelsea",
-      "league": "Carabao Cup",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Disney18",
-          "url": "https://streamtp99a.sbs/global1.php?stream=disney18"
-        },
-        {
-          "name": "Espn",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
-        },
-        {
-          "name": "Espn1cl",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn1cl"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-10-29T02:00:00+00:00",
-      "match": "OL Lyonnes vs Inter Milano",
-      "league": "UEFA Women\\'s Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espn4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn4"
-        }
-      ]
-    },
-    {
-      "time": "20:00",
-      "time_utc": "2026-10-29T02:00:00+00:00",
-      "match": "Arsenal vs SL Benfica",
-      "league": "UEFA Women\\'s Champions League",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espndeportes",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espndeportes"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-10-29T02:30:00+00:00",
-      "match": "Porto vs Academico Viseu",
-      "league": "Copa de Portugal",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Dsports",
-          "url": "https://streamtp99a.sbs/global1.php?stream=dsports"
-        }
-      ]
-    },
-    {
-      "time": "20:30",
-      "time_utc": "2026-10-29T02:30:00+00:00",
       "match": "Alianza Atlético vs Deportivo Garcilaso",
       "league": "Liga 1",
       "flag": "⚽",
       "channels": [
         {
           "name": "Liga1max",
-          "url": "https://streamtp99a.sbs/global1.php?stream=liga1max"
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max"
+        },
+        {
+          "name": "Liga1max Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fligaperu.html"
+        },
+        {
+          "name": "Liga1max OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max_op2"
         }
       ]
     },
     {
       "time": "22:30",
-      "time_utc": "2026-10-29T04:30:00+00:00",
-      "match": "Santos vs Palmeiras",
+      "time_utc": "2026-10-29T03:30:00+00:00",
+      "match": "Red Bull Bragantino vs Chapecoense-sc",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=premiere1"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "22:30",
-      "time_utc": "2026-10-29T04:30:00+00:00",
+      "time_utc": "2026-10-29T03:30:00+00:00",
       "match": "Fluminense vs Internacional",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere2",
-          "url": "https://streamtp99a.sbs/global1.php?stream=premiere2"
-        }
-      ]
+      "channels": []
     },
     {
       "time": "22:30",
-      "time_utc": "2026-10-29T04:30:00+00:00",
-      "match": "RB Bragantino vs Chapecoense",
+      "time_utc": "2026-10-29T03:30:00+00:00",
+      "match": "Santos vs Palmeiras",
       "league": "Brasileirão",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Premiere4",
-          "url": "https://streamtp99a.sbs/global1.php?stream=premiere4"
-        }
-      ]
+      "channels": []
     },
     {
-      "time": "23:00",
+      "time": "00:00",
       "time_utc": "2026-10-29T05:00:00+00:00",
-      "match": "Once Caldas vs Alianza",
-      "league": "Liga BetPlay",
+      "match": "Cienciano vs Atlético Grau",
+      "league": "Liga 1",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Win+",
-          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+          "name": "Liga1max",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max"
+        },
+        {
+          "name": "Liga1max Movil",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fwww.tarjetarojita.xyz%2Fsw3.html%3Fget%3Dhttps%3A%2F%2Fwww.tarjetarojita.xyz%2Frepro%2Fligaperu.html"
+        },
+        {
+          "name": "Liga1max OP2",
+          "url": "https://pirlotvapp.pro/reproducir/?url=https%3A%2F%2Fla18hd.su%2Fvivo%2Fcanal.php%3Fstream%3Dliga1max_op2"
         }
       ]
     },
     {
-      "time": "23:00",
-      "time_utc": "2026-10-29T05:00:00+00:00",
-      "match": "76ers vs Pacers",
-      "league": "NBA",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Espn3",
-          "url": "https://streamtp99a.sbs/global1.php?stream=espn3"
-        }
-      ]
-    },
-    {
-      "time": "23:30",
+      "time": "00:30",
       "time_utc": "2026-10-29T05:30:00+00:00",
-      "match": "Universidad Católica vs Audax Italiano",
-      "league": "Primera División",
+      "match": "Bahia vs São Paulo",
+      "league": "Brasileirão",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Tntsportscl",
-          "url": "https://streamtp99a.sbs/global1.php?stream=tntsportscl"
-        }
-      ]
+      "channels": []
     },
     {
-      "time": "23:30",
+      "time": "00:30",
       "time_utc": "2026-10-29T05:30:00+00:00",
-      "match": "Inter Miami vs Cincinnati",
-      "league": "MLS",
+      "match": "Remo vs Botafogo",
+      "league": "Brasileirão",
       "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls1es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls1es"
-        }
-      ]
-    },
-    {
-      "time": "23:30",
-      "time_utc": "2026-10-29T05:30:00+00:00",
-      "match": "New York City vs Atlanta United",
-      "league": "MLS",
-      "flag": "⚽",
-      "channels": [
-        {
-          "name": "Mls2es",
-          "url": "https://streamtp99a.sbs/global1.php?stream=mls2es"
-        }
-      ]
+      "channels": []
     }
   ]
 }
