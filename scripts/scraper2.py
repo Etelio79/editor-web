@@ -6,7 +6,7 @@ from playwright.async_api import async_playwright
 
 URL = "https://pirlotvapp.pro/"
 SITE_ROOT = "https://pirlotvapp.pro"
-OUTPUT_FILE = "eventos.json"
+OUTPUT_FILE = "eventos2.json"
 
 # Zona horaria en la que la PÁGINA muestra las horas.
 # (Jaguares sale a las 01:00 en la página y juega a las 18:00 en Colombia -> la página va en UTC+2)
