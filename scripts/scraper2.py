@@ -4,7 +4,7 @@ import re
 from datetime import datetime, timedelta, timezone
 from playwright.async_api import async_playwright
 
-URL = "https://pirlotvapp.pro/"
+URL = "https://pirlotv.asia/"
 SITE_ROOT = "https://pirlotv.asia/"
 OUTPUT_FILE = "eventos2.json"
 
