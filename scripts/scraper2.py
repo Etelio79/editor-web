@@ -8,24 +8,28 @@ URL = "https://pirlotvapp.pro/"
 SITE_ROOT = "https://pirlotvapp.pro"
 OUTPUT_FILE = "eventos2.json"
 
-# Zona horaria en la que la PÁGINA muestra las horas.
-# (Jaguares sale a las 01:00 en la página y juega a las 18:00 en Colombia -> la página va en UTC+2)
-PAGE_UTC_OFFSET = 2
-# Zona horaria en la que quieres las horas en el JSON (Colombia = UTC-5)
-OUT_UTC_OFFSET = -5
+# Zona horaria en la que la PÁGINA muestra las horas (PirloTV está 5 horas atrás de México).
+PAGE_UTC_OFFSET = -11
+# Zona horaria en la que quieres las horas en el JSON (México = UTC-6).
+OUT_UTC_OFFSET = -6
 
 # Pestañas trabajando en paralelo
 N_WORKERS = 4
 # No cargar el contenido de los iframes (solo necesitamos su src). Acelera mucho.
 BLOQUEAR_IFRAMES = True
 
+# LISTA_JS modificado para capturar el AM/PM si existe
 LISTA_JS = """
 () => [...document.querySelectorAll('button.ag-toggle')].map(b => {
     const t = b.querySelector('span.font-semibold');
     const li = b.closest('li');
     const txt = li ? li.innerText : b.innerText;
-    const m = txt.match(/\\b(\\d{1,2}:\\d{2})\\b/);
-    return { titulo: t ? t.textContent.trim() : '', hora: m ? m[1] : '' };
+    const m = txt.match(/\\b(\\d{1,2}:\\d{2})\\s*(AM|PM|a\\.m\\.|p\\.m\\.)?\\b/i);
+    return { 
+        titulo: t ? t.textContent.trim() : '', 
+        hora: m ? m[1] : '',
+        ampm: (m && m[2]) ? m[2].toUpperCase() : ''
+    };
 })
 """
 BLANK_JS = """
@@ -48,7 +52,6 @@ GET_SRC_JS = """
 }
 """
 
-
 def limpiar_nombre(texto):
     """Quita la flechita y la palabra 'Español'. Deja la opción si viene (| opc3, | OP2...)."""
     n = texto.replace("▶", " ").replace("\n", " ")
@@ -56,17 +59,32 @@ def limpiar_nombre(texto):
     n = re.sub(r"\s+", " ", n).strip()
     return n.strip(" |·-").strip()
 
+def convertir_a_24h(hora, ampm):
+    """Convierte '02:30' + 'PM' a '14:30'. Si no hay AM/PM, devuelve la hora tal cual."""
+    if not hora or not ampm:
+        return hora
+    try:
+        h, m = map(int, hora.split(":"))
+        if ampm.startswith("P") and h != 12:
+            h += 12
+        elif ampm.startswith("A") and h == 12:
+            h = 0
+        return f"{h:02d}:{m:02d}"
+    except Exception:
+        return hora
 
 def calcular_horas(horas):
     """
-    Recibe las horas de la página en orden ('HH:MM') y devuelve [(hora_colombia, time_utc), ...].
-    Si la hora baja respecto a la anterior (ej. 23:30 -> 01:00), la página cruzó la medianoche: suma un día.
+    Recibe las horas de la página en formato 24h ('HH:MM') y devuelve [(hora_mexico, time_utc), ...].
     """
     tz_page = timezone(timedelta(hours=PAGE_UTC_OFFSET))
     tz_out = timezone(timedelta(hours=OUT_UTC_OFFSET))
-    fecha = datetime.now(tz_page).date()
+    
+    # El cambio clave: tomar la fecha base en la zona de salida (México) para no fallar en madrugada
+    fecha = datetime.now(tz_out).date()
     previo = -1
     salida = []
+    
     for hora in horas:
         try:
             h, m = map(int, hora.split(":"))
@@ -80,7 +98,6 @@ def calcular_horas(horas):
         dt = datetime(fecha.year, fecha.month, fecha.day, h, m, tzinfo=tz_page)
         salida.append((dt.astimezone(tz_out).strftime("%H:%M"), dt.astimezone(timezone.utc).isoformat()))
     return salida
-
 
 def construir_evento(titulo, hora, time_utc, canales):
     """Convierte el título 'Liga: A vs B' + hora + canales al formato de eventos.json"""
@@ -98,12 +115,10 @@ def construir_evento(titulo, hora, time_utc, canales):
         "channels": canales,
     }
 
-
 async def cargar_agenda(page):
     await page.goto(URL, wait_until="domcontentloaded", timeout=60000)
     await page.wait_for_selector("button.ag-toggle", state="attached", timeout=30000)
     await page.wait_for_timeout(1000)
-
 
 async def procesar_evento(page, titulo):
     canales_evento = []
@@ -148,7 +163,6 @@ async def procesar_evento(page, titulo):
 
     return canales_evento
 
-
 async def worker(context, cola, resultados, wid):
     page = await context.new_page()
     page.set_default_timeout(8000)
@@ -176,7 +190,6 @@ async def worker(context, cola, resultados, wid):
 
     await page.close()
 
-
 async def filtrar(route):
     try:
         req = route.request
@@ -189,7 +202,6 @@ async def filtrar(route):
     except Exception:
         pass
     await route.continue_()
-
 
 async def main():
     async with async_playwright() as p:
@@ -219,7 +231,9 @@ async def main():
         await page.close()
         print(f"Se encontraron {len(datos)} eventos.", flush=True)
 
-        horas = calcular_horas([d["hora"] for d in datos])
+        # Convertimos todas las horas a formato 24h antes de calcular
+        horas_limpias = [convertir_a_24h(d["hora"], d.get("ampm", "")) for d in datos]
+        horas = calcular_horas(horas_limpias)
 
         # 2. CANALES en paralelo
         cola = asyncio.Queue()
