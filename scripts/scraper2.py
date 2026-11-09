@@ -4,8 +4,8 @@ import re
 from datetime import datetime, timedelta, timezone
 from playwright.async_api import async_playwright
 
-URL = "https://pirlotv.asia/"
-SITE_ROOT = "https://pirlotv.asia/"
+URL = "https://pirlotv-hd.live/"
+SITE_ROOT = "https://pirlotv-hd.live/"
 OUTPUT_FILE = "eventos2.json"
 
 # Zona horaria en la que la PÁGINA muestra las horas (PirloTV está 5 horas atrás de México).
