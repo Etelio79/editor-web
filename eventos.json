@@ -1,14 +1,14 @@
 {
-  "actualizado_en": "2026-11-09T16:17:39.461658+00:00",
-  "fecha": "2026-11-09",
+  "actualizado_en": "2026-11-12T14:26:40.275517+00:00",
+  "fecha": "2026-11-12",
   "fuente": "futbollibremx.mx-playwright",
-  "contar": 4,
-  "contar_con_canales": 4,
+  "contar": 19,
+  "contar_con_canales": 19,
   "events": [
     {
       "time": "00:00",
-      "time_utc": "2026-11-09T06:00:00+00:00",
-      "match": "Junior vs Cúcuta Deportivo",
+      "time_utc": "2026-11-12T06:00:00+00:00",
+      "match": "Llaneros vs Boyacá Chicó",
       "league": "Liga BetPlay",
       "flag": "⚽",
       "channels": [
@@ -20,22 +20,95 @@
     },
     {
       "time": "00:00",
-      "time_utc": "2026-11-09T06:00:00+00:00",
-      "match": "Wizards vs Pistons",
+      "time_utc": "2026-11-12T06:00:00+00:00",
+      "match": "Raptors vs 76ers",
       "league": "NBA",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Max1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max1"
+          "name": "Amazon1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=amazon1"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-11-12T06:30:00+00:00",
+      "match": "Curazao vs Panamá",
+      "league": "Liga de Naciones de la CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Tudnus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
+        },
+        {
+          "name": "Fox2usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox2usa"
         }
       ]
     },
     {
       "time": "01:15",
-      "time_utc": "2026-11-09T07:15:00+00:00",
-      "match": "Bills vs Vikings",
+      "time_utc": "2026-11-12T07:15:00+00:00",
+      "match": "Commanders vs Giants",
       "league": "NFL",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Espn5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-11-12T08:00:00+00:00",
+      "match": "Atlético Morelia vs Leones Negros UdeG",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-11-12T23:00:00+00:00",
+      "match": "Turquía vs Bélgica",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
+        },
+        {
+          "name": "Espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-11-12T23:00:00+00:00",
+      "match": "Armenia vs Chipre",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "17:45",
+      "time_utc": "2026-11-12T23:45:00+00:00",
+      "match": "Barcelona vs Arsenal",
+      "league": "UEFA Women\\'s Champions League",
       "flag": "⚽",
       "channels": [
         {
@@ -49,15 +122,165 @@
       ]
     },
     {
-      "time": "19:30",
-      "time_utc": "2026-11-10T01:30:00+00:00",
-      "match": "Sabadell vs Real Sociedad II",
-      "league": "LaLiga 2",
+      "time": "18:00",
+      "time_utc": "2026-11-13T00:00:00+00:00",
+      "match": "Tarancón vs Levante",
+      "league": "Copa del Rey",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Hyper1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=hyper1"
+          "name": "Espnplus1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espnplus1"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "Italia vs Francia",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
+        },
+        {
+          "name": "Espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "Inglaterra vs Croacia",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney4",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
+        },
+        {
+          "name": "Espn2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "República Checa vs España",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Tvla1es Fullhd Recomendado F",
+          "url": "https://streamtp99a.sbs/return/tvla1es-fullhd-recomendado.html"
+        },
+        {
+          "name": "Disney5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
+        },
+        {
+          "name": "Espn3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "Albania vs Finlandia",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney6",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "San Marino vs Bielorrusia",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "Montenegro vs Letonia",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney8",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-11-13T04:00:00+00:00",
+      "match": "Deportivo Pasto vs Junior",
+      "league": "Liga BetPlay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win+",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-11-13T04:00:00+00:00",
+      "match": "Aruba vs Martinica",
+      "league": "Liga de Naciones de la CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox2usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox2usa"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-11-13T05:00:00+00:00",
+      "match": "Estudiantes LP vs Independiente Rivadavia",
+      "league": "Supercopa Argentina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney9",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
+        },
+        {
+          "name": "Espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-11-13T05:00:00+00:00",
+      "match": "Cerro Largo vs Progreso",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney10",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
         }
       ]
     }
@@ -65,8 +288,8 @@
   "eventos": [
     {
       "time": "00:00",
-      "time_utc": "2026-11-09T06:00:00+00:00",
-      "match": "Junior vs Cúcuta Deportivo",
+      "time_utc": "2026-11-12T06:00:00+00:00",
+      "match": "Llaneros vs Boyacá Chicó",
       "league": "Liga BetPlay",
       "flag": "⚽",
       "channels": [
@@ -78,22 +301,95 @@
     },
     {
       "time": "00:00",
-      "time_utc": "2026-11-09T06:00:00+00:00",
-      "match": "Wizards vs Pistons",
+      "time_utc": "2026-11-12T06:00:00+00:00",
+      "match": "Raptors vs 76ers",
       "league": "NBA",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Max1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=max1"
+          "name": "Amazon1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=amazon1"
+        }
+      ]
+    },
+    {
+      "time": "00:30",
+      "time_utc": "2026-11-12T06:30:00+00:00",
+      "match": "Curazao vs Panamá",
+      "league": "Liga de Naciones de la CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Tudnus",
+          "url": "https://streamtp99a.sbs/global1.php?stream=tudnus"
+        },
+        {
+          "name": "Fox2usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox2usa"
         }
       ]
     },
     {
       "time": "01:15",
-      "time_utc": "2026-11-09T07:15:00+00:00",
-      "match": "Bills vs Vikings",
+      "time_utc": "2026-11-12T07:15:00+00:00",
+      "match": "Commanders vs Giants",
       "league": "NFL",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Espn5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn5"
+        }
+      ]
+    },
+    {
+      "time": "02:00",
+      "time_utc": "2026-11-12T08:00:00+00:00",
+      "match": "Atlético Morelia vs Leones Negros UdeG",
+      "league": "Liga de Expansión MX",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-11-12T23:00:00+00:00",
+      "match": "Turquía vs Bélgica",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney1"
+        },
+        {
+          "name": "Espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "17:00",
+      "time_utc": "2026-11-12T23:00:00+00:00",
+      "match": "Armenia vs Chipre",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney2"
+        }
+      ]
+    },
+    {
+      "time": "17:45",
+      "time_utc": "2026-11-12T23:45:00+00:00",
+      "match": "Barcelona vs Arsenal",
+      "league": "UEFA Women\\'s Champions League",
       "flag": "⚽",
       "channels": [
         {
@@ -107,15 +403,165 @@
       ]
     },
     {
-      "time": "19:30",
-      "time_utc": "2026-11-10T01:30:00+00:00",
-      "match": "Sabadell vs Real Sociedad II",
-      "league": "LaLiga 2",
+      "time": "18:00",
+      "time_utc": "2026-11-13T00:00:00+00:00",
+      "match": "Tarancón vs Levante",
+      "league": "Copa del Rey",
       "flag": "⚽",
       "channels": [
         {
-          "name": "Hyper1",
-          "url": "https://streamtp99a.sbs/global1.php?stream=hyper1"
+          "name": "Espnplus1",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espnplus1"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "Italia vs Francia",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney3"
+        },
+        {
+          "name": "Espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "Inglaterra vs Croacia",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney4",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney4"
+        },
+        {
+          "name": "Espn2",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn2"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "República Checa vs España",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Tvla1es Fullhd Recomendado F",
+          "url": "https://streamtp99a.sbs/return/tvla1es-fullhd-recomendado.html"
+        },
+        {
+          "name": "Disney5",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney5"
+        },
+        {
+          "name": "Espn3",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn3"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "Albania vs Finlandia",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney6",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney6"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "San Marino vs Bielorrusia",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney7",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney7"
+        }
+      ]
+    },
+    {
+      "time": "19:45",
+      "time_utc": "2026-11-13T01:45:00+00:00",
+      "match": "Montenegro vs Letonia",
+      "league": "Liga de Naciones de la UEFA",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney8",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney8"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-11-13T04:00:00+00:00",
+      "match": "Deportivo Pasto vs Junior",
+      "league": "Liga BetPlay",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Win+",
+          "url": "https://streamtp99a.sbs/global1.php?stream=winplus"
+        }
+      ]
+    },
+    {
+      "time": "22:00",
+      "time_utc": "2026-11-13T04:00:00+00:00",
+      "match": "Aruba vs Martinica",
+      "league": "Liga de Naciones de la CONCACAF",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Fox2usa",
+          "url": "https://streamtp99a.sbs/global1.php?stream=fox2usa"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-11-13T05:00:00+00:00",
+      "match": "Estudiantes LP vs Independiente Rivadavia",
+      "league": "Supercopa Argentina",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney9",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney9"
+        },
+        {
+          "name": "Espn",
+          "url": "https://streamtp99a.sbs/global1.php?stream=espn"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "time_utc": "2026-11-13T05:00:00+00:00",
+      "match": "Cerro Largo vs Progreso",
+      "league": "Primera División",
+      "flag": "⚽",
+      "channels": [
+        {
+          "name": "Disney10",
+          "url": "https://streamtp99a.sbs/global1.php?stream=disney10"
         }
       ]
     }
